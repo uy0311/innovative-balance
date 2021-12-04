@@ -1,0 +1,739 @@
+characters={
+	ETH_haile_selassie={
+		name=ETH_haile_selassie
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ETH_fitawrari_yeebio_woldai={
+		name=ETH_fitawrari_yeebio_woldai
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ETH_seyoum_mengesha={
+		name=ETH_seyoum_mengesha
+		portraits={
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				small="gfx/interface/ideas/idea_africa_generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ETH_amare_makonnen={
+		name=ETH_amare_makonnen
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="1942.1.1.12"
+			id=-1
+		}
+	}
+	ETH_haile_mariam={
+		name=ETH_haile_mariam
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1942.1.1.12"
+			id=-1
+		}
+	}
+	ETH_gabriel_zawde_gilaneh={
+		advisor={
+			cost = 100
+			
+			slot = theorist
+			idea_token = ETH_gabriel_zawde_gilaneh
+			ledger = air
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = {
+				air_warfare_theorist
+			}
+		}
+		name=ETH_gabriel_zawde_gilaneh
+		portraits={
+			army={
+				small="GFX_idea_generic_air_arab_2"
+			}
+		}
+	}
+	ETH_woldemeskal_tariku={
+		advisor={
+			slot = high_command
+			idea_token = ETH_woldemeskal_tariku
+			ledger = army
+				allowed = {
+					original_tag = ETH
+				}
+				traits = {
+					army_regrouping_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=ETH_woldemeskal_tariku
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_1"
+			}
+		}
+	}
+	ETH_ras_kebbede={
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ETH_ras_kebbede
+			ledger = army
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+		name=ETH_ras_kebbede
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_2"
+			}
+		}
+	}
+	ETH_wondossen_kassa={
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ETH_wondossen_kassa
+			ledger = navy
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = {
+				naval_theorist
+			}
+		}
+		name=ETH_wondossen_kassa
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_arab_3"
+			}
+		}
+	}
+	ETH_ras_kassa={
+		advisor={
+			slot = army_chief
+			idea_token = ETH_ras_kassa
+			allowed = {
+				original_tag = ETH
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=ETH_ras_kassa
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_1"
+			}
+		}
+	}
+	ETH_dedja_zinatch_nadeon={
+		advisor={
+			slot = high_command
+			idea_token = ETH_dedja_zinatch_nadeon
+			ledger = navy
+				allowed = {
+					original_tag = ETH
+				}
+				traits = {
+					navy_capital_ship_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=ETH_dedja_zinatch_nadeon
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_arab_2"
+			}
+		}
+	}
+	ETH_haile_abba_mersa={
+		advisor={
+			slot = high_command
+			idea_token = ETH_haile_abba_mersa
+			ledger = army
+			allowed = {
+				original_tag = ETH
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=ETH_haile_abba_mersa
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_3"
+			}
+		}
+	}
+	ETH_ras_seyum={
+		advisor={
+			slot = navy_chief
+			idea_token = ETH_ras_seyum
+			allowed = {
+					original_tag = ETH
+				}
+				traits = {
+					navy_chief_commerce_raiding_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=ETH_ras_seyum
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_arab_2"
+			}
+		}
+	}
+	ETH_mesfin_sileshi={
+		advisor={
+			slot = air_chief
+			idea_token = ETH_mesfin_sileshi
+			allowed = {
+				original_tag = ETH
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=ETH_mesfin_sileshi
+		portraits={
+			army={
+				small="GFX_idea_generic_air_arab_3"
+			}
+		}
+	}
+	ETH_lij_abiye_abebe={
+		advisor={
+			slot = high_command
+			idea_token = ETH_lij_abiye_abebe
+			ledger = army
+			allowed = {
+				original_tag = ETH
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=ETH_lij_abiye_abebe
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_2"
+			}
+		}
+	}
+	ETH_john_robinson={
+		advisor={
+			slot = air_chief
+			idea_token = ETH_john_robinson
+			allowed = {
+				original_tag = ETH
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=ETH_john_robinson
+		portraits={
+			army={
+				small="GFX_idea_generic_air_arab_3"
+			}
+		}
+	}
+	ETH_lij_johannes={
+		advisor={
+			slot = navy_chief
+			idea_token = ETH_lij_johannes
+			allowed = {
+					original_tag = ETH
+				}
+				traits = {
+					navy_chief_maneuver_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=ETH_lij_johannes
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_arab_3"
+			}
+		}
+	}
+	ETH_fitauri_zawde_gobena={
+		advisor={
+			slot = high_command
+			idea_token = ETH_fitauri_zawde_gobena
+			ledger = air
+			allowed = {
+				original_tag = ETH
+			}
+			traits = {
+				air_close_air_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=ETH_fitauri_zawde_gobena
+		portraits={
+			army={
+				small="GFX_idea_generic_air_arab_2"
+			}
+		}
+	}
+	ETH_desta_damtew={
+		advisor={
+			slot = army_chief
+			idea_token = ETH_desta_damtew
+			allowed = {
+				original_tag = ETH
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=ETH_desta_damtew
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_2"
+			}
+		}
+	}
+	ETH_ras_imru_haile_selassie={
+		advisor={
+			slot = political_advisor
+			idea_token = ETH_ras_imru_haile_selassie
+			allowed  = {
+				original_tag  = ETH
+			}
+			traits  = {
+				captain_of_industry 
+			}
+		}
+		name=ETH_ras_imru_haile_selassie
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_arab_1"
+			}
+		}
+	}
+	ETH_bedjironde_tekle_hawariate={
+		advisor={
+			slot = political_advisor
+			idea_token = ETH_bedjironde_tekle_hawariate
+			allowed  = {
+				original_tag  = ETH
+			}
+			traits  = {
+				war_industrialist 
+			}
+		}
+		name=ETH_bedjironde_tekle_hawariate
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_arab_2"
+			}
+		}
+	}
+	ETH_makonnen_endelkatchew={
+		advisor={
+			slot = political_advisor
+			idea_token = ETH_makonnen_endelkatchew
+			allowed  = {
+					original_tag  = ETH
+				}
+				traits  = {
+					quartermaster_general 
+				}
+		}
+		name=ETH_makonnen_endelkatchew
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_arab_3"
+			}
+		}
+	}
+
+	#IB_add_general
+	Seyoum_Mengesha = {
+		name = "Seyoum Mengesha"
+		portraits={
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				small="gfx/interface/ideas/idea_generic_army_africa_4.dds"
+			}
+		}
+		corps_commander = {
+			traits = {  desert_fox }
+	        skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2
+			legacy_id=0
+		}
+	}
+
+	George_Edwin_Brink = {
+		name = "George Edwin Brink"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+				small="gfx/interface/ideas/idea_ITA_generic_land_2.dds"
+			}
+		}
+		corps_commander = {
+			traits = {  desert_fox }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	M.C.L._Keyaerts = {
+		name = "M.C.L. Keyaerts"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Africa_Generic_2.dds"
+				small="gfx/interface/ideas/idea_ITA_generic_land_3.dds"
+			}
+		}
+		corps_commander = {
+			traits = {  desert_fox }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	José_Vicente_de_Freitas = {
+		name = "José Vicente de Freitas"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+				small="gfx/interface/ideas/idea_ITA_generic_land_1.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			legacy_id=0
+		}
+	}
+
+	Amare_Bekele = {
+		name = "Amare Bekele"
+		portraits={
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_3.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_mountaineer }
+	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			legacy_id=0
+		}
+	}
+
+	Berhanu_Saleh = {
+		name = "Berhanu Saleh"
+		portraits={
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_2.dds"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader }
+	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			legacy_id=0
+		}
+	}
+
+	Sarel_Rudolf = {
+		name = "Sarel Rudolf"
+		portraits={
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				small="gfx/interface/ideas/idea_generic_army_africa_5.dds"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader }
+	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			legacy_id=0
+		}
+	}
+
+	Eugene_Joubert = {
+		name = "Eugene Joubert"
+		portraits={
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+				small="gfx/interface/ideas/idea_generic_air_europe_1.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_mountaineer }
+	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			legacy_id=0
+		}
+	}
+
+	Petrus_Paul = {
+		name = "Petrus Paul"
+		portraits={
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_3.dds"
+			}
+		}
+		corps_commander = {
+			traits = { defensive_doctrine }
+	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			legacy_id=0
+		}
+	}
+
+	ETH_Miho_Nishizumi = {
+		name = "Miho Nishizumi"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/miho.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_2.dds"
+			}
+		}
+		corps_commander = {
+			traits = {  panzer_leader trickster urban_assault_specialist }
+	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
+			legacy_id=0
+		}
+	}
+
+	ETH_Maho_Nishizumi = {
+		name = "Maho Nishizumi"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/maho.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_2.dds"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader  }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	ETH_Kay = {
+		name = "Kay"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/Kay.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_1.dds"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader  }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	ETH_Darjeeling = {
+		name = "Darjeeling"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/darjeeling.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_1.dds"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader  }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	ETH_Katyusha = {
+		name = "Katyusha"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/katyusha.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_1.dds"
+			}
+		}
+		field_marshal = {
+			traits = { winter_specialist organizer logistics_wizard fast_planner  }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	Nonna = {
+		name = "Nonna"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/nonna.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_1.dds"
+			}
+		}
+		field_marshal = {
+			traits = { winter_specialist organizer. fortress_buster panzer_leader }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	Alice_Shimada = {
+		name = "Alice Shimada"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/alice.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_1.dds"
+			}
+		}
+		field_marshal = {
+			traits = { panzer_leader }
+			skill = 6 attack_skill = 6 defense_skill = 6 planning_skill = 6 logistics_skill = 6
+			legacy_id=0
+		}
+	}
+
+	Anzu_Kadotani = {
+		name = "Anzu Kadotani"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/anzu.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_1.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trickster }
+            skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	mika = {
+		name = "mika"
+		portraits={
+			army={
+				large="gfx/leaders/ETH/mika.dds"
+				small="gfx/interface/ideas/idea_SAU_generic_1.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trickster }
+            skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	Georges_Timmermans = {
+		name = "Georges Timmermans"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+				small="gfx/interface/ideas/idea_JOR_generic_land_3.dds"
+			}
+		}
+		navy_leader = {
+			traits = { seawolf }
+	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			legacy_id=0
+		}
+	}
+
+	ETH_Guy_Hallifax = {
+		name = "Guy Hallifax"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+				small="gfx/interface/ideas/idea_JOR_generic_land_1.dds"
+			}
+		}
+		navy_leader = {
+	        traits = { }
+	        skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
+			legacy_id=0
+		}
+	}
+}

@@ -1,0 +1,752 @@
+
+ideas = {
+	country = {
+		
+		ib_new_deal = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = generic_build_infrastructure
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+				production_speed_rail_way_factor = 0.15
+				war_support_factor = 0.05
+			}
+		}
+		
+		ib_new_deal2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = generic_build_infrastructure
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+				production_speed_rail_way_factor = 0.15
+				war_support_factor = 0.05
+			}
+		}
+		
+		industry_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = generic_industrial_concern_1
+
+			removal_cost = -1
+			
+			research_bonus = {
+				industry = 0.2
+			}
+		}
+
+		electronics_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = usa_magic
+
+			removal_cost = -1
+			
+			research_bonus = {
+				electronics = 0.5
+			}
+		}
+
+		nukes_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = strategic_bombing_focus
+
+			removal_cost = -1
+			
+			research_bonus = {
+				nuclear = 0.8
+			}
+		}
+
+		technology_sharing_idea = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = air_support_focus
+
+			removal_cost = -1
+			
+			research_bonus = {
+				industry = 0.5
+				electronics = 0.5
+			}
+		}
+
+		ib_workers_culture_1 = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		
+		ib_workers_culture_2 = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.07
+			}
+		}
+		
+		
+		ib_workers_culture_3 = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = can_wartime_prices_and_trade_board
+			
+			modifier = {
+				production_speed_buildings_factor = 0.08
+			}
+		}
+		ib_wartime_industry_focus_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_hyper_inflation
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.07
+			}
+		}
+
+		ib_wartime_industry_focus_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_hyper_inflation3
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.07
+				production_speed_dockyard_factor = 0.08
+			}
+		}
+
+		ib_wartime_industry_focus_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_license_production
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
+		artillery_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_artillery_regiments
+			
+			research_bonus = {
+				artillery = 0.30
+			}
+
+		}
+
+		infantry_weapons_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_war_preparation
+			
+			research_bonus = {
+				infantry_weapons = 0.80
+			}
+
+		}
+
+		anti_tank_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_artillery_manufacturer_1
+			
+			research_bonus = {
+				cat_anti_tank = 0.50
+			}
+
+		}
+
+		land_doctrine_research_bonus1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				experience_gain_army_factor = 0.1
+				#land_doctrine_cost_factor = -0.20
+			}
+
+		}
+
+		land_doctrine_research_bonus2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				experience_gain_army_factor = 0.1
+				#land_doctrine_cost_factor = -0.20
+			}
+
+		}
+
+		armor_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = eng_preparing_the_second_front
+			
+			research_bonus = {
+				armor = 0.30
+			}
+
+		}
+
+		motorized_equipment_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = FRA_motorized_focus
+			
+			research_bonus = {
+				motorized_equipment = 0.80
+			}
+
+		}
+
+		tank_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_acquire_tanks
+			
+			research_bonus = {
+				cat_light_armor = 0.50
+				cat_medium_armor = 0.50
+				cat_heavy_armor = 0.50
+			}
+
+		}
+
+		IB_tank_design_bonus = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = gre_schachtplan3
+
+			modifier = {
+				unit_light_armor_design_cost_factor = -0.5
+                unit_medium_armor_design_cost_factor = -0.5
+                unit_modern_armor_design_cost_factor = -0.5
+                unit_heavy_armor_design_cost_factor = -0.5
+                unit_super_heavy_armor_design_cost_factor = -0.5
+			}
+
+		}
+
+		landing_ship_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = eng_special_air_service
+			
+			research_bonus = {
+				tp_tech = 0.80
+			}
+
+		}
+
+		ship_module_idea = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = MTG_naval_treaty_adherent
+
+			removal_cost = -1
+			
+			research_bonus = {
+				ship_modules_tech = 0.8
+			}
+		}
+
+		naval_doctrine_research_bonus_S = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = jap_interservice_rivalry_navy_dominant
+			
+			modifier = {
+				experience_gain_navy_factor = 0.15
+				#naval_doctrine_cost_factor = -0.30
+			}
+		}
+
+		naval_doctrine_research_bonus_L = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = jap_interservice_rivalry_army_dominant
+			
+			modifier = {
+				experience_gain_navy_factor = 0.3
+				#naval_doctrine_cost_factor = -0.60
+			}
+		}
+
+		DD_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = escort_effort_focus
+			
+			research_bonus = {
+				dd_tech = 0.80
+			}
+		}
+
+		Cruiser_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_coastal_defense_ships2
+			
+			research_bonus = {
+				cl_tech = 0.80
+			}
+		}
+
+		SS_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = the_long_lance
+			
+			research_bonus = {
+				ss_tech = 0.80
+			}
+		}
+
+		Capital_ships_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_coastal_defense_ships
+			
+			research_bonus = {
+				cv_tech = 0.80
+				bb_tech = 0.80
+			}
+		}
+
+		air_doctrine_research_bonus1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_air_bonus
+			
+			modifier = {
+				experience_gain_air_factor = 0.1
+				#air_doctrine_cost_factor = -0.20
+			}
+		}
+
+		air_doctrine_research_bonus2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_air_bonus
+			
+			modifier = {
+				experience_gain_air_factor = 0.1
+				#air_doctrine_cost_factor = -0.20
+			}
+		}
+
+		CAS_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_air_payment
+			
+			research_bonus = {
+				cas_bomber = 0.80
+			}
+		}
+
+		NAV_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_navy_carrier_bonus
+			
+			research_bonus = {
+				naval_air = 0.80
+				tactical_bomber = 0.80
+			}
+		}
+
+		fighter_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_air_manufacturer_2
+			
+			research_bonus = {
+				light_fighter = 0.80
+			}
+		}
+
+		heavy_fighter_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_air_manufacturer_3
+			
+			research_bonus = {
+				cat_heavy_fighter = 0.80
+			}
+		}
+
+		rocketry_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_industrial_concern_2
+			
+			research_bonus = {
+				rocketry = 1.0
+			}
+		}
+
+		jet_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_industrial_concern_3
+			
+			research_bonus = {
+				jet_technology = 0.80
+			}
+		}
+
+		doctrine_research_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				experience_gain_army_factor = 0.15
+				#land_doctrine_cost_factor = -0.15
+
+				experience_gain_navy_factor = 0.1
+				#naval_doctrine_cost_factor = -0.10
+				
+				experience_gain_air_factor = 0.1
+				#air_doctrine_cost_factor = -0.10
+			}
+		}
+		
+		Industrial_research_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			research_bonus = {
+				industry = 0.10
+				electronics = 0.10
+			}
+		}
+
+		research_bonus_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				research_speed_factor = 1000000
+				industrial_capacity_dockyard = 1000
+				industrial_capacity_factory = 1000
+				production_speed_buildings_factor = 1000
+				political_power_gain = 1000
+
+			}
+		}
+	}
+}

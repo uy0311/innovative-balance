@@ -1,0 +1,28 @@
+ideas = {
+	# MILITARY
+	
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		ETH_FRA_panhard = {
+			
+
+			available = {
+				
+			}
+
+						
+			allowed = {
+				original_tag = ETH
+			}
+						
+			research_bonus = {
+				armor = 0.20
+			}
+			
+
+			traits = { armored_car_manufacturer }
+		}
+	}
+}

@@ -1,0 +1,1200 @@
+characters={
+	TUR_mustafa_kemal_ataturk={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_mustafa_kemal_ataturk
+			portraits={
+				civilian={
+					large="gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+				}
+				army={
+					large = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
+				}
+			}
+			country_leader={
+				ideology=despotism
+				traits={ }
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			name=TUR_mustafa_kemal_ataturk
+			portraits={
+				civilian={
+					large="gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+				}
+				army = {
+					large = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
+				}
+			}
+			country_leader={
+				ideology=despotism
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+	}
+
+	TUR_ismet_inonu = {
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_ismet_inonu
+			portraits={
+				army={
+					small="GFX_idea_tur_ismet_inonu"
+				}
+				civilian={
+					large="gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+				}
+			}
+			
+			country_leader={
+				ideology=despotism
+				traits={ milli_sef }
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			name=TUR_ismet_inonu
+			portraits={
+				civilian={
+					large="gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+				}
+			}
+			country_leader={
+				ideology=despotism
+				traits={ }
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+	}
+
+	TUR_durrushehvar_i = {
+		name=TUR_durrushehvar_i
+		portraits={
+			civilian={
+				large="GFX_portrait_tur_durrusehvar_sultan" #Can become country leader later (Non-Aligned -> Despotism)
+			}
+		}
+		gender = female
+	}
+
+	TUR_abdulmejid_ii = {
+		name=TUR_abdulmejid_ii
+		portraits={
+			civilian={
+				large="GFX_portrait_tur_abdulmejid_ii" #Can become country leader later (Non-Aligned -> Despotism)
+			}
+		}
+	}
+
+	TUR_izzettin_chalishlar={
+		name=TUR_izzettin_chalishlar
+		portraits={
+			army={
+				large="GFX_portrait_tur_izzettin_calislar"
+				small="gfx/interface/ideas/idea_TUR_izzettin_calislar.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer war_hero trait_mountaineer }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=905
+		}
+	}
+
+	TUR_kazim_karabekir={
+		name=TUR_kazim_karabekir
+		portraits={
+			army={
+				large="GFX_portrait_tur_kazim_karabekir"
+				small="GFX_idea_tur_kazim_karabekir"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = TUR_kazim_karabekir
+			ledger = army
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			traits = {
+				grand_battle_plan_expert
+			}
+		}
+
+		corps_commander={
+			traits={ trait_cautious politically_connected desert_fox }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	TUR_mustafa_muglali={
+		name=TUR_mustafa_muglali
+		portraits={
+			army={
+				large="GFX_portrait_tur_mustafa_mugali"
+				small="gfx/interface/ideas/idea_TUR_mustafa_mugali.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	TUR_mehmet_salih_omurtak={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_mehmet_salih_omurtak
+			portraits={
+				army={
+					small="GFX_idea_tur_salih_omurtak"
+					large="GFX_portrait_tur_salih_omurtak"
+				}
+			}
+			advisor={
+				slot = army_chief
+				idea_token = TUR_mehmet_salih_omurtak
+				allowed = {
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					army_chief_drill_2
+				}
+			    cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+			
+			corps_commander={
+				traits={ harsh_leader infantry_officer politically_connected }
+				skill=2
+				attack_skill=2
+				defense_skill=2
+				planning_skill=2
+				logistics_skill=2
+				legacy_id=906
+			}
+		}
+	}
+
+	TUR_hayrullah_fisek={
+		name=TUR_hayrullah_fisek
+		portraits={
+			army={
+				large="GFX_portrait_tur_hayrullah_fisek"
+				small="gfx/interface/ideas/idea_TUR_hayrullah_fisek.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	TUR_mehmet_nuri_yamut={
+		name=TUR_mehmet_nuri_yamut
+		portraits={
+			army={
+				large="GFX_portrait_tur_mehmet_nuri_yamut"
+				small="gfx/interface/ideas/idea_TUR_mehmet_nuri_yamut.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_reckless }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	TUR_fakhri_pasha={
+		name=TUR_fakhri_pasha
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_TUR_fakhri_pasha.dds"
+				large = "gfx/leaders/TUR/portrait_tur_fakhri_pasha.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = TUR_fakhri_pasha
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			visible = {
+				has_country_flag = TUR_ottoman_officers_invited_back
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_refet_bele={
+		name=TUR_refet_bele
+		portraits={
+			army={
+				small="GFX_idea_tur_refe_bele"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = TUR_refet_bele
+			ledger = army
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_mehmet_ali_ulgen={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_mehmet_ali_ulgen
+			portraits={
+				army={
+					small="GFX_idea_tur_mehmet_ali_ulgen"
+					large="GFX_portrait_tur_mehmet_ali_ulgen"
+				}
+			}
+			advisor={	
+				slot = navy_chief
+				idea_token = TUR_mehmet_ali_ulgen
+				allowed = {
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					navy_chief_decisive_battle_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+
+			navy_leader={
+				traits={ career_officer gunnery_expert }
+				skill=3
+				attack_skill=3
+				defense_skill=3
+				maneuvering_skill=3
+				coordination_skill=3
+				legacy_id=-1
+			}
+		}
+	}
+
+	TUR_sukru_okan={
+		name=TUR_sukru_okan
+		portraits={
+			army={
+				small="GFX_idea_tur_sukru_okan"
+				large="GFX_portrait_tur_sukru_okan"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = TUR_sukru_okan
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		navy_leader={
+			traits={ media_personality gentlemanly }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			maneuvering_skill=4
+			coordination_skill=4
+			legacy_id=907
+		}
+	}
+	
+	TUR_fevzi_cakmak={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_fevzi_cakmak
+			portraits={
+				army={
+					small="GFX_idea_tur_fevzi_cakmak"
+					large="GFX_portrait_tur_fevzi_cakmak"
+				}
+				civilian = {
+					large="GFX_portrait_tur_fevzi_cakmak" #Can become country leader later
+				}
+			}
+			advisor={	
+				slot = army_chief
+				idea_token = TUR_fevzi_cakmak_command
+				allowed = {
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					army_chief_defensive_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+
+			field_marshal={
+				traits={ old_guard media_personality war_hero desert_fox logistics_wizard defensive_doctrine }
+				skill=5
+				attack_skill=3
+				defense_skill=6
+				planning_skill=4
+				logistics_skill=6
+				legacy_id=901
+			}
+		}
+	}
+
+	TUR_memduh_tagmac={
+		name=TUR_memduh_tagmac
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = TUR_memduh_tagmac
+			allowed = {
+				original_tag = TUR
+				NOT = {
+					has_dlc = "Battle for the Bosporus"
+				}
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_zeki_dogan={
+		name=TUR_zeki_dogan
+		portraits={
+			army={
+				small="GFX_idea_tur_zeki_dogan"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = TUR_zeki_dogan
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	TUR_vecihi_hurkus={
+		name=TUR_vecihi_hurkus
+		portraits={
+			army={
+				small="GFX_idea_tur_vecihi_hurkus"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = TUR_vecihi_hurkus
+			ledger = air
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+
+	TUR_sabiha_gokcen={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_sabiha_gokcen
+			portraits={
+				army={
+					small="GFX_idea_sabiha_gocen"
+				}
+			}
+			advisor={
+				cost = 200
+				slot = high_command
+				idea_token = TUR_sabiha_gokcen
+				ledger = air
+				name = TUR_sabiha_gokcen
+				allowed = {
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					air_tactical_bombing_3
+				}
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+		}
+	}
+
+	TUR_mehmet_gunaltay={
+		name=TUR_mehmet_gunaltay
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+		advisor={
+			cost = 100	
+			slot = theorist
+			idea_token = TUR_mehmet_gunaltay
+			ledger = army
+			allowed = {
+				original_tag = TUR
+			}
+			traits = {
+				military_theorist
+			}
+		}
+	}
+
+	TUR_cemil_cahit_toydemir={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_cemil_cahit_toydemir
+			portraits={
+				army={
+					small="GFX_idea_tur_cemil_cahit_toydemir"
+					large="GFX_portrait_tur_cemil_cahit_toydemir"
+				}
+			}
+			advisor={
+				slot = army_chief
+				idea_token = TUR_cemil_cahit_toydemir
+				allowed = {
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					army_chief_reform_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+
+			corps_commander={
+				traits={ career_officer infantry_officer hill_fighter trait_mountaineer }
+				skill=3
+				attack_skill=3
+				defense_skill=3
+				planning_skill=3
+				logistics_skill=3
+				legacy_id=904
+			}
+		}
+	}
+
+	### OTTOMAN SULTANATE GENERALS ###
+
+	TUR_ahmet_fevzi_pasha = {
+		name=TUR_ahmet_fevzi_pasha
+		portraits={
+			army={
+				large="GFX_portrait_tur_ahmet_fevzi_pasha"
+				small = "gfx/interface/ideas/idea_TUR_ahmet_fevzi_pasha.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_mountaineer }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+
+	TUR_refet_pasha = {
+		name=TUR_refet_pasha
+		portraits={
+			army={
+				large="GFX_portrait_tur_refe_pasha"
+				small = "gfx/interface/ideas/idea_TUR_refe_pasha.dds"
+			}
+			civilian = {
+				large="GFX_portrait_tur_refe_pasha"
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader war_hero brilliant_strategist trickster }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	TUR_mehmet_esat_pasha = {
+		name=TUR_mehmet_esat_pasha
+		portraits={
+			army={
+				large="GFX_portrait_tur_mehmed_esad_pasha"
+				small="gfx/interface/ideas/idea_TUR_mehmed_esad_pasha.dds"
+			}
+			civilian = {
+				large="GFX_portrait_tur_mehmed_esad_pasha"
+			}
+		}
+		corps_commander = {
+			traits = { war_hero inflexible_strategist media_personality trickster hill_fighter }
+			skill = 4 #13
+			attack_skill = 2
+			defense_skill = 6
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+
+	TUR_ali_ihsan_sabis={
+		name=TUR_ali_ihsan_sabis
+		portraits={
+			army={
+				small="GFX_idea_tur_ali_ihsan_sabis"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = TUR_ali_ihsan_sabis
+			ledger = army
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				army_chief_planning_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_kazim_orbay={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_kazim_orbay
+			portraits={
+				army={
+					small="gfx/interface/ideas/idea_TUR_kazim_orbay.dds"
+				}
+				civilian = {
+					large = "GFX_portrait_tur_kazim_orbay"
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = TUR_kazim_orbay
+				ledger = army
+				name = TUR_kazim_orbay
+				allowed = {
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					army_infantry_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+			}			
+		}
+	}
+
+	TUR_erkan_gataly={
+		name=TUR_erkan_gataly
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = TUR_erkan_gataly
+			ledger = navy
+			traits = {
+				navy_fleet_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_rauf_orbay={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_rauf_orbay
+			portraits={
+				army={
+					small="GFX_idea_tur_rauf_orbay"
+				}
+			}
+			advisor={
+				cost = 150	
+				slot = theorist
+				idea_token = TUR_rauf_orbay
+				ledger = navy
+				name = TUR_rauf_orbay
+				allowed = {
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					grand_fleet_proponent
+				}
+			}
+		}
+	}
+
+	TUR_izzettin_calislar={
+		name=TUR_izzettin_calislar
+		portraits={
+			army={
+				small="GFX_idea_tur_izzettin_calislar"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = TUR_izzettin_calislar
+			ledger = army
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_ahmet_ali_celikten={
+		name=TUR_ahmet_ali_celikten
+		portraits={
+			army={
+				small="GFX_idea_tur_ahmet_ali_celikten"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = TUR_ahmet_ali_celikten
+			ledger = air
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			traits = {
+				naval_aviation_pioneer
+			}
+		}
+	}
+
+	TUR_abdurrahman_gurman={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_abdurrahman_gurman
+			portraits={
+				army={
+					large="GFX_portrait_tur_abdurrahman_nafiz_gurman"
+					small="gfx/interface/ideas/idea_TUR_abdurrahman_nafiz_gurman.dds"
+				}
+			}
+			corps_commander={
+				traits={ panzer_leader }
+				skill=4
+				attack_skill=4
+				defense_skill=4
+				planning_skill=4
+				logistics_skill=4
+				legacy_id=-1
+			}
+		}
+	}
+
+	TUR_ali_orlungat={
+		name=TUR_ali_orlungat
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_1"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = TUR_ali_orlungat
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_mehmet_fahri_engin={
+		name=TUR_mehmet_fahri_engin
+		portraits={
+			army={
+				small="GFX_idea_tur_mehmet_fahri_engin"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = TUR_mehmet_fahri_engin
+			name = TUR_mehmet_fahri_engin
+			ledger = navy
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				navy_fleet_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_muzaffer_goksenin={
+		name=TUR_muzaffer_goksenin
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_tur_muzaffer_goksenin.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = TUR_muzaffer_goksenin
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_sadik_altincan={
+		name=TUR_sadik_altincan
+		portraits={
+			army={
+				small="GFX_idea_tur_sadik_altincan"
+				large="GFX_portrait_tur_sadik_altincan"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = TUR_sadik_altincan
+			ledger = navy
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				navy_screen_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		navy_leader={
+			traits={ media_personality bold }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=3
+			legacy_id=-1
+		}
+	}
+
+	TUR_fahrettin_altay={
+		name=TUR_fahrettin_altay
+		portraits={
+			army={
+				small="GFX_idea_tur_fahrettin_altay"
+				large="GFX_portrait_tur_fahrettin_altay"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = TUR_fahrettin_altay
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				army_chief_maneuver_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		corps_commander={
+			traits={ brilliant_strategist cavalry_officer war_hero hill_fighter }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=902
+		}
+	}
+
+	TUR_halil_kut={
+		name=TUR_halil_kut
+		portraits={
+			army={
+				small="GFX_idea_tur_halil_kut"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = TUR_halil_kut
+			ledger = army
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				army_logistics_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	TUR_nazmi_solok={
+		name = TUR_nazmi_solok
+		portraits={
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+				small="gfx/interface/ideas/idea_south_america_generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits = { trickster commando }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	TUR_hassan_saka={
+		name=TUR_hassan_saka
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_hassan_saka
+			allowed = {
+				original_tag = TUR
+			}
+			traits = {
+				ideological_crusader 
+			}
+		}		
+	}
+
+	TUR_nejdet_sancar={
+		name=TUR_nejdet_sancar
+		portraits={
+			army={
+				small="GFX_idea_tur_nejdet_sancar"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_nejdet_sancar
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				fortification_engineer 
+			}
+		}		
+	}
+
+	TUR_hilmi_uran={
+		name=TUR_hilmi_uran
+		portraits={
+			army={
+				small="GFX_idea_tur_hilmi_uran"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_hilmi_uran
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}
+	}
+
+	TUR_nuri_demirag={
+		name=TUR_nuri_demirag
+		portraits={
+			army={
+				small="GFX_idea_tur_nuri_demirag"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_nuri_demirag
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				quartermaster_general 
+			}
+		}
+	}
+
+	TUR_nuri_killigil={
+		name=TUR_nuri_killigil
+		portraits={
+			army={
+				small="GFX_idea_tur_nuri_killigil"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_nuri_killigil
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			traits = {
+				war_industrialist 
+			}
+		}
+	}
+
+	TUR_mumtaz_okmen={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_mumtaz_okmen
+			portraits={
+				army={
+					small="GFX_idea_tur_mumtaz_okmen"
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_mumtaz_okmen
+				name = TUR_mumtaz_okmen 
+				allowed = {
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					captain_of_industry 
+				}
+			}
+		}
+	}
+
+	### FOREIGN UNIT LEADERS ###
+
+	GER_hans_von_luck = { #Foreign unit leader from Germany
+		name=GER_hans_von_luck
+		portraits={
+			army={
+				large="GFX_portrait_GER_hans_von_luck"
+				small="gfx/interface/ideas/idea_GER_hans_von_luck.dds"
+			}
+		}
+		corps_commander = {
+			traits = { career_officer panzer_leader brilliant_strategist trickster }
+			skill = 3 #10
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 75
+		}
+	}
+
+	GER_wilhelm_ritter_von_thoma = { #Foreign unit leader from Germany
+		name=GER_wilhelm_ritter_von_thoma
+		portraits={
+			army={
+				large="GFX_portrait_GER_wilhelm_ritter_von_thoma"
+				small="gfx/interface/ideas/idea_GER_wilhelm_ritter_von_thoma.dds"
+			}
+		}
+		corps_commander = {
+			traits = { war_hero brilliant_strategist armor_officer hill_fighter }
+			skill = 4 #13
+			legacy_id = 76
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+
+	ITA_ferdinando_umberto_filippo_adalberto = { #Foreign unit leader from Italy
+		name=ITA_ferdinando_umberto_filippo_adalberto
+		portraits={
+			army={
+				large="GFX_portrait_ITA_ferdinando_adalberto"
+				small="gfx/interface/ideas/idea_ITA_ferdinando_adalberto.dds"
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly media_personality career_officer superior_tactician }
+			skill = 4 #13
+			legacy_id = 77
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+}

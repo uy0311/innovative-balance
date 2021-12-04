@@ -1,0 +1,105 @@
+spriteTypes = {
+
+    ### ships ####	
+	
+	SpriteType = {
+		name = "GFX_multialtitude_flying_0_medium"
+		texturefile = "gfx/interface/technologies/multialtitude_flying_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hunt_and_destroy_0_medium"
+		texturefile = "gfx/interface/technologies/hunt_and_destroy_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_developed_sonar_medium"
+		texturefile = "gfx/interface/technologies/ib_sonar_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_sonar_medium"
+		texturefile = "gfx/interface/technologies/ib_sonar_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_heavy_armor_scheme_medium"
+		texturefile = "gfx/interface/technologies/ib_advanced_heavy_armor_scheme.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_armor_thick_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_thick_icn_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_night_vision3_medium"
+		textureFile = "gfx/interface/technologies/night_vision3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_suspension_tech_1_medium"
+		textureFile = "gfx/interface/technologies/suspension_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_suspension_tech_2_medium"
+		textureFile = "gfx/interface/technologies/suspension_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_suspension_tech_3_medium"
+		textureFile = "gfx/interface/technologies/suspension_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_suspension_tech_4_medium"
+		textureFile = "gfx/interface/technologies/suspension_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tankammo_tech_1_medium"
+		textureFile = "gfx/interface/technologies/tankammo_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tankammo_tech_2_medium"
+		textureFile = "gfx/interface/technologies/tankammo_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tankammo_tech_3_medium"
+		textureFile = "gfx/interface/technologies/tankammo_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_cannon_tech_1_medium"
+		textureFile = "gfx/interface/technologies/cannon_tech_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_cannon_tech_2_medium"
+		textureFile = "gfx/interface/technologies/cannon_tech_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_cannon_tech_3_medium"
+		textureFile = "gfx/interface/technologies/cannon_tech_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tankradio_medium"
+		textureFile = "gfx/interface/technologies/tankradio.dds"
+	}
+
+}

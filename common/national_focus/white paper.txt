@@ -1,0 +1,22 @@
+
+focus_tree = {
+	id = white_paper_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 30
+			tag = MEX
+		}
+		modifier = {
+			add = 30
+			tag = LUX
+		}
+		modifier = {
+			add = 30
+			tag = BHU
+		}
+	}
+	default = no
+}		
