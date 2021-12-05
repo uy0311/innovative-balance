@@ -55,7 +55,7 @@ characters={
 		name=SWE_folke_hogberg
 		portraits={
 			army={
-				large="gfx/leaders/Europe/Portrait_Africa_Generic_2.dds"
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
@@ -645,7 +645,7 @@ characters={
 		navy_leader={
 			traits = { superior_tactician }
 	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
-			legacy_id=983
+			legacy_id=0
 		}
 	}
 
@@ -660,7 +660,7 @@ characters={
 		navy_leader={
 			traits = { air_controller }
 	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
-			legacy_id=983
+			legacy_id=0
 		}
 	}
 
@@ -675,7 +675,7 @@ characters={
 		navy_leader={
 			traits = { superior_tactician }
 	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
-			legacy_id=983
+			legacy_id=0
 		}
 	}
 
@@ -690,7 +690,7 @@ characters={
 		navy_leader={
 			traits = { fly_swatter }
 	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
-			legacy_id=983
+			legacy_id=0
 		}
 	}
 
@@ -705,7 +705,7 @@ characters={
 		navy_leader={
 			traits = { superior_tactician spotter ironside }
 	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
-			legacy_id=983
+			legacy_id=0
 		}
 	}
 }

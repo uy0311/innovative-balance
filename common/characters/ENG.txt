@@ -616,7 +616,7 @@ characters={
 			defense_skill=5
 			maneuvering_skill=5
 			coordination_skill=5
-			legacy_id=983
+			legacy_id=0
 		}
 	}
 

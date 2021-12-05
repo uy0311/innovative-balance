@@ -318,7 +318,7 @@ characters={
 		}
 	}
 
-	Mika={
+	HUN_Mika={
 		name="Mika Nishi"
 		portraits={
 			army={

@@ -46,20 +46,6 @@ characters={
 
 	GRE_ioannis_metaxas={
 		instance={
-			allowed={ NOT = {   } }
-			name=GRE_ioannis_metaxas
-			portraits={
-				civilian={
-					large="gfx/leaders/GRE/Portrait_Greece_Ioannis_Metaxas.dds"
-				}
-			}
-			country_leader={
-				ideology=despotism
-				expire="1965.1.1.1"
-				id=-1
-			}
-		}
-		instance={
 			allowed = {   }
 			name=GRE_ioannis_metaxas
 			portraits={
@@ -68,17 +54,6 @@ characters={
 				}
 				civilian={
 					large="gfx/leaders/GRE/Portrait_Greece_Ioannis_Metaxas.dds"
-				}
-			}
-			advisor={
-				slot = political_advisor
-				idea_token = GRE_ioannis_metaxas
-				allowed = {
-					original_tag = GRE
-					 
-				}
-				traits = {
-					 
 				}
 			}
 			country_leader = {
@@ -154,7 +129,7 @@ characters={
 			defense_skill=5
 			planning_skill=2
 			logistics_skill=3
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -177,7 +152,7 @@ characters={
 				defense_skill=3
 				planning_skill=3
 				logistics_skill=3
-				legacy_id=306
+				legacy_id=0
 			}
 		}
 	}
@@ -774,30 +749,6 @@ characters={
 				}
 			}
 		}
-		instance = {
-			allowed = {
-				NOT = {   }
-			}
-			name=GRE_georgios_papandreou
-			portraits={
-				army={
-					small="GFX_idea_generic_political_advisor_europe_2"
-				}
-			}
-			advisor={
-				slot = political_advisor
-				idea_token = GRE_georgios_papandreou
-				allowed = {
-					original_tag = GRE
-					NOT = {
-						 
-					}
-				}
-				traits = {
-					silent_workhorse 
-				}
-			}
-		}
 	}
 
 	GRE_sophoklis_venizelos={
@@ -871,7 +822,7 @@ characters={
 		field_marshal={
 			traits = { desert_fox trickster media_personality skilled_staffer panzer_leader}
 	        skill = 6 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -886,7 +837,7 @@ characters={
 		field_marshal={
 			traits = { logistics_wizard organizer }
 	        skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 3 logistics_skill = 5
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -901,7 +852,7 @@ characters={
 		corps_commander={
 			traits = { desert_fox trait_cautious trait_engineer organizer skilled_staffer }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -916,7 +867,7 @@ characters={
 		corps_commander={
 			traits = { commando naval_invader urban_assault_specialist media_personality trickster }
 	        skill = 5 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -931,7 +882,7 @@ characters={
 		corps_commander={
 			traits = { hill_fighter trait_mountaineer trait_reckless infantry_officer }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -946,7 +897,7 @@ characters={
 		corps_commander={
 			traits = { hill_fighter }
 	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -961,7 +912,7 @@ characters={
 		corps_commander={
 			traits = { hill_fighter trait_mountaineer trait_reckless infantry_officer }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -976,7 +927,7 @@ characters={
 		corps_commander={
 			traits = { desert_fox }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -991,7 +942,7 @@ characters={
 		corps_commander={
 			traits = { panzer_leader }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -1006,7 +957,7 @@ characters={
 		corps_commander={
 			traits = { panzer_leader }
 	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
-			legacy_id=304
+			legacy_id=0
 		}
 	}
 
@@ -1021,7 +972,7 @@ characters={
 		navy_leader={
 			traits = { superior_tactician }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-			legacy_id=983
+			legacy_id=0
 		}
 	}
 
@@ -1036,7 +987,7 @@ characters={
 		navy_leader={
 			traits = { air_controller }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-	 		legacy_id=983
+	 		legacy_id=0
 		}
 	}
 
@@ -1051,7 +1002,7 @@ characters={
 		navy_leader={
 			traits = { superior_tactician }
 	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
-	 		legacy_id=983
+	 		legacy_id=0
 		}
 	}
 }

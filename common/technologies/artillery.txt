@@ -21,7 +21,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipment_modules = {
-			ship_anti_air_1
 			tank_small_cannon
 			secondary_turret_small_cannon
 		}
@@ -622,7 +621,6 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			ship_anti_air_2
 			tank_auto_cannon
 			tank_anti_air_cannon
 			tank_heavy_cannon
@@ -761,7 +759,6 @@ technologies = {
 		static_anti_air_damage_factor = 0.1
 
 		enable_equipment_modules = {
-			ship_anti_air_3
 			tank_auto_cannon_2
 			tank_heavy_cannon_2
 			tank_anti_air_cannon_2
@@ -873,6 +870,11 @@ technologies = {
 
 	antiair4 = {
 
+		enable_equipment_modules = {
+			tank_heavy_cannon_3
+			tank_anti_air_cannon_3
+		}
+
 		anti_air = {
 			air_attack = 0.1
 		}
@@ -946,13 +948,6 @@ technologies = {
 		}
 
 		static_anti_air_damage_factor = 0.1
-		
-		enable_equipment_modules = {
-			ship_anti_air_4
-			tank_heavy_cannon_3
-			tank_anti_air_cannon_3
-			auto_loader
-		}
 		
 		research_cost = 1.5
 
@@ -1343,6 +1338,12 @@ technologies = {
 	
 	antitank4 = {
 
+		enable_equipment_modules = {
+			tank_high_velocity_cannon_3
+			tank_heavy_cannon_3
+			auto_loader
+		}
+
 		anti_tank = {
 			hard_attack = 0.1
 			ap_attack = 0.1
@@ -1445,12 +1446,6 @@ technologies = {
 		#	hard_attack = 0.1
 		#	ap_attack = 0.05
 		#}
-		
-		enable_equipment_modules = {
-			tank_high_velocity_cannon_3
-			tank_heavy_cannon_3
-			auto_loader
-		}
 		
 		research_cost = 1.5
 

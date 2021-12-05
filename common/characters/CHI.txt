@@ -335,7 +335,7 @@ characters={
 		}
 	}
 
-	Hibiki_Ganaha = {
+	CHI_Hibiki_Ganaha = {
 		name = "Hibiki Ganaha"
 		portraits={
 			army={

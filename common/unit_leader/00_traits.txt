@@ -561,9 +561,9 @@ leader_traits = {
 			max_dig_in_factor = 0.30
 		}
 		slot = army_chief
-		specialist_advisor_trait = army_chief_entrenchment_1
-		expert_advisor_trait = army_chief_entrenchment_2
-		genius_advisor_trait = army_chief_entrenchment_3
+		specialist_advisor_trait = army_chief_defensive_1
+		expert_advisor_trait = army_chief_defensive_2
+		genius_advisor_trait = army_chief_defensive_3
 		ai_will_do = {
 			factor = 1
 		}
@@ -1267,9 +1267,9 @@ leader_traits = {
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
 		
 		slot = high_command
-		specialist_advisor_trait = army_CombinedArms_1
-		expert_advisor_trait = army_CombinedArms_2
-		genius_advisor_trait = army_CombinedArms_3
+		specialist_advisor_trait = army_cavalry_1
+		expert_advisor_trait = army_cavalry_2
+		genius_advisor_trait = army_cavalry_3
 		
 		ai_will_do = {
 			factor = 1
@@ -3246,9 +3246,9 @@ leader_traits = {
 		
 		cost = 400
 		modifier = {
-			operation_coup_government_risk = -0.25
-			operation_coup_government_cost = -0.25
-			boost_ideology_mission_factor = 0.2
+			#operation_coup_government_risk = -0.25
+			#operation_coup_government_cost = -0.25
+			#boost_ideology_mission_factor = 0.2
 		}
 	}
 

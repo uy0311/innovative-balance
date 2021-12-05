@@ -390,7 +390,7 @@ characters={
 	}
 
 	#IB_add_general
-	hibiki={
+	MAN_hibiki={
 		name="hibiki"
 		portraits={
 			army={
@@ -410,7 +410,7 @@ characters={
 		}
 	}
 
-	haruka={
+	MAN_haruka={
 		name="haruka"
 		portraits={
 			army={
@@ -430,7 +430,7 @@ characters={
 		}
 	}
 
-	ami={
+	MAN_ami={
 		name="ami"
 		portraits={
 			army={

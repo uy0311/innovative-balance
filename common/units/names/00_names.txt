@@ -2803,60 +2803,6 @@ SAF = {
 	}
 }
 
-MAL = {
-	submarine = {
-		prefix = "KD"
-		generic = { "Submarine" }
-		unique = {
-			"Tunku Abdul Rahman" "Tun Abdul Razak"
-		}
-	}
-	destroyer = {
-		prefix = "KD"
-		generic = { 
-			"Destroyer"
-		}
-		unique = {
-			"Kasturi" "Lekir" "Laksamana Hang Nadim" "Laksamana Tun Abdul Jamil" "Kedah" "Pahang" "Perak" "Terengganu" "Kelantan" "Selangor" "Perdana" "Serang" "Ganas" "Ganyang" "Handalan" "Perkasa" "Pendekar" "Gempita" "Jerung" "Todak" "Paus" "Yu" "Baung" "Pari" "Sri Perlis" "Sri Johor"
-		}
-	}
-	light_cruiser = {
-		prefix = "KD"
-		generic = { "Light Cruiser" }
-		unique = {
-			"Jebat" "Lekiu" "Kuala Lumpur" "Kuantan" "Mersing" "Kulai" "Skudai" "Kluang" "Balok" "Chukai" "Kuala Dungun" "Georgetown" "Butterworth" "Jelutong" "Bukit Mertajam" "Kuching" "Sibu" "Bintulu" "Miri" "Tawau" "Sandakan" "Lahad Datu" "Kudat" "Ipoh" "Kota Barhu"
-		}
-	}
-	heavy_cruiser = {
-		prefix = "KD"
-		generic = { "Heavy Cruiser" }
-		unique = {
-			"Jebat" "Lekiu" "Kuala Lumpur" "Kuantan" "Mersing" "Kulai" "Skudai" "Kluang" "Balok" "Chukai" "Kuala Dungun" "Georgetown" "Butterworth" "Jelutong" "Bukit Mertajam" "Kuching" "Sibu" "Bintulu" "Miri" "Tawau" "Sandakan" "Lahad Datu" "Kudat"
-		}
-	}
-	battle_cruiser = {
-		prefix = "KD"
-		generic = { "Battle Cruiser" }
-		unique = {
-			"Malaya" "Singapore" "Malacca" "Borneo" "Brunai" "Segamat" "Penang" "Sabah" "Sarawak"
-		}
-	}
-	battleship = {
-		prefix = "KD"
-		generic = { "Battleship" }
-		unique = {
-			"Malaya" "Singapore" "Malacca" "Borneo" "Brunai" "Segamat" "Penang" "Sabah" "Sarawak"
-		}
-	}
-	carrier = {
-		prefix = "KD"
-		generic = { "Carrier" }
-		unique = {
-			"Malaya" "Singapore" "Malacca" "Borneo" "Brunai" "Segamat" "Penang" "Sabah" "Sarawak"
-		}
-	}
-}
-
 MEX = {
 	submarine = {
 		prefix = "ARM"
@@ -3714,63 +3660,6 @@ PRC = {
 		unique = {
 		}	
 	}
-}
-
-PAK = {
-	submarine = {
-		prefix = "PNS"
-		generic = { "Submarine" }
-		unique = {
-			"Hashmat" "Hurmat" "Khalid" "Saad" "Hamza" "Ghazi" "Hangor" "Shushuk" "Mangro"
-		}
-	}
-	destroyer = {
-		prefix = "PNS"
-		generic = { 
-			"Destroyer"
-		}
-		unique = {
-			"Shamsher" "Tippu Sultan" "Tariq" "Jhelum" "Tughril" "Taimur" "Badr" "Zarrar" "Karrar" "Larkana" "Rajshahi" "Jalalat" "Shujaat" "Jurrat" "Quwwat" "Azmat" "Dehshat" "Munsif" "Muhafiz" "Mujahid" "Nazim" "Shahjahan" "Khaibar" "Dacca" "Zulfikar"
-		}
-	}
-	light_cruiser = {
-		prefix = "PNS"
-		generic = { "Light Cruiser" }
-		unique = {
-		   "Babur" "Jahangir" "Humayun" "Sher Shah Suri" "Akbar" "Shah Jahan" "Aurangzeb" "Bahadur Shah" "Furrukhsiyar" "Rafi Ul-Darjat" "Muhammad Ibrahim" "Saif"
-
-		}
-	}
-	heavy_cruiser = {
-		prefix = "PNS"
-		generic = { "Heavy Cruiser" }
-		unique = {
-			"Babur" "Jahangir" "Humayun" "Sher Shah Suri" "Akbar" "Shah Jahan" "Aurangzeb" "Bahadur Shah" "Furrukhsiyar" "Rafi Ul-Darjat" "Muhammad Ibrahim" "Saif"
-		}
-	}
-	battle_cruiser = {
-		prefix = "PNS"
-		generic = { "Battlecruiser" }
-		unique = {
-			"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
-		}
-	}
-	battleship = {
-		prefix = "PNS"
-		generic = { "Battleship" }
-		unique = {
-			"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
-		}
-	}
-	carrier = {
-		prefix = "PNS"
-		generic = { "Carrier" }
-		unique = {
-		 	"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
-
-		}
-	}
-	
 }
 
 RAJ = {
@@ -4916,57 +4805,5 @@ POL = {
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
-	}
-}
-
-INS = {
-	submarine = {
-		prefix = "KRI"
-		generic = { "Submarine" }
-		unique = {
-			"Nagapasa" "Ardadedali" "Alugoro" "Cakra" "Nanggala"
-		}
-	}
-	destroyer = {
-		prefix = "KRI"
-		generic = { "Destroyer" }
-		unique = {
-			"Mandau" "Rencong" "Badik" "Keris" "Todak" "Hiu" "Layang" "Lemadang" "Pandrong" "Sura" "Clurit" "Kujang" "Beladau" "Alamang" "Parang" "Siwar" "Surik" "Terapang" "Sampari" "Tombak" "Halasan" "Badau" "Selawaku" "Ajak" "Andau" "Singa" "Tongkak" "Kakap" "Kerapu" "Tongkol" "Barakuda" "Boa" "Welang"
-		}
-	}
-	light_cruiser = {
-		prefix = "KRI"
-		generic = { "Light Cruiser" }
-		unique = {
-			"Diponegoro" "Sultan Hasanuddin" "Sultan Iskandar Muda" "Frans Kaisiepo" "Bung Tomo" "John Lie" "Usman Harun" "Fatahillah" "Malahayati" "Nala" " Kapitan Pattimura" "Untung Suropati" "Nuku" "Lambung Mangkurat" "Cut Nyak Dien" "Sultan Thaha Syaifudin" "Sutanto" "Sutedi Senoputra" "Wiratno" "Tjiptadi" "Hasan Basri" "Imam Bonjol" "Teuku Umar" "Silas Papare"
-		}
-	}
-	heavy_cruiser = {
-		prefix = "KRI"
-		generic = { "Heavy Cruiser" }
-		unique = {
-			"Raden Edi Martadinata" "I Gusti Ngurah Rai" "Diponegoro" "Ahmad Yani" "Slamet Riyadi" "Yos Sudarso" "Oswald Siahaan" "Abdul Halim Perdanakusuma" "Karel Satsuit Tubun"
-		}
-	}
-	battle_cruiser = {
-		prefix = "KRI"
-		generic = { "Battle Cruiser" }
-		unique = {
-			"Jakarta" "Bandung" "Semarang" "Surabaya" "Malang" 
-		}
-	}
-	battleship = {
-		prefix = "KRI"
-		generic = { "Battleship" }
-		unique = {
-			"Palembang" "Balikpapan" "Makassar" "Padang" "Medan" 
-		}
-	}
-	carrier = {
-		prefix = "KRI"
-		generic = { "Carrier" }
-		unique = {
-			"Sumatra" "Java" "Kalimantan" "Sulawesi" "Nusa Tenggara" "Papua" "Maluku" "Aceh"
-		}
 	}
 }
