@@ -264,6 +264,7 @@ ideas = {
 			picture = generic_artillery_manufacturer_1
 			
 			research_bonus = {
+				cat_anti_air = 0.50
 				cat_anti_tank = 0.50
 			}
 
