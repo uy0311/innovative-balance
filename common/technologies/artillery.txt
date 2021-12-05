@@ -321,7 +321,6 @@ technologies = {
 			artillery_equipment_3
 		}
 		enable_equipment_modules = {
-			tank_medium_cannon_3
 			tank_heavy_howitzer
 		}
 
@@ -389,6 +388,9 @@ technologies = {
 		}
 		modern_sp_artillery_brigade = {
 			soft_attack = 0.1
+		}
+		enable_equipment_modules = {
+			tank_medium_cannon_3
 		}
 
 		research_cost = 1
@@ -758,7 +760,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_auto_cannon_2
-  	  #tank_heavy_cannon_2
+		#	tank_heavy_cannon_2
 			tank_anti_air_cannon_2
 		}
 
@@ -942,7 +944,7 @@ technologies = {
 		static_anti_air_damage_factor = 0.1
 
 		enable_equipment_modules = {
-      #tank_heavy_cannon_3
+		#	tank_heavy_cannon_3
 			tank_anti_air_cannon_3
 		}
 
