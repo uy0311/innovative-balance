@@ -90,6 +90,21 @@ equipment_modules = {
 		}
 	}
 
+	tank_welded_armor = {
+		abbreviation = "wel"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+		add_stats = {
+			defense = 2
+			breakthrough = 2
+		}
+
+		multiply_stats = {
+			armor_value = 0.2
+		}
+	}
+
 	tank_cast_armor = {
 		abbreviation = "cas"
 		category = tank_armor_type
@@ -107,22 +122,17 @@ equipment_modules = {
 		}
 	}
 
-	tank_welded_armor = {
-		abbreviation = "wel"
-		category = tank_armor_type
-		sfx = sfx_ui_sd_module_sonar
-		xp_cost = 8
-		add_stats = {
-			defense = 2
-			breakthrough = 2
-		}
+	###Suspension Types
 
-		multiply_stats = {
-			armor_value = 0.2
+	tank_bogie_suspension = {
+		abbreviation = "bog"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 0.5
 		}
 	}
-
-	###Suspension Types
 
 	tank_torsion_bar_suspension = {
 		abbreviation = "tor"
@@ -135,29 +145,6 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 0.05
-		}
-	}
-
-	tank_christie_suspension = {
-		abbreviation = "chr"
-		category = tank_suspension_type
-		sfx = sfx_ui_sd_module_sonar
-
-		add_stats = {
-			build_cost_ic = 2
-		}
-		multiply_stats =  {
-			maximum_speed = 0.15
-		}
-	}
-
-	tank_bogie_suspension = {
-		abbreviation = "bog"
-		category = tank_suspension_type
-		sfx = sfx_ui_sd_module_sonar
-
-		add_stats = {
-			build_cost_ic = 0.2
 		}
 	}
 
@@ -174,6 +161,19 @@ equipment_modules = {
 		multiply_stats =  {
 			maximum_speed = 0.1
 			breakthrough = 0.1
+		}
+	}
+
+	tank_christie_suspension = {
+		abbreviation = "chr"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 2
+		}
+		multiply_stats =  {
+			maximum_speed = 0.15
 		}
 	}
 

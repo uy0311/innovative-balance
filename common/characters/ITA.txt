@@ -338,12 +338,12 @@ characters={
 		}
 	}
 
-	M.C.L._Keyaerts = {
+	ITA_M.C.L._Keyaerts = {
 		name = "M.C.L. Keyaerts"
 		portraits = {
 			army = {
 				small="gfx/interface/ideas/idea_generic_fascist_africa.dds"
-				large = "gfx/leaders/Europe/Portrait_Africa_Generic_2.dds"
+				large = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 			}
 		}
 		
@@ -388,7 +388,7 @@ characters={
 		}
 	}
 
-	Kay = {
+	ITA_Kay = {
 		name = "Kay"
 		portraits = {
 			army = {
@@ -404,7 +404,7 @@ characters={
 		}
 	}
 
-	Darjeeling = {
+	ITA_Darjeeling = {
 		name = "Darjeeling"
 		portraits = {
 			army = {

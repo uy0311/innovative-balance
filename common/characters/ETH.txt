@@ -452,7 +452,7 @@ characters={
 		}
 	}
 
-	George_Edwin_Brink = {
+	ETH_George_Edwin_Brink = {
 		name = "George Edwin Brink"
 		portraits={
 			army={
@@ -467,11 +467,11 @@ characters={
 		}
 	}
 
-	M.C.L._Keyaerts = {
+	ETH_M.C.L._Keyaerts = {
 		name = "M.C.L. Keyaerts"
 		portraits={
 			army={
-				large="gfx/leaders/Europe/Portrait_Africa_Generic_2.dds"
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 				small="gfx/interface/ideas/idea_ITA_generic_land_3.dds"
 			}
 		}
@@ -692,7 +692,7 @@ characters={
 		}
 	}
 
-	mika = {
+	ETH_mika = {
 		name = "mika"
 		portraits={
 			army={
