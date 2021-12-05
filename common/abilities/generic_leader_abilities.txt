@@ -3,7 +3,7 @@ ability = {
 		name = ABILITY_FORCE_ATTACK
 		desc = ABILITY_FORCE_ATTACK_DESC
 		
-		sound_effect = command_power_ability_offensive #
+		sound_effect = command_power_ability_offensive
 		
 		type = army_leader
 		
