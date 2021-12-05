@@ -983,7 +983,7 @@ characters={
 				original_tag = FRA
 			}
 			traits = {
-				army_concealment_2
+				army_cavalry_2
 			}
 			cost = 100
 			ai_will_do = {
