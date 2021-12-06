@@ -1,5 +1,17 @@
 spriteTypes = {
 
+	spriteType = {
+		name = "GFX_EMI_equipment_for_engineers"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_troop_carrier.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_medium_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+
     ### ships ####	
 	
 	SpriteType = {
@@ -102,4 +114,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tankradio.dds"
 	}
 
+	spriteType = {
+		name = "GFX_tankradio_2_medium"
+		textureFile = "gfx/interface/technologies/tankradio_2.dds"
+	}
 }

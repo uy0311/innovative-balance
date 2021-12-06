@@ -99,6 +99,7 @@ continuous_focus_palette = {
 		
 		modifier = {
 			industry_repair_factor = 0.5
+			industry_free_repair_factor = 1.0
 		}
 		
 		ai_will_do = {
