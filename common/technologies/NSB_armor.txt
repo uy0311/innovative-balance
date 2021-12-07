@@ -1462,7 +1462,7 @@ technologies = {
 	suspension_tech_3 = {
 
 		research_cost = 1
-		start_year = 1939
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 4 y = 6 }
@@ -1485,7 +1485,7 @@ technologies = {
 	suspension_tech_4 = {
 
 		research_cost = 1
-		start_year = 1941
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 4 y = 8 }
@@ -1502,7 +1502,7 @@ technologies = {
 
 	tankammo_tech_1 = {
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
@@ -1527,11 +1527,11 @@ technologies = {
 
 	tankammo_tech_2 = {
 
-		research_cost = 1.5
-		start_year = 1938
+		research_cost = 1
+		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 5 }
+			position = { x = 2 y = 4 }
 		}
 
 		enable_equipment_modules = {
@@ -1552,11 +1552,11 @@ technologies = {
 
 	tankammo_tech_3 = {
 
-		research_cost = 1.5
-		start_year = 1940
+		research_cost = 1
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 7 }
+			position = { x = 2 y = 6 }
 		}
 
 		enable_equipment_modules = {
@@ -1594,11 +1594,11 @@ technologies = {
 	}
 
 	cannon_tech_2 = {
-		research_cost = 1.25
-		start_year = 1938
+		research_cost = 1
+		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 5 }
+			position = { x = 2 y = 4 }
 		}
 
 		enable_equipment_modules = {
@@ -1617,11 +1617,11 @@ technologies = {
 	}
 
 	cannon_tech_3 = {
-		research_cost = 1.25
-		start_year = 1939
+		research_cost = 1
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 7 }
+			position = { x = 2 y = 6 }
 		}
 
 		enable_equipment_modules = {
@@ -1644,6 +1644,29 @@ technologies = {
 
 		enable_equipment_modules = { 
 			tank_radio_1
+		}
+
+		path = {
+			leads_to_tech = tankradio_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			armor
+			electronics
+		}
+	}
+
+	tankradio_2 = {
+		research_cost = 0.5
+		start_year = 1936
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1938 }
+		}
+
+		enable_equipment_modules = { 
+			tank_radio_3
 		}
 
 		categories = {
