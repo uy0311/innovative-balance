@@ -1251,7 +1251,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
+
 			build_cost_ic = 0.2
+
 			breakthrough = 5
 		}
 		multiply_stats = {
@@ -1268,7 +1270,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
+
 			build_cost_ic = 0.1
+
 			#defense = 2
 			#breakthrough = 1
 		}
