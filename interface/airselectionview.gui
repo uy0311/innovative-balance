@@ -178,9 +178,9 @@ guiTypes = {
 			quadTextureSprite ="GFX_mapicon_unit_flag_stripe_visible"
 			position = { x=-9 y=19 }
 			alwaystransparent = yes
-			quadTextureSprite ="GFX_flag_smallest"
-			position = { x = 11 y = 8 }
-			pdx_tooltip = GIE_AIRWING_SELECTION_ITEM_EXILE_FLAG
+			#quadTextureSprite ="GFX_flag_smallest"
+			#position = { x = 11 y = 8 }
+			#pdx_tooltip = GIE_AIRWING_SELECTION_ITEM_EXILE_FLAG
 		}
 		
 		iconType = {
@@ -427,7 +427,7 @@ guiTypes = {
 			position = {x=9000 y=9000}
 			spriteType = "GFX_air_base_merge_btn"
 			clicksound = click_default
-			shortcut = "g"
+			#shortcut = "g"
 			scale = 0.7
 		}
 		
@@ -475,7 +475,6 @@ guiTypes = {
 			position = {x=0 y=38}
 			size = {width=580 height=535 } # Y Set in code to match the window size, but initial value is used as extra space in height
 			Orientation = upper_left
-
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 40
 
@@ -542,7 +541,7 @@ guiTypes = {
 	}
 
 
-	containerWindowType = {
+	containerWindowType = { #制空
 		name = "air_mission_entry_0"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -564,7 +563,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #CAS
 		name = "air_mission_entry_1"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -586,7 +585,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #迎撃
 		name = "air_mission_entry_2"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -608,7 +607,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #略爆
 		name = "air_mission_entry_3"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -630,7 +629,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #略爆タゲ指定
 		name = "air_mission_entry_3_target_btn"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -643,7 +642,7 @@ guiTypes = {
 			clicksound = click_default
 		}
 	}
-	containerWindowType = {
+	containerWindowType = { #対艦攻撃
 		name = "air_mission_entry_4"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -665,7 +664,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #カミカゼ
 		name = "air_mission_entry_7"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -687,7 +686,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #港湾攻撃
 		name = "air_mission_entry_8"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -709,7 +708,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #兵站攻撃
 		name = "air_mission_entry_9"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -720,7 +719,7 @@ guiTypes = {
 			position = {x=0 y=0}	
 			spriteType = "GFX_strategicair_mission_btn_bg"
 			clicksound = "air_mission_select"
-			# shortcut = "j"
+			shortcut = "shift+x"
 		}		
 		iconType = {
 			name = "icon"
@@ -731,7 +730,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #空輸?
 		name = "air_mission_entry_10"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -742,14 +741,13 @@ guiTypes = {
 			position = {x=0 y=0}	
 			spriteType = "GFX_strategicair_mission_btn_bg"
 			clicksound = "select_aircraft"
-			shortcut = "k"
 		}		
 		buttonType = {
 			name = "btn_invisible"
 			position = {x=0 y=-1000}	
 			spriteType = "GFX_tiled_window_transparent"
 			clicksound = "select_aircraft"
-			shortcut = "shift+k"
+			#shortcut = "shift+k"
 		}		
 		iconType = {
 			name = "icon"
@@ -766,7 +764,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #航空隊訓練
 		name = "air_mission_entry_11"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -777,7 +775,7 @@ guiTypes = {
 			position = {x=0 y=0}	
 			spriteType = "GFX_strategicair_mission_btn_bg"
 			clicksound = "air_mission_select"
-			# shortcut = "j"
+			shortcut = "k"
 		}		
 		iconType = {
 			name = "icon"
@@ -799,7 +797,6 @@ guiTypes = {
 			position = {x=0 y=0}	
 			spriteType = "GFX_strategicair_mission_btn_bg"
 			clicksound = "air_mission_select"
-			# shortcut = "j"
 		}		
 		iconType = {
 			name = "icon"
@@ -830,8 +827,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-
-	containerWindowType = {
+	containerWindowType = { #偵察任務
 		name = "air_mission_entry_14"
 		position = {x=0 y=0}
 		size = { width=47 height=34 }
@@ -842,6 +838,7 @@ guiTypes = {
 			position = {x=0 y=0}	
 			spriteType = "GFX_strategicair_mission_btn_bg"
 			clicksound = "air_mission_select"
+			shortcut = "shift+z"
 		}		
 		iconType = {
 			name = "icon"
@@ -883,6 +880,7 @@ guiTypes = {
 				position = {x=-1 y=20} #X is spacing between aggressivness_btn and this
 				spriteType = "GFX_strategicair_day_night"
 				clicksound = click_default
+				shortcut = "shift+n"
 				frame = 1
 			}
 
