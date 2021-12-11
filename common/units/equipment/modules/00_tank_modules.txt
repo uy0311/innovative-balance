@@ -1293,7 +1293,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = -0.1
 			#suppression = 30
-			max_strength = -0.11
+			#max_strength = -0.11
 			#breakthrough = 2
 			#defense = 4
 		}
@@ -1310,10 +1310,11 @@ equipment_modules = {
 		abbreviation = "wet"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			#reliability = 0.15
-			max_strength = 0.66
+			max_strength = 0.4
 			build_cost_ic = 0.25
 			casualty_trickleback = 0.03
 		}
