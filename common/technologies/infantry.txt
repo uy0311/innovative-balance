@@ -2088,17 +2088,32 @@ technologies = {
 	}
 	
 	######### FROM JAPANESE FOCUS ##########
-#	bicycle_infantry = {
-#		
-#		allow = {
-#			always = no
-#		}
-#
-#		research_cost = 1
-#		start_year = 1936
-#
-#		enable_subunits = {
-#			bicycle_battalion
-#		}		
-#	}
+    #bicycle_infantry = {
+	#	
+	#	allow = {
+	#		always = no
+	#    }
+
+	#	research_cost = 1
+	#	start_year = 1936
+
+	#    enable_subunits = {
+	#		bicycle_battalion
+	#	}		
+	#}
+
+    ######## FROM SOVIET FOCUS ##########
+    enal_infantry = {
+    		
+    	allow = {
+    		always = no
+    	}
+    
+    	research_cost = 1
+    	start_year = 1936
+    
+    	enable_subunits = {
+    		penal_battalion
+    	}
+    }
 }

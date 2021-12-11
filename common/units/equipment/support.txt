@@ -31,7 +31,7 @@ equipments = {
 
 		archetype = support_equipment
 		priority = 20	
-		maximum_speed = 6.0
+		maximum_speed = 6.4
 	}
 
 }
