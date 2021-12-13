@@ -1118,8 +1118,6 @@ equipment_modules = {
 		    hard_attack = 1
 			breakthrough = 3
 			defense = 1.5
-			ap_attack = 1.5
-			armor_value = -2
 		}
 		xp_cost = 1
 		multiply_stats = {
@@ -1140,8 +1138,6 @@ equipment_modules = {
 		    hard_attack = 1.5
 			breakthrough = 4
 			defense = 2
-			ap_attack = 2
-			armor_value = -2
 		}
 		xp_cost = 1
 		multiply_stats = {
@@ -1162,8 +1158,6 @@ equipment_modules = {
 		    hard_attack = 2
 			breakthrough = 6
 			defense = 3
-			ap_attack = 3
-			armor_value = -2
 		}
 		xp_cost = 1
 		multiply_stats = {
@@ -1256,7 +1250,6 @@ equipment_modules = {
 			soft_attack = 5
 			hard_attack = 2
 			breakthrough = 1
-			ap_attack = 10
 			defense = 2
 		}
 		xp_cost = 1
@@ -1278,7 +1271,6 @@ equipment_modules = {
 			build_cost_ic = 3
 			reliability = -0.15
 			breakthrough = 2
-			ap_attack = 20
 			defense = 4
 		}
 		xp_cost = 1
