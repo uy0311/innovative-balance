@@ -624,7 +624,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_auto_cannon
+			#tank_auto_cannon
 			tank_anti_air_cannon
 		}
 
@@ -761,7 +761,7 @@ technologies = {
 		static_anti_air_damage_factor = 0.1
 
 		enable_equipment_modules = {
-			tank_auto_cannon_2
+			#tank_auto_cannon_2
 			tank_anti_air_cannon_2
 		}
 
