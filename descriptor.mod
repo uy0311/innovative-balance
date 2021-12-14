@@ -41,5 +41,5 @@ dependencies={
 	"Japanese Language mod"
 }
 name="Innova test"
-supported_version="1.11.3"
+supported_version="1.11.4"
 remote_file_id="2405615607"

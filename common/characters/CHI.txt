@@ -860,10 +860,10 @@ characters={
 	}
 
 	CHI_h_h_kung={
-		name=CHI_h_h_kung
-		portraits={
-			civilian={
-				small="GFX_idea_CHI_h_h_kung"
+		name = CHI_h_h_kung
+		portraits = {
+			civilian = {
+				small = "GFX_idea_CHI_h_h_kung"
 			}
 		}
 		advisor={
