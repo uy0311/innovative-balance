@@ -1604,7 +1604,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_SOV_pyotr_krasnov"
-				small = "gfx/interface/ideas/idea_SOV_pyotr_krasnov.dds"
+				small = "GFX_idea_SOV_pyotr_krasnov"
 			}
 		}
 		field_marshal = {
@@ -1623,7 +1623,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_SOV_konstantin_nechayev"
-				small = "gfx/interface/ideas/idea_SOV_konstantin_nechayev.dds"
+				small = "GFX_idea_SOV_konstantin_nechayev"
 			}
 		}
 		field_marshal = {
@@ -1642,7 +1642,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_SOV_vladimir_kosmin"
-				small = "gfx/interface/ideas/idea_SOV_vladimir_kosmin.dds"
+				small = "GFX_idea_SOV_vladimir_kosmin"
 			}
 		}
 		field_marshal = {
@@ -1661,7 +1661,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_SOV_aleksandr_rodzyanko"
-				small = "gfx/interface/ideas/idea_SOV_aleksandr_rodzyanko.dds"
+				small = "GFX_idea_SOV_aleksandr_rodzyanko"
 			}
 		}
 		field_marshal = {
@@ -1680,7 +1680,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_SOV_andrey_shkuro"
-				small = "gfx/interface/ideas/idea_SOV_andrey_shkuro.dds"
+				small = "GFX_idea_SOV_andrey_shkuro"
 			}
 		}
 		field_marshal = {
