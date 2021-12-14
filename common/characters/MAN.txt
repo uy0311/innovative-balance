@@ -24,7 +24,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_man_zhang_haipeng"
-				small="gfx/interface/ideas/idea_MAN_zhang_haipeng.dds"
+				small="GFX_idea_MAN_zhang_haipeng"
 			}
 		}
 		advisor={
@@ -55,7 +55,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_man_zhang_jinghui"
-				small="gfx/interface/ideas/idea_MAN_zhang_jinghui.dds"
+				small="GFX_idea_MAN_zhang_jinghui"
 			}
 		}
 		advisor={
@@ -118,7 +118,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_man_yoshiko_kawashima"
-				small="gfx/interface/ideas/idea_MAN_yoshiko_kawashima.dds"
+				small="GFX_idea_MAN_yoshiko_kawashima"
 			}
 		}
 		gender = female
