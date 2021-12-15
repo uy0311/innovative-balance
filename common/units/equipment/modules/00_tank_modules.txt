@@ -1398,7 +1398,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			ap_attack = 0.20
+			ap_attack = 0.15
 		}
 
 		build_cost_resources = {
