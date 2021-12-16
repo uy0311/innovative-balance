@@ -220,6 +220,7 @@ equipment_modules = {
 			build_cost_ic = 0.25
 			breakthrough = 7
 			defense = 3.5
+			max_strength = 0.35
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -237,6 +238,7 @@ equipment_modules = {
 			build_cost_ic = 0.375
 			breakthrough = 10
 			defense = 5
+			max_strength = 0.7
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -250,11 +252,27 @@ equipment_modules = {
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
 
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				tank_machinegun_module
+			}
+			special_type_slot_2 = {
+				tank_machinegun_module
+			}
+			special_type_slot_3 = {
+				tank_machinegun_module
+			}
+			special_type_slot_4 = {
+				tank_machinegun_module
+			}
+		}
+
 		add_stats = {
 			build_cost_ic = 0.5
 			maximum_speed = -0.25
 			breakthrough = 14
 			defense = 7
+			max_strength = 1.05
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -286,6 +304,7 @@ equipment_modules = {
 			build_cost_ic = 0.375
 			reliability = 0.2
 			#defense = 3
+			max_strength = 0.35
 		}
 
 		multiply_stats = {
@@ -304,6 +323,7 @@ equipment_modules = {
 			build_cost_ic = 0.75
 			breakthrough = 10
 			defense = 5
+			max_strength = 0.3
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -323,6 +343,7 @@ equipment_modules = {
 			build_cost_ic = 1
 			breakthrough = 16
 			defense = 8
+			max_strength = 0.6
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -335,11 +356,27 @@ equipment_modules = {
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
 
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				tank_machinegun_module
+			}
+			special_type_slot_2 = {
+				tank_machinegun_module
+			}
+			special_type_slot_3 = {
+				tank_machinegun_module
+			}
+			special_type_slot_4 = {
+				tank_machinegun_module
+			}
+		}
+
 		add_stats = {
 			build_cost_ic = 1.5
 			maximum_speed = -0.25
 			breakthrough = 20
 			defense = 10
+			max_strength = 0.9
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -370,6 +407,7 @@ equipment_modules = {
 			build_cost_ic = 1.25
 			reliability = 0.2
 			#defense = 3
+			max_strength = 0.6
 		}
 
 		multiply_stats = {
@@ -395,6 +433,7 @@ equipment_modules = {
 			build_cost_ic = 2.5
 			breakthrough = 18
 			defense = 9
+			max_strength = 0.5
 		}
 
 		multiply_stats = {
@@ -409,6 +448,21 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			special_type_slot_1 = {
+				tank_machinegun_module
+			}
+			special_type_slot_2 = {
+				tank_machinegun_module
+			}
+			special_type_slot_3 = {
+				tank_machinegun_module
+			}
+			special_type_slot_4 = {
+				tank_machinegun_module
+			}
+		}
+
+		allowed_module_categories = {
 			main_armament_slot = {
 				tank_heavy_main_armament
 			}
@@ -419,6 +473,7 @@ equipment_modules = {
 			maximum_speed = -0.25
 			breakthrough = 22
 			defense = 11
+			max_strength = 0.75
 		}
 
 		multiply_stats = {
@@ -448,6 +503,7 @@ equipment_modules = {
 			build_cost_ic = 2
 			reliability = 0.2
 			#defense = 3
+			max_strength = 0.75
 		}
 
 		multiply_stats = {
@@ -464,12 +520,28 @@ equipment_modules = {
 		category = tank_super_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				tank_machinegun_module
+			}
+			special_type_slot_2 = {
+				tank_machinegun_module
+			}
+			special_type_slot_3 = {
+				tank_machinegun_module
+			}
+			special_type_slot_4 = {
+				tank_machinegun_module
+			}
+		}
+
 		add_stats = {
 			build_cost_ic = 6
 			reliability = -0.1
 			maximum_speed = -0.5
 			breakthrough = 35
 			defense = 17.5
+			max_strength = 0.75
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -483,12 +555,28 @@ equipment_modules = {
 		category = tank_super_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				tank_machinegun_module
+			}
+			special_type_slot_2 = {
+				tank_machinegun_module
+			}
+			special_type_slot_3 = {
+				tank_machinegun_module
+			}
+			special_type_slot_4 = {
+				tank_machinegun_module
+			}
+		}
+
 		add_stats = {
 			build_cost_ic = 5
 			reliability = -0.25
 			maximum_speed = -0.2
 			breakthrough = 24
 			defense = 12
+			max_strength = 1.0
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -502,10 +590,26 @@ equipment_modules = {
 		category = tank_modern_turret_type
 		sfx = sfx_ui_sd_module_turret
 
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				tank_machinegun_module
+			}
+			special_type_slot_2 = {
+				tank_machinegun_module
+			}
+			special_type_slot_3 = {
+				tank_machinegun_module
+			}
+			special_type_slot_4 = {
+				tank_machinegun_module
+			}
+		}
+
 		add_stats = {
 			build_cost_ic = 4
 			breakthrough = 24
 			defense = 12
+			max_strength = 0.9
 		}
 		xp_cost = 2
 		multiply_stats = {
@@ -603,7 +707,7 @@ equipment_modules = {
 			soft_attack = 6
 			hard_attack = 2
 			ap_attack = 10
-			air_attack = 16
+			air_attack = 32
 			build_cost_ic = 3
 			reliability = -0.1
 		}
@@ -625,7 +729,7 @@ equipment_modules = {
 			soft_attack = 8
 			hard_attack = 5
 			ap_attack = 20
-			air_attack = 32
+			air_attack = 64
 			build_cost_ic = 4
 			reliability = -0.1
 		}
@@ -650,7 +754,7 @@ equipment_modules = {
 			soft_attack = 10
 			hard_attack = 5
 			ap_attack = 30
-			air_attack = 43
+			air_attack = 86
 			build_cost_ic = 5
 			reliability = -0.1
 		}
@@ -1103,7 +1207,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.5
-			soft_attack = 6
+			soft_attack = 3
 		    hard_attack = 1
 			breakthrough = 3
 			defense = 1.5
@@ -1123,7 +1227,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.58
-			soft_attack = 9
+			soft_attack = 4.5
 		    hard_attack = 1.5
 			breakthrough = 4
 			defense = 2
@@ -1143,7 +1247,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.69
-			soft_attack = 12
+			soft_attack = 6
 		    hard_attack = 2
 			breakthrough = 6
 			defense = 3
@@ -1350,6 +1454,7 @@ equipment_modules = {
 		multiply_stats = {
 			hard_attack = 0.1
 			soft_attack = 0.1
+			air_attack = 0.1
 			breakthrough = -0.05
 			build_cost_ic = 0.1
 		}
@@ -1403,12 +1508,11 @@ equipment_modules = {
 			armor_value = 6
 			breakthrough = 6
 			defense = 3
-			build_cost_ic = 0.7
+			build_cost_ic = 0.5
 		}
 		xp_cost = 1
 		multiply_stats = {
-			
-			
+			maximum_speed = -0.1
 		}
 	}
 
@@ -1433,13 +1537,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 0.25
-			#breakthrough = 4
-			#defense = 4
+			build_cost_ic = 0.8
+			max_strength = -0.4
 		}
 		multiply_stats = {
-			breakthrough = 0.05
-			hard_attack = 0.05
+			breakthrough = 0.15
+			soft_attack = 0.25
+			hard_attack = 0.25
 		}
 		xp_cost = 1
 		

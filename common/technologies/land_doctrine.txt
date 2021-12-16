@@ -51,6 +51,18 @@ technologies = {
 		ai_research_weights = {
 			armor = 4.0
 		}
+
+		enable_equipment_modules = {
+			tank_light_one_man_tank_turret
+			tank_light_two_man_tank_turret
+
+			tank_medium_one_man_tank_turret
+			tank_medium_two_man_tank_turret
+			tank_medium_three_man_tank_turret
+
+			tank_heavy_two_man_tank_turret
+			tank_heavy_three_man_tank_turret
+		}
 	}
 	
 	delay = {
@@ -247,6 +259,12 @@ technologies = {
 			motorized_equipment = 3.0
 			cat_mechanized_equipment = 5.0
 		}
+
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+
+			tank_medium_fixed_superstructure_turret
+		}
 	}
 	
 	mass_motorization = {
@@ -427,6 +445,12 @@ technologies = {
 			armor = 16.0
 			offensive = -1.0
 			cat_mechanized_equipment = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+
+			tank_medium_fixed_superstructure_turret
 		}
 	}
 	
@@ -617,6 +641,10 @@ technologies = {
 		ai_research_weights = {
 			armor = 3.0
 		}
+
+		enable_equipment_modules = {
+			tank_heavy_fixed_superstructure_turret
+		}
 	}
 	
 	firebrigades = { #Branch focused on mobile warfares
@@ -677,6 +705,10 @@ technologies = {
 		
 		ai_research_weights = {
 			armor = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
 		}
 	}
 	
@@ -966,6 +998,14 @@ technologies = {
 		ai_research_weights = {
 			artillery = 4.0
 		}
+
+		enable_equipment_modules = {
+			tank_light_one_man_tank_turret
+			tank_light_two_man_tank_turret
+
+			tank_medium_one_man_tank_turret
+			tank_medium_two_man_tank_turret
+		}
 	}
 	
 	sup_delay = {
@@ -1056,6 +1096,10 @@ technologies = {
 		
 		ai_research_weights = {
 			artillery = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_heavy_two_man_tank_turret
 		}
 	}
 	
@@ -1222,6 +1266,10 @@ technologies = {
 		ai_research_weights = {
 			artillery = 1.0
 		}
+
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+		}
 	}
 	
 	overwhelming_firepower = {
@@ -1337,6 +1385,12 @@ technologies = {
 		
 		ai_research_weights = {
 			artillery = 1.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
 		}
 	}
 	
@@ -1513,6 +1567,14 @@ technologies = {
 		
 		ai_research_weights = {
 			artillery = 1.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+
+			tank_medium_fixed_superstructure_turret
+
+			tank_heavy_fixed_superstructure_turret
 		}
 	}
 	
@@ -1808,6 +1870,14 @@ technologies = {
 		ai_research_weights = {
 			artillery = 1.0
 		}
+
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+
+			tank_medium_fixed_superstructure_turret
+
+			tank_heavy_fixed_superstructure_turret
+		}
 	}
 	
 	
@@ -1855,6 +1925,15 @@ technologies = {
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_one_man_tank_turret
+
+			tank_medium_one_man_tank_turret
+
+			tank_heavy_two_man_tank_turret
+			tank_heavy_three_man_tank_turret
 		}
 	}
 	
@@ -1904,6 +1983,12 @@ technologies = {
 			infantry_weapons = 2.5
 			motorized_equipment = 2.0
 		}
+
+		enable_equipment_modules = {
+			tank_light_two_man_tank_turret
+
+			tank_medium_two_man_tank_turret
+		}
 	}
 	
 
@@ -1951,6 +2036,12 @@ technologies = {
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+
+			tank_medium_fixed_superstructure_turret
 		}
 	}
 	
@@ -2014,6 +2105,10 @@ technologies = {
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
 		}
 	}
 	
@@ -2090,6 +2185,10 @@ technologies = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
 			cat_mechanized_equipment = 1.0
+		}
+
+		enable_equipment_modules = {
+			tank_medium_three_man_tank_turret
 		}
 	}
 	
@@ -2198,6 +2297,10 @@ technologies = {
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
+		}
+
+		enable_equipment_modules = {
+			tank_heavy_fixed_superstructure_turret
 		}
 	}
 	
@@ -2498,6 +2601,10 @@ technologies = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
 		}
+
+		enable_equipment_modules = {
+			tank_medium_three_man_tank_turret
+		}
 	}
 	
 	infiltration_assault = {
@@ -2668,6 +2775,10 @@ technologies = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
 		}
+
+		enable_equipment_modules = {
+			tank_heavy_fixed_superstructure_turret
+		}
 	}
 	
 	infiltration_in_depth = {
@@ -2777,6 +2888,14 @@ technologies = {
 		ai_research_weights = {
 			industry = 2.0
 		}
+
+		enable_equipment_modules = {
+			tank_light_one_man_tank_turret
+			tank_light_two_man_tank_turret
+
+			tank_medium_one_man_tank_turret
+			tank_medium_two_man_tank_turret
+		}
 	}
 	
 	pocket_defence = {
@@ -2818,6 +2937,10 @@ technologies = {
 		
 		ai_research_weights = {
 			industry = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_heavy_two_man_tank_turret
 		}
 	}
 	
@@ -2866,6 +2989,10 @@ technologies = {
 		
 		ai_research_weights = {
 			industry = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
 		}
 	}
 	
@@ -2941,6 +3068,8 @@ technologies = {
 		ai_research_weights = {
 			industry = 2.0
 		}
+
+		
 	}
 	
 	deep_operations = {
@@ -2996,6 +3125,10 @@ technologies = {
 		
 		ai_research_weights = {
 			industry = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_heavy_three_man_tank_turret
 		}
 	}
 	
@@ -3114,6 +3247,12 @@ technologies = {
 		
 		ai_research_weights = {
 			industry = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+
+			tank_medium_fixed_superstructure_turret
 		}
 	}
 	
@@ -3284,6 +3423,10 @@ technologies = {
 			industry = 2.0
 			cat_mechanized_equipment = 3.0
 		}
+
+		enable_equipment_modules = {
+			tank_medium_three_man_tank_turret
+		}
 	}
 	
 	continuous_offensive = {
@@ -3332,6 +3475,10 @@ technologies = {
 		
 		ai_research_weights = {
 			industry = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_heavy_fixed_superstructure_turret
 		}
 	}
 	
@@ -3590,6 +3737,10 @@ technologies = {
 		
 		ai_research_weights = {
 			industry = 2.0
+		}
+
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
 		}
 	}
 	
