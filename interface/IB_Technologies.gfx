@@ -90,6 +90,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/night_vision3.dds"
 	}
 
+	#tank_module_tech_tree
 	spriteType = {
 		name = "GFX_suspension_tech_1_medium"
 		textureFile = "gfx/interface/technologies/suspension_1.dds"
