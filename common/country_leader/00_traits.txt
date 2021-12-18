@@ -4911,7 +4911,7 @@ leader_traits = {
 	army_chief_reform_1 = { # Rate at which field experience is gained increases by 5%
 		sprite = 5
 		#experience_gain_army_factor = 0.05
-		experience_gain_army = 0.012
+		experience_gain_army = 0.12
 		
 		command_cap = @tier1
 		
@@ -4923,7 +4923,7 @@ leader_traits = {
 	army_chief_reform_2 = { # Rate at which field experience is gained increases by 10%
 		sprite = 5
 		#experience_gain_army_factor = 0.1
-		experience_gain_army = 0.016
+		experience_gain_army = 0.16
 		
 		command_cap = @tier2
 		
@@ -4935,7 +4935,7 @@ leader_traits = {
 	army_chief_reform_3 = { # Rate at which field experience is gained increases by 15%
 		sprite = 5
 		#experience_gain_army_factor = 0.15
-		experience_gain_army = 0.020
+		experience_gain_army = 0.20
 		
 		command_cap = @tier3
 		
@@ -5456,7 +5456,7 @@ leader_traits = {
 	
 	air_chief_reform_1 = {  # Rate at which air experience is gained increases by 5%
 		sprite = 1
-		experience_gain_air = 0.012
+		experience_gain_air = 0.12
 		
 		command_cap = @tier1
 		
@@ -5467,7 +5467,7 @@ leader_traits = {
 	
 	air_chief_reform_2 = {  # Rate at which air experience is gained increases by 10%
 		sprite = 1
-		experience_gain_air = 0.016
+		experience_gain_air = 0.16
 		
 		command_cap = @tier2
 
@@ -5478,7 +5478,7 @@ leader_traits = {
 	
 	air_chief_reform_3 = {  # Rate at which air experience is gained increases by 15%
 		sprite = 1
-		experience_gain_air = 0.020
+		experience_gain_air = 0.20
 		
 		command_cap = @tier3
 		
@@ -6156,7 +6156,7 @@ leader_traits = {
 	
 	navy_chief_reform_1 = {
 		sprite = 3
-		experience_gain_navy = 0.012
+		experience_gain_navy = 0.12
 		
 		command_cap = @tier1
 		
@@ -6167,7 +6167,7 @@ leader_traits = {
 	
 	navy_chief_reform_2 = {
 		sprite = 3
-		experience_gain_navy = 0.016
+		experience_gain_navy = 0.16
 		
 		command_cap = @tier2
 		
@@ -6178,7 +6178,7 @@ leader_traits = {
 	
 	navy_chief_reform_3 = {
 		sprite = 3
-		experience_gain_navy = 0.020
+		experience_gain_navy = 0.20
 		
 		command_cap = @tier3
 		
