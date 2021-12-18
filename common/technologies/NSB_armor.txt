@@ -126,9 +126,9 @@ technologies = {
 			light_tank_aa_chassis_1
 			
 		}
-		#enable_equipment_modules = {
-		#	tank_light_one_man_tank_turret
-		#}
+		enable_equipment_modules = {
+			tank_light_one_man_tank_turret
+		}
 		enable_subunits = {
 			light_armor
 		}
@@ -211,10 +211,10 @@ technologies = {
 			
 		}
 
-		#enable_equipment_modules = {
-		#	tank_light_two_man_tank_turret
-		#	tank_light_fixed_superstructure_turret
-		#}
+		enable_equipment_modules = {
+			tank_light_two_man_tank_turret
+			tank_light_fixed_superstructure_turret
+		}
 
 		path = {
 			leads_to_tech = advanced_light_tank_chassis
@@ -415,9 +415,9 @@ technologies = {
 			
 		}
 
-		#enable_equipment_modules = {
-		#	tank_light_three_man_tank_turret
-		#}
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+		}
 
 		path = {
 			leads_to_tech = main_battle_tank_chassis
@@ -471,10 +471,10 @@ technologies = {
 			
 		}
 
-		#enable_equipment_modules = {
-		#	tank_medium_one_man_tank_turret
-		#	tank_medium_two_man_tank_turret
-		#}
+		enable_equipment_modules = {
+			tank_medium_one_man_tank_turret
+			tank_medium_two_man_tank_turret
+		}
 
 		enable_subunits = {
 			medium_armor
@@ -585,10 +585,10 @@ technologies = {
 			
 		}
 
-		#enable_equipment_modules = {
-		#	tank_medium_three_man_tank_turret
-		#	tank_medium_fixed_superstructure_turret
-		#}
+		enable_equipment_modules = {
+			tank_medium_three_man_tank_turret
+			tank_medium_fixed_superstructure_turret
+		}
 
 		path = {
 			leads_to_tech = advanced_medium_tank_chassis
@@ -756,9 +756,9 @@ technologies = {
 			heavy_tank_aa_chassis_1
 		}
 
-		#enable_equipment_modules = {
-		#	tank_heavy_two_man_tank_turret
-		#}
+		enable_equipment_modules = {
+			tank_heavy_two_man_tank_turret
+		}
 
 		enable_subunits = {
 			heavy_armor
@@ -847,10 +847,10 @@ technologies = {
 			
 		}
 
-		#enable_equipment_modules = {
-		#	tank_heavy_three_man_tank_turret
-		#	tank_heavy_fixed_superstructure_turret
-		#}
+		enable_equipment_modules = {
+			tank_heavy_three_man_tank_turret
+			tank_heavy_fixed_superstructure_turret
+		}
 		
 
 		path = {
