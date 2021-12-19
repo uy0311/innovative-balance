@@ -112,6 +112,11 @@ equipments = {
 			module = additional_machine_guns
 			count < 3
 		}
+
+		module_count_limit = {
+			category = tank_machinegun_module
+			count < 2
+		}
 		 
 		default_modules = {
 			main_armament_slot = empty
@@ -491,7 +496,7 @@ equipments = {
 	    }
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 2 #two secondary turrets only
+			count < 2 
 		}
 		module_count_limit = {
 			module = amphibious_drive
@@ -536,6 +541,11 @@ equipments = {
 		module_count_limit = {
 			module = additional_machine_guns
 			count < 3
+		}
+
+		module_count_limit = {
+			category = tank_machinegun_module
+			count < 2
 		}
 		 
 		default_modules = {
@@ -1024,6 +1034,11 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_secondary_turret
+			count < 2
+		}
+
+		module_count_limit = {
+			category = tank_machinegun_module
 			count < 2
 		}
 		 
@@ -1558,6 +1573,11 @@ equipments = {
 			module = additional_machine_guns
 			count < 3
 		}
+
+		module_count_limit = {
+			category = tank_machinegun_module
+			count < 2
+		}
 		 
 
 		default_modules = {
@@ -1744,6 +1764,11 @@ equipments = {
 		module_count_limit = {
 			module = additional_machine_guns
 			count < 3
+		}
+
+		module_count_limit = {
+			category = tank_machinegun_module
+			count < 2
 		}
 		 
 		default_modules = {
@@ -1933,6 +1958,11 @@ equipments = {
 		module_count_limit = {
 			module = additional_machine_guns
 			count < 3
+		}
+
+		module_count_limit = {
+			category = tank_machinegun_module
+			count < 2
 		}
 		 
 
