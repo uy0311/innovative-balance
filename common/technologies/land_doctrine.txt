@@ -57,7 +57,7 @@ technologies = {
 
 		xp_research_type = army
 		xp_unlock_cost = 100
-		
+
 		category_all_infantry = {
 			max_organisation = 15
 		}
@@ -70,6 +70,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
+		}
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -204,7 +209,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+			tank_medium_fixed_superstructure_turret
+			tank_heavy_fixed_superstructure_turret
+		}
+
 		doctrine = yes	
 		research_cost = 5.0
 
@@ -391,6 +401,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+			tank_medium_fixed_superstructure_turret
+			tank_heavy_fixed_superstructure_turret
+		}
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -1075,6 +1090,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
+		}
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -1186,7 +1206,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
+		}
+
 		doctrine = yes	
 		research_cost = 5.0
 		
@@ -1478,6 +1503,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+			tank_medium_fixed_superstructure_turret
+			tank_heavy_fixed_superstructure_turret
+		}
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -1724,6 +1754,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+			tank_medium_fixed_superstructure_turret
+			tank_heavy_fixed_superstructure_turret
+		}
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -1869,6 +1904,12 @@ technologies = {
 		
 		#planning max bonus increase
 		max_planning = 0.3
+
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+			tank_medium_fixed_superstructure_turret
+			tank_heavy_fixed_superstructure_turret
+		}
 
 		doctrine = yes	
 		research_cost = 5.0
@@ -2110,6 +2151,12 @@ technologies = {
 		path = {
 			leads_to_tech = branch_interoperation 
 			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
 		}
 
 		doctrine = yes	
@@ -2460,6 +2507,12 @@ technologies = {
 		path = {
 			leads_to_tech = infiltration_assault 
 			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
 		}
 
 		doctrine = yes	
@@ -3024,6 +3077,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+			tank_medium_fixed_superstructure_turret
+			tank_heavy_fixed_superstructure_turret
+		}
+		
 		doctrine = yes	
 		research_cost = 5.0
 		
@@ -3145,6 +3204,12 @@ technologies = {
 		path = {
 			leads_to_tech = mechanized_wave
 			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
 		}
 
 		doctrine = yes	
@@ -3473,6 +3538,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipment_modules = {
+			tank_light_fixed_superstructure_turret
+			tank_medium_fixed_superstructure_turret
+			tank_heavy_fixed_superstructure_turret
+		}
+
 		doctrine = yes	
 		research_cost = 5.0
 		
@@ -3565,6 +3636,12 @@ technologies = {
 		
 		enable_tactic = tactic_guerrilla_tactics
 		
+		enable_equipment_modules = {
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
+		}
+
 		doctrine = yes	
 		research_cost = 5.0
 		
