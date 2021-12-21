@@ -70,6 +70,45 @@
  tank_radio_3_desc:0 "戦車中隊、あるいは大隊の指揮官が搭乗する戦車車両向けにより強力な電波を発信し、安定した通信が可能な無線機は戦闘中の自軍部隊をより効率的に統括することができるだろう。"
  additional_machine_guns:0 "固定式機関銃"
  additional_machine_guns_desc:0 "戦車砲塔、もしくは車体前面に通常の歩兵部隊が使用する機関銃を搭載する事により、周囲への掃射や簡易的な対歩兵戦闘への力を得る事が出来る。"
+ EQ_MOD_CAT_tank_small_main_armament_TITLE:0 "小型砲"
+ EQ_MOD_CAT_tank_medium_main_armament_TITLE:0 "中型砲"
+ EQ_MOD_CAT_tank_heavy_main_armament_TITLE:0 "大型砲"
+ EQ_MOD_CAT_tank_flamethrower_TITLE:0 "機関砲・火炎放射器"
+ EQ_MOD_CAT_tank_super_heavy_main_armament_TITLE:0 "超大型砲"
+ tank_heavy_cannon:0 "基本型大口径砲"
+ tank_heavy_cannon_2:0 "改良型大口径砲"
+ tank_heavy_cannon_3:1 "発展型大口径砲"
+ tank_super_heavy_cannon:0 "超大口径砲"
+ EQ_MOD_CAT_tank_light_turret_type_C1_TITLE:0 "中口径砲用固定砲塔"
+ tank_light_fixed_superstructure_turret_1:0 "中口径砲用固定砲塔"
+ tank_light_fixed_superstructure_turret_1_desc:0 "中口径砲用固定砲塔"
+ 
+ EQ_MOD_CAT_tank_medium_turret_type_C1_TITLE:0 "大口径砲用固定砲塔"
+ tank_medium_fixed_superstructure_turret_1:0 "大口径砲用固定砲塔"
+ tank_medium_fixed_superstructure_turret_1_desc:0 "大口径砲用固定砲塔"
+ 
+ EQ_MOD_CAT_tank_medium_turret_type_C2_TITLE:0 "超大口径砲用固定砲塔"
+ tank_medium_fixed_superstructure_turret_2:0 "超大口径砲用固定砲塔"
+ tank_medium_fixed_superstructure_turret_2_desc:0 "超大口径砲用固定砲塔"
+ 
+ EQ_MOD_CAT_tank_heavy_turret_type_C1_TITLE:0 "超大口径砲用固定砲塔"
+ tank_heavy_fixed_superstructure_turret_1:0 "超大口径砲用固定砲塔"
+ tank_heavy_fixed_superstructure_turret_1_desc:0 "超大口径砲用固定砲塔"
+
+###追加火砲技術###
+ artillery5:0 "発展型野戦砲改良 I"
+ artillery5_desc:0 "全高を低くした設計の砲は、敵が標的にするのをより困難にさせる。"
+ artillery6:0 "発展型野戦砲改良 II"
+ artillery6_desc:0 "全高を低くした設計の砲は、敵が標的にするのをより困難にさせる。"
+ rocket_artillery5:0 "ロケット砲改良 III"
+ rocket_artillery5_desc:0 "旋回安定ロケットは軽砲兵隊の射程を上昇させることができる。"
+ antiair6:0 "発展型対空砲改善"
+ antiair6_desc:0 "最新のレーダー装置と統合された電算機と自動装填装置は、より速い航空機に対抗するため必要となる。"
+ antitank6:0 "発展型対戦車砲改善"
+ antitank6_desc:0 "低抵抗の風防を弾頭の先端に取り付けることによって、距離が離れても弾速を維持できるようになる。"
+
+ ###海軍###
+ ship_hull_cruiser_submarine_desc:0 "大型で航続力・居住性などに優れ、遠方の外洋に進出して長期間の行動が可能な潜水艦である。"
 
  ###航空機企業###
  CAS_manufacturer:0 "対地攻撃重視の設計社"
