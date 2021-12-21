@@ -235,7 +235,7 @@ guiTypes = {
 				name = "regiments_grid"
 				position = { x = 115 y = 57 }
 				size = { width = 445 height = 100%% }
-				slotsize = { width = 82 height = 51 }
+				slotsize = { width = 70 height = 51 } #大隊縦列の幅
 				format = "UPPER_LEFT"
 			}
 		}
@@ -1053,6 +1053,8 @@ guiTypes = {
 				position = { x=5 y=235}	
 				size = { width=533 height=176 }
 				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 42
+				smooth_scrolling = yes
 				
 				background = {
 					name = "Background"
@@ -1096,8 +1098,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "designer_division_regiment_slot_entry"
-		position = { x=0 y=0}	
-		size = { width=76 height=53 }
+		position = { x = -10 y = 0 }	#大隊ウィンドウの位置
+		size = { width=65 height=53 } #大隊ウィンドウの当たり判定?(画像ファイルの解像度と同じにする)
 		clipping = no
 
 		background = {
@@ -1107,27 +1109,27 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 9 y = 22 }
+			position = { x = 0 y = 22 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
-			maxWidth = 65
+			maxWidth = 60
 			maxHeight = 20
 			format = centre
 		}			
 
-		buttonType = {
+		buttonType = { #師団テンプレ画面の大隊画像位置
 			name = "unit_icon"
-			position = { x = 1 y = 10 }
+			position = { x = -5 y = 10 }
 			spriteType = "GFX_locked_icon"
 			Orientation = CENTER_LOWER
 			clicksound = click_default
 		}
 
-		buttonType = {
+		buttonType = { #大隊新規追加可能を表すプラスのアイコン画像位置
 			name = "invisible_icon"
-			position = { x = 1 y = 12 }
+			position = { x = -5 y = 12 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			clicksound = click_default
@@ -1157,7 +1159,7 @@ guiTypes = {
 			format = centre
 		}
 	
-		buttonType = {
+		buttonType = { #支援中隊アイコン画像位置
 			name = "unit_icon"
 			spriteType = "GFX_locked_icon"
 			position = {x=2 y=20}
@@ -1187,8 +1189,8 @@ guiTypes = {
 			clicksound = click_default
 		}
 
-		iconType = {
-			name ="subunit_icon"
+		iconType = { #大隊編制区分のアイコン画像位置(戦車・歩兵・自動車)
+			name ="subunit_icon" 
 			spriteType = "GFX_technology_medium"
 			position = { x=9 y=17 }
 			alwaystransparent = yes
@@ -1232,7 +1234,7 @@ guiTypes = {
 			clicksound = click_default
 		}
 
-		iconType = {
+		iconType = { #大隊種類アイコン画像位置(歩兵区分の中の山岳、海兵、空挺…のやつ)
 			name ="subunit_icon"
 			spriteType = "GFX_technology_medium"
 			position = { x=9 y=17 }
