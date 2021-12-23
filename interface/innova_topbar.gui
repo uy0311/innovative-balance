@@ -1,0 +1,205 @@
+guiTypes = {
+
+	#IB_topbar_factory_1
+	containerWindowType = {
+		name = "IB_civ_ui_window"
+		position = { x= 1057 y = 6}
+		clipping = no
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name = "IB_name_civ_fac_icon"
+			spriteType = "GFX_IB_civ_fac"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_mil_fac_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_CIV_FAC_VAL"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent=yes
+		}
+	}
+
+	#IB_topbar_factory_2
+	containerWindowType = {
+		name = "IB_mil_ui_window"
+		position = { x= 1129 y = 6}
+		clipping = no
+		# size = { width=50 height=24 }
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name ="IB_name_mil_fac_icon"
+			spriteType = "GFX_IB_mil_fac"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_mil_fac_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_MIL_FAC_VAL"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent=yes
+		}
+	}
+
+	#IB_topbar_factory_3
+	containerWindowType = {
+		name = "IB_dockyard_ui_window"
+		position = { x= 1201 y = 6}
+		clipping = no
+		# size = { width=50 height=24 }
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name ="IB_name_dockyard_icon"
+			spriteType = "GFX_IB_dockyard"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_dockyard_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_NAV_FAC_VAL"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent=yes
+		}
+	}
+	
+	#IB_number_of_divison
+	containerWindowType = {
+		name = "IB_divison_ui_window"
+		position = { x= 1305 y = 6}
+		clipping = no
+		# size = { width=50 height=24 }
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name ="IB_name_divison_icon"
+			spriteType = "GFX_IB_divison"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_divison_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_NUM_OF_DIV"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent=yes
+		}
+	}
+
+	#IB_number_of_deployment_planes
+	containerWindowType = {
+		name = "IB_planes_ui_window"
+		position = { x= 1377 y = 6}
+		clipping = no
+		# size = { width=50 height=24 }
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name ="IB_name_planes_icon"
+			spriteType = "GFX_IB_planes"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_planes_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_NUM_OF_DEP_PLA"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent=yes
+		}
+	}
+
+	#IB_number_of_ships
+	containerWindowType = {
+		name = "IB_ships_ui_window"
+		position = { x= 1449 y = 6}
+		clipping = no
+		# size = { width=50 height=24 }
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name ="IB_name_planes_icon"
+			spriteType = "GFX_IB_ships"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_ships_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_NUM_OF_SHIP"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent=yes
+		}
+	}
+}
