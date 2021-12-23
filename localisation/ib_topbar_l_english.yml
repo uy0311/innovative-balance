@@ -3,5 +3,5 @@
  IB_MIL_FAC_VAL:0 "[?ROOT.num_of_military_factories|0]"
  IB_NAV_FAC_VAL:0 "[?ROOT.num_of_naval_factories|0]"
  IB_NUM_OF_DIV:0 "[?ROOT.num_divisions|0]"
- IB_NUM_OF_DEP_PLA:0 "[?ROOT.num_deployed_planes|§*0]"
+ IB_NUM_OF_DEP_PLA:0 "[?ROOT.num_deployed_planes|0]"
  IB_NUM_OF_SHIP:0 "[?ROOT.num_ships|0]"
