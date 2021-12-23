@@ -1,0 +1,27 @@
+scripted_gui = {
+
+	IB_civ_ui = {
+		window_name = "IB_civ_ui_window"
+	}
+	
+	IB_mil_ui = {
+		window_name = "IB_mil_ui_window"
+	}
+
+	IB_dockyard = {
+		window_name = "IB_dockyard_ui_window"
+	}
+
+	IB_divison = {
+		window_name = "IB_divison_ui_window"
+	}
+
+	IB_planes = {
+		window_name = "IB_planes_ui_window"
+	}
+
+	IB_ships = {
+		window_name = "IB_ships_ui_window"
+	}
+}
+

@@ -296,7 +296,7 @@ guiTypes = {
 			maxHeight = 24
 			fixedsize = yes
 		}
-		}		
+		}
 		
 		iconType ={
 			name ="command_power_value_bg"

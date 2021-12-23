@@ -200,8 +200,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tankradio_2.dds"
 	}
 
-##technologies
-
+    #technologies
 	spriteType = {
 		name = "GFX_antiair6_medium"
 		textureFile = "gfx/interface/technologies/antiair6.dds"
@@ -222,4 +221,40 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/antitank6.dds"
 	}
 
+	#topbar
+	spriteType = {
+		name = "GFX_IB_civ_fac"
+		texturefile = "gfx/texticons/IB_civ_fac_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_mil_fac"
+		texturefile = "gfx/texticons/IB_mil_fac_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_dockyard"
+		texturefile = "gfx/texticons/IB_dockyard_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_divison"
+		texturefile = "gfx/texticons/IB_divison_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_planes"
+		texturefile = "gfx/texticons/IB_planes_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_ships"
+		texturefile = "gfx/texticons/IB_ships_20x20.dds"
+		legacy_lazy_load = no
+	}
 }
