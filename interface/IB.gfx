@@ -257,4 +257,16 @@ spriteTypes = {
 		texturefile = "gfx/texticons/IB_ships_20x20.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = { #resouces_background
+		name = "GFX_ib_bg_half"
+		texturefile = "gfx/interface/ib_background_extended_half.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = { #resouces_botton
+		name = "GFX_ib_res_icon"
+		texturefile = "gfx/interface/ib_res_botton_icon.dds"
+		legacy_lazy_load = no
+	}
 }
