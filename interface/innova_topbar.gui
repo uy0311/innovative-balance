@@ -223,7 +223,7 @@ guiTypes = {
 	#IB_resouces_background
 	containerWindowType = {
 		name = "ib_topbar_half_ui_window"
-		position = { x=845 y=40 }
+		position = { x=905 y=42 }
 		moveable = yes
 		Orientation = UPPER_LEFT
 

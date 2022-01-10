@@ -225,9 +225,9 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "support_grid"
-				position = { x = 25 y = 56 }
+				position = { x = 25 y = 47 }
 				size = { width = 85 height = 100%% }
-				slotsize = { width = 66 height = 41 }
+				slotsize = { width = 50 height = 37 }
 				format = "UPPER_LEFT"
 			}
 			
