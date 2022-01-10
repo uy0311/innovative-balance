@@ -1488,6 +1488,9 @@ equipment_modules = {
 		category = tank_secondary_turret
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = flame
 
 		add_stats = {
 			build_cost_ic = 0.5
@@ -1509,6 +1512,9 @@ equipment_modules = {
 		category = tank_secondary_turret
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = flame
 
 		add_stats = {
 			soft_attack = 10
