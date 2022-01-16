@@ -157,9 +157,10 @@
 
  ###陸軍研究速度バフ###
  cat_anti_tank_research:0 "対戦車砲研究速度"
- cat_light_armor_research:0 "軽戦車研究速度"
- cat_medium_armor_research:0 "中戦車研究速度"
- cat_heavy_armor_research:0 "重戦車研究速度"
+ cat_anti_air_research:0 "対空砲研究速度"
+ cat_light_armor_research:0 "軽車体研究速度"
+ cat_medium_armor_research:0 "中車体研究速度"
+ cat_heavy_armor_research:0 "重車体研究速度"
  tp_tech_research:0 "上陸用装備研究速度"
 
  ###空軍NFツリー###
