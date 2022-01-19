@@ -215,25 +215,6 @@ equipment_modules = {
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_2 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-		}
-
 		add_stats = {
 			build_cost_ic = 0.25
 			breakthrough = 7
@@ -251,25 +232,6 @@ equipment_modules = {
 		abbreviation = "l2m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_2 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-		}
 
 		add_stats = {
 			build_cost_ic = 0.375
@@ -292,19 +254,15 @@ equipment_modules = {
 		allowed_module_categories = {
 			special_type_slot_1 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_2 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_3 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_4 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 		}
 
@@ -393,25 +351,6 @@ equipment_modules = {
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_2 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-		}
-
 		add_stats = {
 			build_cost_ic = 0.5
 			breakthrough = 10
@@ -431,25 +370,6 @@ equipment_modules = {
 		abbreviation = "m2m"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_2 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-		}
 
 		add_stats = {
 			build_cost_ic = 0.75
@@ -471,19 +391,15 @@ equipment_modules = {
 		allowed_module_categories = {
 			special_type_slot_1 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_2 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_3 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_4 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 		}
 
@@ -605,25 +521,6 @@ equipment_modules = {
 		category = tank_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_2 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-				tank_coaxial_module
-			}
-		}
-
 		xp_cost = 0#2
 		add_stats = {
 			build_cost_ic = 2.5
@@ -646,19 +543,15 @@ equipment_modules = {
 		allowed_module_categories = {
 			special_type_slot_1 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_2 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_3 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_4 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 		}
 
@@ -751,19 +644,15 @@ equipment_modules = {
 		allowed_module_categories = {
 			special_type_slot_1 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_2 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_3 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_4 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 		}
 
@@ -790,19 +679,15 @@ equipment_modules = {
 		allowed_module_categories = {
 			special_type_slot_1 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_2 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_3 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_4 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 		}
 
@@ -829,19 +714,15 @@ equipment_modules = {
 		allowed_module_categories = {
 			special_type_slot_1 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_2 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_3 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 			special_type_slot_4 = {
 				tank_commander_module
-				tank_coaxial_module
 			}
 		}
 
@@ -883,6 +764,10 @@ equipment_modules = {
 		category = tank_flamethrower
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = flame
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		forbid_equipment_type = anti_tank
+
 
 		add_stats = {
 			soft_attack = 5

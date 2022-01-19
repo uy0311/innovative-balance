@@ -58,6 +58,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -113,6 +114,14 @@ equipments = {
 
         module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_commander_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
 			count < 2
 		}
 		module_count_limit = {
@@ -213,6 +222,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -279,6 +289,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 					
 					
 				}
@@ -293,6 +304,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -357,6 +369,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -369,6 +382,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -381,6 +395,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -450,6 +465,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -462,6 +478,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -474,6 +491,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -486,6 +504,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -557,6 +576,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -569,6 +589,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 			
@@ -625,6 +646,14 @@ equipments = {
 
         module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_commander_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
 			count < 2
 		}
 		module_count_limit = {
@@ -723,6 +752,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 			
@@ -735,6 +765,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -807,6 +838,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 			
@@ -819,6 +851,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -831,6 +864,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -895,6 +929,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -907,6 +942,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -919,6 +955,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 			
@@ -931,6 +968,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -1001,6 +1039,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1013,6 +1052,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1025,6 +1065,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 			
@@ -1037,6 +1078,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -1106,6 +1148,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1118,6 +1161,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1130,6 +1174,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -1185,6 +1230,14 @@ equipments = {
 
         module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_commander_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
 			count < 2
 		}
 		module_count_limit = {
@@ -1285,6 +1338,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1297,6 +1351,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1309,6 +1364,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -1379,6 +1435,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1391,6 +1448,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1403,6 +1461,8 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1415,6 +1475,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -1479,6 +1540,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1491,6 +1553,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1503,6 +1566,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1515,6 +1579,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -1587,6 +1652,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1599,6 +1665,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1611,6 +1678,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1623,6 +1691,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -1695,6 +1764,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1707,6 +1777,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1719,6 +1790,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1731,6 +1803,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1786,6 +1859,14 @@ equipments = {
 
         module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_commander_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
 			count < 2
 		}
 		module_count_limit = {
@@ -1907,6 +1988,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1919,6 +2001,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1931,6 +2014,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1943,6 +2027,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -1998,6 +2083,14 @@ equipments = {
 
         module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_commander_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
 			count < 2
 		}
 		module_count_limit = {
@@ -2116,6 +2209,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -2128,6 +2222,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -2140,6 +2235,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 
@@ -2152,6 +2248,7 @@ equipments = {
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
+					tank_coaxial_module
 				}
 			}
 		}
@@ -2207,6 +2304,14 @@ equipments = {
 
         module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_commander_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
 			count < 2
 		}
 		module_count_limit = {
