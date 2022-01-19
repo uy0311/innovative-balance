@@ -4315,7 +4315,7 @@ leader_traits = {
 		equipment_bonus = {
 			armor = {
 				soft_attack = 0.1
-				armor_value = 0.05
+				armor_value = 0.1
 				maximum_speed = -0.1
 			}
 			light_tank_destroyer_chassis = {
@@ -4373,7 +4373,7 @@ leader_traits = {
 		equipment_bonus = {
 			armor = {
 				hard_attack = 0.10
-				armor_value = 0.10
+				armor_value = 0.15
 			}
 			light_tank_destroyer_chassis = {
 				reliability = 0.1

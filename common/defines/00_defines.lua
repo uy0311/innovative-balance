@@ -849,8 +849,8 @@ NMilitary = {
 	ARMOR_VS_AVERAGE = 0.3,			                -- how to weight in highest armor & pen vs the division average
 	PEN_VS_AVERAGE = 0.4,
 
-	LAND_EQUIPMENT_BASE_COST = 10,					-- Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
-	LAND_EQUIPMENT_RAMP_COST = 5,
+	LAND_EQUIPMENT_BASE_COST = 3,					-- Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
+	LAND_EQUIPMENT_RAMP_COST = 2,
 	NAVAL_EQUIPMENT_BASE_COST = 25,
 	NAVAL_EQUIPMENT_RAMP_COST = 5,
 	AIR_EQUIPMENT_BASE_COST = 25,

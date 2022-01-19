@@ -1147,7 +1147,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "armor_tech_1_tree"
-				position = { x = 41% y = 172 }
+				position = { x = 43% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1171,7 +1171,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tankammo_tech_1_tree"
-				position = { x = 31% y = 172 }
+				position = { x = 39% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1179,14 +1179,14 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "cannon_tech_1_tree"
-				position = { x = 38% y = 172 }
+				position = { x = 39% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
-				name = "tankradio_tree"
+				name = "tankother_tree"
 				position = { x = 24% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
