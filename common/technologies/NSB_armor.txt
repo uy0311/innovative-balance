@@ -978,16 +978,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_1_tt
-		}
-		show_effect_as_desc = yes
+		#on_research_complete = {
+		#	custom_effect_tooltip = armor_tech_1_tt
+		#}
+		#show_effect_as_desc = yes
 
 		research_cost = 1
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 2 y = @1936 }
 		}
 
 		ai_will_do = {
@@ -1033,9 +1033,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_2_tt
-		}
+		#on_research_complete = {
+		#	custom_effect_tooltip = armor_tech_2_tt
+		#}
 		show_effect_as_desc = yes
 
 		research_cost = 1
@@ -1089,9 +1089,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_3_tt
-		}
+		#on_research_complete = {
+		#	custom_effect_tooltip = armor_tech_3_tt
+		#}
 		show_effect_as_desc = yes
 
 		research_cost = 1
@@ -1147,10 +1147,10 @@ technologies = {
 			spare_tracks
 		}
 
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_4_tt
-		}
-		show_effect_as_desc = yes
+		#on_research_complete = {
+		#	custom_effect_tooltip = armor_tech_4_tt
+		#}
+		#show_effect_as_desc = yes
 
 		ai_will_do = {
 			factor = 1
@@ -1489,7 +1489,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1936 }
+			position = { x = 1 y = @1936 }
 		}
 
 		enable_equipment_modules = {
@@ -1514,7 +1514,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = 4 }
+			position = { x = 1 y = 4 }
 		}
 
 		enable_equipment_modules = {
@@ -1597,7 +1597,7 @@ technologies = {
 		}
 	}
 
-	tankradio = {
+	tankother = {
 		research_cost = 0.5
 		start_year = 1936
 		folder = {
@@ -1610,17 +1610,16 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = tankradio_2
+			leads_to_tech = tankother_2
 			research_cost_coeff = 1
 		}
 
 		categories = {
 			armor
-			electronics
 		}
 	}
 
-	tankradio_2 = {
+	tankother_2 = {
 		research_cost = 0.5
 		start_year = 1936
 		folder = {
@@ -1632,16 +1631,15 @@ technologies = {
 			equipment_for_engineers
 		}
 		path = {
-			leads_to_tech = tankradio_3
+			leads_to_tech = tankother_3
 			research_cost_coeff = 1
 		}
 		categories = {
 			armor
-			electronics
 		}
 	}
 
-	tankradio_3 = {
+	tankother_3 = {
 		research_cost = 0.5
 		start_year = 1936
 		folder = {
@@ -1655,7 +1653,6 @@ technologies = {
 
 		categories = {
 			armor
-			electronics
 		}
 	}
 }

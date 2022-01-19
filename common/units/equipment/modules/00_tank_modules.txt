@@ -217,15 +217,19 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_2 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_3 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_4 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 		}
@@ -250,15 +254,19 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_2 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_3 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_4 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 		}
@@ -387,15 +395,19 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_2 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_3 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_4 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 		}
@@ -422,15 +434,19 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_2 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_3 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_4 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 		}
@@ -591,15 +607,19 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_2 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_3 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 			special_type_slot_4 = {
+				tank_commander_module
 				tank_coaxial_module
 			}
 		}
