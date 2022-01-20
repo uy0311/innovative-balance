@@ -230,6 +230,7 @@ ideas = {
 		mobile_warfare_army_spirit = {
 			available = { has_tech = mobile_warfare }
 			ledger = army
+			cost = 10
 			modifier = {
 
 				experience_gain_motorized_combat_factor = 0.1
@@ -253,6 +254,7 @@ ideas = {
 		superior_firepower_army_spirit = {
 			available = { has_tech = superior_firepower  }
 			ledger = army
+			cost = 10
 			modifier = {
 				experience_gain_artillery_combat_factor = 0.1
 				unit_infantry_design_cost_factor = -1
@@ -272,6 +274,7 @@ ideas = {
 		grand_battleplan_army_spirit = {
 			available = { has_tech = trench_warfare }
 			ledger = army
+			cost = 10
 			modifier = {
 				unit_marine_design_cost_factor = -1
 				unit_mountaineers_design_cost_factor = -1
@@ -289,6 +292,7 @@ ideas = {
 		mass_assault_army_spirit = {
 			ledger = army
 			available = { has_tech = mass_assault }
+			cost = 10
 			modifier = {
 				experience_gain_infantry_combat_factor = 0.1
 				unit_infantry_design_cost_factor = -1
