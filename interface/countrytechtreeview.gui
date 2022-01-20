@@ -1162,14 +1162,6 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "suspension_tech_1_tree"
-				position = { x = -43% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
 				name = "tankammo_tech_1_tree"
 				position = { x = 39% y = 172 }
 				size = { width = 80% height = 80% }
