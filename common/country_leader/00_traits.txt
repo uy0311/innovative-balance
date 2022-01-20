@@ -3916,7 +3916,7 @@ leader_traits = {
 	
 	military_theorist = {
 		sprite = 14
-		land_doctrine_cost_factor = -0.2
+		land_doctrine_cost_factor = -0.15
 		
 		ai_will_do = {
 			factor = 500
@@ -3925,7 +3925,7 @@ leader_traits = {
 	
 	mobile_warfare_expert = { 
 		sprite = 14
-		cat_mobile_warfare_cost_factor = -0.3
+		cat_mobile_warfare_cost_factor = -0.25
 		
 		ai_will_do = {
 			factor = 500
@@ -3934,7 +3934,7 @@ leader_traits = {
 	
 	superior_firepower_expert = {
 		sprite = 14
-		cat_superior_firepower_cost_factor = -0.3
+		cat_superior_firepower_cost_factor = -0.25
 		
 		ai_will_do = {
 			factor = 500
@@ -3943,7 +3943,7 @@ leader_traits = {
 	
 	grand_battle_plan_expert = {
 		sprite = 14
-		cat_grand_battle_plan_cost_factor = -0.3
+		cat_grand_battle_plan_cost_factor = -0.25
 		
 		ai_will_do = {
 			factor = 500
@@ -3952,7 +3952,7 @@ leader_traits = {
 	
 	mass_assault_expert = {
 		sprite = 14
-		cat_mass_assault_cost_factor = -0.3
+		cat_mass_assault_cost_factor = -0.25
 		
 		ai_will_do = {
 			factor = 500

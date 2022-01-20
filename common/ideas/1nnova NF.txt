@@ -382,11 +382,13 @@ ideas = {
 			picture = gre_schachtplan3
 
 			modifier = {
-				unit_light_armor_design_cost_factor = -0.5
-                unit_medium_armor_design_cost_factor = -0.5
-                unit_modern_armor_design_cost_factor = -0.5
-                unit_heavy_armor_design_cost_factor = -0.5
-                unit_super_heavy_armor_design_cost_factor = -0.5
+				mechanized_equipment_design_cost_factor = -0.25
+				light_tank_chassis_design_cost_factor = -0.5
+				medium_tank_chassis_design_cost_factor = -0.5
+				heavy_tank_chassis_design_cost_factor = -0.5
+				amphibious_tank_chassis_design_cost_factor = -0.5
+				super_heavy_tank_chassis_design_cost_factor = -0.5
+				modern_tank_chassis_design_cost_factor = -0.5
 			}
 
 		}
