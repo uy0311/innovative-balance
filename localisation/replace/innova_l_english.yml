@@ -319,6 +319,15 @@
  Central Japan:0 "日本中央部"
  Eastern Japan:0 "日本東部"
  North Japan:0 "日本北部"
+
+ #IB_additional_cost_factor
+ mechanized_equipment_design_cost_factor:0 "機械化装備改造コスト"
+ light_tank_chassis_design_cost_factor:0 "軽戦車車体改造コスト"
+ medium_tank_chassis_design_cost_factor:0 "中戦車車体改造コスト"
+ heavy_tank_chassis_design_cost_factor:0 "重戦車車体改造コスト"
+ amphibious_tank_chassis_design_cost_factor:0 "水陸戦車車体改造コスト"
+ super_heavy_tank_chassis_design_cost_factor:0 "超重戦車車体改造コスト"
+ modern_tank_chassis_design_cost_factor:0 "現代戦車車体改造コスト"
  
  
  
