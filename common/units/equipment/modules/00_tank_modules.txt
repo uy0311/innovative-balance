@@ -10,6 +10,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.8
 			fuel_consumption = 2
+			reliability = 0.10
 			maximum_speed = 1
 		}
 		multiply_stats = {
@@ -27,7 +28,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1.2
 			fuel_consumption = 2
-			reliability = 0.25
+			reliability = 0.20
 			maximum_speed = 2
 		}
 		multiply_stats = {
@@ -47,7 +48,7 @@ equipment_modules = {
 			#defense = 2
 		}
 		multiply_stats = {
-			reliability = -0.30
+			reliability = -0.15
 			breakthrough = 0.15
 			defense = 0.05
 			#build_cost_ic = 0.15
@@ -62,7 +63,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2
 			fuel_consumption = 4
-			reliability = -0.5
+			reliability = -0.25
 			maximum_speed = 4
 		}
 

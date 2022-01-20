@@ -187,27 +187,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/night_vision3.dds"
 	}
 
-	#tank_module_tech_tree
-	spriteType = {
-		name = "GFX_suspension_tech_1_medium"
-		textureFile = "gfx/interface/technologies/suspension_1.dds"
-	}
-
-	spriteType = {
-		name = "GFX_suspension_tech_2_medium"
-		textureFile = "gfx/interface/technologies/suspension_2.dds"
-	}
-
-	spriteType = {
-		name = "GFX_suspension_tech_3_medium"
-		textureFile = "gfx/interface/technologies/suspension_3.dds"
-	}
-
-	spriteType = {
-		name = "GFX_suspension_tech_4_medium"
-		textureFile = "gfx/interface/technologies/suspension_4.dds"
-	}
-
 	spriteType = {
 		name = "GFX_tankammo_tech_1_medium"
 		textureFile = "gfx/interface/technologies/tankammo_1.dds"

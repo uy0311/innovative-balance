@@ -34,6 +34,8 @@ technologies = {
 			tank_riveted_armor
 			tank_welded_armor
 			tank_cast_armor
+			tank_bogie_suspension
+			tank_torsion_bar_suspension
 			tank_light_one_man_tank_turret
 			tank_medium_one_man_tank_turret
 		}
@@ -983,7 +985,7 @@ technologies = {
 		#}
 		#show_effect_as_desc = yes
 
-		research_cost = 1
+		research_cost = 0.75
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -1038,7 +1040,7 @@ technologies = {
 		#}
 		show_effect_as_desc = yes
 
-		research_cost = 1
+		research_cost = 0.75
 		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
@@ -1094,7 +1096,7 @@ technologies = {
 		#}
 		show_effect_as_desc = yes
 
-		research_cost = 1
+		research_cost = 0.75
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
@@ -1136,8 +1138,8 @@ technologies = {
 
 	armor_tech_4 = {
 
-		research_cost = 1
-		start_year = 1944
+		research_cost = 0.75
+		start_year = 1943
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1943 }
@@ -1204,7 +1206,7 @@ technologies = {
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 1 y = @1936 }
 		}
 
 		ai_will_do = {
@@ -1244,6 +1246,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_petrol_electric_engine
+			tank_christie_suspension
 		}
 
 
@@ -1261,7 +1264,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 1 y = @1938 }
 		}
 
 		ai_will_do = {
@@ -1299,6 +1302,10 @@ technologies = {
 
 	engine_tech_3 = {
 
+		enable_equipment_modules = {
+			tank_interleaved_suspension
+		}
+
 		path = {
 			leads_to_tech = engine_tech_4
 			research_cost_coeff = 1
@@ -1311,7 +1318,7 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 1 y = @1941 }
 		}
 
 		ai_will_do = {
@@ -1353,7 +1360,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 1 y = @1944 }
 		}
 		enable_equipment_modules = {
 			tank_gas_turbine_engine
@@ -1396,96 +1403,9 @@ technologies = {
 		}
 	}
 
-	suspension_tech_1 = {
-
-		research_cost = 0.5
-		start_year = 1934
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 4 y = @1936 }
-		}
-
-		enable_equipment_modules = {
-			tank_bogie_suspension
-		}
-
-		path = {
-			leads_to_tech = suspension_tech_2
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	suspension_tech_2 = {
-
-		research_cost = 1
-		start_year = 1936
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 4 y = @1938 }
-		}
-
-		enable_equipment_modules = {
-			tank_torsion_bar_suspension
-		}
-
-		path = {
-			leads_to_tech = suspension_tech_3
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	suspension_tech_3 = {
-
-		research_cost = 1
-		start_year = 1938
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 4 y = 6 }
-		}
-
-		enable_equipment_modules = {
-			tank_interleaved_suspension
-		}
-
-		path = {
-			leads_to_tech = suspension_tech_4
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	suspension_tech_4 = {
-
-		research_cost = 1
-		start_year = 1940
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 4 y = 8 }
-		}
-
-		enable_equipment_modules = {
-			tank_christie_suspension
-		}
-
-		categories = {
-			armor
-		}
-	}
-
 	tankammo_tech_1 = {
 
-		research_cost = 1.25
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -1510,7 +1430,7 @@ technologies = {
 
 	tankammo_tech_2 = {
 
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -1529,7 +1449,7 @@ technologies = {
 	}
 
 	cannon_tech_1 = {
-		research_cost = 1.2
+		research_cost = 1.0
 		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
@@ -1552,7 +1472,7 @@ technologies = {
 	}
 
 	cannon_tech_2 = {
-		research_cost = 1.2
+		research_cost = 1.0
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
@@ -1575,8 +1495,8 @@ technologies = {
 	}
 
 	cannon_tech_3 = {
-		research_cost = 1.2
-		start_year = 1945
+		research_cost = 1.0
+		start_year = 1950
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = @1945 }
