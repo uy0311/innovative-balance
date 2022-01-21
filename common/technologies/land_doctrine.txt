@@ -16,11 +16,11 @@ technologies = {
 		
 		category_all_armor = {
 			breakthrough = 0.20
-			#initiative = 0.05
+			initiative = 0.02
 		}
 		
-		coordination_bonus = 0.075
-		planning_speed = 0.5
+		#coordination_bonus = 0.075
+		#planning_speed = 0.5
 		army_speed_factor = 0.05
 		enable_tactic = tactic_unexpected_thrust
 		org_loss_when_moving = -0.1
@@ -390,6 +390,10 @@ technologies = {
 			breakthrough = 0.20
 		}
 		
+		category_tanks = {
+			initiative = 0.01
+		}
+
 		enable_tactic = tactic_blitz
 		
 		xor = {
@@ -585,11 +589,11 @@ technologies = {
 		}
 		category_all_armor = {
 			max_organisation = 10
-			#initiative = 0.03
+			initiative = 0.02
 		}
-		coordination_bonus = 0.075
+		#coordination_bonus = 0.075
 		# faster planning
-		planning_speed = 0.2
+		#planning_speed = 0.2
 		
 		enable_tactic = tactic_overwhelming_fire
 		
