@@ -115,7 +115,7 @@ weather_extreme_hot = { # on Province
 	army_attack_factor = -0.05#-0.1
 	heat_attrition = 0.2
 	local_org_regain = -0.1
-	supply_consumption_factor = 0.5
+	supply_consumption_factor = 0.15
 	truck_attrition_factor = 0.1
 }
 weather_ground_snow_medium = { # on Province
