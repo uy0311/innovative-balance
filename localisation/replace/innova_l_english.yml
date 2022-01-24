@@ -183,7 +183,7 @@
  cat_heavy_armor_research:0 "重車体研究速度"
  tp_tech_research:0 "上陸用装備研究速度"
  cat_tank_module:0 "戦車モジュール研究速度"
-cat_tank_engine_and_armored:0 "戦車エンジン・装甲研究速度"
+ cat_tank_engine_and_armored:0 "戦車エンジン・装甲研究速度"
 
  ###空軍NFツリー###
  air_doctrine_research_bonus1:0 "空軍戦略の発展"
