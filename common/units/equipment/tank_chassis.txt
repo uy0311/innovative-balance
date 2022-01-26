@@ -1081,6 +1081,19 @@ equipments = {
 					tank_coaxial_module
 				}
 			}
+
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_secondary_turret
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
 		}
 
 		maximum_speed = 4.5
@@ -1694,6 +1707,19 @@ equipments = {
 					tank_coaxial_module
 				}
 			}
+
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_secondary_turret
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
 		}
 		maximum_speed = 4
 		build_cost_ic = 7
@@ -1795,6 +1821,32 @@ equipments = {
 			}
 
 			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_secondary_turret
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
+
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_secondary_turret
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
+
+			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
 					tank_radio_module
@@ -2019,6 +2071,32 @@ equipments = {
 			}
 
 			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_secondary_turret
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
+
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_secondary_turret
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
+
+			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
 					tank_radio_module

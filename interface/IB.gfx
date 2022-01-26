@@ -253,6 +253,21 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/antitank6.dds"
 	}
 
+	spriteType = { #infantry_at3
+		name = "GFX_infantry_at3_medium"
+		textureFile = "gfx/interface/technologies/infantry_at3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_designer_frame_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/IB_tank_designer_additional_special_slot_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_designer_frame_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/IB_tank_designer_manufactur_frame.dds"
+	}
+
 	#topbar
 	spriteType = {
 		name = "GFX_IB_civ_fac"

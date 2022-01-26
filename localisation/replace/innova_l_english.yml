@@ -22,6 +22,22 @@
  AST_john_brown_company:0 "ジョンブラウン・カンパニー"
  ETH_FRA_panhard:0 "パナール" 
 
+ #infantry_at3
+ GER_infantry_at3:0 "パンツァートート"
+ SOV_infantry_at3:0 "RPG-1"
+ ENG_infantry_at3:0 "PIAT-2"
+ USA_infantry_at3:0 "M25 75mm三連装式バズーカ"
+ JAP_infantry_at3:0 "四式二〇糎噴進砲"
+ MAN_infantry_at3:0 "四式二〇糎噴進砲"
+ POL_infantry_at3:0 "対戦車無反動砲"
+ CAN_infantry_at3:0 "PIAT-2"
+ AST_infantry_at3:0 "PIAT-2"
+ SAF_infantry_at3:0 "PIAT-2"
+ RAJ_infantry_at3:0 "PIAT-2"
+ NZL_infantry_at3:0 "PIAT-2"
+ infantry_at3:0 "歩兵用対戦車装備 III"
+ infantry_at3_desc:0 "改良を加えられた新型の歩兵用対戦車装備は、兵士として未熟な者でも容易に取り扱う事ができ、主力級中戦車の正面装甲を破壊する事も可能であるとされている。"
+
  #tank_modules
  suspension_tech_1:0 "ボギー式サスペンション"
  suspension_tech_1_desc:0 "転輪が個別に取り付けられているため、破損しても簡単に交換が可能な、簡易で安価なサスペンション。"
@@ -72,6 +88,20 @@
  EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "砲塔固定銃砲"
  EQ_MOD_CAT_tank_commander_module_TITLE:0 "砲塔上部銃砲"
 
+ EQ_MOD_SLOT_special_type_slot_5_TITLE:0 "特殊機能"
+ EQ_MOD_SLOT_special_type_slot_6_TITLE:0 "特殊機能"
+
+ IB_ADD_SLOT_TITLE:0 "主砲・砲塔"
+ IB_ADD_SLOT_TITLE_DESCRYPTION:0 "このスロットに§O戦車§!の§C基礎スペック§!を決定する§H主砲§!と§H砲塔§!を配置します"
+
+ #IB_additional_cost_factor
+ mechanized_equipment_design_cost_factor:0 "機械化装備改造コスト"
+ light_tank_chassis_design_cost_factor:0 "軽戦車車体改造コスト"
+ medium_tank_chassis_design_cost_factor:0 "中戦車車体改造コスト"
+ heavy_tank_chassis_design_cost_factor:0 "重戦車車体改造コスト"
+ amphibious_tank_chassis_design_cost_factor:0 "水陸戦車車体改造コスト"
+ super_heavy_tank_chassis_design_cost_factor:0 "超重戦車車体改造コスト"
+ modern_tank_chassis_design_cost_factor:0 "現代戦車車体改造コスト"
 
  #tank_modules_replace
  additional_frontal_armor:0 "前面追加装甲"
@@ -319,15 +349,6 @@
  Central Japan:0 "日本中央部"
  Eastern Japan:0 "日本東部"
  North Japan:0 "日本北部"
-
- #IB_additional_cost_factor
- mechanized_equipment_design_cost_factor:0 "機械化装備改造コスト"
- light_tank_chassis_design_cost_factor:0 "軽戦車車体改造コスト"
- medium_tank_chassis_design_cost_factor:0 "中戦車車体改造コスト"
- heavy_tank_chassis_design_cost_factor:0 "重戦車車体改造コスト"
- amphibious_tank_chassis_design_cost_factor:0 "水陸戦車車体改造コスト"
- super_heavy_tank_chassis_design_cost_factor:0 "超重戦車車体改造コスト"
- modern_tank_chassis_design_cost_factor:0 "現代戦車車体改造コスト"
  
  
  
