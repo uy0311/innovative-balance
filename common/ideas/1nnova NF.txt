@@ -325,6 +325,7 @@ ideas = {
 			
 			research_bonus = {
 				armor = 0.30
+				cat_tank_module = 0.20
 			}
 
 		}
@@ -365,6 +366,7 @@ ideas = {
 				cat_light_armor = 0.50
 				cat_medium_armor = 0.50
 				cat_heavy_armor = 0.50
+				cat_tank_engine = 0.30
 			}
 
 		}
