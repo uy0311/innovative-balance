@@ -33,6 +33,9 @@ sub_units = {
 		weight = 1
 		supply_consumption = 0.42
 
+		#Line artillery bonuses
+		soft_attack = 0.25
+
 		breakthrough = -0.95
 
 		suppression = 1.25
@@ -96,6 +99,9 @@ sub_units = {
 		training_time = 180
 		weight = 1.25
 		supply_consumption = 0.46
+
+		#Line artillery bonuses
+		soft_attack = 0.25
 
 		breakthrough = -0.95
 
@@ -164,6 +170,9 @@ sub_units = {
 		max_strength = 1.2
 		weight = 1.5
 		supply_consumption = 0.6
+
+		#Line artillery bonuses
+		soft_attack = 0.25
 
 		breakthrough = -0.95
 
@@ -234,6 +243,9 @@ sub_units = {
 		weight = 1.75
 		supply_consumption = 0.8
 
+		#Line artillery bonuses
+		soft_attack = 0.25
+
 		breakthrough = -0.95
 
 		suppression = 1.25
@@ -301,6 +313,9 @@ sub_units = {
 		training_time = 180
 		weight = 1.5
 		supply_consumption = 0.5
+
+		#Line artillery bonuses
+		soft_attack = 0.25
 
 		breakthrough = -0.95
 
