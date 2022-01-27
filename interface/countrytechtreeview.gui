@@ -3475,7 +3475,7 @@ guiTypes = {
 			text = "RESEARCH_WITH_XP"
 			buttonFont = "hoi_20b"
 			position = { x=390 y=80 }
-			shortcut = "RETURN"
+		#	shortcut = "RETURN"
 		}
 		
 		iconType = {
