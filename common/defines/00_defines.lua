@@ -3435,9 +3435,9 @@ NSupply = {
 	NODE_ADDED_PENALTY_PER_PROVINCE = 0.25,
 
 	-- defines that are used for supply reach for dockyards
-	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 6.0,
-	NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 6.0,
-	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.0,
+	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 5.0,
+	NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 2.0,
+	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 0.5,
 
 	-- Node Flow (i.e. province caps) increase by this amount per railway level of the node's bottleneck
 	NODE_FLOW_BONUS_PER_RAIL_LEVEL = 1.0,
@@ -3446,9 +3446,9 @@ NSupply = {
 	RIVER_RAILWAY_LEVEL = 1,
 
 	-- defines that are used for supply reach for floating harbors
-	FLOATING_HARBOR_INITIAL_SUPPLY_FLOW = 3.0,
-	FLOATING_HARBOR_STARTING_PENALTY_PER_PROVINCE = 3.0,
-	FLOATING_HARBOR_ADDED_PENALTY_PER_PROVINCE = 1.0,
+	FLOATING_HARBOR_INITIAL_SUPPLY_FLOW = 10.0,
+	FLOATING_HARBOR_STARTING_PENALTY_PER_PROVINCE = 0.0,
+	FLOATING_HARBOR_ADDED_PENALTY_PER_PROVINCE = 10.0,
 
 	FLOATING_HARBOR_BASE_SUPPLY = 15.0, -- supply given by a floating harbor
 	FLOATING_HARBOR_BASE_DURATION = 21, -- duration of a full hp floating harbor
@@ -3487,7 +3487,7 @@ NSupply = {
 	-- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
 	-- NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9, -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)
 	NAVAL_BASE_FLOW = 0.0, -- max output/input of a naval node is limited by this base value + additional ratio for each level
-	NAVAL_FLOW_PER_LEVEL = 8.0, -- max output/input of a naval node is limited by previous base value + this define per its level
+	NAVAL_FLOW_PER_LEVEL = 10.0, -- max output/input of a naval node is limited by previous base value + this define per its level
 
 	SUPPLY_NODE_MIN_SUPPLY_THRESHOLD = 1.0, -- if supply of a node is below this value it will be set to 0 -- Currently unused?
 
