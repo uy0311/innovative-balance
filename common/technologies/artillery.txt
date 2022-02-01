@@ -1170,7 +1170,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_small_cannon_2
-			tank_high_velocity_cannon
 		}
 
 		path = {
@@ -1247,6 +1246,11 @@ technologies = {
 	}
 	
 	antitank1 = {
+
+		enable_equipment_modules = {
+			tank_medium_cannon
+			tank_high_velocity_cannon
+		}
 
 		anti_tank = {
 			hard_attack = 0.1
@@ -1343,7 +1347,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_medium_cannon_2
-			tank_high_velocity_cannon_2
 		}
 		path = {
 			leads_to_tech = antitank3
@@ -1412,6 +1415,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_heavy_cannon
+			tank_high_velocity_cannon_2
 		}
 		anti_tank = {
 			hard_attack = 0.1
