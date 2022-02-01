@@ -277,6 +277,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		forbid_equipment_type = flame
+		forbid_equipment_type = amphibious
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -311,6 +312,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		forbid_equipment_type = flame
+		forbid_equipment_type = amphibious
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -414,6 +416,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		forbid_equipment_type = flame
+		forbid_equipment_type = amphibious
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -447,6 +450,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		forbid_equipment_type = flame
+		forbid_equipment_type = amphibious
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -480,6 +484,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		forbid_equipment_type = flame
+		forbid_equipment_type = amphibious
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -567,6 +572,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		forbid_equipment_type = flame
+		forbid_equipment_type = amphibious
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -599,6 +605,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		forbid_equipment_type = flame
+		forbid_equipment_type = amphibious
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -1537,11 +1544,11 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.2
-			equipment_capture_factor = 0.02
+			equipment_capture_factor = 0.01
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			reliability = 0.05
+			reliability = 0.10
 		}
 	}
 
@@ -1733,7 +1740,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			reliability = 0.15
+			reliability = 0.25
 		}
 		xp_cost = 0#10
 		multiply_stats = {
