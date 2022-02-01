@@ -1197,7 +1197,7 @@ equipment_modules = {
 		xp_cost = 0#1
 		can_convert_from = {
 			module_category = tank_medium_main_armament
-			convert_cost_ic = 7
+			convert_cost_ic = 6
 		}
 		build_cost_resources = {
 			tungsten = 2
