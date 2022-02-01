@@ -95,6 +95,7 @@
  IB_ADD_SLOT_TITLE_DESCRYPTION:0 "このスロットに§O戦車§!の§C基礎スペック§!を決定する§H主砲§!と§H砲塔§!を配置します"
 
  #IB_additional_cost_factor
+ IB_tank_cost_modifier_tt:0 "全種類の戦車改造コスト：§G-50%§!"
  mechanized_equipment_design_cost_factor:0 "機械化装備改造コスト"
  light_tank_chassis_design_cost_factor:0 "軽戦車車体改造コスト"
  medium_tank_chassis_design_cost_factor:0 "中戦車車体改造コスト"
