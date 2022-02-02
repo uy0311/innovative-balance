@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"
  STAT_AIR_SUPERIORITY:0 "制空値: "
  MODIFIER_AIR_SUPERIORITY_EFFICIENCY:0 "制空作戦効率"
@@ -213,8 +213,8 @@
  cat_medium_armor_research:0 "中車体研究速度"
  cat_heavy_armor_research:0 "重車体研究速度"
  tp_tech_research:0 "上陸用装備研究速度"
- cat_tank_module:0 "戦車モジュール研究速度"
- cat_tank_engine_and_armored:0 "戦車エンジン・装甲研究速度"
+ cat_tank_module_research:0 "戦車モジュール研究速度"
+ cat_tank_engine_and_armored_research:0 "戦車エンジン・装甲研究速度"
 
  ###空軍NFツリー###
  air_doctrine_research_bonus1:0 "空軍戦略の発展"
