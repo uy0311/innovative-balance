@@ -1248,7 +1248,7 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine
+			cat_tank_engine_and_armored
 		}
 	}
 
@@ -1364,7 +1364,7 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine
+			cat_tank_engine_and_armored
 		}
 	}
 
@@ -1415,7 +1415,7 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine
+			cat_tank_engine_and_armored
 		}
 	}
 
