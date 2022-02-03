@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"
  STAT_AIR_SUPERIORITY:0 "制空値: "
  MODIFIER_AIR_SUPERIORITY_EFFICIENCY:0 "制空作戦効率"
@@ -145,7 +145,7 @@ l_english:
  tank_heavy_fixed_superstructure_turret_1:0 "超大型砲用固定砲塔"
  tank_heavy_fixed_superstructure_turret_1_desc:0 "超大型砲用固定砲塔"
 
-###追加火砲技術###
+ ###追加火砲技術###
  artillery5:0 "発展型野戦砲改良 I"
  artillery5_desc:0 "全高を低くした設計の砲は、敵が標的にするのをより困難にさせる。"
  artillery6:0 "発展型野戦砲改良 II"
