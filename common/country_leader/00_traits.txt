@@ -3920,7 +3920,7 @@ leader_traits = {
 	
 	military_theorist = {
 		sprite = 14
-		land_doctrine_cost_factor = -0.15
+		land_doctrine_cost_factor = -0.20
 		
 		ai_will_do = {
 			factor = 500
