@@ -1234,7 +1234,7 @@ ideas = {
 				naval_equipment = 0.20
 			}
 			
-			traits = { atlantic_fleet_naval_manufacturer } # built Yamato
+			traits = { battlefleet_designer } # built Yamato
 
 		}
 		

@@ -2771,7 +2771,7 @@ ideas = {
 				naval_equipment = 0.20
 			}
 			
-			traits = { coastal_defence_naval_manufacturer }
+			traits = { convoy_escort_naval_manufacturer }
 		}
 
 		cgt = {
@@ -2788,7 +2788,7 @@ ideas = {
 				naval_equipment = 0.20
 			}
 			
-			traits = { atlantic_fleet_naval_manufacturer }
+			traits = { battlefleet_designer }
 		}
 
 		koc_ticaret_as_shipyard = {
@@ -2806,20 +2806,6 @@ ideas = {
 			}
 			
 			traits = { mediterranean_naval_manufacturer }
-		}
-
-		TUR_black_sea_shipyard = {
-			
-			allowed = {
-				original_tag = TUR
-			}
-			
-			research_bonus = {
-				naval_equipment = 0.2
-			}
-			
-			traits = { black_sea_naval_manufacturer }
-	
 		}
 	}
 	

@@ -135,7 +135,7 @@ ideas = {
 				# submarines and battleships
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { battlefleet_designer }
 			
 			modifier = {
 			}

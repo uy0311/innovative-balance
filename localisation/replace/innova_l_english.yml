@@ -160,6 +160,17 @@
  ###海軍###
  ship_hull_cruiser_submarine_desc:0 "大型で航続力・居住性などに優れ、遠方の外洋に進出して長期間の行動が可能な潜水艦である。"
 
+ ###海軍企業###
+ pacific_fleet_naval_manufacturer:0 "太平洋艦隊の設計社"
+ atlantic_fleet_naval_manufacturer:0 "大西洋艦隊の設計社"
+ raiding_fleet_naval_manufacturer:0 "大西洋艦隊の設計社"
+ convoy_escort_naval_manufacturer:0 "護衛艦隊の設計社"
+ coastal_defence_naval_manufacturer:0 "内海艦隊の設計社"
+ mediterranean_naval_manufacturer:0 "内海艦隊の設計社"
+ black_sea_naval_manufacturer:0 "内海艦隊の設計社"
+ naval_manufacturer:0 "内海艦隊の設計社"
+ battlefleet_designer:0 "戦闘艦隊の設計社"
+
  ###航空機企業###
  CAS_manufacturer:0 "対地攻撃重視の設計社"
  light_aircraft_manufacturer:0 "機動性重視の設計社"
