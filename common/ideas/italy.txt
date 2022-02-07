@@ -266,6 +266,7 @@ ideas = {
 
 	}
 	
+	
 	naval_manufacturer = {
 	
 		designer = yes
@@ -280,21 +281,7 @@ ideas = {
 				naval_equipment = 0.20
 			}
 			
-			traits = { mediterranean_naval_manufacturer }
-		}
-
-		blohm_und_voss_ITA = {
-
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-			research_bonus = {
-				naval_equipment = 0.20
-			}
-			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { naval_manufacturer }
 		}
 	}
 }

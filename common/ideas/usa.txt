@@ -342,13 +342,9 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
 
 			modifier = {
-				
+				air_doctrine_cost_factor = -0.10
 			}
 		}
 
@@ -1328,7 +1324,7 @@ ideas = {
 				naval_equipment = 0.20
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { convoy_escort_naval_manufacturer }
 			
 			modifier = {
 			}
