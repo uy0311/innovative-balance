@@ -1482,6 +1482,7 @@ equipment_modules = {
 		add_stats = {
 			#build_cost_ic = 2
 			reliability = -0.10
+			maximum_speed = -1
 		}
 		xp_cost = 0#1
 		multiply_stats = {

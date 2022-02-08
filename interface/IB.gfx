@@ -189,12 +189,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_tankammo_tech_1_medium"
-		textureFile = "gfx/interface/technologies/tankammo_1.dds"
+		textureFile = "gfx/interface/technologies/tankammo_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_tankammo_tech_2_medium"
-		textureFile = "gfx/interface/technologies/tankammo_2.dds"
+		textureFile = "gfx/interface/technologies/tankammo_1.dds"
 	}
 
 	spriteType = {
