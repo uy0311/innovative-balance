@@ -308,6 +308,11 @@ UKR = {
 	color_ui = rgb { 0  80  230 }	
 }
 
+MAN = {
+	color = rgb { 255 120 71 }
+	color_ui = rgb { 255 120 71 }
+}
+
 AZR = {
 	color = rgb { 69  151  49 }
 	color_ui = rgb { 69  151  49 }
