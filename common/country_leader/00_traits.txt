@@ -4499,7 +4499,7 @@ leader_traits = {
 				armor_value = 0.20 naval_speed = 0.05
 			}
 			submarine = {
-				snaval_speed = 0.1 ub_visibility = -0.1 surface_visibility = -0.1
+				naval_speed = 0.1 sub_visibility = -0.1 surface_visibility = -0.1
 			}
 		}
 		
@@ -4540,7 +4540,7 @@ leader_traits = {
 				armor_value = 0.20 naval_speed = 0.05
 			}
 			submarine = {
-				snaval_speed = 0.1 ub_visibility = -0.1 surface_visibility = -0.1
+				naval_speed = 0.1 sub_visibility = -0.1 surface_visibility = -0.1
 			}
 		}
 		
