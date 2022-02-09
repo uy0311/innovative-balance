@@ -886,7 +886,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = JAP tag = USA tag = SWE tag = CHI tag = HUN tag = CZE tag = GRE tag = TUR } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = JAP tag = USA tag = SWE tag = CHI tag = HUN tag = CZE tag = GRE tag = TUR tag = HOL } }
 				NOT = {
 					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
 				}
