@@ -21,8 +21,8 @@ FRA = {
 	color_ui = rgb { 85 228 233 }
 }
 LUX = {
-	color = rgb { 30 0 0 }
-	color_ui = rgb { 60 30 30 }
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 BEL = { color 	 = rgb { 193 171 8  }
 		color_ui = rgb { 251 222 10 }
