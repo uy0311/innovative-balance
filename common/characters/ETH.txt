@@ -425,7 +425,7 @@ characters={
 					original_tag  = ETH
 				}
 				traits  = {
-					quartermaster_general 
+					silent_workhorse 
 				}
 		}
 		name=ETH_makonnen_endelkatchew
