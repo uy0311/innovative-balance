@@ -208,7 +208,7 @@ sub_units = {
 			attack = -0.8 
 		}
 		fort = {
-			attack = 0.05
+			attack = 0.025
 		}
 	}
 	
@@ -280,7 +280,7 @@ sub_units = {
 			attack = -1.0
 		}
 		fort = {
-			attack = 0.3
+			attack = 0.15
 		}
 	}
 	
