@@ -1126,9 +1126,9 @@ NAir = {
 	CAS_NIGHT_ATTACK_FACTOR = 0.1,                      -- CAS damaged get multiplied by this in land combats at night
 
 	AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.08, -- 0.02 If a unit isn't motorized, still disrupt its supply by damage * this
-	AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.35, --0.5
+	AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.35,
 	AIR_WING_ATTACK_LOGISTICS_INFRA_DAMAGE_SPILL_FACTOR = 0.0, -- Portion of truck damage to additionally deal to infrastructure
-	AIR_WING_ATTACK_LOGISTICS_TRAIN_DAMAGE_FACTOR = 0.075,
+	AIR_WING_ATTACK_LOGISTICS_TRAIN_DAMAGE_FACTOR = 0.065,
 	AIR_WING_ATTACK_LOGISTICS_TRAIN_DAMAGE_DISRUPTION_MITIGATION = 6.0, -- Multiply Train Damage by (Smooth / (Smooth + (Disruption * Mitigation)))
 	AIR_WING_ATTACK_LOGISTICS_TRAIN_DAMAGE_DISRUPTION_SMOOTHING = 5.0,
 	AIR_WING_ATTACK_LOGISTICS_RAILWAY_DAMAGE_SPILL_FACTOR = 0.003, -- Portion of train damage to additionally deal to railways
@@ -1171,7 +1171,7 @@ NAir = {
 		0.75, -- NAVAL_KAMIKAZE
 		1.2, -- PORT_STRIKE
 		1.2, -- ATTACK_LOGISTICS
-		1.5, -- AIR_SUPPLY
+		1.0, -- AIR_SUPPLY
 		0.6, -- TRAINING
 		1.0, -- NAVAL_MINES_PLANTING
 		1.0, -- NAVAL_MINES_SWEEPING
