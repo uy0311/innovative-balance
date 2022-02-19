@@ -246,15 +246,6 @@ equipment_modules = {
 			special_type_slot_1 = {
 				tank_commander_module
 			}
-			special_type_slot_2 = {
-				tank_commander_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-			}
 		}
 
 		add_stats = {
@@ -383,15 +374,6 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
-				tank_commander_module
-			}
-			special_type_slot_2 = {
-				tank_commander_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-			}
-			special_type_slot_4 = {
 				tank_commander_module
 			}
 		}
@@ -540,15 +522,6 @@ equipment_modules = {
 			special_type_slot_1 = {
 				tank_commander_module
 			}
-			special_type_slot_2 = {
-				tank_commander_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-			}
 		}
 
 		xp_cost = 0#2
@@ -641,15 +614,6 @@ equipment_modules = {
 			special_type_slot_1 = {
 				tank_commander_module
 			}
-			special_type_slot_2 = {
-				tank_commander_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-			}
 		}
 		add_stats = {
 			build_cost_ic = 10
@@ -675,15 +639,6 @@ equipment_modules = {
 			special_type_slot_1 = {
 				tank_commander_module
 			}
-			special_type_slot_2 = {
-				tank_commander_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-			}
-			special_type_slot_4 = {
-				tank_commander_module
-			}
 		}
 		add_stats = {
 			build_cost_ic = 12
@@ -707,15 +662,6 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
-				tank_commander_module
-			}
-			special_type_slot_2 = {
-				tank_commander_module
-			}
-			special_type_slot_3 = {
-				tank_commander_module
-			}
-			special_type_slot_4 = {
 				tank_commander_module
 			}
 		}
