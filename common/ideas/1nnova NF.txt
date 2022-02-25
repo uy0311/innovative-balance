@@ -226,7 +226,7 @@ ideas = {
 			picture = generic_artillery_regiments
 			
 			research_bonus = {
-				artillery = 0.30
+				artillery = 0.80
 			}
 
 		}
@@ -246,26 +246,6 @@ ideas = {
 			
 			research_bonus = {
 				infantry_weapons = 0.80
-			}
-
-		}
-
-		anti_tank_research_bonus = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			picture = generic_artillery_manufacturer_1
-			
-			research_bonus = {
-				cat_anti_air = 0.50
-				cat_anti_tank = 0.50
 			}
 
 		}
@@ -310,7 +290,7 @@ ideas = {
 
 		}
 
-		armor_research_bonus = {
+		tank_module_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -324,8 +304,7 @@ ideas = {
 			picture = eng_preparing_the_second_front
 			
 			research_bonus = {
-				armor = 0.30
-				cat_tank_module = 0.20
+				cat_tank_module = 0.80
 			}
 
 		}
@@ -363,10 +342,9 @@ ideas = {
 			picture = generic_acquire_tanks
 			
 			research_bonus = {
-				cat_light_armor = 0.50
-				cat_medium_armor = 0.50
-				cat_heavy_armor = 0.50
-				cat_tank_engine_and_armored = 0.30
+				cat_light_armor = 0.80
+				cat_medium_armor = 0.80
+				cat_heavy_armor = 0.80
 			}
 
 		}
@@ -448,6 +426,25 @@ ideas = {
 			
 			research_bonus = {
 				tp_tech = 0.80
+			}
+
+		}
+
+		special_forces_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = eng_special_air_service
+			
+			research_bonus = {
+				special_forces_tech = 0.80
 			}
 
 		}

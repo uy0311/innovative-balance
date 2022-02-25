@@ -985,7 +985,7 @@ technologies = {
 		#}
 		#show_effect_as_desc = yes
 
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -1023,7 +1023,6 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine_and_armored
 		}
 	}
 
@@ -1042,7 +1041,7 @@ technologies = {
 		#}
 		show_effect_as_desc = yes
 
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
@@ -1080,7 +1079,6 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine_and_armored
 		}
 	}
 
@@ -1100,7 +1098,7 @@ technologies = {
 		#}
 		show_effect_as_desc = yes
 
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
@@ -1138,13 +1136,12 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine_and_armored
 		}
 	}
 
 	armor_tech_4 = {
 
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1943
 		folder = {
 			name = nsb_armour_folder
@@ -1191,7 +1188,6 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine_and_armored
 		}
 	}
 
@@ -1210,7 +1206,7 @@ technologies = {
 			custom_effect_tooltip = engine_tech_1_tt
 		}
 		show_effect_as_desc = yes
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
@@ -1248,7 +1244,6 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine_and_armored
 		}
 	}
 
@@ -1270,7 +1265,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -1308,7 +1303,6 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine_and_armored
 		}
 	}
 
@@ -1326,7 +1320,7 @@ technologies = {
 			custom_effect_tooltip = engine_tech_3_tt
 		}
 		show_effect_as_desc = yes
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
@@ -1364,13 +1358,12 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine_and_armored
 		}
 	}
 
 	engine_tech_4 = {
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
@@ -1415,7 +1408,6 @@ technologies = {
 		categories = {
 			armor
 			cat_tank_module
-			cat_tank_engine_and_armored
 		}
 	}
 
@@ -1439,7 +1431,6 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
 			cat_tank_module
 		}
 
@@ -1460,14 +1451,13 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
 			cat_tank_module
 		}
 
 	}
 
 	cannon_tech_1 = {
-		research_cost = 1.0
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
@@ -1485,13 +1475,12 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
 			cat_tank_module
 		}
 	}
 
 	cannon_tech_2 = {
-		research_cost = 1.0
+		research_cost = 0.5
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
@@ -1509,13 +1498,12 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
 			cat_tank_module
 		}
 	}
 
 	cannon_tech_3 = {
-		research_cost = 1.0
+		research_cost = 0.5
 		start_year = 1950
 		folder = {
 			name = nsb_armour_folder
@@ -1533,7 +1521,6 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
 			cat_tank_module
 		}
 	}
