@@ -6506,7 +6506,8 @@ leader_traits = {
 
 	navy_carrier_1 = {
 		sprite = 3
-		sortie_efficiency = 0.1
+		#sortie_efficiency = 0.1
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.1
 		experience_gain_navy = 0.09
 		
 		command_cap = @tier1
@@ -6518,7 +6519,8 @@ leader_traits = {
 
 	navy_carrier_2 = {
 		sprite = 3
-		sortie_efficiency = 0.15
+		#sortie_efficiency = 0.15
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.15
 		experience_gain_navy = 0.09
 		
 		command_cap = @tier2
@@ -6530,7 +6532,8 @@ leader_traits = {
 
 	navy_carrier_3 = {
 		sprite = 3
-		sortie_efficiency = 0.2
+		#sortie_efficiency = 0.2
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.2
 		experience_gain_navy = 0.09
 		
 		command_cap = @tier3
