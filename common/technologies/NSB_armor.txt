@@ -1504,7 +1504,7 @@ technologies = {
 
 	cannon_tech_3 = {
 		research_cost = 0.5
-		start_year = 1950
+		start_year = 1964
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = @1945 }
