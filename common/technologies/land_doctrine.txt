@@ -2690,7 +2690,6 @@ technologies = {
 	
 		infantry = {
 			default_morale = 0.1
-			max_organisation = 5
 		}
 
 		path = {
@@ -2746,7 +2745,6 @@ technologies = {
 
 		category_all_infantry = {
 			default_morale = 0.05
-			max_organisation = 5
 		}
 		category_tanks = {
 			default_morale = 0.05

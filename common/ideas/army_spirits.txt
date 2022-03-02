@@ -370,7 +370,7 @@ ideas = {
 			modifier = {
 				tactic_unexpected_thrust_preferred_weight_factor = 1
 				army_speed_factor = 0.05
-				coordination_bonus = 0.05
+				air_cas_present_factor = 0.15
 			}
 			ai_will_do = {
 				factor = 1
@@ -382,7 +382,7 @@ ideas = {
 			available = { has_tech = superior_firepower }
 			modifier = {
 				tactic_barrage_preferred_weight_factor = 1
-				breakthrough_factor = 0.05
+				coordination_bonus = 0.10
 			}
 			ai_will_do = {
 				factor = 1
