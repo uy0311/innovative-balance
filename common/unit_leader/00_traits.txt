@@ -1781,13 +1781,15 @@ leader_traits = {
 		sub_unit_modifiers = {
 			destroyer = {
 				naval_hit_chance = 1.00
+				naval_torpedo_hit_chance_factor = -0.75
 			}
 			light_cruiser = {
-				naval_hit_chance = 0.15
+				naval_hit_chance = 0.33
+				naval_torpedo_hit_chance_factor = -0.33
 			}
-		#	submarine = {
-		#		naval_torpedo_cooldown_factor = -0.25
-		#	}
+			submarine = {
+				naval_torpedo_cooldown_factor = -0.25
+			}
 		}	
 
 		ai_will_do = {
@@ -2541,8 +2543,8 @@ leader_traits = {
 		trait_type = personality_trait
 	
 		modifier = {
-			naval_damage_factor = 0.05
-			naval_speed_factor = 0.1
+			naval_damage_factor = 0.1
+			naval_speed_factor = 0.05
 		}
 		new_commander_weight = {
 			factor = 1  
