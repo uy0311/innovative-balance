@@ -35,7 +35,7 @@ sub_units = {
 
 		#Line artillery bonuses
 		soft_attack = 0.5
-		breakthrough = -0.25
+		breakthrough = -0.75
 
 		suppression = 1.25
 
@@ -101,7 +101,7 @@ sub_units = {
 
 		#Line artillery bonuses
 		soft_attack = 0.5
-		breakthrough = -0.25
+		breakthrough = -0.75
 
 		suppression = 1.5
 
@@ -171,7 +171,7 @@ sub_units = {
 
 		#Line artillery bonuses
 		soft_attack = 0.5
-		breakthrough = -0.25
+		breakthrough = -0.75
 
 		suppression = 1.5
 
@@ -242,7 +242,7 @@ sub_units = {
 
 		#Line artillery bonuses
 		soft_attack = 0.5
-		breakthrough = -0.25
+		breakthrough = -0.75
 
 		suppression = 1.25
 
@@ -312,7 +312,7 @@ sub_units = {
 		
 		#Line artillery bonuses
 		soft_attack = 0.5
-		breakthrough = -0.25
+		breakthrough = -0.75
 
 		suppression = 1.5
 
