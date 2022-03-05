@@ -3099,7 +3099,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		org_loss_when_moving = -0.3
-		conscription = 0.05
+		land_reinforce_rate = 0.05
 
 		enable_tactic = tactic_blitz
 		
@@ -3447,7 +3447,6 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		org_loss_when_moving = -0.25
-		land_reinforce_rate = 0.05
 
 		category_all_armor = {
 			maximum_speed = 0.1
@@ -3502,6 +3501,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		land_reinforce_rate = 0.15
+		conscription = 0.05
 
 		infantry = {
 			combat_width = -0.4
