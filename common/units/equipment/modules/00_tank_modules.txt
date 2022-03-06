@@ -1365,7 +1365,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.5
-			initiative = 0.02
+			initiative = 0.01
 		}
 		xp_cost = 0#1
 		multiply_stats = {
@@ -1382,7 +1382,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.0
-			initiative = 0.02
+			initiative = 0.01
 		}
 		multiply_stats = {
 			defense = 0.45
@@ -1398,7 +1398,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.5
-			initiative = 0.02
+			initiative = 0.01
 		}
 		xp_cost = 0#1
 		multiply_stats = {

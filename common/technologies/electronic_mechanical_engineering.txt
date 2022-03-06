@@ -45,7 +45,7 @@ technologies = {
 
 		# units with radios can more efficiently join combats when there is room
 		land_reinforce_rate = 0.05
-		coordination_bonus = 0.12
+		coordination_bonus = 0.06
 		
 		enable_equipment_modules = { 
 			tank_radio_1
@@ -97,7 +97,7 @@ technologies = {
 			building = radar_station
 			level = 1
 		}
-		coordination_bonus = 0.03
+		coordination_bonus = 0.02
 		path = {
 			leads_to_tech = decimetric_radar 
 			research_cost_coeff = 1
@@ -132,7 +132,7 @@ technologies = {
 			leads_to_tech = improved_decimetric_radar 
 			research_cost_coeff = 1
 		}
-		coordination_bonus = 0.03
+		coordination_bonus = 0.02
 		research_cost = 1.25
 		start_year = 1938
 		enable_equipment_modules = { 
@@ -176,7 +176,7 @@ technologies = {
 			building = radar_station
 			level = 3
 		}
-		coordination_bonus = 0.03
+		coordination_bonus = 0.02
 		enable_equipment_modules = { 
 			ship_radar_2
 		}
@@ -224,7 +224,7 @@ technologies = {
 			building = radar_station
 			level = 4
 		}
-		coordination_bonus = 0.03
+		coordination_bonus = 0.02
 		enable_equipment_modules = { 
 			ship_radar_3
 		}
@@ -272,7 +272,7 @@ technologies = {
 			building = radar_station
 			level = 5
 		}
-		coordination_bonus = 0.03
+		coordination_bonus = 0.02
 		
 		enable_equipment_modules = { 
 			tank_radio_3
@@ -321,7 +321,7 @@ technologies = {
 			building = radar_station
 			level = 6
 		}
-		coordination_bonus = 0.03
+		coordination_bonus = 0.02
 		enable_equipment_modules = { 
 			ship_radar_4
 		}

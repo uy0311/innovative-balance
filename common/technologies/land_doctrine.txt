@@ -599,7 +599,7 @@ technologies = {
 			max_organisation = 30
 		}
 		category_all_armor = {
-			initiative = 0.02
+			initiative = 0.01
 		}
 		# faster planning
 		#planning_speed = 0.2
@@ -2326,16 +2326,16 @@ technologies = {
 		xp_unlock_cost = 100
 
 		motorized = {
-			initiative = 0.02
+			initiative = 0.01
 		}
 		armored_car = {
-			initiative = 0.02
+			initiative = 0.01
 		}
 		mechanized = {
-			initiative = 0.02
+			initiative = 0.01
 		}
 		amphibious_mechanized = {
-			initiative = 0.02
+			initiative = 0.01
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -2650,7 +2650,7 @@ technologies = {
 		land_reinforce_rate = 0.02
 
 		infantry = {
-			initiative = 0.02
+			initiative = 0.01
 		}
 	
 		org_loss_when_moving = -0.15
