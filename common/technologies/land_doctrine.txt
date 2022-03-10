@@ -69,10 +69,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 		
 		doctrine = yes	
@@ -217,14 +216,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 
 		doctrine = yes	
@@ -415,14 +409,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 		
 		doctrine = yes	
@@ -1110,10 +1099,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 		
 		doctrine = yes	
@@ -1239,10 +1227,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
@@ -1533,14 +1520,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 		
 		doctrine = yes	
@@ -1786,14 +1768,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 		
 		doctrine = yes	
@@ -1959,14 +1936,9 @@ technologies = {
 		max_planning = 0.3
 		#command_power_gain = 0.25
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 
 		doctrine = yes	
@@ -2225,10 +2197,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
@@ -2599,10 +2570,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
@@ -3162,14 +3132,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 		
 		doctrine = yes	
@@ -3299,10 +3264,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
@@ -3628,14 +3592,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 
 		doctrine = yes	
@@ -3730,10 +3689,9 @@ technologies = {
 		
 		enable_tactic = tactic_guerrilla_tactics
 		
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
