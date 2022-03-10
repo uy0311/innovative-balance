@@ -316,4 +316,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ib_res_botton_icon.dds"
 		legacy_lazy_load = no
 	}
+
+	#tank_turret_tech
+	spriteType = {
+		name = "GFX_IB_fixed"
+		textureFile = "gfx/interface/IB_grid_blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_three"
+		textureFile = "gfx/interface/IB_grid_orange.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_transparent"
+		textureFile = "gfx/interface/IB_turret_transparent_bg.dds"
+	}
 }
