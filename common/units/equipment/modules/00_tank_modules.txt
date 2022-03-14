@@ -1507,9 +1507,12 @@ equipment_modules = {
 		}
 	}
 
+	#########################
+	### NEW SLOT CATEGORY ###
+	#########################
 	sloped_armor = {
 		abbreviation = "slop"
-		category = tank_special_armor_module
+		category = tank_sloped_armor_type
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
