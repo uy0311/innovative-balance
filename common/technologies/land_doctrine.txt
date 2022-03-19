@@ -16,7 +16,7 @@ technologies = {
 		
 		category_all_armor = {
 			breakthrough = 0.20
-			initiative = 0.02
+			initiative = 0.04
 		}
 		
 		#planning_speed = 0.5
@@ -394,7 +394,7 @@ technologies = {
 		category_tanks = {
 			max_organisation = 15#3
 			breakthrough = 0.20
-			initiative = 0.01
+			initiative = 0.02
 		}
 		
 		enable_tactic = tactic_blitz
@@ -590,7 +590,7 @@ technologies = {
 			max_organisation = 30
 		}
 		category_all_armor = {
-			initiative = 0.01
+			initiative = 0.02
 		}
 		# faster planning
 		#planning_speed = 0.2
