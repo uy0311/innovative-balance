@@ -1,0 +1,44 @@
+scripted_diplomatic_actions = {
+	recall_volunteers = {
+		allowed = { always = yes }
+		visible = {
+			has_global_flag = IB_unlock_back_vol_flag
+		}
+		selectable = {
+			if = {
+				limit = { NOT = { has_volunteers_amount_from = { tag = ROOT count > 0 } } }
+				custom_trigger_tooltip = {
+					tooltip = ib_back_vol_denied_tt
+					always = no
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = ib_back_vol_allow_tt
+					always = yes
+				}
+			}
+		}
+
+		cost = 0
+		command_power = 0
+		show_acceptance_on_action_button = no
+		requires_acceptance = no
+
+		icon = 1
+		priority = 10
+
+		complete_effect = { 
+			ROOT = { recall_volunteers_from = PREV } 
+		}
+
+		ai_desire = {
+			base = 1
+
+			modifier = {
+				ROOT = { is_ai = yes }
+				add = -5000
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+IB_for_ewm_system = {
+	icon = political_actions
+	allowed = {
+		NOT = { has_global_flag = IB_delete_all_ewm_flag }
+	}
+}
+
+IB_reset_capital_cooltime = {
+	icon = hol_war_on_pacifism
+	allowed = {
+		OR = {
+			has_country_flag = IB_reset_capital_cooltime_flag
+		    NOT = {
+		    	has_global_flag = IB_unlock_trade_flag
+		    	has_global_flag = IB_unlock_back_vol_flag
+		    	has_global_flag = IB_unlock_wp_flag
+		    	has_global_flag = IB_unlock_state_move_flag
+		    	has_global_flag = IB_unlock_reset_capital_flag
+		    }
+		}
+	}
+}

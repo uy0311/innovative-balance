@@ -1,0 +1,9 @@
+opinion_modifiers = {
+	ib_new_emb = {
+		value = -200
+		
+	}
+	ib_new_emb_opinion = {
+		value = 0
+	}
+}

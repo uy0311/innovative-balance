@@ -328,6 +328,16 @@
  ib_wartime_industry_focus_2:0 "更なる戦争産業への投資"
  ib_wartime_industry_focus_3:0 "戦時生産体制"
 
+ IB_for_ewm_system:0 "欧州マルチ向け新規追加機能の解禁"
+ IB_for_ewm_system_desc:0 "このディシジョンを操作することで、欧州マルチ向けに作られたイノバ内蔵の機能を解禁する事が出来ます。\n使用する際は必ずホストがディシジョンを操作し、特に指示が無い限り他のプレイヤーは一番下の「このディシジョンを全て削除する」以外触れないようにしてください。"
+ trade_command_unlock:0 "禁輸コマンドを解禁"
+ back_vol_unlock:0 "義勇軍の撤兵コマンドを解禁"
+ white_peace_unlock:0 "白紙和平コマンドを解禁"
+ state_move_unlock:0 "ステート割譲コマンドを解禁"
+ reset_capital_unlock:0 "首都移動コマンドを解禁"
+ all_system_unlock:0 "全追加機能を使用可能にする"
+ delete_ewm_unlock_decision:0 "このディシジョンを全て削除する"
+
  ###空域###
  Austria:0 "オーストリア"
  Slovakia:0 "スロバキア"
