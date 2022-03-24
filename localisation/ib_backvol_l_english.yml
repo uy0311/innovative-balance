@@ -1,0 +1,6 @@
+﻿l_english:
+ RECALL_VOLUNTEERS_TITLE:0 "義勇軍の撤兵"
+ RECALL_VOLUNTEERS_ACTION_DESC:0 "対象国に派遣中の自国の義勇軍を呼び戻します。"
+
+ ib_back_vol_denied_tt:0 "対象国に派遣中の義勇軍がいないため選択不可"
+ ib_back_vol_allow_tt:0 "派遣中の義勇軍を呼び戻し可能"

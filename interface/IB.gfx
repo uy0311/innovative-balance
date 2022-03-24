@@ -332,4 +332,10 @@ spriteTypes = {
 		name = "GFX_IB_transparent"
 		textureFile = "gfx/interface/IB_turret_transparent_bg.dds"
 	}
+
+	spriteType = {
+		name = "GFX_IB_resete_capital"
+		textureFile = "gfx/interface/ib_resete_capital_command_icon.dds"
+		noOfFrames = 2
+	}
 }
