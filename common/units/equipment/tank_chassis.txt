@@ -1520,6 +1520,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_heavy_turret_type
+					tank_heavy_turret_type_C1
 				}
 			}
 
