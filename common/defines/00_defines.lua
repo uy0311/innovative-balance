@@ -1087,9 +1087,9 @@ NAir = {
 	EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 0.9,				-- Penalty applied for changing region
 	-- Gain should be changed in increments of 0.024 due to precision.
 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_DEFAULT = 1,	-- Default how much efficiency to regain per day. Gain applied hourly.
-	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 2.4,				-- How much efficiency to regain per day. Gain applied hourly.
+	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 0.6,				-- How much efficiency to regain per day. Gain applied hourly.
 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_NAVAL_BOMBER = 0.240,		-- How much efficiency to regain per day. Gain applied hourly.
-	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER = 2.4,	-- How much efficiency to regain per day. Gain applied hourly.
+	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER = 0.6,	-- How much efficiency to regain per day. Gain applied hourly.
 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_FIGHTER = 2.4,			-- How much efficiency to regain per day. Gain applied hourly.
 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.048,	-- How much efficiency to regain per day. Gain applied hourly.
 
