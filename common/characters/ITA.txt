@@ -236,7 +236,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				assault_avaition
+				air_chief_all_weather_2
 			}
 			cost = 100
 			ai_will_do = {
