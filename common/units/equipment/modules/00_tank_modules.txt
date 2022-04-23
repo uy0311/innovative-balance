@@ -75,15 +75,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			#soft_attack = 1 # that's when rivets shoot back because they got dislodged by the shock. That was in fact the first reactive armor.
-			
-			defense = 2
-			breakthrough = 2
+			reliability = -0.1
 		}
 		xp_cost = 0#8
 		multiply_stats = {
-			build_cost_ic = -0.10
-			#armor_value = 0.10
+			build_cost_ic = -0.05
+			hardness = -0.10
 		}
 	}
 
@@ -93,14 +90,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			defense = 4
-			breakthrough = 4
+			reliability = 0.05
+			build_cost_ic = -0.5
 		}
 		xp_cost = 0#8
 		multiply_stats = {
-			build_cost_ic = 0.10
-			armor_value = 0.50
-
+			build_cost_ic = 0.05
 		}
 	}
 
@@ -110,13 +105,62 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0#8
 		add_stats = {
-			defense = 3
-			breakthrough = 3
+			build_cost_ic = 0.5
 		}
 
 		multiply_stats = {
-			armor_value = 0.30
+		}
+	}
 
+	#########################
+	### NEW SLOT CATEGORY ###
+	#########################
+
+	vertical_armor = {
+		abbreviation = "vert"
+		category = tank_sloped_armor_type
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			reliability = -0.05
+		}
+		xp_cost = 0#1
+		multiply_stats = {
+			maximum_speed = -0.04
+		}
+	}
+
+	half_sloped_armor = {
+		abbreviation = "halp"
+		category = tank_sloped_armor_type
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 1.0
+			breakthrough = 1
+			max_strength = -0.1
+		}
+		xp_cost = 0#1
+		multiply_stats = {
+			armor_value = 0.40
+			hardness = -0.05
+		}
+	}
+
+	sloped_armor = {
+		abbreviation = "slop"
+		category = tank_sloped_armor_type
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			breakthrough = 2
+			max_strength = -0.2
+		}
+		xp_cost = 0#1
+		multiply_stats = {
+			armor_value = 0.60
+			hardness = -0.10
+			build_cost_ic = 0.10
 		}
 	}
 
@@ -291,7 +335,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = -0.15
-			armor_value = 0.15
+			armor_value = 0.25
 		}
 
 	}
@@ -325,7 +369,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = -0.15
-			armor_value = 0.15
+			armor_value = 0.25
 		}
 
 	}
@@ -418,7 +462,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = -0.15
-			armor_value = 0.15
+			armor_value = 0.25
 		}
 
 	}
@@ -451,7 +495,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = -0.15
-			armor_value = 0.15
+			armor_value = 0.25
 		}
 
 	}
@@ -484,7 +528,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = -0.15
-			armor_value = 0.15
+			armor_value = 0.25
 		}
 
 	}
@@ -561,7 +605,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = -0.15
-			armor_value = 0.15
+			armor_value = 0.25
 		}
 
 	}
@@ -593,7 +637,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = -0.15
-			armor_value = 0.15
+			armor_value = 0.25
 		}
 
 	}
@@ -1498,30 +1542,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 0.5
-			maximum_speed = -0.4
+			build_cost_ic = 1.5
+			armor_value = 25
+			maximum_speed = -1.0
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			armor_value = 0.20
-		}
-	}
-
-	#########################
-	### NEW SLOT CATEGORY ###
-	#########################
-	sloped_armor = {
-		abbreviation = "slop"
-		category = tank_sloped_armor_type
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			hardness = -0.05
-		}
-		xp_cost = 0#1
-		multiply_stats = {
-			armor_value = 0.50
-			build_cost_ic = 0.05
 		}
 	}
 
@@ -1617,14 +1643,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			armor_value = 2
-			breakthrough = 3
-			max_strength = 0.1
+			armor_value = 3
+			breakthrough = 2
 			build_cost_ic = 0.3
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			maximum_speed = -0.05
+			hardness = 0.10
+			maximum_speed = -0.04
 		}
 	}
 	
@@ -1634,13 +1660,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			armor_value = 6
+			armor_value = 10
 			reliability = 0.05
-			build_cost_ic = 0.3
+			build_cost_ic = 0.8
+			maximum_speed = -0.5
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			maximum_speed = -0.10
 		}
 	}
 

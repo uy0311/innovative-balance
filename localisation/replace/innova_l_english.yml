@@ -133,10 +133,10 @@
  spare_tracks:0 "予備の履帯"
  spare_tracks_desc:0 "被弾した際に交換できる予備の履帯を車体の周囲に取り付ける事により、緊急時のスペアパーツになるだけでなく簡易的な増加装甲としても機能する。"
 
- #tank_radio_1:0 "戦車搭載用無線機"
- #tank_radio_1_desc:0 "戦車に搭載可能に改良されたこの無線機は、味方部隊との連絡や相互位置把握、そして司令部との迅速な通信を可能とし機動的な戦闘を行う事ができる。"
- #tank_radio_3:0 "指揮車用無線機"
- #tank_radio_3_desc:0 "戦車中隊、あるいは大隊の指揮官が搭乗する戦車車両向けにより強力な電波を発信し、安定した通信が可能な無線機は戦闘中の自軍部隊をより効率的に統括することができるだろう。"
+ vertical_armor:0 "垂直装甲"
+ vertical_armor_desc:0 "説明文募集"
+ half_sloped_armor:0 "半傾斜装甲"
+ half_sloped_armor_desc:0 "説明文募集"
 
  IB_tank_coaxial_machine_gun:0 "同軸機関銃"
  IB_tank_coaxial_machine_gun_desc:0 "砲塔に固定式の機関銃を搭載する事により、指向した方向に対し限定的ではあるが制圧力を発揮する。"

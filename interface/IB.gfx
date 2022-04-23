@@ -14,6 +14,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_EMI_vertical_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/vertical_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_half_sloped_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/half_sloped_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_EMI_additional_frontal_armor"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/additional_frontal_armor.dds"
 		legacy_lazy_load = no
