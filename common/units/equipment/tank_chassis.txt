@@ -35,6 +35,13 @@ equipments = {
 				}
 			}
 
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
+				}
+			}
+
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -198,6 +205,13 @@ equipments = {
 				}
 			}
 
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
+				}
+			}
+
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -263,6 +277,13 @@ equipments = {
 				allowed_module_categories = {
 					tank_suspension_type
 					tank_non_tracked_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -343,6 +364,13 @@ equipments = {
 				allowed_module_categories = {
 					tank_suspension_type
 					tank_non_tracked_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -439,6 +467,13 @@ equipments = {
 				allowed_module_categories = {
 					tank_suspension_type
 					tank_non_tracked_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -550,6 +585,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -729,6 +771,13 @@ equipments = {
 				}
 			}
 
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
+				}
+			}
+
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -812,6 +861,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -903,6 +959,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -1013,6 +1076,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -1135,6 +1205,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -1328,6 +1405,13 @@ equipments = {
 				}
 			}
 
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
+				}
+			}
+
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -1422,6 +1506,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -1528,6 +1619,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -1640,6 +1738,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -1765,6 +1870,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 
@@ -2018,6 +2130,13 @@ equipments = {
 				}
 			}
 
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
+				}
+			}
+
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -2262,6 +2381,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
+				}
+			}
+
+			sloped_armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_sloped_armor_type
 				}
 			}
 

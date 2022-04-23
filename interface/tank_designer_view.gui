@@ -157,7 +157,7 @@ guiTypes = {
 				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_1 }
 			}
 
-			positionType = {
+			positionType = { #sloped_armor_type
 				name = "pos_custom_module_slot_window_3"
 				position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_1 }
 			}
@@ -167,37 +167,42 @@ guiTypes = {
 				position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_1 }
 			}
 
+			positionType = {
+				name = "pos_custom_module_slot_window_5"
+				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_1 }
+			}
+
 			######################################################################
 			# Special module slot below
 			######################################################################
 
 			positionType = {
-				name = "pos_custom_module_slot_window_5"
+				name = "pos_custom_module_slot_window_6"
 				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_0 }
 			}
 
 			positionType = {
-				name = "pos_custom_module_slot_window_6"
+				name = "pos_custom_module_slot_window_7"
 				position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_0 }
 			}
 
 			positionType = {
-				name = "pos_custom_module_slot_window_7"
+				name = "pos_custom_module_slot_window_8"
 				position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_0 }
 			}
 
 			positionType = {
-				name = "pos_custom_module_slot_window_8"
+				name = "pos_custom_module_slot_window_9"
 				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_0 }
 			}
 
 			positionType = {
-				name = "pos_custom_module_slot_window_9"
+				name = "pos_custom_module_slot_window_10"
 				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_0 }
 			}
 
 			positionType = {
-				name = "pos_custom_module_slot_window_10"
+				name = "pos_custom_module_slot_window_11"
 				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_0 }
 			}
 
