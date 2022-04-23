@@ -33,7 +33,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_riveted_armor
 			tank_welded_armor
-			tank_cast_armor
+			vertical_armor
 			tank_bogie_suspension
 			tank_torsion_bar_suspension
 			tank_light_one_man_tank_turret
@@ -972,7 +972,7 @@ technologies = {
 	armor_tech_1 = {
 
 		enable_equipment_modules = {
-			additional_frontal_armor
+			half_sloped_armor
 		}
 
 		path = {
@@ -1029,7 +1029,8 @@ technologies = {
 	armor_tech_2 = {
 
 		enable_equipment_modules = {
-			sloped_armor
+			tank_cast_armor
+			spare_tracks
 		}
 		path = {
 			leads_to_tech = armor_tech_3
@@ -1085,7 +1086,8 @@ technologies = {
 	armor_tech_3 = {
 
 		enable_equipment_modules = {
-			armor_skirts
+			sloped_armor
+			additional_frontal_armor
 		}
 
 		path = {
@@ -1149,7 +1151,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			spare_tracks
+			armor_skirts
 		}
 
 		#on_research_complete = {
