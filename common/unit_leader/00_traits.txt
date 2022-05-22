@@ -880,7 +880,7 @@ leader_traits = {
 		modifier = {
 			recon_factor = 0.25
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1826,7 +1826,7 @@ leader_traits = {
 		modifier = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
-
+		
 		slot = high_command
 		specialist_advisor_trait = navy_submarine_1
 		expert_advisor_trait = navy_submarine_2
@@ -2002,7 +2002,7 @@ leader_traits = {
 	concealment_expert = { 
 		type = navy
 		modifier = {
-			navy_visibility = -0.2
+			navy_visibility = -0.1
 		}
 				
 		ai_will_do = {

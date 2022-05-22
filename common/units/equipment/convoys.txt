@@ -12,7 +12,7 @@ equipments = {
 		interface_category = interface_category_other_ships
 
 		# Unused by convoys
-		surface_detection = 5
+		surface_detection = 0
 		sub_detection = 0
 
 		fuel_consumption = 0
@@ -21,7 +21,7 @@ equipments = {
 		lg_armor_piercing = 0
 		armor_value = 0
 		reliability = 0.8
-		surface_visibility = 20
+		surface_visibility = 14
 
 		torpedo_attack = 0
 		lg_attack = 0
