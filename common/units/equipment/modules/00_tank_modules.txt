@@ -79,7 +79,6 @@ equipment_modules = {
 		}
 		xp_cost = 0#8
 		multiply_stats = {
-			build_cost_ic = -0.05
 			hardness = -0.10
 		}
 	}
@@ -136,7 +135,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1.0
+			build_cost_ic = 0.5
 			breakthrough = 1
 			max_strength = -0.1
 		}
@@ -160,7 +159,7 @@ equipment_modules = {
 		multiply_stats = {
 			armor_value = 0.60
 			hardness = -0.10
-			build_cost_ic = 0.10
+			build_cost_ic = 0.05
 		}
 	}
 
@@ -1542,9 +1541,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1.5
-			armor_value = 25
-			maximum_speed = -1.0
+			build_cost_ic = 1.0
+			armor_value = 30
+			maximum_speed = -0.6
 		}
 		xp_cost = 0#1
 		multiply_stats = {
@@ -1645,7 +1644,7 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 3
 			breakthrough = 2
-			build_cost_ic = 0.3
+			build_cost_ic = 0.2
 		}
 		xp_cost = 0#1
 		multiply_stats = {
@@ -1662,8 +1661,8 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 10
 			reliability = 0.05
-			build_cost_ic = 0.8
-			maximum_speed = -0.5
+			build_cost_ic = 0.5
+			maximum_speed = -0.3
 		}
 		xp_cost = 0#1
 		multiply_stats = {
