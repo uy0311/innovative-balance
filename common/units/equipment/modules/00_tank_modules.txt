@@ -90,7 +90,6 @@ equipment_modules = {
 
 		add_stats = {
 			reliability = 0.05
-			build_cost_ic = -0.5
 		}
 		xp_cost = 0#8
 		multiply_stats = {
@@ -135,7 +134,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 1.0
 			breakthrough = 1
 			max_strength = -0.1
 		}
@@ -159,7 +158,7 @@ equipment_modules = {
 		multiply_stats = {
 			armor_value = 0.60
 			hardness = -0.10
-			build_cost_ic = 0.05
+			build_cost_ic = 0.1
 		}
 	}
 
@@ -171,7 +170,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 2
 			reliability = 0.1
 		}
 		multiply_stats = {
@@ -185,7 +184,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 2
 		}
 		multiply_stats =  {
 			maximum_speed = 0.2
@@ -197,6 +196,9 @@ equipment_modules = {
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 
+		add_stats = {
+			build_cost_ic = 1
+		}
 	}
 
 	tank_interleaved_suspension = {
@@ -205,7 +207,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 2
 		}
 		multiply_stats =  {
 			maximum_speed = 0.1
@@ -219,6 +221,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
+			build_cost_ic = 1
 			reliability = -0.2
 		}
 		multiply_stats =  {
@@ -233,6 +236,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
+			build_cost_ic = 1
 			reliability = -0.1
 		}
 		multiply_stats =  {
@@ -326,14 +330,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			build_cost_ic = 1.125
+			build_cost_ic = 0.5
 			reliability = 0.1
 			defense = 5
 			max_strength = 0.35
 		}
 
 		multiply_stats = {
-			build_cost_ic = -0.15
 			armor_value = 0.25
 		}
 
@@ -360,14 +363,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			build_cost_ic = 1.125
+			build_cost_ic = 0.5
 			reliability = 0.1
 			defense = 5
 			max_strength = 0.35
 		}
 
 		multiply_stats = {
-			build_cost_ic = -0.15
 			armor_value = 0.25
 		}
 
@@ -453,14 +455,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			build_cost_ic = 2.25
+			build_cost_ic = 1.0
 			reliability = 0.1
 			defense = 8
 			max_strength = 0.6
 		}
 
 		multiply_stats = {
-			build_cost_ic = -0.15
 			armor_value = 0.25
 		}
 
@@ -486,14 +487,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			build_cost_ic = 2.25
+			build_cost_ic = 1.0
 			reliability = 0.1
 			defense = 8
 			max_strength = 0.6
 		}
 
 		multiply_stats = {
-			build_cost_ic = -0.15
 			armor_value = 0.25
 		}
 
@@ -519,14 +519,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			build_cost_ic = 2.25
+			build_cost_ic = 1.0
 			reliability = 0.1
 			defense = 8
 			max_strength = 0.6
 		}
 
 		multiply_stats = {
-			build_cost_ic = -0.15
 			armor_value = 0.25
 		}
 
@@ -596,14 +595,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			build_cost_ic = 5
+			build_cost_ic = 3.0
 			reliability = 0.1
 			defense = 11
 			max_strength = 0.75
 		}
 
 		multiply_stats = {
-			build_cost_ic = -0.15
 			armor_value = 0.25
 		}
 
@@ -628,14 +626,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			build_cost_ic = 5
+			build_cost_ic = 3.0
 			reliability = 0.1
 			defense = 11
 			max_strength = 0.75
 		}
 
 		multiply_stats = {
-			build_cost_ic = -0.15
 			armor_value = 0.25
 		}
 
@@ -1541,7 +1538,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1.0
+			build_cost_ic = 1.5
 			armor_value = 25
 			maximum_speed = -0.6
 		}
@@ -1644,7 +1641,7 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 3
 			breakthrough = 2
-			build_cost_ic = 0.2
+			build_cost_ic = 0.3
 		}
 		xp_cost = 0#1
 		multiply_stats = {
@@ -1661,7 +1658,7 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 10
 			reliability = 0.05
-			build_cost_ic = 0.5
+			build_cost_ic = 0.8
 			maximum_speed = -0.3
 		}
 		xp_cost = 0#1
