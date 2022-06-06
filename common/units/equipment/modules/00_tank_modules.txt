@@ -1539,7 +1539,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.5
-			armor_value = 25
+			armor_value = 30
 			maximum_speed = -0.6
 		}
 		xp_cost = 0#1
