@@ -10,7 +10,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1
 			fuel_consumption = 2
-			reliability = 0.10
 			maximum_speed = 1
 		}
 		multiply_stats = {
@@ -75,7 +74,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			reliability = -0.1
+			build_cost_ic = 0.5
+			reliability = -0.10
 		}
 		xp_cost = 0#8
 		multiply_stats = {
@@ -89,11 +89,11 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			reliability = 0.05
+			reliability = 0.10
 		}
 		xp_cost = 0#8
 		multiply_stats = {
-			build_cost_ic = 0.05
+			build_cost_ic = 0.07
 		}
 	}
 
@@ -103,7 +103,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0#8
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 1.0
 		}
 
 		multiply_stats = {
@@ -170,11 +170,11 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 2
-			reliability = 0.1
+			build_cost_ic = 1
+			reliability = 0.15
 		}
 		multiply_stats = {
-			maximum_speed = 0.1
+			maximum_speed = 0.15
 		}
 	}
 
@@ -184,10 +184,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 2
+			build_cost_ic = 1
 		}
 		multiply_stats =  {
-			maximum_speed = 0.2
+			maximum_speed = 0.3
 		}
 	}
 
@@ -197,7 +197,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 0.5
 		}
 	}
 
@@ -207,10 +207,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 2
+			build_cost_ic = 1.0
 		}
 		multiply_stats =  {
-			maximum_speed = 0.1
+			maximum_speed = 0.15
 			breakthrough = 0.1
 		}
 	}
