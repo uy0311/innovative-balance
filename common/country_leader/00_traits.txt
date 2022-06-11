@@ -4275,22 +4275,23 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			armor = {
-				maximum_speed = 0.10
+				maximum_speed = 0.15
+				reliability = 0.1
 			}
 			light_tank_aa_chassis = {
-				reliability = 0.1
+				air_attack = 0.1
 			}
 			medium_tank_aa_chassis = {
-				reliability = 0.1
+				air_attack = 0.1
 			}
 			heavy_tank_aa_chassis = {
-				reliability = 0.1
+				air_attack = 0.1
 			}
 			super_heavy_tank_aa_chassis = {
-				reliability = 0.1
+				air_attack = 0.1
 			}
 			modern_tank_aa_chassis = {
-				reliability = 0.1
+				air_attack = 0.1
 			}
 		}
 		
