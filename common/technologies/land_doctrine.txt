@@ -1092,7 +1092,7 @@ technologies = {
 		}
 
 		category_line_artillery = {
-			default_morale = 0.3
+			default_morale = 0.15
 		}
 
 		path = {
