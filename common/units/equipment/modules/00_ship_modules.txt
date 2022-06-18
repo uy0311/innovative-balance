@@ -16,7 +16,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1
-			build_cost_ic = 45	
+			build_cost_ic = 40	
 			max_strength = 2
 		}
 		multiply_stats = {
@@ -42,7 +42,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1.5
-			build_cost_ic = 60
+			build_cost_ic = 55
 			max_strength = 3
 		}
 		multiply_stats = {
@@ -72,7 +72,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 2
-			build_cost_ic = 75			
+			build_cost_ic = 65			
 			max_strength = 4
 		}
 		
@@ -102,7 +102,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 3.0
-			build_cost_ic = 88
+			build_cost_ic = 80
 			max_strength = 5
 		}
 		build_cost_resources = {
@@ -135,7 +135,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 2
 			anti_air_attack = 3
-			build_cost_ic = 150
+			build_cost_ic = 100
 			max_strength = 4
 		}
 		multiply_stats = {
@@ -837,12 +837,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 60
+
 		}
 		
 		multiply_stats = {
 			lg_attack = 0.05
 			hg_attack = 0.05
+			build_cost_ic = 0.03
 		}
 	}
 
@@ -853,7 +854,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 90
+
 		}
 		
 		multiply_stats = {
@@ -861,6 +862,7 @@ equipment_modules = {
 			hg_attack = 0.1
 			anti_air_attack = 0.1
 			#reliability = -0.05
+			build_cost_ic = 0.03
 		}
 
 		can_convert_from = {
@@ -875,7 +877,7 @@ equipment_modules = {
 		parent = ship_fire_control_system_1
 		
 		add_stats = {
-			build_cost_ic = 120
+		
 		}
 		
 		multiply_stats = {
@@ -883,6 +885,7 @@ equipment_modules = {
 			hg_attack = 0.15
 			anti_air_attack = 0.15
 			#reliability = -0.075
+			build_cost_ic = 0.03
 		}
 		can_convert_from = {
 			module = ship_fire_control_system_1
@@ -900,7 +903,7 @@ equipment_modules = {
 		parent = ship_fire_control_system_2
 		
 		add_stats = {
-			build_cost_ic = 180
+			
 		}
 		
 		multiply_stats = {
@@ -908,6 +911,7 @@ equipment_modules = {
 			hg_attack = 0.2
 			anti_air_attack = 0.2
 			#reliability = -0.1
+			build_cost_ic = 0.03
 		}
 		can_convert_from = {
 			module = ship_fire_control_system_2
@@ -935,12 +939,13 @@ equipment_modules = {
 		
 		multiply_stats = {
 			surface_detection = 0.20
+			build_cost_ic = 0.02
 		}
 		
 		add_stats = {
-			build_cost_ic = 80
 		#	surface_detection = 5
 		}
+
 	}
 	ship_radar_2 = {
 		abbreviation = "sbe"
@@ -950,9 +955,9 @@ equipment_modules = {
 		
 		multiply_stats = {
 			surface_detection = 0.25
+			build_cost_ic = 0.02
 		}
 		add_stats = {
-			build_cost_ic = 110
 		#	surface_detection = 7
 		#	sub_detection = 2
 		}
@@ -972,12 +977,11 @@ equipment_modules = {
 			hg_attack = 0.05
 			anti_air_attack = 0.05
 			surface_detection = 0.30
+			build_cost_ic = 0.02
 		}
-		add_stats = {
-			
+		add_stats = {			
 		#	surface_detection = 12
 		#	sub_detection = 6
-			build_cost_ic = 140
 		}
 		can_convert_from = {
 			module = ship_radar_2
@@ -998,10 +1002,9 @@ equipment_modules = {
 			hg_attack = 0.1
 			anti_air_attack = 0.1
 			surface_detection = 0.35
+			build_cost_ic = 0.02
 		}
 		add_stats = {
-		
-			build_cost_ic = 170
 		#	surface_detection = 18
 		#	sub_detection = 14
 		}
@@ -2049,7 +2052,9 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 4
-			build_cost_ic = 40
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01
 		}
 	}
 
@@ -2061,7 +2066,9 @@ equipment_modules = {
 		parent = ship_sonar_1
 		add_stats = {
 			sub_detection = 7.0
-			build_cost_ic = 60
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01
 		}
 		can_convert_from = {
 			module_category = ship_sonar
@@ -2076,7 +2083,9 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 11.0
-			build_cost_ic = 80
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01
 		}
 		can_convert_from = {
 			module_category = ship_sonar
@@ -2091,7 +2100,9 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 15.0
-			build_cost_ic = 100
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01
 		}
 		can_convert_from = {
 			module_category = ship_sonar
