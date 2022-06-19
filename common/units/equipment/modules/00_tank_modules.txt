@@ -1540,7 +1540,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 2.5
-			armor_value = 25
+			armor_value = 30
 			maximum_speed = -0.7
 			reliability = -0.05
 		}
