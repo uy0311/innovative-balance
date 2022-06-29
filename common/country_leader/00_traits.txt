@@ -5470,8 +5470,7 @@ leader_traits = {
 	
 	air_chief_reform_1 = {  # Rate at which air experience is gained increases by 5%
 		sprite = 1
-		#experience_gain_air = 0.12
-		experience_gain_air_factor = 0.08
+		experience_gain_air = 0.12
 		
 		command_cap = @tier1
 		
@@ -5482,8 +5481,7 @@ leader_traits = {
 	
 	air_chief_reform_2 = {  # Rate at which air experience is gained increases by 10%
 		sprite = 1
-		#experience_gain_air = 0.16
-		experience_gain_air_factor = 0.1
+		experience_gain_air = 0.16
 		
 		command_cap = @tier2
 
@@ -5494,8 +5492,7 @@ leader_traits = {
 	
 	air_chief_reform_3 = {  # Rate at which air experience is gained increases by 15%
 		sprite = 1
-		#experience_gain_air = 0.20
-		experience_gain_air_factor = 0.12
+		experience_gain_air = 0.20
 		
 		command_cap = @tier3
 		
