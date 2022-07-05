@@ -766,7 +766,7 @@ characters={
 				 
 			}
 			traits = {
-				backroom_backstabber 
+				silent_workhorse
 			}
 		}
 	}
