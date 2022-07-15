@@ -269,9 +269,19 @@ technologies = {
 	mass_motorization = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_all_infantry = {
-			max_organisation = 10
-		}	
+
+		motorized = {
+			initiative = 0.01
+		}
+		armored_car = {
+			initiative = 0.01
+		}
+		mechanized = {
+			initiative = 0.01
+		}
+		armored_car = {
+			initiative = 0.01
+		}
 		
 		
 		path = {
@@ -2298,17 +2308,9 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		motorized = {
-			initiative = 0.01
-		}
-		armored_car = {
-			initiative = 0.01
-		}
-		mechanized = {
-			initiative = 0.01
-		}
-		amphibious_mechanized = {
-			initiative = 0.01
+		category_all_armor = {
+			default_morale = 0.1
+			breakthrough = 0.1
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -2420,9 +2422,7 @@ technologies = {
 		}
 		category_tanks = {
 			max_organisation = 3
-			default_morale = 0.1
 			soft_attack = 0.1
-			breakthrough = 0.1
 		}
 		
 		doctrine = yes	
@@ -3182,7 +3182,7 @@ technologies = {
 		land_reinforce_rate = 0.05
 		infantry = {
 			combat_width = -0.4
-			default_morale = 0.30
+			default_morale = 0.25
 		}
 
 		
@@ -3239,22 +3239,21 @@ technologies = {
 		}
 		category_all_infantry = {
 			max_organisation = 5
-			breakthrough = 0.10
 		}
 		armored_car = {
 			max_organisation = 1
 			breakthrough = 0.10
 		}
-		mechanized = {
-			default_morale = 0.3
-			maximum_speed = 0.1
-		}
 		motorized = {
-			default_morale = 0.3
+			default_morale = 0.25
 			maximum_speed = 0.1
 		}	
+		mechanized = {
+			default_morale = 0.25
+			maximum_speed = 0.1
+		}
 		amphibious_mechanized = {
-			default_morale = 0.3
+			default_morale = 0.25
 			maximum_speed = 0.1
 		}
 		
@@ -3314,56 +3313,56 @@ technologies = {
 		light_armor = {
 			combat_width = -0.2
 			max_organisation = 10
-			default_morale = 0.3
+			default_morale = 0.25
 		}
 		medium_armor = {
 			combat_width = -0.2
 			max_organisation = 10
-			default_morale = 0.3
+			default_morale = 0.25
 		}
 		modern_armor = {
 			combat_width = -0.2
 			max_organisation = 10
-			default_morale = 0.3
+			default_morale = 0.25
 		}
 		
 		light_tank_destroyer_brigade = {
 			combat_width = -0.2
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 		medium_tank_destroyer_brigade = {
 			combat_width = -0.2
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 		modern_tank_destroyer_brigade = {
 			combat_width = -0.2
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 
 		light_sp_anti_air_brigade = {
 			combat_width = -0.2
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 		medium_sp_anti_air_brigade = {
 			combat_width = -0.2
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 		modern_sp_anti_air_brigade = {
 			combat_width = -0.2
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 
         light_sp_artillery_brigade = {
 			combat_width = -0.3
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 		medium_sp_artillery_brigade = {
 			combat_width = -0.3
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 		modern_sp_artillery_brigade = {
 			combat_width = -0.3
-			default_morale = 0.2
+			default_morale = 0.15
 		}
 
 		path = {
@@ -3414,10 +3413,13 @@ technologies = {
 		xp_unlock_cost = 100
 		org_loss_when_moving = -0.25
 
+		category_army = {
+			default_morale = 0.05
+		}
 		category_all_armor = {
 			maximum_speed = 0.1
 		}
-		
+
 		enable_tactic = tactic_backhand_blow
 
 		doctrine = yes	
