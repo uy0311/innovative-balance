@@ -880,7 +880,7 @@ leader_traits = {
 		modifier = {
 			recon_factor = 0.25
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -974,7 +974,7 @@ leader_traits = {
 				attack = 0.05
 			}
 			fort = {
-                attack = 0.1
+                attack = 0.05
             }
 		}
 		
@@ -1321,7 +1321,7 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			fort = {
-				attack = 0.15
+				attack = 0.075
 			}
 		}
 		enable_ability = siege_artillery
@@ -1760,7 +1760,7 @@ leader_traits = {
 		cost = 50
 		modifier = {
 			navy_carrier_air_targetting_factor = 0.1 # Airplanes from carriers has better naval targetting
-			sortie_efficiency = 0.1
+		#	sortie_efficiency = 0.1
 		}
 		
 		ai_will_do = {
@@ -1780,14 +1780,16 @@ leader_traits = {
 		cost = 1
 		sub_unit_modifiers = {
 			destroyer = {
-				naval_hit_chance = 1.00
+				naval_hit_chance = 1.50
+				naval_torpedo_hit_chance_factor = -1.1
 			}
 			light_cruiser = {
-				naval_hit_chance = 0.15
+				naval_hit_chance = 0.33
+				naval_torpedo_hit_chance_factor = -0.33
 			}
-		#	submarine = {
-		#		naval_torpedo_cooldown_factor = -0.25
-		#	}
+			submarine = {
+				naval_torpedo_cooldown_factor = -0.25
+			}
 		}	
 
 		ai_will_do = {
@@ -1824,7 +1826,7 @@ leader_traits = {
 		modifier = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
-
+		
 		slot = high_command
 		specialist_advisor_trait = navy_submarine_1
 		expert_advisor_trait = navy_submarine_2
@@ -2000,7 +2002,7 @@ leader_traits = {
 	concealment_expert = { 
 		type = navy
 		modifier = {
-			navy_visibility = -0.2
+			navy_visibility = -0.1
 		}
 				
 		ai_will_do = {
@@ -2177,7 +2179,7 @@ leader_traits = {
 	flight_deck_manager = { 
 		type = navy
 		modifier = {
-			 sortie_efficiency = 0.1
+			# sortie_efficiency = 0.1
 		}
 				
 		slot = high_command
@@ -2198,8 +2200,11 @@ leader_traits = {
 	}
 	fighter_director = { 
 		type = navy
-		modifier = {
-			fighter_sortie_efficiency = 0.2
+		sub_unit_modifiers = {
+			cv_fighter = {
+				air_attack_factor = 0.1
+				air_mission_efficiency = 0.1
+			}
 		}
 				
 		ai_will_do = {
@@ -2538,8 +2543,8 @@ leader_traits = {
 		trait_type = personality_trait
 	
 		modifier = {
-			naval_damage_factor = 0.05
-			naval_speed_factor = 0.1
+			naval_damage_factor = 0.1
+			naval_speed_factor = 0.05
 		}
 		new_commander_weight = {
 			factor = 1  

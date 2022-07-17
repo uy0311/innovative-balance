@@ -2048,7 +2048,7 @@ ideas = {
 				naval_equipment = 0.20
 			}
 			
-			traits = { mediterranean_naval_manufacturer }
+			traits = { battlefleet_designer }
 		}
 
 		GRE_astilleros_onassis = {

@@ -1,0 +1,39 @@
+﻿add_namespace = set_capital
+
+country_event = {
+	id = set_capital.1
+	title = set_capital.1.t
+	desc = set_capital.1.d
+	picture = GFX_report_event_fascist_speech  
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = set_capital.1.a
+		every_owned_state = {
+			limit = { 
+				has_state_flag = IB_where_reset_cap_flag
+			}
+			ROOT = { set_capital = { state = PREV } }
+			clr_state_flag = IB_where_reset_cap_flag
+		}
+
+		add_political_power = -300
+		add_timed_idea = {
+			idea = ib_rest_capital_penalty
+			days = 100
+		}
+		activate_mission = IB_cooltime_check
+	}
+
+	option = {
+		name = set_capital.1.b
+		every_owned_state = {
+			limit = { 
+				has_state_flag = IB_where_reset_cap_flag
+			}
+			clr_state_flag = IB_where_reset_cap_flag
+		}
+		clr_country_flag = IB_reset_capital_cooltime_flag
+	}
+}

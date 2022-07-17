@@ -10,10 +10,12 @@ technology_categories = {
 	cat_medium_armor
 	cat_heavy_armor
 	artillery
+	cat_tank_module
 	cat_anti_tank
 	cat_anti_air
 	naval_air
 	infantry_weapons
+	special_forces_tech
 	motorized_equipment
 	cat_mechanized_equipment
 	naval_equipment

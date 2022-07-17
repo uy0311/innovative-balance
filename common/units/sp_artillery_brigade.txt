@@ -23,17 +23,20 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			light_tank_artillery_chassis = 45
+			light_tank_artillery_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 2.25
+		max_strength = 2.5
 		training_time = 180
 		weight = 1
 		supply_consumption = 0.42
 
-		breakthrough = -0.95
+		#Line artillery bonuses
+		soft_attack = 0.5
+		breakthrough = -0.75
+		armor_value = -0.25
 
 		suppression = 1.25
 
@@ -61,7 +64,7 @@ sub_units = {
 			movement = -0.2
 		}
 		amphibious = { 
-			attack = -10
+			attack = -0.6
 		}
 	}
 	
@@ -87,17 +90,20 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			medium_tank_artillery_chassis = 36
+			medium_tank_artillery_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 1.8
+		max_strength = 2.5
 		training_time = 180
 		weight = 1.25
 		supply_consumption = 0.46
 
-		breakthrough = -0.95
+		#Line artillery bonuses
+		soft_attack = 0.5
+		breakthrough = -0.75
+		armor_value = -0.25
 
 		suppression = 1.5
 
@@ -128,7 +134,7 @@ sub_units = {
 			movement = -0.2
 		}
 		amphibious = { 
-			attack = -10
+			attack = -0.7
 		}
 	}
 	
@@ -156,16 +162,19 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			heavy_tank_artillery_chassis = 24
+			heavy_tank_artillery_chassis = 40
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 1.2
+		max_strength = 2
 		weight = 1.5
 		supply_consumption = 0.6
 
-		breakthrough = -0.95
+		#Line artillery bonuses
+		soft_attack = 0.5
+		breakthrough = -0.75
+		armor_value = -0.25
 
 		suppression = 1.5
 
@@ -196,7 +205,7 @@ sub_units = {
 			movement = -0.4
 		}
 		amphibious = { 
-			attack = -10
+			attack = -0.8 
 		}
 	}
 	
@@ -224,17 +233,20 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			super_heavy_tank_artillery_chassis = 12
+			super_heavy_tank_artillery_chassis = 40
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 0.6
+		max_strength = 2
 		training_time = 180
 		weight = 1.75
 		supply_consumption = 0.8
 
-		breakthrough = -0.95
+		#Line artillery bonuses
+		soft_attack = 0.5
+		breakthrough = -0.75
+		armor_value = -0.25
 
 		suppression = 1.25
 
@@ -265,7 +277,7 @@ sub_units = {
 			movement = -0.5
 		}
 		amphibious = { 
-			attack = -10
+			attack = -1.0
 		}
 	}
 	
@@ -292,17 +304,20 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			modern_tank_artillery_chassis = 40
+			modern_tank_artillery_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 2
+		max_strength = 2.5
 		training_time = 180
 		weight = 1.5
 		supply_consumption = 0.5
-
-		breakthrough = -0.95
+		
+		#Line artillery bonuses
+		soft_attack = 0.5
+		breakthrough = -0.75
+		armor_value = -0.25
 
 		suppression = 1.5
 
@@ -333,7 +348,7 @@ sub_units = {
 			movement = -0.2
 		}
 		amphibious = { 
-			attack = -10
+			attack = -0.7
 		}
 	}
 

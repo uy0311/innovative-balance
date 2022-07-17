@@ -16,11 +16,11 @@ technologies = {
 		
 		category_all_armor = {
 			breakthrough = 0.20
-			#initiative = 0.05
+			initiative = 0.04
 		}
 		
-		coordination_bonus = 0.075
-		planning_speed = 0.5
+		coordination_bonus = -0.05
+		#planning_speed = 0.5
 		army_speed_factor = 0.05
 		enable_tactic = tactic_unexpected_thrust
 		org_loss_when_moving = -0.1
@@ -57,11 +57,13 @@ technologies = {
 
 		xp_research_type = army
 		xp_unlock_cost = 100
-
+		
 		category_all_infantry = {
 			max_organisation = 15
 		}
-		
+		infantry = {
+			default_morale = 0.10
+		}
 		
 		enable_tactic = tactic_delay
 		
@@ -70,10 +72,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 		
 		doctrine = yes	
@@ -112,10 +113,10 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_tanks = {
-			max_organisation = 1
+			max_organisation = 5#1
 		}
 		armored_car = {
-			max_organisation = 2
+			max_organisation = 10#2
 		}
 
 		category_all_armor = {
@@ -173,35 +174,44 @@ technologies = {
 		}
 		motorized = {
 			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mechanized = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		amphibious_mechanized = {
-			maximum_speed = 0.1
-			default_morale = 0.2
+			max_organisation = 20
+			#default_morale = 0.2
 		}
 		armored_car = {
 			maximum_speed = 0.1
-			default_morale = 0.2
+			max_organisation = 20
+			#default_morale = 0.2
 		}
 		mot_artillery_brigade = {
-			maximum_speed = 0.40
-			default_morale = 0.2
-		}
-		mot_rocket_artillery_brigade = {
-			maximum_speed = 0.40
-			default_morale = 0.2
+			maximum_speed = 0.1
+			max_organisation = 20
+			#default_morale = 0.2
 		}
 		mot_anti_tank_brigade = {
-			default_morale = 0.2
+			maximum_speed = 0.1
+			max_organisation = 20
+			#default_morale = 0.2
 		}
 		mot_anti_air_brigade = {
-			default_morale = 0.2
+			maximum_speed = 0.1
+			max_organisation = 20
+			#default_morale = 0.2
 		}
-
+		mechanized = {
+			maximum_speed = 0.1
+			max_organisation = 20
+			#default_morale = 0.2
+		}
+		amphibious_mechanized = {
+			maximum_speed = 0.1
+			max_organisation = 20
+			#default_morale = 0.2
+		}		
+		mot_rocket_artillery_brigade = {
+			maximum_speed = 0.10
+			max_organisation = 20
+			#default_morale = 0.2
+		}
 		
 		
 		path = {
@@ -209,10 +219,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 
 		doctrine = yes	
@@ -262,9 +271,19 @@ technologies = {
 	mass_motorization = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_all_infantry = {
-			max_organisation = 10
-		}	
+
+		motorized = {
+			initiative = 0.01
+		}
+		armored_car = {
+			initiative = 0.01
+		}
+		mechanized = {
+			initiative = 0.01
+		}
+		armored_car = {
+			initiative = 0.01
+		}
 		
 		
 		path = {
@@ -326,11 +345,11 @@ technologies = {
 		}
 		
 		armored_car = {
-			max_organisation = 3
+			max_organisation = 15#3	
 		}
 
 		category_tanks = {
-			max_organisation = 3
+			max_organisation = 15#3
 		}
 	
 
@@ -385,13 +404,15 @@ technologies = {
 	armored_spearhead = { #Branch focused on Tanks 
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_all_armor = {
-			max_organisation = 3
+		category_tanks = {
+			max_organisation = 15#3
 			breakthrough = 0.20
+			initiative = 0.01
 		}
 		
 		enable_tactic = tactic_blitz
 		
+	
 		xor = {
 			mobile_infantry
 		}
@@ -401,14 +422,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 		
 		doctrine = yes	
@@ -418,6 +434,8 @@ technologies = {
 			land_doctrine
 			cat_mobile_warfare
 		}
+
+
 		
 		folder = {
 			name = land_doctrine_folder
@@ -453,11 +471,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
-			max_organisation = 5
+			max_organisation = 10#2
 		}
 
 		category_all_armor = {
-			default_morale = 0.1
+			default_morale = 0.05
 		}
 		
 		
@@ -509,18 +527,16 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
-			max_organisation = 3
+			max_organisation = 1
 		}
 
 		category_all_armor = {
-			default_morale = 0.1
+			default_morale = 0.05
 		}
 		armored_car = {
 			default_morale = 0.1
-			max_organisation = 7
+			max_organisation = 35#7
 		}
-
-		air_cas_present_factor = 0.30
 
 		enable_tactic = tactic_breakthrough
 		
@@ -534,10 +550,12 @@ technologies = {
 			max_organisation = 5
 		}		
 
+		
 		path = {
 			leads_to_tech = kampfgruppe 
 			research_cost_coeff = 1
 		}
+
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -581,15 +599,14 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_all_infantry = {
-			max_organisation = 10
+			#default_morale = 0.2
+			max_organisation = 30
 		}
 		category_all_armor = {
-			max_organisation = 10
-			#initiative = 0.03
+			initiative = 0.02
 		}
-		coordination_bonus = 0.075
 		# faster planning
-		planning_speed = 0.2
+		#planning_speed = 0.2
 		
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -601,6 +618,7 @@ technologies = {
 			leads_to_tech = volkssturm 
 			research_cost_coeff = 1
 		}
+
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -609,6 +627,7 @@ technologies = {
 			land_doctrine
 			cat_mobile_warfare
 		}
+
 		
 		folder = {
 			name = land_doctrine_folder
@@ -649,10 +668,10 @@ technologies = {
 			max_organisation = 10
 		}
 		category_tanks = {
-			max_organisation = 2
+			max_organisation = 10#2
 		}
 		armored_car = {
-			max_organisation = 2
+			max_organisation = 10#2
 		}
 
 		
@@ -703,13 +722,13 @@ technologies = {
 
 		xp_research_type = army
 		xp_unlock_cost = 100
-
 		enable_tactic = tactic_backhand_blow
 		
 		path = {
 			leads_to_tech = modern_blitzkrieg 
 			research_cost_coeff = 1
 		}
+
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -746,15 +765,15 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
-			max_organisation = 3
+			max_organisation = 15#3
 			breakthrough = 0.20
 		}
 
 		category_all_armor = {
-			default_morale = 0.2
+			default_morale = 0.1
 		}
 		armored_car = {
-			max_organisation = 3
+			max_organisation = 15#3
 			default_morale = 0.2
 			breakthrough = 0.20
 		}
@@ -903,11 +922,10 @@ technologies = {
 		resistance_damage_to_garrison_on_our_occupied_states = 0.1 
 
 		enable_tactic = tactic_guerrilla_tactics
-
+		
 		category_all_infantry = {
-			max_organisation = -10
+			max_organisation = -15
 		}
-
 		doctrine = yes	
 		research_cost = 5.0
 		
@@ -953,7 +971,7 @@ technologies = {
 		}
 		
 		category_front_line = {
-			soft_attack = 0.2
+			 soft_attack = 0.1
 		}
 		
 		enable_tactic = tactic_barrage
@@ -1086,7 +1104,7 @@ technologies = {
 		}
 
 		category_line_artillery = {
-			default_morale = 0.3
+			default_morale = 0.15
 		}
 
 		path = {
@@ -1094,10 +1112,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 		
 		doctrine = yes	
@@ -1140,11 +1157,18 @@ technologies = {
 	regimental_combat_teams = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_support_battalions = {
-			max_organisation = 20
+
+		artillery = {
+			soft_attack = 0.35
 		}
-		category_recon = {
-			soft_attack = 0.5
+		rocket_artillery = {
+			soft_attack = 0.35
+		}
+		anti_tank = {
+			hard_attack = 0.15
+		}
+		anti_air = {
+			air_attack = 0.15
 		}
 
 		enable_tactic = tactic_overwhelming_fire
@@ -1199,10 +1223,16 @@ technologies = {
 		}
 		
 		artillery = {
-			soft_attack = 0.25
+			default_morale = 0.3
 		}
 		rocket_artillery = {
-			soft_attack = 0.25
+			default_morale = 0.3
+		}
+		anti_tank = {
+			default_morale = 0.3
+		}
+		anti_air = {
+			default_morale = 0.3
 		}
 		
 		path = {
@@ -1210,10 +1240,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
@@ -1258,7 +1287,9 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_line_artillery = {
-			max_organisation = 60
+			soft_attack = 0.3
+			hard_attack = 0.15
+			air_attack = 0.15
 		}
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -1309,18 +1340,14 @@ technologies = {
 	sup_mechanized_offensive = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+
+		category_all_armor = {
+			breakthrough = 0.10
+		}
+		
 		
 		enable_tactic = tactic_blitz
-
-		motorized = {
-			breakthrough = 0.2
-		}
-		mechanized = {
-			breakthrough = 0.2
-		}
-		amphibious_mechanized = {
-			breakthrough = 0.2
-		}
+		
 		
 		path = {
 			leads_to_tech = concentrated_fire_plans 
@@ -1430,7 +1457,6 @@ technologies = {
 		category_all_armor = {
 			hard_attack = 0.10
 			soft_attack = 0.10
-			maximum_speed = -0.1
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -1482,7 +1508,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		land_reinforce_rate = 0.02
-
+	
 		motorized = {
 			defense = 0.10
 		}
@@ -1507,14 +1533,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 		
 		doctrine = yes	
@@ -1610,12 +1631,46 @@ technologies = {
 			concentrated_fire_plans
 		}
 
-		category_line_artillery = {
-			soft_attack = 0.25
-			hard_attack = 0.25
-			air_attack = 0.25
+		artillery_brigade = {
+			fort = {
+				attack = 0.2
+			}
+			urban = {
+				attack = 1
+			}
 		}
-
+		mot_artillery_brigade = {
+			fort = {
+				attack = 0.2
+			}
+			urban = {
+				attack = 1
+			}
+		}
+		rocket_artillery_brigade = {
+			fort = {
+				attack = 0.2
+			}
+			urban = {
+				attack = 1
+			}
+		}
+		mot_rocket_artillery_brigade = {
+			fort = {
+				attack = 0.2
+			}
+			urban = {
+				attack = 1
+			}
+		}
+		motorized_rocket_brigade = {
+			fort = {
+				attack = 0.2
+			}
+			urban = {
+				attack = 1
+			}
+		}
 		path = {
 			leads_to_tech = forward_observers 
 			research_cost_coeff = 1
@@ -1666,9 +1721,10 @@ technologies = {
 		xp_unlock_cost = 100
 		category_recon = {
 			recon = 3
-			max_organisation = 10
+			max_organisation = 20
+			soft_attack = 0.5
 		}
-
+		
 		path = {
 			leads_to_tech = advanced_firebases 
 			research_cost_coeff = 1
@@ -1716,45 +1772,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		artillery_brigade = {
-			fort = {
-				attack = 0.4
-			}
-			urban = {
-				attack = 1
-			}
-		}
-		mot_artillery_brigade = {
-			fort = {
-				attack = 0.4
-			}
-			urban = {
-				attack = 1
-			}
-		}
-		rocket_artillery_brigade = {
-			fort = {
-				attack = 0.4
-			}
-			urban = {
-				attack = 1
-			}
-		}
-		mot_rocket_artillery_brigade = {
-			fort = {
-				attack = 0.4
-			}
-			urban = {
-				attack = 1
-			}
-		}
-		motorized_rocket_brigade = {
-			fort = {
-				attack = 0.4
-			}
-			urban = {
-				attack = 1
-			}
+		category_artillery = {
+			max_organisation = 20
 		}
 		
 		path = {
@@ -1762,14 +1781,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 		
 		doctrine = yes	
@@ -1818,6 +1832,23 @@ technologies = {
 		category_front_line = {
 			max_organisation = 10
 		}
+		category_special_forces = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+		}
+		light_flame_tank= {
+			max_organisation = 10
+			soft_attack = 0.5
+		}
+		medium_flame_tank= {
+			max_organisation = 10
+			soft_attack = 0.5
+		}
+		heavy_flame_tank= {
+			max_organisation = 10
+			soft_attack = 0.5
+		}
+
 		enable_tactic = tactic_breakthrough
 				
 		doctrine = yes	
@@ -1916,15 +1947,11 @@ technologies = {
 		
 		#planning max bonus increase
 		max_planning = 0.3
+		#command_power_gain = 0.25
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 
 		doctrine = yes	
@@ -1940,8 +1967,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
 		}
-
-
+		
 		ai_will_do = {
 			factor = 20
 			modifier = {
@@ -2019,10 +2045,7 @@ technologies = {
 
 		category_army = {
 			breakthrough = 0.10
-		}
-
-		category_front_line = {
-            soft_attack = 0.05
+			soft_attack = 0.05
 		}
 		
 		enable_tactic = tactic_planned_attack
@@ -2082,24 +2105,25 @@ technologies = {
 		}
 	
 		motorized = {
-			breakthrough = 0.1
+			max_organisation = 10
+			breakthrough = 0.3
 			default_morale = 0.1
-			max_organisation = 5
 		}
 		armored_car = {
-			breakthrough = 0.1
+			max_organisation = 10
+			breakthrough = 0.3
 			default_morale = 0.1
-			max_organisation = 5
 		}
 		mechanized = {
-			breakthrough = 0.1
+			max_organisation = 10
+			breakthrough = 0.3
 			default_morale = 0.1
-			max_organisation = 5
+
 		}
 		amphibious_mechanized = {
-			breakthrough = 0.1
+			max_organisation = 10
+			breakthrough = 0.3
 			default_morale = 0.1
-			max_organisation = 5
 		}
 		
 		enable_tactic = tactic_blitz
@@ -2153,13 +2177,30 @@ technologies = {
 	assault_concentration = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-	
-		motorized = {
-			breakthrough = 0.3
-		}
 
-		category_all_infantry = {
-			max_organisation = 10
+		medium_armor = {
+			breakthrough = 0.1
+			defense = 0.3
+		}
+		medium_tank_destroyer_brigade = {
+			breakthrough = 0.1
+			defense = 0.3
+		}
+		medium_sp_artillery_brigade = {
+			breakthrough = 0.1
+			defense = 0.3
+		}
+		heavy_armor = {
+			breakthrough = 0.1
+			defense = 0.3
+		}
+		heavy_tank_destroyer_brigade = {
+			breakthrough = 0.1
+			defense = 0.3
+		}
+		heavy_sp_artillery_brigade = {
+			breakthrough = 0.1
+			defense = 0.3
 		}
 
 		enable_tactic = tactic_overwhelming_fire
@@ -2169,10 +2210,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
@@ -2218,8 +2258,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		shore_bombardment_bonus = 1.0
-		naval_invasion_capacity = 50
+		category_special_forces = {
+			max_organisation  = 30
+			default_morale = 0.1
+		}
 
 		path = {
 			leads_to_tech = assault_breakthrough 
@@ -2268,15 +2310,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		motorized = {
-			initiative = 0.05
+		category_all_armor = {
+			default_morale = 0.1
+			breakthrough = 0.1
 		}
-		mechanized = {
-			hardness = 0.2
-		}
-		amphibious_mechanized = {
-			hardness = 0.2
-		}
+		
 		enable_tactic = tactic_breakthrough
 	
 
@@ -2330,15 +2368,8 @@ technologies = {
 
 		land_reinforce_rate = 0.05
 
-		motorized = {
-			max_organisation = 10
-			default_morale = 0.1
-		}
-
-		armored_car = {
-			max_organisation = 3
-			breakthrough = 0.1
-		}
+		shore_bombardment_bonus = 1.0
+		air_cas_present_factor = 0.30
 
 		path = {
 			leads_to_tech = c3i_theory 
@@ -2387,17 +2418,13 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		air_cas_present_factor = 0.30
-
+		category_all_infantry = {
+			default_morale = 0.05
+			max_organisation = 5
+		}
 		category_tanks = {
 			max_organisation = 3
-			default_morale = 0.1
 			soft_attack = 0.1
-			breakthrough = 0.1
-		}
-
-		category_special_forces = {
-			max_organisation  = 20
 		}
 		
 		doctrine = yes	
@@ -2447,8 +2474,8 @@ technologies = {
 		land_reinforce_rate = 0.03
 		
 		category_light_infantry = {
-			max_organisation = 5
-			breakthrough = 0.1
+			max_organisation = 10
+			breakthrough = 0.3
 			default_morale = 0.1
 		}
 		
@@ -2502,18 +2529,39 @@ technologies = {
 		xp_unlock_cost = 100
 
 		light_armor = {
-			max_organisation = 5
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.2
+		}
+		
+		light_sp_artillery_brigade = {
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.2
+		}
+		
+		light_tank_destroyer_brigade = {
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.2
+		}
+		
+		amphibious_light_armor = {
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.2
+		}
+
+		amphibious_armor = {
+			max_organisation = 10
+			default_morale = 0.1
 			breakthrough = 0.2
 		}
 
 		armored_car = {
-			max_organisation = 20
-			default_morale = 0.2
-			defense = 0.2
-		}
-
-		amphibious_armor = {
-			soft_attack = 0.2
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.2
 		}
 
 		enable_tactic = tactic_blitz
@@ -2525,10 +2573,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
@@ -2574,10 +2621,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		land_reinforce_rate = 0.03
+		land_reinforce_rate = 0.02
 
-		category_all_infantry = {
-			breakthrough = 0.10
+		infantry = {
+			initiative = 0.01
 		}
 	
 		org_loss_when_moving = -0.15
@@ -2630,11 +2677,11 @@ technologies = {
 		xp_unlock_cost = 100
 		#reduce land night combat penalty
 		land_night_attack = 0.25 # negates half of base penalty
-
-		infantry = {
-			initiative = 0.02
-		}
 	
+		infantry = {
+			default_morale = 0.1
+		}
+
 		path = {
 			leads_to_tech = attritional_containment 
 			research_cost_coeff = 1
@@ -2687,14 +2734,12 @@ technologies = {
 		out_of_supply_factor = -0.10
 
 		category_all_infantry = {
-			max_organisation = 5
+			default_morale = 0.05
 		}
 		category_tanks = {
-			max_organisation = 1
+			default_morale = 0.05
+			max_organisation = 3
 		}	
-		armored_car = {
-			max_organisation = 1
-		}
 
 		path = {
 			leads_to_tech = infiltration_in_depth 
@@ -2743,8 +2788,12 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		land_reinforce_rate = 0.04
-		
+		armored_car = {
+			max_organisation = 15
+			default_morale = 0.10
+			breakthrough = 0.2
+		}	
+
 		recon = { 
 			forest = {
 				movement = 0.1
@@ -2814,10 +2863,8 @@ technologies = {
 		}
 		
 		land_reinforce_rate = 0.02
-
-		training_time_army_factor = 0.1
-
-		minimum_training_level = -0.4		
+		minimum_training_level = -0.4
+		training_time_army_factor = 0.1	
 
 		doctrine = yes	
 		research_cost = 2.5
@@ -2945,6 +2992,8 @@ technologies = {
 			peoples_army
 		}
 
+
+
 		supply_consumption_factor = -0.10
 
 		enable_tactic = tactic_relentless_assault
@@ -3013,15 +3062,18 @@ technologies = {
 	}
 	
 	deep_operations = {
+		category_tanks = {
+			default_morale = 0.3
+		}
+		armored_car = {
+			default_morale = 0.2
+		}
+
 		xp_research_type = army
 		xp_unlock_cost = 100
 
 		org_loss_when_moving = -0.3
-
-		category_all_armor = {
-			max_organisation = 6
-			default_morale = 0.1
-		}
+		land_reinforce_rate = 0.05
 
 		enable_tactic = tactic_blitz
 		
@@ -3072,17 +3124,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		max_planning = 0.15
-		land_reinforce_rate = 0.05
-		
-	#	artillery_brigade = {
-	#		combat_width = -0.5
-	#	}
-	#	rocket_artillery_brigade = {
-	#		combat_width = -0.5
-	#	}
-	#	anti_air_brigade = {
-	#		combat_width = -0.5
-	#	}
+
 		anti_tank_brigade = {
 			combat_width = -0.5
 		}
@@ -3093,14 +3135,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 		
 		doctrine = yes	
@@ -3144,14 +3181,13 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		supply_consumption_factor = -0.10
-		
+		land_reinforce_rate = 0.05
 		infantry = {
-		#	max_strength = 3.0
 			combat_width = -0.4
-			default_morale = 0.30
-			supply_consumption = -0.01
+			default_morale = 0.25
 		}
 
+		
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
@@ -3199,37 +3235,40 @@ technologies = {
 	breakthrough_priority = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		
-		category_all_infantry = {
-			max_organisation = 5
+		category_tanks = {
+			default_morale = 0.2
 			breakthrough = 0.10
 		}
-		armored_car = {
-			max_organisation = 4
-			breakthrough = 0.20
+		category_all_infantry = {
+			max_organisation = 5
 		}
-		mechanized = {
-			default_morale = 0.3
-			maximum_speed = 0.1
+		armored_car = {
+			max_organisation = 1
+			breakthrough = 0.10
 		}
 		motorized = {
-			default_morale = 0.3
+			default_morale = 0.25
 			maximum_speed = 0.1
 		}	
+		mechanized = {
+			default_morale = 0.25
+			maximum_speed = 0.1
+		}
 		amphibious_mechanized = {
-			default_morale = 0.3
+			default_morale = 0.25
 			maximum_speed = 0.1
-		}	
+		}
+		
+		enable_tactic = tactic_breakthrough
 		
 		path = {
 			leads_to_tech = mechanized_wave
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
@@ -3276,56 +3315,56 @@ technologies = {
 		light_armor = {
 			combat_width = -0.2
 			max_organisation = 10
-			default_morale = 0.3
+			default_morale = 0.25
 		}
 		medium_armor = {
 			combat_width = -0.2
 			max_organisation = 10
-			default_morale = 0.3
+			default_morale = 0.25
 		}
 		modern_armor = {
 			combat_width = -0.2
 			max_organisation = 10
-			default_morale = 0.3
+			default_morale = 0.25
 		}
 		
 		light_tank_destroyer_brigade = {
-			combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.2
+			default_morale = 0.15
 		}
 		medium_tank_destroyer_brigade = {
-			combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.2
+			default_morale = 0.15
 		}
 		modern_tank_destroyer_brigade = {
-			combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.2
+			default_morale = 0.15
 		}
 
 		light_sp_anti_air_brigade = {
-			combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.2
+			default_morale = 0.15
 		}
 		medium_sp_anti_air_brigade = {
-			combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.2
+			default_morale = 0.15
 		}
 		modern_sp_anti_air_brigade = {
-			combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.2
+			default_morale = 0.15
 		}
 
         light_sp_artillery_brigade = {
-	#		combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.3
+			default_morale = 0.15
 		}
 		medium_sp_artillery_brigade = {
-	#		combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.3
+			default_morale = 0.15
 		}
 		modern_sp_artillery_brigade = {
-	#		combat_width = -0.4
-			default_morale = 0.2
+			combat_width = -0.3
+			default_morale = 0.15
 		}
 
 		path = {
@@ -3375,12 +3414,14 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		org_loss_when_moving = -0.25
-		land_reinforce_rate = 0.05
 
+		category_army = {
+			default_morale = 0.05
+		}
 		category_all_armor = {
 			maximum_speed = 0.1
 		}
-		
+
 		enable_tactic = tactic_backhand_blow
 
 		doctrine = yes	
@@ -3428,10 +3469,9 @@ technologies = {
 
 		xp_research_type = army
 		xp_unlock_cost = 100
-				
-		conscription = 0.05
 
 		land_reinforce_rate = 0.15
+		conscription = 0.05
 
 		infantry = {
 			combat_width = -0.4
@@ -3500,7 +3540,6 @@ technologies = {
 	human_infantry_offensive = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-
 		infantry = {
 			default_morale = 0.30
 		}
@@ -3558,14 +3597,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			tank_light_fixed_superstructure_turret
-			tank_light_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret
-			tank_medium_fixed_superstructure_turret_1
-			tank_medium_fixed_superstructure_turret_2
-			tank_heavy_fixed_superstructure_turret
-			tank_heavy_fixed_superstructure_turret_1
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_fixed_ss_turret_tt
 		}
 
 		doctrine = yes	
@@ -3660,10 +3694,9 @@ technologies = {
 		
 		enable_tactic = tactic_guerrilla_tactics
 		
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_heavy_three_man_tank_turret
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	

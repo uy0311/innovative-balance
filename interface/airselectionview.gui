@@ -424,10 +424,10 @@ guiTypes = {
 		
 		buttonType = {
 			name = "merge_wings_btn"
-			position = {x=9000 y=9000}
+			position = {x=273 y=7}
 			spriteType = "GFX_air_base_merge_btn"
 			clicksound = click_default
-			#shortcut = "g"
+			shortcut = "g"
 			scale = 0.7
 		}
 		

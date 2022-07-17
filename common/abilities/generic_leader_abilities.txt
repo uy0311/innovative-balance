@@ -37,17 +37,21 @@ ability = {
 			}
 		}
 		
-		cancelable = yes
 		cost = 0.22
-		duration = -1
+		duration = 720
 		
-		unit_modifiers = {
-			#combat_offense = 0.2
-			#combat_breakthrough = 0.25
-			org_damage_multiplier = -1.0
-			str_damage_multiplier = 0.6
-			#war_support_reduction_on_damage = 0.2
-			cannot_retreat_while_attacking = 1.0
+		one_time_effect = {
+			add_temporary_buff_to_units = {
+				#combat_offense = 0.2
+				#combat_breakthrough = 0.25
+				org_damage_multiplier = -1.0
+				str_damage_multiplier = 0.6
+				#war_support_reduction_on_damage = 0.2
+				cannot_retreat_while_attacking = 1.0
+				
+				days = 30
+				tooltip = ABILITY_FORCE_ATTACK_TOOLTIP
+			}
 		}
 	}
 		
@@ -70,17 +74,21 @@ ability = {
 			}
 		}
 		
-		cancelable = yes
 		cost = 0.22
-		duration = -1
+		duration = 720
 		
-		unit_modifiers = {
-			#combat_defense = 0.2
-			#combat_entrenchment = 0.25
-			org_damage_multiplier = -1.0
-			str_damage_multiplier = 0.6
-			#war_support_reduction_on_damage = 0.2
-			cannot_retreat_while_defending = 1.0
+		one_time_effect = {
+			add_temporary_buff_to_units = {
+				#combat_defense = 0.2
+				#combat_entrenchment = 0.25
+				org_damage_multiplier = -1.0
+				str_damage_multiplier = 0.6
+				#war_support_reduction_on_damage = 0.2
+				cannot_retreat_while_defending = 1.0
+				
+				days = 30
+				tooltip = ABILITY_LAST_STAND_TOOLTIP
+			}
 		}
 		
 		ai_will_do = {
@@ -151,10 +159,10 @@ ability = {
 		
 		unit_modifiers = {
 			fort = {
-				attack = 0.2
+				attack = 0.1
 			}
-			fortification_damage = 2.0
-			fortification_collateral_chance = 2.0
+			fortification_damage = 1.0
+			fortification_collateral_chance = 1.0
 		}
 		cost = 0.1
 		duration = 168

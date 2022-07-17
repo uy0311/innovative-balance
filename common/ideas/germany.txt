@@ -1684,7 +1684,7 @@ ideas = {
 				naval_equipment = 0.20
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { coastal_defence_naval_manufacturer }
 			
 			equipment_bonus = {
 				

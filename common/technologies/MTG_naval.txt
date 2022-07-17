@@ -1851,7 +1851,7 @@ early_ship_hull_carrier = {
 		}
 
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 1.0
 		research_cost = 2
 

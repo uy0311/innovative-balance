@@ -22,26 +22,26 @@ focus_tree = {
 
 	focus = {
 		id = equipment_effort
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = army_effort }
 		x = 0
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_ideas = anti_tank_research_bonus
+			add_ideas = artillery_research_bonus
 		}
 		available_if_capitulated = yes
 	}
 
 	focus = {
-		id = motorization_effort
-		icon = GFX_goal_generic_army_motorized
+		id = armor_effort
+		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = army_effort }
 		x = 2
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_ideas = armor_research_bonus
+			add_ideas = tank_research_bonus
 		}
 		available_if_capitulated = yes
 	}
@@ -61,8 +61,8 @@ focus_tree = {
 
 	focus = {
 		id = equipment_effort_2
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = equipment_effort }
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = equipment_effort focus = doctrine_effort }
 		x = 0
 		y = 3
 		cost = 10
@@ -73,14 +73,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mechanization_effort
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = motorization_effort }
+		id = tank_module_effort
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = armor_effort focus = doctrine_effort }
 		x = 2
 		y = 3
 		cost = 10
 		completion_reward = {
-			add_ideas = motorized_equipment_research_bonus
+			add_ideas = tank_module_research_bonus
 		}
 		available_if_capitulated = yes
 	}
@@ -100,26 +100,26 @@ focus_tree = {
 
 	focus = {
 		id = equipment_effort_3
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = equipment_effort_2 }
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = equipment_effort_2 focus = doctrine_effort_2 }
 		x = 0
 		y = 5
 		cost = 10
 		completion_reward = {
-			add_ideas = artillery_research_bonus
+			add_ideas = motorized_equipment_research_bonus
 		}
 		available_if_capitulated = yes
 	}
 
 	focus = {
-		id = armor_effort
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = mechanization_effort }
+		id = amphibious_tank_effort
+		icon = GFX_goal_generic_amphibious_assault
+		prerequisite = { focus = tank_module_effort focus = doctrine_effort_2 }
 		x = 2
 		y = 5
 		cost = 10
 		completion_reward = {
-			add_ideas = tank_research_bonus
+			add_ideas = landing_ship_research_bonus
 		}
 		available_if_capitulated = yes
 	}
@@ -127,12 +127,12 @@ focus_tree = {
 	focus = {
 		id = special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = equipment_effort_3  focus = doctrine_effort_2  focus = armor_effort}
+		prerequisite = { focus = equipment_effort_3  focus = doctrine_effort_2  focus = amphibious_tank_effort }
 		x = 1
 		y = 6
 		cost = 10
 		completion_reward = {
-			add_ideas = landing_ship_research_bonus
+			add_ideas = special_forces_research_bonus
 		}
 		available_if_capitulated = yes
 	}
@@ -197,7 +197,7 @@ focus_tree = {
 	focus = {
 		id = CAS_effort
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = aviation_effort_2 focus = motorization_effort }
+		prerequisite = { focus = aviation_effort_2 focus = armor_effort }
 		x = 4
 		y = 2
 		cost = 10

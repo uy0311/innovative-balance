@@ -134,7 +134,7 @@ technologies = {
 		carrier = {
 			max_organisation = 10			
 		}
-		sortie_efficiency = 0.05
+		#sortie_efficiency = 0.05
 		########
 
 		path = {
@@ -1184,7 +1184,7 @@ technologies = {
 		carrier = {
 			max_organisation = 20
 		}
-		sortie_efficiency = 0.05
+		#sortie_efficiency = 0.05
 
 		modifier = {
 			naval_strike_targetting_factor = 0.1
@@ -1327,7 +1327,7 @@ technologies = {
 		carrier = {
 			max_organisation = 20
 		}
-		sortie_efficiency = 0.1
+		#sortie_efficiency = 0.1
 		########
 
 		path = {
@@ -1400,7 +1400,7 @@ technologies = {
 			max_organisation = 20			
 		}
 		carrier_capacity_penalty_reduction = -0.2
-		sortie_efficiency = 0.1
+		##sortie_efficiency = 0.1
 
 		modifier = {
 			naval_strike_targetting_factor = 0.2

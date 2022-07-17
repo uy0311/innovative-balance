@@ -1,0 +1,20 @@
+
+ideas = {
+	country = {
+		
+		ib_rest_capital_penalty = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = ger_mefo_bills_payment
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}

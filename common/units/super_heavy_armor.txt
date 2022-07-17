@@ -24,13 +24,13 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			super_heavy_tank_equipment = 30
+			super_heavy_tank_chassis = 40
 		}
 
 		manpower = 500
 		max_organisation = 10
 		default_morale = 0.3
-		max_strength = 1.5
+		max_strength = 2
 		training_time = 180
 		weight = 1.75
 		
@@ -39,7 +39,9 @@ sub_units = {
 		#Tanks are awesome
 		# soft_attack = 0.5
 
-		suppression = 2.5	
+		suppression = 2.5
+
+		#breakthrough = 0.15	
 
 		forest = {
 		    attack = -0.5
@@ -71,7 +73,7 @@ sub_units = {
 			attack = -1.0
 		}
 		fort = {
-			attack = 0.5
+			attack = 0.25
 		}
 	}
 }

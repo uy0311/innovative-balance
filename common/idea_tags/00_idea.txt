@@ -81,7 +81,7 @@ idea_categories = {
 	army_spirit = {
 		type = army_spirit
 
-		cost = 35
+		cost = 25
 		removal_cost = -1
 		
 		politics_tab = no

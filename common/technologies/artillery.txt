@@ -107,7 +107,6 @@ technologies = {
 
 		categories = {
 			artillery
-			infantry_weapons
 		}
 
 		ai_will_do = {
@@ -162,7 +161,6 @@ technologies = {
 
 		categories = {
 			artillery
-			infantry_weapons
 		}
 
 		ai_will_do = {
@@ -232,7 +230,6 @@ technologies = {
 
 		categories = {
 			artillery
-			infantry_weapons
 		}
 
 		ai_will_do = {
@@ -257,8 +254,7 @@ technologies = {
 
 	artillery3 = {
 
-		enable_equipment_modules = {
-			tank_heavy_cannon
+		enable_equipment_modules = {	
 			tank_medium_howitzer_2
 		}
 
@@ -303,7 +299,6 @@ technologies = {
 
 		categories = {
 			artillery
-			infantry_weapons
 		}
 
 		ai_will_do = {
@@ -327,8 +322,8 @@ technologies = {
 			artillery_equipment_3
 		}
 		enable_equipment_modules = {
+			tank_heavy_cannon
 			tank_medium_cannon_3
-			tank_heavy_howitzer
 		}
 
 		path = {
@@ -347,7 +342,6 @@ technologies = {
 
 		categories = {
 			artillery
-			infantry_weapons
 		}
 
 		ai_will_do = {
@@ -373,7 +367,7 @@ technologies = {
 	artillery5 = {
 
 		enable_equipment_modules = {
-			tank_heavy_cannon_2
+			tank_heavy_howitzer
 			tank_super_heavy_cannon
 		}
 
@@ -418,7 +412,6 @@ technologies = {
 
 		categories = {
 			artillery
-			infantry_weapons
 		}
 
 		ai_will_do = {
@@ -444,6 +437,7 @@ technologies = {
 	artillery6 = {
 
 		enable_equipment_modules = {
+			tank_heavy_cannon_2
 			tank_heavy_cannon_3
 		}
 
@@ -483,7 +477,6 @@ technologies = {
 
 		categories = {
 			artillery
-			infantry_weapons
 		}
 
 		ai_will_do = {
@@ -561,7 +554,6 @@ technologies = {
 
 		categories = {
 			rocketry
-			artillery
 		}
 	}
 
@@ -605,7 +597,6 @@ technologies = {
 
 		categories = {
 			rocketry
-			artillery
 		}
 	}
 
@@ -649,7 +640,6 @@ technologies = {
 
 		categories = {
 			rocketry
-			artillery
 		}
 	}
 
@@ -690,7 +680,6 @@ technologies = {
 
 		categories = {
 			rocketry
-			artillery
 		}
 	}
 
@@ -729,7 +718,6 @@ technologies = {
 
 		categories = {
 			rocketry
-			artillery
 		}
 	}
 
@@ -1170,7 +1158,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_small_cannon_2
-			tank_high_velocity_cannon
 		}
 
 		path = {
@@ -1247,6 +1234,11 @@ technologies = {
 	}
 	
 	antitank1 = {
+
+		enable_equipment_modules = {
+			tank_medium_cannon
+			tank_high_velocity_cannon
+		}
 
 		anti_tank = {
 			hard_attack = 0.1
@@ -1343,7 +1335,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_medium_cannon_2
-			tank_high_velocity_cannon_2
 		}
 		path = {
 			leads_to_tech = antitank3
@@ -1411,7 +1402,7 @@ technologies = {
 	antitank3 = {
 
 		enable_equipment_modules = {
-			tank_heavy_cannon
+			tank_high_velocity_cannon_2
 		}
 		anti_tank = {
 			hard_attack = 0.1
@@ -1509,6 +1500,7 @@ technologies = {
 	antitank4 = {
 
 		enable_equipment_modules = {
+			tank_heavy_cannon
 			tank_medium_cannon_3
 		}
 
@@ -1606,7 +1598,6 @@ technologies = {
 			anti_tank_equipment_3
 		}	
 		enable_equipment_modules = {
-			tank_heavy_cannon_2
 			tank_high_velocity_cannon_3
 			tank_super_heavy_cannon
 		}
@@ -1673,6 +1664,7 @@ technologies = {
 	antitank6 = {
 
 		enable_equipment_modules = {
+			tank_heavy_cannon_2
 			tank_heavy_cannon_3
 		}
 
@@ -1712,7 +1704,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 1944
 		
 		folder = {
 			name = artillery_folder

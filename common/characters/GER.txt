@@ -205,7 +205,7 @@ characters={
 				original_tag = GER
 			}
 			traits = {
-				mobile_warfare_expert
+				military_theorist
 			}
 		}
 		

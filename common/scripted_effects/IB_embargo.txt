@@ -1,0 +1,18 @@
+IB_trade_command_execution = {
+	ROOT = {
+		add_opinion_modifier = { target = PREV modifier = ib_new_emb }
+		add_relation_modifier = { target = PREV modifier = ib_trade_static_modifier }
+	}
+	PREV = {
+		add_opinion_modifier = { target = ROOT modifier = ib_new_emb_opinion }
+	}
+}
+IB_trade_command_delete = {
+	ROOT = {
+		remove_opinion_modifier = { target = PREV modifier = ib_new_emb }
+		remove_relation_modifier = { target = PREV modifier = ib_trade_static_modifier }
+	}
+	PREV = {
+		remove_opinion_modifier = { target = ROOT modifier = ib_new_emb_opinion }
+	}
+}

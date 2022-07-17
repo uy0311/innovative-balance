@@ -87,9 +87,6 @@ technologies = {
 		enable_subunits = {
 			engineer
 		}
-		enable_equipment_modules = {
-		    equipment_for_engineers
-		}
 		path = {
 			leads_to_tech = tech_engineers2
 			research_cost_coeff = 1
@@ -143,7 +140,7 @@ technologies = {
 			
 			fort = {
 				defence = 0.10
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 
@@ -211,7 +208,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		medium_flame_tank = {
@@ -219,7 +216,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		heavy_flame_tank = {
@@ -227,7 +224,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		path = {
@@ -276,12 +273,17 @@ technologies = {
 				defence = 0.1
 			}
 		}
+
+		enable_equipment_modules = {
+			dozer_blade
+		}
+
 		light_flame_tank = {
 			urban = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		medium_flame_tank = {
@@ -289,7 +291,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		heavy_flame_tank = {
@@ -297,7 +299,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		research_cost = 1.5

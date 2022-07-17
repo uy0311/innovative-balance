@@ -23,24 +23,24 @@ sub_units = {
 
 		combat_width = 3
 
-		manpower = 500
+		manpower = 360
 		need = {
 			artillery_equipment = 36
 		}
 		
-		max_strength = 9
+		max_strength = 8
 		max_organisation = 60
 		default_morale = 0
 		training_time = 120
 		weight = 0.5
 		supply_consumption = 0.21
-		initiative = -0.02
+		initiative = -0.05
 
 		#Line artillery bonuses
 		# soft_attack = 0.25
 		
 		forest = {
-			#attack = -0.2
+			attack = -0.2
 			movement = -0.2
 		}
 
@@ -53,21 +53,21 @@ sub_units = {
 		}
 
 		jungle = {
-			#attack = -0.25
+			attack = -0.25
 			movement = -0.2
 		}
 
 		marsh = {
-			#attack = -0.2
+			attack = -0.2
 			movement = -0.3
 		}
 
 		fort = {
-			#attack = 0.1
+			attack = 0.1
 		}
 
 		river = {
-			#attack = -0.2
+			attack = -0.2
 			movement = -0.2
 		}
 
@@ -99,19 +99,19 @@ sub_units = {
 
 		combat_width = 3
 		transport = motorized_equipment
-		manpower = 500
+		manpower = 360
 		need = {
 			artillery_equipment = 36
 			motorized_equipment = 50
 		}
 		
-		max_strength = 9
+		max_strength = 8
 		max_organisation = 60
 		default_morale = 0
 		training_time = 120
 		weight = 0.5
 		supply_consumption = 0.25
-		initiative = -0.03
+		initiative = -0.05
 		maximum_speed = -0.20
 		
 		forest = {
@@ -138,7 +138,7 @@ sub_units = {
 		}
 
 		fort = {
-			attack = 0.1
+			attack = 0.05
 		}
 
 		river = {
@@ -178,18 +178,18 @@ sub_units = {
 			rocket_artillery_equipment = 36
 		}
 		
-		manpower = 500
+		manpower = 360
 		max_organisation = 60
 		default_morale = 0
-		max_strength = 9
+		max_strength = 8
 		training_time = 120
 		weight = 0.5
-		initiative = -0.02
+		initiative = -0.05
 
 		supply_consumption = 0.22
 		
 		forest = {
-			#attack = -0.2
+			attack = -0.2
 			movement = -0.2
 		}
 
@@ -202,21 +202,21 @@ sub_units = {
 		}
 
 		jungle = {
-			#attack = -0.25
+			attack = -0.25
 			movement = -0.2
 		}
 
 		marsh = {
-			#attack = -0.2
+			attack = -0.2
 			movement = -0.3
 		}
 
 		fort = {
-			attack = 0.1
+			attack = 0.05
 		}
 
 		river = {
-			#attack = -0.2
+			attack = -0.2
 			movement = -0.2
 		}
 
@@ -253,13 +253,13 @@ sub_units = {
 			motorized_equipment = 50
 		}
 		
-		manpower = 500
+		manpower = 360
 		max_organisation = 60
 		default_morale = 0
-		max_strength = 9
+		max_strength = 8
 		training_time = 120
 		weight = 0.5
-		initiative = -0.03
+		initiative = -0.05
 		maximum_speed = -0.20
 
 		supply_consumption = 0.25
@@ -288,7 +288,7 @@ sub_units = {
 		}
 
 		fort = {
-			attack = 0.1
+			attack = 0.05
 		}
 
 		river = {
@@ -336,7 +336,7 @@ sub_units = {
 		max_strength = 6
 		training_time = 120
 		weight = 0.5
-		initiative = -0.03
+		initiative = -0.05
 		
 		supply_consumption = 0.25
 		
@@ -364,7 +364,7 @@ sub_units = {
 		}
 
 		fort = {
-			attack = 0.1
+			attack = 0.05
 		}
 
 		river = {

@@ -1,0 +1,110 @@
+scripted_gui = {
+
+	IB_state_window = {
+		window_name = "IB_state_cession_checkbox"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+
+		visible = {
+			has_global_flag = IB_unlock_state_move_flag
+			NOT = { is_owned_by = ROOT }
+		}
+
+		effects = {
+			IB_state_cession_set_flag_button_click = {
+				if = {
+					limit = {
+						NOT = { has_state_flag = IB_state_cession_flag }
+					}
+					set_state_flag = IB_state_cession_flag
+				}
+				else = {
+					clr_state_flag = IB_state_cession_flag
+				}
+			}
+		}
+	}
+
+	IB_state_check_1_window = {
+		window_name = "IB_state_flag_check_1"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+
+		visible = {
+			has_global_flag = IB_unlock_state_move_flag
+			NOT = { has_state_flag = IB_state_cession_flag }
+			NOT = { is_owned_by = ROOT } 
+		}
+	}
+
+	IB_state_check_2_window = {
+		window_name = "IB_state_flag_check_2"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+
+		visible = {
+			has_global_flag = IB_unlock_state_move_flag
+			has_state_flag = IB_state_cession_flag
+			NOT = { is_owned_by = ROOT } 
+		}
+	}
+
+	IB_state_check_3_window = {
+		window_name = "IB_state_flag_check_3"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+
+		visible = {
+			has_global_flag = IB_unlock_state_move_flag
+			has_state_flag = IB_state_cession_flag
+			is_owned_by = ROOT
+		}
+	}
+
+	IB_reset_capital_2_window = {
+		window_name = "IB_reset_capital_icon_2"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+
+		visible = {
+			AND = {
+				has_global_flag = IB_unlock_reset_capital_flag
+			    is_owned_by = ROOT
+				is_capital = no
+			    OR = {
+			    	ROOT = { NOT = { has_political_power > 300 } }
+			        ROOT = { has_war = yes }
+			    	ROOT = { has_country_flag = IB_reset_capital_cooltime_flag }
+			    }
+			}
+		}
+	}
+
+	IB_reset_capital_window = {
+		window_name = "IB_reset_capital_icon"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+
+		visible = {
+			AND = {
+				has_global_flag = IB_unlock_reset_capital_flag
+			    is_owned_by = ROOT
+				is_capital = no
+			    ROOT = { has_political_power > 300 }
+			    ROOT = { NOT = { has_country_flag = IB_reset_capital_cooltime_flag } }
+			    ROOT = { has_war = no }
+			}
+		}
+
+		effects = {
+			IB_reset_capital_button_click = {
+				set_state_flag = IB_where_reset_cap_flag
+				ROOT = {
+					country_event = { id = set_capital.1 }
+					set_country_flag = IB_reset_capital_cooltime_flag
+				}
+		    }
+		}
+	}
+}
+

@@ -27,9 +27,9 @@ technologies = {
 		}
 		
 		enable_equipment_modules = {
-			#tank_heavy_machine_gun
 			secondary_turret_hmg
 			additional_machine_guns
+			IB_tank_coaxial_machine_gun
 		}
 
 		path = {
@@ -60,7 +60,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			IB_tank_heavy_machine_gun_1
+			
 		}
 				
 		path = {
@@ -167,7 +167,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			IB_tank_heavy_machine_gun_2
+			IB_tank_heavy_machine_gun
 		}
 		
 		path = {
@@ -320,6 +320,11 @@ technologies = {
 			hard_attack = 0.25
 			ap_attack = 1
 		}
+
+		path = {
+			leads_to_tech = infantry_at3
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1.5
 		start_year = 1942
@@ -351,15 +356,49 @@ technologies = {
 			}
 		}
 	}
+
+	infantry_at3 = {
+
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1944 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1943.1.6"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1944.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1945.1.1"
+			}
+		}
+	}
 	
 	advanced_infantry_weapons = {
 
 		enable_equipments = {
 			infantry_equipment_3
-		}
-
-		enable_equipment_modules = {
-			IB_tank_heavy_machine_gun_3
 		}
 		
 		path = {
@@ -481,6 +520,7 @@ technologies = {
 		
 		categories = {
 			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -524,6 +564,7 @@ technologies = {
 		
 		categories = {
 			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -562,6 +603,7 @@ technologies = {
 		
 		categories = {
 			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -616,6 +658,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -654,6 +697,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -686,6 +730,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -734,8 +779,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_tech
 			mountaineers_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -763,8 +808,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_tech
 			mountaineers_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -785,8 +830,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_tech
 			mountaineers_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -826,9 +871,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -862,9 +905,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -893,9 +934,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -927,9 +966,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -960,9 +997,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {
@@ -989,9 +1024,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			special_forces_tech
 		}
 		
 		ai_will_do = {

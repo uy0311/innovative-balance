@@ -615,7 +615,7 @@ characters={
 				original_tag = HUN
 			}
 			traits = {
-				army_cavalry_2
+				air_naval_strike_2
 			}
 			cost = 100
 			ai_will_do = {

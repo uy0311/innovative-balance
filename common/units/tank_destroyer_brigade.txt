@@ -27,17 +27,17 @@ sub_units = {
 
 
 		need = {
-			light_tank_destroyer_chassis = 30
+			light_tank_destroyer_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.3
-		max_strength = 1.5
+		max_strength = 2.5
 		training_time = 180
 		weight = 1
 		supply_consumption = 0.2
 
-		breakthrough = -0.95
+		breakthrough = -0.75
 
 		suppression = 1.0
 
@@ -94,18 +94,18 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			medium_tank_destroyer_chassis = 24
+			medium_tank_destroyer_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.3
-		max_strength = 1.2
+		max_strength = 2.5
 		training_time = 180
 		weight = 1.25
 		supply_consumption = 0.22
 
-		breakthrough = -0.95
-
+		breakthrough = -0.75
+		
 		suppression = 1.25
 
 		forest = {
@@ -165,16 +165,16 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			heavy_tank_destroyer_chassis = 20
+			heavy_tank_destroyer_chassis = 40
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.3
-		max_strength = 1
+		max_strength = 2
 		weight = 1.5
 		supply_consumption = 0.3
 
-		breakthrough = -0.95
+		breakthrough = -0.75
 
 		suppression = 1.25
 		
@@ -208,7 +208,7 @@ sub_units = {
 			attack = -0.8 
 		}
 		fort = {
-			attack = 0.05
+			attack = 0.025
 		}
 	}
 	
@@ -236,17 +236,17 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			super_heavy_tank_destroyer_chassis = 7
+			super_heavy_tank_destroyer_chassis = 40
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.3
-		max_strength = 0.35
+		max_strength = 2
 		training_time = 180
 		weight = 1.75
 		supply_consumption = 0.4
 
-		breakthrough = -0.95
+		breakthrough = -0.75
 
 		suppression = 1.25
 
@@ -280,7 +280,7 @@ sub_units = {
 			attack = -1.0
 		}
 		fort = {
-			attack = 0.3
+			attack = 0.15
 		}
 	}
 	
@@ -309,17 +309,17 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			modern_tank_destroyer_chassis = 24
+			modern_tank_destroyer_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0.3
-		max_strength = 1.2
+		max_strength = 2.5
 		training_time = 180
 		weight = 1.5
 		supply_consumption = 0.25
-
-		breakthrough = -0.95
+		
+		breakthrough = -0.75
 
 		suppression = 1.25
 		

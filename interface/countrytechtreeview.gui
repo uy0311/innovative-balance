@@ -1147,7 +1147,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "armor_tech_1_tree"
-				position = { x = 41% y = 172 }
+				position = { x = 43% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1162,16 +1162,8 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "suspension_tech_1_tree"
-				position = { x = -43% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
 				name = "tankammo_tech_1_tree"
-				position = { x = 31% y = 172 }
+				position = { x = 39% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1179,14 +1171,14 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "cannon_tech_1_tree"
-				position = { x = 38% y = 172 }
+				position = { x = 39% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
-				name = "tankradio_tree"
+				name = "tankother_tree"
 				position = { x = 24% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
@@ -3483,7 +3475,7 @@ guiTypes = {
 			text = "RESEARCH_WITH_XP"
 			buttonFont = "hoi_20b"
 			position = { x=390 y=80 }
-			shortcut = "RETURN"
+		#	shortcut = "RETURN"
 		}
 		
 		iconType = {

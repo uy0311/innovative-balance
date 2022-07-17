@@ -2,6 +2,42 @@ spriteTypes = {
 
 	#tank_modules
 	spriteType = {
+		name = "GFX_EMI_IB_tank_coaxial_machine_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/IB_tank_coaxial_machine_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = { #module_category_icon
+		name = "GFX_EMI_tank_coaxial_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/IB_tank_coaxial_machine_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_vertical_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/vertical_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_half_sloped_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/half_sloped_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_additional_frontal_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/additional_frontal_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_spare_tracks"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/spare_tracks.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_EMI_equipment_for_engineers"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_troop_carrier.dds"
 		legacy_lazy_load = no
@@ -26,8 +62,14 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_EMI_IB_tank_heavy_machine_gun_1"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/IB_tank_heavy_machine_gun_1.dds"
+		name = "GFX_EMI_IB_tank_heavy_machine_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_machine_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = { #module_category_icon
+		name = "GFX_EMI_tank_commander_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_machine_gun.dds"
 		legacy_lazy_load = no
 	}
 
@@ -92,6 +134,24 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+	spriteType = { #module_category_icon
+		name = "GFX_EMI_tank_special_armor_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_sloped_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = { #module_category_icon
+		name = "GFX_EMI_tank_special_turret_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_autoloader.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = { #module_category_icon
+		name = "GFX_EMI_tank_special_ammo_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_wet_ammo_storage.dds"
+		legacy_lazy_load = no
+	}
+
     ### ships ####	
 	
 	SpriteType = {
@@ -139,35 +199,14 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/night_vision3.dds"
 	}
 
-	#tank_module_tech_tree
-	spriteType = {
-		name = "GFX_suspension_tech_1_medium"
-		textureFile = "gfx/interface/technologies/suspension_1.dds"
-	}
-
-	spriteType = {
-		name = "GFX_suspension_tech_2_medium"
-		textureFile = "gfx/interface/technologies/suspension_2.dds"
-	}
-
-	spriteType = {
-		name = "GFX_suspension_tech_3_medium"
-		textureFile = "gfx/interface/technologies/suspension_3.dds"
-	}
-
-	spriteType = {
-		name = "GFX_suspension_tech_4_medium"
-		textureFile = "gfx/interface/technologies/suspension_4.dds"
-	}
-
 	spriteType = {
 		name = "GFX_tankammo_tech_1_medium"
-		textureFile = "gfx/interface/technologies/tankammo_1.dds"
+		textureFile = "gfx/interface/technologies/tankammo_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_tankammo_tech_2_medium"
-		textureFile = "gfx/interface/technologies/tankammo_2.dds"
+		textureFile = "gfx/interface/technologies/tankammo_1.dds"
 	}
 
 	spriteType = {
@@ -191,13 +230,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_tankradio_medium"
-		textureFile = "gfx/interface/technologies/tankradio.dds"
+		name = "GFX_tankother_medium"
+		textureFile = "gfx/interface/technologies/tankother.dds"
 	}
 
 	spriteType = {
-		name = "GFX_tankradio_2_medium"
-		textureFile = "gfx/interface/technologies/tankradio_2.dds"
+		name = "GFX_tankother_2_medium"
+		textureFile = "gfx/interface/technologies/tankother_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tankother_3_medium"
+		textureFile = "gfx/interface/technologies/tankother_3.dds"
 	}
 
     #technologies
@@ -219,6 +263,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_antitank6_medium"
 		textureFile = "gfx/interface/technologies/antitank6.dds"
+	}
+
+	spriteType = { #infantry_at3
+		name = "GFX_infantry_at3_medium"
+		textureFile = "gfx/interface/technologies/infantry_at3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_designer_frame_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/IB_tank_designer_additional_special_slot_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_designer_frame_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/IB_tank_designer_manufactur_frame.dds"
 	}
 
 	#topbar
@@ -268,5 +327,27 @@ spriteTypes = {
 		name = "GFX_ib_res_icon"
 		texturefile = "gfx/interface/ib_res_botton_icon.dds"
 		legacy_lazy_load = no
+	}
+
+	#tank_turret_tech
+	spriteType = {
+		name = "GFX_IB_fixed"
+		textureFile = "gfx/interface/IB_grid_blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_three"
+		textureFile = "gfx/interface/IB_grid_orange.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_transparent"
+		textureFile = "gfx/interface/IB_turret_transparent_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_resete_capital"
+		textureFile = "gfx/interface/ib_resete_capital_command_icon.dds"
+		noOfFrames = 2
 	}
 }

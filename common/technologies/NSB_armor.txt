@@ -31,8 +31,11 @@ technologies = {
 			heavy_tank_aa_chassis_0
 		}
 		enable_equipment_modules = {
-			easy_maintenance
 			tank_riveted_armor
+			tank_welded_armor
+			vertical_armor
+			tank_bogie_suspension
+			tank_torsion_bar_suspension
 			tank_light_one_man_tank_turret
 			tank_medium_one_man_tank_turret
 		}
@@ -415,7 +418,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = main_battle_tank_chassis
+			leads_to_tech = advanced_medium_tank_chassis
 			research_cost_coeff = 1
 		}
 
@@ -968,238 +971,22 @@ technologies = {
 
 	armor_tech_1 = {
 
+		enable_equipment_modules = {
+			half_sloped_armor
+		}
+
 		path = {
 			leads_to_tech = armor_tech_2
 			research_cost_coeff = 1
 		}
 
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_1_tt
-		}
-		show_effect_as_desc = yes
+		#on_research_complete = {
+		#	custom_effect_tooltip = armor_tech_1_tt
+		#}
+		#show_effect_as_desc = yes
 
-		research_cost = 1
-		start_year = 1934
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 3 y = @1936 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	armor_tech_2 = {
-
-		enable_equipment_modules = {
-			armor_skirts
-			tank_welded_armor
-		}
-		path = {
-			leads_to_tech = armor_tech_3
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_2_tt
-		}
-		show_effect_as_desc = yes
-
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 3 y = @1938 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	armor_tech_3 = {
-
-		enable_equipment_modules = {
-			tank_cast_armor
-			sloped_armor
-		}
-
-
-		path = {
-			leads_to_tech = armor_tech_4
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_3_tt
-		}
-		show_effect_as_desc = yes
-
-		research_cost = 1
-		start_year = 1941
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 3 y = @1941 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	armor_tech_4 = {
-
-		research_cost = 1
-		start_year = 1944
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 3 y = @1944 }
-		}
-
-		enable_equipment_modules = {
-			dozer_blade
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_4_tt
-		}
-		show_effect_as_desc = yes
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	engine_tech_1 = {
-
-        enable_equipment_modules = {
-			tank_gasoline_engine
-			tank_diesel_engine
-		}
-
-		path = {
-			leads_to_tech = engine_tech_2
-			research_cost_coeff = 1
-		}
-		on_research_complete = {
-			custom_effect_tooltip = engine_tech_1_tt
-		}
-		show_effect_as_desc = yes
-		research_cost = 1
-		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1936 }
@@ -1235,31 +1022,31 @@ technologies = {
 
 		categories = {
 			armor
+			cat_tank_module
 		}
 	}
 
-	engine_tech_2 = {
+	armor_tech_2 = {
 
 		enable_equipment_modules = {
-			tank_petrol_electric_engine
+			tank_cast_armor
+			spare_tracks
 		}
-
-
 		path = {
-			leads_to_tech = engine_tech_3
+			leads_to_tech = armor_tech_3
 			research_cost_coeff = 1
 		}
 
-		on_research_complete = {
-			custom_effect_tooltip = engine_tech_2_tt
-		}
+		#on_research_complete = {
+		#	custom_effect_tooltip = armor_tech_2_tt
+		#}
 		show_effect_as_desc = yes
 
-		research_cost = 1
-		start_year = 1936
+		research_cost = 0.5
+		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 2 y = @1939 }
 		}
 
 		ai_will_do = {
@@ -1292,20 +1079,28 @@ technologies = {
 
 		categories = {
 			armor
+			cat_tank_module
 		}
 	}
 
-	engine_tech_3 = {
+	armor_tech_3 = {
+
+		enable_equipment_modules = {
+			sloped_armor
+			additional_frontal_armor
+		}
 
 		path = {
-			leads_to_tech = engine_tech_4
+			leads_to_tech = armor_tech_4
 			research_cost_coeff = 1
 		}
-		on_research_complete = {
-			custom_effect_tooltip = engine_tech_3_tt
-		}
+
+		#on_research_complete = {
+		#	custom_effect_tooltip = armor_tech_3_tt
+		#}
 		show_effect_as_desc = yes
-		research_cost = 1
+
+		research_cost = 0.5
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
@@ -1342,16 +1137,239 @@ technologies = {
 
 		categories = {
 			armor
+			cat_tank_module
+		}
+	}
+
+	armor_tech_4 = {
+
+		research_cost = 0.5
+		start_year = 1943
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1943 }
+		}
+
+		enable_equipment_modules = {
+			armor_skirts
+		}
+
+		#on_research_complete = {
+		#	custom_effect_tooltip = armor_tech_4_tt
+		#}
+		#show_effect_as_desc = yes
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			cat_tank_module
+		}
+	}
+
+	engine_tech_1 = {
+
+        enable_equipment_modules = {
+			tank_gasoline_engine
+			tank_diesel_engine
+		}
+
+		path = {
+			leads_to_tech = engine_tech_2
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = engine_tech_1_tt
+		}
+		show_effect_as_desc = yes
+		research_cost = 0.5
+		start_year = 1934
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			cat_tank_module
+		}
+	}
+
+	engine_tech_2 = {
+
+		enable_equipment_modules = {
+			tank_petrol_electric_engine
+			tank_christie_suspension
+		}
+
+
+		path = {
+			leads_to_tech = engine_tech_3
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = engine_tech_2_tt
+		}
+		show_effect_as_desc = yes
+
+		research_cost = 0.5
+		start_year = 1936
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = @1938 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			cat_tank_module
+		}
+	}
+
+	engine_tech_3 = {
+
+		enable_equipment_modules = {
+			tank_interleaved_suspension
+		}
+
+		path = {
+			leads_to_tech = engine_tech_4
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = engine_tech_3_tt
+		}
+		show_effect_as_desc = yes
+		research_cost = 0.5
+		start_year = 1941
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = @1941 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			cat_tank_module
 		}
 	}
 
 	engine_tech_4 = {
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 1 y = @1944 }
 		}
 		enable_equipment_modules = {
 			tank_gas_turbine_engine
@@ -1391,107 +1409,21 @@ technologies = {
 
 		categories = {
 			armor
-		}
-	}
-
-	suspension_tech_1 = {
-
-		research_cost = 0.5
-		start_year = 1934
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 4 y = @1936 }
-		}
-
-		enable_equipment_modules = {
-			tank_bogie_suspension
-		}
-
-		path = {
-			leads_to_tech = suspension_tech_2
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	suspension_tech_2 = {
-
-		research_cost = 1
-		start_year = 1936
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 4 y = @1938 }
-		}
-
-		enable_equipment_modules = {
-			tank_torsion_bar_suspension
-		}
-
-		path = {
-			leads_to_tech = suspension_tech_3
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	suspension_tech_3 = {
-
-		research_cost = 1
-		start_year = 1938
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 4 y = 6 }
-		}
-
-		enable_equipment_modules = {
-			tank_interleaved_suspension
-		}
-
-		path = {
-			leads_to_tech = suspension_tech_4
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	suspension_tech_4 = {
-
-		research_cost = 1
-		start_year = 1940
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 4 y = 8 }
-		}
-
-		enable_equipment_modules = {
-			tank_christie_suspension
-		}
-
-		categories = {
-			armor
+			cat_tank_module
 		}
 	}
 
 	tankammo_tech_1 = {
 
-		research_cost = 1.25
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 1 y = @1936 }
 		}
 
 		enable_equipment_modules = {
-			smoke_launchers
+			wet_ammo_storage
 		}
 
 		path = {
@@ -1501,43 +1433,18 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
+			cat_tank_module
 		}
 
 	}
 
 	tankammo_tech_2 = {
 
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 4 }
-		}
-
-		enable_equipment_modules = {
-			wet_ammo_storage
-		}
-
-		path = {
-			leads_to_tech = tankammo_tech_3
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			armor
-			artillery
-		}
-
-	}
-
-	tankammo_tech_3 = {
-
-		research_cost = 0.75
-		start_year = 1936
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = 6 }
+			position = { x = 1 y = 4 }
 		}
 
 		enable_equipment_modules = {
@@ -1546,17 +1453,17 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
+			cat_tank_module
 		}
 
 	}
 
 	cannon_tech_1 = {
-		research_cost = 0.8
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1939 }
+			position = { x = 1 y = @1939 }
 		}
 
 		enable_equipment_modules = {
@@ -1570,16 +1477,16 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
+			cat_tank_module
 		}
 	}
 
 	cannon_tech_2 = {
-		research_cost = 0.8
+		research_cost = 0.5
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 1 y = @1941 }
 		}
 
 		enable_equipment_modules = {
@@ -1593,16 +1500,16 @@ technologies = {
 
 		categories = {
 			armor
-			artillery
+			cat_tank_module
 		}
 	}
 
 	cannon_tech_3 = {
-		research_cost = 0.8
-		start_year = 1944
+		research_cost = 0.5
+		start_year = 1964
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 1 y = @1945 }
 		}
 
 		enable_equipment_modules = {
@@ -1614,50 +1521,112 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			main_battle_tank_chassis = 1
+		}
+
 		categories = {
 			armor
-			artillery
+			cat_tank_module
 		}
 	}
 
-	tankradio = {
+	tankother = {
 		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 3 y = @1936 }
 		}
 
-		enable_equipment_modules = { 
-			tank_radio_1
+		enable_equipment_modules = {
+			easy_maintenance
 		}
 
 		path = {
-			leads_to_tech = tankradio_2
+			leads_to_tech = tankother_2
 			research_cost_coeff = 1
 		}
 
 		categories = {
 			armor
-			electronics
+			cat_tank_module
 		}
 	}
 
-	tankradio_2 = {
+	tankother_2 = {
 		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 3 y = @1938 }
 		}
 
 		enable_equipment_modules = { 
-			tank_radio_3
+			equipment_for_engineers
+		}
+		path = {
+			leads_to_tech = tankother_3
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			cat_tank_module
+		}
+	}
+
+	tankother_3 = {
+		research_cost = 0.5
+		start_year = 1936
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 3 y = @1939 }
+		}
+
+		enable_equipment_modules = { 
+			smoke_launchers
 		}
 
 		categories = {
 			armor
-			electronics
+			cat_tank_module
 		}
 	}
+
+	#### HIDDEN TECH ####
+	IB_three_turret_tech = {
+    		
+    	allow = {
+    		always = no
+    	}
+    
+    	research_cost = 1
+    	start_year = 1936
+    
+    	enable_equipment_modules = {
+    		tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
+    	}
+    }
+
+	IB_fixed_turret_tech = {
+    		
+    	allow = {
+    		always = no
+    	}
+    
+    	research_cost = 1
+    	start_year = 1936
+    
+    	enable_equipment_modules = {
+    		tank_light_fixed_superstructure_turret
+			tank_light_fixed_superstructure_turret_1
+			tank_medium_fixed_superstructure_turret
+			tank_medium_fixed_superstructure_turret_1
+			tank_medium_fixed_superstructure_turret_2
+			tank_heavy_fixed_superstructure_turret
+			tank_heavy_fixed_superstructure_turret_1
+    	}
+    }
 }

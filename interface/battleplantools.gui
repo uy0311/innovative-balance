@@ -35,6 +35,7 @@ guiTypes = {
 				clicksound = click_battleplan
 				oversound = ui_menu_over
 				shortcut = "k"
+				shortcut = "shift+k"
 			}
 			buttonType = {
 				name = "btn_exercise_shift_dummy"

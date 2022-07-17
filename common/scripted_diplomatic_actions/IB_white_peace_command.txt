@@ -1,0 +1,45 @@
+scripted_diplomatic_actions = {
+	IB_white_peace = {
+		visible = {
+			has_global_flag = IB_unlock_wp_flag
+		}
+		selectable = {
+			if = {
+				limit = {
+					ROOT = { has_war_with = PREV }
+				}
+				custom_trigger_tooltip = {
+					tooltip = IB_wp_allow_tt
+					always = yes
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = IB_wp_denied_tt
+					always = no
+				}
+			}
+		}
+
+		cost = 0
+		command_power = 0
+		
+		show_acceptance_on_action_button = yes
+		requires_acceptance = yes
+		
+		accept_title = IB_wp_accept_title
+		accept_description = IB_wp_accept_description
+
+		icon = 1
+		complete_effect = { ROOT = { white_peace = PREV } }
+
+		ai_desire = {
+			base = 1
+
+			modifier = {
+				ROOT = { is_ai = yes }
+				add = -5000
+			}
+		}
+	}
+}

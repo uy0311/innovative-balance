@@ -49,6 +49,10 @@ equipments = {
 			category = ship_airplane_launcher
 			count < 2
 		}
+		module_count_limit = {
+	    	module = ship_airplane_launcher_2
+	    	count < 1
+	    }
 		
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
