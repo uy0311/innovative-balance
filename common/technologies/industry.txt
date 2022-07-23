@@ -41,7 +41,7 @@ technologies = {
 	improved_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.1
+		#equipment_conversion_speed = 0.1
 
 		path = {
 			leads_to_tech = advanced_machine_tools 
@@ -74,7 +74,7 @@ technologies = {
 	advanced_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.1
+		#equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = assembly_line_production 
@@ -112,7 +112,7 @@ technologies = {
 	assembly_line_production = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.1
+		#equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = streamlined_line
@@ -146,7 +146,7 @@ technologies = {
 	flexible_line = {
 
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.1
+		#equipment_conversion_speed = 0.1
 		line_change_production_efficiency_factor = 0.2
 		
 		research_cost = 2.0
@@ -176,7 +176,7 @@ technologies = {
 	streamlined_line = {
 
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.1
+		#equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = flexible_line
