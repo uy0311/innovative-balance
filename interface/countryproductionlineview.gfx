@@ -685,7 +685,7 @@ spriteTypes = {
 	 spriteType = {
 		name = "GFX_production_line_convert"
 		textureFile = "gfx//interface//production_line_convert.dds"
-		noOfFrames = 0 #2
+		noOfFrames =  100 #2
 	}
 	
 	spriteType = {
