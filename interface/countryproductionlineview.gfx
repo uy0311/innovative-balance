@@ -681,11 +681,11 @@ spriteTypes = {
 		tilingCenter = no
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}	
-	#convert_botton
+	#convert_button
 	 spriteType = {
 		name = "GFX_production_line_convert"
 		textureFile = "gfx//interface//production_line_convert.dds"
-		noOfFrames =  100 #2
+		noOfFrames =  1000 #2
 	}
 	
 	spriteType = {
