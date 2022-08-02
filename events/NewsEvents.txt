@@ -3464,6 +3464,48 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = news.999
+	title = news.999.t
+	desc = news.999.d
+	picture = GFX_news_event_047
+	
+	major = yes
+	
+	trigger = {
+		285 = { is_controlled_by = JAP }
+		285 = { is_owned_by = USA }
+		JAP = { has_war_with = USA }
+		NOT = { has_global_flag = fall_of_sydney }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_sydney
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}
+
 # The Fall of Los Angeles
 news_event = {
 	id = news.120

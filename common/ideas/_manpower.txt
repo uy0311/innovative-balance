@@ -17,7 +17,7 @@ ideas = {
 			modifier = {
 				conscription = 0.01
 				training_time_factor = -0.15
-				command_power_gain_mult = 0.5
+				max_command_power_mult = 1.00
 				#industrial_capacity_factory = 0.04
 				#industrial_capacity_dockyard = 0.04
 				#production_speed_buildings_factor = 0.03
@@ -52,7 +52,7 @@ ideas = {
 			modifier = {
 				conscription = 0.02
 				training_time_factor = -0.01
-				command_power_gain_mult = 0.25
+				max_command_power_mult = 0.5
 			}
 			
 			default = yes
