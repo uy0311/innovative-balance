@@ -527,8 +527,7 @@ ideas = {
 				army_core_defence_factor = 0.05
 				global_building_slots_factor = 0.20
 				conscription = 0.015
-				max_command_power_mult = 1.00
-				max_command_power = 200
+				command_power_gain_mult = 0.5
 			}
 		}
 	
