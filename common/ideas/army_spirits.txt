@@ -316,12 +316,6 @@ ideas = {
 				unit_paratrooper_design_cost_factor = -1
 
 				unit_amphibious_armor_design_cost_factor = -0.66
-				unit_amphibious_light_armor_design_cost_factor = -0.66
-				unit_amphibious_medium_armor_design_cost_factor = -0.66
-				unit_amphibious_heavy_armor_design_cost_factor = -0.66
-				unit_amphibious_modern_armor_design_cost_factor = -0.66
-				unit_amphibious_super_heavy_armor_design_cost_factor = -0.66
-
 			}
 			ai_will_do = {
 				factor = 1
