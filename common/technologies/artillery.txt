@@ -742,7 +742,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1936
 
@@ -874,7 +874,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1940
 
@@ -1057,7 +1057,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1943
 
