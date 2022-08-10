@@ -8,12 +8,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 0.5
 			fuel_consumption = 2
 			maximum_speed = 1
 		}
 		multiply_stats = {
-			maximum_speed = 0.1
+			maximum_speed = 0.2
 		}
 
 	}
@@ -24,12 +24,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 1 
+			build_cost_ic = 0.75
 			fuel_consumption = 2
-			reliability = 0.20
+			maximum_speed = 1
+			reliability = 0.30
 		}
 		multiply_stats = {
-			maximum_speed = 0.1
+			
 		}
 	}
 
@@ -39,7 +40,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			fuel_consumption = 2
+			fuel_consumption = 1.5
 			build_cost_ic = 2
 			reliability = -0.25
 		}
@@ -55,7 +56,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 3
+			build_cost_ic = 2
 			fuel_consumption = 4
 			reliability = -0.15
 			maximum_speed = 2
