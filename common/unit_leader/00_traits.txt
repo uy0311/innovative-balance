@@ -1780,8 +1780,8 @@ leader_traits = {
 		cost = 1
 		sub_unit_modifiers = {
 			destroyer = {
-				naval_hit_chance = 1.50
-				naval_torpedo_hit_chance_factor = -1.1
+				naval_hit_chance = 1.20
+				naval_torpedo_hit_chance_factor = -0.8
 			}
 			light_cruiser = {
 				naval_hit_chance = 0.33
