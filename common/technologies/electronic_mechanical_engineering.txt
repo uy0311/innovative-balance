@@ -950,7 +950,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1941
 		
 		folder = {
 			name = electronics_folder
@@ -1004,7 +1004,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1944
 		
 		folder = {
 			name = electronics_folder
@@ -1068,7 +1068,7 @@ technologies = {
 		}
 		
 		start_year = 1945
-		research_cost = 2
+		research_cost = 5.0
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 11 }
