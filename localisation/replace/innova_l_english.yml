@@ -74,7 +74,7 @@
  basic_medium_tank_chassis_short:0 "1936年型中戦車"
  tank_medium_cannon_3:0 "発展型中口径砲"
  tank_medium_cannon_3_desc:0 "圧倒的な装甲を持つ新型の敵戦車に我が軍の開発部はすぐさま対応し、これまでの火砲から更に発達した火力と初速を誇る戦車砲を生み出した。この主砲は新鋭中戦車クラスの主武装とされる予定である。"
- EQ_MOD_CAT_tank_machinegun_module_TITLE:0 "砲塔上部銃砲"
+ 
  IB_tank_heavy_machine_gun:0 "車長用機関銃"
  IB_tank_heavy_machine_gun_desc:0 "小型戦車の基本的な武装として砲塔上部に搭載し、主に対人戦での運用を想定した兵器だが、その効力は限定的である。"
  IB_tank_heavy_machine_gun_2:0 "車長用改良型機関銃"
@@ -85,8 +85,8 @@
  EQ_MOD_CAT_tank_special_armor_module_TITLE:0 "装甲防護"
  EQ_MOD_CAT_tank_special_turret_module_TITLE:0 "主砲機構"
  EQ_MOD_CAT_tank_special_ammo_module_TITLE:0 "車載弾薬庫"
- EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "砲塔固定銃砲"
- EQ_MOD_CAT_tank_commander_module_TITLE:0 "砲塔上部銃砲"
+ EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "固定式機関銃"
+ EQ_MOD_CAT_tank_commander_module_TITLE:0 "車長用機関銃"
 
  EQ_MOD_CAT_tank_sloped_armor_type_TITLE:0 "戦車装甲角度"
  EQ_MOD_SLOT_sloped_armor_type_slot_TITLE:0 "装甲傾斜角度"

@@ -128,7 +128,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_coaxial_module
+			module = IB_tank_coaxial_machine_gun
 			count < 2
 		}
 		module_count_limit = {
@@ -695,7 +695,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_coaxial_module
+			module = IB_tank_coaxial_machine_gun
 			count < 2
 		}
 		module_count_limit = {
@@ -1327,7 +1327,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_coaxial_module
+			module = IB_tank_coaxial_machine_gun
 			count < 2
 		}
 		module_count_limit = {
@@ -2031,7 +2031,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_coaxial_module
+			module = IB_tank_coaxial_machine_gun
 			count < 2
 		}
 		module_count_limit = {
@@ -2288,7 +2288,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_coaxial_module
+			module = IB_tank_coaxial_machine_gun
 			count < 2
 		}
 		module_count_limit = {
@@ -2516,7 +2516,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_coaxial_module
+			module = IB_tank_coaxial_machine_gun
 			count < 2
 		}
 		module_count_limit = {

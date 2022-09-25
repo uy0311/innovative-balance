@@ -34,9 +34,9 @@ sub_units = {
 		supply_consumption = 0.42
 
 		#Line artillery bonuses
-		soft_attack = 0.5
+	#	soft_attack = 0.5
 		breakthrough = -0.75
-		armor_value = -0.25
+	#	armor_value = -0.25
 
 		suppression = 1.25
 
@@ -101,9 +101,9 @@ sub_units = {
 		supply_consumption = 0.46
 
 		#Line artillery bonuses
-		soft_attack = 0.5
+	#	soft_attack = 0.5
 		breakthrough = -0.75
-		armor_value = -0.25
+	#	armor_value = -0.25
 
 		suppression = 1.5
 
@@ -172,9 +172,9 @@ sub_units = {
 		supply_consumption = 0.6
 
 		#Line artillery bonuses
-		soft_attack = 0.5
+	#	soft_attack = 0.5
 		breakthrough = -0.75
-		armor_value = -0.25
+	#	armor_value = -0.25
 
 		suppression = 1.5
 
@@ -244,9 +244,9 @@ sub_units = {
 		supply_consumption = 0.8
 
 		#Line artillery bonuses
-		soft_attack = 0.5
+	#	soft_attack = 0.5
 		breakthrough = -0.75
-		armor_value = -0.25
+	#	armor_value = -0.25
 
 		suppression = 1.25
 
@@ -315,9 +315,9 @@ sub_units = {
 		supply_consumption = 0.5
 		
 		#Line artillery bonuses
-		soft_attack = 0.5
+	#	soft_attack = 0.5
 		breakthrough = -0.75
-		armor_value = -0.25
+	#	armor_value = -0.25
 
 		suppression = 1.5
 

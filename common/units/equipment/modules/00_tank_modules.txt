@@ -1397,6 +1397,22 @@ equipment_modules = {
 		}
 	}
 
+	additional_machine_guns = {
+		abbreviation = "mg"
+		category = tank_coaxial_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.3
+		}
+		xp_cost = 0#1
+		multiply_stats = {
+			
+		}
+	}
+
 	tank_radio_1 = {
 		abbreviation = "rad1"
 		category = tank_radio_module
@@ -1716,19 +1732,4 @@ equipment_modules = {
 		}
 	}
 
-	additional_machine_guns = {
-		abbreviation = "mg"
-		category = tank_special_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			soft_attack = 2
-			defense = 2
-			build_cost_ic = 0.3
-		}
-		xp_cost = 0#1
-		multiply_stats = {
-			
-		}
-	}
 }
