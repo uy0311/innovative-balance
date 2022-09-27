@@ -3126,7 +3126,9 @@ technologies = {
 		max_planning = 0.15
 
 		anti_tank_brigade = {
-			combat_width = -0.5
+			#combat_width = -0.5
+			max_organisation = 20
+			default_morale = 0.30
 		}
 		enable_tactic = tactic_elastic_defense
 		
@@ -3183,8 +3185,8 @@ technologies = {
 		supply_consumption_factor = -0.10
 		land_reinforce_rate = 0.03
 		infantry = {
-			combat_width = -0.4
-			default_morale = 0.25
+			#combat_width = -0.4
+			default_morale = 0.30
 		}
 
 		
@@ -3312,60 +3314,65 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		light_armor = {
-			combat_width = -0.2
+		category_all_armor = {
 			max_organisation = 10
-			default_morale = 0.25
-		}
-		medium_armor = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		modern_armor = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		
-		light_tank_destroyer_brigade = {
-			combat_width = -0.2
-			default_morale = 0.15
-		}
-		medium_tank_destroyer_brigade = {
-			combat_width = -0.2
-			default_morale = 0.15
-		}
-		modern_tank_destroyer_brigade = {
-			combat_width = -0.2
-			default_morale = 0.15
+			default_morale = 0.30
 		}
 
-		light_sp_anti_air_brigade = {
-			combat_width = -0.2
-			default_morale = 0.15
-		}
-		medium_sp_anti_air_brigade = {
-			combat_width = -0.2
-			default_morale = 0.15
-		}
-		modern_sp_anti_air_brigade = {
-			combat_width = -0.2
-			default_morale = 0.15
-		}
-
-        light_sp_artillery_brigade = {
-			combat_width = -0.3
-			default_morale = 0.15
-		}
-		medium_sp_artillery_brigade = {
-			combat_width = -0.3
-			default_morale = 0.15
-		}
-		modern_sp_artillery_brigade = {
-			combat_width = -0.3
-			default_morale = 0.15
-		}
+	#	light_armor = {
+	#		combat_width = -0.2
+	#		max_organisation = 10
+	#		default_morale = 0.25
+	#	}
+	#	medium_armor = {
+	#		combat_width = -0.2
+	#		max_organisation = 10
+	#		default_morale = 0.25
+	#	}
+	#	modern_armor = {
+	#		combat_width = -0.2
+	#		max_organisation = 10
+	#		default_morale = 0.25
+	#	}
+	#	
+	#	light_tank_destroyer_brigade = {
+	#		combat_width = -0.2
+	#		default_morale = 0.15
+	#	}
+	#	medium_tank_destroyer_brigade = {
+	#		combat_width = -0.2
+	#		default_morale = 0.15
+	#	}
+	#	modern_tank_destroyer_brigade = {
+	#		combat_width = -0.2
+	#		default_morale = 0.15
+	#	}
+	#
+	#	light_sp_anti_air_brigade = {
+	#		combat_width = -0.2
+	#		default_morale = 0.15
+	#	}
+	#	medium_sp_anti_air_brigade = {
+	#		combat_width = -0.2
+	#		default_morale = 0.15
+	#	}
+	#	modern_sp_anti_air_brigade = {
+	#		combat_width = -0.2
+	#		default_morale = 0.15
+	#	}
+	#
+    #   light_sp_artillery_brigade = {
+	#		combat_width = -0.3
+	#		default_morale = 0.15
+	#	}
+	#	medium_sp_artillery_brigade = {
+	#		combat_width = -0.3
+	#		default_morale = 0.15
+	#	}
+	#	modern_sp_artillery_brigade = {
+	#		combat_width = -0.3
+	#		default_morale = 0.15
+	#	}
 
 		path = {
 			leads_to_tech = continuous_offensive
