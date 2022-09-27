@@ -588,7 +588,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 150
+			cost = 250
 			slot = theorist
 			idea_token = guiseppe_fioravanzo
 			ledger = navy
