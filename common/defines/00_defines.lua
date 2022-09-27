@@ -1127,7 +1127,7 @@ NAir = {
 
 	CAS_NIGHT_ATTACK_FACTOR = 0.1,                      -- CAS damaged get multiplied by this in land combats at night
 
-	AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.10, -- 0.02 If a unit isn't motorized, still disrupt its supply by damage * this
+	AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.06, -- 0.10 If a unit isn't motorized, still disrupt its supply by damage * this
 	AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.35,
 	AIR_WING_ATTACK_LOGISTICS_INFRA_DAMAGE_SPILL_FACTOR = 0.0, -- Portion of truck damage to additionally deal to infrastructure
 	AIR_WING_ATTACK_LOGISTICS_TRAIN_DAMAGE_FACTOR = 0.15, --0.065
