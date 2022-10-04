@@ -3126,9 +3126,7 @@ technologies = {
 		max_planning = 0.15
 
 		anti_tank_brigade = {
-			#combat_width = -0.5
-			max_organisation = 20
-			default_morale = 0.30
+			combat_width = -0.5
 		}
 		enable_tactic = tactic_elastic_defense
 		
@@ -3313,6 +3311,8 @@ technologies = {
 	mechanized_wave = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+
+		land_reinforce_rate = 0.02
 
 		light_armor = {
 			combat_width = -0.2
