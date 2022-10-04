@@ -760,14 +760,14 @@ NMilitary = {
 	LOW_ORG_FOR_ATTACK = 0.3,                      -- at what org % we start affecting speed when doign hostile moves. scales down ZERO_ORG_MOVEMENT_MODIFIER
 
 	PLANNING_DECAY = 0.01,
-	PLAYER_ORDER_PLANNING_DECAY = 0.03,				-- Amount of planning lost due to player manual order
+	PLAYER_ORDER_PLANNING_DECAY = 0.02,				-- Amount of planning lost due to player manual order
 	PLANNING_GAIN = 0.02,
 	NAVAL_INVASION_PLANNING_BONUS_GAIN = 0.02,		-- Planning Bonus gain per day for naval invasions
 	NAVAL_INVASION_PLANNING_BONUS_MALUS = -1,		-- Malus in percentage for the planning bonus gain for naval invasions
 	PLANNING_MAX = 0.5,                           	-- can get more from techs
 	CIVILWAR_ORGANIZATION_FACTOR = 0.3,			  	-- Multiplier of org for both sides when civilwar.
-	PLAN_CONSIDERED_GOOD = 0.25,					-- Plan evaluations above this value are considered more or less safe
-	PLAN_CONSIDERED_BAD = -0.25,					-- Plan evaluations below this value are considered unsafe
+	PLAN_CONSIDERED_GOOD = 0.4,					-- Plan evaluations above this value are considered more or less safe
+	PLAN_CONSIDERED_BAD = -0.4,					-- Plan evaluations below this value are considered unsafe
 	PLAN_MIN_AUTOMATED_EMPTY_POCKET_SIZE = 2,		-- The battle plan system will only automatically attack provinces in pockets that has no resistance and are no bigger than these many provinces
 	PLAN_SPREAD_ATTACK_WEIGHT = 13.0,				-- The higher the value, the less it should crowd provinces with multiple attacks.
 	PLAN_NEIGHBORING_ENEMY_PROVINCE_FACTOR = 0.7,	-- When calculating the importance of provinces, it takes number of enemy provinces into account, factored by this
@@ -834,11 +834,11 @@ NMilitary = {
 	COMBAT_SUPPLY_LACK_ATTACKER_DEFEND = -0.70,     -- defend combat penalty for attacker if out of supply
 	COMBAT_SUPPLY_LACK_DEFENDER_ATTACK = -0.50,     -- attack combat penalty for defender if out of supply
 	COMBAT_SUPPLY_LACK_DEFENDER_DEFEND = -0.15,     -- defend combat penalty for defender if out of supply
-	COMBAT_STACKING_START = 16,						-- at what nr of divisions stacking penalty starts
-	COMBAT_STACKING_EXTRA = 4,                      -- extra stacking from directions
+	COMBAT_STACKING_START = 12,						-- at what nr of divisions stacking penalty starts
+	COMBAT_STACKING_EXTRA = 3,                      -- extra stacking from directions
 	COMBAT_STACKING_PENALTY = -0.10,                -- how much stackign penalty per division
-	COMBAT_OVER_WIDTH_PENALTY = -1.5,					-- over combat width penalty per %.
-	COMBAT_OVER_WIDTH_PENALTY_MAX = -0.5,			-- over combat width max (when you cant join no more).
+	COMBAT_OVER_WIDTH_PENALTY = -2.0,					-- over combat width penalty per %.
+	COMBAT_OVER_WIDTH_PENALTY_MAX = -0.2,			-- over combat width max (when you cant join no more).
 	RETREAT_SPEED_FACTOR = 0.20,                    -- speed bonus when retreating
 	WITHDRAWING_SPEED_FACTOR = 0.25,				-- speed bonus when withdrawing
 	STRATEGIC_SPEED_INFRA_BASE = 5.0,               -- Base speed of strategic redeployment when not on railways
@@ -3485,10 +3485,10 @@ NSupply = {
 
 
 	-- used for calculating "flow" for railways.
-	RAILWAY_BASE_FLOW = 5.0, 		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
-	RAILWAY_FLOW_PER_LEVEL = 15.0, 	-- how much additional flow a railway level gives
-	RAILWAY_FLOW_PENALTY_PER_DAMAGED = 15.0, -- penalty to flow per damaged railway
-	RAILWAY_MIN_FLOW = 0.0, 		-- minimum railway flow can be reduced to
+	RAILWAY_BASE_FLOW = 10.0, 		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
+	RAILWAY_FLOW_PER_LEVEL = 10.0, 	-- how much additional flow a railway level gives
+	RAILWAY_FLOW_PENALTY_PER_DAMAGED = 7.5, -- penalty to flow per damaged railway
+	RAILWAY_MIN_FLOW = 2.5, 		-- minimum railway flow can be reduced to
 
 	-- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
 	-- NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9, -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)

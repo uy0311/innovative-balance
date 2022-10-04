@@ -834,7 +834,6 @@ tactic_relentless_assault = { #Deep battle attacker tactic
 	attacker_movement_speed = 0.15
 	attacker = 0.2
 	defender = 0.05	
-	combat_width = 0.25
 }
 
 tactic_unexpected_thrust = { #Mobile warfare attacker tactic
