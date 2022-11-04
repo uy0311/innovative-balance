@@ -1,0 +1,23 @@
+﻿l_japanese:
+ IB_switching_UI_decisions:0 "画面上UIの表示切替"
+ IB_switching_UI_decisions_desc:0 "画面上の経験値表示の横にイノバで新規追加された各工場数や軍隊の規模を表示するUIが邪魔、もしくは画面解像度の問題で他UIと被ってしまう場合にこのディシジョンを操作する事で、それらの表示を切り替えする事が出来ます。"
+ IB_switching_IC:0 "各工場数UIのオン・オフ"
+ IB_switching_other:0 "軍隊規模UIのオン・オフ"
+ IB_delete_this_decisions:0 "このディシジョンを削除する"
+
+ IB_CIV_FAC_VAL:0 "[?ROOT.num_of_civilian_factories|0]"
+ IB_MIL_FAC_VAL:0 "[?ROOT.num_of_military_factories|0]"
+ IB_NAV_FAC_VAL:0 "[?ROOT.num_of_naval_factories|0]"
+ IB_NUM_OF_DIV:0 "[?ROOT.num_divisions|0]"
+ IB_DIV_TOOLTIP:0 "自国の§H陸軍§の状態§!\n\n\n渡河中の師団：[?ROOT.num_units_crossing_river|0+]\n全大隊合計数：[?ROOT.num_battalions|0+]\n戦闘中大隊数：[?ROOT.num_units_in_combat|0+]\n攻撃戦闘中大隊数：[?ROOT.num_units_offensive_combats|0+]\n防御戦闘中大隊数：[?ROOT.num_units_defensive_combats|0+]"
+ IB_NUM_OF_DEP_PLA:0 "[?ROOT.num_deployed_planes|0]"
+ IB_PLA_TOOLTIP:0 "展開中の自国の§H種類別§!航空機数\n\n\n軽戦闘機：[?ROOT.num_deployed_planes_with_type@fighter_equipment|0+]\nCAS：[?ROOT.num_deployed_planes_with_type@CAS_equipment|0+]\n\n艦上戦闘機：[?ROOT.num_deployed_planes_with_type@cv_fighter_equipment|0+]\n艦上爆撃機：[?ROOT.num_deployed_planes_with_type@cv_CAS_equipment|0+]\n艦上攻撃機：[?ROOT.num_deployed_planes_with_type@cv_nav_bomber_equipment|0+]\n重戦闘機：[?ROOT.num_deployed_planes_with_type@heavy_fighter_equipment|0+]\n戦術爆撃機：[?ROOT.num_deployed_planes_with_type@tac_bomber_equipment|0+]\n\nジェット戦闘機：[?ROOT.num_deployed_planes_with_type@jet_fighter_equipment|0+]\nジェット戦術爆撃機：[?ROOT.num_deployed_planes_with_type@jet_tac_bomber_equipment|0+]\nジェット戦略爆撃機：[?ROOT.num_deployed_planes_with_type@jet_strat_bomber_equipment|0+]\n\nロケット迎撃機：[?ROOT.num_deployed_planes_with_type@rocket_interceptor_equipment|0+]\n戦略爆撃機：[?ROOT.num_deployed_planes_with_type@strat_bomber_equipment|0+]\n\n輸送機：[?ROOT.num_deployed_planes_with_type@transport_plane_equipment|0+]\n偵察機：[?ROOT.num_deployed_planes_with_type@scout_plane_equipment|0+]"
+ IB_NUM_OF_SHIP:0 "[?ROOT.num_ships|0]"
+ IB_SHIP_TOOLTIP:0 "自国の§H種類別§!艦船数\n\n\n空母：[?ROOT.num_ships_with_type@carrier|0+]\n戦艦：[?ROOT.num_ships_with_type@battleship|0+]\n巡洋戦艦：[?ROOT.num_ships_with_type@battle_cruiser|0+]\n重巡洋艦：[?ROOT.num_ships_with_type@heavy_cruiser|0+]\n軽巡洋艦：[?ROOT.num_ships_with_type@light_cruiser|0+]\n駆逐艦：[?ROOT.num_ships_with_type@destroyer|0+]\n潜水艦：[?ROOT.num_ships_with_type@submarine|0+]"
+
+ IB_RESOURCE_TRADE_OIL:0 "現在の§H石油資源§!の状態\n\n消費量：[?resource_consumed@oil|0-]\n輸入量：[?resource_imported@oil|0-]"
+ IB_RESOURCE_TRADE_ALM:0 "現在の§Hアルミニウム§!の貿易状態\n\n消費量：[?resource_consumed@aluminium|0-]\n輸入量：[?resource_imported@aluminium|0-]"
+ IB_RESOURCE_TRADE_RUB:0 "現在の§Hゴム資源§!の状態\n\n消費量：[?resource_consumed@rubber|0-]\n輸入量：[?resource_imported@rubber|0-]"
+ IB_RESOURCE_TRADE_TUN:0 "現在の§Hタングステン§!の状態\n\n消費量：[?resource_consumed@tungsten|0-]\n輸入量：[?resource_imported@tungsten|0-]"
+ IB_RESOURCE_TRADE_STE:0 "現在の§H鉄鋼§!の状態\n\n消費量：[?resource_consumed@steel|0-]\n輸入量：[?resource_imported@steel|0-]"
+ IB_RESOURCE_TRADE_CHR:0 "現在の§Hクロム§!の状態\n\n消費量：[?resource_consumed@chromium|0-]\n輸入量：[?resource_imported@chromium|0-]"

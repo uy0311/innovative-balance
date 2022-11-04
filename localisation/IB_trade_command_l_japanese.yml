@@ -1,0 +1,18 @@
+﻿l_japanese:
+ IB_TRADE_COMMAND_1_TITLE:0 "禁輸"
+ IB_TRADE_COMMAND_1_ACTION_DESC:0 "対象国との間に§R関係度-200§!を加え、§H貿易を不可能§!にします。"
+
+ IB_TRADE_COMMAND_2_TITLE:0 "禁輸を解除"
+ IB_TRADE_COMMAND_2_ACTION_DESC:0 "§R関係度-200§!を削除し、§G貿易を可能な状態§!に復元します。"
+
+ IB_EMBARGO_DENIED:0 "対象国と戦争中、もしくは同陣営のためコマンドの実行が不可能です。"
+ IB_EMBARGO_ALLOWED:0 "禁輸を実行する。"
+ 
+ IB_CANCEL_EMBARGO_ALLOWED:0 "対象国との禁輸措置を解除可能です。"
+ IB_CANCEL_EMBARGO_DENIED:0 "解除不可"
+
+ IB_EMBARGO_TARGET_TITLE:0 "禁輸措置を実行！"
+ IB_EMBARGO_TARGET_DESC:0 "[ROOT.GetNameWithFlag] は私たちの国に禁輸措置を課すことを決定しました！"
+
+ IB_CANCEL_EMBARGO_TARGET_TITLE:0 "禁輸措置が解除！"
+ IB_CANCEL_EMBARGO_TARGET_DESC:0 "[ROOT.GetNameWithFlag]は私たちの国への禁輸を解除することを決定しました！"

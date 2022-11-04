@@ -1,0 +1,12 @@
+﻿l_japanese:
+ IB_WHITE_PEACE_TITLE:0 "白紙和平"
+ IB_WHITE_PEACE_ACTION_DESC:0 "§L対象国と即座に白紙での講話を実行します§!\n§Rこの和平は即時発動します。送信する際はよく相手国家プレイヤーと話し合ってからにしてください。§!"
+
+ IB_wp_allow_tt:0 "対象国と§H交戦中§!のため、白紙和平コマンドを§G実行可能§!"
+ IB_wp_denied_tt:0 "対象国と§H戦争状態§!ではないため§R実行不可能§!"
+
+ IB_wp_accept_title:0 "白紙和平を送信"
+ IB_wp_accept_description:0 "[ROOT.GetNameWithFlag] との§H白紙和平§!を実行しますか？\n§Rこの和平は即時発動します。送信する際はよく相手国家プレイヤーと話し合ってからにしてください。§!"
+
+ ib_new_emb:0 "禁輸"
+ ib_new_emb_opinion:0 "禁輸"

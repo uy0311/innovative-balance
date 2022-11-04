@@ -3,7 +3,7 @@ strategic_region={
 	id=202
 	name="STRATEGICREGION_202"
 	provinces={
-		3401 6550 6801 7002 7003 7226 7452 7678 8435 10007 
+		785 928 947 1005 1119 3401 3786 3851 3927 4112 6550 6801 6864 6912 6992 7003 7130 7226 7452 7678 8435 9799 9887 9921 9929 9941 10007 10038 10122 11778 11848 11867 11898 11917 12013 12016 12096 
 	}
 	naval_terrain=water_fjords
 	weather={
@@ -160,19 +160,6 @@ strategic_region={
 			blizzard=0.000
 			arctic_water=0.000
 			mud=1.000
-			sandstorm=0.000
-			min_snow_level=0.000
-		}
-		period={
-			between={ 4.11 21.11 }
-			temperature={ -10.0 35.0 }
-			no_phenomenon=1.500
-			rain_light=0.250
-			rain_heavy=0.100
-			snow=0.000
-			blizzard=0.000
-			arctic_water=0.000
-			mud=0.000
 			sandstorm=0.000
 			min_snow_level=0.000
 		}
