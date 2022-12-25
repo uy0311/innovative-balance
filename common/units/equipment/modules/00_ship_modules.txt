@@ -2254,7 +2254,7 @@ equipment_modules = {
 
 		add_equipment_type = capital_ship
 		add_stats = {
-			carrier_size = 30
+			carrier_size = 3
 			surface_visibility = 0.15
 			build_cost_ic = 2500
 		}
