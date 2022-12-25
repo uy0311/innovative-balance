@@ -2,8 +2,6 @@
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"
  STAT_AIR_SUPERIORITY:0 "制空値: "
  MODIFIER_AIR_SUPERIORITY_EFFICIENCY:0 "制空作戦効率"
- #deep_operations:0 "タンク・デサント"
- deep_operations_desc:0 "縦深作戦、 または縦深戦闘の概念は、 複数の地点で敵の防衛線を突破し、 敵の使用可能な予備兵や縦深を破壊し、 可能な限り多くの戦略的縦深を占領するものである。 "
  technology_sharing_idea:0 "技術の共有"
  ib_hit_chance:0 "正確無比"
  ib_hit_chance_desc:0 "この提督の艦隊は砲精度に於いて他に引けを取らない"

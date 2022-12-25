@@ -16,24 +16,24 @@ equipments = {
 
 		#Misc Abilities
 		reliability = 0.8
-		maximum_speed = 4
+		maximum_speed = 3
 
 		#Defensive Abilities
-		defense = 5#10
-		breakthrough = 0#6
+		defense = 18
+		breakthrough = 0
 		hardness = 0
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 36
+		soft_attack = 25
 		hard_attack = 2
-		ap_attack = 0#5
+		ap_attack = 5
 		air_attack = 0
 
 		#Space taken in convoy
 		lend_lease_cost = 4
 		
-		build_cost_ic = 4.0
+		build_cost_ic = 0.8
 		resources = {
 			tungsten = 1
 			steel = 2
@@ -56,11 +56,11 @@ equipments = {
 		priority = 50
 		visual_level = 1
 
-		defense = 7.5#15
-		breakthrough = 0#7
-		soft_attack = 44.5
+		defense = 22
+		breakthrough = 0
+		soft_attack = 35
 		
-		build_cost_ic = 5.0
+		build_cost_ic = 1
 		resources = {
 			tungsten = 1
 			steel = 2
@@ -75,11 +75,11 @@ equipments = {
 		priority = 50
 		visual_level = 2
 		
-		defense = 9#18
-		breakthrough = 0#8
-		soft_attack = 51
+		defense = 24
+		breakthrough = 0
+		soft_attack = 43
 		
-		build_cost_ic = 6.0
+		build_cost_ic = 1.2
 		resources = {
 			tungsten = 1
 			steel = 3
@@ -103,21 +103,21 @@ equipments = {
 		
 		#Misc Abilities
 		reliability = 0.8
-		maximum_speed = 4
+		maximum_speed = 3
 
 		#Defensive Abilities
-		defense = 6#12
-		breakthrough = 0#9
+		defense = 12
+		breakthrough = 9
 		hardness = 0
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 45
+		soft_attack = 37
 		hard_attack = 1
-		ap_attack = 0#2
+		ap_attack = 2
 		air_attack = 0
 		
-		build_cost_ic = 4
+		build_cost_ic = 1
 		resources = {
 			tungsten = 2
 			steel = 1
@@ -140,11 +140,11 @@ equipments = {
 		priority = 60
 		visual_level = 1
 		
-		defense = 7.5#15
-		breakthrough = 0#12
-		soft_attack = 57.5
+		defense = 15
+		breakthrough = 12
+		soft_attack = 45
 		
-		build_cost_ic = 5
+		build_cost_ic = 1.2
 		resources = {
 			tungsten = 2
 			steel = 1
@@ -168,18 +168,17 @@ equipments = {
 		
 		#Misc Abilities
 		reliability = 0.8
-		maximum_speed = 8
 
 		#Defensive Abilities
-		defense = 7.5#15
-		breakthrough = 0#12
+		defense = 15
+		breakthrough = 12
 		hardness = 0
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 55.5
+		soft_attack = 36
 		hard_attack = 1
-		ap_attack = 0#2
+		ap_attack = 2
 		air_attack = 0
 		
 		build_cost_ic = 12
