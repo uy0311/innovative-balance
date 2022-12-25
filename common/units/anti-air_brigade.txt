@@ -28,9 +28,9 @@ sub_units = {
 		
 		#Size Definitions
 		max_organisation = 60
-		default_morale = 0
-		max_strength = 3
-		manpower = 500
+		default_morale = 0.3
+		max_strength = 0
+		manpower = 250
 		training_time = 120
 		weight = 0.5
 		
@@ -88,14 +88,20 @@ sub_units = {
 		
 		#Size Definitions
 		max_organisation = 60
-		default_morale = 0
-		max_strength = 3
-		manpower = 500
+		default_morale = 0.3
+		max_strength = 0
+		manpower = 250
 		training_time = 120
 		weight = 0.5
 		
 		supply_consumption = 0.15
 		transport = motorized_equipment
+		maximum_speed = -0.45
+
+		essential = {
+			motorized_equipment
+		}
+
 		need = {
 			anti_air_equipment = 30
 			motorized_equipment = 50

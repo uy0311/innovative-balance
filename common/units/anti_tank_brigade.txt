@@ -26,10 +26,10 @@ sub_units = {
 		need = {
 			anti_tank_equipment = 36
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 60
-		default_morale = 0
-		max_strength = 3
+		default_morale = 0.3
+		max_strength = 0
 		training_time = 120
 		weight = 0.5
 
@@ -59,7 +59,7 @@ sub_units = {
 		}
 
 		fort = {
-			attack = 0.05
+			attack = 0.1
 		}
 
 		river = {
@@ -94,14 +94,19 @@ sub_units = {
 		
 		combat_width = 1
 		transport = motorized_equipment
+		maximum_speed = -0.45
+
+		essential = {
+			motorized_equipment
+		}
 		need = {
 			anti_tank_equipment = 36
 			motorized_equipment = 50
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 60
-		default_morale = 0
-		max_strength = 3
+		default_morale = 0.3
+		max_strength = 0
 		training_time = 120
 		weight = 0.5
 
@@ -131,7 +136,7 @@ sub_units = {
 		}
 
 		fort = {
-			attack = 0.05
+			attack = 0.1
 		}
 
 		river = {

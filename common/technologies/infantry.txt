@@ -58,10 +58,6 @@ technologies = {
 		enable_equipments = {
 			infantry_equipment_1
 		}
-
-		enable_equipment_modules = {
-			
-		}
 				
 		path = {
 			leads_to_tech = infantry_weapons2
@@ -164,10 +160,6 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_2
-		}
-
-		enable_equipment_modules = {
-			IB_tank_heavy_machine_gun
 		}
 		
 		path = {
@@ -399,7 +391,7 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_3
-		}
+		}	
 		
 		path = {
 			leads_to_tech = advanced_infantry_weapons2
@@ -438,6 +430,10 @@ technologies = {
 	}
 	
 	advanced_infantry_weapons2 = {
+
+		enable_equipment_modules = {
+			IB_tank_heavy_machine_gun
+		}
 
 		category_light_infantry = {
 			soft_attack = 0.05
@@ -520,7 +516,7 @@ technologies = {
 		
 		categories = {
 			para_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -564,7 +560,7 @@ technologies = {
 		
 		categories = {
 			para_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -603,7 +599,7 @@ technologies = {
 		
 		categories = {
 			para_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -658,7 +654,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -697,7 +693,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -730,7 +726,7 @@ technologies = {
 		
 		categories = {
 			marine_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -779,8 +775,9 @@ technologies = {
 		}
 		
 		categories = {
+			infantry_tech
 			mountaineers_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -808,8 +805,9 @@ technologies = {
 		}
 		
 		categories = {
+			infantry_tech
 			mountaineers_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -830,8 +828,9 @@ technologies = {
 		}
 		
 		categories = {
+			infantry_tech
 			mountaineers_tech
-			special_forces_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -871,7 +870,10 @@ technologies = {
 		}
 		
 		categories = {
-			special_forces_tech
+			mountaineers_tech
+			marine_tech
+			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -905,7 +907,10 @@ technologies = {
 		}
 		
 		categories = {
-			special_forces_tech
+			mountaineers_tech
+			marine_tech
+			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -934,7 +939,10 @@ technologies = {
 		}
 		
 		categories = {
-			special_forces_tech
+			mountaineers_tech
+			marine_tech
+			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -966,7 +974,10 @@ technologies = {
 		}
 		
 		categories = {
-			special_forces_tech
+			mountaineers_tech
+			marine_tech
+			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -997,7 +1008,10 @@ technologies = {
 		}
 		
 		categories = {
-			special_forces_tech
+			mountaineers_tech
+			marine_tech
+			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -1024,7 +1038,10 @@ technologies = {
 		}
 		
 		categories = {
-			special_forces_tech
+			mountaineers_tech
+			marine_tech
+			para_tech
+			cat_special_forces_generic
 		}
 		
 		ai_will_do = {
@@ -1061,6 +1078,29 @@ technologies = {
 		paratrooper = {
 			jungle = {
 				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+	}
+
+	SWI_mountaineer_paratroopers_tech = { #Unlocked in Swiss Focus SWI_mountaneer_paratroopers
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+		paratrooper = {  # CHANGE TOOLTIP WHEN NEEDED
+			mountain = {
+				attack = 0.35
+				defence = 0.1
+				movement = 0.2
+			}
+			hills = {
+				attack = 0.2
+				defence = 0.05
 				movement = 0.1
 			}
 		}
@@ -1746,6 +1786,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_cars
 		}
 		
 		ai_will_do = {
@@ -1793,6 +1834,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_cars
 		}
 		
 		ai_will_do = {
@@ -1800,17 +1842,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1942.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1835,6 +1877,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_cars
 		}
 		
 		sub_technologies = {
@@ -1846,17 +1889,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1944.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1878,6 +1921,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_cars
 		}
 
 		ai_will_do = {
@@ -1885,17 +1929,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1944.1.1"
 			}
 			modifier = {
 				is_major = no
