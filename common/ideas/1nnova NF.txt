@@ -449,21 +449,6 @@ ideas = {
 
 		}
 
-		ship_module_idea = {
-			
-			allowed = {
-				always = no
-			}
-			
-			picture = MTG_naval_treaty_adherent
-
-			removal_cost = -1
-			
-			research_bonus = {
-				ship_modules_tech = 0.8
-			}
-		}
-
 		naval_doctrine_research_bonus_S = {
 			
 			allowed = {
@@ -502,7 +487,7 @@ ideas = {
 			}
 		}
 
-		DD_research_bonus = {
+		screen_ship_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -517,24 +502,9 @@ ideas = {
 			
 			research_bonus = {
 				dd_tech = 0.80
-			}
-		}
-
-		Cruiser_research_bonus = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			picture = generic_coastal_defense_ships2
-			
-			research_bonus = {
+				cat_ship_light_battery = 0.80
 				cl_tech = 0.80
+				cat_ship_medium_battery = 0.80
 			}
 		}
 
@@ -553,10 +523,11 @@ ideas = {
 			
 			research_bonus = {
 				ss_tech = 0.80
+				cat_torpedoes = 0.80
 			}
 		}
 
-		Capital_ships_research_bonus = {
+		carrier_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -567,11 +538,29 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = generic_coastal_defense_ships
+			picture = GFX_goal_generic_navy_carrier
 			
 			research_bonus = {
 				cv_tech = 0.80
+			}
+		}
+
+		battleships_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = GFX_goal_generic_navy_battleship
+			
+			research_bonus = {
 				bb_tech = 0.80
+				cat_ship_heavy_battery = 0.80
 			}
 		}
 
@@ -613,7 +602,7 @@ ideas = {
 			}
 		}
 
-		CAS_research_bonus = {
+		aircraft_engine_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -627,11 +616,11 @@ ideas = {
 			picture = generic_air_payment
 			
 			research_bonus = {
-				cas_bomber = 0.80
+				cat_air_engine = 0.80
 			}
 		}
 
-		NAV_research_bonus = {
+		aircraft_gun_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -642,11 +631,10 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = generic_navy_carrier_bonus
+			picture = generic_air_manufacturer_2
 			
 			research_bonus = {
-				naval_air = 0.80
-				tactical_bomber = 0.80
+				cat_air_guns = 0.80
 			}
 		}
 
@@ -661,10 +649,10 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = generic_air_manufacturer_2
+			picture = generic_air_manufacturer_3
 			
 			research_bonus = {
-				light_fighter = 0.80
+				light_air = 0.80
 			}
 		}
 
@@ -679,10 +667,10 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = generic_air_manufacturer_3
+			picture = generic_navy_carrier_bonus
 			
 			research_bonus = {
-				cat_heavy_fighter = 0.80
+				medium_air = 0.80
 			}
 		}
 
