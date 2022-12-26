@@ -146,35 +146,6 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 50
-			add_ideas = air_doctrine_research_bonus1
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = fighter_focus
-		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = CAS_effort focus = NAV_effort }
-		mutually_exclusive = { focus = bomber_focus }
-		x = 4
-		y = 3
-		cost = 10
-		completion_reward = {
-			add_ideas =	fighter_research_bonus
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = bomber_focus
-		icon = GFX_focus_usa_escort_fighters
-		prerequisite = { focus = CAS_effort focus = NAV_effort }
-		mutually_exclusive = { focus = fighter_focus }
-		x = 6
-		y = 3
-		cost = 10
-		completion_reward = {
-			add_ideas =	heavy_fighter_research_bonus
 		}
 		available_if_capitulated = yes
 	}
@@ -188,21 +159,73 @@ focus_tree = {
 		cost = 10
 
 		completion_reward = {
-			air_experience = 50
+			add_ideas = air_doctrine_research_bonus1
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = AC_eng_effort
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = aviation_effort_2  focus = armor_effort }
+		x = 4
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_ideas = aircraft_engine_research_bonus
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = AC_gun_effort
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = aviation_effort_2 focus = screen_ship_effort }
+		x = 6
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_ideas = aircraft_gun_research_bonus
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = aviation_effort_3
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = aviation_effort_2 focus = AC_eng_effort focus = AC_gun_effort }
+		x = 5
+		y = 3
+		cost = 10
+
+		completion_reward = {
 			add_ideas = air_doctrine_research_bonus2
 		}
 		available_if_capitulated = yes
 	}
 
 	focus = {
-		id = CAS_effort
-		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = aviation_effort_2 focus = armor_effort }
-		x = 4
-		y = 2
+		id = fighter_focus
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = AC_gun_effort focus = aviation_effort_3 focus = carrier_effort }
+		x = 6
+		y = 4
 		cost = 10
 		completion_reward = {
-			add_ideas = CAS_research_bonus
+			add_ideas =	fighter_research_bonus
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = bomber_focus
+		icon = GFX_focus_usa_escort_fighters
+		prerequisite = { focus = AC_eng_effort focus = aviation_effort_3 }
+		x = 4
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_ideas =	heavy_fighter_research_bonus
 		}
 		available_if_capitulated = yes
 	}
@@ -210,9 +233,9 @@ focus_tree = {
 	focus = {
 		id = rocket_effort
 		icon = GFX_focus_rocketry
-		prerequisite = { focus = aviation_effort_2 }
+		prerequisite = { focus = aviation_effort_3 focus = fighter_focus focus = bomber_focus }
 		x = 5
-		y = 4
+		y = 5
 		cost = 10
 		completion_reward = {
 			add_ideas = rocketry_research_bonus
@@ -227,14 +250,13 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 	}
-
 	
 	focus = {
 		id = jet_effort
 		icon = GFX_focus_generic_air_defense
 		prerequisite = { focus = rocket_effort }
 		x = 5
-		y = 5
+		y = 6
 		cost = 10
 		completion_reward = {
 			add_ideas = jet_research_bonus
@@ -251,96 +273,26 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NAV_effort
-		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = aviation_effort_2 focus = flexible_navy }
-		x = 6
-		y = 2
-		cost = 10
-		completion_reward = {
-			add_ideas = NAV_research_bonus
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
 		id = naval_effort
-		icon = GFX_goal_generic_construct_naval_dockyard
+		icon = GFX_goal_generic_build_navy
 		x = 9
 		y = 0
 		cost = 10
 
-	    available = {
-			any_state = {
-				is_coastal = yes
-				is_controlled_by = ROOT
-			}
-		}	
-		
 		completion_reward = {
-			add_ideas = ship_module_idea 
 			navy_experience = 50
-		}
-
-	    ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 100
-				always = yes
-			}
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = flexible_navy
-		icon = GFX_goal_generic_build_navy
-		prerequisite = { focus = naval_effort }
-		mutually_exclusive = { focus = large_navy }
-		x = 8
-		y = 1
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-
-		completion_reward = {
 			add_ideas = naval_doctrine_research_bonus_S
 		}
 		available_if_capitulated = yes
 	}
 
 	focus = {
-		id = large_navy
+		id = naval_effort_2
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = naval_effort }
-		mutually_exclusive = { focus = flexible_navy }
-		x = 10
-		y = 1
+		prerequisite = { focus = naval_effort focus = screen_ship_effort focus = submarine_effort }
+		x = 9
+		y = 2
 		cost = 10
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
 
 		completion_reward = {
 			add_ideas = naval_doctrine_research_bonus_L
@@ -351,23 +303,10 @@ focus_tree = {
 	focus = {
 		id = submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = destroyer_effort focus = cruiser_effort }
-		x = 8
-		y = 3
+		prerequisite = { focus = naval_effort }
+		x = 10
+		y = 1
 		cost = 10
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
 
 		completion_reward = {
 			add_ideas = SS_research_bonus
@@ -376,82 +315,43 @@ focus_tree = {
 	}
 
 	focus = {
-		id = cruiser_effort
+		id = screen_ship_effort
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = large_navy focus = flexible_navy }
-		x = 10
-		y = 2
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-
-		completion_reward = {
-			add_ideas = Cruiser_research_bonus
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = destroyer_effort
-		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = large_navy focus = flexible_navy }
+		prerequisite = { focus = naval_effort }
 		x = 8
-		y = 2
+		y = 1
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-
 		completion_reward = {
-			add_ideas = DD_research_bonus
+			add_ideas = screen_ship_research_bonus
 		}
 		available_if_capitulated = yes
 	}
 
 	focus = {
-		id = capital_ships_effort
+		id = carrier_effort
+		icon = GFX_goal_generic_navy_carrier
+		prerequisite = { focus = screen_ship_effort focus = naval_effort_2 }
+		x = 8
+		y = 3
+		cost = 10
+
+		completion_reward = {
+			add_ideas = carrier_research_bonus
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = battleship_effort
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = destroyer_effort focus = cruiser_effort }
+		prerequisite = { focus = submarine_effort focus = naval_effort_2 }
 		x = 10
 		y = 3
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-
 		completion_reward = {
-			add_ideas = Capital_ships_research_bonus
+			add_ideas = battleships_research_bonus
 		}
 		available_if_capitulated = yes
 	}
@@ -586,7 +486,7 @@ focus_tree = {
 	focus = {
 		id = wartime_industry_focus
 		icon = GFX_focus_generic_combined_arms
-		prerequisite = { focus = production_effort_2 }
+		prerequisite = { focus = production_effort_2 focus =infrastructure_effort_2 }
 		x = 14
 		y = 5
 		cost = 10
@@ -622,7 +522,7 @@ focus_tree = {
 	focus = {
 		id = construction_effort_3
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = infrastructure_effort_2 focus = capital_ships_effort focus = submarine_effort }
+		prerequisite = { focus = infrastructure_effort_2 focus = construction_effort_2 focus = battleship_effort }
 		x = 12
 		y = 5
 		cost = 10
