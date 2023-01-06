@@ -19,16 +19,10 @@ ability = {
 		}
 		cost = 0.1
 		duration = 168
-				set_temp_variable = { temp = num_units_offensive_combats }
-				check_variable = { temp > 6 }
-				set_temp_variable = { temp2 = num_units_offensive_combats_against@fort }
-				divide_temp_variable = { temp2 = temp }
-				check_variable = { temp2 > 0.5 }
-				
-				add = 2
-			}
 		
-	
+		
+
+	}
 	
 	glider_planes = {
 		name = ABILITY_GLIDER_PLANES_ARTILLERY
