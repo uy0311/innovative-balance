@@ -35,13 +35,6 @@ equipments = {
 				}
 			}
 
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
-				}
-			}
-
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -205,13 +198,6 @@ equipments = {
 				}
 			}
 
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
-				}
-			}
-
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -277,13 +263,6 @@ equipments = {
 				allowed_module_categories = {
 					tank_suspension_type
 					tank_non_tracked_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -364,13 +343,6 @@ equipments = {
 				allowed_module_categories = {
 					tank_suspension_type
 					tank_non_tracked_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -467,13 +439,6 @@ equipments = {
 				allowed_module_categories = {
 					tank_suspension_type
 					tank_non_tracked_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -585,13 +550,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -771,13 +729,6 @@ equipments = {
 				}
 			}
 
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
-				}
-			}
-
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -861,13 +812,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -959,13 +903,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -1079,13 +1016,6 @@ equipments = {
 				}
 			}
 
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
-				}
-			}
-
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -1151,19 +1081,6 @@ equipments = {
 					tank_coaxial_module
 				}
 			}
-
-			special_type_slot_5 = {
-				required = no
-				allowed_module_categories = {
-					tank_radio_module
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_secondary_turret
-					tank_special_module
-					tank_coaxial_module
-				}
-			}
 		}
 
 		maximum_speed = 4.5
@@ -1205,13 +1122,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -1405,13 +1315,6 @@ equipments = {
 				}
 			}
 
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
-				}
-			}
-
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -1506,13 +1409,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -1619,13 +1515,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
@@ -1741,13 +1630,6 @@ equipments = {
 				}
 			}
 
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
-				}
-			}
-
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -1802,19 +1684,6 @@ equipments = {
 			}
 
 			special_type_slot_4 = {
-				required = no
-				allowed_module_categories = {
-					tank_radio_module
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_secondary_turret
-					tank_special_module
-					tank_coaxial_module
-				}
-			}
-
-			special_type_slot_5 = {
 				required = no
 				allowed_module_categories = {
 					tank_radio_module
@@ -1873,13 +1742,6 @@ equipments = {
 				}
 			}
 
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
-				}
-			}
-
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -1934,32 +1796,6 @@ equipments = {
 			}
 
 			special_type_slot_4 = {
-				required = no
-				allowed_module_categories = {
-					tank_radio_module
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_secondary_turret
-					tank_special_module
-					tank_coaxial_module
-				}
-			}
-
-			special_type_slot_5 = {
-				required = no
-				allowed_module_categories = {
-					tank_radio_module
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_secondary_turret
-					tank_special_module
-					tank_coaxial_module
-				}
-			}
-
-			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
 					tank_radio_module
@@ -2130,13 +1966,6 @@ equipments = {
 				}
 			}
 
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
-				}
-			}
-
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -2191,32 +2020,6 @@ equipments = {
 			}
 
 			special_type_slot_4 = {
-				required = no
-				allowed_module_categories = {
-					tank_radio_module
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_secondary_turret
-					tank_special_module
-					tank_coaxial_module
-				}
-			}
-
-			special_type_slot_5 = {
-				required = no
-				allowed_module_categories = {
-					tank_radio_module
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_secondary_turret
-					tank_special_module
-					tank_coaxial_module
-				}
-			}
-
-			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
 					tank_radio_module
@@ -2381,13 +2184,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-				}
-			}
-
-			sloped_armor_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_sloped_armor_type
 				}
 			}
 
