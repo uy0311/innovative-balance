@@ -14,14 +14,50 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_EMI_vertical_armor"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/vertical_armor.dds"
+		name = "GFX_EMI_tank_riveted_vertical_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_riveted_vertical_armor.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
-		name = "GFX_EMI_half_sloped_armor"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/half_sloped_armor.dds"
+		name = "GFX_EMI_tank_riveted_half_sloped_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_riveted_half_sloped_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_cast_vertical_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cast_vertical_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_cast_half_sloped_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cast_half_sloped_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_cast_sloped_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cast_sloped_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_welded_vertical_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_welded_vertical_armor.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_welded_half_sloped_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_welded_half_sloped_armor.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_welded_sloped_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_welded_sloped_armor.dds"
 		legacy_lazy_load = no
 	}
 

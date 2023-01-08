@@ -31,8 +31,8 @@ technologies = {
 			heavy_tank_aa_chassis_0
 		}
 		enable_equipment_modules = {
-			tank_riveted_armor
-			tank_welded_armor
+			tank_riveted_vertical_armor
+			tank_welded_vertical_armor
 			vertical_armor
 			tank_bogie_suspension
 			tank_torsion_bar_suspension
@@ -972,7 +972,9 @@ technologies = {
 	armor_tech_1 = {
 
 		enable_equipment_modules = {
-			half_sloped_armor
+			tank_riveted_half_sloped_armor
+			tank_cast_half_sloped_armor
+			tank_welded_half_sloped_armor
 		}
 
 		path = {
@@ -1029,7 +1031,8 @@ technologies = {
 	armor_tech_2 = {
 
 		enable_equipment_modules = {
-			tank_cast_armor
+			tank_cast_vertical_armor
+			tank_cast_half_sloped_armor
 			spare_tracks
 		}
 		path = {
@@ -1086,7 +1089,8 @@ technologies = {
 	armor_tech_3 = {
 
 		enable_equipment_modules = {
-			sloped_armor
+			tank_cast_sloped_armor
+			tank_welded_sloped_armor
 			additional_frontal_armor
 		}
 
