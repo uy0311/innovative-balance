@@ -16,7 +16,6 @@ ideas = {
 				consumer_goods_factor = 0.50
 				production_speed_industrial_complex_factor = -0.5
 				production_speed_arms_factory_factor = -0.5
-#				production_speed_dockyard_factor = -0.5
 				conversion_cost_civ_to_mil_factor = 0.5
 				conversion_cost_mil_to_civ_factor = 0.5
 				generate_wargoal_tension = 1.00
@@ -26,7 +25,6 @@ ideas = {
 				guarantee_tension = 0.75
 				max_fuel_factor = -0.45
 				fuel_gain_factor = -0.6
-#				agency_upgrade_time = 1.0
 			}
 			
 			allowed_to_remove = {
@@ -50,7 +48,6 @@ ideas = {
 				consumer_goods_factor = 0.4
 				production_speed_industrial_complex_factor = -0.4
 				production_speed_arms_factory_factor = -0.4
-#				production_speed_dockyard_factor = -0.4
 				conversion_cost_civ_to_mil_factor= 0.4
 				conversion_cost_mil_to_civ_factor = 0.4
 				generate_wargoal_tension = 1.00
@@ -59,7 +56,6 @@ ideas = {
 				guarantee_tension = 0.5
 				max_fuel_factor = -0.35
 				fuel_gain_factor = -0.5
-#				agency_upgrade_time = 0.8
 			}
 			allowed_to_remove = {
 				OR = {
@@ -158,7 +154,6 @@ ideas = {
 			
 			available = {
 				has_war = yes
-#				has_war_support > 0.8
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 
@@ -177,8 +172,6 @@ ideas = {
 				conversion_cost_civ_to_mil_factor= -0.3
 				conversion_cost_mil_to_civ_factor = -0.3
 			}
-			
-			cancel_if_invalid = no
 		}
 	}
 	
@@ -266,7 +259,6 @@ ideas = {
 			
 			modifier = {
 				min_export = 0
-				#civilian_intel_to_others = 0.0
 			}
 			
 			on_add = {
