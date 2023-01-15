@@ -27,7 +27,7 @@ ideas = {
 			traits = { railway_company }
 
 			modifier = {
-				
+				#内田死ね
 			}
 		}
 
