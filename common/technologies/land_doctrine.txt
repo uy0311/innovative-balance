@@ -3067,7 +3067,7 @@ technologies = {
 	
 	deep_operations = {
 		category_tanks = {
-			default_morale = 0.3
+			default_morale = 0.1
 		}
 		armored_car = {
 			default_morale = 0.2
@@ -3188,7 +3188,7 @@ technologies = {
 		land_reinforce_rate = 0.03
 		infantry = {
 			combat_width = -0.2
-			default_morale = 0.30
+			default_morale = 0.15
 		}
 
 		
@@ -3251,15 +3251,15 @@ technologies = {
 			breakthrough = 0.10
 		}
 		motorized = {
-			default_morale = 0.25
+			default_morale = 0.2
 			maximum_speed = 0.1
 		}	
 		mechanized = {
-			default_morale = 0.25
+			default_morale = 0.2
 			maximum_speed = 0.1
 		}
 		amphibious_mechanized = {
-			default_morale = 0.25
+			default_morale = 0.2
 			maximum_speed = 0.1
 		}
 		
