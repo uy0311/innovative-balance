@@ -491,6 +491,7 @@ equipment_modules = {
 			}
 		}
 		forbid_equipment_type_exact_match_for_category = {
+			tank_medium_main_armament = armor
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
 		}
@@ -555,7 +556,6 @@ equipment_modules = {
 			}
 		}
 		forbid_equipment_type_exact_match_for_category = {
-			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
 		}
 
@@ -632,6 +632,7 @@ equipment_modules = {
 			}
 		}
 		forbid_equipment_type_exact_match_for_category = {
+			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
 		}
 
