@@ -5369,7 +5369,7 @@ leader_traits = {
 				reliability = 0.2
 			}
 		}
-		
+		 
 		ai_will_do = {
 			factor = 1
 		}
