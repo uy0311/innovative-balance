@@ -78,10 +78,6 @@ equipments = {
 	    	count < 2
 	    }
 		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}
-		module_count_limit = {
 			module = armor_skirts
 			count < 2
 		}
@@ -609,10 +605,6 @@ equipments = {
 	    	module = additional_frontal_armor
 	    	count < 2
 	    }
-		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}
 		module_count_limit = {
 			module = armor_skirts
 			count < 2
@@ -1193,10 +1185,6 @@ equipments = {
 	    	module = additional_frontal_armor
 	    	count < 2
 	    }
-		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}
 		module_count_limit = {
 			module = armor_skirts
 			count < 2
@@ -1824,10 +1812,6 @@ equipments = {
 	    	count < 2
 	    }
 		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}
-		module_count_limit = {
 			module = armor_skirts
 			count < 2
 		}
@@ -2048,10 +2032,6 @@ equipments = {
 	    	count < 2
 	    }
 		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}
-		module_count_limit = {
 			module = armor_skirts
 			count < 2
 		}
@@ -2268,10 +2248,6 @@ equipments = {
 	    	module = additional_frontal_armor
 	    	count < 2
 	    }
-		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}
 		module_count_limit = {
 			module = armor_skirts
 			count < 2

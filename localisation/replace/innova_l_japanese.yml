@@ -362,6 +362,7 @@
  delete_ewm_unlock_decision:0 "このディシジョンを全て削除する"
 
  ###空域###
+ STRATEGICREGION_1
  Austria:0 "オーストリア"
  Slovakia:0 "スロバキア"
  Transylvania:0 "トランシルヴァニア"
