@@ -5369,7 +5369,7 @@ leader_traits = {
 				reliability = 0.2
 			}
 		}
-		
+		 
 		ai_will_do = {
 			factor = 1
 		}
@@ -5392,6 +5392,9 @@ leader_traits = {
 	naval_aircraft_manufacturer = {
 		random = no
 		equipment_bonus = {
+			medium_plane_airframe = {
+				air_range = 0.1 naval_strike_attack = 0.1
+			}
 			small_plane_naval_bomber_airframe = {
 				air_range = 0.1 naval_strike_attack = 0.1
 			}
