@@ -15,7 +15,7 @@ equipments = {
 			cas
 			naval_bomber
 			suicide
-		}
+		} 
 		allow_mission_type = training
 		group_by = archetype
 		sprite = light_plane

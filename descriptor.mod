@@ -49,7 +49,8 @@ tags={
 	"Alternative History"
 }
 dependencies={
-	"Japanese Language mod"
+	"Official Japanese Language fix"
+	"JLm Fonts"
 }
 name="Innova test"
 supported_version="1.12.*"
