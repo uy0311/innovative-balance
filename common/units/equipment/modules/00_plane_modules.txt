@@ -941,7 +941,7 @@ equipment_modules = {
 			cas
 		}
 		dismantle_cost_ic = 3.5
-	}
+	} 
 
 	torpedo_mounting = {
 		abbreviation = "tpm"
