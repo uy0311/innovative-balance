@@ -386,4 +386,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/ib_resete_capital_command_icon.dds"
 		noOfFrames = 2
 	}
+
+	spriteType = {
+		name = "GFX_EMI_anti_tank_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_tank_buster_1_icon.dds"
+		legacy_lazy_load = no
+	}
 }

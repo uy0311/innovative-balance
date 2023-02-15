@@ -360,3 +360,5 @@
  reset_capital_unlock:0 "首都移動コマンドを解禁"
  all_system_unlock:0 "全追加機能を使用可能にする"
  delete_ewm_unlock_decision:0 "このディシジョンを全て削除する"
+
+ EQ_MOD_CAT_anti_tank_weapon_TITLE:0"対戦車砲"
