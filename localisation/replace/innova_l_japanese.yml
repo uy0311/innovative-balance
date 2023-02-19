@@ -178,6 +178,9 @@
  tank_heavy_fixed_superstructure_turret_1:0 "超大型砲用固定砲塔"
  tank_heavy_fixed_superstructure_turret_1_desc:0 "超大型砲用固定砲塔"
 
+ #air_modules_replace
+ EQ_MOD_CAT_anti_tank_weapon_TITLE:0"航空機搭載対戦車砲"
+
  ###追加火砲技術###
  artillery5:0 "発展型野戦砲改良 I"
  artillery5_desc:0 "全高を低くした設計の砲は、敵が標的にするのをより困難にさせる。"
@@ -360,5 +363,3 @@
  reset_capital_unlock:0 "首都移動コマンドを解禁"
  all_system_unlock:0 "全追加機能を使用可能にする"
  delete_ewm_unlock_decision:0 "このディシジョンを全て削除する"
-
- EQ_MOD_CAT_anti_tank_weapon_TITLE:0"対戦車砲"

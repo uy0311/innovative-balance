@@ -134,16 +134,6 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = tank_buster_1
-			count < 3
-		}
-
-		module_count_limit = {
-			module = tank_buster_2
-			count < 2
-		}
-
-		module_count_limit = {
 			module = floats
 			count < 2
 		}
@@ -679,6 +669,7 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
 				}
@@ -690,6 +681,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
 				}
@@ -764,16 +756,6 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = tank_buster_1
-			count < 3
-		}
-
-		module_count_limit = {
-			module = tank_buster_2
-			count < 2
-		}
-
-		module_count_limit = {
 			module = small_bomb_bay
 			count < 3
 		}
@@ -790,6 +772,11 @@ equipments = {
 
 		module_count_limit = {
 			category = nav_bomber_weapon
+			count < 2
+		}
+
+		module_count_limit = {
+			category = anti_tank_weapon
 			count < 2
 		}
 
@@ -872,6 +859,7 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
 				}
@@ -883,6 +871,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
 				}
@@ -948,6 +937,7 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
 				}
@@ -959,6 +949,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 					kamikaze_bomber_weapon
@@ -970,6 +961,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 					kamikaze_bomber_weapon
@@ -1051,6 +1043,7 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
 				}
@@ -1062,6 +1055,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 					kamikaze_bomber_weapon
@@ -1073,6 +1067,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 					kamikaze_bomber_weapon
@@ -1084,6 +1079,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					cas_weapon
+					anti_tank_weapon
 				}
 			}
 
@@ -1160,6 +1156,7 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
 				}
@@ -1171,6 +1168,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 					kamikaze_bomber_weapon
@@ -1182,6 +1180,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 					kamikaze_bomber_weapon
@@ -1193,6 +1192,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 					kamikaze_bomber_weapon
@@ -1298,6 +1298,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1309,6 +1310,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1320,6 +1322,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1422,14 +1425,9 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = tank_buster_1
-			count < 4
-		}
-
-		module_count_limit = {
 			module = tank_buster_2
 			count < 2
-		}
+		}	
 
 		module_count_limit = {
 			module = medium_bomb_bay
@@ -1443,6 +1441,11 @@ equipments = {
 
 		module_count_limit = {
 			category = nav_bomber_weapon
+			count < 3
+		}
+
+		module_count_limit = {
+			category = anti_tank_weapon
 			count < 3
 		}
 
@@ -1536,6 +1539,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1547,6 +1551,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1558,6 +1563,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1663,6 +1669,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1674,6 +1681,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1685,6 +1693,7 @@ equipments = {
 					tac_weapon
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1806,6 +1815,7 @@ equipments = {
 					fighter_weapon
 					tac_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1817,6 +1827,7 @@ equipments = {
 					fighter_weapon
 					tac_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1828,6 +1839,7 @@ equipments = {
 					fighter_weapon
 					tac_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1840,6 +1852,7 @@ equipments = {
 					fighter_weapon
 					tac_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
 				}
@@ -1960,6 +1973,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					tac_weapon
 					mine_warfare_offense
@@ -1971,6 +1985,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					tac_weapon
 					mine_warfare_offense
@@ -1982,6 +1997,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					tac_weapon
 					mine_warfare_offense
@@ -1994,6 +2010,7 @@ equipments = {
 					recon_camera
 					fighter_weapon
 					cas_weapon
+					anti_tank_weapon
 					nav_bomber_weapon
 					tac_weapon
 					mine_warfare_offense
@@ -2259,18 +2276,13 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = tank_buster_1
-			count < 5
-		}
-
-		module_count_limit = {
-			module = tank_buster_2
-			count < 3
-		}
-
-		module_count_limit = {
 			category = nav_bomber_weapon
 			count < 4
+		}
+
+		module_count_limit = {
+			category = anti_tank_weapon
+			count < 3
 		}
 
 		module_count_limit = {
