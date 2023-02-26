@@ -914,7 +914,7 @@ equipment_modules = {
 		add_stats = {
 			air_ground_attack = 8
 			build_cost_ic = 5
-			weight = 8
+			weight = 6
 			air_agility = -15
 		}
 		
