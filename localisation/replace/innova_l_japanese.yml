@@ -179,7 +179,7 @@
  tank_heavy_fixed_superstructure_turret_1_desc:0 "超大型砲用固定砲塔"
 
  #air_modules_replace
- EQ_MOD_CAT_anti_tank_weapon_TITLE:0"航空機搭載対戦車砲"
+ EQ_MOD_CAT_anti_tank_weapon_TITLE:0"対戦車砲"
 
  ###追加火砲技術###
  artillery5:0 "発展型野戦砲改良 I"

@@ -70,10 +70,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1370;1085;sea;5868;-1;-1;-1;-1;;Santa Isabel-Malaita
 1085;10291;sea;5868;-1;-1;-1;-1;;Malaita-Guadalcanal
 1742;7868;sea;2510;-1;-1;-1;-1;;Sakhalin-Siberia
+12446;4576;sea;4465;-1;-1;-1;-1;;Sakhalin-Hokkaido
 12661;7884;sea;8538;-1;-1;-1;-1;;Kodiak-Alaska
 11985;1025;sea;7932;-1;-1;-1;-1;;Japan-Kyushu
 4094;7212;sea;14675;-1;-1;-1;-1;;Shikoku-Chugoku
 9965;7113;sea;14676;-1;-1;-1;-1;;Shikoku-Kansai
+1399;14375;sea;3615;-1;-1;-1;-1;;Kurils 0
 1399;1515;sea;220;-1;-1;-1;-1;;Kurils 1
 1515;13037;sea;5614;-1;-1;-1;-1;;Kurils 2
 13037;4646;sea;4465;-1;-1;-1;-1;;Kurils-Hokkaido
@@ -155,6 +157,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9680;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
 9859;3962;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
 10011;7110;sea;2708;4825;1219;-1;-1;;Tushima-Kyushu
+10011;13282;sea;2708;4825;1219;-1;-1;;Tushima-Korea
 4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
 7259;1393;sea;5257;-1;-1;-1;-1;;Vancouver-Strait
 11047;198;sea;8370;-1;-1;-1;-1;;Barents-Strait
