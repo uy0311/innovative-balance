@@ -16,13 +16,13 @@ technologies = {
 		
 		category_all_armor = {
 			breakthrough = 0.20
-			initiative = 0.04
+			initiative = 0.03
 		}
 		category_army = {
 			maximum_speed = 0.10
 		}
-		coordination_bonus = -0.05
-		#planning_speed = 0.5
+
+		planning_speed = 0.5
 	#	army_speed_factor = 0.10
 		enable_tactic = tactic_unexpected_thrust
 		org_loss_when_moving = -0.1
@@ -407,13 +407,13 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
-			max_organisation = 15#3
+			#max_organisation = 15#3
 			breakthrough = 0.20
-			initiative = 0.01
 		}
 		
 		category_all_armor = {
-		maximum_speed = 0.10
+			max_organisation = 15#3
+			maximum_speed = 0.10
 		}
 
 		enable_tactic = tactic_blitz
@@ -476,10 +476,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
-			max_organisation = 10#2
+			#max_organisation = 10#2
 		}
 
 		category_all_armor = {
+			max_organisation = 10#2
 			default_morale = 0.05
 		}
 		
@@ -532,10 +533,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
-			max_organisation = 5#1
+			#max_organisation = 5#1
 		}
 
 		category_all_armor = {
+			max_organisation = 5#1
 			default_morale = 0.05
 		}
 		armored_car = {
@@ -606,9 +608,6 @@ technologies = {
 		category_all_infantry = {
 			#default_morale = 0.2
 			max_organisation = 30
-		}
-		category_all_armor = {
-			initiative = 0.02
 		}
 		# faster planning
 		#planning_speed = 0.2
@@ -3244,7 +3243,9 @@ technologies = {
 	breakthrough_priority = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_tanks = {
+
+		#category_tanks = {
+		category_all_armor = {
 			default_morale = 0.2
 			breakthrough = 0.10
 		}
@@ -3338,41 +3339,50 @@ technologies = {
 		
 		light_tank_destroyer_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 		medium_tank_destroyer_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 		modern_tank_destroyer_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 	
 		light_sp_anti_air_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 		medium_sp_anti_air_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 		modern_sp_anti_air_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 	
        light_sp_artillery_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 		medium_sp_artillery_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 		modern_sp_artillery_brigade = {
 			combat_width = -0.2
-			default_morale = 0.15
+			max_organisation = 10
+			default_morale = 0.25
 		}
 
 		path = {

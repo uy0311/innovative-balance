@@ -33,18 +33,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12151;10219;sea;5414;-1;-1;-1;-1;;East Nusa Tenggara-Pulau Alor
 12444;10222;sea;5515;-1;-1;-1;-1;;Sulawesi-Pulau Buton
 1293;4269;sea;8751;-1;-1;-1;-1;;Mindanao-Leyte
-12118;1224;sea;8751;-1;-1;-1;-1;;Cebu-Leyte
-7385;4269;sea;8751;-1;-1;-1;-1;;Bohol-Leyte
 1311;4228;sea;2856;-1;-1;-1;-1;;San Bernardino Strait
 4288;1221;sea;2876;-1;-1;-1;-1;;Mindoro-Batangas
 4228;7307;sea;2876;-1;-1;-1;-1;;Ticao Pass
 10302;1261;sea;2876;-1;-1;-1;-1;;Panay-Negros
-7423;14677;sea;2876;-1;-1;-1;-1;;Panay-Romblon
-10272;14677;sea;2876;-1;-1;-1;-1;;Mindoro-Romblon
 10186;12153;sea;8751;-1;-1;-1;-1;;Negros-Cebu
 7385;12153;sea;8751;-1;-1;-1;-1;;Bohol-Cebu
 7557;1574;sea;5390;-1;-1;-1;-1;;Buru-Seram
-7557;7369;sea;4899;-1;-1;-1;-1;;Buru-Taliabu
 10342;7369;sea;4899;-1;-1;-1;-1;;Obi-Taliabu
 10342;1437;sea;4899;-1;-1;-1;-1;;Obi-Bacan
 7413;1437;sea;4899;-1;-1;-1;-1;;Halmahera-Bacan
@@ -66,16 +61,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10319;1370;sea;5868;-1;-1;-1;-1;;Pavuvu-Munda
 10319;12265;sea;5868;-1;-1;-1;-1;;Munda-Choiseul
 12265;4252;sea;5868;-1;-1;-1;-1;;Choiseul-Santa Isabel
-12265;4378;sea;229;-1;-1;-1;-1;;Choiseul-Bougainville
 1370;1085;sea;5868;-1;-1;-1;-1;;Santa Isabel-Malaita
 1085;10291;sea;5868;-1;-1;-1;-1;;Malaita-Guadalcanal
 1742;7868;sea;2510;-1;-1;-1;-1;;Sakhalin-Siberia
-12446;4576;sea;4465;-1;-1;-1;-1;;Sakhalin-Hokkaido
 12661;7884;sea;8538;-1;-1;-1;-1;;Kodiak-Alaska
 11985;1025;sea;7932;-1;-1;-1;-1;;Japan-Kyushu
 4094;7212;sea;14675;-1;-1;-1;-1;;Shikoku-Chugoku
 9965;7113;sea;14676;-1;-1;-1;-1;;Shikoku-Kansai
-1399;14375;sea;3615;-1;-1;-1;-1;;Kurils 0
 1399;1515;sea;220;-1;-1;-1;-1;;Kurils 1
 1515;13037;sea;5614;-1;-1;-1;-1;;Kurils 2
 13037;4646;sea;4465;-1;-1;-1;-1;;Kurils-Hokkaido
@@ -86,7 +78,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1123;7115;sea;8318;-1;-1;-1;-1;;Ryukyu Islands 2
 10124;11932;sea;8343;-1;-1;-1;-1;;Ryukyu Islands 3
 14284;11932;sea;8499;-1;-1;-1;-1;;Ryukyu Islands 3
-10124;14283;sea;8343;-1;-1;-1;-1;;Ryukyu-Senkaku
 3995;13023;sea;2806;-1;-1;-1;-1;;Marianas 1
 13024;13023;sea;2806;-1;-1;-1;-1;;Marianas 2
 1135;13090;sea;6471;-1;-1;-1;-1;;Amlia-Unalaska
@@ -94,7 +85,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10048;7195;sea;5339;-1;-1;-1;-1;;Hawaii-Maui
 7195;4180;sea;5339;-1;-1;-1;-1;;Maui-Honolulu
 4180;7112;sea;5601;-1;-1;-1;-1;;Honolulu-Kauai
-7290;13080;sea;8364;-1;-1;-1;-1;;Western Samoa-Eastern Samoa
 4286;12159;sea;8289;-1;-1;-1;-1;;Fiji-Sanua Levu
 13055;13056;sea;8419;-1;-1;-1;-1;;Ellice Islands 1
 13056;13057;sea;8419;-1;-1;-1;-1;;Ellice Islands 2
@@ -107,9 +97,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13030;13035;sea;2711;-1;-1;-1;-1;;Caroline Islands 5
 13031;13035;sea;2711;-1;-1;-1;-1;;Caroline Islands 6
 13036;13034;sea;2339;-1;-1;-1;-1;;Caroline Islands 7
-13031;13032;sea;2121;-1;-1;-1;-1;;Caroline Islands 8
 13033;13032;sea;2121;-1;-1;-1;-1;;Caroline Islands 9
-2489;13034;sea;2263;-1;-1;-1;-1;;Caroline Islands 10
 13027;13030;sea;2735;-1;-1;-1;-1;;Caroline Islands 11
 13041;13044;sea;7287;-1;-1;-1;-1;;Marshall Islands 1
 13042;13043;sea;2414;-1;-1;-1;-1;;Marshall Islands 2
@@ -157,7 +145,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9680;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
 9859;3962;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
 10011;7110;sea;2708;4825;1219;-1;-1;;Tushima-Kyushu
-10011;13282;sea;2708;4825;1219;-1;-1;;Tushima-Korea
 4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
 7259;1393;sea;5257;-1;-1;-1;-1;;Vancouver-Strait
 11047;198;sea;8370;-1;-1;-1;-1;;Barents-Strait
@@ -208,11 +195,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14211;7683;sea;8642;-1;-1;-1;-1;;Anticosti-Canada
 14219;761;sea;9092;-1;-1;-1;-1;;Akimiski-Canada
 14226;14234;sea;8768;-1;-1;-1;-1;;Belcher Islands-Canada
-14253;1345;sea;5615;-1;-1;-1;-1;;Riau Islands-Sumatra
-12113;12184;sea;5539;-1;-1;-1;-1;;Riau Islands-Sumatra
 12113;14253;sea;5539;-1;-1;-1;-1;;Riau Islands
 10153;1351;sea;8412;-1;-1;-1;-1;;Sulawesi-Sangihe Islands
-12219;12162;sea;2291;-1;-1;-1;-1;;Sumbawa-Sumba
 10184;1421;sea;2899;-1;-1;-1;-1;;Sulu-Mindanao
 8241;14277;sea;2236;-1;-1;-1;-1;;South Island-Stewart Island
 12960;14280;sea;2580;-1;-1;-1;-1;;West Falkland-East Falkland
@@ -222,10 +206,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13069;14407;sea;8688;-1;-1;-1;-1;;St Lawrence Island-Alaska
 14404;7855;sea;8383;-1;-1;-1;-1;;Nunivak Island-Alaska
 14423;10577;sea;5321;-1;-1;-1;-1;;Shantar Islands-Russia
-10272;7419;sea;2971;-1;-1;-1;-1;;Mindoro-Palawan
 9097;14696;sea;1434;-1;-1;-1;-1;;Ingria-Kronstadt
 3151;14696;sea;1434;-1;-1;-1;-1;;Leningrad-Kronstadt
-1091;14791;sea;5322;-1;-1;-1;-1;;Taiwan-Penghu
 7071;14792;sea;5345;-1;-1;-1;-1;;Xiamen-Kinmen
 4196;14747;sea;8371;-1;-1;-1;-1;;Fuzhou-Lienchiang
 14748;9974;sea;2804;-1;-1;-1;-1;;Zhoushan-Ningbo
@@ -244,18 +226,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9228;3083;sea;990;-1;-1;-1;-1;;Finland-Åland
 9228;6209;sea;1211;-1;-1;-1;-1;;Sweden-Åland
 13734;6196;sea;8450;-1;-1;-1;-1;;Orkney-Shetland
-1098;10181;sea;8822;-1;-1;-1;-1;;Borneo-Sulawesi
 788;3917;sea;8492;-1;-1;-1;-1;;Mainland Virginia-Delmarva
-4493;7369;sea;4899;-1;-1;-1;-1;;Sulawesi-Maluku
-10409;4468;sea;5320;-1;-1;-1;-1;;Maluku-West Papua
-1355;12234;sea;2317;-1;-1;-1;-1;;Timor-Nusa Tenggara
-4211;1316;sea;5641;-1;-1;-1;-1;;Sumatra-Borneo
 1167;14372;sea;2684;-1;-1;-1;-1;;Japan-Oki Islands
-14374;14373;sea;7932;-1;-1;-1;-1;;Ulleung-Liancourt Rocks
 10201;7265;sea;7479;-1;-1;-1;-1;;Ceylon-India
 7003;10007;sea;7226;-1;-1;-1;-1;;Dodecanese
 6322;185;sea;1885;-1;-1;-1;-1;;Ösel-Courland
-4421;10234;sea;7010;-1;-1;-1;-1;;New Ireland-Bougainville
 13687;9047;sea;5735;-1;-1;-1;-1;;Cayman Islands
 11584;14578;sea;5786;-1;-1;-1;-1;;Venice
 9671;677;sea;15206;-1;-1;-1;-1;;San Francisco-Marin/Golden Gate Bridge
