@@ -937,7 +937,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = foreign_expeditions focus = deterrence }
 		available = { 
-			threat > 0.40 
+			has_idea = tot_economic_mobilisation
 		}
 
 		continue_if_invalid = yes
