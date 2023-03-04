@@ -223,7 +223,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 373;12680;sea;2361;-1;-1;-1;-1;;St. Pierre & Miquelon-Newfoundland
 11198;3090;sea;2530;-1;-1;-1;-1;;Sognefjorden Crossing
 122;6145;sea;2530;-1;-1;-1;-1;;Bergen Crossing
-1759;12645;sea;4679;-1;-1;-1;-1;;Australia-Tasmania
 9228;3083;sea;990;-1;-1;-1;-1;;Finland-Åland
 9228;6209;sea;1211;-1;-1;-1;-1;;Sweden-Åland
 13734;6196;sea;8450;-1;-1;-1;-1;;Orkney-Shetland
@@ -243,6 +242,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1434;209;sea;6106;-1;-1;-1;-1;WHITE_SEA_CANAL;White Sea Canal
 6801;5913;sea;3988;-1;-1;-1;-1;CORINTH_CANAL;Corinth Canal
 2824;2942;sea;6046;-1;-1;-1;-1;CALEDONIAN_CANAL;Caledonian Canal
+10272;14677;sea;2876;-1;-1;-1;-1;;Mindoro
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar Strait
 2382;2431;;-1;-1;-1;-1;-1;ORESUND_STRAIT;Öresund
 2382;2431;;-1;-1;-1;-1;-1;STOREBALT_STRAIT;Storebælt
