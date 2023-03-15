@@ -1,5 +1,10 @@
 spriteTypes = {
-
+	##air_doctrine
+	spriteType = {
+		name = "GFX_air_doctrine_bg"
+		textureFile = "gfx//interface//air_doctrine_bg.dds"
+		alwaystransparent = yes		
+	}
 	#tank_modules
 	spriteType = {
 		name = "GFX_EMI_IB_tank_coaxial_machine_gun"

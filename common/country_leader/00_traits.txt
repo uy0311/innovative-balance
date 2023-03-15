@@ -5178,7 +5178,7 @@ leader_traits = {
 				air_ground_attack = 0.1 
 			}
 		}
-		air_doctrine_cost_factor = -0.14
+		air_doctrine_cost_factor = -0.20
 		
 		ai_will_do = {
 			factor = 1
@@ -5187,7 +5187,7 @@ leader_traits = {
 	
 	victory_through_airpower = {
 		sprite = 14
-		cat_strategic_destruction_cost_factor = -0.2
+		air_doctrine_cost_factor = -0.20
 		
 		ai_will_do = {
 			factor = 1
@@ -5196,7 +5196,7 @@ leader_traits = {
 	
 	close_air_support_proponent = {
 		sprite = 14
-		cat_battlefield_support_cost_factor = -0.2
+		air_doctrine_cost_factor = -0.20
 		
 		ai_will_do = {
 			factor = 1
@@ -5205,7 +5205,7 @@ leader_traits = {
 	
 	assault_avaition = {
 		sprite = 14
-		cat_operational_integrity_cost_factor = -0.2
+		air_doctrine_cost_factor = -0.20
 		
 		ai_will_do = {
 			factor = 1
