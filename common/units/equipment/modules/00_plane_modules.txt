@@ -809,7 +809,6 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 8
-				weight = 0
 			}
 		}
 		mission_type_stats = {
@@ -818,7 +817,6 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 2
-				weight = 0
 			}
 			add_average_stats = {
 				naval_strike_targetting = 4
@@ -853,7 +851,6 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 3
-				weight = 0
 			}
 		}
 		mission_type_stats = {
@@ -862,7 +859,6 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_bombing = 6
-				weight = 0
 			}
 		}
 		dismantle_cost_ic = 7
@@ -890,7 +886,6 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_bombing = 15
-				weight = 0
 			}
 		}
 		mission_type_stats = {
@@ -899,7 +894,6 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 2
-				weight = 0
 			}
 		}
 		dismantle_cost_ic = 12
@@ -1282,7 +1276,6 @@ equipment_modules = {
 		add_stats = {
 			air_defence = -8
 			build_cost_ic = 0
-			weight = 0
 		}
 		multiply_stats = {
 			build_cost_ic = -0.075
@@ -1399,7 +1392,6 @@ equipment_modules = {
 		add_stats = {
 			air_defence = -10
 			build_cost_ic = 0
-			weight = 0
 		}
 		multiply_stats = {
 			build_cost_ic = -0.075
