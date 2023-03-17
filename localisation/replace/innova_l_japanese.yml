@@ -1,13 +1,12 @@
 ﻿l_japanese:
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"
- STAT_AIR_SUPERIORITY:0 "制空値: "
+ STAT_AIR_SUPERIORITY:0 "制空値:"
  MODIFIER_AIR_SUPERIORITY_EFFICIENCY:0 "制空作戦効率"
  technology_sharing_idea:0 "技術の共有"
  ib_hit_chance:0 "正確無比"
  ib_hit_chance_desc:0 "この提督の艦隊は砲精度に於いて他に引けを取らない"
  night_vision3:0 "暗視装置Ⅲ"
  night_vision3_desc:0 "更なる技術革新により、我が陸軍部隊は夜間に於いても全てを見通す全能の神が如く戦場を支配することになるだろう。"
- blohm_und_voss_ITA:0 "ブローム・ウント・フォス イタリア支社"
  TUR_black_sea_shipyard:0 "トルコ黒海造船所"
  ARMOUR_TITLE_ENGINE:0 "駆動系"
  ARMOUR_TITLE_ARMOR:0 "装甲"
@@ -180,6 +179,11 @@
 
  #air_modules_replace
  EQ_MOD_CAT_anti_tank_weapon_TITLE:0"対戦車砲"
+
+ #air_doctrin
+ TITLE_COORDINATED_SUPPORT:0"地上支援"
+ TITLE_MARITIME_OPERATIONS:0"海上航空作戦"
+ TITLE_ESCORT_COMBAT:0"迎撃護衛戦"
 
  ###追加火砲技術###
  artillery5:0 "発展型野戦砲改良 I"
