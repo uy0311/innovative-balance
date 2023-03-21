@@ -179,6 +179,8 @@
 
  #air_modules_replace
  EQ_MOD_CAT_anti_tank_weapon_TITLE:0"対戦車砲"
+ torpedo_mounting_2:0 "航空魚雷2型"
+ torpedo_mounting_2_desc:0 "航空業雷2型"
 
  #air_doctrin
  TITLE_COORDINATED_SUPPORT:0"地上支援"

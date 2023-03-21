@@ -745,14 +745,15 @@ equipment_modules = {
 		mission_type_stats = {
 			limit = {
 				naval_bomber
+				port_strike
 			}
 			add_stats = {
 				air_agility = -15
 				weight = 4
-				naval_strike_attack = 2
+				naval_strike_attack = 3
 			}
 			add_average_stats = {
-				naval_strike_targetting = 6
+				naval_strike_targetting = 12
 			}
 		}
 		dismantle_cost_ic = 0.5
@@ -813,13 +814,14 @@ equipment_modules = {
 		}
 		mission_type_stats = {
 			limit = {
+				naval_bomber
 				port_strike
 			}
 			add_stats = {
-				naval_strike_attack = 2
+				naval_strike_attack = 6
 			}
 			add_average_stats = {
-				naval_strike_targetting = 4
+				naval_strike_targetting = 8
 			}
 		}
 		dismantle_cost_ic = 3.5
@@ -962,10 +964,42 @@ equipment_modules = {
 			add_stats = {
 				air_agility = -15
 				weight = 8
-				naval_strike_attack = 12
+				naval_strike_attack = 18
 			}
 			add_average_stats = {
-				naval_strike_targetting = 5
+				naval_strike_targetting = 7.5
+			}
+		}
+		dismantle_cost_ic = 1.5
+	}
+
+	torpedo_mounting_2 = {
+		abbreviation = "tpm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { naval_bomber maritime_patrol_plane }
+
+		add_stats = {
+			build_cost_ic = 4.5
+		}
+		
+		allow_mission_type = {
+			naval_bomber
+			port_strike
+			naval_patrol
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+				port_strike
+			}
+			add_stats = {
+				air_agility = -15
+				weight = 8
+				naval_strike_attack = 22
+			}
+			add_average_stats = {
+				naval_strike_targetting = 12.5
 			}
 		}
 		dismantle_cost_ic = 1.5

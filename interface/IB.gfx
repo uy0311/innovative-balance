@@ -204,6 +204,11 @@ spriteTypes = {
 		name = "GFX_hunt_and_destroy_0_medium"
 		texturefile = "gfx/interface/technologies/hunt_and_destroy_0.dds"
 	}
+
+	spriteType = {
+		name = "GFX_EMI_torpedo_mounting_2"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_torpedo_2_icon.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_developed_sonar_medium"
