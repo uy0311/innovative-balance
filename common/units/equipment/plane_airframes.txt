@@ -129,11 +129,6 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = torpedo_mounting
-			count < 2
-		}
-
-		module_count_limit = {
 			module = floats
 			count < 2
 		}
@@ -747,11 +742,6 @@ equipments = {
 
 		module_count_limit = {
 			module = dive_brakes_small
-			count < 2
-		}
-
-		module_count_limit = {
-			module = torpedo_mounting
 			count < 2
 		}
 
@@ -1416,11 +1406,6 @@ equipments = {
 
 		module_count_limit = {
 			module = small_bomb_bay
-			count < 3
-		}
-
-		module_count_limit = {
-			module = torpedo_mounting
 			count < 3
 		}
 
@@ -2268,11 +2253,6 @@ equipments = {
 		module_count_limit = {
 			module = demining_coil
 			count < 2
-		}
-
-		module_count_limit = {
-			module = torpedo_mounting
-			count < 4
 		}
 
 		module_count_limit = {
