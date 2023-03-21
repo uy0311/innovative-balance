@@ -59,11 +59,11 @@ equipment_modules = {
 			build_cost_ic = 2
 			fuel_consumption = 4
 			reliability = -0.15
-			maximum_speed = 2
+			maximum_speed = 1
 		}
 
 		multiply_stats = {
-			maximum_speed = 0.25
+			maximum_speed = 1.00
 		}
 	}
 
@@ -340,14 +340,13 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.5
-			maximum_speed = -0.25
 			breakthrough = 14
 			defense = 7
 			max_strength = 1.05
 		}
 		xp_cost = 0#2
 		multiply_stats = {
-			
+			maximum_speed = -0.175
 		}
 
 	}
@@ -464,14 +463,13 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 3.0
-			maximum_speed = -0.25
 			breakthrough = 20
 			defense = 10
 			max_strength = 0.9
 		}
 		xp_cost = 0#2
 		multiply_stats = {
-	
+			maximum_speed = -0.175
 		}
 
 	}
@@ -583,7 +581,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			
+			maximum_speed = 0.50
 		}
 
 	}
@@ -602,14 +600,13 @@ equipment_modules = {
 		xp_cost = 0#2
 		add_stats = {
 			build_cost_ic = 4.5
-			maximum_speed = -0.25
 			breakthrough = 22
 			defense = 11
 			max_strength = 0.75
 		}
 
 		multiply_stats = {
-			
+			maximum_speed = 0.30
 		}
 
 	}
@@ -641,6 +638,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			armor_value = 0.25
+			maximum_speed = 0.50
 		}
 
 	}
@@ -671,6 +669,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			armor_value = 0.25
+			maximum_speed = 0.50
 		}
 
 	}
@@ -688,14 +687,13 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 8.0
 			reliability = -0.1
-			maximum_speed = -0.2
 			breakthrough = 24
 			defense = 12
 			max_strength = 0.75
 		}
 		xp_cost = 0#2
 		multiply_stats = {
-
+			maximum_speed = 0.30
 		}
 
 	}
@@ -713,14 +711,13 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 10.0
 			reliability = -0.25
-			maximum_speed = -0.5
 			breakthrough = 35
 			defense = 17.5
 			max_strength = 1.0
 		}
 		xp_cost = 0#2
 		multiply_stats = {
-			
+			maximum_speed = 0.15
 		}
 
 	}
@@ -800,10 +797,12 @@ equipment_modules = {
 			hard_attack = 5
 			ap_attack = 20
 			build_cost_ic = 0.75
-			maximum_speed = -0.1
 			reliability = -0.1
 			breakthrough = 1
 			defense = 0.5
+		}
+		multiply_stats = {
+			maximum_speed = -0.07
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -822,10 +821,12 @@ equipment_modules = {
 			hard_attack = 7
 			ap_attack = 35
 			build_cost_ic = 1
-			maximum_speed = -0.1
 			reliability = -0.1
 			breakthrough = 1
 			defense = 0.5
+		}
+		multiply_stats = {
+			maximum_speed = -0.07
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -918,10 +919,12 @@ equipment_modules = {
 			hard_attack = 10
 			ap_attack = 40
 			build_cost_ic = 0.75
-			maximum_speed = -0.15
 			reliability = -0.1
 			breakthrough = 2
 			defense = 1
+		}
+		multiply_stats = {
+			maximum_speed = -0.105
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -940,10 +943,12 @@ equipment_modules = {
 			hard_attack = 15
 			ap_attack = 60
 			build_cost_ic = 1.5
-			maximum_speed = -0.2
 			reliability = -0.1
 			breakthrough = 2
 			defense = 1
+		}
+		multiply_stats = {
+			maximum_speed = -0.14
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -963,10 +968,12 @@ equipment_modules = {
 			hard_attack = 5
 			ap_attack = 12
 			build_cost_ic = 1.25
-			maximum_speed = -0.2
 			reliability = -0.1
 			breakthrough = -2
 			defense = -1
+		}
+		multiply_stats = {
+			maximum_speed = -0.14
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -989,10 +996,12 @@ equipment_modules = {
 			hard_attack = 18
 			ap_attack = 60
 			build_cost_ic = 1.5
-			maximum_speed = -0.2
 			reliability = -0.15
 			breakthrough = 4
 			defense = 2
+		}
+		multiply_stats = {
+			maximum_speed = -0.14
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1017,10 +1026,12 @@ equipment_modules = {
 			hard_attack = 20
 			ap_attack = 90
 			build_cost_ic = 2
-			maximum_speed = -0.25
 			reliability = -0.15
 			breakthrough = 4
 			defense = 2
+		}
+		multiply_stats = {
+			maximum_speed = -0.175
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1045,10 +1056,12 @@ equipment_modules = {
 			hard_attack = 27
 			ap_attack = 125
 			build_cost_ic = 2.5
-			maximum_speed = -0.3
 			reliability = -0.15
 			breakthrough = 4
 			defense = 2
+		}
+		multiply_stats = {
+			maximum_speed = -0.21
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1073,10 +1086,12 @@ equipment_modules = {
 			hard_attack = 1
 			ap_attack = 20
 			build_cost_ic = 1.75
-			maximum_speed = -0.3
 			reliability = -0.2
 			breakthrough = -2
 			defense = -1
+		}
+		multiply_stats = {
+			maximum_speed = -0.21
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1100,10 +1115,12 @@ equipment_modules = {
 			hard_attack = 2
 			ap_attack = 30
 			build_cost_ic = 2.25
-			maximum_speed = -0.4
 			reliability = -0.2
 			breakthrough = -2
 			defense = -1
+		}
+		multiply_stats = {
+			maximum_speed = -0.28
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1129,10 +1146,12 @@ equipment_modules = {
 			hard_attack = 1
 			ap_attack = 2
 			build_cost_ic = 1.0
-			maximum_speed = -0.1
 			reliability = -0.1
 			breakthrough = -4
 			defense = -2
+		}
+		multiply_stats = {
+			maximum_speed = -0.07
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1158,10 +1177,12 @@ equipment_modules = {
 			hard_attack = 1
 			ap_attack = 2
 			build_cost_ic = 1.5
-			maximum_speed = -0.2
 			reliability = -0.1
 			breakthrough = -4
 			defense = -2
+		}
+		multiply_stats = {
+			maximum_speed = -0.14
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1185,10 +1206,12 @@ equipment_modules = {
 			hard_attack = 23
 			ap_attack = 85
 			build_cost_ic = 1.5
-			maximum_speed = -0.1
 			reliability = -0.05
 			breakthrough = 2
 			defense = 1
+		}
+		multiply_stats = {
+			maximum_speed = -0.07
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1212,10 +1235,12 @@ equipment_modules = {
 			hard_attack = 30
 			ap_attack = 125
 			build_cost_ic = 2.5
-			maximum_speed = -0.3
 			reliability = -0.175
 			breakthrough = 4
 			defense = 2
+		}
+		multiply_stats = {
+			maximum_speed = -0.21
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1239,10 +1264,12 @@ equipment_modules = {
 			hard_attack = 41
 			ap_attack = 200
 			build_cost_ic = 3.5
-			maximum_speed = -0.4
 			reliability = -0.2
 			breakthrough = 4
 			defense = 2
+		}
+		multiply_stats = {
+			maximum_speed = -0.28
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1267,10 +1294,12 @@ equipment_modules = {
 			hard_attack = 23
 			ap_attack = 90
 			build_cost_ic = 3
-			maximum_speed = -0.3
 			reliability = -0.25
 			breakthrough = 6
 			defense = 3
+		}
+		multiply_stats = {
+			maximum_speed = -0.21
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1295,10 +1324,12 @@ equipment_modules = {
 			hard_attack = 30
 			ap_attack = 125
 			build_cost_ic = 3.5
-			maximum_speed = -0.4
 			reliability = -0.25
 			breakthrough = 6
 			defense = 3
+		}
+		multiply_stats = {
+			maximum_speed = -0.28
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1323,10 +1354,12 @@ equipment_modules = {
 			hard_attack = 38
 			ap_attack = 170
 			build_cost_ic = 4
-			maximum_speed = -0.5
 			reliability = -0.3
 			breakthrough = 6
 			defense = 3
+		}
+		multiply_stats = {
+			maximum_speed = -0.35
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1351,10 +1384,12 @@ equipment_modules = {
 			hard_attack = 2
 			ap_attack = 60
 			build_cost_ic = 2.75
-			maximum_speed = -0.5
 			reliability = -0.3
 			breakthrough = -4
 			defense = -2
+		}
+		multiply_stats = {
+			maximum_speed = -0.35
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1380,10 +1415,12 @@ equipment_modules = {
 			hard_attack = 41
 			ap_attack = 170
 			build_cost_ic = 5
-			maximum_speed = -0.6
 			reliability = -0.35
 			breakthrough = 8
 			defense = 4
+		}
+		multiply_stats = {
+			maximum_speed = -0.42
 		}
 		xp_cost = 0#1
 		can_convert_from = {
@@ -1592,11 +1629,11 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2.5
 			armor_value = 30
-			maximum_speed = -0.7
 			reliability = -0.05
 		}
 		xp_cost = 0#1
 		multiply_stats = {
+			maximum_speed = -0.50
 		}
 	}
 
