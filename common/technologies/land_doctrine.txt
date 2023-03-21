@@ -3134,7 +3134,7 @@ technologies = {
 		max_planning = 0.15
 
 		anti_tank_brigade = {
-			combat_width = -1
+			combat_width = -0.5
 		}
 		enable_tactic = tactic_elastic_defense
 		
