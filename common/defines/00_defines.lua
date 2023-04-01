@@ -1373,7 +1373,7 @@ NNavy = {
 
 	DETECTION_CHANCE_MULT_BASE = 0.1,								-- base multiplier value for detection chance. Later the chance is an average between our detection and enemy visibility, mult by surface/sub detection chance in the following defines.
 	DETECTION_CHANCE_MULT_RADAR_BONUS = 0.1,						-- detection chance bonus from radars.
-	DETECTION_CHANCE_MULT_AIR_SUPERIORITY_BONUS = 1.5,			-- bonus from air superiority.
+	DETECTION_CHANCE_MULT_AIR_SUPERIORITY_BONUS = 0.25,			-- bonus from air superiority.
 
 	MAX_CAPITALS_PER_AUTO_TASK_FORCE = 5,							-- maximum number of capital ships the auto-task force creation will put together when designing SurfaceActionGroup
 	MAX_SUBMARINES_PER_AUTO_TASK_FORCE = 30,						-- maximum number of submarines the auto-task force creation will put together when designing wolfpack
@@ -1433,8 +1433,8 @@ NNavy = {
 	EXPERIENCE_FACTOR_CONVOY_ATTACK = 0.04,
 	EXPERIENCE_FACTOR_NON_CARRIER_GAIN = 0.04,						-- Xp gain by non-carrier ships in the combat
 	EXPERIENCE_FACTOR_CARRIER_GAIN = 0.04,							-- Xp gain by carrier ships in the combat
-	FIELD_EXPERIENCE_SCALE = 0.3,
-	FIELD_EXPERIENCE_MAX_PER_DAY = 200,								-- Most xp you can gain per day
+	FIELD_EXPERIENCE_SCALE = 0.15,
+	FIELD_EXPERIENCE_MAX_PER_DAY = 100,								-- Most xp you can gain per day
 	LEADER_EXPERIENCE_SCALE = 1.0,
 	BATTLE_NAME_VP_FACTOR = 100,									-- Name is given by ((VP value) * BATTLE_NAME_VP_FACTOR) / (Distance VP -> battle)
 	BATTLE_NAME_VP_CUTOFF = 1.0,									-- If best score of above calculation is below this, name will be that of region.
@@ -1446,13 +1446,13 @@ NNavy = {
 	AMPHIBIOUS_INVADE_DEFEND_LOW = 1.5, 							-- low and high cap of defend modifier scale. Scale interpolated by invasion progress.
 	AMPHIBIOUS_INVADE_DEFEND_HIGH = 1.0,
 	AMPHIBIOUS_INVADE_LANDING_PENALTY_DECREASE = 3.5, 				-- scale of bonus that decreases "amphibious penalty" during combat, relative to invading transporter tech.
-	BASE_CARRIER_SORTIE_EFFICIENCY = 0.1,							-- factor of planes that can sortie by default from a carrier
+	BASE_CARRIER_SORTIE_EFFICIENCY = 0.0,							-- factor of planes that can sortie by default from a carrier
 	CONVOY_ATTACK_BASE_FACTOR = 0.15,                               -- base % of convoys that get intercepted
 	NAVAL_SPEED_MODIFIER = 0.1,	                    				-- basic speed control
 	NAVAL_RANGE_TO_INGAME_DISTANCE = 0.12,							-- Scale the ship stats "naval_range" to the ingame distance
 	NAVAL_INVASION_PREPARE_HOURS = 168,								-- base hours needed to prepare an invasion
-	NAVAL_COMBAT_RESULT_TIMEOUT_YEARS = 0.5,							-- after that many years, we clear the naval combat results, so they don't get stuck forever in the memory.
-	CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 6,						-- after this many months remove the history of lost convoys to not bloat savegames and memory since there is no way to see them anyway
+	NAVAL_COMBAT_RESULT_TIMEOUT_YEARS = 0.25,							-- after that many years, we clear the naval combat results, so they don't get stuck forever in the memory.
+	CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 3,						-- after this many months remove the history of lost convoys to not bloat savegames and memory since there is no way to see them anyway
 	NAVAL_TRANSFER_BASE_SPEED = 6,                                  -- base speed of units on water being transported
 	NAVAL_TRANSFER_BASE_NAVAL_DIST_ADD = 100,						-- Extra cost for naval movement ( compared to land movement ) when deciding what ports to use for a naval transfer
 	NAVAL_TRANSFER_BASE_NAVAL_DIST_MULT = 20,						-- Multiplier for the cost of naval movement ( compared to land movement ) when deciding what ports to use for naval transfer
@@ -1742,7 +1742,7 @@ NNavy = {
 
 	MIN_GUN_COOLDOWN = 0.1,											-- minimum cooldown for a gun
 	BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
-		2.0,	-- big guns
+		1.0,	-- big guns
 		4.0,	-- torpedoes
 		1.0,	-- small guns
 	},
@@ -1770,7 +1770,7 @@ NNavy = {
 	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.0,  -- AA penalty at 0% positioning
 	SUBMARINE_REVEAL_ON_MINIMUM_POSITIONING                         = 2.0,  -- submarine reveal change on 0% positioning
 
-	SHIP_TO_FLEET_ANTI_AIR_RATIO									= 0.5,	-- total sum of fleet's anti air will be multiplied with this ratio and added to calculations anti-air of individual ships while air damage reduction
+	SHIP_TO_FLEET_ANTI_AIR_RATIO									= 0.25,	-- total sum of fleet's anti air will be multiplied with this ratio and added to calculations anti-air of individual ships while air damage reduction
 
 	ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE								= 0.25,	-- received air damage is calculated using following: 1 - ( (ship_anti_air + fleet_anti_air * SHIP_TO_FLEET_ANTI_AIR_RATIO )^ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE ) * ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE
 	ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE							= 0.2,
@@ -1898,12 +1898,12 @@ NNavy = {
 	NAVAL_COMBAT_AIR_SUB_DETECTION_DECAY_RATE = 1.0,					-- Factor to decay the value of sub detection contributed by planes on the last hour. Note: the maximum value between the decayed value and the newly computed one is taken into account. A decay rate of 1 means that nothing is carried over, the previous value is zerod out. A decay rate of 0 means that the previous value is carried over as is.
 	NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 0.0,						-- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant
 
-	NAVAL_COMBAT_AIR_SUB_TARGET_SCORE = 10,                             -- scoring for target picking for planes inside naval combat, one define per ship typ
-	NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 50,
-	NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 48,
-	NAVAL_COMBAT_AIR_CONVOY_TARGET_SCORE = 1.0,
-	NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE = 5,                         -- how much score factor from low health (scales between 0->this number)
-	NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 5,                           -- how much score factor from low AA guns (scales between 0->this number)
+	NAVAL_COMBAT_AIR_SUB_TARGET_SCORE = 100,                             -- scoring for target picking for planes inside naval combat, one define per ship typ
+	NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 250,
+	NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 150,
+	NAVAL_COMBAT_AIR_CONVOY_TARGET_SCORE = 20,
+	NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE = 10,                         -- how much score factor from low health (scales between 0->this number)
+	NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 0,                           -- how much score factor from low AA guns (scales between 0->this number)
 
 	NEW_NAVY_LEADER_LEVEL_CHANCES = {									-- chances for new navy leaders to start at a given level
 		0.95, -- 95% for level one
