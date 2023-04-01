@@ -907,9 +907,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		sub_technologies = {
-			ship_hull_super_heavy
-		}
+	#	sub_technologies = {
+	#		ship_hull_super_heavy
+	#	}
 
 		research_cost = 1.5
 

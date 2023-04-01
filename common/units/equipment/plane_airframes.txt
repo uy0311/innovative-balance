@@ -1426,7 +1426,7 @@ equipments = {
 
 		module_count_limit = {
 			category = nav_bomber_weapon
-			count < 3
+			count < 2
 		}
 
 		module_count_limit = {
@@ -2257,7 +2257,7 @@ equipments = {
 
 		module_count_limit = {
 			category = nav_bomber_weapon
-			count < 4
+			count < 3
 		}
 
 		module_count_limit = {
