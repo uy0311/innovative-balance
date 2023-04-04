@@ -538,7 +538,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = GFX_goal_generic_navy_carrier
+			picture = generic_navy_carrier_bonus
 			
 			research_bonus = {
 				cv_tech = 0.80
@@ -556,7 +556,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = GFX_goal_generic_navy_battleship
+			picture = generic_navy_bonus
 			
 			research_bonus = {
 				bb_tech = 0.80
