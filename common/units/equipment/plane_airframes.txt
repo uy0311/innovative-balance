@@ -645,7 +645,7 @@ equipments = {
 		interface_category = interface_category_air
 		
 		interface_overview_category_index = 1
-		air_superiority = 0.75
+		air_superiority = 0.25
 		reliability = 0.8
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -813,7 +813,7 @@ equipments = {
 		module_slots = inherit
 		priority = 5
 
-		air_range = 650
+		air_range = 850
 		maximum_speed = 0
 		air_agility = 45
 		air_defence = 7
@@ -831,7 +831,7 @@ equipments = {
 		parent = cv_small_plane_airframe_0
 		priority = 5
 
-		air_range = 800
+		air_range = 1425
 		maximum_speed = 0
 		air_agility = 50
 		air_defence = 9
@@ -909,7 +909,7 @@ equipments = {
 		parent = cv_small_plane_airframe_1
 		priority = 5
 
-		air_range = 950
+		air_range = 1600
 		maximum_speed = 0
 		air_agility = 65
 		air_defence = 11
@@ -1015,7 +1015,7 @@ equipments = {
 		parent = cv_small_plane_airframe_2
 		priority = 5
 
-		air_range = 1100
+		air_range = 1875
 		maximum_speed = 0
 		air_agility = 80
 		air_defence = 12
@@ -1128,7 +1128,7 @@ equipments = {
 		parent = cv_small_plane_airframe_3
 		priority = 5
 
-		air_range = 1250
+		air_range = 2050
 		maximum_speed = 0
 		air_agility = 85
 		air_defence = 18
