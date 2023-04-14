@@ -280,7 +280,7 @@ NCountry = {
 	DEFAULT_STABILITY = 0.5,						-- Default stability if not scripted otherwise.
 	DEFAULT_WAR_SUPPORT = 0.5,						-- Default war support if not scripted otherwise.
 	BASE_STABILITY_WAR_FACTOR = -0,				-- Default stability war factor
-	BASE_STABILITY_PARTY_POPULARITY_FACTOR = 0.15,	-- Default stability rulling party popularity factor
+	BASE_STABILITY_PARTY_POPULARITY_FACTOR = 0.00,	-- Default stability rulling party popularity factor
 	MIN_COUP_STABILITY_FACTOR = 0.0,				-- Min value of coup factor in stability
 	MAX_COUP_STABILITY_FACTOR = 2.0,				-- Max value of coup factor in stability
 	MIN_COUP_SUCCESS_STABILITY = 0.8,				-- Max stability when coup will happen
@@ -338,10 +338,10 @@ NCountry = {
 	INTERCEPTION_WAR_SUPPORT_SCALE = 0.00001,		-- Scaling of interceptions to war support impact
 	INTERCEPTION_BOMBING_WAR_SUPPORT_IMPACT = 0.3,	-- Max impact of interceptions on the war support
 
-	BOMBING_WAR_SUPPORT_PENALTY_SCALE = 0.00, 			-- Scaling of bomber damage to war support impact, will be added weekly as a war support penalty
-	MAX_BOMBING_WEEKLY_WAR_SUPPORT_PENALTY = 0.0,		-- Max penalty that will gained per week from bomber's damage
-	BOMBING_WEEKLY_WAR_SUPPORT_PENALTY_DECAY = 0.00,		-- Weekly decay of bomber damage war support penalty
-	MAX_BOMBING_WAR_SUPPORT_IMPACT = 0.0,					-- Max total penalty from bomber's damage
+	BOMBING_WAR_SUPPORT_PENALTY_SCALE = -0.00015, 			-- Scaling of bomber damage to war support impact, will be added weekly as a war support penalty
+	MAX_BOMBING_WEEKLY_WAR_SUPPORT_PENALTY = -0.006,		-- Max penalty that will gained per week from bomber's damage
+	BOMBING_WEEKLY_WAR_SUPPORT_PENALTY_DECAY = 0.001,		-- Weekly decay of bomber damage war support penalty
+	MAX_BOMBING_WAR_SUPPORT_IMPACT = -0.3,					-- Max total penalty from bomber's damage
 
 	HEROES_BEING_KILLED_WAR_SUPPORT_PENALTY_SCALE = -0.03,			-- Scaling of war heroes manpower lost to war support impact, will be added weekly as a war support penalty
 	MAX_HEROES_BEING_KILLED_WEEKLY_WAR_SUPPORT_PENALTY = -0.006,		-- Max penalty that will gained per week from war heroes manpower lost

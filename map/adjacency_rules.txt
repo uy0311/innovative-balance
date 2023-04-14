@@ -270,7 +270,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -309,7 +309,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -348,7 +348,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -387,7 +387,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -426,7 +426,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -465,7 +465,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -504,7 +504,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -543,7 +543,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -582,7 +582,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -621,7 +621,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -660,7 +660,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -699,7 +699,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -738,7 +738,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -777,7 +777,7 @@ adjacency_rule =
 
 	contested = {
 		army = no
-		navy = no
+		navy = yes
 		submarine = yes
 		trade = no
 	}
