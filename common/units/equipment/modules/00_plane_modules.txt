@@ -537,7 +537,7 @@ equipment_modules = {
 		add_stats = {
 			air_attack = 4
 			build_cost_ic = 1
-			weight = 1
+			weight = 2
 		}
 		
 		allow_mission_type = {
@@ -555,7 +555,7 @@ equipment_modules = {
 		add_stats = {
 			air_attack = 8
 			build_cost_ic = 2
-			weight = 2
+			weight = 4
 		}
 		
 		allow_mission_type = {
@@ -577,7 +577,7 @@ equipment_modules = {
 		add_stats = {
 			air_attack = 6
 			build_cost_ic = 1.5
-			weight = 1
+			weight = 3
 		}
 		
 		allow_mission_type = {
@@ -595,7 +595,7 @@ equipment_modules = {
 		add_stats = {
 			air_attack = 12
 			build_cost_ic = 3
-			weight = 2
+			weight = 6
 		}
 		
 		allow_mission_type = {
@@ -618,15 +618,15 @@ equipment_modules = {
 
 	aircraft_cannon_1_1x = {
 		abbreviation = "ac11"
-		category = fighter_weapon
+		category = machine_gun
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = fighter
 
 		add_stats = {
 			air_attack = 10
-			build_cost_ic = 3
+			build_cost_ic = 2.5
 			air_agility = -3
-			weight = 4
+			weight = 5
 		}
 		
 		allow_mission_type = {
@@ -637,15 +637,15 @@ equipment_modules = {
 
 	aircraft_cannon_1_2x = {
 		abbreviation = "ac12"
-		category = fighter_weapon
+		category = machine_gun
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = fighter
 
 		add_stats = {
 			air_attack = 20
-			build_cost_ic = 6
+			build_cost_ic = 5
 			air_agility = -6
-			weight = 8
+			weight = 10
 		}
 		
 		allow_mission_type = {
@@ -668,15 +668,15 @@ equipment_modules = {
 
 	aircraft_cannon_2_1x = {
 		abbreviation = "ac21"
-		category = fighter_weapon
+		category = machine_gun
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_1x
 		add_equipment_type = fighter
 		add_stats = {
 			air_attack = 12
-			build_cost_ic = 4
+			build_cost_ic = 3
 			air_agility = -3
-			weight = 5
+			weight = 6
 		}
 		
 		allow_mission_type = {
@@ -687,15 +687,15 @@ equipment_modules = {
 
 	aircraft_cannon_2_2x = {
 		abbreviation = "ac22"
-		category = fighter_weapon
+		category = machine_gun
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_2x
 		add_equipment_type = fighter
 		add_stats = {
 			air_attack = 24
-			build_cost_ic = 8
+			build_cost_ic = 6
 			air_agility = -6
-			weight = 10
+			weight = 12
 		}
 		
 		allow_mission_type = {

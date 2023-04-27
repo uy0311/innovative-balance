@@ -42,6 +42,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -54,6 +55,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -144,6 +146,11 @@ equipments = {
 		}
 
 		module_count_limit = {
+			category = machine_gun
+			count < 2
+		}
+
+		module_count_limit = {
 			category = anti_tank_weapon
 			count < 2
 		}
@@ -194,7 +201,7 @@ equipments = {
 		air_range = 500
 		maximum_speed = 0
 		air_agility = 45
-		air_defence = 7
+		air_defence = 6
 		weight = 3
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -212,7 +219,7 @@ equipments = {
 		air_range = 650
 		maximum_speed = 0
 		air_agility = 50
-		air_defence = 9
+		air_defence = 10
 		weight = 4
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -226,6 +233,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -238,6 +246,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -291,7 +300,7 @@ equipments = {
 		air_range = 800
 		maximum_speed = 0
 		air_agility = 65
-		air_defence = 11
+		air_defence = 14
 		weight = 5
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -305,6 +314,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -317,6 +327,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -329,6 +340,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -398,7 +410,7 @@ equipments = {
 		air_range = 950
 		maximum_speed = 0
 		air_agility = 80
-		air_defence = 12
+		air_defence = 18
 		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -412,6 +424,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -424,6 +437,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -436,6 +450,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -513,7 +528,7 @@ equipments = {
 		air_range = 1100
 		maximum_speed = 0
 		air_agility = 85
-		air_defence = 18
+		air_defence = 22
 		weight = 7
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -527,6 +542,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -539,6 +555,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -551,6 +568,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -563,6 +581,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -663,6 +682,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -675,6 +695,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -764,6 +785,11 @@ equipments = {
 			category = nav_bomber_weapon
 			count < 2
 		}
+		
+		module_count_limit = {
+			category = machine_gun
+			count < 2
+		}
 
 		module_count_limit = {
 			category = anti_tank_weapon
@@ -816,7 +842,7 @@ equipments = {
 		air_range = 950
 		maximum_speed = 0
 		air_agility = 45
-		air_defence = 7
+		air_defence = 6
 		weight = 3
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -834,7 +860,7 @@ equipments = {
 		air_range = 1100
 		maximum_speed = 0
 		air_agility = 50
-		air_defence = 9
+		air_defence = 10
 		weight = 4
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -848,6 +874,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -860,6 +887,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -912,7 +940,7 @@ equipments = {
 		air_range = 1250
 		maximum_speed = 0
 		air_agility = 65
-		air_defence = 11
+		air_defence = 14
 		weight = 5
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -926,6 +954,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -938,6 +967,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -950,6 +980,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1018,7 +1049,7 @@ equipments = {
 		air_range = 1400
 		maximum_speed = 0
 		air_agility = 80
-		air_defence = 12
+		air_defence = 18
 		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -1032,6 +1063,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1044,6 +1076,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1056,6 +1089,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1131,7 +1165,7 @@ equipments = {
 		air_range = 1550
 		maximum_speed = 0
 		air_agility = 85
-		air_defence = 18
+		air_defence = 22
 		weight = 7
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -1145,6 +1179,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1157,6 +1192,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1169,6 +1205,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1181,6 +1218,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1276,6 +1314,7 @@ equipments = {
 				allowed_module_categories = {
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					recon_camera
 				}
 			}
@@ -1287,6 +1326,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1299,6 +1339,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1311,6 +1352,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1430,6 +1472,11 @@ equipments = {
 		}
 
 		module_count_limit = {
+			category = machine_gun
+			count < 3
+		}
+
+		module_count_limit = {
 			category = anti_tank_weapon
 			count < 3
 		}
@@ -1513,6 +1560,7 @@ equipments = {
 				allowed_module_categories = {
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					recon_camera
 				}
 			}
@@ -1523,6 +1571,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1535,6 +1584,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1547,6 +1597,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1643,6 +1694,7 @@ equipments = {
 				allowed_module_categories = {
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					recon_camera
 				}
 			}
@@ -1653,6 +1705,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1665,6 +1718,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1677,6 +1731,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1789,6 +1844,7 @@ equipments = {
 				allowed_module_categories = {
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					recon_camera
 				}
 			}
@@ -1798,6 +1854,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					tac_weapon
 					cas_weapon
 					anti_tank_weapon
@@ -1810,6 +1867,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					tac_weapon
 					cas_weapon
 					anti_tank_weapon
@@ -1822,6 +1880,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					tac_weapon
 					cas_weapon
 					anti_tank_weapon
@@ -1835,6 +1894,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					tac_weapon
 					cas_weapon
 					anti_tank_weapon
@@ -1948,6 +2008,7 @@ equipments = {
 				allowed_module_categories = {
 					tac_weapon
 					fighter_weapon
+					machine_gun
 					recon_camera
 				}
 			}
@@ -1957,6 +2018,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1969,6 +2031,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1981,6 +2044,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -1994,6 +2058,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
+					machine_gun
 					cas_weapon
 					anti_tank_weapon
 					nav_bomber_weapon
@@ -2257,6 +2322,11 @@ equipments = {
 
 		module_count_limit = {
 			category = nav_bomber_weapon
+			count < 3
+		}
+		
+		module_count_limit = {
+			category = machine_gun
 			count < 3
 		}
 
