@@ -405,7 +405,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_EMI_machine_gun"
-		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_cannon_2_2_icon.dds"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_cannon_category_icon.dds"
 		legacy_lazy_load = no
 	}
 }
