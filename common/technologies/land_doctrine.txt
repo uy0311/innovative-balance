@@ -3000,8 +3000,6 @@ technologies = {
 			peoples_army
 		}
 
-
-
 		supply_consumption_factor = -0.10
 
 		enable_tactic = tactic_relentless_assault
@@ -3134,7 +3132,7 @@ technologies = {
 		max_planning = 0.15
 
 		anti_tank_brigade = {
-			combat_width = -0.5
+			combat_width = -0.4
 		}
 		enable_tactic = tactic_elastic_defense
 		
@@ -3191,11 +3189,10 @@ technologies = {
 		supply_consumption_factor = -0.10
 		land_reinforce_rate = 0.03
 		infantry = {
-			combat_width = -0.2
+			combat_width = -0.4
 			default_morale = 0.15
 		}
 
-		
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
