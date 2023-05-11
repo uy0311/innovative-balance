@@ -203,7 +203,7 @@ technologies = {
 			sub_detection = 0.2
 		}
 
-		convoy_escort_efficiency = 0.05
+		convoy_escort_efficiency = 0.15
 		########
 		
 		path = {
@@ -375,7 +375,7 @@ technologies = {
 			max_organisation = 10
 			sub_detection = 0.05
 		}
-		convoy_escort_efficiency = 0.05
+		convoy_escort_efficiency = 0.15
 		#####
 		
 		path = {
@@ -432,7 +432,7 @@ technologies = {
 			max_organisation = 10
 			sub_detection = 0.05
 		}
-		convoy_escort_efficiency = 0.1
+		convoy_escort_efficiency = 0.3
 		#####
 
 		path = {
@@ -496,7 +496,7 @@ technologies = {
 		carrier = {
 			sub_detection = 0.25
 		}
-		convoy_escort_efficiency = 0.15
+		convoy_escort_efficiency = 0.45
 		####
 		
 		
@@ -1620,7 +1620,7 @@ technologies = {
 			sub_detection = 0.1
 		}
 		
-		convoy_escort_efficiency = 0.05
+		convoy_escort_efficiency = 0.15
 
 		
 		path = {
@@ -1690,7 +1690,7 @@ technologies = {
 		carrier = {
 			sub_detection = 0.25
 		}
-		convoy_escort_efficiency = 0.1
+		convoy_escort_efficiency = 0.3
 		#####
 	
 		xp_research_type = navy
