@@ -21,7 +21,7 @@ characters={
 		}
 		country_leader={
 			ideology=stalinism
-			traits={ reluctant_interventionist }
+			traits={  }
 			expire="1951.1.1.12"
 			id=-1
 		}
@@ -35,7 +35,7 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ editor }
+			traits={  }
 			expire="1954.1.1.12"
 			id=-1
 		}
@@ -49,7 +49,7 @@ characters={
 		}
 		country_leader={
 			ideology=oligarchism
-			traits={ quartermaster_general }
+			traits={  }
 			expire="1942.1.1.12"
 			id=-1
 		}
