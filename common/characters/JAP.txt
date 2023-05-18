@@ -64,7 +64,7 @@ characters={
 		}
 
 		corps_commander={
-			traits = {trickster trait_engineer}
+			traits={ brilliant_strategist politically_connected trickster trait_engineer }
 	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
@@ -198,7 +198,7 @@ characters={
 				original_tag = JAP
 			}
 			traits = {
-				army_entrenchment_2
+				army_infantry_2
 			}
 			cost = 100
 		}
