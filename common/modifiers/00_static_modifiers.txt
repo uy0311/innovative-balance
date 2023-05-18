@@ -430,9 +430,9 @@ diff_very_hard_ai = {
 diff_strong_ai_generic = {
 
 	# production/research
-	industrial_capacity_factory = 0.075
-	industrial_capacity_dockyard = 0.075
-	line_change_production_efficiency_factor = 0.075
+	industrial_capacity_factory = 0.15
+	industrial_capacity_dockyard = 0.15
+	line_change_production_efficiency_factor = 0.15
 
 	# fuel
 	army_fuel_consumption_factor = -0.10
