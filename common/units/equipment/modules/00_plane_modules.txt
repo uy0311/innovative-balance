@@ -10,13 +10,11 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 350
+			maximum_speed = 300
 			thrust = 15
-			build_cost_ic = 15
+			build_cost_ic = 14
 			fuel_consumption = 0.16
 		}
-
-		
 	}
 
 	engine_1_2x = {
@@ -27,7 +25,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 300
 			thrust = 22
-			build_cost_ic = 30
+			build_cost_ic = 21
 			fuel_consumption = 0.32
 		}
 	}
@@ -40,7 +38,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 300
 			thrust = 30
-			build_cost_ic = 45
+			build_cost_ic = 28
 			fuel_consumption = 0.48
 		}
 	}
@@ -53,7 +51,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 300
 			thrust = 37
-			build_cost_ic = 60
+			build_cost_ic = 35
 			fuel_consumption = 0.64
 		}
 	}
@@ -66,7 +64,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 300
 			thrust = 52.5
-			build_cost_ic = 75
+			build_cost_ic = 49
 			fuel_consumption = 0.8
 		}
 	}
@@ -78,7 +76,7 @@ equipment_modules = {
 		parent = engine_1_1x
 
 		add_stats = {
-			maximum_speed = 530
+			maximum_speed = 400
 			thrust = 16
 			build_cost_ic = 16
 			fuel_consumption = 0.16
@@ -99,7 +97,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 480
 			thrust = 24
-			build_cost_ic = 32
+			build_cost_ic = 24
 			fuel_consumption = 0.32
 		}
 
@@ -118,7 +116,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 480
 			thrust = 32
-			build_cost_ic = 48
+			build_cost_ic = 32
 			fuel_consumption = 0.48
 		}
 
@@ -137,7 +135,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 480
 			thrust = 40
-			build_cost_ic = 64
+			build_cost_ic = 40
 			fuel_consumption = 0.64
 		}
 		can_convert_from = {
@@ -155,7 +153,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 480
 			thrust = 56
-			build_cost_ic = 96
+			build_cost_ic = 56
 			fuel_consumption = 0.8
 		}
 
@@ -172,9 +170,9 @@ equipment_modules = {
 		parent = engine_2_1x
 
 		add_stats = {
-			maximum_speed = 550
+			maximum_speed = 500
 			thrust = 30
-			build_cost_ic = 17
+			build_cost_ic = 18
 			fuel_consumption = 0.16
 		}
 
@@ -193,7 +191,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 500
 			thrust = 45
-			build_cost_ic =34
+			build_cost_ic = 27
 			fuel_consumption = 0.32
 		}
 
@@ -212,7 +210,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 500
 			thrust = 60
-			build_cost_ic = 51
+			build_cost_ic = 36
 			fuel_consumption = 0.48
 		}
 
@@ -231,7 +229,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 500
 			thrust = 75
-			build_cost_ic = 68
+			build_cost_ic = 45
 			fuel_consumption = 0.64
 		}
 
@@ -250,7 +248,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 500
 			thrust = 90
-			build_cost_ic = 102
+			build_cost_ic = 63
 			fuel_consumption = 0.8
 		}
 		can_convert_from = {
@@ -266,9 +264,9 @@ equipment_modules = {
 		parent = engine_3_1x
 
 		add_stats = {
-			maximum_speed = 750
+			maximum_speed = 600
 			thrust = 36
-			build_cost_ic = 18
+			build_cost_ic = 20
 			fuel_consumption = 0.16
 		}
 
@@ -287,7 +285,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 700
 			thrust = 54
-			build_cost_ic = 36
+			build_cost_ic = 40
 			fuel_consumption = 0.32
 		}
 		can_convert_from = {
@@ -305,7 +303,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 700
 			thrust = 72
-			build_cost_ic = 54
+			build_cost_ic = 50
 			fuel_consumption = 0.48
 		}
 
@@ -324,7 +322,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 700
 			thrust = 90
-			build_cost_ic = 72
+			build_cost_ic = 60
 			fuel_consumption = 0.64
 		}
 
@@ -343,7 +341,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 700
 			thrust = 126
-			build_cost_ic = 108
+			build_cost_ic = 80
 			fuel_consumption = 0.8
 		}
 		can_convert_from = {
@@ -359,9 +357,9 @@ equipment_modules = {
 		parent = engine_4_1x
 
 		add_stats = {
-			maximum_speed = 900
+			maximum_speed = 800
 			thrust = 40
-			build_cost_ic = 19
+			build_cost_ic = 22
 			fuel_consumption = 0.3
 		}
 
@@ -384,7 +382,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 850
 			thrust = 60
-			build_cost_ic = 38
+			build_cost_ic = 33
 			fuel_consumption = 0.6
 		}
 
@@ -407,7 +405,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 850
 			thrust = 80
-			build_cost_ic = 57
+			build_cost_ic = 44
 			fuel_consumption = 0.9
 		}
 		build_cost_resources = {
@@ -429,7 +427,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 850
 			thrust = 100
-			build_cost_ic = 76
+			build_cost_ic = 55
 			fuel_consumption = 1.2
 		}
 		build_cost_resources = {
@@ -450,7 +448,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 850
 			thrust = 120
-			build_cost_ic = 114
+			build_cost_ic = 77
 			fuel_consumption = 1.8
 		}
 		build_cost_resources = {
@@ -593,14 +591,15 @@ equipment_modules = {
 		add_equipment_type = fighter
 
 		add_stats = {
-			air_attack = 12
-			build_cost_ic = 3
-			weight = 6
+			air_attack = 10
+			build_cost_ic = 2.5
+			weight = 5
 		}
 		
 		allow_mission_type = {
 			air_superiority
 			interception
+			attack_logistics
 		}
 		mission_type_stats = {
 			limit = {
@@ -625,7 +624,6 @@ equipment_modules = {
 		add_stats = {
 			air_attack = 10
 			build_cost_ic = 2.5
-			air_agility = -3
 			weight = 5
 		}
 		
@@ -644,13 +642,13 @@ equipment_modules = {
 		add_stats = {
 			air_attack = 20
 			build_cost_ic = 5
-			air_agility = -6
 			weight = 10
 		}
 		
 		allow_mission_type = {
 			air_superiority
 			interception
+			attack_logistics
 		}
 		mission_type_stats = {
 			limit = {
@@ -675,7 +673,6 @@ equipment_modules = {
 		add_stats = {
 			air_attack = 12
 			build_cost_ic = 3
-			air_agility = -3
 			weight = 6
 		}
 		
@@ -694,13 +691,13 @@ equipment_modules = {
 		add_stats = {
 			air_attack = 24
 			build_cost_ic = 6
-			air_agility = -6
 			weight = 12
 		}
 		
 		allow_mission_type = {
 			air_superiority
 			interception
+			attack_logistics
 		}
 		mission_type_stats = {
 			limit = {
@@ -1786,5 +1783,4 @@ equipment_modules = {
 		}
 		
 	}
-
 }
