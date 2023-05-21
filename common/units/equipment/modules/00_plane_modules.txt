@@ -1784,4 +1784,3 @@ equipment_modules = {
 		
 	}
 }
-
