@@ -85,7 +85,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
@@ -167,7 +167,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
@@ -233,7 +233,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1936
 
 		folder = {
@@ -306,7 +306,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1938
 
 		folder = {
@@ -369,7 +369,7 @@ technologies = {
 			heavy_tank_amphibious_chassis_3
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1941
 
 		folder = {
@@ -422,7 +422,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1941
 
 		folder = {
@@ -518,7 +518,7 @@ technologies = {
 			research_cost_coeff = 0.9
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1936
 
 		folder = {
@@ -586,7 +586,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1940
 
 		folder = {
@@ -655,7 +655,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1943
 
 		folder = {
@@ -1373,9 +1373,6 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = @1944 }
-		}
-		enable_equipment_modules = {
-			tank_gas_turbine_engine
 		}
 
 		on_research_complete = {
