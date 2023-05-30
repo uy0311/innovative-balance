@@ -285,7 +285,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 700
 			thrust = 54
-			build_cost_ic = 40
+			build_cost_ic = 30
 			fuel_consumption = 0.32
 		}
 		can_convert_from = {
@@ -303,7 +303,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 700
 			thrust = 72
-			build_cost_ic = 50
+			build_cost_ic = 40
 			fuel_consumption = 0.48
 		}
 
@@ -322,7 +322,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 700
 			thrust = 90
-			build_cost_ic = 60
+			build_cost_ic = 50
 			fuel_consumption = 0.64
 		}
 
@@ -341,7 +341,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 700
 			thrust = 126
-			build_cost_ic = 80
+			build_cost_ic = 70
 			fuel_consumption = 0.8
 		}
 		can_convert_from = {
