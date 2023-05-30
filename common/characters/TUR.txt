@@ -70,7 +70,7 @@ characters={
 			name=TUR_ismet_inonu
 			portraits={
 				civilian={
-					large="gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+					large=GFX_portrait_TUR_ismet_inonu
 				}
 			}
 			country_leader={
@@ -106,7 +106,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_tur_izzettin_calislar"
-				small="gfx/interface/ideas/idea_TUR_izzettin_calislar.dds"
+				small=GFX_portrait_TUR_izzettin_chalishlar_small
 			}
 		}
 		corps_commander={
@@ -159,7 +159,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_tur_mustafa_mugali"
-				small="gfx/interface/ideas/idea_TUR_mustafa_mugali.dds"
+				small=GFX_portrait_TUR_mustafa_muglali_small
 			}
 		}
 		corps_commander={
@@ -195,7 +195,7 @@ characters={
 				traits = {
 					army_chief_drill_2
 				}
-			    cost = 100
+			cost = 100
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -218,7 +218,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_tur_hayrullah_fisek"
-				small="gfx/interface/ideas/idea_TUR_hayrullah_fisek.dds"
+				small=GFX_portrait_TUR_hayrullah_fisek_small
 			}
 		}
 		corps_commander={
@@ -237,7 +237,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_tur_mehmet_nuri_yamut"
-				small="gfx/interface/ideas/idea_TUR_mehmet_nuri_yamut.dds"
+				small=GFX_portrait_TUR_mehmet_nuri_yamut_small
 			}
 		}
 		corps_commander={
@@ -255,8 +255,8 @@ characters={
 		name=TUR_fakhri_pasha
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_TUR_fakhri_pasha.dds"
-				large = "gfx/leaders/TUR/portrait_tur_fakhri_pasha.dds"
+				small=GFX_portrait_TUR_fakhri_pasha_small
+				large = GFX_portrait_TUR_fakhri_pasha
 			}
 		}
 		advisor={
@@ -320,16 +320,16 @@ characters={
 				slot = navy_chief
 				idea_token = TUR_mehmet_ali_ulgen
 				allowed = {
-					original_tag = TUR
-					has_dlc = "Battle for the Bosporus"
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
+						original_tag = TUR
+						has_dlc = "Battle for the Bosporus"
+					}
+					traits = {
+						navy_chief_decisive_battle_2
+					}
 				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
+					ai_will_do = {
+						factor = 1.000
+					}
 			}
 
 			navy_leader={
@@ -594,7 +594,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_tur_ahmet_fevzi_pasha"
-				small = "gfx/interface/ideas/idea_TUR_ahmet_fevzi_pasha.dds"
+				small = GFX_portrait_TUR_ahmet_fevzi_pasha_small
 			}
 		}
 		corps_commander = {
@@ -612,7 +612,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_tur_refe_pasha"
-				small = "gfx/interface/ideas/idea_TUR_refe_pasha.dds"
+				small = GFX_portrait_TUR_refet_pasha_small
 			}
 			civilian = {
 				large="GFX_portrait_tur_refe_pasha"
@@ -633,7 +633,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_tur_mehmed_esad_pasha"
-				small="gfx/interface/ideas/idea_TUR_mehmed_esad_pasha.dds"
+				small=GFX_portrait_TUR_mehmet_esat_pasha_small
 			}
 			civilian = {
 				large="GFX_portrait_tur_mehmed_esad_pasha"
@@ -666,7 +666,7 @@ characters={
 				has_dlc = "Battle for the Bosporus"
 			}
 			traits = {
-				army_chief_planning_2
+				army_logistics_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -880,7 +880,7 @@ characters={
 		name=TUR_muzaffer_goksenin
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_tur_muzaffer_goksenin.dds"
+				small=GFX_portrait_TUR_muzaffer_goksenin_small
 			}
 		}
 		advisor={
@@ -1000,8 +1000,8 @@ characters={
 		name = TUR_nazmi_solok
 		portraits={
 			army={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-				small="gfx/interface/ideas/idea_south_america_generic_land_3.dds"
+				large=GFX_portrait_TUR_nazmi_solok
+				small=GFX_portrait_TUR_nazmi_solok_small
 			}
 		}
 		corps_commander={

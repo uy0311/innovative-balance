@@ -6290,7 +6290,7 @@ leader_traits = {
 		sprite = 9
 		dig_in_speed_factor = 0.04
 		army_org_factor = 0.02
-		experience_gain_army = 0.30
+		##experience_gain_army = 0.08
 		
 		command_cap = @tier1
 		
@@ -6303,7 +6303,7 @@ leader_traits = {
 		sprite = 9
 		dig_in_speed_factor = 0.08
 		army_org_factor = 0.04
-		experience_gain_army = 0.30
+		##experience_gain_army = 0.08
 		
 		command_cap = @tier2
 		
@@ -6316,7 +6316,7 @@ leader_traits = {
 		sprite = 9
 		dig_in_speed_factor = 0.12
 		army_org_factor = 0.06
-		experience_gain_army = 0.30
+		##experience_gain_army = 0.08
 		
 		command_cap = @tier3
 		

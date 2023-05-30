@@ -94,7 +94,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 1.5
 
 		start_year = 1936
 
@@ -217,7 +217,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1940
 
@@ -286,7 +286,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1941
 
@@ -399,7 +399,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1943
 
@@ -464,7 +464,7 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1944
 
@@ -519,9 +519,7 @@ technologies = {
 		enable_equipments = {
 			rocket_artillery_equipment_1
 		}
-#		enable_subunits = {
-#			rocket_artillery_brigade
-#		}
+
 
 		enable_equipment_modules = {
 			tank_rocket_launcher
@@ -576,7 +574,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1941
 
@@ -619,7 +617,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1942
 
@@ -697,7 +695,7 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1944
 
@@ -823,7 +821,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.0
 
 		start_year = 1939
 
@@ -940,7 +938,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.0
 
 		start_year = 1941
 
@@ -1007,7 +1005,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.0
 
 		start_year = 1942
 
@@ -1118,7 +1116,7 @@ technologies = {
 
 		tech_air_damage_factor = -0.02
 		
-		research_cost = 1
+		research_cost = 1.0
 
 		start_year = 1944
 		
@@ -1277,7 +1275,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1939
 
@@ -1441,7 +1439,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1941
 
@@ -1540,7 +1538,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1942
 
@@ -1699,7 +1697,7 @@ technologies = {
 			ap_attack = 0.1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1944
 		
