@@ -147,7 +147,7 @@ technologies = {
 
 		production_factory_max_efficiency_factor = 0.1
 		#equipment_conversion_speed = 0.1
-		line_change_production_efficiency_factor = 0.2
+		#line_change_production_efficiency_factor = 0.2
 		
 		research_cost = 2.0
 		start_year = 1943
@@ -446,10 +446,10 @@ technologies = {
 	
 	dispersed_industry = {
 
-#		industrial_capacity_factory = 0.02
+		industrial_capacity_factory = 0.04
 		industrial_capacity_dockyard = 0.10
 #		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.25
+		production_factory_start_efficiency_factor = 0.30
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
 #		global_building_slots_factor = 0.2
@@ -528,10 +528,10 @@ technologies = {
 	
 	dispersed_industry2 = {
 
-		industrial_capacity_factory = 0.02
+		industrial_capacity_factory = 0.04
 		industrial_capacity_dockyard = 0.10
 #		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.19
+		production_factory_start_efficiency_factor = 0.24
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
 #		global_building_slots_factor = 0.2
@@ -574,7 +574,7 @@ technologies = {
 		industrial_capacity_factory = 0.04
 		industrial_capacity_dockyard = 0.10
 #		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.14
+		production_factory_start_efficiency_factor = 0.18
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
 #		global_building_slots_factor = 0.2
@@ -614,10 +614,10 @@ technologies = {
 	
 	dispersed_industry4 = {
 
-		industrial_capacity_factory = 0.06
+		industrial_capacity_factory = 0.04
 		industrial_capacity_dockyard = 0.10
 #		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.10
+		production_factory_start_efficiency_factor = 0.12
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
 #		global_building_slots_factor = 0.2
@@ -657,10 +657,10 @@ technologies = {
 	
 	dispersed_industry5 = {
 
-		industrial_capacity_factory = 0.08
+		industrial_capacity_factory = 0.04
 		industrial_capacity_dockyard = 0.10
 #		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.07
+		production_factory_start_efficiency_factor = 0.06
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
 #		global_building_slots_factor = 0.2
