@@ -247,7 +247,7 @@ ideas = {
 			modifier = {
 				trade_opinion_factor = 20
 #				democratic_drift = 1.0
-				research_speed_factor = 0.12
+				research_speed_factor = 0.15
 			}
 		}
 	
@@ -440,9 +440,8 @@ ideas = {
 				production_speed_coastal_bunker_factor = 0.1
 				production_speed_anti_air_building_factor = 0.1
 #				industrial_capacity_factory = 0.14
-				production_factory_max_efficiency_factor = 0.20
-				production_factory_efficiency_gain_factor = -0.30
-				industrial_capacity_dockyard = 0.14
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = -0.2
 			}
 		}
 
@@ -461,11 +460,9 @@ ideas = {
 
 			modifier = {
 #			send_volunteer_divisions_required = -5.00
-			line_change_production_efficiency_factor = 0.50
-#			production_factory_start_efficiency_factor = 0.20
+			line_change_production_efficiency_factor = 0.70
+			production_factory_start_efficiency_factor = 0.15
 #			production_factory_efficiency_gain_factor = 0.25
-			industrial_capacity_factory = 0.04
-			industrial_capacity_dockyard = 0.04
 			}
 		}
 
@@ -483,9 +480,7 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
-			research_speed_factor = 0.08
-			industrial_capacity_factory = 0.04
-			industrial_capacity_dockyard = 0.04
+			research_speed_factor = 0.25
 #			invasion_preparation = -0.25
 #			special_forces_attack_factor = 0.05
 #			special_forces_defence_factor = 0.05
