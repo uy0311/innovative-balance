@@ -1434,6 +1434,8 @@ technologies = {
 	basic_train = {
 		enable_equipments = {
 			train_equipment_1
+			train_equipment_3
+			railway_gun_equipment_1
 		}
 
 		research_cost = 1.5
@@ -1481,16 +1483,12 @@ technologies = {
 	}
 
 	railway_gun = {
-		enable_equipments = {
-			railway_gun_equipment_1
-		}
+	#	enable_equipments = {
+	#		railway_gun_equipment_1
+	#	}
 
 		research_cost = 1.5
 		start_year = 1936
-		folder = {
-			name = support_folder
-			position = { x = 4 y = 3 }
-		}
 		
 		categories = {
 			train_tech
@@ -1556,9 +1554,9 @@ technologies = {
 	}
 
 	armored_train = {
-		enable_equipments = {
-			train_equipment_3
-		}
+	#	enable_equipments = {
+	#		train_equipment_3
+	#	}
 
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -1575,10 +1573,6 @@ technologies = {
 		
 		research_cost = 1.5
 		start_year = 1936
-		folder = {
-			name = support_folder
-			position = { x = 2 y = 3 }
-		}
 		
 		categories = {
 			train_tech
