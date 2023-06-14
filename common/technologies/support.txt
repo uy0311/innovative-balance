@@ -1450,10 +1450,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = armored_train
-			research_cost_coeff = 1
-		}
+	#	path = {
+	#		leads_to_tech = armored_train
+	#		research_cost_coeff = 1
+	#	}
 		
 		categories = {
 			train_tech
