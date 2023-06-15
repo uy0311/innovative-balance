@@ -461,7 +461,7 @@ ideas = {
 			modifier = {
 #			send_volunteer_divisions_required = -5.00
 			line_change_production_efficiency_factor = 0.70
-			production_factory_start_efficiency_factor = 0.15
+#			production_factory_start_efficiency_factor = 0.15
 #			production_factory_efficiency_gain_factor = 0.25
 			}
 		}
