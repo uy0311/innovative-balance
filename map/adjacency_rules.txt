@@ -272,7 +272,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -311,7 +311,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -350,7 +350,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -389,7 +389,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -413,7 +413,7 @@ adjacency_rule =
 		trade = yes
 	}
 	
-	required_provinces = { 13549 4985 }
+	required_provinces = { 10752 4985 }
 		
 	icon = 4985
 	offset = { 5 0 -6 }
@@ -428,7 +428,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -467,7 +467,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -506,7 +506,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -545,7 +545,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -584,7 +584,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -623,7 +623,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -662,7 +662,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -701,7 +701,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -740,7 +740,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
@@ -779,7 +779,7 @@ adjacency_rule =
 		army = no
 		navy = yes
 		submarine = yes
-		trade = no
+		trade = yes
 	}
 
 	enemy = {
