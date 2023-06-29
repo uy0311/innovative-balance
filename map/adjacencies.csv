@@ -244,33 +244,20 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2824;2942;sea;6046;-1;-1;-1;-1;CALEDONIAN_CANAL;Caledonian Canal
 10272;14677;sea;2876;-1;-1;-1;-1;;Mindoro
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar Strait
-2382;2431;;-1;-1;-1;-1;-1;ORESUND_STRAIT;Öresund
-2382;2431;;-1;-1;-1;-1;-1;STOREBALT_STRAIT;Storebælt
-2382;2431;;-1;-1;-1;-1;-1;LILLEBALT_STRAIT;Lillebælt
+2431;2382;;-1;-1;-1;-1;-1;ORESUND_STRAIT;Öresund
+14840;2408;;-1;-1;-1;-1;-1;STOREBALT_STRAIT;Storebælt
+14840;14839;;-1;-1;-1;-1;-1;LILLEBALT_STRAIT;Lillebælt
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-9680;6741;;-1;-1;-1;-1;-1;KERCH_STRAIT;Kerch Strait
 7452;7678;;-1;-1;-1;-1;-1;DARDANELLES_STRAIT;Dardanelles
-4679;5240;;-1;-1;-1;-1;-1;BASS_STRAIT;Bass Strait
 5563;5364;;-1;-1;-1;-1;-1;TORRES_STRAIT;Torres Strait
 8445;2734;;-1;-1;-1;-1;-1;BOHAI_STRAIT;Bohai Strait
-7933;7479;;-1;-1;-1;-1;-1;PALK_STRAIT;Palk Strait
 2714;2737;;-1;-1;-1;-1;-1;SUNDA_STRAIT;Sunda Strait
-11748;5929;;-1;-1;-1;-1;-1;DOVER_STRAIT;Dover Strait
-11748;8621;;-1;-1;-1;-1;-1;DOVER_STRAIT;Dover Strait
 2800;2776;;-1;-1;-1;-1;-1;BAB_EL_MANDEB_STRAIT;Bab el-Mandeb
 2943;2919;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;Strait of Hormuz
 5960;5539;;-1;-1;-1;-1;-1;MALACCA_STRAIT;Strait of Malacca
-5322;5345;;-1;-1;-1;-1;-1;TAIWAN_STRAIT;Taiwan Strait
-8774;2857;;-1;-1;-1;-1;-1;BALABAC_STRAIT;Balabac Strait
-2708;7932;;-1;-1;-1;-1;-1;KOREA_STRAIT;Korea Strait
 5864;5838;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Strait of Otranto
-13588;5388;;-1;-1;-1;-1;-1;TIRAN_STRAIT;Straits of Tiran
-1660;1434;;-1;-1;-1;-1;-1;PORKKALA_STRAIT;Porkkala Strait
-8668;2935;;-1;-1;-1;-1;-1;BELLE_ISLE_STRAIT;Strait of Belle Isle
 2510;5295;;-1;-1;-1;-1;-1;TARTARY_STRAIT;Strait of Tartary
 5707;5681;;-1;-1;-1;-1;-1;MESSINA_STRAIT;Strait of Messina
-5579;8895;;-1;-1;-1;-1;-1;BONIFACIO_STRAIT;Strait of Bonifacio
-5840;5866;;-1;-1;-1;-1;-1;YUCATAN_STRAIT;Yucatan Channel
 8340;2824;;-1;-1;-1;-1;-1;MOYLE_STRAIT;Straits of Moyle
 4465;2583;;-1;-1;-1;-1;-1;LA_PEROUSE_STRAIT;La Pérouse Strait
 4465;2534;;-1;-1;-1;-1;-1;LA_PEROUSE_STRAIT;La Pérouse Strait
@@ -278,10 +265,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7932;14674;;-1;-1;-1;-1;-1;KANMON_STRAIT;Kanmon Strait
 14674;8791;;-1;-1;-1;-1;-1;BUNGO_STRAIT;Bungo Channel
 14673;14676;;-1;-1;-1;-1;-1;KII_STRAIT;Kii Channel
-8621;14743;;-1;-1;-1;-1;-1;SCHELDT_ESTUARY;Scheldt Estuary
-8662;5834;;-1;-1;-1;-1;-1;BERING_STRAIT;Bering Strait
 8822;2833;;-1;-1;-1;-1;-1;MAKASSAR_STRAIT;Makassar Strait
-5430;15206;;-1;-1;-1;-1;-1;GOLDEN_GATE;Golden Gate
 10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
