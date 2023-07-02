@@ -1941,15 +1941,16 @@ technologies = {
 		invasion_preparation = -0.5
 		amphibious_invasion_defence = 0.15
 		naval_invasion_capacity = 40
+		extra_marine_supply_grace = 168
 
 		path = {
 			leads_to_tech = mtg_tank_landing_craft
 			research_cost_coeff = 1
 		}
 
-		enable_equipments = {
-			floating_harbor_equipment_1
-		}
+	#	enable_equipments = {
+	#		floating_harbor_equipment_1
+	#	}
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 

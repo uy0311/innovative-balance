@@ -581,7 +581,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			maximum_speed = 0.50
+			maximum_speed = 1.00
 		}
 
 	}
@@ -606,7 +606,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			maximum_speed = 0.30
+			maximum_speed = 0.80
 		}
 
 	}
@@ -638,7 +638,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			armor_value = 0.25
-			maximum_speed = 0.50
+			maximum_speed = 1.00
 		}
 
 	}
@@ -669,7 +669,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			armor_value = 0.25
-			maximum_speed = 0.50
+			maximum_speed = 1.00
 		}
 
 	}
@@ -693,7 +693,7 @@ equipment_modules = {
 		}
 		xp_cost = 0#2
 		multiply_stats = {
-			maximum_speed = 0.30
+			maximum_speed = 0.80
 		}
 
 	}
@@ -717,7 +717,7 @@ equipment_modules = {
 		}
 		xp_cost = 0#2
 		multiply_stats = {
-			maximum_speed = 0.15
+			maximum_speed = 0.65
 		}
 
 	}
