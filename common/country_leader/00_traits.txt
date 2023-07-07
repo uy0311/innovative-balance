@@ -5269,7 +5269,7 @@ leader_traits = {
 		equipment_bonus = {
 			armor = {
 				instant = yes
-				maximum_speed = 0.10
+				maximum_speed = 0.20
 			}
 		}
 		cat_mobile_warfare_cost_factor = -0.25
@@ -5466,7 +5466,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			armor = {
-				maximum_speed = 0.15
+				maximum_speed = 0.20
 				reliability = 0.1
 			}
 			light_tank_aa_chassis = {
