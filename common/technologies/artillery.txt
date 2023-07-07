@@ -65,28 +65,28 @@ technologies = {
 		}
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.15
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
 		}
 
 		path = {
@@ -188,28 +188,28 @@ technologies = {
 		}
 		
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 
 		path = {
@@ -257,28 +257,28 @@ technologies = {
 		}
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 
 		path = {
@@ -557,16 +557,13 @@ technologies = {
 	rocket_artillery2 = {
 
 		rocket_artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.20
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.07
+			soft_attack = 0.20
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.07
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.1
+			soft_attack = 0.20
 		}
 
 		path = {
@@ -600,16 +597,13 @@ technologies = {
 	rocket_artillery3 = {
 
 		rocket_artillery = {
-			soft_attack = 0.050
+			soft_attack = 0.15
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.07
+			soft_attack = 0.15
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.07
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.1
+			soft_attack = 0.15
 		}
 
 		path = {
@@ -644,9 +638,6 @@ technologies = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_2
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.1
 		}
 		enable_equipment_modules = {
 			tank_rocket_launcher_2
@@ -683,16 +674,13 @@ technologies = {
 	rocket_artillery5 = {
 
 		rocket_artillery = {
-			soft_attack = 0.050
+			soft_attack = 0.15
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.07
+			soft_attack = 0.15
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.07
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.1
+			soft_attack = 0.15
 		}
 
 		research_cost = 1.5
