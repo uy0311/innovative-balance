@@ -16,7 +16,7 @@ equipments = {
 		active = yes
 		
 		#Misc Abilities
-		reliability = 0.9
+		reliability = 0.8
 		maximum_speed = 4
 
 		#Defensive Abilities
@@ -62,7 +62,7 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 31
+		defense = 34
 		breakthrough = 3
 
 		#Offensive Abilities
@@ -71,6 +71,7 @@ equipments = {
 		ap_attack = 4
 		air_attack = 0
 
+		reliability = 0.9
 		build_cost_ic = 0.5
 	}
 
@@ -84,7 +85,7 @@ equipments = {
 		visual_level = 2
 		
 		#Defensive Abilities
-		defense = 37
+		defense = 35
 		breakthrough = 4
 
 		#Offensive Abilities
@@ -93,7 +94,8 @@ equipments = {
 		ap_attack = 5
 		air_attack = 0
 		
-		build_cost_ic = 0.58
+		reliability = 0.8
+		build_cost_ic = 0.46
 		resources = {
 			steel = 3
 		}
@@ -110,7 +112,7 @@ equipments = {
 		visual_level = 3
 		
 		#Defensive Abilities
-		defense = 40
+		defense = 45
 		breakthrough = 5
 
 		#Offensive Abilities
@@ -119,8 +121,8 @@ equipments = {
 		ap_attack = 10
 		air_attack = 0
 		
-		reliability = 0.8
-		build_cost_ic = 0.62
+		reliability = 0.9
+		build_cost_ic = 0.54
 		resources = {
 			steel = 4
 		}
