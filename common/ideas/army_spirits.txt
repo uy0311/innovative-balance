@@ -476,7 +476,7 @@ ideas = {
 			available = { has_tech = mass_assault }
 			modifier = {
 				tactic_relentless_assault_preferred_weight_factor = 1
-				army_strength_factor = 0.15
+				army_strength_factor = 0.10
 			}
 			ai_will_do = {
 				factor = 1
