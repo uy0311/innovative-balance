@@ -836,7 +836,7 @@ leader_traits = {
 	}
 	count_of_paris = {
 		random = no
-		global_building_slots_factor = 0.05
+		#global_building_slots_factor = 0.05
 		ai_will_do = {
 			factor = 1
 		}
@@ -1897,7 +1897,7 @@ leader_traits = {
 		sprite = 13
 		democratic_drift = 0.05
 		political_power_factor = 0.1
-		global_building_slots_factor = 0.1
+		#global_building_slots_factor = 0.1
 		min_export = -0.1
 	}
 
@@ -2232,7 +2232,7 @@ leader_traits = {
 	transnational_anarchist = {
 		random = no
 		sprite = 13
-		global_building_slots_factor = 0.05
+		#global_building_slots_factor = 0.05
 		conscription_factor = 0.05
 		non_core_manpower = 0.05
 	}
@@ -2809,7 +2809,7 @@ leader_traits = {
 		sprite = 13
 		research_speed_factor = 0.02
 		political_power_factor = 0.05
-		global_building_slots_factor = 0.1
+		#global_building_slots_factor = 0.1
 	}
 
 	partisans_organizer = {
