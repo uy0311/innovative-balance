@@ -366,7 +366,8 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_heavy_howitzer
-			tank_super_heavy_cannon
+			tank_heavy_cannon_2
+			tank_heavy_cannon_3
 		}
 
 		artillery = {
@@ -435,8 +436,7 @@ technologies = {
 	artillery6 = {
 
 		enable_equipment_modules = {
-			tank_heavy_cannon_2
-			tank_heavy_cannon_3
+			tank_super_heavy_cannon
 		}
 
 		artillery = {
@@ -776,6 +776,10 @@ technologies = {
 
 	antiair1 = {
 
+		enable_equipment_modules = {
+			tank_auto_cannon_2
+		}
+
 		anti_air = {
 			air_attack = 0.1
 		}
@@ -850,7 +854,6 @@ technologies = {
 		static_anti_air_damage_factor = 0.1
 
 		enable_equipment_modules = {
-			tank_auto_cannon_2
 			tank_anti_air_cannon_2
 		}
 
@@ -1582,7 +1585,8 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_high_velocity_cannon_3
-			tank_super_heavy_cannon
+			tank_heavy_cannon_2
+			tank_heavy_cannon_3
 		}
 
 		path = {
@@ -1647,8 +1651,7 @@ technologies = {
 	antitank6 = {
 
 		enable_equipment_modules = {
-			tank_heavy_cannon_2
-			tank_heavy_cannon_3
+			tank_super_heavy_cannon
 		}
 
 		anti_tank = {
