@@ -17,10 +17,10 @@ equipments = {
 		
 		#Misc Abilities
 		reliability = 0.8
-		maximum_speed = 4
+		maximum_speed = 3
 
 		#Defensive Abilities
-		defense = 26
+		defense = 22
 		breakthrough = 2
 		hardness = 0
 		armor_value = 0
@@ -62,7 +62,7 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 34
+		defense = 31
 		breakthrough = 3
 
 		#Offensive Abilities
@@ -72,7 +72,8 @@ equipments = {
 		air_attack = 0
 
 		reliability = 0.9
-		build_cost_ic = 0.5
+		maximum_speed = 4
+		build_cost_ic = 0.53
 	}
 
 	# Improved weapons  ~1939
@@ -85,7 +86,7 @@ equipments = {
 		visual_level = 2
 		
 		#Defensive Abilities
-		defense = 35
+		defense = 33
 		breakthrough = 4
 
 		#Offensive Abilities
@@ -95,7 +96,8 @@ equipments = {
 		air_attack = 0
 		
 		reliability = 0.8
-		build_cost_ic = 0.46
+		maximum_speed = 4
+		build_cost_ic = 0.5
 		resources = {
 			steel = 3
 		}
@@ -112,7 +114,7 @@ equipments = {
 		visual_level = 3
 		
 		#Defensive Abilities
-		defense = 45
+		defense = 42
 		breakthrough = 5
 
 		#Offensive Abilities
@@ -122,7 +124,8 @@ equipments = {
 		air_attack = 0
 		
 		reliability = 0.9
-		build_cost_ic = 0.54
+		maximum_speed = 4
+		build_cost_ic = 0.58
 		resources = {
 			steel = 4
 		}
