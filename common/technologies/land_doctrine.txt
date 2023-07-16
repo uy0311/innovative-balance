@@ -2471,12 +2471,10 @@ technologies = {
 		xor = {
 			grand_mechanized_offensive
 		}
-		land_reinforce_rate = 0.03
 		
 		category_light_infantry = {
 			max_organisation = 10
-			breakthrough = 0.3
-			default_morale = 0.1
+			initiative = 0.01
 		}
 		
 		enable_tactic = tactic_infantry_charge
@@ -2621,11 +2619,12 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		land_reinforce_rate = 0.02
-
-		infantry = {
-			initiative = 0.01
+		category_light_infantry = {
+			breakthrough = 0.3
+			default_morale = 0.1
 		}
+
+		land_reinforce_rate = 0.05
 	
 		org_loss_when_moving = -0.15
 		
@@ -3126,6 +3125,10 @@ technologies = {
 		anti_tank_brigade = {
 			combat_width = -0.4
 		}
+		infantry = {
+			combat_width = -0.4
+		}
+
 		enable_tactic = tactic_elastic_defense
 		
 		path = {
@@ -3180,9 +3183,20 @@ technologies = {
 		xp_unlock_cost = 100
 		supply_consumption_factor = -0.10
 		land_reinforce_rate = 0.03
+
 		infantry = {
-			combat_width = -0.4
 			default_morale = 0.15
+		}
+		category_all_armor = {
+			default_morale = 0.2
+			breakthrough = 0.10
+		}
+		category_all_infantry = {
+			max_organisation = 5
+		}
+		armored_car = {
+			max_organisation = 1
+			breakthrough = 0.10
 		}
 
 		enable_tactic = tactic_overwhelming_fire
@@ -3233,18 +3247,6 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		#category_tanks = {
-		category_all_armor = {
-			default_morale = 0.2
-			breakthrough = 0.10
-		}
-		category_all_infantry = {
-			max_organisation = 5
-		}
-		armored_car = {
-			max_organisation = 1
-			breakthrough = 0.10
-		}
 		motorized = {
 			default_morale = 0.2
 		}	
