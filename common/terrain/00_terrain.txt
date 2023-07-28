@@ -85,7 +85,7 @@ categories =  {
 		color = { 149 209 119 }
 		movement_cost = 1.0
 		combat_width = 120
-		combat_support_width = 60
+		combat_support_width = 40
 		match_value = 0.5
 		sound_type = plains
 	}
@@ -95,7 +95,7 @@ categories =  {
 		movement_cost = 1.2
 		match_value = 1
 		combat_width = 120
-		combat_support_width = 60
+		combat_support_width = 40
 		sound_type = plains
 
 		units = {
@@ -170,7 +170,7 @@ categories =  {
 		movement_cost = 1.05
 		attrition = 0.15
 		combat_width = 120
-		combat_support_width = 60
+		combat_support_width = 40
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
 		sound_type = desert
