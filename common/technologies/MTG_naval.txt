@@ -34,7 +34,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1922
 
@@ -71,7 +71,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1936
 
@@ -116,7 +116,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1940
 
@@ -153,7 +153,7 @@ technologies = {
 			light_ship_engine_4
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1944
 
@@ -185,7 +185,7 @@ technologies = {
 
 		naval_retreat_speed = 0.2
 
-		research_cost = 0.75
+		research_cost = 1.0
 
 		start_year = 1922
 
@@ -425,7 +425,7 @@ technologies = {
 	}
 	sonar = {
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1922
 
@@ -452,7 +452,7 @@ technologies = {
 
 	improved_sonar = {
 
-		research_cost = 1
+		research_cost = 1.0
 
 		start_year = 1936
 
@@ -508,7 +508,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1922
 
@@ -552,7 +552,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1936
 
@@ -594,7 +594,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1940
 
@@ -631,7 +631,7 @@ technologies = {
 		enable_equipment_modules = {
 			cruiser_ship_engine_4
 		}
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1944
 
@@ -670,7 +670,7 @@ technologies = {
 		}
 
 
-		research_cost = 0.75
+		research_cost = 1.0
 
 		start_year = 1936
 
@@ -773,7 +773,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1922
 
@@ -828,7 +828,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1936
 
@@ -874,7 +874,7 @@ technologies = {
 			ship_armor_shbb
 		}
 
-		research_cost = 1.5
+		research_cost = 0.01
 
 		start_year = 1940
 
@@ -907,11 +907,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-	#	sub_technologies = {
-	#		ship_hull_super_heavy
-	#	}
-
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1940
 
@@ -948,7 +944,7 @@ technologies = {
 		enable_equipment_modules = {
 			heavy_ship_engine_4
 		}
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1944
 
@@ -1091,7 +1087,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.75
+		research_cost = 2.5
 
 		start_year = 1922
 
@@ -1132,7 +1128,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1936
 
@@ -1173,7 +1169,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1940
 
@@ -1209,7 +1205,7 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			carrier_ship_engine_4
 		}
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1944
 
@@ -1258,7 +1254,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1922
 
@@ -1306,7 +1302,7 @@ early_ship_hull_carrier = {
 			cruiser_submarines
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1936
 
@@ -1347,7 +1343,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1940
 
@@ -1383,7 +1379,7 @@ early_ship_hull_carrier = {
 			sub_ship_engine_4
 		}
 
-		research_cost = 1.5
+		research_cost = 2.5
 
 		start_year = 1944
 

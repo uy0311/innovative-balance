@@ -8,10 +8,8 @@ sub_units = {
 		need = { ship_hull_cruiser = 1 }
 		need_equipment_modules = {
 			any = {
-				ship_medium_battery_1 < 1
-				ship_medium_battery_2 < 1
-				ship_medium_battery_3 < 1
-				ship_medium_battery_4 < 1
+				ship_base_battery_8in_x2 < 1
+				ship_base_battery_8in_x3 < 1
 			}
 		}
 		
