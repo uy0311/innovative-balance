@@ -1,0 +1,349 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_light_battery_4in_x1_medium"
+		textureFile = "gfx/IB_turret/tech_lb4x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_4in_x1"
+		textureFile = "gfx/IB_turret/lb4x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_4in_x1"
+		textureFile = "gfx/IB_turret/lb4x1.png"
+	}
+
+	spriteType = {
+		name = "GFX_light_battery_4in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_lb4x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_4in_x2"
+		textureFile = "gfx/IB_turret/lb4x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_4in_x2"
+		textureFile = "gfx/IB_turret/lb4x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_dp_light_battery_4in_x1_medium"
+		textureFile = "gfx/IB_turret/tech_dplb4x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_base_battery_4in_x1"
+		textureFile = "gfx/IB_turret/dplb4x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_add_battery_4in_x1"
+		textureFile = "gfx/IB_turret/dplb4x1.png"
+	}
+
+	spriteType = {
+		name = "GFX_dp_light_battery_4in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_dplb4x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_base_battery_4in_x2"
+		textureFile = "gfx/IB_turret/dplb4x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_add_battery_4in_x2"
+		textureFile = "gfx/IB_turret/dplb4x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_light_battery_5in_x1_medium"
+		textureFile = "gfx/IB_turret/tech_lb5x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_5in_x1"
+		textureFile = "gfx/IB_turret/lb5x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_5in_x1"
+		textureFile = "gfx/IB_turret/lb5x1.png"
+	}
+
+	spriteType = {
+		name = "GFX_light_battery_5in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_lb5x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_5in_x2"
+		textureFile = "gfx/IB_turret/lb5x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_5in_x2"
+		textureFile = "gfx/IB_turret/lb5x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_dp_light_battery_5in_x1_medium"
+		textureFile = "gfx/IB_turret/tech_dplb5x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_base_battery_5in_x1"
+		textureFile = "gfx/IB_turret/dplb5x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_add_battery_5in_x1"
+		textureFile = "gfx/IB_turret/dplb5x1.png"
+	}
+
+	spriteType = {
+		name = "GFX_dp_light_battery_5in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_dplb5x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_base_battery_5in_x2"
+		textureFile = "gfx/IB_turret/dplb5x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_add_battery_5in_x2"
+		textureFile = "gfx/IB_turret/dplb5x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_medium_battery_5Hin_x1_medium"
+		textureFile = "gfx/IB_turret/tech_mb5Hx1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_5Hin_x1"
+		textureFile = "gfx/IB_turret/mb5Hx1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_5Hin_x1"
+		textureFile = "gfx/IB_turret/mb5Hx1.png"
+	}
+
+	spriteType = {
+		name = "GFX_medium_battery_5Hin_x2_medium"
+		textureFile = "gfx/IB_turret/tech_mb5Hx2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_5Hin_x2"
+		textureFile = "gfx/IB_turret/mb5Hx2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_5Hin_x2"
+		textureFile = "gfx/IB_turret/mb5Hx2.png"
+	}
+
+	spriteType = {
+		name = "GFX_medium_battery_6in_x1_medium"
+		textureFile = "gfx/IB_turret/tech_mb6x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_6in_x1"
+		textureFile = "gfx/IB_turret/mb6x1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_6in_x1"
+		textureFile = "gfx/IB_turret/mb6x1.png"
+	}
+
+	spriteType = {
+		name = "GFX_medium_battery_6in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_mb6x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_6in_x2"
+		textureFile = "gfx/IB_turret/mb6x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_6in_x2"
+		textureFile = "gfx/IB_turret/mb6x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_medium_battery_6in_x3_medium"
+		textureFile = "gfx/IB_turret/tech_mb6x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_6in_x3"
+		textureFile = "gfx/IB_turret/mb6x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_6in_x3"
+		textureFile = "gfx/IB_turret/mb6x3.png"
+	}
+
+	spriteType = {
+		name = "GFX_medium_battery_8in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_mb8x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_8in_x2"
+		textureFile = "gfx/IB_turret/mb8x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_8in_x2"
+		textureFile = "gfx/IB_turret/mb8x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_medium_battery_8in_x3_medium"
+		textureFile = "gfx/IB_turret/tech_mb8x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_8in_x3"
+		textureFile = "gfx/IB_turret/mb8x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_8in_x3"
+		textureFile = "gfx/IB_turret/mb8x3.png"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_battery_14in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_hb14x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_14in_x2"
+		textureFile = "gfx/IB_turret/hb14x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_14in_x2"
+		textureFile = "gfx/IB_turret/hb14x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_battery_14in_x3_medium"
+		textureFile = "gfx/IB_turret/tech_hb14x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_14in_x3"
+		textureFile = "gfx/IB_turret/hb14x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_14in_x3"
+		textureFile = "gfx/IB_turret/hb14x3.png"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_battery_15in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_hb15x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_15in_x2"
+		textureFile = "gfx/IB_turret/hb15x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_15in_x2"
+		textureFile = "gfx/IB_turret/hb15x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_battery_15in_x3_medium"
+		textureFile = "gfx/IB_turret/tech_hb15x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_15in_x3"
+		textureFile = "gfx/IB_turret/hb15x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_15in_x3"
+		textureFile = "gfx/IB_turret/hb15x3.png"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_battery_16in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_hb16x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_16in_x2"
+		textureFile = "gfx/IB_turret/hb16x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_16in_x2"
+		textureFile = "gfx/IB_turret/hb16x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_battery_16in_x3_medium"
+		textureFile = "gfx/IB_turret/tech_hb16x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_16in_x3"
+		textureFile = "gfx/IB_turret/hb16x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_16in_x3"
+		textureFile = "gfx/IB_turret/hb16x3.png"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_battery_18in_x2_medium"
+		textureFile = "gfx/IB_turret/tech_hb18x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_18in_x2"
+		textureFile = "gfx/IB_turret/hb18x2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_18in_x2"
+		textureFile = "gfx/IB_turret/hb18x2.png"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_battery_18in_x3_medium"
+		textureFile = "gfx/IB_turret/tech_hb18x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_18in_x3"
+		textureFile = "gfx/IB_turret/hb18x3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_add_battery_18in_x3"
+		textureFile = "gfx/IB_turret/hb18x3.png"
+	}
+
+	spriteType = {
+		name = "GFX_ib_shell_tech2_medium"
+		textureFile = "gfx/IB_turret/ib_dp_tech.png"
+	}
+	spriteType = {
+		name = "GFX_ib_shell_tech3_medium"
+		textureFile = "gfx/IB_turret/ib_shell_tech2.png"
+	}
+	spriteType = {
+		name = "GFX_ib_shell_tech4_medium"
+		textureFile = "gfx/IB_turret/ib_shell_tech3.png"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_light_battery_ib"
+		textureFile = "gfx/IB_turret/module_cat_lb.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_light_dp_battery"
+		textureFile = "gfx/IB_turret/module_cat_dp.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_medium_battery_cl"
+		textureFile = "gfx/IB_turret/module_cat_cl.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_medium_battery_ib"
+		textureFile = "gfx/IB_turret/module_cat_mb.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_ib"
+		textureFile = "gfx/IB_turret/module_cat_hb.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_twin_gun_battery_medium"
+		textureFile = "gfx/IB_turret/tech_twin.png"
+	}
+	spriteType = {
+		name = "GFX_triple_gun_battery_medium"
+		textureFile = "gfx/IB_turret/tech_triple.png"
+	}
+}
