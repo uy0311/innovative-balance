@@ -1087,7 +1087,7 @@ equipment_modules = {
 			build_cost_ic = 1560
 			max_strength = 38.5
 			hg_attack = 30
-			naval_heavy_gun_hit_chance_factor = 0.02
+			naval_heavy_gun_hit_chance_factor = -0.02
 			surface_visibility = 0.385
 		}
 		multiply_stats = {
