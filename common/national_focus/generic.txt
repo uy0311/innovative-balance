@@ -304,7 +304,7 @@ focus_tree = {
 		id = submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		prerequisite = { focus = naval_effort }
-		x = 10
+		x = 8
 		y = 1
 		cost = 10
 
@@ -315,23 +315,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = screen_ship_effort
-		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = naval_effort }
-		x = 8
-		y = 1
-		cost = 10
-
-		completion_reward = {
-			add_ideas = screen_ship_research_bonus
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
 		id = carrier_effort
 		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = screen_ship_effort focus = naval_effort_2 }
+		prerequisite = { focus = submarine_effort focus = naval_effort_2 }
 		x = 8
 		y = 3
 		cost = 10
@@ -343,9 +329,23 @@ focus_tree = {
 	}
 
 	focus = {
+		id = screen_ship_effort
+		icon = GFX_goal_generic_navy_cruiser
+		prerequisite = { focus = naval_effort }
+		x = 10
+		y = 1
+		cost = 10
+
+		completion_reward = {
+			add_ideas = screen_ship_research_bonus
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
 		id = battleship_effort
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = submarine_effort focus = naval_effort_2 }
+		prerequisite = { focus = screen_ship_effort focus = naval_effort_2 }
 		x = 10
 		y = 3
 		cost = 10

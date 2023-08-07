@@ -551,7 +551,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-
 		research_cost = 2.5
 
 		start_year = 1936
@@ -714,9 +713,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		XOR = {
-            
-        }
 		research_cost = 1.25
 
 		start_year = 1936
@@ -822,11 +818,6 @@ technologies = {
 			leads_to_tech = improved_ship_hull_heavy
 			research_cost_coeff = 1
 		}
-
-		path = {
-			leads_to_tech = basic_heavy_armor_scheme
-			research_cost_coeff = 1
-		}
 		
 		research_cost = 2.5
 
@@ -864,6 +855,7 @@ technologies = {
 			bc_tech
 		}
 	}
+
 	ship_hull_super_heavy = {
 
 		enable_equipments = {
