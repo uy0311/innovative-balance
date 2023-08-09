@@ -4,12 +4,12 @@ technologies = {
 		doctrine_name = "TITLE_STRATEGIC_DESTRUCTION"
 		
 		xp_research_type = air
-		xp_unlock_cost = 1
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 
 		# EFFECT ########
-		
+		air_ace_generation_chance_factor = 0.25
 		###########
 		
 		path = {
@@ -38,7 +38,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = formation_flying
+			leads_to_tech = dogfighting_experience
 			research_cost_coeff = 1
 		}
 	
@@ -64,7 +64,7 @@ technologies = {
 		###########
 		
 		path = {
-			leads_to_tech = battlefield_support
+			leads_to_tech = infrastructure_destruction
 			research_cost_coeff = 1
 		}
 		
@@ -80,66 +80,6 @@ technologies = {
 		}
 	}
 
-	battlefield_support = {
-
-		xp_research_type = air
-		xp_unlock_cost = 100
-		doctrine = yes	
-		research_cost = 3
-
-		# EFFECT ########
-		tac_bomber = {
-			maximum_speed = 0.1
-		}
-		###########
-		
-		path = {
-			leads_to_tech = hunt_and_destroy
-			research_cost_coeff = 1
-		}
-		
-		categories = {
-			air_doctrine
-			battlefield_support_tree
-			cat_battlefield_support
-		}
-		
-		folder = {
-			name = air_doctrine_folder
-			position = { x = -8 y = 4 }
-		}
-	}
-
-	hunt_and_destroy = {
-
-		xp_research_type = air
-		xp_unlock_cost = 100
-		doctrine = yes	
-		research_cost = 3
-
-		# EFFECT ########
-		cas = {
-			maximum_speed = 0.1
-		}
-		###########
-		
-		path = {
-			leads_to_tech = infrastructure_destruction
-			research_cost_coeff = 1
-		}
-		
-		categories = {
-			air_doctrine
-			battlefield_support_tree
-			cat_battlefield_support
-		}
-		
-		folder = {
-			name = air_doctrine_folder
-			position = { x = -8 y = 6 }
-		}
-	}
-
 	infrastructure_destruction = {
 
 		xp_research_type = air
@@ -149,7 +89,7 @@ technologies = {
 
 		# EFFECT ########
 		tac_bomber = {
-			air_ground_attack = 0.15
+			air_ground_attack = 0.1
 		}
 		###########
 		
@@ -166,7 +106,7 @@ technologies = {
 		
 		folder = {
 			name = air_doctrine_folder
-			position = { x = -8 y = 8 }
+			position = { x = -8 y = 4 }
 		}
 	}	
 
@@ -179,7 +119,67 @@ technologies = {
 
 		# EFFECT ########
 		cas = {
-			air_ground_attack = 0.15
+			air_ground_attack = 0.1
+		}
+		###########
+
+		path = {
+			leads_to_tech = battlefield_support
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			air_doctrine
+			battlefield_support_tree
+			cat_battlefield_support
+		}
+		
+		folder = {
+			name = air_doctrine_folder
+			position = { x = -8 y = 6 }
+		}
+	}
+
+	battlefield_support = {
+
+		xp_research_type = air
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+
+		# EFFECT ########
+		tac_bomber = {
+			air_defence = 0.1
+		}
+		###########
+		
+		path = {
+			leads_to_tech = hunt_and_destroy
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			air_doctrine
+			battlefield_support_tree
+			cat_battlefield_support
+		}
+		
+		folder = {
+			name = air_doctrine_folder
+			position = { x = -8 y = 8 }
+		}
+	}
+
+	hunt_and_destroy = {
+
+		xp_research_type = air
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+
+		# EFFECT ########
+		cas = {
+			air_defence = 0.1
 		}
 		###########
 
@@ -491,7 +491,15 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_ace_generation_chance_factor = 0.25
+		fighter = {
+			maximum_speed = 0.05
+		}
+		jet_fighter = {
+			maximum_speed = 0.05
+		}
+		category_heavy_fighter = {
+			maximum_speed = 0.05
+		}
 		###########
 		
 		path = {
@@ -549,13 +557,13 @@ technologies = {
 
 		# EFFECT ########
 		fighter = {
-			air_agility = 0.1
+			air_agility = 0.05
 		}
 		jet_fighter = {
-			air_agility = 0.1
+			air_agility = 0.05
 		}
 		category_heavy_fighter = {
-			air_agility = 0.1
+			air_agility = 0.05
 		}
 		###########
 		
@@ -688,9 +696,74 @@ technologies = {
 		}
 	}
 
+	dogfighting_experience = {
+
+		xp_research_type = air
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+
+		# EFFECT ########
+		cv_fighter = {
+			maximum_speed = 0.05
+		}
+		cv_cas = {
+			air_agility = 0.05
+		}
+		cv_nav_bomber = {
+			air_agility = 0.05
+		}
+		###########
+		
+		path = {
+			leads_to_tech = force_rotation
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_doctrine
+			strategic_destruction_tree
+			cat_strategic_destruction
+		}
+		
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 8 y = 2 }
+		}
+	}
+
+	force_rotation = {
+
+		xp_research_type = air
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+
+		# EFFECT ########
+		naval_strike_agility_factor = 0.1
+		###########
+
+		path = {
+			leads_to_tech = formation_flying
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_doctrine
+			operational_integrity_tree
+			cat_operational_integrity
+		}
+		
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 8 y = 4 }
+		}
+	}
+
+
 	formation_flying = {
 
-		xp_research_type = navy
+		xp_research_type = air
 		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
@@ -720,13 +793,13 @@ technologies = {
 		
 		folder = {
 			name = air_doctrine_folder
-			position = { x = 8 y = 2 }
+			position = { x = 8 y = 6 }
 		}
 	}
 
 	naval_strike_torpedo_tactics = {
 
-		xp_research_type = air
+		xp_research_type = navy
 		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
@@ -748,13 +821,13 @@ technologies = {
 		
 		folder = {
 			name = air_doctrine_folder
-			position = { x = 8 y = 4 }
+			position = { x = 8 y = 8 }
 		}
 	}
 
 	naval_strike_tactics = {
 
-		xp_research_type = air
+		xp_research_type = navy
 		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
@@ -778,75 +851,10 @@ technologies = {
 		###########
 		
 		path = {
-			leads_to_tech = force_rotation
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			air_doctrine
-			strategic_destruction_tree
-			cat_strategic_destruction
-		}
-		
-		folder = {
-			name = air_doctrine_folder
-			position = { x = 8 y = 6 }
-		}
-	}
-
-	force_rotation = {
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes	
-		research_cost = 3
-
-		# EFFECT ########
-		naval_strike_agility_factor = 0.1
-		###########
-
-		path = {
-			leads_to_tech = dogfighting_experience
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			air_doctrine
-			operational_integrity_tree
-			cat_operational_integrity
-		}
-		
-		folder = {
-			name = air_doctrine_folder
-			position = { x = 8 y = 8 }
-		}
-	}
-
-	dogfighting_experience = {
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes	
-		research_cost = 3
-
-		# EFFECT ########
-		cv_fighter = {
-			maximum_speed = 0.1
-		}
-		cv_cas = {
-			maximum_speed = 0.1
-			air_ground_attack = 0.15
-		}
-		cv_nav_bomber = {
-			maximum_speed = 0.1
-		}
-		###########
-		
-		path = {
 			leads_to_tech = air_offense
 			research_cost_coeff = 1
 		}
-		
+
 		categories = {
 			air_doctrine
 			strategic_destruction_tree
