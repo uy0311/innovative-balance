@@ -479,7 +479,7 @@ equipment_modules = {
 			fuel_consumption = 0.9
 		}
 		multiply_stats = {
-			maximum_speed = 1.30
+			maximum_speed = 1.45
 		}
 
 		build_cost_resources = {
@@ -548,13 +548,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 700
+			maximum_speed = 86
 			thrust = 40
 			build_cost_ic = 15
 
 		}
 		multiply_stats = {
 			air_range = -0.9
+			maximum_speed = 0.70
 		}
 		build_cost_resources = {
 			tungsten = 3
@@ -568,12 +569,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 800
+			maximum_speed = 88
 			thrust = 45
 			build_cost_ic = 16
 		}
 		multiply_stats = {
 			air_range = -0.85
+			maximum_speed = 0.75
 		}
 		build_cost_resources = {
 			tungsten = 3
@@ -587,12 +589,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 1000
+			maximum_speed = 90
 			thrust = 50
 			build_cost_ic = 17
 		}
 		multiply_stats = {
 			air_range = -0.8
+			maximum_speed = 0.80
 		}
 		build_cost_resources = {
 			tungsten = 3
