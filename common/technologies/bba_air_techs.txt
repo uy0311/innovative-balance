@@ -12,6 +12,13 @@ technologies = {
 			cv_small_plane_naval_bomber_airframe_0
 			cv_small_plane_suicide_airframe_0
 		}
+
+		enable_equipment_modules = {
+			radio_navigation_0
+			concept_fighter
+			concept_cas
+			concept_naval_bomber
+		}
 		
 	
 		path = {
@@ -314,6 +321,12 @@ technologies = {
 			medium_plane_scout_plane_airframe_0
 		}
 
+		enable_equipment_modules = {
+			radio_navigation_0
+			concept_heavy_fighter
+			concept_tactical_bomber
+		}
+
 		path = {
 			leads_to_tech = basic_medium_airframe
 			research_cost_coeff = 1
@@ -544,6 +557,12 @@ technologies = {
 			large_plane_maritime_patrol_plane_airframe_0
 		}
 	
+		enable_equipment_modules = {
+			radio_navigation_0
+			concept_strategic_bomber
+			concept_maritime_patrol_plane
+		}
+		
 		path = {
 			leads_to_tech = basic_large_airframe
 			research_cost_coeff = 1
@@ -778,7 +797,8 @@ technologies = {
 	photo_reconnaisance = {
 
 		enable_equipment_modules = {
-			recon_camera
+			concept_scout_plane
+			#recon_camera
 		}
 		
 		research_cost = 1
