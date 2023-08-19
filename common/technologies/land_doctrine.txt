@@ -62,9 +62,10 @@ technologies = {
 		
 		category_all_infantry = {
 			max_organisation = 15
-		}
-		infantry = {
 			default_morale = 0.10
+		}
+		recon = {
+			max_strength = 20.0
 		}
 		
 		enable_tactic = tactic_delay
@@ -1646,6 +1647,9 @@ technologies = {
 			urban = {
 				attack = 1
 			}
+			amphibious = {
+				attack = 0.4
+			}
 		}
 		mot_artillery_brigade = {
 			fort = {
@@ -1653,6 +1657,9 @@ technologies = {
 			}
 			urban = {
 				attack = 1
+			}
+			amphibious = {
+				attack = 0.4
 			}
 		}
 		rocket_artillery_brigade = {
@@ -1662,6 +1669,9 @@ technologies = {
 			urban = {
 				attack = 1
 			}
+			amphibious = {
+				attack = 0.4
+			}
 		}
 		mot_rocket_artillery_brigade = {
 			fort = {
@@ -1669,6 +1679,9 @@ technologies = {
 			}
 			urban = {
 				attack = 1
+			}
+			amphibious = {
+				attack = 0.4
 			}
 		}
 		path = {
@@ -1716,12 +1729,25 @@ technologies = {
 	
 	forward_observers = {
 
-		land_reinforce_rate = 0.02
 		xp_research_type = army
 		xp_unlock_cost = 100
+
+		land_reinforce_rate = 0.02
 		category_recon = {
 			recon = 3
 			max_organisation = 20
+			soft_attack = 0.5
+		}
+		light_flame_tank= {
+			max_organisation = 10
+			soft_attack = 0.5
+		}
+		medium_flame_tank= {
+			max_organisation = 10
+			soft_attack = 0.5
+		}
+		heavy_flame_tank= {
+			max_organisation = 10
 			soft_attack = 0.5
 		}
 		
@@ -1730,7 +1756,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		
+
 		doctrine = yes	
 		research_cost = 5.0
 		
@@ -1794,7 +1820,7 @@ technologies = {
 			cat_superior_firepower
 		}
 
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 16 }
@@ -1835,18 +1861,6 @@ technologies = {
 		category_special_forces = {
 			soft_attack = 0.10
 			hard_attack = 0.10
-		}
-		light_flame_tank= {
-			max_organisation = 10
-			soft_attack = 0.5
-		}
-		medium_flame_tank= {
-			max_organisation = 10
-			soft_attack = 0.5
-		}
-		heavy_flame_tank= {
-			max_organisation = 10
-			soft_attack = 0.5
 		}
 
 		enable_tactic = tactic_breakthrough
@@ -2259,8 +2273,12 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_special_forces = {
-			max_organisation  = 30
+			max_organisation  = 20
 			default_morale = 0.1
+		}
+		category_all_armor = {
+			default_morale = 0.1
+			breakthrough = 0.1
 		}
 
 		path = {
@@ -2310,9 +2328,9 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		category_all_armor = {
-			default_morale = 0.1
-			breakthrough = 0.1
+		category_special_forces = {
+			max_organisation = 10
+			initiative = 0.01
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -2472,7 +2490,7 @@ technologies = {
 			grand_mechanized_offensive
 		}
 		
-		category_light_infantry = {
+		infantry = {
 			max_organisation = 10
 			initiative = 0.01
 		}
