@@ -93,6 +93,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -309,6 +310,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -443,6 +445,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -578,6 +581,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -713,6 +717,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -865,6 +870,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -1076,6 +1082,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -1210,6 +1217,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -1345,6 +1353,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_type
 				}
 			}
 
@@ -1479,6 +1488,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
+					plane_rocket_engine_types
 				}
 			}
 
