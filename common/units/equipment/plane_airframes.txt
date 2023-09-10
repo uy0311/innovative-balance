@@ -151,6 +151,16 @@ equipments = {
 		}
 
 		module_count_limit = {
+			module = armor_plate_small
+			count < 2
+		}
+
+		module_count_limit = {
+			module = fuel_tanks_small
+			count < 2
+		}
+
+		module_count_limit = {
 			module = self_sealing_fuel_tanks_small
 			count < 2
 		}
@@ -171,12 +181,7 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = medium_bomb_bay
-			count < 3
-		}
-
-		module_count_limit = {
-			module = large_bomb_bay
+			module = drop_tanks
 			count < 2
 		}
 
@@ -227,7 +232,7 @@ equipments = {
 		maximum_speed = 240
 		air_agility = 40
 		air_defence = 6
-		weight = 3
+		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -245,7 +250,7 @@ equipments = {
 		maximum_speed = 272
 		air_agility = 55
 		air_defence = 10
-		weight = 5
+		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 21
@@ -380,7 +385,7 @@ equipments = {
 		maximum_speed = 304
 		air_agility = 70
 		air_defence = 14
-		weight = 4
+		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 22
@@ -516,7 +521,7 @@ equipments = {
 		maximum_speed = 336
 		air_agility = 85
 		air_defence = 18
-		weight = 5
+		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 23
@@ -808,7 +813,7 @@ equipments = {
 		lend_lease_cost = 8
 		manpower = 1
 		fuel_consumption = 0.05
-		build_cost_ic = 23
+		build_cost_ic = 25
 		resources = {
 			aluminium = 2
 			rubber = 1
@@ -928,6 +933,16 @@ equipments = {
 		}
 
 		module_count_limit = {
+			module = armor_plate_small
+			count < 2
+		}
+
+		module_count_limit = {
+			module = fuel_tanks_small
+			count < 2
+		}
+
+		module_count_limit = {
 			module = self_sealing_fuel_tanks_small
 			count < 2
 		}
@@ -946,14 +961,14 @@ equipments = {
 			module = floats
 			count < 2
 		}
-		
+
 		module_count_limit = {
-			module = medium_bomb_bay
-			count < 3
+			module = drop_tanks
+			count < 2
 		}
 
 		module_count_limit = {
-			module = large_bomb_bay
+			category = nav_bomber_weapon
 			count < 2
 		}
 
@@ -999,7 +1014,7 @@ equipments = {
 		maximum_speed = 240
 		air_agility = 40
 		air_defence = 6
-		weight = 3
+		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -1017,10 +1032,10 @@ equipments = {
 		maximum_speed = 272
 		air_agility = 55
 		air_defence = 10
-		weight = 4
+		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 24
+		build_cost_ic = 26
 		resources = {
 			aluminium = 3
 			rubber = 1
@@ -1152,10 +1167,10 @@ equipments = {
 		maximum_speed = 304
 		air_agility = 70
 		air_defence = 14
-		weight = 5
+		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 25
+		build_cost_ic = 27
 		resources = {
 			aluminium = 3
 			rubber = 1
@@ -1291,7 +1306,7 @@ equipments = {
 		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 26
+		build_cost_ic = 28
 		resources = {
 			aluminium = 4
 			rubber = 1
@@ -1423,10 +1438,10 @@ equipments = {
 		maximum_speed = 372
 		air_agility = 100
 		air_defence = 22
-		weight = 7
+		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 27
+		build_cost_ic = 29
 		resources = {
 			aluminium = 4
 			rubber = 1
@@ -1488,7 +1503,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_types
+					plane_rocket_engine_type
 				}
 			}
 
@@ -1691,6 +1706,16 @@ equipments = {
 		}
 
 		module_count_limit = {
+			module = armor_plate_medium
+			count < 2
+		}
+
+		module_count_limit = {
+			module = fuel_tanks_medium
+			count < 2
+		}
+
+		module_count_limit = {
 			module = self_sealing_fuel_tanks_medium
 			count < 2
 		}
@@ -1703,11 +1728,6 @@ equipments = {
 		module_count_limit = {
 			module = flying_boat_medium
 			count < 2
-		}
-
-		module_count_limit = {
-			module = large_bomb_bay
-			count < 3
 		}
 
 		module_count_limit = {
@@ -1757,7 +1777,7 @@ equipments = {
 		maximum_speed = 192
 		air_agility = 20
 		air_defence = 12
-		weight = 6
+		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -1775,7 +1795,7 @@ equipments = {
 		maximum_speed = 216
 		air_agility = 25
 		air_defence = 18
-		weight = 8
+		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 31
@@ -1908,7 +1928,7 @@ equipments = {
 		maximum_speed = 240
 		air_agility = 35
 		air_defence = 24
-		weight = 10
+		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 32
@@ -2174,7 +2194,7 @@ equipments = {
 		maximum_speed = 288
 		air_agility = 50
 		air_defence = 36
-		weight = 14
+		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 34
@@ -2437,8 +2457,18 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = fixed_explosive_charge
+			module = armor_plate_large
 			count < 2
+		}
+
+		module_count_limit = {
+			module = fuel_tanks_large
+			count < 2
+		}
+
+		module_count_limit = {
+			module = fixed_explosive_charge
+			count < 1
 		}
 
 		module_count_limit = {
@@ -2512,7 +2542,7 @@ equipments = {
 		maximum_speed = 152
 		air_agility = 15
 		air_defence = 24
-		weight = 12
+		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -2530,7 +2560,7 @@ equipments = {
 		maximum_speed = 168
 		air_agility = 20
 		air_defence = 36
-		weight = 16
+		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 37
@@ -2662,7 +2692,7 @@ equipments = {
 		maximum_speed = 184
 		air_agility = 25
 		air_defence = 48
-		weight = 20
+		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 38
@@ -2794,7 +2824,7 @@ equipments = {
 		maximum_speed = 200
 		air_agility = 30
 		air_defence = 60
-		weight = 24
+		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 39
@@ -2926,7 +2956,7 @@ equipments = {
 		maximum_speed = 216
 		air_agility = 35
 		air_defence = 72
-		weight = 28
+		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 40
