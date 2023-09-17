@@ -154,34 +154,37 @@ equipments = {
 			module = armor_plate_small
 			count < 2
 		}
-
 		module_count_limit = {
 			module = fuel_tanks_small
 			count < 2
 		}
-
 		module_count_limit = {
 			module = self_sealing_fuel_tanks_small
 			count < 2
 		}
-
 		module_count_limit = {
 			module = non_strategic_materials_small
 			count < 2
 		}
-
 		module_count_limit = {
 			module = dive_brakes_small
 			count < 2
 		}
 
 		module_count_limit = {
-			module = floats
+			category = plane_special_module_radio_navigation
 			count < 2
 		}
-
 		module_count_limit = {
-			module = drop_tanks
+			category = plane_special_module_bomb_sights
+			count < 2
+		}
+		module_count_limit = {
+			category = plane_special_module_air_ground_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = plane_special_module_air_air_radar
 			count < 2
 		}
 
@@ -191,22 +194,11 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = plane_special_module_bomb_sights
+			module = drop_tanks
 			count < 2
 		}
-
 		module_count_limit = {
-			category = plane_special_module_radio_navigation
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_air_ground_radar
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_air_air_radar
+			module = floats
 			count < 2
 		}
 
@@ -936,34 +928,37 @@ equipments = {
 			module = armor_plate_small
 			count < 2
 		}
-
 		module_count_limit = {
 			module = fuel_tanks_small
 			count < 2
 		}
-
 		module_count_limit = {
 			module = self_sealing_fuel_tanks_small
 			count < 2
 		}
-
 		module_count_limit = {
 			module = non_strategic_materials_small
 			count < 2
 		}
-
 		module_count_limit = {
 			module = dive_brakes_small
 			count < 2
 		}
 
 		module_count_limit = {
-			module = floats
+			category = plane_special_module_radio_navigation
 			count < 2
 		}
-
 		module_count_limit = {
-			module = drop_tanks
+			category = plane_special_module_bomb_sights
+			count < 2
+		}
+		module_count_limit = {
+			category = plane_special_module_air_ground_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = plane_special_module_air_air_radar
 			count < 2
 		}
 
@@ -973,22 +968,11 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = plane_special_module_bomb_sights
+			module = drop_tanks
 			count < 2
 		}
-
 		module_count_limit = {
-			category = plane_special_module_radio_navigation
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_air_ground_radar
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_air_air_radar
+			module = floats
 			count < 2
 		}
 
@@ -1709,24 +1693,33 @@ equipments = {
 			module = armor_plate_medium
 			count < 2
 		}
-
 		module_count_limit = {
 			module = fuel_tanks_medium
 			count < 2
 		}
-
 		module_count_limit = {
 			module = self_sealing_fuel_tanks_medium
 			count < 2
 		}
-
 		module_count_limit = {
 			module = non_strategic_materials_medium
 			count < 2
 		}
 
 		module_count_limit = {
-			module = flying_boat_medium
+			category = plane_special_module_radio_navigation
+			count < 2
+		}
+		module_count_limit = {
+			category = plane_special_module_bomb_sights
+			count < 2
+		}
+		module_count_limit = {
+			category = plane_special_module_air_ground_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = plane_special_module_air_air_radar
 			count < 2
 		}
 
@@ -1736,22 +1729,7 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = plane_special_module_bomb_sights
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_radio_navigation
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_air_ground_radar
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_air_air_radar
+			module = flying_boat_medium
 			count < 2
 		}
 
@@ -2460,40 +2438,34 @@ equipments = {
 			module = armor_plate_large
 			count < 2
 		}
-
 		module_count_limit = {
 			module = fuel_tanks_large
 			count < 2
 		}
-
-		module_count_limit = {
-			module = fixed_explosive_charge
-			count < 1
-		}
-
 		module_count_limit = {
 			module = self_sealing_fuel_tanks_large
 			count < 2
 		}
-
 		module_count_limit = {
 			module = non_strategic_materials_large
 			count < 2
 		}
 
 		module_count_limit = {
-			module = flying_boat_large
+			category = plane_special_module_radio_navigation
 			count < 2
 		}
-
 		module_count_limit = {
-			module = demining_coil
-			count < 1
+			category = plane_special_module_bomb_sights
+			count < 2
 		}
-		
 		module_count_limit = {
-			category = machine_gun
-			count < 3
+			category = plane_special_module_air_ground_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = plane_special_module_air_air_radar
+			count < 2
 		}
 
 		module_count_limit = {
@@ -2502,23 +2474,13 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = plane_special_module_bomb_sights
+			module = flying_boat_large
 			count < 2
 		}
 
 		module_count_limit = {
-			category = plane_special_module_radio_navigation
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_air_ground_radar
-			count < 2
-		}
-
-		module_count_limit = {
-			category = plane_special_module_air_air_radar
-			count < 2
+			module = fixed_explosive_charge
+			count < 1
 		}
 
 		default_modules = {
