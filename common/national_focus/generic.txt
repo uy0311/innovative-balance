@@ -576,9 +576,6 @@ focus_tree = {
 		id = extra_tech_slot_2
 		icon = GFX_focus_research
 		prerequisite = { focus = extra_tech_slot }
-		available = {
-			num_of_factories > 50
-		}
 
 		x = 13
 		y = 8

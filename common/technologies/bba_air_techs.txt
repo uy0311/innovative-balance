@@ -850,11 +850,6 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = aa_cannon_1
-			research_cost_coeff = 1
-		}
-
-		path = {
 			leads_to_tech = survivability_studies
 			research_cost_coeff = 1
 		}
@@ -933,11 +928,16 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1939
+		start_year = 1937
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 4 }
+		}
+
+		path = {
+			leads_to_tech = aa_cannon_1
+			research_cost_coeff = 1
 		}
 
 		categories = {
@@ -973,12 +973,12 @@ technologies = {
 			aircraft_cannon_1_2x
 		}
 		
-		research_cost = 1
-		start_year = 1939
+		research_cost = 1.5
+		start_year = 1940
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 2 y = 6 }
+			position = { x = 0 y = 6 }
 		}
 		path = {
 			leads_to_tech = aa_cannon_2
@@ -1025,7 +1025,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 2 y = 8 }
+			position = { x = 0 y = 8 }
 		}
 
 		categories = {

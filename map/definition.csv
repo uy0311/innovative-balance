@@ -8711,7 +8711,7 @@
 8710;112;33;248;sea;false;ocean;0
 8711;112;34;236;sea;true;ocean;0
 8712;112;35;244;sea;false;ocean;0
-8713;112;37;232;sea;true;ocean;0
+8713;112;37;232;lake;true;lakes;0
 8714;112;38;240;sea;false;ocean;0
 8715;112;39;248;sea;false;ocean;0
 8716;112;40;232;sea;true;ocean;0
@@ -15032,7 +15032,7 @@
 15031;115;68;137;sea;true;ocean;0
 15032;57;89;137;sea;true;ocean;0
 15033;85;86;135;sea;true;ocean;0
-15034;102;107;255;sea;true;ocean;0
+15034;102;107;255;lake;true;lakes;0
 15035;135;72;129;sea;true;ocean;0
 15036;84;141;255;sea;false;ocean;0
 15037;140;102;255;lake;true;mountain;0
