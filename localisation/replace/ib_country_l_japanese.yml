@@ -14,3 +14,7 @@
  LUX:0 ""
  LUX_DEF:0 ""
  LUX_ADJ:0 ""
+ MAN_fascism:1 "満州国"
+ MAN_fascism_DEF:1 "満州国"
+ MAN_neutrality:1 "満州国"
+ MAN_neutrality_DEF:1 "満州国"
