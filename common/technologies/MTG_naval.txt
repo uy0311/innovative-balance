@@ -36,7 +36,7 @@ technologies = {
 
 		research_cost = 2.5
 
-		start_year = 1922
+		start_year = 1933
 
 		folder = {
 			name = mtgnavalfolder
@@ -73,7 +73,7 @@ technologies = {
 
 		research_cost = 2.5
 
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = mtgnavalfolder
@@ -118,7 +118,7 @@ technologies = {
 
 		research_cost = 2.5
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -187,7 +187,7 @@ technologies = {
 
 		research_cost = 1.0
 
-		start_year = 1922
+		start_year = 1933
 
 		folder = {
 			name = mtgnavalfolder
@@ -220,6 +220,7 @@ technologies = {
 	basic_depth_charges = {
 
 		enable_equipment_modules = {
+			ship_sonar_1
 			ship_depth_charge_1
 		}
 
@@ -227,9 +228,6 @@ technologies = {
 			custom_effect_tooltip = depth_charges_advice_tt
 		}
 
-		enable_equipment_modules = { 
-			ship_sonar_1
-		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
 		}
@@ -244,7 +242,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.0
 
-		start_year = 1922
+		start_year = 1933
 
 		folder = {
 			name = mtgnavalfolder
@@ -274,6 +272,7 @@ technologies = {
 	improved_depth_charges = {
 
 		enable_equipment_modules = {
+			ship_sonar_2
 			ship_depth_charge_2
 		}
 		on_research_complete = {
@@ -284,9 +283,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 				
-		enable_equipment_modules = { 
-			ship_sonar_2
-		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
 		}
@@ -296,7 +292,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.0
 
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = mtgnavalfolder
@@ -326,6 +322,7 @@ technologies = {
 	advanced_depth_charges = {
 
 		enable_equipment_modules = {
+			ship_sonar_3
 			ship_depth_charge_3
 		}
 		on_research_complete = {
@@ -336,9 +333,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		enable_equipment_modules = { 
-			ship_sonar_3
-		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
 		}
@@ -348,7 +342,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.0
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -378,15 +372,13 @@ technologies = {
 	modern_depth_charges = {
 
 		enable_equipment_modules = {
+			ship_sonar_4
 			ship_depth_charge_4
 		}
 		on_research_complete = {
 			custom_effect_tooltip = depth_charges_advice_tt
 		}
 				
-		enable_equipment_modules = { 
-			ship_sonar_4
-		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
 		}
@@ -423,59 +415,7 @@ technologies = {
 			ship_modules_tech
 		}
 	}
-	sonar = {
 
-		research_cost = 1.0
-
-		start_year = 1922
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
-			modifier = {
-				factor = 2
-				anti_submarine_strategy_required_trigger = yes
-			}
-		}
-
-		categories = {
-			naval_equipment
-			dd_tech
-			asw_tech
-			ship_modules_tech
-		}
-	}
-
-	improved_sonar = {
-
-		research_cost = 1.0
-
-		start_year = 1936
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
-			modifier = {
-				factor = 2
-				anti_submarine_strategy_required_trigger = yes
-			}
-		}
-
-		categories = {
-			naval_equipment
-			dd_tech
-			asw_tech
-			ship_modules_tech
-		}
-	}
 
  ##  ###  #  # ###  ## ### ###   ##
 #  # #  # #  #  #  #   #   #  # #
@@ -510,7 +450,7 @@ technologies = {
 
 		research_cost = 2.5
 
-		start_year = 1922
+		start_year = 1933
 
 		folder = {
 			name = mtgnavalfolder
@@ -553,7 +493,7 @@ technologies = {
 
 		research_cost = 2.5
 
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = mtgnavalfolder
@@ -595,7 +535,7 @@ technologies = {
 
 		research_cost = 2.5
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -671,7 +611,7 @@ technologies = {
 
 		research_cost = 1.0
 
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = mtgnavalfolder
@@ -715,7 +655,7 @@ technologies = {
 
 		research_cost = 1.25
 
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = mtgnavalfolder
@@ -771,7 +711,7 @@ technologies = {
 
 		research_cost = 2.5
 
-		start_year = 1922
+		start_year = 1933
 
 		folder = {
 			name = mtgnavalfolder
@@ -821,7 +761,7 @@ technologies = {
 		
 		research_cost = 2.5
 
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = mtgnavalfolder
@@ -868,7 +808,7 @@ technologies = {
 
 		research_cost = 0.01
 
-		start_year = 1940
+		start_year = 1941
 
 		ai_will_do = {
 			factor = 1
@@ -901,7 +841,7 @@ technologies = {
 
 		research_cost = 2.5
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -983,7 +923,7 @@ technologies = {
 
 		research_cost = 1.25
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -1081,7 +1021,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 2.5
 
-		start_year = 1922
+		start_year = 1933
 
 		folder = {
 			name = mtgnavalfolder
@@ -1122,7 +1062,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 2.5
 
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = mtgnavalfolder
@@ -1163,7 +1103,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 2.5
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -1248,7 +1188,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 2.5
 
-		start_year = 1922
+		start_year = 1933
 
 		folder = {
 			name = mtgnavalfolder
@@ -1296,7 +1236,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 2.5
 
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = mtgnavalfolder
@@ -1337,7 +1277,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 2.5
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -1412,7 +1352,7 @@ early_ship_hull_carrier = {
 		}
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -1494,7 +1434,7 @@ early_ship_hull_carrier = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1938
 
 		#set at gamestart
 		allow = {
@@ -1508,7 +1448,7 @@ early_ship_hull_carrier = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1938
 
 		#set at gamestart
 		allow = {
@@ -1522,7 +1462,7 @@ early_ship_hull_carrier = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1938
 
 		#set at gamestart
 		allow = {
@@ -1536,7 +1476,7 @@ early_ship_hull_carrier = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1938
 
 		#set at gamestart
 		allow = {
@@ -1549,7 +1489,7 @@ early_ship_hull_carrier = {
 			ship_hull_cruiser_submarine
 		}
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1938
 		
 	}
 	midget_submarines = {
@@ -1558,7 +1498,7 @@ early_ship_hull_carrier = {
 			ship_hull_midget_submarine
 		}
 		research_cost = 1
-		start_year = 1936
+		start_year = 1938
 
 		#set at gamestart
 		allow = {

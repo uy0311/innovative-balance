@@ -5685,10 +5685,10 @@ leader_traits = {
 				armor_value = 0.5 max_strength = 0.1
 			}
 			capital_ship = {
-				armor_value = 0.1 naval_speed = 0.1
+				armor_value = 0.1 max_strength = 0.1 naval_speed = 0.1 
 			}
 			screen_ship = {
-				armor_value = 0.20 naval_speed = 0.05
+				armor_value = 0.20 max_strength = 0.1 naval_speed = 0.05
 			}
 			submarine = {
 				naval_speed = 0.1 sub_visibility = -0.1 surface_visibility = -0.1
@@ -5704,10 +5704,10 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			capital_ship = {
-				naval_speed = 0.1 hg_attack = 0.15
+				naval_speed = 0.1 hg_attack = 0.15 armor_value = 0.05
 			}
 			screen_ship = {
-				naval_speed = 0.05 torpedo_attack = 0.25 sub_detection = -0.25
+				naval_speed = 0.05 lg_attack = 0.1 torpedo_attack = 0.25 sub_detection = -0.25
 			}
 			submarine = {
 				torpedo_attack = 0.25 sub_visibility = 0.25
@@ -5726,10 +5726,10 @@ leader_traits = {
 				armor_value = 0.5 max_strength = 0.1
 			}
 			capital_ship = {
-				armor_value = 0.1 naval_speed = 0.1
+				armor_value = 0.1 max_strength = 0.1 naval_speed = 0.1 
 			}
 			screen_ship = {
-				armor_value = 0.20 naval_speed = 0.05
+				armor_value = 0.20 max_strength = 0.1 naval_speed = 0.05
 			}
 			submarine = {
 				naval_speed = 0.1 sub_visibility = -0.1 surface_visibility = -0.1
