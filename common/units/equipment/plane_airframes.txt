@@ -115,7 +115,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -220,11 +219,10 @@ equipments = {
 		module_slots = inherit
 		priority = 5
 
-		air_range = 600
-		maximum_speed = 240
+		air_range = 750
+		thrust = 550
 		air_agility = 40
 		air_defence = 6
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -238,11 +236,10 @@ equipments = {
 		parent = small_plane_airframe_0
 		priority = 5
 
-		air_range = 750
-		maximum_speed = 272
+		air_range = 900
+		thrust = 600
 		air_agility = 55
 		air_defence = 10
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 21
@@ -329,7 +326,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -373,11 +369,10 @@ equipments = {
 		parent = small_plane_airframe_1
 		priority = 5
 
-		air_range = 900
-		maximum_speed = 304
+		air_range = 1050
+		thrust = 650
 		air_agility = 70
 		air_defence = 14
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 22
@@ -464,7 +459,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -509,11 +503,10 @@ equipments = {
 		parent = small_plane_airframe_2
 		priority = 5
 
-		air_range = 1050
-		maximum_speed = 336
+		air_range = 1200
+		thrust = 700
 		air_agility = 85
 		air_defence = 18
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 23
@@ -600,7 +593,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -645,11 +637,10 @@ equipments = {
 		parent = small_plane_airframe_3
 		priority = 5
 
-		air_range = 1200
-		maximum_speed = 372
+		air_range = 1350
+		thrust = 750
 		air_agility = 100
 		air_defence = 22
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 24
@@ -736,7 +727,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -889,7 +879,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -995,10 +984,9 @@ equipments = {
 		priority = 5
 
 		air_range = 950
-		maximum_speed = 240
+		thrust = 550
 		air_agility = 40
 		air_defence = 6
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -1013,10 +1001,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1100
-		maximum_speed = 272
+		thrust = 600
 		air_agility = 55
 		air_defence = 10
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 26
@@ -1103,7 +1090,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -1148,10 +1134,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1200
-		maximum_speed = 304
+		thrust = 650
 		air_agility = 70
 		air_defence = 14
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 27
@@ -1238,7 +1223,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -1284,10 +1268,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1350
-		maximum_speed = 336
+		thrust = 700
 		air_agility = 85
 		air_defence = 18
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 28
@@ -1374,7 +1357,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -1419,10 +1401,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1500
-		maximum_speed = 372
+		thrust = 750
 		air_agility = 100
 		air_defence = 22
-		weight = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 29
@@ -1509,7 +1490,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -1657,7 +1637,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -1752,10 +1731,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1200
-		maximum_speed = 192
+		thrust = 1300
 		air_agility = 20
 		air_defence = 12
-		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -1770,10 +1748,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1350
-		maximum_speed = 216
+		thrust = 1400
 		air_agility = 25
 		air_defence = 18
-		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 31
@@ -1860,7 +1837,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -1903,10 +1879,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1500
-		maximum_speed = 240
+		thrust = 1500
 		air_agility = 35
 		air_defence = 24
-		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 32
@@ -1993,7 +1968,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -2036,10 +2010,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1650
-		maximum_speed = 264
+		thrust = 1600
 		air_agility = 40
 		air_defence = 30
-		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 33
@@ -2126,7 +2099,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -2169,10 +2141,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1800
-		maximum_speed = 288
+		thrust = 1700
 		air_agility = 50
 		air_defence = 36
-		weight = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 34
@@ -2259,7 +2230,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -2402,7 +2372,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -2501,10 +2470,9 @@ equipments = {
 		priority = 5
 
 		air_range = 1800
-		maximum_speed = 152
+		thrust = 3000
 		air_agility = 15
 		air_defence = 24
-		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -2519,10 +2487,9 @@ equipments = {
 		priority = 5
 
 		air_range = 2400
-		maximum_speed = 168
+		thrust = 3250
 		air_agility = 20
 		air_defence = 36
-		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 37
@@ -2608,7 +2575,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -2651,10 +2617,9 @@ equipments = {
 		priority = 5
 
 		air_range = 3000
-		maximum_speed = 184
+		thrust = 3500
 		air_agility = 25
 		air_defence = 48
-		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 38
@@ -2740,7 +2705,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -2783,10 +2747,9 @@ equipments = {
 		priority = 5
 
 		air_range = 3600
-		maximum_speed = 200
+		thrust = 3750
 		air_agility = 30
 		air_defence = 60
-		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 39
@@ -2872,7 +2835,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
@@ -2915,10 +2877,9 @@ equipments = {
 		priority = 5
 
 		air_range = 4200
-		maximum_speed = 216
+		thrust = 4000
 		air_agility = 35
 		air_defence = 72
-		weight = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 40
@@ -3004,7 +2965,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_defense_turret
 				}
 			}
 
