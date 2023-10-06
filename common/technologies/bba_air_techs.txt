@@ -26,12 +26,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		
 		research_cost = 2
 		start_year = 1933
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 2 }
+			position = { x = -2 y = 2 }
 		}
 		
 		categories = {
@@ -73,13 +72,25 @@ technologies = {
 			leads_to_tech = improved_small_airframe
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = basic_medium_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = basic_medium_airframe	}
+		}
+		dependencies = {
+			iw_small_airframe = 1
+		}
 		
 		research_cost = 2
 		start_year = 1938
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 4 }
+			position = { x = -2 y = 4 }
 		}
 		
 		categories = {
@@ -142,13 +153,24 @@ technologies = {
 			leads_to_tech = advanced_small_airframe
 			research_cost_coeff = 1
 		}
-				
+
+		path = {
+			leads_to_tech = improved_medium_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = improved_medium_airframe	}
+		}
+		dependencies = {
+			basic_small_airframe = 1
+		}
 
 		research_cost = 2
 		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 6 }
+			position = { x = -2 y = 6 }
 		}
 		folder = {
 			name = secret_weapons_folder
@@ -217,13 +239,25 @@ technologies = {
 			leads_to_tech = modern_small_airframe
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = advanced_medium_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = advanced_medium_airframe	}
+		}
+		dependencies = {
+			improved_small_airframe = 1
+		}
 		
 		research_cost = 2
 		start_year = 1944
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 8 }
+			position = { x = -2 y = 8 }
 		}
 		
 		categories = {
@@ -278,7 +312,16 @@ technologies = {
 			cv_small_plane_suicide_airframe_4
 		}
 
+		path = {
+			leads_to_tech = modern_medium_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = modern_medium_airframe	}
+		}
 		dependencies = {
+			advanced_small_airframe = 1
 			jet_engines = 1
 		}
 		
@@ -287,7 +330,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 12 }
+			position = { x = -2 y = 12 }
 		}
 		
 		categories = {
@@ -331,6 +374,16 @@ technologies = {
 			leads_to_tech = basic_medium_airframe
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = iw_small_airframe
+			research_cost_coeff = 0.5
+		}
+
+		path = {
+			leads_to_tech = iw_large_airframe
+			research_cost_coeff = 0.5
+		}
 		
 		research_cost = 2
 		start_year = 1933
@@ -362,6 +415,26 @@ technologies = {
 		path = {
 			leads_to_tech = improved_medium_airframe
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = basic_small_airframe
+			research_cost_coeff = 0.5
+		}
+
+		path = {
+			leads_to_tech = basic_large_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = basic_small_airframe	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = basic_large_airframe	}
+		}
+		dependencies = {
+			iw_medium_airframe = 1
 		}
 
 		research_cost = 2
@@ -420,6 +493,26 @@ technologies = {
 			leads_to_tech = advanced_medium_airframe
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = improved_small_airframe
+			research_cost_coeff = 0.5
+		}
+
+		path = {
+			leads_to_tech = improved_large_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = improved_small_airframe	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = improved_large_airframe	}
+		}
+		dependencies = {
+			basic_medium_airframe = 1
+		}
 		
 		research_cost = 2
 		start_year = 1941
@@ -477,6 +570,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = advanced_small_airframe
+			research_cost_coeff = 0.5
+		}
+
+		path = {
+			leads_to_tech = advanced_large_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = advanced_small_airframe	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = advanced_large_airframe	}
+		}
+		dependencies = {
+			improved_medium_airframe = 1
+		}
+
 		research_cost = 2
 		start_year = 1944
 		folder = {
@@ -522,7 +635,24 @@ technologies = {
 			medium_plane_scout_plane_airframe_4
 		}
 		
+		path = {
+			leads_to_tech = modern_small_airframe
+			research_cost_coeff = 0.5
+		}
+
+		path = {
+			leads_to_tech = modern_large_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = modern_small_airframe	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = modern_large_airframe	}
+		}
 		dependencies = {
+			advanced_medium_airframe = 1
 			jet_engines = 1
 		}
 
@@ -572,7 +702,7 @@ technologies = {
 		start_year = 1933
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 2 }
+			position = { x = 6 y = 2 }
 		}
 		
 		categories = {
@@ -608,11 +738,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = basic_medium_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = basic_medium_airframe	}
+		}
+		dependencies = {
+			iw_large_airframe = 1
+		}
+
 		research_cost = 2
 		start_year = 1938
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 4 }
+			position = { x = 6 y = 4 }
 		}
 		
 		categories = {
@@ -647,12 +789,24 @@ technologies = {
 			leads_to_tech = advanced_large_airframe
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = improved_medium_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = improved_medium_airframe	}
+		}
+		dependencies = {
+			basic_large_airframe = 1
+		}
 		
 		research_cost = 2
 		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 6 }
+			position = { x = 6 y = 6 }
 		}
 		
 		categories = {
@@ -688,11 +842,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = advanced_medium_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = advanced_medium_airframe	}
+		}
+		dependencies = {
+			improved_large_airframe = 1
+		}
+
 		research_cost = 2
 		start_year = 1944
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 8 }
+			position = { x = 6 y = 8 }
 		}
 		
 		categories = {
@@ -726,13 +892,22 @@ technologies = {
 		research_cost = 2
 		start_year = 1950
 
+		path = {
+			leads_to_tech = modern_medium_airframe
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = modern_medium_airframe	}
+		}
 		dependencies = {
+			advanced_large_airframe = 1
 			jet_engines = 1
 		}
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 12 }
+			position = { x = 6 y = 12 }
 		}
 		
 		categories = {
