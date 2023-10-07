@@ -74,8 +74,9 @@ ideas = {
 		}
 		branch_independence_spirit = {
 			ledger = air
+			cost = 0
 			modifier = {
-				experience_gain_air = 0.1
+				experience_gain_air_factor = 0.10
 				airforce_intel_to_others = -5
 			}
 			ai_will_do = {

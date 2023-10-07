@@ -224,14 +224,22 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = basic_medium_tank_chassis
-			research_cost_coeff = 0.9
-		}
-
-		path = {
 			leads_to_tech = amphibious_tank_chassis
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = basic_medium_tank_chassis
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = basic_medium_tank_chassis	}
+		}
+		dependencies = {
+			basic_light_tank_chassis = 1
+		}
+
 
 		research_cost = 2.5
 		start_year = 1936
@@ -297,9 +305,8 @@ technologies = {
 			amphibious_armor
 		}
 
-		path = {
-			leads_to_tech = amphibious_drive
-			research_cost_coeff = 1
+		sub_technologies = {
+			amphibious_drive
 		}
 
 		allow_branch = {
@@ -418,16 +425,23 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = advanced_medium_tank_chassis
-			research_cost_coeff = 1
+			leads_to_tech = improved_medium_tank_chassis
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = improved_medium_tank_chassis	}
+		}
+		dependencies = {
+			improved_light_tank_chassis = 1
 		}
 
 		research_cost = 2.5
-		start_year = 1941
+		start_year = 1940
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 8 }
+			position = { x = -4 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -515,7 +529,14 @@ technologies = {
 
 		path = {
 			leads_to_tech = improved_light_tank_chassis
-			research_cost_coeff = 0.9
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = improved_light_tank_chassis	}
+		}
+		dependencies = {
+			gwtank_chassis = 1
 		}
 
 		research_cost = 2.5
@@ -586,6 +607,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = advanced_light_tank_chassis
+			research_cost_coeff = 0.5
+		}
+		path = {
+			leads_to_tech = improved_heavy_tank_chassis
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = advanced_light_tank_chassis	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = improved_heavy_tank_chassis	}
+		}
+		dependencies = {
+			basic_medium_tank_chassis = 1
+		}
+
 		research_cost = 2.5
 		start_year = 1940
 
@@ -653,6 +693,18 @@ technologies = {
 		path = {
 			leads_to_tech = main_battle_tank_chassis
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = advanced_heavy_tank_chassis
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = advanced_heavy_tank_chassis	}
+		}
+		dependencies = {
+			improved_medium_tank_chassis = 1
 		}
 
 		research_cost = 2.5
@@ -848,6 +900,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = improved_medium_tank_chassis
+			research_cost_coeff = 0.5
+		}
+
+		dependencies = {
+			basic_heavy_tank_chassis = 1
+		}
+
 		research_cost = 2.5
 		start_year = 1940
 
@@ -898,6 +959,18 @@ technologies = {
 		path = {
 			leads_to_tech = main_battle_tank_chassis
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = advanced_medium_tank_chassis
+			research_cost_coeff = 0.5
+		}
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			bonus = 0.5	technology = advanced_medium_tank_chassis	}
+		}
+		dependencies = {
+			improved_heavy_tank_chassis = 1
 		}
 
 		research_cost = 2.5

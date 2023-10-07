@@ -24,7 +24,7 @@ focus_tree = {
 		id = equipment_effort
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = army_effort }
-		x = 0
+		x = 2
 		y = 1
 		cost = 10
 		completion_reward = {
@@ -37,7 +37,7 @@ focus_tree = {
 		id = armor_effort
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = army_effort }
-		x = 2
+		x = 0
 		y = 1
 		cost = 10
 		completion_reward = {
@@ -63,7 +63,7 @@ focus_tree = {
 		id = equipment_effort_2
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = equipment_effort focus = doctrine_effort }
-		x = 0
+		x = 2
 		y = 3
 		cost = 10
 		completion_reward = {
@@ -76,7 +76,7 @@ focus_tree = {
 		id = tank_module_effort
 		icon = GFX_focus_generic_tank_production
 		prerequisite = { focus = armor_effort focus = doctrine_effort }
-		x = 2
+		x = 0
 		y = 3
 		cost = 10
 		completion_reward = {
@@ -102,7 +102,7 @@ focus_tree = {
 		id = equipment_effort_3
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = equipment_effort_2 focus = doctrine_effort_2 }
-		x = 0
+		x = 2
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -115,7 +115,7 @@ focus_tree = {
 		id = amphibious_tank_effort
 		icon = GFX_goal_generic_amphibious_assault
 		prerequisite = { focus = tank_module_effort focus = doctrine_effort_2 }
-		x = 2
+		x = 0
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -167,7 +167,7 @@ focus_tree = {
 	focus = {
 		id = AC_eng_effort
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = aviation_effort_2  focus = armor_effort }
+		prerequisite = { focus = aviation_effort_2 focus = equipment_effort focus = light_guns_effort }
 		x = 4
 		y = 2
 		cost = 10
@@ -180,7 +180,7 @@ focus_tree = {
 	focus = {
 		id = AC_gun_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = aviation_effort_2 focus = screen_ship_effort }
+		prerequisite = { focus = aviation_effort_2 focus = equipment_effort focus = light_guns_effort }
 		x = 6
 		y = 2
 		cost = 10
@@ -191,23 +191,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = aviation_effort_3
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = aviation_effort_2 focus = AC_eng_effort focus = AC_gun_effort }
-		x = 5
-		y = 3
-		cost = 10
-
-		completion_reward = {
-			add_ideas = air_doctrine_research_bonus2
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
 		id = fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = AC_gun_effort focus = aviation_effort_3 focus = carrier_effort }
+		prerequisite = { focus = equipment_effort_2 focus = AC_eng_effort focus = AC_gun_effort focus = capital_ship_effort focus = screen_ship_effort }
 		x = 6
 		y = 4
 		cost = 10
@@ -220,7 +206,7 @@ focus_tree = {
 	focus = {
 		id = bomber_focus
 		icon = GFX_focus_usa_escort_fighters
-		prerequisite = { focus = AC_eng_effort focus = aviation_effort_3 }
+		prerequisite = { focus = equipment_effort_2 focus = AC_eng_effort focus = AC_gun_effort focus = capital_ship_effort focus = screen_ship_effort  }
 		x = 4
 		y = 4
 		cost = 10
@@ -233,7 +219,7 @@ focus_tree = {
 	focus = {
 		id = rocket_effort
 		icon = GFX_focus_rocketry
-		prerequisite = { focus = aviation_effort_3 focus = fighter_focus focus = bomber_focus }
+		prerequisite = { focus = aviation_effort_2 focus = AC_eng_effort focus = AC_gun_effort focus = fighter_focus focus = bomber_focus }
 		x = 5
 		y = 5
 		cost = 10
@@ -287,49 +273,21 @@ focus_tree = {
 	}
 
 	focus = {
-		id = naval_effort_2
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = naval_effort focus = screen_ship_effort focus = submarine_effort }
-		x = 9
-		y = 2
-		cost = 10
-
-		completion_reward = {
-			add_ideas = naval_doctrine_research_bonus_L
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = submarine_effort
-		icon = GFX_goal_generic_navy_submarine
+		id = light_guns_effort
+		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = naval_effort }
 		x = 8
 		y = 1
 		cost = 10
 
 		completion_reward = {
-			add_ideas = SS_research_bonus
+			add_ideas = light_guns_research_bonus
 		}
 		available_if_capitulated = yes
 	}
 
 	focus = {
-		id = carrier_effort
-		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = submarine_effort focus = naval_effort_2 }
-		x = 8
-		y = 3
-		cost = 10
-
-		completion_reward = {
-			add_ideas = carrier_research_bonus
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = screen_ship_effort
+		id = heavy_guns_effort
 		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = naval_effort }
 		x = 10
@@ -337,21 +295,35 @@ focus_tree = {
 		cost = 10
 
 		completion_reward = {
-			add_ideas = screen_ship_research_bonus
+			add_ideas = heavy_guns_research_bonus
 		}
 		available_if_capitulated = yes
 	}
 
 	focus = {
-		id = battleship_effort
-		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = screen_ship_effort focus = naval_effort_2 }
+		id = capital_ship_effort
+		icon = GFX_focus_generic_navy_battleship2
+		prerequisite = { focus = light_guns_effort focus = heavy_guns_effort }
+		x = 8
+		y = 3
+		cost = 10
+
+		completion_reward = {
+			add_ideas = capital_ship_research_bonus
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = screen_ship_effort
+		icon = GFX_focus_generic_destroyer
+		prerequisite = { focus = light_guns_effort focus = heavy_guns_effort }
 		x = 10
 		y = 3
 		cost = 10
 
 		completion_reward = {
-			add_ideas = battleships_research_bonus
+			add_ideas = screen_ship_research_bonus
 		}
 		available_if_capitulated = yes
 	}
@@ -522,7 +494,7 @@ focus_tree = {
 	focus = {
 		id = construction_effort_3
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = infrastructure_effort_2 focus = construction_effort_2 focus = battleship_effort }
+		prerequisite = { focus = infrastructure_effort_2 focus = construction_effort_2 focus = capital_ship_effort focus = screen_ship_effort }
 		x = 12
 		y = 5
 		cost = 10

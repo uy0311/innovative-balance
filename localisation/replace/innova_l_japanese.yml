@@ -389,20 +389,26 @@
  naval_doctrine_research_bonus_S_desc:0 "我々の海軍戦略の変化は、大型艦が海上の全てを支配する時代はとうに終わっていると敵に思い知らせるだろう。"
  naval_doctrine_research_bonus_L:0 "大規模な海軍戦略"
  naval_doctrine_research_bonus_L_desc:0 "従来の我々の海軍戦略は圧倒的な海上戦力を持つ保持する事である。 これは戦わずとも戦争に勝利可能な事を意味する"
- SS_research_bonus:0 "潜水艦技術の向上"
- SS_research_bonus_desc:0 "先の大戦で生まれて以来、潜水艦は進化し続けている分野の一つである。 この兵科の発展は次の戦争に役立つだろう。"
- screen_ship_effort:0 "直衛艦技術の向上"
- screen_ship_effort_desc:0 "直衛艦技術の向上"
+
+ light_guns_effort:0 "小型艤装技術への注力"
+ light_guns_effort_desc:0 "小型艦種の大型化、空からの新たな脅威への対抗の為にも怠ることが出来ない技術である。"
+ light_guns_research_bonus:0 "小型艤装技術の向上"
+ light_guns_research_bonus_desc:0 "小型艦種の大型化、空からの新たな脅威への対抗の為にも怠ることが出来ない技術である。"
+
+ heavy_guns_effort:0 "大型艤装技術への注力"
+ heavy_guns_effort_desc:0 "砲撃戦による敵艦隊の粉砕こそ、海上優勢を確保する唯一の手段である。"
+ heavy_guns_research_bonus:0 "大型艤装技術の向上"
+ heavy_guns_research_bonus_desc:0 "砲撃戦による敵艦隊の粉砕こそ、海上優勢を確保する唯一の手段である。"
+
+ capital_ship_effort:0 "主力艦への注力"
+ capital_ship_effort_desc:0 "海軍軍縮の時代は終わりを迎えた! より大型の主力艦の誕生は建艦競争を再開させた。 もはや新時代の到来を避けることはできないのだ…。"
+ capital_ship_research_bonus:0 "主力艦技術の向上"
+ capital_ship_research_bonus_desc:0 "海軍軍縮の時代は終わりを迎えた! より大型の主力艦の誕生は建艦競争を再開させた。 もはや新時代の到来を避けることはできないのだ…。"
+
+ screen_ship_effort:0 "直衛艦への注力"
+ screen_ship_effort_desc:0 "直衛艦は忠実な番犬が如く海上を走り、対潜掃討や艦隊護衛に従事する重要な存在である。 この分野の発展を放置する事はできない。"
  screen_ship_research_bonus:0 "直衛艦技術の向上"
  screen_ship_research_bonus_desc:0 "直衛艦は忠実な番犬が如く海上を走り、対潜掃討や艦隊護衛に従事する重要な存在である。 この分野の発展を放置する事はできない。"
- carrier_effort:0 "航空母艦への注力"
- carrier_effort_desc:0 "航空母艦への注力"
- carrier_research_bonus:0 "航空母艦への注力"
- carrier_research_bonus_desc:0 "戦艦は過ぎ去った過去の遺物である。海軍の未来は航空戦力の保有にあるのだ。"
- battleship_effort:0 "戦艦への注力"
- battleship_effort_desc:0 "戦艦への注力"
- battleships_research_bonus:0 "戦艦への注力"
- battleships_research_bonus_desc:0 "海軍軍縮の時代は終わりを迎えた! より大型の超弩級戦艦の誕生は建艦競争を再開させた。 もはや新大艦主義時代の到来を避けることはできないのだ…。"
 
  ###海軍研究速度バフ###
  ss_tech_research:0 "潜水艦研究速度"

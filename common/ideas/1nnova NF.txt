@@ -487,7 +487,7 @@ ideas = {
 			}
 		}
 
-		screen_ship_research_bonus = {
+		light_guns_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -501,33 +501,12 @@ ideas = {
 			picture = escort_effort_focus
 			
 			research_bonus = {
-				dd_tech = 0.80
-				cat_ship_light_battery = 0.80
-				cl_tech = 0.80
-				cat_ship_medium_battery = 0.80
-			}
-		}
-
-		SS_research_bonus = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			picture = the_long_lance
-			
-			research_bonus = {
-				ss_tech = 0.80
 				cat_torpedoes = 0.80
+				cat_ship_light_battery = 0.80
 			}
 		}
 
-		carrier_research_bonus = {
+		heavy_guns_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -538,14 +517,15 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = generic_navy_carrier_bonus
+			picture = idea_generic_the_london_naval_treaty
 			
 			research_bonus = {
-				cv_tech = 0.80
+				cat_ship_medium_battery = 0.80
+				cat_ship_heavy_battery = 0.80
 			}
 		}
 
-		battleships_research_bonus = {
+		capital_ship_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -560,7 +540,27 @@ ideas = {
 			
 			research_bonus = {
 				bb_tech = 0.80
-				cat_ship_heavy_battery = 0.80
+				cv_tech = 0.80
+			}
+		}
+
+		screen_ship_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = idea_generic_coastal_navy
+			
+			research_bonus = {
+				ss_tech = 0.80
+				dd_tech = 0.80
+				cl_tech = 0.80
 			}
 		}
 
