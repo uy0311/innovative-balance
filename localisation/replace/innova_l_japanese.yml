@@ -245,6 +245,9 @@
  fuel_tanks_small:0"追加燃料タンク"
  fuel_tanks_medium:0"追加燃料タンク"
  fuel_tanks_large:0"追加燃料タンク"
+ drop_tanks:0 "落下増槽"
+ drop_tanks_desc:0 "予備の燃料が入った小型の使い捨てタンクを搭載しておくことで、攻撃任務を担っている戦闘機が、いくらか飛行距離を伸ばすことができる。戦闘前に機体から切り離されるため、戦いの邪魔になることもない。"
+
  self_sealing_fuel_tanks_small:0"自働防漏タンク"
  self_sealing_fuel_tanks_medium:0"自働防漏タンク"
  self_sealing_fuel_tanks_large:0"自働防漏タンク"
