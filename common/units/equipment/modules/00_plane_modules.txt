@@ -989,9 +989,6 @@ equipment_modules = {
 			build_cost_ic = 2
 			weight = 200
 		}
-		multiply_stats = {
-			maximum_speed = -0.06
-		}
 		allow_mission_type = {
 			cas
 			attack_logistics
@@ -1005,6 +1002,9 @@ equipment_modules = {
 			add_stats = {
 				air_ground_attack = 4
 			}
+			multiply_stats = {
+				maximum_speed = -0.06
+			}
 		}
 		mission_type_stats = {
 			limit = {
@@ -1012,6 +1012,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 6
+			}
+			multiply_stats = {
+				maximum_speed = -0.06
 			}
 		}
 		mission_type_stats = {
@@ -1024,6 +1027,9 @@ equipment_modules = {
 			}
 			add_average_stats = {
 				naval_strike_targetting = 15
+			}
+			multiply_stats = {
+				maximum_speed = -0.06
 			}
 		}
 		dismantle_cost_ic = 0.5
@@ -1038,9 +1044,6 @@ equipment_modules = {
 			build_cost_ic = 2
 			weight = 200
 		}
-		multiply_stats = {
-			maximum_speed = -0.04
-		}
 		allow_mission_type = {
 			cas
 			attack_logistics
@@ -1052,6 +1055,9 @@ equipment_modules = {
 			add_stats = {
 				air_ground_attack = 6
 			}
+			multiply_stats = {
+				maximum_speed = -0.04
+			}
 		}
 		mission_type_stats = {
 			limit = {
@@ -1059,6 +1065,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 8
+			}
+			multiply_stats = {
+				maximum_speed = -0.04
 			}
 		}
 
@@ -1074,9 +1083,6 @@ equipment_modules = {
 			build_cost_ic = 2
 			weight = 500
 		}
-		multiply_stats = {
-			maximum_speed = -0.08
-		}
 		allow_mission_type = {
 			cas
 			attack_logistics
@@ -1090,6 +1096,9 @@ equipment_modules = {
 			add_stats = {
 				air_ground_attack = 8
 			}
+			multiply_stats = {
+				maximum_speed = -0.08
+			}
 		}
 		mission_type_stats = {
 			limit = {
@@ -1097,6 +1106,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 8
+			}
+			multiply_stats = {
+				maximum_speed = -0.08
 			}
 		}
 		mission_type_stats = {
@@ -1106,6 +1118,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 8
+			}
+			multiply_stats = {
+				maximum_speed = -0.08
 			}
 			add_average_stats = {
 				naval_strike_targetting = 10
@@ -1123,10 +1138,6 @@ equipment_modules = {
 			build_cost_ic = 4
 			weight = 1000
 		}
-
-		multiply_stats = {
-			maximum_speed = -0.1
-		}
 		
 		allow_mission_type = {
 			cas
@@ -1142,6 +1153,9 @@ equipment_modules = {
 			add_stats = {
 				air_ground_attack = 12
 			}
+			multiply_stats = {
+				maximum_speed = -0.1
+			}
 		}
 		mission_type_stats = {
 			limit = {
@@ -1149,6 +1163,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 8
+			}
+			multiply_stats = {
+				maximum_speed = -0.1
 			}
 		}
 		mission_type_stats = {
@@ -1158,6 +1175,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 10
+			}
+			multiply_stats = {
+				maximum_speed = -0.1
 			}
 			add_average_stats = {
 				naval_strike_targetting = 8
@@ -1169,6 +1189,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_bombing = 10
+			}
+			multiply_stats = {
+				maximum_speed = -0.1
 			}
 		}
 		dismantle_cost_ic = 7
@@ -1183,6 +1206,12 @@ equipment_modules = {
 			build_cost_ic = 6
 			weight = 2000
 		}
+		allow_mission_type = {
+			cas
+			naval_bomber
+			port_strike
+			strategic_bomber
+		}
 
 		mission_type_stats = {
 			limit = {
@@ -1190,6 +1219,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 16
+			}
+			multiply_stats = {
+				maximum_speed = -0.15
 			}
 		}
 		mission_type_stats = {
@@ -1199,6 +1231,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 16
+			}
+			multiply_stats = {
+				maximum_speed = -0.15
 			}
 			add_average_stats = {
 				naval_strike_targetting = 4
@@ -1211,17 +1246,9 @@ equipment_modules = {
 			add_stats = {
 				air_bombing = 30
 			}
-		}
-
-		multiply_stats = {
-			maximum_speed = -0.15
-		}
-
-		allow_mission_type = {
-			cas
-			naval_bomber
-			port_strike
-			strategic_bomber
+			multiply_stats = {
+				maximum_speed = -0.15
+			}
 		}
 		dismantle_cost_ic = 12
 	}
@@ -1309,10 +1336,6 @@ equipment_modules = {
 			build_cost_ic = 4
 			weight = 800
 		}
-
-		multiply_stats = {
-			maximum_speed = -0.24
-		}
 		
 		allow_mission_type = {
 			naval_bomber
@@ -1326,6 +1349,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 25
+			}
+			multiply_stats = {
+				maximum_speed = -0.24
 			}
 			add_average_stats = {
 				naval_strike_targetting = 10
@@ -1344,10 +1370,6 @@ equipment_modules = {
 			weight = 800
 		}
 
-		multiply_stats = {
-			maximum_speed = -0.12
-		}
-		
 		allow_mission_type = {
 			naval_bomber
 			port_strike
@@ -1360,6 +1382,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 25
+			}
+			multiply_stats = {
+				maximum_speed = -0.12
 			}
 			add_average_stats = {
 				naval_strike_targetting = 10
@@ -1404,10 +1429,6 @@ equipment_modules = {
 			build_cost_ic = 5
 			weight = 850
 		}
-
-		multiply_stats = {
-			maximum_speed = -0.06
-		}
 		
 		allow_mission_type = {
 			naval_bomber
@@ -1421,6 +1442,9 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 20
+			}
+			multiply_stats = {
+				maximum_speed = -0.06
 			}
 			add_average_stats = {
 				naval_strike_targetting = 15
@@ -1909,10 +1933,18 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			air_ground_attack = 0.04
 			air_bombing = 0.08
 		}
 
+		mission_type_stats = {
+			limit = {
+				cas
+				attack_logistics
+			}
+			multiply_stats = {
+				air_ground_attack = 0.04
+			}
+		}
 		mission_type_stats = {
 			limit = {
 				naval_bomber
@@ -1940,10 +1972,18 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			air_ground_attack = 0.08
 			air_bombing = 0.16
 		}
 
+		mission_type_stats = {
+			limit = {
+				cas
+				attack_logistics
+			}
+			multiply_stats = {
+				air_ground_attack = 0.08
+			}
+		}
 		mission_type_stats = {
 			limit = {
 				naval_bomber
@@ -1965,9 +2005,11 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_attack = 1
 			night_penalty = -0.1
 			build_cost_ic = 0.5
+		}
+		multiply_stats = {
+			air_attack = 0.01
 		}
 		allow_mission_type = {
 			interception
@@ -1976,8 +2018,8 @@ equipment_modules = {
 			limit = {
 				interception
 			}
-			add_stats = {
-				air_attack = 3
+			multiply_stats = {
+				air_attack = 0.03
 			}
 		}
 		
@@ -1991,9 +2033,11 @@ equipment_modules = {
 		parent = air_air_radar_1
 
 		add_stats = {
-			air_attack = 2
 			night_penalty = -0.2
 			build_cost_ic = 0.5
+		}
+		multiply_stats = {
+			air_attack = 0.02
 		}
 		allow_mission_type = {
 			interception
@@ -2002,8 +2046,8 @@ equipment_modules = {
 			limit = {
 				interception
 			}
-			add_stats = {
-				air_attack = 4
+			multiply_stats = {
+				air_attack = 0.04
 			}
 		}
 		
