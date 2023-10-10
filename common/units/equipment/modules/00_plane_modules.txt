@@ -1023,7 +1023,7 @@ equipment_modules = {
 				naval_strike_attack = 4
 			}
 			add_average_stats = {
-				naval_strike_targetting = 12
+				naval_strike_targetting = 15
 			}
 		}
 		dismantle_cost_ic = 0.5
@@ -1311,7 +1311,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			maximum_speed = -0.12
+			maximum_speed = -0.24
 		}
 		
 		allow_mission_type = {
@@ -1325,10 +1325,10 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				naval_strike_attack = 18
+				naval_strike_attack = 25
 			}
 			add_average_stats = {
-				naval_strike_targetting = 7.5
+				naval_strike_targetting = 10
 			}
 		}
 		dismantle_cost_ic = 1.5
@@ -1340,7 +1340,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 4.5
+			build_cost_ic = 4.0
 			weight = 800
 		}
 
@@ -1359,10 +1359,10 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				naval_strike_attack = 22
+				naval_strike_attack = 25
 			}
 			add_average_stats = {
-				naval_strike_targetting = 12.5
+				naval_strike_targetting = 10
 			}
 		}
 		dismantle_cost_ic = 1.5
@@ -1406,7 +1406,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			maximum_speed = -0.08
+			maximum_speed = -0.06
 		}
 		
 		allow_mission_type = {
@@ -1423,7 +1423,7 @@ equipment_modules = {
 				naval_strike_attack = 20
 			}
 			add_average_stats = {
-				naval_strike_targetting = 30
+				naval_strike_targetting = 15
 			}
 		}
 	}
