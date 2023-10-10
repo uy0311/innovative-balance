@@ -135,6 +135,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1440;13622;sea;5507;-1;-1;-1;-1;;Puerto Rico-St Thomas
 10203;9805;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
 1106;12001;sea;5913;-1;-1;-1;-1;;Lefkada-Epirus
+3401;4109;sea;6801;-1;-1;-1;-1;;Cyclades-Greece
 3401;7127;sea;6801;-1;-1;-1;-1;;Cyclades-Greece
 3401;13637;sea;6801;-1;-1;-1;-1;;Cyclades
 13641;6864;sea;7452;-1;-1;-1;-1;;Lesbos-Turkey
