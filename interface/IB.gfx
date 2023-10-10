@@ -204,11 +204,6 @@ spriteTypes = {
 		name = "GFX_hunt_and_destroy_0_medium"
 		texturefile = "gfx/interface/technologies/hunt_and_destroy_0.dds"
 	}
-
-	spriteType = {
-		name = "GFX_EMI_torpedo_mounting_2"
-		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_torpedo_2_icon.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_developed_sonar_medium"
@@ -352,12 +347,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_IB_planes"
-		texturefile = "gfx/texticons/IB_planes_20x20.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
 		name = "GFX_IB_ships"
 		texturefile = "gfx/texticons/IB_ships_20x20.dds"
 		legacy_lazy_load = no
@@ -397,6 +386,14 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	### air ###
+
+	spriteType = {
+		name = "GFX_IB_planes"
+		texturefile = "gfx/texticons/IB_planes_20x20.dds"
+		legacy_lazy_load = no
+	}
+
 	spriteType = {
 		name = "GFX_EMI_anti_tank_weapon"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_tank_buster_1_icon.dds"
@@ -408,4 +405,53 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_cannon_category_icon.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_EMI_torpedo_mounting_2"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_torpedo_2_icon.dds"
+	}
+
+	#concept
+
+	spriteType = {
+		name = "GFX_EMI_concept_fighter"
+		textureFile = "gfx/interface/strategicair/adjuster_air_superiority.dds"
+		
+	}
+
+	spriteType = {
+		name = "GFX_EMI_concept_cas"
+		textureFile = "gfx/interface/strategicair/adjuster_cas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_concept_naval_bomber"
+		textureFile = "gfx/interface/strategicair/adjuster_naval_bomber.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_concept_heavy_fighter"
+		textureFile = "gfx/interface/strategicair/adjuster_interception.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_concept_tactical_bomber"
+		textureFile = "gfx/interface/strategicair/adjuster_attack_logistics.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_concept_scout_plane"
+		textureFile = "gfx/interface/strategicair/adjuster_recon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_concept_strategic_bomber"
+		textureFile = "gfx/interface/strategicair/adjuster_strategic_bomber.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_concept_maritime_patrol_plane"
+		textureFile = "gfx/interface/strategicair/adjuster_naval_patrol.dds"
+	}
+
 }
