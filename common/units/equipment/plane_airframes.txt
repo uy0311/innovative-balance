@@ -857,7 +857,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -1068,7 +1067,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -1201,7 +1199,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -1335,7 +1332,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -1468,7 +1464,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -1730,7 +1725,7 @@ equipments = {
 		module_slots = inherit
 		priority = 5
 
-		air_range = 1200
+		air_range = 1500
 		thrust = 1300
 		air_agility = 20
 		air_defence = 12
@@ -1747,7 +1742,7 @@ equipments = {
 		parent = medium_plane_airframe_0
 		priority = 5
 
-		air_range = 1350
+		air_range = 1650
 		thrust = 1400
 		air_agility = 25
 		air_defence = 18
@@ -1878,7 +1873,7 @@ equipments = {
 		parent = medium_plane_airframe_1
 		priority = 5
 
-		air_range = 1500
+		air_range = 1800
 		thrust = 1500
 		air_agility = 35
 		air_defence = 24
@@ -2009,7 +2004,7 @@ equipments = {
 		parent = medium_plane_airframe_2
 		priority = 5
 
-		air_range = 1650
+		air_range = 1950
 		thrust = 1600
 		air_agility = 40
 		air_defence = 30
@@ -2140,7 +2135,7 @@ equipments = {
 		parent = medium_plane_airframe_3
 		priority = 5
 
-		air_range = 1800
+		air_range = 2100
 		thrust = 1700
 		air_agility = 50
 		air_defence = 36
