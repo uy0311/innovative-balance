@@ -66,6 +66,7 @@ technologies = {
 		}
 		recon = {
 			max_strength = 20.0
+			maximum_speed = -0.60
 		}
 		
 		enable_tactic = tactic_delay
