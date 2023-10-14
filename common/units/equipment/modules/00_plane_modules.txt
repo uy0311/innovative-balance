@@ -10,6 +10,11 @@ equipment_modules = {
 		category = light_plane_concept
 		sfx = light_plane_concept_fighter
 		add_equipment_type = fighter
+		
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -59,6 +64,11 @@ equipment_modules = {
 		sfx = medium_plane_concept_heavy_fighter
 		add_equipment_type = fighter
 
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+		
 		allowed_module_categories = {
 			special_type_slot_3 = {
 				fighter_weapon
@@ -782,8 +792,8 @@ equipment_modules = {
 			weight = 20
 		}
 		allow_mission_type = {
-			air_superiority
-			interception
+			#air_superiority
+			#interception
 		}
 		mission_type_stats = {
 			limit = {
@@ -808,8 +818,8 @@ equipment_modules = {
 			weight = 20
 		}
 		allow_mission_type = {
-			air_superiority
-			interception
+			#air_superiority
+			#interception
 		}
 		mission_type_stats = {
 			limit = {
@@ -834,8 +844,8 @@ equipment_modules = {
 			weight = 20
 		}
 		allow_mission_type = {
-			air_superiority
-			interception
+			#air_superiority
+			#interception
 		}
 		mission_type_stats = {
 			limit = {
@@ -860,8 +870,8 @@ equipment_modules = {
 			weight = 20
 		}
 		allow_mission_type = {
-			air_superiority
-			interception
+			#air_superiority
+			#interception
 		}
 		mission_type_stats = {
 			limit = {
@@ -886,8 +896,8 @@ equipment_modules = {
 			weight = 20
 		}
 		allow_mission_type = {
-			air_superiority
-			interception
+			#air_superiority
+			#interception
 		}
 		mission_type_stats = {
 			limit = {
@@ -912,8 +922,8 @@ equipment_modules = {
 			weight = 20
 		}
 		allow_mission_type = {
-			air_superiority
-			interception
+			#air_superiority
+			#interception
 		}
 		mission_type_stats = {
 			limit = {
@@ -939,8 +949,8 @@ equipment_modules = {
 			weight = 20
 		}
 		allow_mission_type = {
-			air_superiority
-			interception
+			#air_superiority
+			#interception
 		}
 		mission_type_stats = {
 			limit = {
@@ -966,8 +976,8 @@ equipment_modules = {
 			weight = 20
 		}
 		allow_mission_type = {
-			air_superiority
-			interception
+			#air_superiority
+			#interception
 		}
 		mission_type_stats = {
 			limit = {
