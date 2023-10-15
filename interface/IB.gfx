@@ -414,7 +414,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_EMI_plane_module_Lower_small"
-		textureFile = "gfx/interface/equipmentdesigner/planes/airplane_drop_tanks_icon.dds"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_drop_tanks_icon.dds"
 		legacy_lazy_load = no
 	}
 
