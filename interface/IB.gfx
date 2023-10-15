@@ -407,6 +407,30 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_EMI_bomb_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_bomb_lock_icon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_plane_module_Lower_small"
+		textureFile = "gfx/interface/equipmentdesigner/planes/airplane_drop_tanks_icon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_plane_module_Lower_medium"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_flying_boat_icon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_plane_module_Lower_large"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_flying_boat_icon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_EMI_torpedo_mounting_2"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_torpedo_2_icon.dds"
 	}
