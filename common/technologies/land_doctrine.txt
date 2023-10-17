@@ -3508,7 +3508,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		land_reinforce_rate = 0.13
-		conscription = 0.05
+		conscription = 0.02
 
 		infantry = {
 			combat_width = -0.4
@@ -3585,7 +3585,8 @@ technologies = {
 			default_morale = 0.20
 		}
 		
-		land_reinforce_rate = 0.05		
+		land_reinforce_rate = 0.05	
+		conscription = 0.01	
 		
 		path = {
 			leads_to_tech = large_front_offensive
@@ -3628,6 +3629,7 @@ technologies = {
 		army_bonus_air_superiority_factor = -1.00
 		enemy_army_bonus_air_superiority_factor = -0.75
 		air_cas_present_factor = -1.0
+		conscription = 0.02
 		
 		path = {
 			leads_to_tech = human_wave_offensive
