@@ -1760,7 +1760,7 @@ leader_traits = {
 		cost = 50
 		modifier = {
 			navy_carrier_air_targetting_factor = 0.1 # Airplanes from carriers has better naval targetting
-		#	sortie_efficiency = 0.1
+			sortie_efficiency = 0.1
 		}
 		
 		ai_will_do = {
@@ -2179,7 +2179,7 @@ leader_traits = {
 	flight_deck_manager = { 
 		type = navy
 		modifier = {
-			# sortie_efficiency = 0.1
+			 sortie_efficiency = 0.1
 		}
 				
 		slot = high_command
