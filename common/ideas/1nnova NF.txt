@@ -517,7 +517,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = idea_generic_the_london_naval_treaty
+			picture = generic_the_london_naval_treaty
 			
 			research_bonus = {
 				cat_ship_medium_battery = 0.80
@@ -555,7 +555,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = idea_generic_coastal_navy
+			picture = generic_coastal_navy
 			
 			research_bonus = {
 				ss_tech = 0.80
