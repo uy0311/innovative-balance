@@ -9,7 +9,7 @@ scripted_map_modes = {
 					set_temp_variable = { alpha = 1.0 }
 					if = {
 						limit = {
-							air_base > 8
+							air_base > 7
 						}
 						set_temp_variable = { red = 0.0 }
 						set_temp_variable = { green = 0.5 }
@@ -17,7 +17,7 @@ scripted_map_modes = {
 					}
 					else_if = {
 						limit = {
-							air_base > 5
+							air_base > 4
 						}
 						set_temp_variable = { red = 0.0 }
 						set_temp_variable = { green = 1.0 }
@@ -62,26 +62,6 @@ scripted_map_modes = {
 		bottom = {
 			type = none
 		}
-
-	#	bottom = {
-	#		type = country
-
-	#		color = {
-	#			set_temp_variable = { alpha = 0.25 }
-	#			set_temp_variable = { thickness = 10.0 }
-	#			set_temp_variable = { red = 0.0 }
-	#			set_temp_variable = { green = 0.0 }
-	#			set_temp_variable = { blue = 0.0 }
-	#		}
-
-	#		thickness = yes
-
-	#		targets = {
-	#			targets = { ROOT }
-	#			target_array = allies
-	#			target_array = enemies
-	#		}
-	#	}
 
 		far_text = country
 		near_text = state

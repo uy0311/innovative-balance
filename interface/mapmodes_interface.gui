@@ -480,7 +480,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_mapmode_buttons_deselected_small"
 				#shortcut = "y"
 				clicksound = ui_mapmode_infrastructure
-				shortcut = "F9"
+			#	shortcut = "F9"
 				pdx_tooltip_anchor =
 				{
 					x = -186
@@ -493,7 +493,7 @@ guiTypes = {
 				position = { x=608 y=151 }
 				quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 				#shortcut = "y"
-				shortcut = "F9"
+			#	shortcut = "F9"
 				pdx_tooltip_anchor =
 				{
 					x = -186
