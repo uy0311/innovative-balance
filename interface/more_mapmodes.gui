@@ -1,0 +1,29 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "more_mapmodes_air_base_map_mode_mapicons_window"
+		position = { x = -5  y = 0 }
+		size = { width = 10 height = 10 }
+
+		iconType = {
+			name = "background"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_mapicon_air_mission_bg_more_ground_crews"
+			frame = 2
+			scale = 0.72
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "level"
+			position = { x = 2 y = 6 }
+			font = "hoi_18mbs"
+			text = "[?building_level@air_base]"
+			format = center
+			maxWidth = 30
+			multiline = no
+			alwaystransparent = yes
+		}
+	}
+
+}
