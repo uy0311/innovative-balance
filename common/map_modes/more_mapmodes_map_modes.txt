@@ -1,0 +1,92 @@
+scripted_map_modes = {
+
+	more_mapmodes_air_base_map_mode = {
+		top = {
+			type = state
+
+			color = {
+				FROM = {
+					set_temp_variable = { alpha = 1.0 }
+					if = {
+						limit = {
+							air_base > 8
+						}
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.5 }
+						set_temp_variable = { blue = 0.0 }
+					}
+					else_if = {
+						limit = {
+							air_base > 5
+						}
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 1.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+					else_if = {
+						limit = {
+							air_base > 3
+						}
+						set_temp_variable = { red = 1.0 }
+						set_temp_variable = { green = 1.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+					else_if = {
+						limit = {
+							air_base > 1
+						}
+						set_temp_variable = { red = 1.0 }
+						set_temp_variable = { green = 0.59 }
+						set_temp_variable = { blue = 0.0 }
+					}
+					else_if = {
+						limit = {
+							air_base > 0
+						}
+						set_temp_variable = { red = 1.0 }
+						set_temp_variable = { green = 0.31 }
+						set_temp_variable = { blue = 0.0 }
+					}
+					else = {
+						set_temp_variable = { red = 1.0 }
+						set_temp_variable = { green = 0.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+				}
+			}
+
+			thickness = no
+
+		}
+
+		bottom = {
+			type = none
+		}
+
+	#	bottom = {
+	#		type = country
+
+	#		color = {
+	#			set_temp_variable = { alpha = 0.25 }
+	#			set_temp_variable = { thickness = 10.0 }
+	#			set_temp_variable = { red = 0.0 }
+	#			set_temp_variable = { green = 0.0 }
+	#			set_temp_variable = { blue = 0.0 }
+	#		}
+
+	#		thickness = yes
+
+	#		targets = {
+	#			targets = { ROOT }
+	#			target_array = allies
+	#			target_array = enemies
+	#		}
+	#	}
+
+		far_text = country
+		near_text = state
+
+		update_daily = yes
+	}
+
+}

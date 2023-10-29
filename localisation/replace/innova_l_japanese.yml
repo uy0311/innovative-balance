@@ -1,4 +1,12 @@
 ﻿l_japanese:
+
+ more_mapmodes_air_base_map_mode: "$空港$ レベル"
+ MAPMODE_MORE_MAPMODES_AIR_BASE_MAP_MODE: "§Y$空港マップモード$§!"
+ MAPMODE_MORE_MAPMODES_AIR_BASE_MAP_MODE_NAME: "$空網mapモード$"
+ MAPMODE_MORE_MAPMODES_AIR_BASE_MAP_MODE_DESCRIPTION: "おおよその空港レベルを表示します。"
+ more_mapmodes_air_base_map_mode_tooltip: "[From.Controller.GetMoreMapModesAirBaseMapModeTooltip]"
+ more_mapmodes_air_base_map_mode_tooltip_delayed: "[From.Controller.GetMoreMapModesAirBaseMapModeTooltipDelayed]"
+
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"
  STAT_AIR_SUPERIORITY:0 "制空値:"
  MODIFIER_AIR_SUPERIORITY_EFFICIENCY:0 "制空作戦効率"
