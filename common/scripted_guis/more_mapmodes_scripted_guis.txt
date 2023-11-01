@@ -64,15 +64,6 @@ scripted_gui = {
 			target_array = global.states
 			target_trigger = {
 				FROM = {
-					OR = {
-						is_controlled_by = ROOT
-						CONTROLLER = {
-							OR = {
-								has_war_with = ROOT
-								is_ally_with = ROOT
-							}
-						}
-					}
 					anti_air_building > 0
 				}
 			}
@@ -96,15 +87,6 @@ scripted_gui = {
 			target_array = global.states
 			target_trigger = {
 				FROM = {
-					OR = {
-						is_controlled_by = ROOT
-						CONTROLLER = {
-							OR = {
-								has_war_with = ROOT
-								is_ally_with = ROOT
-							}
-						}
-					}
 					air_base > 0
 				}
 			}
