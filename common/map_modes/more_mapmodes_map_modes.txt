@@ -445,19 +445,6 @@ scripted_map_modes = {
 
 			targets = {
 				target_array = global.states
-				target_trigger = {
-					FROM = {
-						OR = {
-							is_controlled_by = ROOT
-							CONTROLLER = {
-								OR = {
-									has_war_with = ROOT
-									is_ally_with = ROOT
-								}
-							}
-						}
-					}
-				}
 			}
 		}
 
@@ -543,7 +530,6 @@ scripted_map_modes = {
 			}
 
 			thickness = yes
-
 		}
 
 		bottom = {

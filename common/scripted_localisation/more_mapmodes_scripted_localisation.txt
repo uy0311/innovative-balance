@@ -235,24 +235,6 @@ defined_text = {
 
 	text = {
 		trigger = {
-			tag = ROOT
-		}
-		localization_key = more_mapmodes_anti_air_map_mode_tt_our_state
-	}
-	text = {
-		trigger = {
-			is_ally_with = ROOT
-		}
-		localization_key = more_mapmodes_anti_air_map_mode_tt_allied_state
-	}
-	text = {
-		trigger = {
-			has_war_with = ROOT
-		}
-		localization_key = more_mapmodes_anti_air_map_mode_tt_enemy_state
-	}
-	text = {
-		trigger = {
 			always = yes
 		}
 		localization_key = ""
