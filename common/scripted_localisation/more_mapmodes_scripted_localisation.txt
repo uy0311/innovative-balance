@@ -214,16 +214,6 @@ defined_text = {
 
 	text = {
 		trigger = {
-			OR = {
-				tag = ROOT
-				is_ally_with = ROOT
-				has_war_with = ROOT
-			}
-		}
-		localization_key = more_mapmodes_anti_air_map_mode_tt
-	}
-	text = {
-		trigger = {
 			always = yes
 		}
 		localization_key = ""
@@ -246,16 +236,6 @@ defined_text = {
 
 	text = {
 		trigger = {
-			OR = {
-				tag = ROOT
-				is_ally_with = ROOT
-				has_war_with = ROOT
-			}
-		}
-		localization_key = more_mapmodes_air_base_map_mode_tt
-	}
-	text = {
-		trigger = {
 			always = yes
 		}
 		localization_key = ""
@@ -265,24 +245,6 @@ defined_text = {
 defined_text = {
 	name = GetMoreMapModesAirBaseMapModeTooltipDelayed
 
-	text = {
-		trigger = {
-			tag = ROOT
-		}
-		localization_key = more_mapmodes_air_base_map_mode_tt_our_state
-	}
-	text = {
-		trigger = {
-			is_ally_with = ROOT
-		}
-		localization_key = more_mapmodes_air_base_map_mode_tt_allied_state
-	}
-	text = {
-		trigger = {
-			has_war_with = ROOT
-		}
-		localization_key = more_mapmodes_air_base_map_mode_tt_enemy_state
-	}
 	text = {
 		trigger = {
 			always = yes
