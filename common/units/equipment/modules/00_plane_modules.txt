@@ -1361,7 +1361,7 @@ equipment_modules = {
 				naval_strike_attack = 25
 			}
 			multiply_stats = {
-				maximum_speed = -0.24
+				maximum_speed = -0.30
 			}
 			add_average_stats = {
 				naval_strike_targetting = 10
@@ -1394,7 +1394,7 @@ equipment_modules = {
 				naval_strike_attack = 25
 			}
 			multiply_stats = {
-				maximum_speed = -0.12
+				maximum_speed = -0.20
 			}
 			add_average_stats = {
 				naval_strike_targetting = 10
