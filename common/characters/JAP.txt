@@ -667,7 +667,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { superior_tactician spotter air_controller }
+			traits = { superior_tactician spotter air_controller fly_swatter blue_water_expert navy_media_personality bold }
             skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
 			legacy_id=0
 		}
@@ -682,7 +682,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { superior_tactician spotter ironside }
+			traits = { superior_tactician spotter ironside bold }
 	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
@@ -806,7 +806,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { blockade_runner superior_tactician air_controller }
+			traits = { blockade_runner superior_tactician air_controller bold navy_career_officer craven }
 	        skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
 			legacy_id=0
 		}
