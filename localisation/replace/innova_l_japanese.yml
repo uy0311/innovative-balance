@@ -16,6 +16,10 @@
  IB_SCOUT_PLANE_TEXT:0 "艦上偵察機"
  IB_tank_design_bonus:0 "戦車設計局"
 
+
+ #提督
+ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
+
  #海軍艤装技術背景
  4inGun:0 "4in小型砲"
  5inGun:0 "5in小型砲"
