@@ -646,12 +646,12 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { navy_career_officer aviation_enthusiast caustic_personality blockade_runner superior_tactician }
+			traits = { navy_career_officer aviation_enthusiast blockade_runner superior_tactician }
 	        skill = 5
-	        attack_skill = 4
-	        defense_skill = 3
-	        maneuvering_skill = 3
-	        coordination_skill = 6
+	        attack_skill = 5
+	        defense_skill = 5
+	        maneuvering_skill = 5
+	        coordination_skill = 5
 			legacy_id=0
 		}
 	}
@@ -684,8 +684,8 @@ characters={
 		navy_leader={
 			traits = { gentlemanly blue_water_expert naval_lineage superior_tactician spotter }
 	        skill = 5
-	        attack_skill = 3
-	        defense_skill = 3
+	        attack_skill = 5
+	        defense_skill = 5
 	        maneuvering_skill = 5
 	        coordination_skill = 5
 			legacy_id=0
@@ -700,13 +700,28 @@ characters={
 				small="gfx/interface/ideas/idea_USA_william_halsey_jr.dds"
 			}
 		}
+		advisor={
+			slot = high_command
+			idea_token = william_halsey_jr
+			ledger = air
+			allowed = {
+				original_tag = USA
+			}
+			traits = {
+				navy_carrier_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 		navy_leader={
 			traits={ bold aviation_enthusiast superior_tactician spotter }
 			skill=4
-			attack_skill=5
-			defense_skill=3
-			maneuvering_skill=3
-			coordination_skill=2
+			attack_skill=4
+			defense_skill=4
+			maneuvering_skill=4
+			coordination_skill=4
 			legacy_id=0
 		}
 	}
@@ -721,27 +736,12 @@ characters={
 				large="gfx/leaders/USA/Portrait_USA_Frank_Jack_Fletcher.dds"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = frank_jack_fletcher
-			ledger = air
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				navy_carrier_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 		
 		navy_leader={
-			traits = { gunnery_expert superior_tactician spotter }
+			traits = {  ironside superior_tactician spotter }
 	        skill = 3
-	        attack_skill = 2
-	        defense_skill = 2
+	        attack_skill = 3
+	        defense_skill = 3
 	        maneuvering_skill = 3
 	        coordination_skill = 3
 			legacy_id=0
@@ -757,12 +757,12 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { navy_career_officer gentlemanly superior_tactician }
+			traits = { gunnery_expert navy_career_officer gentlemanly superior_tactician }
 	        skill = 4
 	        attack_skill = 4
-	        defense_skill = 3
-	        maneuvering_skill = 3
-	        coordination_skill = 3
+	        defense_skill = 4
+	        maneuvering_skill = 4
+	        coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -779,7 +779,7 @@ characters={
 			traits = { cuts_corners blockade_runner spotter }
 	        skill = 2
 	        attack_skill = 2
-	        defense_skill = 1
+	        defense_skill = 2
 	        maneuvering_skill = 2
 	        coordination_skill = 2
 			legacy_id=0
@@ -795,11 +795,11 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { bold fleet_protector old_guard_navy superior_tactician }
+			traits = { bold fleet_protector superior_tactician }
 	        skill = 4
-	        attack_skill = 3
-	        defense_skill = 3
-	        maneuvering_skill = 3
+	        attack_skill = 4
+	        defense_skill = 4
+	        maneuvering_skill = 4
 	        coordination_skill = 4
 			legacy_id=0
 		}
@@ -814,12 +814,12 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ career_officer }
+			traits={ career_officer seawolf }
 			skill=2
-			attack_skill=1
-			defense_skill=1
+			attack_skill=2
+			defense_skill=2
 			maneuvering_skill=2
-			coordination_skill=3
+			coordination_skill=2
 			legacy_id=0
 		}
 	}

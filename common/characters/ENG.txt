@@ -610,7 +610,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ navy_career_officer aviation_enthusiast superior_tactician air_controller }
+			traits={ navy_career_officer aviation_enthusiast superior_tactician air_controller blue_water_expert }
 			skill=5
 			attack_skill=5
 			defense_skill=5
@@ -628,21 +628,6 @@ characters={
 			}
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Henry_Harwood.dds"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = henry_harwood
-			ledger = navy
-			allowed = {
-				original_tag = ENG
-			}
-			traits = {
-				navy_screen_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 0.700
 			}
 		}
 		
@@ -702,7 +687,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ naval_lineage blockade_runner }
+			traits={ naval_lineage blockade_runner ironside superior_tactician }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -750,21 +735,38 @@ characters={
 		}
 	}
 
-	ENG_john_cunningham={
-		name=ENG_john_cunningham
+	ENG_bertram_home_ramsay={
+		name=ENG_bertram_home_ramsay
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_John_Cunningham.dds"
-				small="gfx/interface/ideas/idea_ENG_john_cunningham.dds"
+				large="gfx/leaders/ENG/Bertram_Home_Ramsay.dds"
+				small="gfx/interface/ideas/idea_ENG_generic_navy_1.dds"
 			}
 		}
+
+		advisor={
+			slot = high_command
+			idea_token = bertram_home_ramsay
+			ledger = navy
+			allowed = {
+				original_tag = ENG
+			}
+			traits = {
+				navy_screen_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.700
+			}
+		}
+
 		navy_leader={
-			traits={  }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			maneuvering_skill=4
-			coordination_skill=4
+			traits={ arctic_water_expert green_water_expert fleet_protector superior_tactician blockade_runner ground_pounder navy_media_personality }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
 			legacy_id=989
 		}
 	}
