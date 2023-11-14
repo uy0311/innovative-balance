@@ -3512,11 +3512,14 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
+		supply_consumption_factor = -0.05
+		out_of_supply_factor = -0.20
 		land_reinforce_rate = 0.13
 		conscription = 0.02
 
 		infantry = {
 			combat_width = -0.4
+			default_morale = 0.20
 		}
 		
 		category_all_infantry = {
@@ -3582,9 +3585,6 @@ technologies = {
 	human_infantry_offensive = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		infantry = {
-			default_morale = 0.20
-		}
 
 		category_all_infantry = {
 			default_morale = 0.20
@@ -3631,10 +3631,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		army_bonus_air_superiority_factor = -1.00
 		enemy_army_bonus_air_superiority_factor = -0.75
+		army_bonus_air_superiority_factor = -1.00
 		air_cas_present_factor = -1.0
 		conscription = 0.02
+		land_reinforce_rate = 0.05
 		
 		path = {
 			leads_to_tech = human_wave_offensive
@@ -3682,6 +3683,9 @@ technologies = {
 
 		enable_tactic = tactic_human_wave_tactics
 
+		supply_consumption_factor = -0.05
+		land_reinforce_rate = 0.05
+
 		armored_car = {
 			combat_width = -0.5
 			max_organisation = 15
@@ -3726,15 +3730,15 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		out_of_supply_factor = -0.25
-		attrition = -0.25 #take 10% less attrition losses
-		resistance_damage_to_garrison_on_our_occupied_states = 0.1 #10% more partisan effects 
-		resistance_growth_on_our_occupied_states = 0.25 
+		supply_consumption_factor = -0.05
+		out_of_supply_factor = -0.20
+		attrition = -0.5
+		resistance_damage_to_garrison_on_our_occupied_states = 0.25  
+		resistance_growth_on_our_occupied_states = 0.4 
 
 		category_army = {
 			default_morale = 0.2
 		}
-
 		
 		enable_tactic = tactic_guerrilla_tactics
 		
