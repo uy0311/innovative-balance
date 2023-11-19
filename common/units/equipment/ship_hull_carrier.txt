@@ -317,7 +317,7 @@ equipments = {
 		naval_speed = 11
 		surface_visibility = 23.5
 
-		build_cost_ic = 2700
+		build_cost_ic = 4000
 		resources = {
 			steel = 4
 			chromium = 1
@@ -387,7 +387,7 @@ equipments = {
 		surface_visibility = 14.5
 		reliability = 0.65
 		naval_speed = 13
-		build_cost_ic = 2700
+		build_cost_ic = 3500
 		resources = {
 			steel = 3
 		}

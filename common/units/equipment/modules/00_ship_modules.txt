@@ -2767,7 +2767,7 @@ equipment_modules = {
 		}
 		manpower = 100#500 #outside the add_stats section for code reasons
 		multiply_stats = {
-			naval_speed = -0.20
+			naval_speed = -0.175
 		}
 		build_cost_resources = {
 			steel = 1
