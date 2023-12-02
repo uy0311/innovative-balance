@@ -1248,6 +1248,9 @@ equipment_modules = {
 			build_cost_ic = 12
 			weight = 2000
 		}
+		multiply_stats = {
+			maximum_speed = -0.08
+		}
 		allow_mission_type = {
 			cas
 			naval_bomber
@@ -1828,7 +1831,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = 10
 			build_cost_ic = 4
 			weight = 80
 		}
@@ -1848,7 +1850,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		multiply_stats = {
-			air_defence = 0.3
+			air_defence = -0.3
 			build_cost_ic = -0.075
 		}
 		build_cost_resources = {
