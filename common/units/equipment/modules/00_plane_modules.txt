@@ -1727,7 +1727,7 @@ equipment_modules = {
 			weight = 60
 		}
 		multiply_stats = {
-			air_defence = -0.4
+			air_defence = 0.4
 		}
 		build_cost_resources = {
 			rubber = 2
