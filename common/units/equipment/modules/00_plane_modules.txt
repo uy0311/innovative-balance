@@ -1248,9 +1248,6 @@ equipment_modules = {
 			build_cost_ic = 12
 			weight = 2000
 		}
-		multiply_stats = {
-			maximum_speed = -0.08
-		}
 		allow_mission_type = {
 			cas
 			naval_bomber
