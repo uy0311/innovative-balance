@@ -136,6 +136,15 @@ equipment_modules = {
 		multiply_stats = {
 			air_superiority = -0.667
 		}
+		
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_ground_attack = -0.75
+			}
+		}
 	}
 
 	concept_maritime_patrol_plane = {
@@ -1828,7 +1837,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = 10
 			build_cost_ic = 4
 			weight = 80
 		}
@@ -1848,7 +1856,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		multiply_stats = {
-			air_defence = 0.3
+			air_defence = -0.3
 			build_cost_ic = -0.075
 		}
 		build_cost_resources = {
