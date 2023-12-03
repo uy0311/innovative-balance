@@ -21,6 +21,8 @@
 ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
 
  #海軍艤装技術背景
+ EQ_MOD_SLOT_fixed_ship_sonar_slot_TITLE:0 "ソナー"
+
  4inGun:0 "4in小型砲"
  5inGun:0 "5in小型砲"
  5HinGun:0 "5.5in中型砲"

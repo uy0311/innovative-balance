@@ -961,7 +961,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 1000
+			build_cost_ic = 900
 			max_strength = 30
 			hg_attack = 18
 			naval_heavy_gun_hit_chance_factor = 0.025
@@ -1026,7 +1026,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 1000
+			build_cost_ic = 900
 			max_strength = 30
 			hg_attack = 18
 			naval_heavy_gun_hit_chance_factor = 0.025
@@ -1085,7 +1085,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 1300
+			build_cost_ic = 1170
 			max_strength = 35
 			hg_attack = 20
 			naval_heavy_gun_hit_chance_factor = -0.03
@@ -1158,7 +1158,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 1300
+			build_cost_ic = 1170
 			max_strength = 35
 			hg_attack = 20
 			naval_heavy_gun_hit_chance_factor = 0.02
@@ -1217,7 +1217,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 1500
+			build_cost_ic = 1350
 			max_strength = 40
 			hg_attack = 24
 			naval_heavy_gun_hit_chance_factor = -0.085
@@ -1290,7 +1290,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 1500
+			build_cost_ic = 1350
 			max_strength = 40
 			hg_attack = 24
 			naval_heavy_gun_hit_chance_factor = 0.015
@@ -1349,7 +1349,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 1800
+			build_cost_ic = 1620
 			max_strength = 45
 			hg_attack = 26
 			naval_heavy_gun_hit_chance_factor = -0.14
@@ -1422,7 +1422,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 1800
+			build_cost_ic = 1620
 			max_strength = 45
 			hg_attack = 26
 			naval_heavy_gun_hit_chance_factor = 0.01
