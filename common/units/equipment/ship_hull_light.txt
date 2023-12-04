@@ -100,6 +100,7 @@ equipments = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_sonar_slot = empty
 			fixed_ship_torpedo_slot = empty
 		}
 		
@@ -162,8 +163,9 @@ equipments = {
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
-			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
 
 			front_1_custom_slot = {
 				required = no
@@ -231,8 +233,9 @@ equipments = {
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
-			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
 
 			front_1_custom_slot = {
 				required = no
@@ -311,8 +314,10 @@ equipments = {
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
-			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
