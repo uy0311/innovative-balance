@@ -1592,7 +1592,16 @@ technologies = {
 			max_organisation = 10
 		}
 		enable_tactic = tactic_backhand_blow
-			
+		
+		fighter = {
+			air_ground_attack = 0.1
+		}
+		jet_fighter = {
+			air_ground_attack = 0.1
+		}
+		category_heavy_fighter = {
+			air_ground_attack = 0.1
+		}
 		#combat advantage when air superior
 
 		army_bonus_air_superiority_factor = 1.0
