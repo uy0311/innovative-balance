@@ -1416,7 +1416,7 @@ NNavy = {
 	COMBAT_DETECTED_CONVOYS_FROM_SURFACE_DETECTION_STAT = 0.1,		-- Each 1.0 of surface_detection that ship has (equipment stat), gives x% of convoys discovered from total travelling along the route.
 	COMBAT_BASE_CRITICAL_CHANCE = 0.01,								-- Base chance for receiving a critical chance. It get's scaled down with ship reliability.
 	COMBAT_CRITICAL_DAMAGE_MULT = 5.0,								-- Multiplier for the critical damage. Scaled down with the ship reliability.
-	COMBAT_ARMOR_PIERCING_CRITICAL_BONUS = 9.0,						-- Bonus to critical chance when shooter armor piercing is higher then target armor.
+	COMBAT_ARMOR_PIERCING_CRITICAL_BONUS = 19.0,						-- Bonus to critical chance when shooter armor piercing is higher then target armor.
 	COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.8,					-- All damage reduction % when target armor is >= then shooter armor piercing.
 	REPAIR_AND_RETURN_PRIO_LOW = 0.2,								-- % of total Strength. When below, navy will go to home base to repair.
 	REPAIR_AND_RETURN_PRIO_MEDIUM = 0.5,							-- % of total Strength. When below, navy will go to home base to repair.
@@ -1788,8 +1788,8 @@ NNavy = {
 
 	MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE 			= 0.66,	-- damage reduction for incoming air attacks is clamped to this value at maximum.
 
-	CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT							= 0.9,	-- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits
-	CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR					= 0.9,	-- the game will roll between 0-1 and will damage a random part if below this val on air critical hits
+	CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT							= 0.5,	-- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits
+	CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR					= 0.25,	-- the game will roll between 0-1 and will damage a random part if below this val on air critical hits
 
 	SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS 					= 3.0,	-- this screen ratio to num capital/carriers is needed for full screening beyond screen line
 	SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS 					= 0.4,	-- this screen ratio to num convoys is needed for full screening beyond screen line
