@@ -667,13 +667,13 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
 			idea_token = chester_nimitz
 			allowed = {
 				original_tag = USA
 			}
 			traits = {
-				navy_chief_commerce_raiding_2
+				navy_carrier_3
 			}
 			cost = 100
 			ai_will_do = {
@@ -682,7 +682,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { gentlemanly blue_water_expert naval_lineage superior_tactician spotter }
+			traits = { gentlemanly blue_water_expert naval_lineage air_controller superior_tactician spotter }
 	        skill = 5
 	        attack_skill = 5
 	        defense_skill = 5
@@ -701,14 +701,14 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = navy_chief
 			idea_token = william_halsey_jr
 			ledger = air
 			allowed = {
 				original_tag = USA
 			}
 			traits = {
-				navy_carrier_2
+				navy_chief_maneuver_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -716,7 +716,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ bold aviation_enthusiast superior_tactician spotter }
+			traits={ bold aviation_enthusiast inshore_fighter blue_water_expert blockade_runner superior_tactician spotter }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -738,7 +738,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits = {  ironside superior_tactician spotter }
+			traits = { navy_career_officer chief_engineer superior_tactician spotter }
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 3
@@ -756,8 +756,23 @@ characters={
 				small="gfx/interface/ideas/idea_USA_raymond_a_spruance.dds"
 			}
 		}
+		advisor={
+			slot = navy_chief
+			idea_token = raymond_a_spruance
+			ledger = air
+			allowed = {
+				original_tag = USA
+			}
+			traits = {
+				navy_chief_commerce_raiding_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 		navy_leader={
-			traits = { gunnery_expert navy_career_officer gentlemanly superior_tactician }
+			traits = { gunnery_expert navy_career_officer gentlemanly superior_tactician fly_swatter }
 	        skill = 4
 	        attack_skill = 4
 	        defense_skill = 4
@@ -999,28 +1014,7 @@ characters={
 
 	# Nimitz up there
 
-	USA_william_halsey={
-		name=USA_william_halsey
-		portraits={
-			army={
-				small="GFX_idea_william_halsey"
-			}
-		}
-		advisor={
-			slot = navy_chief
-			idea_token = william_halsey
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				navy_chief_naval_aviation_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
+
 
 
 	### AIR CHIEFS
