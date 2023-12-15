@@ -2082,9 +2082,9 @@ technologies = {
 			mechanized_equipment_2
 		}
 		
-		motorized = {
-			hardness = 1.0
-		}
+	#	motorized = {
+	#		hardness = 1.0
+	#	}
 	#	mot_artillery_brigade = {
 	#		hardness = 1.0
 	#	}
@@ -2132,9 +2132,9 @@ technologies = {
 			mechanized_equipment_3
 		}
 
-		motorized = {
-			hardness = 1.0
-		}
+	#	motorized = {
+	#		hardness = 1.0
+	#	}
 	#	mot_artillery_brigade = {
 	#		hardness = 1.0
 	#	}

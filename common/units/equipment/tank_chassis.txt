@@ -148,7 +148,7 @@ equipments = {
 		maximum_speed = 4
 		build_cost_ic = 1.5
 		reliability = 0.4
-		hardness = 0.8
+		hardness = 0.85
 		armor_value = 5
 		resources = {
 			steel = 1
@@ -660,7 +660,7 @@ equipments = {
 		build_cost_ic = 3.75
 		reliability = 0.5
 		armor_value = 40
-		hardness = 0.85
+		hardness = 0.90
 		resources = {
 			steel = 1
 		}
@@ -1102,7 +1102,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1115,7 +1114,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1128,7 +1126,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1139,12 +1136,6 @@ equipments = {
 			category = tank_radio_module
 			count < 2
 		}
-
-	    module_count_limit = {
-	    	category = tank_secondary_turret
-	    	count < 2
-	    }
-
 	    module_count_limit = {
 	    	module = additional_frontal_armor
 	    	count < 2
@@ -1288,7 +1279,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1301,7 +1291,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1314,7 +1303,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1385,7 +1373,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1398,7 +1385,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1411,7 +1397,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 					tank_coaxial_module
@@ -1425,7 +1410,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1491,7 +1475,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1504,7 +1487,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1517,7 +1499,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1530,7 +1511,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1603,7 +1583,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1616,7 +1595,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1629,7 +1607,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -1642,7 +1619,6 @@ equipments = {
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
-					tank_secondary_turret
 					tank_special_module
 					tank_coaxial_module
 				}
@@ -2197,7 +2173,7 @@ equipments = {
 
 	    module_count_limit = {
 	    	category = tank_secondary_turret
-	    	count < 3
+	    	count < 2
 	    }
 
 	    module_count_limit = {
@@ -2281,7 +2257,7 @@ equipments = {
 		maximum_speed = 4
 		build_cost_ic = 4.5
 		reliability = 0.55
-		armor_value = 20
+		armor_value = 40
 		hardness = 0.85
 		resources = {
 			steel = 1

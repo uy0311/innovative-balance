@@ -1865,6 +1865,10 @@ technologies = {
 		
 		air_cas_present_factor = 0.45
 		
+		cv_fighter = {
+			air_ground_attack = 0.1
+		}
+
 		category_front_line = {
 			max_organisation = 10
 		}
