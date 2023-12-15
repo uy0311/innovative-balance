@@ -34,7 +34,7 @@ sub_units = {
 		supply_consumption = 0.42
 
 		#Line artillery bonuses
-	#	soft_attack = 0.5
+		hardness = -0.1
 		breakthrough = -0.75
 	#	armor_value = -0.25
 
@@ -64,7 +64,7 @@ sub_units = {
 			movement = -0.2
 		}
 		amphibious = { 
-			attack = -0.6
+			attack = -0.4
 		}
 	}
 	
@@ -101,7 +101,7 @@ sub_units = {
 		supply_consumption = 0.46
 
 		#Line artillery bonuses
-	#	soft_attack = 0.5
+		hardness = -0.1
 		breakthrough = -0.75
 	#	armor_value = -0.25
 
@@ -172,7 +172,7 @@ sub_units = {
 		supply_consumption = 0.6
 
 		#Line artillery bonuses
-	#	soft_attack = 0.5
+		hardness = -0.1
 		breakthrough = -0.75
 	#	armor_value = -0.25
 
@@ -205,7 +205,7 @@ sub_units = {
 			movement = -0.4
 		}
 		amphibious = { 
-			attack = -0.8 
+			attack = -0.9
 		}
 	}
 	
@@ -244,7 +244,7 @@ sub_units = {
 		supply_consumption = 0.8
 
 		#Line artillery bonuses
-	#	soft_attack = 0.5
+		hardness = -0.1
 		breakthrough = -0.75
 	#	armor_value = -0.25
 
@@ -315,7 +315,7 @@ sub_units = {
 		supply_consumption = 0.5
 		
 		#Line artillery bonuses
-	#	soft_attack = 0.5
+		hardness = -0.1
 		breakthrough = -0.75
 	#	armor_value = -0.25
 

@@ -898,7 +898,7 @@ technologies = {
 
 		research_cost = 3.0
 
-		start_year = 1938
+		start_year = 1937
 
 		on_research_complete = {
 			custom_effect_tooltip = ib_triplegun_tt
@@ -906,7 +906,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 10 y = 10 }
+			position = { x = 10 y = 9 }
 		}
 
 		categories = {

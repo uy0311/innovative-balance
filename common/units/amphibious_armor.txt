@@ -37,18 +37,17 @@ sub_units = {
 		supply_consumption = 0.2
 
 		forest = {
-			attack = -0.2
+			attack = -0.3
 			movement = -0.4
 		}
-		mountain = 	{
-			attack = -0.1
+		hills = 	{
+		    attack = -0.1
 		}
-		plains = {
-			attack = -0.1
-			movement = -0.1
+		mountain = 	{
+			attack = -0.2
 		}
 		jungle = {
-			attack = -0.3
+			attack = -0.4
 			movement = -0.4
 		}
 		urban = {
@@ -63,6 +62,9 @@ sub_units = {
 		}
 		amphibious = {
 			attack = 1.8
+		}
+		fort = {
+			attack = 0.1
 		}
 	}
 
@@ -109,10 +111,6 @@ sub_units = {
 		}
 		mountain = 	{
 		    attack = -0.1
-		}
-		plains = {
-			attack = -0.1
-			movement = -0.1
 		}
 		jungle = {
 		    attack = -0.3
@@ -180,10 +178,6 @@ sub_units = {
 		mountain = 	{
 		    attack = -0.2
 		}
-		plains = {
-			attack = -0.1
-			movement = -0.1
-		}
 		jungle = {
 		    attack = -0.4
 			movement = -0.4
@@ -249,10 +243,6 @@ sub_units = {
 		}
 		mountain = 	{
 		    attack = -0.3
-		}
-		plains = {
-			attack = -0.1
-			movement = -0.1
 		}
 		jungle = {
 		    attack = -0.6
