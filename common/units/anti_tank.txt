@@ -44,6 +44,7 @@ sub_units = {
 		breakthrough = -0.4
 		soft_attack = -0.7
 		hard_attack = -0.7
-		ap_attack = -0.15
+		ap_attack = -0.30
+		
 	}
 }

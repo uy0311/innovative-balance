@@ -1014,15 +1014,11 @@ technologies = {
 	sup_delay = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_light_infantry = {
+		category_all_infantry = {
 			max_organisation = 10
 		}
 		
 		enable_tactic = tactic_delay
-		
-		enable_equipment_modules = {
-			IB_tank_heavy_machine_gun
-		}
 		
 		path = {
 			leads_to_tech = mobile_defence 
@@ -1114,7 +1110,11 @@ technologies = {
 		}
 
 		category_line_artillery = {
-			default_morale = 0.20
+			default_morale = 0.30
+		}
+
+		enable_equipment_modules = {
+			IB_tank_heavy_machine_gun
 		}
 
 		path = {
@@ -1233,16 +1233,20 @@ technologies = {
 		}
 		
 		artillery = {
-			default_morale = 0.4
+			default_morale = 0.5
 		}
 		rocket_artillery = {
-			default_morale = 0.4
+			default_morale = 0.5
 		}
 		anti_tank = {
-			default_morale = 0.4
+			default_morale = 0.5
 		}
 		anti_air = {
-			default_morale = 0.4
+			default_morale = 0.5
+		}
+
+		enable_equipment_modules = {
+			IB_tank_heavy_machine_gun
 		}
 		
 		path = {
@@ -1352,9 +1356,29 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_all_armor = {
-			breakthrough = 0.10
+			breakthrough = 0.15
+			defense = 0.15
 		}
-		
+		light_tank_destroyer_brigade = {
+			breakthrough = 0.20
+			defense = 0.20
+		}
+		medium_tank_destroyer_brigade = {
+			breakthrough = 0.20
+			defense = 0.20
+		}
+		heavy_tank_destroyer_brigade = {
+			breakthrough = 0.20
+			defense = 0.20
+		}
+		super_heavy_tank_destroyer_brigade = {
+			breakthrough = 0.20
+			defense = 0.20
+		}
+		modern_tank_destroyer_brigade = {
+			breakthrough = 0.20
+			defense = 0.20
+		}
 		
 		enable_tactic = tactic_blitz
 		
@@ -1468,6 +1492,16 @@ technologies = {
 			hard_attack = 0.10
 			soft_attack = 0.10
 		}
+
+		motorized = {
+			defense = 0.10
+		}
+		mechanized = {
+			defense = 0.10
+		}
+		amphibious_mechanized = {
+			defense = 0.10
+		}
 		
 		enable_tactic = tactic_breakthrough
 		
@@ -1519,14 +1553,8 @@ technologies = {
 		xp_unlock_cost = 100
 		land_reinforce_rate = 0.02
 	
-		motorized = {
-			defense = 0.10
-		}
-		mechanized = {
-			defense = 0.10
-		}
-		amphibious_mechanized = {
-			defense = 0.10
+		category_front_line = {
+			max_organisation = 10
 		}
 
 		field_hospital = {
@@ -1588,10 +1616,8 @@ technologies = {
 	air_land_battle = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_front_line = {
-			max_organisation = 10
-		}
-		enable_tactic = tactic_backhand_blow
+
+		army_bonus_air_superiority_factor = 1.0
 		
 		fighter = {
 			air_ground_attack = 0.1
@@ -1602,9 +1628,8 @@ technologies = {
 		category_heavy_fighter = {
 			air_ground_attack = 0.1
 		}
-		#combat advantage when air superior
 
-		army_bonus_air_superiority_factor = 1.0
+		enable_tactic = tactic_backhand_blow
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -1650,50 +1675,11 @@ technologies = {
 			concentrated_fire_plans
 		}
 
-		artillery_brigade = {
-			fort = {
-				attack = 0.2
-			}
-			urban = {
-				attack = 1
-			}
-			amphibious = {
-				attack = 0.4
-			}
+		category_line_artillery = {
+			breakthrough = 0.60
+			defense = 0.40
 		}
-		mot_artillery_brigade = {
-			fort = {
-				attack = 0.2
-			}
-			urban = {
-				attack = 1
-			}
-			amphibious = {
-				attack = 0.4
-			}
-		}
-		rocket_artillery_brigade = {
-			fort = {
-				attack = 0.2
-			}
-			urban = {
-				attack = 1
-			}
-			amphibious = {
-				attack = 0.4
-			}
-		}
-		mot_rocket_artillery_brigade = {
-			fort = {
-				attack = 0.2
-			}
-			urban = {
-				attack = 1
-			}
-			amphibious = {
-				attack = 0.4
-			}
-		}
+
 		path = {
 			leads_to_tech = forward_observers 
 			research_cost_coeff = 1
@@ -1809,7 +1795,8 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_artillery = {
-			max_organisation = 20
+			max_organisation = 30
+			initiative = 0.01
 		}
 		
 		path = {
@@ -2072,9 +2059,8 @@ technologies = {
 
 		naval_invasion_planning_bonus_speed = 5.0
 
-		category_army = {
-			breakthrough = 0.10
-			soft_attack = 0.05
+		category_light_infantry = {
+			breakthrough = 0.60
 		}
 		
 		enable_tactic = tactic_planned_attack
@@ -2135,23 +2121,25 @@ technologies = {
 	
 		motorized = {
 			max_organisation = 10
-			breakthrough = 0.3
+			breakthrough = 0.20
 			default_morale = 0.1
+			initiative = 0.01
 		}
 		armored_car = {
 			max_organisation = 10
-			breakthrough = 0.3
+			breakthrough = 0.20
 			default_morale = 0.1
+			initiative = 0.01
 		}
 		mechanized = {
 			max_organisation = 10
-			breakthrough = 0.3
+			breakthrough = 0.20
 			default_morale = 0.1
-
+			initiative = 0.01
 		}
 		amphibious_mechanized = {
 			max_organisation = 10
-			breakthrough = 0.3
+			breakthrough = 0.20
 			default_morale = 0.1
 		}
 		
@@ -2287,8 +2275,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_special_forces = {
-			max_organisation  = 20
+		category_light_infantry = {
+			max_organisation  = 10
 			default_morale = 0.1
 		}
 		category_all_armor = {
@@ -2345,7 +2333,8 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_special_forces = {
-			max_organisation = 10
+			max_organisation = 20
+			breakthrough = 0.20
 			initiative = 0.01
 		}
 		
@@ -2654,7 +2643,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_light_infantry = {
-			breakthrough = 0.3
+			breakthrough = 0.2
 			default_morale = 0.1
 		}
 
@@ -2712,7 +2701,7 @@ technologies = {
 		land_night_attack = 0.25 # negates half of base penalty
 	
 		infantry = {
-			breakthrough = 0.3
+			breakthrough = 0.2
 			max_organisation = 10
 			default_morale = 0.1
 		}
@@ -3463,6 +3452,7 @@ technologies = {
 
 		category_army = {
 			default_morale = 0.05
+			breakthrough = 0.05
 		}
 		category_all_armor = {
 			maximum_speed = 0.05
