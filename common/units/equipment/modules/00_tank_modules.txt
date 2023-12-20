@@ -83,7 +83,7 @@ equipment_modules = {
 		xp_cost = 0#8
 		multiply_stats = {
 			hardness = -0.10
-			maximum_speed = -0.04
+			maximum_speed = -0.20
 		}
 	}
 
@@ -103,6 +103,7 @@ equipment_modules = {
 		multiply_stats = {
 			hardness = -0.10
 			armor_value = 0.40
+			maximum_speed = -0.08
 		}
 	}
 
@@ -117,7 +118,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			maximum_speed = -0.04
+			maximum_speed = -0.12
 		}
 	}
 
@@ -153,7 +154,7 @@ equipment_modules = {
 		multiply_stats = {
 			armor_value = 0.60
 			build_cost_ic = 0.05
-			maximum_speed = -0.04
+			maximum_speed = -0.08
 		}
 	}
 
@@ -168,7 +169,7 @@ equipment_modules = {
 		xp_cost = 0#8
 		multiply_stats = {
 			build_cost_ic = 0.10
-			maximum_speed = -0.04
+			maximum_speed = -0.12
 		}
 	}
 
@@ -206,7 +207,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.15
 			armor_value = 0.60
-			maximum_speed = -0.04
+			maximum_speed = -0.08
 		}
 	}
 
@@ -927,7 +928,7 @@ equipment_modules = {
 			ap_attack = 40
 			build_cost_ic = 1.2
 			reliability = -0.1
-			breakthrough = 2
+			breakthrough = 3.5
 			defense = 1
 		}
 		multiply_stats = {
@@ -951,7 +952,7 @@ equipment_modules = {
 			ap_attack = 60
 			build_cost_ic = 1.5
 			reliability = -0.1
-			breakthrough = 2
+			breakthrough = 3.5
 			defense = 1
 		}
 		multiply_stats = {
@@ -1004,7 +1005,7 @@ equipment_modules = {
 			ap_attack = 60
 			build_cost_ic = 2.0
 			reliability = -0.15
-			breakthrough = 4
+			breakthrough = 5
 			defense = 2
 		}
 		multiply_stats = {
@@ -1034,7 +1035,7 @@ equipment_modules = {
 			ap_attack = 90
 			build_cost_ic = 2
 			reliability = -0.15
-			breakthrough = 4
+			breakthrough = 5
 			defense = 2
 		}
 		multiply_stats = {
@@ -1064,7 +1065,7 @@ equipment_modules = {
 			ap_attack = 125
 			build_cost_ic = 2.5
 			reliability = -0.15
-			breakthrough = 6
+			breakthrough = 7.5
 			defense = 3
 		}
 		multiply_stats = {
@@ -1214,7 +1215,7 @@ equipment_modules = {
 			ap_attack = 90
 			build_cost_ic = 1.7
 			reliability = -0.05
-			breakthrough = 2
+			breakthrough = 3.5
 			defense = 1
 		}
 		multiply_stats = {
@@ -1243,7 +1244,7 @@ equipment_modules = {
 			ap_attack = 125
 			build_cost_ic = 2.3
 			reliability = -0.175
-			breakthrough = 4
+			breakthrough = 5
 			defense = 2
 		}
 		multiply_stats = {
@@ -1272,7 +1273,7 @@ equipment_modules = {
 			ap_attack = 170
 			build_cost_ic = 2.7
 			reliability = -0.2
-			breakthrough = 6
+			breakthrough = 7.5
 			defense = 3
 		}
 		multiply_stats = {
@@ -1302,7 +1303,7 @@ equipment_modules = {
 			ap_attack = 90
 			build_cost_ic = 2.5
 			reliability = -0.25
-			breakthrough = 6
+			breakthrough = 7.5
 			defense = 3
 		}
 		multiply_stats = {
@@ -1332,7 +1333,7 @@ equipment_modules = {
 			ap_attack = 125
 			build_cost_ic = 3.0
 			reliability = -0.25
-			breakthrough = 8
+			breakthrough = 9
 			defense = 4
 		}
 		multiply_stats = {
@@ -1362,7 +1363,7 @@ equipment_modules = {
 			ap_attack = 170
 			build_cost_ic = 4
 			reliability = -0.25
-			breakthrough = 8
+			breakthrough = 9
 			defense = 4
 		}
 		multiply_stats = {
@@ -1423,7 +1424,7 @@ equipment_modules = {
 			ap_attack = 170
 			build_cost_ic = 4.0
 			reliability = -0.35
-			breakthrough = 10
+			breakthrough = 11.5
 			defense = 5
 		}
 		multiply_stats = {
@@ -1505,8 +1506,8 @@ equipment_modules = {
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			defense = 0.25
-			breakthrough = 0.15
+			defense = 0.20
+			breakthrough = 0.1
 		}
 	}
 
@@ -1521,8 +1522,8 @@ equipment_modules = {
 			initiative = 0.01
 		}
 		multiply_stats = {
-			defense = 0.45
-			breakthrough = 0.30
+			defense = 0.40
+			breakthrough = 0.20
 		}
 	}
 
@@ -1538,8 +1539,8 @@ equipment_modules = {
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			defense = 0.65
-			breakthrough = 0.45
+			defense = 0.60
+			breakthrough = 0.30
 		}
 	}
 
@@ -1738,8 +1739,8 @@ equipment_modules = {
 		multiply_stats = {
 			hardness = 0.10
 			maximum_speed = -0.04
-			breakthrough = 0.15
-			defense = 0.15
+			breakthrough = 0.1
+			defense = 0.1
 		}
 	}
 	
