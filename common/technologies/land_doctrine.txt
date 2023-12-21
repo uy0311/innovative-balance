@@ -2701,7 +2701,7 @@ technologies = {
 		land_night_attack = 0.25 # negates half of base penalty
 	
 		infantry = {
-			breakthrough = 0.2
+			breakthrough = 0.4
 			max_organisation = 10
 			default_morale = 0.1
 		}
