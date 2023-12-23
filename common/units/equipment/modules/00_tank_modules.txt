@@ -1455,7 +1455,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.2
 			soft_attack = 2
-			defense = 2
 		}
 		xp_cost = 0#1
 		multiply_stats = {
@@ -1470,7 +1469,7 @@ equipment_modules = {
 
 		add_stats = {
 			soft_attack = 2
-			defense = 2
+			defense = 1
 			build_cost_ic = 0.3
 		}
 		xp_cost = 0#1
@@ -1554,12 +1553,12 @@ equipment_modules = {
 		forbid_equipment_type = {anti_air artillery anti_tank flame}
 
 		add_stats = {
-			build_cost_ic = 2.0
+			build_cost_ic = 3.0
 			reliability = -0.10
 			soft_attack = 6
-			breakthrough = 4
-			defense = 2
-			maximum_speed = -2.0
+			breakthrough = 2
+			defense = 1
+			maximum_speed = -3.0
 		}
 		xp_cost = 0#1
 		multiply_stats = {
@@ -1573,13 +1572,13 @@ equipment_modules = {
 		forbid_equipment_type = {anti_air artillery anti_tank flame }
 
 		add_stats = {
-			build_cost_ic = 2
+			build_cost_ic = 3.0
 			reliability = -0.15
 			soft_attack = 5
 			hard_attack = 6
-			breakthrough = 4
-			defense = 2
-			maximum_speed = -2.0
+			breakthrough = 2
+			defense = 1
+			maximum_speed = -3.0
 		}
 		xp_cost = 0#1
 		multiply_stats = {
@@ -1790,7 +1789,7 @@ equipment_modules = {
 
 		add_stats = {
 			fuel_capacity = 200
-			build_cost_ic = 0.5
+			build_cost_ic = 0.3
 		}
 		xp_cost = 0#3
 		multiply_stats = {
