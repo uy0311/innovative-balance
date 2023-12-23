@@ -493,7 +493,7 @@ characters={
 				original_tag = HUN
 			}
 			traits = {
-				air_chief_ground_support_2
+				air_chief_safety_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -516,7 +516,7 @@ characters={
 				original_tag = HUN
 			}
 			traits = {
-				air_air_combat_training_1
+				air_chief_reform_2 
 			}
 			cost =  50
 			ai_will_do = {
