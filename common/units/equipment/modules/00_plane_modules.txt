@@ -1084,7 +1084,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 4
-				air_defence = -3
+				air_defence = -1.5
 			}
 		}
 		mission_type_stats = {
@@ -1093,7 +1093,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 6
-				air_defence = -3
+				air_defence = -1.5
 			}
 		}
 		mission_type_stats = {
@@ -1103,7 +1103,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 4
-				air_defence = -3
+				air_defence = -1.5
 			}
 			add_average_stats = {
 				naval_strike_targetting = 15
@@ -1168,7 +1168,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 8
-				air_defence = -4
+				air_defence = -2
 			}
 		}
 		mission_type_stats = {
@@ -1177,7 +1177,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 8
-				air_defence = -4
+				air_defence = -2
 			}
 		}
 		mission_type_stats = {
@@ -1187,7 +1187,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_attack = 8
-				air_defence = -4
+				air_defence = -2
 			}
 			add_average_stats = {
 				naval_strike_targetting = 10
