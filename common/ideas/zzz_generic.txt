@@ -576,7 +576,7 @@ ideas = {
 		generic_communist_revolutionary = {
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = TUR tag = MAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = TUR } }
 				NOT = {
 					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
 				}
@@ -593,7 +593,7 @@ ideas = {
 				}
 			}
 			
-			traits = { war_industrialist  }
+			traits = { war_industrialist }
 	
 			ai_will_do = {
 				factor = 0
@@ -603,7 +603,7 @@ ideas = {
 		generic_democratic_reformer = {
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = AUS tag = CHI tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = TUR tag = MAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = AUS tag = CHI tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = TUR } }
 				NOT = {
 					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
 				}
@@ -653,7 +653,7 @@ ideas = {
 			}
 		}
 	
-			generic_head_of_intelligence = {
+		generic_head_of_intelligence = {
 			allowed = { 
 				always = no
 			}

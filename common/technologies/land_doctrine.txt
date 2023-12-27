@@ -2002,6 +2002,7 @@ technologies = {
 	prepared_defense = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+
 		category_all_infantry = {
 			max_organisation = 10
 		}
@@ -2489,8 +2490,9 @@ technologies = {
 		}
 		
 		infantry = {
+			breakthrough = 0.40
 			max_organisation = 10
-			initiative = 0.01
+			default_morale = 0.05
 		}
 		
 		enable_tactic = tactic_infantry_charge
@@ -2635,9 +2637,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		category_light_infantry = {
-			breakthrough = 0.2
-			default_morale = 0.1
+		infantry = {
+			breakthrough = 0.10
+			max_organisation = 10
+			default_morale = 0.05
+			initiative = 0.01
 		}
 
 		land_reinforce_rate = 0.05
@@ -2692,10 +2696,9 @@ technologies = {
 		xp_unlock_cost = 100
 		#reduce land night combat penalty
 		land_night_attack = 0.25 # negates half of base penalty
-	
-		infantry = {
-			breakthrough = 0.4
-			max_organisation = 10
+
+		category_light_infantry = {
+			breakthrough = 0.2
 			default_morale = 0.1
 		}
 
