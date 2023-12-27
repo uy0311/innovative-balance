@@ -3,7 +3,7 @@ characters={
 		name=MAN_aisin_gioro_puyi
 		portraits={
 			civilian={
-				large="gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+				large=GFX_portrait_MAN_aisin_gioro_puyi
 			}
 		}
 		country_leader={
@@ -27,19 +27,6 @@ characters={
 				small="GFX_idea_MAN_zhang_haipeng"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = MAN_zhang_haipeng
-			allowed = {
-				original_tag = MAN
-			}
-			traits = {
-				war_industrialist 
-			}
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 		corps_commander={
 			traits = { commando hill_fighter }
 			skill=3
@@ -58,20 +45,6 @@ characters={
 				small="GFX_idea_MAN_zhang_jinghui"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = MAN_zhang_jinghui
-			cost = 150
-			allowed = {
-				original_tag = MAN
-			}
-			traits = {
-				captain_of_industry 
-			}
-			ai_will_do = {
-				factor = 2.000
-			}
-		}
 		corps_commander={
 			traits={ infantry_officer trickster }
 			skill=3
@@ -87,20 +60,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_man_aisin_gioro_xiqia"
-				small="gfx/interface/ideas/idea_MAN_aisin_gioro_xiqia.dds"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = MAN_aisin_gioro_xiqia
-			allowed = {
-				original_tag = MAN
-			}
-			traits = {
-				silent_workhorse
-			}
-			ai_will_do = {
-				factor = 0.000
+				small="GFX_idea_MAN_aisin_gioro_xiqia"
 			}
 		}
 		field_marshal={
@@ -132,35 +92,55 @@ characters={
 			legacy_id=-1
 		}
 	}
-	MAN_zhao_shangzhi={
+
+	MAN_zhao_shangzhi = {
 		name=MAN_zhao_shangzhi
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+				small="GFX_idea_generic_political_advisor_asia_2"
 			}
 		}
-		country_leader={
-			ideology=conservatism
-			traits={  }
-			expire="1956.1.1.12"
-			id=-1
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_zhao_shangzhi
+			allowed = {
+				original_tag = MAN
+			}
+			traits = { silent_workhorse  }
 		}
 	}
-	MAN_changlin_linge={
-		name=MAN_changlin_linge
+	MAN_megata_toshiro = {
+		name=MAN_megata_toshiro
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+				small="GFX_idea_generic_political_advisor_asia_2"
 			}
 		}
-		country_leader={
-			ideology=anti_revisionism
-			traits={  }
-			expire="1941.1.1.12"
-			id=-1
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_megata_toshiro
+			allowed = {
+				original_tag = MAN
+			}
+			traits = { captain_of_industry }
 		}
 	}
-
+	MAN_songgotu_zhanshan = {
+		name=MAN_songgotu_zhanshan
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_1"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_songgotu_zhanshan
+			allowed = {
+				original_tag = MAN
+			}
+			traits = { war_industrialist }
+		}
+	}
 
 	### THEORISTS ###
 

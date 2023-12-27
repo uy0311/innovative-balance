@@ -193,7 +193,7 @@ ideas = {
 			picture = generic_army_war_college
 			
 			modifier = {
-				max_command_power = 25
+				max_command_power = 20
 			}
 		}
 
@@ -425,7 +425,24 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
+		
+		MAN_hoankyoku_idea = {
+
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				operative_slot = 1
+			}
+		}
+		
 	}
+
 
 	aircraft_manufacturer = {
 		designer = yes
@@ -477,7 +494,6 @@ ideas = {
 				factor = 1
 			}
 		}
-
 		MAN_mamc_medium = {
 
 			picture = generic_air_manufacturer_1
@@ -508,7 +524,6 @@ ideas = {
 				factor = 1
 			}
 		}
-
 		MAN_mamc_heavy = {
 
 			picture = generic_air_manufacturer_1
@@ -541,7 +556,6 @@ ideas = {
 		}
 
 	}
-
 	industrial_concern = {
 		MAN_south_manchuria_railway_company = {
 
@@ -565,4 +579,6 @@ ideas = {
 			}
 		}
 	}
+
+
 }
