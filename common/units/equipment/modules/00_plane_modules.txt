@@ -1131,7 +1131,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 6
-				air_defence = -2
+				air_defence = -1
 			}
 		}
 		mission_type_stats = {
@@ -1140,7 +1140,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				air_ground_attack = 8
-				air_defence = -2
+				air_defence = -1
 			}
 		}
 
