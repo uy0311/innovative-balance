@@ -5251,7 +5251,7 @@ leader_traits = {
 	base_strike = {
 		sprite = 14
 	    equipment_bonus = {
-			cv_nav_bomber_equipment = {
+			cv_small_plane_naval_bomber_airframe = {
 				instant = yes
 				naval_strike_targetting = 0.10
 			}
