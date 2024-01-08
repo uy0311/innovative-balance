@@ -788,7 +788,7 @@ equipments = {
 		interface_category = interface_category_air
 		
 		interface_overview_category_index = 1
-		air_superiority = 0.75
+		air_superiority = 0.5
 		reliability = 0.8
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
