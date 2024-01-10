@@ -402,7 +402,7 @@ NCountry = {
 	BASE_FUEL_GAIN = 2.0,							-- base amount of fuel gained hourly, independent of excess oil
 	BASE_FUEL_CAPACITY = 2500000,						-- base amount of fuel capacity
 
-	SCORCHED_EARTH_STATE_COST = 100,					-- pp cost to scorch a state
+	SCORCHED_EARTH_STATE_COST = 25,					-- pp cost to scorch a state
 
 	COUNTRY_MANPOWER_CAPITULATED_FREE_POOL_FACTOR = 0.1,	-- Factor on amount of normal manpower left for an exiled nation with no territory.
 	COUNTRY_MANPOWER_CAPITULATED_CORE_GAIN_FACTOR = 0.001,	-- Factor on amount of normal manpower gained for the exile nation. From owned states that are controlled by an enemy. State manpower reduced by factor 1000 in code.
@@ -563,7 +563,7 @@ NProduction = {
 	CONVOY_MAX_NAV_FACTORIES_PER_LINE = 150,
 	CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10,
 	MAX_MIL_FACTORIES_PER_LINE = 150,
-	RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 5,
+	RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 10,
 	RAILWAY_GUN_REPAIR_SPEED = 8.0,			-- Railway gun strength repair speed per factory
 	EFFICIENCY_LOSS_PER_UNUSED_DAY = 1,		-- Daily loss of efficiency for unused factory slots ( efficiency is tracked per factory slot in the production line )
 	RESOURCE_PENALTY_WARNING_CRITICAL_RATIO =  0.8, -- Switch to red progress bar if penalty is over threshold
