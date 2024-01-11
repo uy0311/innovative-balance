@@ -1441,9 +1441,9 @@ NNavy = {
 	CONVOY_SINKING_SPILLOVER = 0.5,                 				-- Damaged convoys roll for if they sink in the end of combat by accumulating the damage. This scales that chance.
 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 10,
 	UNIT_EXPERIENCE_SCALE = 1,
-	EXPERIENCE_FACTOR_CONVOY_ATTACK = 0.04,
-	EXPERIENCE_FACTOR_NON_CARRIER_GAIN = 0.04,						-- Xp gain by non-carrier ships in the combat
-	EXPERIENCE_FACTOR_CARRIER_GAIN = 0.04,							-- Xp gain by carrier ships in the combat
+	EXPERIENCE_FACTOR_CONVOY_ATTACK = 0.015,
+	EXPERIENCE_FACTOR_NON_CARRIER_GAIN = 0.015,						-- Xp gain by non-carrier ships in the combat
+	EXPERIENCE_FACTOR_CARRIER_GAIN = 0.015,							-- Xp gain by carrier ships in the combat
 	FIELD_EXPERIENCE_SCALE = 0.15,
 	FIELD_EXPERIENCE_MAX_PER_DAY = 100,								-- Most xp you can gain per day
 	LEADER_EXPERIENCE_SCALE = 1.0,
@@ -1486,7 +1486,7 @@ NNavy = {
 
 	NAVAL_TRANSFER_DAMAGE_REDUCTION = 0.25,							-- its hard to specifically balance 1-tick naval strikes vs unit transports so here is a factor for it
 	CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 0,							-- hours from start of combat when carriers get to fight
-	CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 6,                          -- hours from start of combat when only carriers, capitals and subs get to attack
+	CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 2,                          -- hours from start of combat when only carriers, capitals and subs get to attack
 	ALL_SHIPS_ACTIVATE_TIME = 8,                                    -- hours where all get to attack
 
 	MINIMUM_SHIP_SPEED = 1.0,										-- slowest speed a ship can have
