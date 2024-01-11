@@ -7320,9 +7320,9 @@ leader_traits = {
 	
 	navy_chief_decisive_battle_1 = {
 		sprite = 3
-		navy_capital_ship_attack_factor = 0.05
+		naval_heavy_gun_hit_chance_factor = 0.05
 		#navy_capital_ship_defence_factor = 0.05
-		navy_screen_attack_factor = 0.05
+		naval_light_gun_hit_chance_factor = 0.05
 		#navy_screen_defence_factor = 0.05
 		experience_gain_navy = 0.75
 		
@@ -7335,9 +7335,9 @@ leader_traits = {
 	
 	navy_chief_decisive_battle_2 = {
 		sprite = 3
-		navy_capital_ship_attack_factor = 0.1
+		naval_heavy_gun_hit_chance_factor = 0.1
 		#navy_capital_ship_defence_factor = 0.1
-		navy_screen_attack_factor = 0.1
+		naval_light_gun_hit_chance_factor = 0.1
 		#navy_screen_defence_factor = 0.1
 		experience_gain_navy = 0.75
 		
@@ -7350,9 +7350,9 @@ leader_traits = {
 	
 	navy_chief_decisive_battle_3 = {
 		sprite = 3
-		navy_capital_ship_attack_factor = 0.15
+		naval_heavy_gun_hit_chance_factor = 0.15
 		#navy_capital_ship_defence_factor = 0.15
-		navy_screen_attack_factor = 0.15
+		naval_light_gun_hit_chance_factor = 0.15
 		#navy_screen_defence_factor = 0.15
 		experience_gain_navy = 0.75
 		
@@ -7671,7 +7671,7 @@ leader_traits = {
 
 	navy_capital_ship_1 = {
 		sprite = 3
-		navy_capital_ship_attack_factor = 0.05
+		naval_heavy_gun_hit_chance_factor = 0.05
 		#navy_capital_ship_defence_factor = 0.05
 		##experience_gain_navy = 0.09
 		
@@ -7684,7 +7684,7 @@ leader_traits = {
 
 	navy_capital_ship_2 = {
 		sprite = 3
-		navy_capital_ship_attack_factor = 0.1
+		naval_heavy_gun_hit_chance_factor = 0.10
 		#navy_capital_ship_defence_factor = 0.1
 		##experience_gain_navy = 0.09
 		
@@ -7697,7 +7697,7 @@ leader_traits = {
 
 	navy_capital_ship_3 = {
 		sprite = 3
-		navy_capital_ship_attack_factor = 0.15
+		naval_heavy_gun_hit_chance_factor = 0.15
 		#navy_capital_ship_defence_factor = 0.15
 		##experience_gain_navy = 0.09
 		
@@ -7711,7 +7711,7 @@ leader_traits = {
 
 	navy_screen_1 = {
 		sprite = 3
-		navy_screen_attack_factor = 0.05
+		naval_light_gun_hit_chance_factor = 0.05
 		#navy_screen_defence_factor = 0.1
 		##experience_gain_navy = 0.09
 		
@@ -7724,7 +7724,7 @@ leader_traits = {
 
 	navy_screen_2 = {
 		sprite = 3
-		navy_screen_attack_factor = 0.1
+		naval_light_gun_hit_chance_factor = 0.10
 		#navy_screen_defence_factor = 0.15
 		##experience_gain_navy = 0.09
 		
@@ -7737,7 +7737,7 @@ leader_traits = {
 
 	navy_screen_3 = {
 		sprite = 3
-		navy_screen_attack_factor = 0.15
+		naval_light_gun_hit_chance_factor = 0.15
 		#navy_screen_defence_factor = 0.2
 		##experience_gain_navy = 0.09
 		

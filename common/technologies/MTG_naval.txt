@@ -778,7 +778,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1938
 
@@ -1112,7 +1112,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1941
 
@@ -1153,7 +1153,7 @@ technologies = {
 			custom_effect_tooltip = heavy_armor_advice_tt
 		}
 
-		research_cost = 1.5
+		research_cost = 2.0
 
 		start_year = 1944
 
@@ -1547,7 +1547,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 13 }
+			position = {  x = -1 y = 14 }
 		}
 
 		ai_will_do = {
@@ -1596,7 +1596,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 19 }
+			position = {  x = -1 y = 20 }
 		}
 
 		ai_will_do = {
