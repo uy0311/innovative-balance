@@ -1779,17 +1779,20 @@ leader_traits = {
 		}
 		cost = 1
 		sub_unit_modifiers = {
+			submarine = {
+				naval_torpedo_cooldown_factor = -0.60
+			}
 			destroyer = {
-		#		naval_hit_chance = 1.00
+				naval_torpedo_cooldown_factor = -0.40
 				naval_torpedo_hit_chance_factor = 0.4
 			}
-		#	light_cruiser = {
-		#		naval_hit_chance = 0.33
-		#		naval_torpedo_hit_chance_factor = -0.33
-		#	}
-			submarine = {
-				naval_torpedo_cooldown_factor = -0.25
+			light_cruiser = {
+				naval_torpedo_cooldown_factor = -0.40
 			}
+			heavy_cruiser = {
+				naval_torpedo_cooldown_factor = -0.20
+			}
+
 		}	
 
 		ai_will_do = {
@@ -1894,20 +1897,9 @@ leader_traits = {
 	loading_drill_master = { 
 		type = navy
 		modifier = {
-			naval_torpedo_cooldown_factor = -0.25
+			naval_torpedo_cooldown_factor = -0.10
 		}
-		
-	#	sub_unit_modifiers = {
-	#		destroyer = {
-	#			naval_torpedo_cooldown_factor = -0.25
-	#		}
-	#		light_cruiser = {
-	#			naval_torpedo_cooldown_factor = -0.25
-	#		}
-	#		heavy_cruiser = {
-	#			naval_torpedo_cooldown_factor = -0.25
-	#		}
-	#	}	
+	
 		ai_will_do = {
 			factor = 0
 		}
