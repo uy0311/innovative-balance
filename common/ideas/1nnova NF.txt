@@ -114,7 +114,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.05
+				production_speed_industrial_complex_factor = 0.03
 			}
 		}
 		
@@ -133,7 +133,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.07
+				production_speed_industrial_complex_factor = 0.05
 			}
 		}
 		
@@ -153,7 +153,7 @@ ideas = {
 			picture = can_wartime_prices_and_trade_board
 			
 			modifier = {
-				production_speed_buildings_factor = 0.08
+				production_speed_buildings_factor = 0.07
 			}
 		}
 		ib_wartime_industry_focus_1 = {

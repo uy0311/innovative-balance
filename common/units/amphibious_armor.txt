@@ -63,9 +63,6 @@ sub_units = {
 		amphibious = {
 			attack = 1.8
 		}
-		fort = {
-			attack = 0.1
-		}
 	}
 
 	amphibious_light_armor = {
