@@ -1235,7 +1235,7 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			army_armor_defence_factor = 0.10 
+			army_armor_defence_factor = 0.10
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -1780,18 +1780,18 @@ leader_traits = {
 		cost = 1
 		sub_unit_modifiers = {
 			submarine = {
-				naval_torpedo_cooldown_factor = -0.60
+				naval_torpedo_cooldown_factor = -0.90
 			}
 			destroyer = {
-				naval_torpedo_cooldown_factor = -0.40
-				naval_torpedo_hit_chance_factor = 0.4
+		#		naval_torpedo_cooldown_factor = -0.25
+				naval_torpedo_hit_chance_factor = 0.2
 			}
-			light_cruiser = {
-				naval_torpedo_cooldown_factor = -0.40
-			}
-			heavy_cruiser = {
-				naval_torpedo_cooldown_factor = -0.20
-			}
+		#	light_cruiser = {
+		#		naval_torpedo_cooldown_factor = -0.25
+		#	}
+		#	heavy_cruiser = {
+		#		naval_torpedo_cooldown_factor = -0.20
+		#	}
 
 		}	
 
@@ -1847,8 +1847,10 @@ leader_traits = {
 
 	lancer = {
 		type = navy
-		modifier = {
-			naval_torpedo_screen_penetration_factor = 0.25
+		sub_unit_modifiers = {
+			submarine = {
+				naval_torpedo_cooldown_factor = -0.02
+			}
 		}
 				
 		ai_will_do = {

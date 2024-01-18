@@ -906,7 +906,10 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = foreign_expeditions focus = deterrence }
 		available = { 
-			has_idea = tot_economic_mobilisation
+			OR = {
+			has_idea = ib_workers_culture_3
+			has_idea = ib_wartime_industry_focus_3
+			}
 		}
 
 		continue_if_invalid = yes
