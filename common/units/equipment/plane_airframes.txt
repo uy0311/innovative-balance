@@ -219,7 +219,7 @@ equipments = {
 		module_slots = inherit
 		priority = 5
 
-		air_range = 750
+		air_range = 600
 		thrust = 550
 		air_agility = 40
 		air_defence = 6
@@ -236,7 +236,7 @@ equipments = {
 		parent = small_plane_airframe_0
 		priority = 5
 
-		air_range = 900
+		air_range = 750
 		thrust = 600
 		air_agility = 55
 		air_defence = 9
@@ -369,7 +369,7 @@ equipments = {
 		parent = small_plane_airframe_1
 		priority = 5
 
-		air_range = 1050
+		air_range = 900
 		thrust = 650
 		air_agility = 70
 		air_defence = 13
@@ -503,7 +503,7 @@ equipments = {
 		parent = small_plane_airframe_2
 		priority = 5
 
-		air_range = 1200
+		air_range = 1050
 		thrust = 700
 		air_agility = 85
 		air_defence = 19
@@ -637,7 +637,7 @@ equipments = {
 		parent = small_plane_airframe_3
 		priority = 5
 
-		air_range = 1350
+		air_range = 1200
 		thrust = 750
 		air_agility = 100
 		air_defence = 22
