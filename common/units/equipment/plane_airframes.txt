@@ -37,6 +37,8 @@ equipments = {
 			rubber = 1
 		}
 
+		lend_lease_cost = 8
+
 		module_slots = {
 			fixed_main_weapon_slot = {
 				required = yes
@@ -105,10 +107,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -121,9 +124,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -132,19 +134,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -316,10 +313,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -332,9 +330,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -343,19 +340,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -449,10 +441,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -465,9 +458,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -476,19 +468,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -583,10 +570,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -599,9 +587,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -610,19 +597,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -717,10 +699,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -733,9 +716,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -744,19 +726,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -868,10 +845,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -884,9 +862,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -895,19 +872,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -988,6 +960,8 @@ equipments = {
 		air_defence = 6
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
+
+		lend_lease_cost = 8
 	}
 
 	cv_small_plane_airframe_1 = { #Basic
@@ -1078,10 +1052,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -1094,9 +1069,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1105,19 +1079,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -1210,10 +1179,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -1226,9 +1196,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1237,19 +1206,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -1343,10 +1307,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -1359,9 +1324,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1370,19 +1334,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -1475,10 +1434,11 @@ equipments = {
 			}
 
 			special_type_slot_2 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
@@ -1491,9 +1451,8 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
+					plane_module_drop_tanks
+					cas_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1502,19 +1461,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_small
-					bomb_weapon
-					anti_tank_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -1531,7 +1485,7 @@ equipments = {
 		type_override = fixed_main_weapon_slot
 		allowed_types = {
 			tactical_bomber
-			fighter
+			heavy_fighter
 			scout_plane
 		}
 		allow_mission_type = training
@@ -1611,11 +1565,12 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
 			special_type_slot_1 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
@@ -1638,8 +1593,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1648,17 +1602,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -1731,6 +1682,8 @@ equipments = {
 		air_defence = 12
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
+
+		lend_lease_cost = 10
 	}
 
 	medium_plane_airframe_1 = { #Basic
@@ -1811,11 +1764,12 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
 			special_type_slot_1 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
@@ -1838,8 +1792,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1848,17 +1801,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -1942,11 +1892,12 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
 			special_type_slot_1 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
@@ -1969,8 +1920,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -1979,17 +1929,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -2073,11 +2020,12 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
 			special_type_slot_1 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
@@ -2100,8 +2048,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -2110,17 +2057,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -2204,11 +2148,12 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
+					anti_tank_weapon
 				}
 			}
 
 			special_type_slot_1 = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					fighter_weapon
 					machine_gun
@@ -2231,8 +2176,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -2241,17 +2185,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_medium
-					bomb_weapon
-					nav_bomber_weapon
+					cas_weapon
 				}
 			}
 		}
@@ -2289,7 +2230,9 @@ equipments = {
 			aluminium = 3
 			rubber = 2
 		}
-		
+
+		lend_lease_cost = 12
+
 		module_slots = {
 			fixed_main_weapon_slot = {
 				required = yes
@@ -2345,8 +2288,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					tac_weapon
+					plane_special_module_defense_turret
 				}
 			}
 
@@ -2373,8 +2316,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -2383,17 +2325,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 		}
@@ -2548,8 +2487,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					tac_weapon
+					plane_special_module_defense_turret
 				}
 			}
 
@@ -2576,8 +2515,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -2586,17 +2524,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 		}
@@ -2678,8 +2613,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					tac_weapon
+					plane_special_module_defense_turret
 				}
 			}
 
@@ -2706,8 +2641,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -2716,17 +2650,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 		}
@@ -2808,8 +2739,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					tac_weapon
+					plane_special_module_defense_turret
 				}
 			}
 
@@ -2836,8 +2767,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -2846,17 +2776,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 		}
@@ -2938,8 +2865,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					tac_weapon
+					plane_special_module_defense_turret
 				}
 			}
 
@@ -2966,8 +2893,7 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
+					tac_weapon
 					nav_bomber_weapon
 				}
 			}
@@ -2976,17 +2902,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
-					plane_module_Lower_large
-					bomb_weapon
-					nav_bomber_weapon
+					tac_weapon
 				}
 			}
 		}

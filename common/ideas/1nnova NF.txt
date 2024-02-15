@@ -444,7 +444,7 @@ ideas = {
 			picture = eng_special_air_service
 			
 			research_bonus = {
-					cat_special_forces_generic = 0.80
+				cat_special_forces_generic = 0.80
 			}
 
 		}

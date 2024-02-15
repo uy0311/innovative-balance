@@ -1,0 +1,1363 @@
+
+
+########    ###    ##    ## ##    ##  ######  
+   ##      ## ##   ###   ## ##   ##  ##    ## 
+   ##     ##   ##  ####  ## ##  ##   ##       
+   ##    ##     ## ## ## ## #####     ######  
+   ##    ######### ##  #### ##  ##         ## 
+   ##    ##     ## ##   ### ##   ##  ##    ## 
+   ##    ##     ## ##    ## ##    ##  ######  
+
+
+
+# GENERIC TANK MANUFACTURER - Based on Daimler Benz
+generic_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_1
+
+	allowed = {
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CZE tag = ROM } }
+		NOT = {
+			AND = {
+				tag = POL
+				OR = {
+					has_dlc = "Poland: United and Ready"
+					has_dlc = "No Step Back"
+				}
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = AST tag = SAF tag = NZL tag = CAN }
+				has_dlc = "Together for Victory"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					is_literally_china = yes
+					tag = MAN
+				}
+				has_dlc = "Waking the Tiger"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = MEX }
+				has_dlc = "Man the Guns"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = BUL tag = GRE tag = TUR }
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = ETH tag = SWI }
+				has_dlc = "By Blood Alone"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { original_tag = FIN tag = NOR tag = SWE }
+				has_dlc = "Arms Against Tyranny"
+			}
+		}
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+	
+	initial_trait = {
+		name = generic_mio_initial_trait_standardized_production
+
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			maximum_speed = 0.05
+			reliability = 0.05
+		}
+
+	}
+
+}
+	
+
+# INFANTRY TANK DESIGNER  - Based on Renault (FRA)
+generic_infantry_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_infantry_tanks_designer
+		
+		equipment_bonus = {
+			soft_attack = 0.1
+			armor_value = 0.1
+			maximum_speed = -0.05
+		}
+	}
+
+}
+
+
+# MOBILE TANK DESIGNER / FAST TANK DESIGNER - Based on Hotchkiss (FRA)
+generic_mobile_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_fast_tanks_designer
+		
+		equipment_bonus = {
+			maximum_speed = 0.20
+			reliability = 0.15
+			air_attack = 0.1
+		}
+	}
+
+}
+
+
+# MEDIUM TANK DESIGNER - Based on Army Ordnance Department (USA)
+generic_medium_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_medium_tank_designer
+
+		equipment_bonus = {
+			soft_attack = 0.10
+			reliability = 0.05
+		}
+	}
+}
+
+
+# HEAVY TANK DESIGNER - Based on KV (SOV)
+generic_heavy_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_heavy_tank_designer
+		
+		equipment_bonus = {
+			hard_attack = 0.10
+			armor_value = 0.15
+			reliability = 0.05
+		}
+	}
+
+}
+
+
+### TANK REFURBISHMENT PLANT - Based on Mytishchi
+generic_tank_refurbishment_plant_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		armor
+	}
+
+	research_categories = {
+		armor
+	}
+
+	initial_trait = {
+		token = generic_mio_initial_trait_tank_refurbishment_plant
+		name = generic_mio_initial_trait_tank_refurbishment_plant
+
+	}
+
+}
+
+
+ ######  ##     ## #### ########   ######  
+##    ## ##     ##  ##  ##     ## ##    ## 
+##       ##     ##  ##  ##     ## ##       
+ ######  #########  ##  ########   ######  
+      ## ##     ##  ##  ##              ## 
+##    ## ##     ##  ##  ##        ##    ## 
+ ######  ##     ## #### ##         ######  
+
+
+
+# GENERIC TANK MANUFACTURERS
+
+#TASK FORCE MANUFACTURER - Based on Harland & Wolff (ENG)
+generic_task_force_ship_organization = {
+	icon = GFX_idea_generic_naval_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_carrier
+		mio_cat_eq_all_cruiser
+		mio_cat_eq_all_destroyer
+	}
+	research_categories = {
+		mio_cat_tech_all_carrier_and_modules
+		mio_cat_tech_all_cruiser_and_modules
+		mio_cat_tech_all_destroyer_and_modules
+	}
+
+	initial_trait = {
+		name = generic_mio_initial_trait_task_force_ship_builders
+
+	}
+}
+
+
+#BATTLE LINE SHIP MANUFACTURER - Based on Cammell Laird (ENG)
+generic_battle_line_ship_organization = {
+	icon = GFX_idea_generic_naval_manufacturer_2
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_battleship
+		mio_cat_eq_all_cruiser
+	}
+	research_categories = {
+		mio_cat_tech_all_capital_ship_and_modules
+		mio_cat_tech_all_cruiser_and_modules
+	}
+
+	initial_trait = {
+		name = generic_mio_initial_trait_battle_line_ship_builders
+
+	}
+}
+
+
+#ESCORT FLEET MANUFACTURER - Based on Yarrow Shipbuilders (ENG)
+generic_escort_ship_organization = {
+	icon = GFX_idea_generic_naval_manufacturer_1
+
+	allowed = {
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CAN tag = SWE tag = HUN tag = CZE tag = ROM tag = YUG tag = POR tag = GRE tag = TUR tag = LAT tag = EST } }
+		NOT = { OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD } }
+		NOT = {
+			AND = {
+				tag = POL
+				OR = {
+					has_dlc = "Poland: United and Ready"
+					has_dlc = "No Step Back"
+				}
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = AST tag = NZL tag = RAJ }
+				has_dlc = "Together for Victory"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
+				has_dlc = "Waking the Tiger"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = MEX tag = HOL }
+				has_dlc = "Man the Guns"
+			}
+		}
+		NOT = {
+			AND = {
+				tag = BUL
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = EST  tag = LAT }
+				has_dlc = "No Step Back"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = ETH tag = SWI }
+				has_dlc = "By Blood Alone"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { original_tag = FIN tag = NOR tag = DEN tag = SWE tag = ICE }
+				has_dlc = "Arms Against Tyranny"
+			}
+		}
+	}
+
+	equipment_type = {
+		screen_ship
+	}
+	research_categories = {
+		mio_cat_tech_all_screen_ship_and_modules
+	}
+
+	initial_trait = {
+		name = generic_mio_initial_trait_escort_fleet
+
+	}
+
+}
+
+
+#RAIDING FLEET MANUFACTURER - Based on John Brown (ENG)
+generic_raider_ship_organization = {
+	icon = GFX_idea_generic_naval_manufacturer_3
+
+	allowed = {
+		AND = {
+			has_dlc = "Arms Against Tyranny"
+			original_tag = ICE
+		}
+		#always = no # Archetype only - countries using it have their own versions
+	}
+
+	equipment_type = {
+		capital_ship
+		screen_ship
+		submarine
+	}
+	research_categories = {
+		mio_cat_tech_all_capital_ship_and_modules
+		mio_cat_tech_all_screen_ship_and_modules
+		mio_cat_tech_all_submarine_and_modules
+	}
+
+	initial_trait = {
+		name = generic_mio_initial_trait_raiding_fleet
+
+	}
+
+}
+
+
+#SUBMARINE MANUFACTURER - Based on Canteri Navali Tosi (ITA)
+generic_submarine_organization = {
+	icon = GFX_idea_generic_naval_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		ship_hull_submarine
+	}
+	research_categories = {
+		mio_cat_tech_all_submarine_and_modules
+	}
+
+	initial_trait = {
+		name = generic_mio_initial_trait_submarine_designer
+
+	}
+
+}
+
+#BLACK SEA MANUFACTURER - Based on Black Sea Shipyard (SOV)
+generic_black_sea_fleet_organization = {
+	icon = GFX_idea_generic_naval_manufacturer_2
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		capital_ship
+		screen_ship
+		ship_hull_submarine
+	}
+
+	research_categories = {
+		naval_equipment
+	}
+
+	initial_trait = {
+		name = generic_mio_initial_trait_black_sea_fleet_designer
+
+	}
+
+}
+
+
+
+generic_refurbishment_repair_organization = {
+	icon = GFX_idea_generic_naval_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_battleship
+	}
+	research_categories = {
+		mio_cat_tech_all_capital_ship_and_modules
+	}
+
+	initial_trait = {
+		name = generic_mio_refurbishment_repair_organization
+
+	}
+}
+
+
+
+
+########  ##          ###    ##    ## ########  ######  
+##     ## ##         ## ##   ###   ## ##       ##    ## 
+##     ## ##        ##   ##  ####  ## ##       ##       
+########  ##       ##     ## ## ## ## ######    ######  
+##        ##       ######### ##  #### ##             ## 
+##        ##       ##     ## ##   ### ##       ##    ## 
+##        ######## ##     ## ##    ## ########  ######  
+
+
+
+#GENERAL AIRCRAFT MANUFACTURER - Based on Focker (HOL)
+generic_general_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CAN tag = YUG tag = ROM tag = CZE tag = HUN tag = CHI tag = MAN tag = HOL tag = BUL tag = GRE tag = TUR tag = LAT tag = LIT } }
+		NOT = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
+		NOT = {
+			AND = {
+				tag = POL
+				OR = {
+					has_dlc = "Poland: United and Ready"
+					has_dlc = "No Step Back"
+				}
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = AST tag = RAJ }
+				has_dlc = "Together for Victory"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = PRC tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
+				has_dlc = "Waking the Tiger"
+			}
+		}
+		NOT = {
+			AND = {
+				tag = MEX
+				has_dlc = "Man the Guns"
+			}
+		}
+		NOT = {
+			AND = {
+				tag = POR
+				has_dlc = "La Resistance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = ETH tag = SWI }
+				has_dlc = "By Blood Alone"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { original_tag = FIN tag = NOR tag = DEN  tag = SWE }
+				has_dlc = "Arms Against Tyranny"
+			}
+		}
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_small_plane
+		mio_cat_eq_all_medium_plane
+		mio_cat_eq_all_large_plane
+	}
+
+	research_categories = { air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_general_aircraft_designer
+
+	}
+
+}
+
+#LIGHT AIRCRAFT MANUFACTURER - Based on MESSERSCHMIDT (GER)
+generic_light_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		small_plane_airframe
+		cv_small_plane_airframe
+		medium_plane_fighter_airframe
+	}
+
+	research_categories = {	air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_light_aircraft_designer
+
+		equipment_bonus = {
+			air_agility = 0.15
+			maximum_speed = 0.10
+		}
+	}
+
+}
+
+
+#MEDIUM AIRCRAFT MANUFACTURER - Based on Dornier / Caproni / de Havilland
+generic_medium_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		small_plane_airframe
+		cv_small_plane_airframe
+		medium_plane_fighter_airframe
+		medium_plane_scout_plane_airframe
+		transport_plane_equipment
+	}
+
+	research_categories = { air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_multi_role_tactical_aircraft
+
+		equipment_bonus = {
+			air_range = 0.2
+			maximum_speed = 0.10
+		}
+	}
+
+}
+
+
+#HEAVY AIRCRAFT MANUFACTURER - Based on John Brown (ENG)
+generic_heavy_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_2
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		medium_plane_airframe
+		large_plane_airframe
+		medium_plane_scout_plane_airframe
+		transport_plane_equipment
+	}
+
+	research_categories = { air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_heavy_aircraft_designer
+
+		equipment_bonus = {
+			air_defence = 0.10
+			air_bombing = 0.10
+		}
+	}
+
+}
+
+
+#CAS AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
+generic_cas_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		small_plane_airframe
+		small_plane_cas_airframe
+		cv_small_plane_airframe
+		cv_small_plane_cas_airframe
+		medium_plane_airframe
+		medium_plane_fighter_airframe
+	}
+
+	research_categories = {	air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_cas_aircraft_designer
+
+		equipment_bonus = {
+			air_ground_attack = 0.1
+			air_agility = -0.05
+		}
+	}
+
+}
+
+
+#NAVAL AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
+generic_naval_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		small_plane_naval_bomber_airframe
+		cv_small_plane_airframe
+		cv_small_plane_cas_airframe
+		cv_small_plane_naval_bomber_airframe
+		medium_plane_airframe
+	}
+
+	research_categories = { air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_naval_aircraft_designer
+
+		equipment_bonus = {
+			air_range = 0.1
+			naval_strike_attack = 0.1
+		}
+
+	}
+
+}
+
+
+
+#MULTI-ROLE AIRCRAFT MANUFACTURER - Based on Savoia Marchetti (ITA) & Republic
+generic_multi_role_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_small_plane
+	}
+
+	research_categories = { mio_cat_all_light_aircraft_and_modules }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_multi_role_aircraft_designer
+
+	}
+
+}
+
+
+#HIGH AGILITY FIGHTER AIRCRAFT MANUFACTURER - Based on Supermarine (ENG)
+generic_high_agility_fighter_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_only_light_fighter
+	}
+
+	research_categories = {	mio_cat_all_light_fighter_and_modules }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_high_agility_fighters_designer
+
+	}
+
+}
+
+
+#RANGE FOCUSED AIRCRAFT MANUFACTURER - Based on North American, Lockheed, Fiat Aviazione
+generic_range_focused_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_medium_plane 
+	}
+
+	research_categories = { mio_cat_all_medium_aircraft_and_modules }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_range_focused_aircraft_designer
+
+	}
+
+}
+
+
+
+
+
+##     ##    ###    ######## ######## ########  #### ######## ##       
+###   ###   ## ##      ##    ##       ##     ##  ##  ##       ##       
+#### ####  ##   ##     ##    ##       ##     ##  ##  ##       ##       
+## ### ## ##     ##    ##    ######   ########   ##  ######   ##       
+##     ## #########    ##    ##       ##   ##    ##  ##       ##       
+##     ## ##     ##    ##    ##       ##    ##   ##  ##       ##       
+##     ## ##     ##    ##    ######## ##     ## #### ######## ######## 
+
+
+###########################
+######## Artillery ########
+###########################
+
+generic_artillery_organization = {
+	icon = GFX_idea_generic_artillery_manufacturer_2
+
+	allowed = {
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = USA tag = JAP tag = CZE tag = ROM tag = MEX } }
+		NOT = {
+			AND = {
+				tag = POL
+				OR = {
+					has_dlc = "Poland: United and Ready"
+					has_dlc = "No Step Back"
+				}
+			}
+		}
+		NOT = {
+			AND = {
+				tag = RAJ
+				has_dlc = "Together for Victory"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					is_literally_china = yes
+					tag = MAN
+				}
+				has_dlc = "Waking the Tiger"
+			}
+		}
+		NOT = {
+			AND = {
+				tag = HOL
+				has_dlc = "Man the Guns"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = SPR tag = POR}
+				has_dlc = "La Resistance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = BUL tag = GRE tag = TUR }
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = EST tag = LAT tag = LIT }
+				has_dlc = "No Step Back"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = ETH tag = SWI }
+				has_dlc = "By Blood Alone"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { original_tag = FIN tag = NOR tag = DEN tag = SWE }
+				has_dlc = "Arms Against Tyranny"
+			}
+		}
+	}
+
+	equipment_type = {
+		artillery_equipment
+		anti_tank_equipment
+		anti_air_equipment
+		rocket_artillery_equipment
+	}
+
+	research_categories = {
+		artillery
+	}
+
+	initial_trait = {
+		name = generic_mio_initial_trait_artillery_manufacturer
+
+	}
+
+}
+
+	
+############################
+###### Infantry Weapons ####
+############################
+
+generic_infantry_equipment_organization = {
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
+
+	allowed = {
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CZE tag = HUN tag = YUG tag = ROM tag = MEX tag = TUR tag = EST } }
+		NOT = {
+			AND = {
+				tag = POL
+				OR = {
+					has_dlc = "Poland: United and Ready"
+					has_dlc = "No Step Back"
+				}
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = AST tag = CAN tag = RAJ }
+				has_dlc = "Together for Victory"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					is_literally_china = yes
+					tag = MAN
+				}
+				has_dlc = "Waking the Tiger"
+			}
+		}
+		NOT = {
+			AND = {
+				tag = HOL
+				has_dlc = "Man the Guns"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = SPR tag = POR }
+				has_dlc = "La Resistance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = BUL tag = GRE }
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = EST tag = LAT tag = LIT }
+				has_dlc = "No Step Back"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = ETH tag = SWI }
+				has_dlc = "By Blood Alone"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { original_tag = FIN tag = NOR tag = DEN tag = SWE }
+				has_dlc = "Arms Against Tyranny"
+			}
+		}
+	}
+
+	equipment_type = {
+		infantry_equipment
+	}
+	research_categories = { infantry_weapons }
+
+
+	initial_trait = {
+		name = generic_mio_initial_trait_infantry_manufacturer
+
+	}
+
+}
+
+
+###################################
+######## Support Equipment ########
+###################################
+
+generic_support_equipment_organization = {
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { support_equipment }
+	research_categories = { support_tech }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_support_equipment_manufacturer
+
+	}
+
+}
+
+
+###########################
+######## Motorized ########
+###########################
+
+generic_motorized_mechanized_organization = {
+	icon = GFX_idea_generic_motorized_equipment_manufacturer_3
+
+	allowed = {
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CZE tag = ROM tag = MEX } }
+		NOT = {
+			AND = {
+				tag = POL
+				OR = {
+					has_dlc = "Poland: United and Ready"
+					has_dlc = "No Step Back"
+				}
+			}
+		}
+		NOT = {
+			AND = {
+				tag = NZL
+				has_dlc = "Together for Victory"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
+				has_dlc = "Waking the Tiger"
+			}
+		}
+		NOT = {
+			AND = {
+				tag = HOL
+				has_dlc = "Man the Guns"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
+				has_dlc = "La Resistance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = BUL tag = GRE tag = TUR }
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = EST tag = LAT tag = LIT }
+				has_dlc = "No Step Back"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { tag = ETH tag = SWI }
+				has_dlc = "By Blood Alone"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { original_tag = FIN tag = NOR tag = DEN tag = SWE }
+				has_dlc = "Arms Against Tyranny"
+			}
+		}
+	}
+
+	equipment_type = {
+		motorized_equipment
+		mechanized_equipment
+		motorized_rocket_equipment
+	}
+	
+	research_categories = {
+		motorized_equipment
+	}
+	
+	initial_trait = {
+		name = generic_mio_initial_trait_motorized_mechanized_manufacturer
+
+	}
+
+}
+
+
+
+######################
+#### Armored Car  ####
+######################
+
+
+generic_armored_car_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+		has_dlc = "La Resistance"
+	}
+
+	equipment_type = { armored_car_equipment }
+	research_categories = { cat_armored_cars }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_standardized_production
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			maximum_speed = 0.05
+			reliability = 0.05
+		}
+	}
+
+}
+
+
+
+
+
+
+
+##       ####  ######  ########     #######  ########     ######  ########    ###    ########  ######
+##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##      ## ##      ##    ##    ##
+##        ##  ##          ##       ##     ## ##          ##          ##     ##   ##     ##    ##
+##        ##   ######     ##       ##     ## ######       ######     ##    ##     ##    ##     ######
+##        ##        ##    ##       ##     ## ##                ##    ##    #########    ##          ##
+##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##    ##     ##    ##    ##    ##
+######## ####  ######     ##        #######  ##           ######     ##    ##     ##    ##     ######
+
+
+### EQUIPMENT STATS ###
+
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ##  
+
+#maximum_speed
+#reliability
+#defense
+#breakthrough
+#armor_value
+#soft_attack
+#hard_attack
+#ap_attack
+#air_attack
+#build_cost_ic
+#fuel_consumption
+#hardness
+#armor_value
+#build_cost_ic
+#entrenchment - only if you have DLC NSB  and module dozer_blade
+#fuel_capacity - only if you have DLC NSB  and module expanded_fuel_tank
+
+
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+
+#lg_armor_piercing (requires modules)
+#lg_attack (requires modules)
+#hg_armor_piercing (requires modules)
+#hg_attack (requires modules)
+#torpedo_attack (requires modules)
+#sub_attack (requires modules)
+#anti_air_attack (requires modules)
+#armor_value (requires modules)
+#surface_detection 
+#sub_detection (requires modules)
+#sub_visibility (sub only)
+#surface_visibility (surface only)
+#naval_speed 
+#reliability
+#naval_range
+#max_strength
+#fuel_consumption
+#build_cost_ic
+#manpower
+#naval_supremacy_factor
+#naval_torpedo_enemy_critical_chance_factor (if you have modules adding it)
+#naval_torpedo_damage_reduction_factor (if you have modules adding it)
+#carrier_size (this will get very bad for you I promise, equipment modifiers are a mistake)
+#mines_sweeping (only MTG and with modules)
+#mines_planting (only with MTG and modules)
+#naval_torpedo_hit_chance_factor (requires modules)
+#naval_light_gun_hit_chance_factor (requires modules)
+#naval_heavy_gun_hit_chance_factor (requires modules)
+
+
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+#air_superiority
+#reliability
+#naval_strike_attack
+#naval_strike_targetting
+#manpower
+#fuel_consumption
+#build_cost_ic
+#resources
+#thrust - only if you have BBA DLC
+#weight - only if you have BBA DLC
+#maximum_speed
+#air_range
+#air_agility
+#air_attack
+#air_defence
+#surface_detection
+#sub_detection
+#air_ground_attack
+#air_bombing
+#mines_planting - if you have MtG and BBA
+#mines_sweeping - if you have MtG and BBA
+#night_penalty - only if you have BBA DLC (you need to have module because base value is 0 - radio navigatio
+
+
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+##############################
+##### INFANTRY EQUIPMENT #####
+##############################
+#reliability
+#maximum_speed
+#defense
+#breakthrough
+#hardness - it is in the script, but the value is set to 0 (in the game, the UI doesn't show this value)
+#armor_value - it is in the script, but the value is set to 0 (in the game, the UI doesn't show this value)
+#soft_attack
+#hard_attack
+#ap_attack
+#air_attack - it is in the script but the value is set to 0 (in the game, the UI doesn't show this value)
+#build_cost_ic
+
+##############################
+##### SUPPORT EQUIPMENT ######
+##############################
+#reliability
+#build_cost_ic
+
+
+#############################
+#### ARTILLERY EQUIPMENT ####
+#############################
+#reliability
+#defense
+#breakthrough
+#hardness
+#armor_value
+#soft_attack
+#hard_attack
+#ap_attack
+#air_attack
+#build_cost_ic
+
+############################
+#### ANTI-AIR EQUIPMENT ####
+############################
+#reliability
+#defense
+#breakthrough
+#hardness
+#armor_value
+#soft_attack
+#hard_attack
+#ap_attack
+#air_attack
+#build_cost_ic
+
+#############################
+#### ANTI-TANK EQUIPMENT ####
+#############################
+#reliability
+#defense
+#breakthrough
+#hardness
+#armor_value
+#soft_attack
+#hard_attack
+#ap_attack
+#air_attack
+#build_cost_ic
+
+####################################
+#### ROCKET ARTILLERY EQUIPMENT ####
+####################################
+#reliability
+#defense
+#breakthrough
+#hardness
+#armor_value
+#soft_attack
+#hard_attack
+#ap_attack
+#air_attack
+#build_cost_ic
+
+
+##############################
+#### MOTORIZED EQUIPMENT #####
+##############################
+#maximum_speed
+#reliability
+#hardness
+#breakthrough
+#build_cost_ic
+#fuel_consumption
+
+####################################
+#### MOTORIZED ROCKET EQUIPMENT ####
+####################################
+#reliability
+#defense
+#breakthrough
+#hardness
+#armor_value
+#soft_attack
+#hard_attack
+#ap_attack
+#air_attack
+#build_cost_ic (edited)
+
+###############################
+#### MECHANIZED EQUIPMENT #####
+###############################
+#maximum_speed
+#reliability
+#defense
+#breakthrough
+#hardness
+#armor_value
+#ap_attack
+#air_attack
+#build_cost_ic
+#fuel_consumption
+
+#########################################
+#### AMPHIBIOUS MECHANIZED EQUIPMENT ####
+#########################################
+#maximum_speed
+#reliability
+#defense
+#breakthrough
+#hardness
+#armor_value
+#ap_attack
+#air_attack
+#build_cost_ic
+#fuel_consumption
+
+
+################################
+#### ARMORED CAR EQUIPMENT #####
+################################
+#maximum_speed
+#reliability
+#defense
+#breakthrough
+#hardness
+#armor_value
+#soft_attack
+#hard_attack
+#ap_attack
+#air_attack
+#build_cost_ic
+#fuel_consumption
+
+
+##########################
+#### TRAIN EQUIPMENT #####
+##########################
+#armor_value
+#build_cost_ic
+#air_attack
+
+################################
+#### RAILWAY GUN EQUIPMENT #####
+################################
+#reliability
+#maximum_speed
+#railway_gun_attack
+#build_cost_ic
+
+
+### PRODUCTION MODIFIERS ###
+#production_cost_factor
+#production_capacity_factor
+#production_efficiency_cap_factor
+#production_efficiency_gain_factor
+#production_resource_need_factor
+#production_resource_penalty_factor
+#production_conversion_speed_factor
+
+### ORGANIZATION MODIFIERS ###
+#military_industrial_organization_research_bonus
+#military_industrial_organization_design_team_assign_cost
+#military_industrial_organization_design_team_change_cost
+#military_industrial_organization_industrial_manufacturer_assign_cost
+#military_industrial_organization_task_capacity
+#military_industrial_organization_size_up_requirement
+#military_industrial_organization_funds_gain

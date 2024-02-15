@@ -1,5 +1,4 @@
 sub_units = {
-
 	super_heavy_armor = {
 		abbreviation = "STK"
 		sprite = heavy_armor
@@ -73,7 +72,7 @@ sub_units = {
 			attack = -1.0
 		}
 		fort = {
-			attack = 0.25
+			attack = 0.1
 		}
 	}
 }
