@@ -176,7 +176,6 @@ guiTypes = {
 						position = { x=0 y=0 }
 					}
 				}
-
 			}
 
 			################# MODULE SLOT: Engine #################
@@ -241,7 +240,7 @@ guiTypes = {
 					}
 				}
 			}
-			
+
 			################# MODULE SLOT: Torpedo #################
 			containerWindowType = {
 				name = "fixed_ship_torpedo_slot"

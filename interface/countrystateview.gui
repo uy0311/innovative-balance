@@ -69,9 +69,10 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_18mbs"
 				text = "SLOTS"
-				maxWidth = 190
+				maxWidth = 220
 				maxHeight = 30
-				format = center
+				format = left
+				fixedsize = yes
 			}
 			
 			gridBoxType = { #州の建設物のスロット表示

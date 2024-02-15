@@ -413,8 +413,14 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_EMI_plane_module_Lower_small"
+		name = "GFX_EMI_plane_module_drop_tanks"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_drop_tanks_icon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_plane_module_Lower_small"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_flying_boat_icon.dds"
 		legacy_lazy_load = no
 	}
 

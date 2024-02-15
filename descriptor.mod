@@ -43,6 +43,8 @@ replace_path="common/units/names_divisions"
 replace_path="common/units/names"
 replace_path="common/units/names_ships"
 replace_path="common/units/codenames_operatives"
+replace_path="common/equipment_groups"
+replace_path="common/military_industrial_organization"
 tags={
 	"Balance"
 	"Map"
@@ -53,5 +55,5 @@ dependencies={
 	"JLm Fonts"
 }
 name="Innova test"
-supported_version="1.12.*"
+supported_version="1.13.7"
 remote_file_id="2405615607"

@@ -1,6 +1,8 @@
-#########################################################################
-# Terrain
-#########################################################################
+
+##################################################################
+### Terrain Categories
+###
+###
 
 categories =  {
 	unknown = {
@@ -8,10 +10,12 @@ categories =  {
 	}
 
 	ocean = {
+		naval_terrain = yes
 		color = { 40 83 176 }
 		movement_cost = 1.0
 		is_water = yes
 		sound_type = sea
+		naval_mine_hit_chance = -1.00
 	}
 	
 	lakes = {
@@ -24,7 +28,7 @@ categories =  {
 	forest = {
 		color = { 24 140 20 }
 		movement_cost = 1.5
-		combat_width = 120
+		combat_width = 80
 		combat_support_width = 40
 		ai_terrain_importance_factor = 5.0
 		match_value = 5
@@ -44,7 +48,7 @@ categories =  {
 	hills = {
 		color = { 245 156 93 }
 		movement_cost = 1.5
-		combat_width = 100
+		combat_width = 60
 		combat_support_width = 40
 		ai_terrain_importance_factor = 3.0
 		match_value = 2
@@ -64,7 +68,7 @@ categories =  {
 		color = { 121 138 145 }
 		movement_cost = 2.0
 		attrition = 0.3
-		combat_width = 90
+		combat_width = 60
 		combat_support_width = 30
 		ai_terrain_importance_factor = 10.0
 		match_value = 10
@@ -84,7 +88,7 @@ categories =  {
 	plains = {
 		color = { 149 209 119 }
 		movement_cost = 1.0
-		combat_width = 120
+		combat_width = 80
 		combat_support_width = 40
 		match_value = 0.5
 		sound_type = plains
@@ -94,7 +98,7 @@ categories =  {
 		color = { 188 255 5 }
 		movement_cost = 1.2
 		match_value = 1
-		combat_width = 120
+		combat_width = 80
 		combat_support_width = 40
 		sound_type = plains
 
@@ -106,7 +110,7 @@ categories =  {
 	urban = {
 		color = { 120 120 120 }
 		movement_cost = 1.2
-		combat_width = 160
+		combat_width = 100
 		combat_support_width = 20
 		ai_terrain_importance_factor = 4.0
 		match_value = 4
@@ -125,7 +129,7 @@ categories =  {
 		color = { 104 156 2 }
 		movement_cost = 1.5
 		attrition = 0.2
-		combat_width = 90
+		combat_width = 60
 		combat_support_width = 30
 		ai_terrain_importance_factor = 6.0
 		match_value = 6
@@ -148,7 +152,7 @@ categories =  {
 		color = { 17 87 54 }
 		movement_cost = 2.0
 		attrition = 0.35
-		combat_width = 100
+		combat_width = 60
 		combat_support_width = 40
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
@@ -169,7 +173,7 @@ categories =  {
 		color = { 255 225 0 }
 		movement_cost = 1.05
 		attrition = 0.15
-		combat_width = 120
+		combat_width = 80
 		combat_support_width = 40
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
@@ -188,12 +192,12 @@ categories =  {
 		movement_cost = 1.0
 		is_water = yes
 		sound_type = sea
+		naval_mine_hit_chance = -1.00
 		
 		battle_cruiser = {
 			units = {
 				attack = -0.2
 				movement = -0.2
-			#	defence = -0.2
 			}
 			navy_fuel_consumption_factor = 0.2
 		}
@@ -218,6 +222,7 @@ categories =  {
 			}
 			navy_fuel_consumption_factor = 0.2
 		}
+
 		navy_visibility = -0.2
 		positioning = -0.15
 	}
@@ -233,6 +238,7 @@ categories =  {
 			navy_visibility = 1.0
 		}
 		positioning = -0.05
+		naval_mine_hit_chance = -1.00
 	}
 	
 	water_deep_ocean = {
@@ -261,15 +267,17 @@ categories =  {
 			}
 		}
 
-		naval_mine_hit_chance = -0.5
+		naval_mine_hit_chance = -1.00
 	}
 }
+	
 
-#########################################################################
-#	Terrain Graphics
-#	type	=	refers to the terrain defined above
-#	color 	= 	index in bitmap color table (see terrain.bmp)
-#########################################################################
+
+##################################################################
+### Graphical terrain
+###		type	=	refers to the terrain defined above, "terrain category"'s 
+### 	color 	= 	index in bitmap color table (see terrain.bmp)
+###
 
 terrain = {
 	# Plains

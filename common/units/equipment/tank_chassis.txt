@@ -154,6 +154,8 @@ equipments = {
 			steel = 1
 		}
 
+		lend_lease_cost = 10
+
 		manpower = 2
 
 	}
@@ -664,6 +666,8 @@ equipments = {
 		resources = {
 			steel = 1
 		}
+
+		lend_lease_cost = 12
 
 		manpower = 2
 
@@ -1222,6 +1226,8 @@ equipments = {
 		resources = {
 			steel = 1
 		}
+
+		lend_lease_cost = 14
 
 		manpower = 2
 
@@ -1827,6 +1833,8 @@ equipments = {
 			chromium = 1
 		}
 
+		lend_lease_cost = 13
+
 		manpower = 2
 
 	}
@@ -2047,6 +2055,8 @@ equipments = {
 			chromium = 2
 		}
 
+		lend_lease_cost = 20
+
 		manpower = 2
 
 	}
@@ -2262,6 +2272,8 @@ equipments = {
 		resources = {
 			steel = 1
 		}
+
+		lend_lease_cost = 10
 
 		manpower = 2
 

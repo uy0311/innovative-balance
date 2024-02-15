@@ -1,0 +1,274 @@
+
+########    ###    ##    ## ##    ##  ######  
+   ##      ## ##   ###   ## ##   ##  ##    ## 
+   ##     ##   ##  ####  ## ##  ##   ##       
+   ##    ##     ## ## ## ## #####     ######  
+   ##    ######### ##  #### ##  ##         ## 
+   ##    ##     ## ##   ### ##   ##  ##    ## 
+   ##    ##     ## ##    ## ##    ##  ######  
+
+ENG_vickers_armstrong_eng_organization = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_vickers_armstrong_eng
+	
+	allowed = {	
+		OR = {
+			tag = ENG
+			tag = BEL
+			AND = {
+				tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+			AND = {
+				tag = BUL
+				has_dlc = "Battle for the Bosporus"
+			}
+			AND = {
+				tag = ETH 
+				has_dlc = "By Blood Alone"
+			}
+		}
+	}
+
+}
+
+ENG_vauxhall_organization = {
+	include = generic_infantry_tank_organization
+	icon = GFX_idea_vauxhall
+
+	allowed = {	
+		OR = {
+			tag = ENG
+			AND = {
+				tag = POL # If Poland sets up a local one
+				OR = {
+					has_dlc = "Poland: United and Ready"
+					has_dlc = "No Step Back"
+				}
+			}
+			AND = {
+				tag = BUL
+				has_dlc = "Battle for the Bosporus"
+			}
+			AND = {
+				tag = ETH 
+				has_dlc = "By Blood Alone"
+			}
+		}
+	}
+}
+
+
+ ######  ##     ## #### ########   ######  
+##    ## ##     ##  ##  ##     ## ##    ## 
+##       ##     ##  ##  ##     ## ##       
+ ######  #########  ##  ########   ######  
+      ## ##     ##  ##  ##              ## 
+##    ## ##     ##  ##  ##        ##    ## 
+ ######  ##     ## #### ##         ######  
+
+
+
+ENG_harland_wolff_organization = {
+	include = generic_task_force_ship_organization
+	icon = GFX_idea_harland_wolff
+	
+	allowed = {	
+		tag = ENG
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+
+ENG_cammell_laird_organization = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_cammell_laird
+	
+	allowed = {	
+		tag = ENG
+		has_dlc = "Arms Against Tyranny"
+	}
+
+}
+
+ENG_yarrow_shipbuilders_organization = {
+	include = generic_escort_ship_organization
+	icon = GFX_idea_yarrow_shipbuilders
+	
+	allowed = {	
+		OR = {
+			tag = ENG 
+			AND = {
+				tag = BUL
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+	}
+}
+
+ENG_john_brown_organization = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_john_brown_company
+	
+	allowed = {	
+		OR = {
+			tag = ENG
+			AND = {
+				tag = BUL #This one is an additional option for Bulgaria with AAT 
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			AND = {
+				tag = ETH 
+				has_dlc = "By Blood Alone"
+			}
+		}
+	}
+}
+
+
+
+########  ##          ###    ##    ## ########  ######  
+##     ## ##         ## ##   ###   ## ##       ##    ## 
+##     ## ##        ##   ##  ####  ## ##       ##       
+########  ##       ##     ## ## ## ## ######    ######  
+##        ##       ######### ##  #### ##             ## 
+##        ##       ##     ## ##   ### ##       ##    ## 
+##        ######## ##     ## ##    ## ########  ######  
+
+
+ENG_supermarine_organization = {
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_supermarine
+	
+	allowed = {	
+		tag = ENG
+		has_dlc = "Arms Against Tyranny"
+	}
+
+}
+
+ENG_hawker_organization = {
+	include = generic_cas_aircraft_organization
+	icon = GFX_idea_hawker
+	allowed = {	
+		tag = ENG
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+ENG_de_havilland_organization = {
+	include = generic_medium_aircraft_organization
+	icon = GFX_idea_de_havilland
+	allowed = {	
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			tag = ENG
+			tag = NOR 		
+		}
+	}
+}
+
+ENG_fairey_aviation_organization = {
+	include = generic_naval_aircraft_organization
+	icon = GFX_idea_fairey_aviation
+	
+	allowed = {	
+		OR = {
+			tag = ENG 
+			AND = {
+				tag = BUL
+				has_dlc = "Battle for the Bosporus"
+			}
+			AND = {
+				tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+		}
+	}
+}
+
+ENG_avro_organization = {
+	include = generic_heavy_aircraft_organization
+	icon = GFX_idea_avro
+	allowed = {	
+		tag = ENG
+	}
+}
+
+
+
+
+##     ##    ###    ######## ######## ########  #### ######## ##       
+###   ###   ## ##      ##    ##       ##     ##  ##  ##       ##       
+#### ####  ##   ##     ##    ##       ##     ##  ##  ##       ##       
+## ### ## ##     ##    ##    ######   ########   ##  ######   ##       
+##     ## #########    ##    ##       ##   ##    ##  ##       ##       
+##     ## ##     ##    ##    ##       ##    ##   ##  ##       ##       
+##     ## ##     ##    ##    ######## ##     ## #### ######## ######## 
+
+ENG_rsaf_enfield_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_rsaf_enfield
+
+	allowed = {	
+		OR = {
+			tag = ENG 
+			AND = {
+				tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+			AND = {
+				OR = {
+					original_TAG = LAT
+					original_TAG = LIT
+					original_TAG = EST
+				}
+				has_dlc = "No Step Back"
+			}
+		}
+	}
+}
+
+ENG_vauxhall_automotive_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_vauxhall
+	name = ENG_vauxhall_organization
+	
+	allowed = {	
+		OR = {
+			tag = ENG
+			tag = POL # If Poland sets up a local one
+			AND = {
+				tag = ROM
+				has_dlc = "Death or Dishonor"
+			}
+			AND = {
+				tag = BUL
+				has_dlc = "Battle for the Bosporus"
+			}
+			AND = {
+				tag = ETH 
+				has_dlc = "By Blood Alone"
+			}
+		}
+	}
+}
+
+ENG_royal_arsenal_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_royal_arsenal
+	allowed = {
+		OR = {
+			tag = ENG
+			AND = {
+				OR = {
+					original_TAG = LAT
+					original_TAG = LIT
+					original_TAG = EST
+				}
+				has_dlc = "No Step Back"
+			}
+		}
+	}
+}
