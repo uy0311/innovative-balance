@@ -698,9 +698,10 @@ leader_traits = {
 		}
 
 		cost = 1000
-		field_marshal_modifier = {
-			defence = 0.05
-		}
+
+		defense_skill = 2
+		defense_skill_factor = 1
+
 		custom_effect_tooltip = INCREASED_COUNTERATTACK_CHANCE
 		
 		slot = army_chief
@@ -727,9 +728,10 @@ leader_traits = {
 			has_trait = brilliant_strategist
 		}
 		cost = 1000
-		field_marshal_modifier = {
-			attack = 0.05
-		}
+
+		attack_skill = 2
+		attack_skill_factor = 1
+
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 		
 		slot = army_chief

@@ -591,7 +591,6 @@ generic_heavy_aircraft_organization = {
 	equipment_type = {
 		medium_plane_airframe
 		large_plane_airframe
-		medium_plane_scout_plane_airframe
 		transport_plane_equipment
 	}
 
@@ -619,11 +618,8 @@ generic_cas_aircraft_organization = {
 
 	equipment_type = {
 		small_plane_airframe
-		small_plane_cas_airframe
 		cv_small_plane_airframe
-		cv_small_plane_cas_airframe
 		medium_plane_airframe
-		medium_plane_fighter_airframe
 	}
 
 	research_categories = {	air_equipment }
@@ -651,8 +647,6 @@ generic_naval_aircraft_organization = {
 	equipment_type = {
 		small_plane_naval_bomber_airframe
 		cv_small_plane_airframe
-		cv_small_plane_cas_airframe
-		cv_small_plane_naval_bomber_airframe
 		medium_plane_airframe
 	}
 
@@ -758,7 +752,7 @@ generic_artillery_organization = {
 	icon = GFX_idea_generic_artillery_manufacturer_2
 
 	allowed = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = USA tag = JAP tag = CZE tag = ROM tag = MEX } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = USA tag = JAP tag = CHI tag = CZE tag = ROM tag = MEX } }
 		NOT = {
 			AND = {
 				tag = POL
@@ -848,7 +842,7 @@ generic_infantry_equipment_organization = {
 	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
 
 	allowed = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CZE tag = HUN tag = YUG tag = ROM tag = MEX tag = TUR tag = EST } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = CHI tag = USA tag = BEL tag = CZE tag = HUN tag = YUG tag = ROM tag = MEX tag = TUR tag = EST } }
 		NOT = {
 			AND = {
 				tag = POL

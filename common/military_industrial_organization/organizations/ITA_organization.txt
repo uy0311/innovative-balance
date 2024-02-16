@@ -128,7 +128,7 @@ ITA_savoia_marchetti_organization = {
 	icon = GFX_idea_savoia_marchetti
 	
 	allowed = {	
-		tag = ITA 
+#		tag = ITA 
 	}
 }
 
@@ -185,7 +185,7 @@ ITA_fiat_aviazione_organization = {
 	icon = GFX_idea_ITA_fiat_aviazione
 	
 	allowed = {	 
-		tag = ITA 
+#		tag = ITA 
 	}
 }
 
@@ -253,7 +253,7 @@ ITA_brescia_arsenal_organization = {
 	icon = GFX_idea_ITA_brescia_arsenal
 	
 	allowed = {	 
-		tag = ITA
+#		tag = ITA
 	}
 }
 
