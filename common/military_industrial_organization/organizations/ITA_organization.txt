@@ -67,15 +67,6 @@ ITA_cantiere_oto_organization = {
 	}
 }
 
-ITA_navalmeccanica_organization = {
-	include = generic_refurbishment_repair_organization
-	icon = GFX_idea_ITA_navalmeccanica
-	
-	allowed = {	
-		tag = ITA 
-	}
-} 
-
 ITA_cantiere_navale_di_ancona_organization = {
 	include = generic_raider_ship_organization
 	icon = GFX_idea_ITA_cantera_navale_di_ancona
@@ -87,7 +78,7 @@ ITA_cantiere_navale_di_ancona_organization = {
 }
 
 ITA_cantieri_navali_tosi_organization = {
-	include = generic_submarine_organization
+	include = generic_black_sea_fleet_organization
 	icon = GFX_idea_ITA_cantieri_navali_tosi
 	
 	allowed = {	
@@ -161,13 +152,7 @@ ITA_imam_organization = {
 	icon = GFX_idea_ITA_imam
 	
 	allowed = {	
-		OR = {
-			tag = ITA 
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = ITA
 	}
 }
 
@@ -207,13 +192,7 @@ ITA_beretta_organization = {
 	icon = GFX_idea_beretta
 
 	allowed = {	 
-		OR = {
-			tag = ITA 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = ITA 
 	}
 
 }

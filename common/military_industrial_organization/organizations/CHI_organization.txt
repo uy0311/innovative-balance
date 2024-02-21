@@ -46,7 +46,7 @@ CHI_jiangnan_shipyard_group_organization = {
 }
 
 CHI_dagu_shipyard_organization = {
-	include = generic_raider_ship_organization
+	include = generic_escort_ship_organization
 	icon = GFX_idea_generic_naval_manufacturer_3
 	allowed = {	
 		OR = {
@@ -81,7 +81,6 @@ CHI_camco_medium_organization = {
 	allowed = {	
 		OR = {
 			is_literally_china = yes
-			tag = MAN
 			tag = MEN
 			tag = CHI
 		} 
@@ -93,7 +92,6 @@ CHI_camco_fighter_organization = {
 	allowed = {	
 		OR = {
 			is_literally_china = yes
-			tag = MAN
 			tag = MEN
 			tag = CHI
 		} 
@@ -153,7 +151,6 @@ CHI_hanyan_arsenal_organization = {
 	allowed = {	
 		OR = {
 			is_literally_china = yes
-			tag = MAN
 			tag = MEN
 			tag = CHI
 		} 

@@ -37,7 +37,7 @@ TUR_tulomsas_organization = {
 #####################
 
 TUR_golcuk_nsy_organization = {
-	include = generic_task_force_ship_organization
+	include = generic_black_sea_fleet_organization
 	icon = GFX_idea_tur_golcuk_naval_base
 	allowed = {	
 		tag = TUR
@@ -71,22 +71,6 @@ TUR_koc_ticaret_as_shipyard_organization = {
 ###########################
 
 
-TUR_thk_organization = {
-	include = generic_light_aircraft_organization
-	icon = GFX_idea_generic_air_manufacturer_2
-	allowed = {	
-		tag = TUR
-		NOT = { has_dlc = "Battle for the Bosporus" }
-	}
-}
-TUR_ktf_organization = {
-	include = generic_medium_aircraft_organization
-	icon = GFX_idea_man_five_year_plan_air
-	allowed = {	
-		tag = TUR
-		NOT = { has_dlc = "Battle for the Bosporus" }
-	}
-}
 TUR_thk_bftb_organization = {
 	include = generic_light_aircraft_organization
 	icon = GFX_idea_man_five_year_plan_air
@@ -114,7 +98,7 @@ TUR_nud_organization = {
 }
 
 TUR_tomtasch_organization = {
-	include = generic_medium_aircraft_organization
+	include = generic_heavy_aircraft_organization
 	icon = GFX_idea_tur_tomtasch
 	allowed = {	
 		tag = TUR

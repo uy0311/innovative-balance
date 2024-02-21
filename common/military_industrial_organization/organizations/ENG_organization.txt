@@ -50,10 +50,6 @@ ENG_vauxhall_organization = {
 				tag = BUL
 				has_dlc = "Battle for the Bosporus"
 			}
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
 		}
 	}
 }
@@ -81,7 +77,7 @@ ENG_harland_wolff_organization = {
 
 
 ENG_cammell_laird_organization = {
-	include = generic_battle_line_ship_organization
+	include = generic_black_sea_fleet_organization
 	icon = GFX_idea_cammell_laird
 	
 	allowed = {	
@@ -163,7 +159,7 @@ ENG_de_havilland_organization = {
 	allowed = {	
 		has_dlc = "Arms Against Tyranny"
 		OR = {
-			tag = ENG
+			tag = ENG tag = AST
 			tag = NOR 		
 		}
 	}
@@ -175,7 +171,7 @@ ENG_fairey_aviation_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = ENG 
+			tag = ENG tag = AST
 			AND = {
 				tag = BUL
 				has_dlc = "Battle for the Bosporus"
@@ -214,10 +210,6 @@ ENG_rsaf_enfield_organization = {
 	allowed = {	
 		OR = {
 			tag = ENG 
-			AND = {
-				tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
 			AND = {
 				OR = {
 					original_TAG = LAT

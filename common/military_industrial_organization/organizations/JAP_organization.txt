@@ -63,7 +63,7 @@ JAP_maizuru_naval_arsenal_organization = {
 }
 
 JAP_sasebo_naval_arsenal_organization = {
-	include = generic_raider_ship_organization
+	include = generic_black_sea_fleet_organization
 	icon = GFX_idea_sasebo_naval_arsenal
 	allowed = {	 
 		tag = JAP
@@ -87,13 +87,7 @@ JAP_mitsubishi_organization = {
 	icon = GFX_idea_mitsubishi
 	
 	allowed = {	 
-		OR = {
-			tag = JAP 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = JAP 
 	}
 } 
 
@@ -158,12 +152,6 @@ JAP_nissan_organization = {
 	include = generic_motorized_mechanized_organization 
 	icon = GFX_idea_nissan
 	allowed = {	 
-		OR = {
-			tag = JAP 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = JAP 
 	}
 }

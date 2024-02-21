@@ -1442,7 +1442,7 @@ NNavy = {
 	BEST_CAPITALS_TO_SCREENS_RATIO = 0.25, 							-- capitals / screens ratio used for creating FEX groups in naval combat
 	COMBAT_BASE_HIT_CHANCE = 0.2,									-- base chance for hit
 
-	COMBAT_MIN_HIT_CHANCE = 0.5,									-- never less hit chance then this?
+	COMBAT_MIN_HIT_CHANCE = 0.05,									-- never less hit chance then this?
 	COMBAT_EVASION_TO_HIT_CHANCE = 0.007,							-- we take ship evasion stats, and mult by this value, so it gives hit chance reduction. So if reduction is 0.025 and ship evasion = 10, then there will be 0.25 (25%) lower hit chance. (Fe. 50% base -25% from evasion +10% bcoz it's very close).
 	COMBAT_EVASION_TO_HIT_CHANCE_TORPEDO_MULT = 10.0,				-- the above evasion hit chance is multiplied by 400% if shooting with torpedoes. Torpedoes are slow, so evasion matters more.
 	MIN_HIT_PROFILE_MULT = 0.0,										-- largest hit profile penalty to hitting
@@ -1982,7 +1982,7 @@ NNavy = {
 	},
 
 	NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = {	-- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
-		2.00,
+		1.00,
 		1.00,
 		0.75,
 		0.50,
@@ -1993,10 +1993,10 @@ NNavy = {
 	NAVY_PIERCING_THRESHOLD_DAMAGE_VALUES = {	-- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
 		1.00,
 		1.00,
-		0.70,
-		0.40,
-		0.30,
-		0.10 -- 
+		1.00,
+		1.00,
+		1.00,
+		1.00 -- 
 	},
 
 	-- all of these NEED to be the same size!!!!

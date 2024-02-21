@@ -30,11 +30,6 @@ equipments = {
 				allowed_module_categories = { ship_deck_space }
 				gfx = ship_deck_space_slot
 			}
-			fixed_ship_deck_slot_3 = {
-				required = no
-				allowed_module_categories = { ship_deck_space }
-				gfx = ship_deck_space_slot
-			}
 			fixed_ship_anti_air_slot = {
 				required = no
 				allowed_module_categories = { ship_anti_air }
@@ -51,7 +46,17 @@ equipments = {
 				required = no
 				allowed_module_categories = { battery_base_4in battery_base_5in battery_base_5Hin battery_base_6in battery_base_8in }
 			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { ship_cruiser_armor }	
+			}
 
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_deck_space
+				}
+			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -62,7 +67,6 @@ equipments = {
 					battery_add_8in
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -71,6 +75,7 @@ equipments = {
 					ship_extra_fuel_tank
 				}
 			}
+			rear_2_custom_slot = rear_1_custom_slot
 
 		}
 		
@@ -82,11 +87,11 @@ equipments = {
 		default_modules = {
 			fixed_ship_deck_slot_1 = empty
 			fixed_ship_deck_slot_2 = empty
-			fixed_ship_deck_slot_3 = empty
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = empty
 		}
 
 		lg_armor_piercing = 1
@@ -155,19 +160,29 @@ equipments = {
 		priority = 1000
 		parent = ship_hull_carrier_1
 		module_slots = {
-			fixed_ship_deck_slot_1 = inherit
-			fixed_ship_deck_slot_2 = inherit
-			fixed_ship_deck_slot_3 = inherit
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_deck_slot_2 = {
+				required = no
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_deck_space
 				}
 			}
+			front_2_custom_slot = front_1_custom_slot
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -215,13 +230,22 @@ equipments = {
 		priority = 1000
 		parent = ship_hull_carrier_2
 		module_slots = {
-			fixed_ship_deck_slot_1 = inherit
-			fixed_ship_deck_slot_2 = inherit
-			fixed_ship_deck_slot_3 = inherit
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_deck_slot_2 = {
+				required = no
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -229,6 +253,7 @@ equipments = {
 				}
 			}
 			front_2_custom_slot = front_1_custom_slot
+			front_3_custom_slot = front_1_custom_slot
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -240,7 +265,6 @@ equipments = {
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -279,9 +303,16 @@ equipments = {
 		priority = 1100
 		can_convert_from = { ship_hull_heavy_1 ship_hull_heavy_2 ship_hull_heavy_3 ship_hull_heavy_4 ship_hull_super_heavy_1 }
 		module_slots = {
-			fixed_ship_deck_slot_1 = inherit
-			fixed_ship_deck_slot_2 = inherit
-			fixed_ship_deck_slot_3 = inherit
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_deck_slot_2 = {
+				required = no
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
@@ -289,7 +320,17 @@ equipments = {
 				allowed_module_categories = { heavy_ship_engine carrier_ship_engine }
 			}
 			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_armor }	
+			}
 
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_deck_space
+				}
+			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -300,8 +341,6 @@ equipments = {
 					battery_add_8in
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -363,14 +402,11 @@ equipments = {
 				required = no
 				allowed_module_categories = { battery_base_4in battery_base_5in }
 			}
-
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
-				}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_cruiser_armor }	
 			}
+
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -379,7 +415,6 @@ equipments = {
 					ship_extra_fuel_tank
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 
 		}
 

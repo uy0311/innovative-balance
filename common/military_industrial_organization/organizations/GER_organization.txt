@@ -120,13 +120,7 @@ GER_junkers_organization = {
 	icon = GFX_idea_junkers
 	
 	allowed = {	 
-		OR = {
-			tag = GER 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+		OR = { tag = GER tag = HUN }
 	}
 }
 
@@ -181,13 +175,7 @@ GER_rheinmetall_organization = {
 	icon = GFX_idea_rheinmetall
 	
 	allowed = {	
-		OR = {
-			tag = GER 
-			AND = {
-				tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-		}
+		tag = GER 
 	}
 }
 
@@ -196,13 +184,7 @@ GER_mauser_organization = {
 	icon = GFX_idea_mauser
 	
 	allowed = {	 
-		OR = {
-			tag = GER 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = GER 
 	}
 
 }

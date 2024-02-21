@@ -70,7 +70,7 @@ FRA_fcm_organization = {
 }
 
 FRA_aeb_organization = {
-	include = generic_task_force_ship_organization
+	include = generic_black_sea_fleet_organization
 	icon = GFX_idea_FRA_aeb
 	allowed = {	
 		tag = FRA 
@@ -202,13 +202,7 @@ FRA_mas_organization = {
 	icon = GFX_idea_mas
 	
 	allowed = {	 
-		OR = {
-			tag = FRA 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = FRA 
 	}
 }
 

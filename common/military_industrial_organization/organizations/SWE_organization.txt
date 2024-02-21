@@ -13,13 +13,7 @@ SWE_landsverk_organization = {
 	icon = GFX_idea_SWE_landsverk
 	
 	allowed = { 
-		OR = {
-			tag = SWE 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = SWE 
 	}
 }
 
@@ -124,6 +118,14 @@ SWE_bofors_organization = {
 				has_dlc = "By Blood Alone"
 			}
 		}
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_artillery_manufacturer
+
+		equipment_bonus = {
+			reliability = 0.20
+		}
+
 	}
 }
 
