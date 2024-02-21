@@ -135,6 +135,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -142,10 +143,15 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
 
+		module_count_limit = {
+			module = tank_buster_2
+			count < 1
+		}
 		module_count_limit = {
 			module = armor_plate_small
 			count < 2
@@ -341,6 +347,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -348,6 +355,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -469,6 +477,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -476,6 +485,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -598,6 +608,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -605,6 +616,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -727,6 +739,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -734,6 +747,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -873,6 +887,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -880,10 +895,15 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
 
+		module_count_limit = {
+			module = tank_buster_2
+			count < 1
+		}
 		module_count_limit = {
 			module = armor_plate_small
 			count < 2
@@ -1080,6 +1100,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -1087,6 +1108,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -1207,6 +1229,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -1214,6 +1237,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -1335,6 +1359,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -1342,6 +1367,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -1462,6 +1488,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_small
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -1469,6 +1496,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}

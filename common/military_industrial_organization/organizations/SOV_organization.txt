@@ -120,21 +120,6 @@ SOV_okmo_organization = {
 	}
 }
 
-SOV_mytishchy_machine_building_plant_organization = {
-	include = generic_tank_refurbishment_plant_organization
-	icon = GFX_idea_SOV_mytishchy_machine_building_plant
-	
-	allowed = {	
-		OR = {
-			tag = SOV
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
-		}
-	}
-}
-
 SOV_kirov_organization = {
 	include = generic_heavy_tank_organization
 	icon = GFX_idea_SOV_kirov
@@ -176,27 +161,12 @@ SOV_rubin_design_bureau_organization = {
 	icon = GFX_idea_SOV_rubin_design_bureau
 	
 	allowed = {	
-		OR = {
-			tag = SOV
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
-		}
-	}
-}
-
-SOV_black_sea_shipyard_organization = {
-	include = generic_black_sea_fleet_organization
-	icon = GFX_idea_SOV_black_sea_shipyard
-	
-	allowed = {	
-		original_tag = SOV
+		tag = SOV
 	}
 }
 
 SOV_sevastopol_marine_plant_organization = {
-	include = generic_refurbishment_repair_organization
+	include = generic_black_sea_fleet_organization
 	icon = GFX_idea_SOV_sevastopol_marine_plant
 	
 	allowed = {	
@@ -220,13 +190,7 @@ SOV_mig_design_bureau_organization = {
 	icon = GFX_idea_mig_design_bureau
 	
 	allowed = {	
-		OR = {
-			tag = SOV
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = SOV
 	}
 }
 
@@ -311,10 +275,6 @@ SOV_gaz_organization = {
 			AND = {
 				tag = BUL
 				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
 			}
 			NOR_AAT = yes
 		}

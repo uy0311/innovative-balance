@@ -407,8 +407,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_EMI_bomb_weapon"
-		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_bomb_lock_icon.dds"
+		name = "GFX_EMI_rocket_rails_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_rocket_rail_icon.dds"
 		legacy_lazy_load = no
 	}
 

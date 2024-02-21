@@ -138,7 +138,7 @@ DEBUG_generic_raider_ship_organization = {
 }
 
 DEBUG_generic_submarine_organization = {
-	include = generic_submarine_organization
+	include = generic_raider_ship_organization
 	allowed = {	
 		has_dlc = "Arms Against Tyranny"
 		is_debug = yes
