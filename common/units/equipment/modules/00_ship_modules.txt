@@ -19,7 +19,7 @@ equipment_modules = {
 			build_cost_ic = 50
 			max_strength = 7.0
 			lg_attack = 1.5
-			naval_light_gun_hit_chance_factor = 0.83
+			naval_light_gun_hit_chance_factor = 0.94
 			anti_air_attack = 0.8
 			reliability = -0.01
 		}
@@ -50,7 +50,7 @@ equipment_modules = {
 			build_cost_ic = 75
 			max_strength = 7.7
 			lg_attack = 3.0
-			naval_light_gun_hit_chance_factor = 0.86
+			naval_light_gun_hit_chance_factor = 0.98
 			anti_air_attack = 1.6
 			reliability = -0.012
 		}
@@ -81,7 +81,7 @@ equipment_modules = {
 			build_cost_ic = 50
 			max_strength = 7.0
 			lg_attack = 1.5
-			naval_light_gun_hit_chance_factor = 0.03
+			naval_light_gun_hit_chance_factor = 0.04
 			anti_air_attack = 0.8
 			reliability = -0.01
 		}
@@ -106,7 +106,7 @@ equipment_modules = {
 			build_cost_ic = 75
 			max_strength = 7.7
 			lg_attack = 3.0
-			naval_light_gun_hit_chance_factor = 0.06
+			naval_light_gun_hit_chance_factor = 0.08
 			anti_air_attack = 1.6
 			reliability = -0.012
 		}
@@ -132,7 +132,7 @@ equipment_modules = {
 			build_cost_ic = 60
 			max_strength = 7.0
 			lg_attack = 1.5
-			naval_light_gun_hit_chance_factor = 0.83
+			naval_light_gun_hit_chance_factor = 0.94
 			anti_air_attack = 2.0
 			reliability = -0.01
 		}
@@ -163,7 +163,7 @@ equipment_modules = {
 			build_cost_ic = 90
 			max_strength = 7.7
 			lg_attack = 3.0
-			naval_light_gun_hit_chance_factor = 0.86
+			naval_light_gun_hit_chance_factor = 0.98
 			anti_air_attack = 4.0
 			reliability = -0.012
 		}
@@ -194,7 +194,7 @@ equipment_modules = {
 			build_cost_ic = 60
 			max_strength = 7.0
 			lg_attack = 1.5
-			naval_light_gun_hit_chance_factor = 0.03
+			naval_light_gun_hit_chance_factor = 0.04
 			anti_air_attack = 2.0
 			reliability = -0.01
 		}
@@ -219,7 +219,7 @@ equipment_modules = {
 			build_cost_ic = 90
 			max_strength = 7.7
 			lg_attack = 3.0
-			naval_light_gun_hit_chance_factor = 0.06
+			naval_light_gun_hit_chance_factor = 0.08
 			anti_air_attack = 4.0
 			reliability = -0.012
 		}
@@ -245,7 +245,7 @@ equipment_modules = {
 			build_cost_ic = 60
 			max_strength = 8.0
 			lg_attack = 2.0
-			naval_light_gun_hit_chance_factor = 0.675
+			naval_light_gun_hit_chance_factor = 0.73
 			anti_air_attack = 1.0
 			reliability = -0.015
 		}
@@ -279,7 +279,7 @@ equipment_modules = {
 			build_cost_ic = 90
 			max_strength = 8.8
 			lg_attack = 4.0
-			naval_light_gun_hit_chance_factor = 0.70
+			naval_light_gun_hit_chance_factor = 0.76
 			anti_air_attack = 2.0
 			reliability = -0.018
 		}
@@ -313,7 +313,7 @@ equipment_modules = {
 			build_cost_ic = 60
 			max_strength = 8.0
 			lg_attack = 2.0
-			naval_light_gun_hit_chance_factor = 0.025
+			naval_light_gun_hit_chance_factor = 0.03
 			anti_air_attack = 1.0
 			reliability = -0.015
 		}
@@ -338,7 +338,7 @@ equipment_modules = {
 			build_cost_ic = 90
 			max_strength = 8.8
 			lg_attack = 4.0
-			naval_light_gun_hit_chance_factor = 0.05
+			naval_light_gun_hit_chance_factor = 0.06
 			anti_air_attack = 2.0
 			reliability = -0.018
 		}
@@ -364,7 +364,7 @@ equipment_modules = {
 			build_cost_ic = 72
 			max_strength = 8.0
 			lg_attack = 2.0
-			naval_light_gun_hit_chance_factor = 0.675
+			naval_light_gun_hit_chance_factor = 0.73
 			anti_air_attack = 2.5
 			reliability = -0.015
 		}
@@ -398,7 +398,7 @@ equipment_modules = {
 			build_cost_ic = 108
 			max_strength = 8.8
 			lg_attack = 4.0
-			naval_light_gun_hit_chance_factor = 0.70
+			naval_light_gun_hit_chance_factor = 0.76
 			anti_air_attack = 5.0
 			reliability = -0.018
 		}
@@ -432,7 +432,7 @@ equipment_modules = {
 			build_cost_ic = 72
 			max_strength = 8.0
 			lg_attack = 2.0
-			naval_light_gun_hit_chance_factor = 0.025
+			naval_light_gun_hit_chance_factor = 0.03
 			anti_air_attack = 2.5
 			reliability = -0.015
 		}
@@ -457,7 +457,7 @@ equipment_modules = {
 			build_cost_ic = 108
 			max_strength = 8.8
 			lg_attack = 4.0
-			naval_light_gun_hit_chance_factor = 0.05
+			naval_light_gun_hit_chance_factor = 0.06
 			anti_air_attack = 5.0
 			reliability = -0.018
 		}
