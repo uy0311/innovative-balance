@@ -498,4 +498,64 @@ characters={
 			}
 		}
 	}
+		#IB_add_general
+	SIA_Hanna_Justina_Marseille={
+		name="Hanna-Justina Marseille"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Hanna-Justina_Marseille.dds"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		field_marshal={
+			traits = { desert_fox trickster media_personality skilled_staffer panzer_leader}
+	        skill = 6 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	SIA_Raisa_Pottgen={
+		name="Raisa Pottgen"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Raisa_Pottgen.dds"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		corps_commander={
+			traits = { desert_fox trait_cautious trait_engineer organizer skilled_staffer }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	SIA_Charlotte_E_Yeager={
+		name="Charlotte E Yeager"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Charlotte_E_Yeager.dds"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		corps_commander={
+			traits = { commando naval_invader urban_assault_specialist media_personality trickster }
+	        skill = 5 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	SIA_Francesca_Lucchini={
+		name="Francesca Lucchini"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Francesca_Lucchini.dds"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		corps_commander={
+			traits = { hill_fighter trait_mountaineer trait_reckless infantry_officer }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
 }
