@@ -473,7 +473,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ chief_engineer superior_tactician panzer_leader }
+			traits={ chief_engineer superior_tactician bold }
 			skill=3
 			attack_skill=3
 			defense_skill=3
