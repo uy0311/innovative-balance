@@ -59,16 +59,6 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = SWE_folke_hogberg
-			allowed  = {
-				original_tag  = SWE
-			}
-			traits  = {
-				war_industrialist 
-			}
-		}
 		corps_commander={
 			traits={ commando }
 			skill=3
@@ -181,24 +171,6 @@ characters={
 			}
 		}
 	}
-	SWE_erik_palmstierna={
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = SWE_erik_palmstierna
-			ledger = navy
-				allowed = {
-					original_tag = SWE
-				}
-				traits = { naval_theorist }
-		}
-		name=SWE_erik_palmstierna
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
-			}
-		}
-	}
 	SWE_helge_stromback={
 		advisor={
 			slot = high_command
@@ -240,6 +212,44 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+	SWE_erik_palmstierna = {
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = SWE_erik_palmstierna
+			ledger = navy
+				allowed = {
+					original_tag = SWE
+				}
+				traits = { naval_theorist }
+		}
+		name=SWE_erik_palmstierna
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+	}
+	FIN_torsti_verkkola = {
+		name = FIN_torsti_verkkola
+		portraits = {
+			army = {
+				small = GFX_portrait_FIN_torsti_verkkola_small
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = FIN_torsti_verkkola
+			ledger = air
+			allowed = {
+				original_tag = SWE
+			}
+			traits = {
+				air_warfare_theorist
 			}
 		}
 	}
@@ -469,7 +479,7 @@ characters={
 				original_tag  = SWE
 			}
 			traits  = {
-				quartermaster_general 
+				war_industrialist
 			}
 		}
 		name=SWE_thorwald_bergquist
@@ -494,6 +504,43 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+	}
+	SWE_per_edvin_skold={
+		advisor={
+			slot = political_advisor
+			idea_token = SWE_per_edvin_skold
+			allowed  = {
+				original_tag  = SWE
+			}
+			traits = { 
+				quartermaster_general
+			}
+		}
+		name=SWE_per_edvin_skold
+		portraits={
+			civilian={
+				small="GFX_portrait_SWE_per_edvin_skold_small"
+			}
+		}
+	}
+	SWE_karl_kilbom = {
+		advisor={
+			slot = political_advisor
+			idea_token = SWE_karl_kilbom
+			allowed  = {
+				original_tag  = SWE
+			}
+			traits = { 
+				fortification_engineer
+			}
+		}
+		name=SWE_karl_kilbom
+		portraits={
+			civilian={
+				large="GFX_portrait_SWE_karl_kilbom"
+				small="GFX_portrait_SWE_karl_kilbom_small"
 			}
 		}
 	}
