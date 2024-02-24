@@ -826,21 +826,6 @@ characters={
 		}
 	}
 
-	Edward_Quinan={
-		name="Edward Quinan"
-		portraits={
-			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
-			}
-		}
-		field_marshal={
-			traits = { logistics_wizard organizer }
-	        skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 3 logistics_skill = 5
-			legacy_id=0
-		}
-	}
-
 	Raisa_Pottgen={
 		name="Raisa Pottgen"
 		portraits={
@@ -882,6 +867,21 @@ characters={
 		corps_commander={
 			traits = { hill_fighter trait_mountaineer trait_reckless infantry_officer }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	Edward_Quinan={
+		name="Edward Quinan"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		field_marshal={
+			traits = { logistics_wizard organizer }
+	        skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 3 logistics_skill = 5
 			legacy_id=0
 		}
 	}
