@@ -1,0 +1,27 @@
+convoys_add_decision = {
+	gain_convoys_from_pp = {
+
+		icon = generic_army_support
+
+		cost = 10
+
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 0
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 1
+			}
+		}
+	}
+}

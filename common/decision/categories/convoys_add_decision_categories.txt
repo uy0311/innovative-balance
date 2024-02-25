@@ -1,0 +1,3 @@
+convoys_add_decision = {
+	icon = generic_fascism
+}
