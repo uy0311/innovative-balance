@@ -3,7 +3,7 @@ convoys_add_decision = {
 
 		icon = generic_army_support
 
-		cost = 10
+		cost = 30
 
 		available = {
 			always = yes
@@ -15,12 +15,45 @@ convoys_add_decision = {
 			always = yes
 		}
 	
-		days_remove = 0
+		days_remove = 10
 	
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = 1
+			}
+		}
+	}
+
+	gain_convoys_from_CP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			command_power > 29
+		}
+
+		custom_cost_text = decision_cost_CP_30
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 1
+			}
+			hidden_effect = {
+				add_command_power = -30
 			}
 		}
 	}
