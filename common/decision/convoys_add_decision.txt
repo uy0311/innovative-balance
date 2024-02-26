@@ -42,10 +42,10 @@ convoys_add_decision = {
 		days_remove = 10
 
 		custom_cost_trigger = {
-			command_power > 29
+			command_power > 34
 		}
 
-		custom_cost_text = decision_cost_CP_30
+		custom_cost_text = decision_cost_CP_35
 	
 		complete_effect = {
 			add_equipment_to_stockpile = {
@@ -53,7 +53,7 @@ convoys_add_decision = {
 				amount = 1
 			}
 			hidden_effect = {
-				add_command_power = -30
+				add_command_power = -35
 			}
 		}
 	}
