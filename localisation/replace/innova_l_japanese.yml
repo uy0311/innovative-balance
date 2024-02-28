@@ -281,10 +281,13 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  torpedo_mounting_2:0 "航空魚雷2型"
  torpedo_mounting_2_desc:0"威力、信頼性が向上した航空機に搭載可能な魚雷。"
 
- #air_doctrin
+ #air_doctrine,air_spirits
  TITLE_COORDINATED_SUPPORT:0"地上支援"
  TITLE_MARITIME_OPERATIONS:0"海上航空作戦"
  TITLE_ESCORT_COMBAT:0"迎撃護衛戦"
+
+ veteran_air_instructors_spirit: "本土防衛"
+ veteran_air_instructors_spirit_desc: "我々はいかなる犠牲を払おうとも、自らの国を守る。"
 
  ###追加火砲技術###
  artillery5:0 "発展型野戦砲改良 I"
