@@ -149,7 +149,7 @@ FRA_levasseur_organization = {
 
 FRA_SNCAC_organization = {
 	name = SNCAC
-	include = generic_general_aircraft_organization
+	include = generic_cas_aircraft_organization
 	icon = GFX_idea_FRA_sncac
 	allowed = {	
 		tag = FRA 
