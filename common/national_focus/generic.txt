@@ -494,7 +494,7 @@ focus_tree = {
 	focus = {
 		id = construction_effort_3
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = infrastructure_effort_2 focus = construction_effort_2 focus = capital_ship_effort focus = screen_ship_effort }
+		prerequisite = { focus = infrastructure_effort_2 focus = capital_ship_effort focus = screen_ship_effort }
 		x = 12
 		y = 5
 		cost = 10
