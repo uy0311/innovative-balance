@@ -752,7 +752,6 @@ focus_tree = {
 			}			
 			add_ideas = IB_tank_design_bonus
 			add_ideas = militarism_focus
-			army_experience = 50
 			set_rule = { can_send_volunteers = yes }
 		}
 		available_if_capitulated = yes

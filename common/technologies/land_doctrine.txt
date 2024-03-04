@@ -5,7 +5,7 @@ technologies = {
 		doctrine_name = "MOBILE_WARFARE_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		
 		xor = { superior_firepower trench_warfare mass_assault } 
 
@@ -960,7 +960,7 @@ technologies = {
 		doctrine_name = "SUPERIOR_FIREPOWER_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		
 		xor = { mobile_warfare trench_warfare mass_assault } 
 
@@ -1901,7 +1901,7 @@ technologies = {
 		doctrine_name = "GRAND_BATTLEPLAN_DOCTRINE"
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		
 		xor = { mobile_warfare superior_firepower mass_assault } 
 	
@@ -2875,7 +2875,7 @@ technologies = {
 		doctrine_name = "MASS_ASSAULT_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		xor = { mobile_warfare superior_firepower trench_warfare } 
 
 		path = {
@@ -3349,50 +3349,7 @@ technologies = {
 			max_organisation = 10
 			default_morale = 0.25
 		}
-		
-		light_tank_destroyer_brigade = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		medium_tank_destroyer_brigade = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		modern_tank_destroyer_brigade = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-	
-		light_sp_anti_air_brigade = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		medium_sp_anti_air_brigade = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		modern_sp_anti_air_brigade = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-	
-       light_sp_artillery_brigade = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		medium_sp_artillery_brigade = {
-			combat_width = -0.2
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		modern_sp_artillery_brigade = {
+		motorized = {
 			combat_width = -0.2
 			max_organisation = 10
 			default_morale = 0.25

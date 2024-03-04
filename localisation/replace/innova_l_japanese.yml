@@ -135,7 +135,7 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  guerilla_warfare_desc:0 "この§Hドクトリンをアンロック§!する事で、戦車モジュールの§O3人用砲塔§!が使用可能になります\n\n敵進我退　敵駐我撹　敵疲我打　敵退我追\n敵が進出したら退却せよ。敵が停止したら撹乱せよ。敵が疲弊したら攻撃せよ。敵が退却したら追撃せよ。"
 
  #IB_additional_cost_factor
- IB_tank_cost_modifier_tt:0 "全種類の戦車改造コスト：§G-50%§!"
+ IB_tank_cost_modifier_tt:0 "全種類の戦車改造コスト：§G-60%§!"
  mechanized_equipment_design_cost_factor:0 "機械化装備改造コスト"
  light_tank_chassis_design_cost_factor:0 "軽戦車車体改造コスト"
  medium_tank_chassis_design_cost_factor:0 "中戦車車体改造コスト"
