@@ -362,49 +362,49 @@ ideas = {
 			picture = gre_schachtplan3
 
 			modifier = {
-				mechanized_equipment_design_cost_factor = -0.25
+				mechanized_equipment_design_cost_factor = -0.30
 
 				custom_modifier_tooltip = IB_tank_cost_modifier_tt
 				hidden_modifier = {
 
 					#LT
-					light_tank_chassis_design_cost_factor = -0.5
-					light_tank_aa_chassis_design_cost_factor = -0.5
-					light_tank_artillery_chassis_design_cost_factor = -0.5
-					light_tank_destroyer_chassis_design_cost_factor = -0.5
-					light_tank_amphibious_chassis_design_cost_factor = -0.5
-					light_tank_flame_chassis_design_cost_factor = -0.5
+					light_tank_chassis_design_cost_factor = -0.6
+					light_tank_aa_chassis_design_cost_factor = -0.6
+					light_tank_artillery_chassis_design_cost_factor = -0.6
+					light_tank_destroyer_chassis_design_cost_factor = -0.6
+					light_tank_amphibious_chassis_design_cost_factor = -0.6
+					light_tank_flame_chassis_design_cost_factor = -0.6
 
 					#MD
-				    medium_tank_chassis_design_cost_factor = -0.5
-					medium_tank_aa_chassis_design_cost_factor = -0.5
-					medium_tank_artillery_chassis_design_cost_factor = -0.5
-					medium_tank_destroyer_chassis_design_cost_factor = -0.5
-					medium_tank_amphibious_chassis_design_cost_factor = -0.5
-					medium_tank_flame_chassis_design_cost_factor = -0.5
+				    medium_tank_chassis_design_cost_factor = -0.6
+					medium_tank_aa_chassis_design_cost_factor = -0.6
+					medium_tank_artillery_chassis_design_cost_factor = -0.6
+					medium_tank_destroyer_chassis_design_cost_factor = -0.6
+					medium_tank_amphibious_chassis_design_cost_factor = -0.6
+					medium_tank_flame_chassis_design_cost_factor = -0.6
 
 					#HV
-				    heavy_tank_chassis_design_cost_factor = -0.5
-					heavy_tank_aa_chassis_design_cost_factor = -0.5
-					heavy_tank_artillery_chassis_design_cost_factor = -0.5
-					heavy_tank_destroyer_chassis_design_cost_factor = -0.5
-					heavy_tank_amphibious_chassis_design_cost_factor = -0.5
-					heavy_tank_flame_chassis_design_cost_factor = -0.5
+				    heavy_tank_chassis_design_cost_factor = -0.6
+					heavy_tank_aa_chassis_design_cost_factor = -0.6
+					heavy_tank_artillery_chassis_design_cost_factor = -0.6
+					heavy_tank_destroyer_chassis_design_cost_factor = -0.6
+					heavy_tank_amphibious_chassis_design_cost_factor = -0.6
+					heavy_tank_flame_chassis_design_cost_factor = -0.6
 
 					#AMPH
-				    amphibious_tank_chassis_design_cost_factor = -0.5
+				    amphibious_tank_chassis_design_cost_factor = -0.6
 
 					#SHV
-				    super_heavy_tank_chassis_design_cost_factor = -0.5
-					super_heavy_tank_aa_chassis_design_cost_factor = -0.5
-					super_heavy_tank_artillery_chassis_design_cost_factor = -0.5
-					super_heavy_tank_destroyer_chassis_design_cost_factor = -0.5
+				    super_heavy_tank_chassis_design_cost_factor = -0.6
+					super_heavy_tank_aa_chassis_design_cost_factor = -0.6
+					super_heavy_tank_artillery_chassis_design_cost_factor = -0.6
+					super_heavy_tank_destroyer_chassis_design_cost_factor = -0.6
 
 					#MT
-				    modern_tank_chassis_design_cost_factor = -0.5
-					modern_tank_aa_chassis_design_cost_factor = -0.5
-					modern_tank_artillery_chassis_design_cost_factor = -0.5
-					modern_tank_destroyer_chassis_design_cost_factor = -0.5
+				    modern_tank_chassis_design_cost_factor = -0.6
+					modern_tank_aa_chassis_design_cost_factor = -0.6
+					modern_tank_artillery_chassis_design_cost_factor = -0.6
+					modern_tank_destroyer_chassis_design_cost_factor = -0.6
 
 				}
 			}
