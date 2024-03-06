@@ -1070,7 +1070,7 @@ equipment_modules = {
 		parent = aircraft_cannon_1_1x
 		add_stats = {
 			air_attack = 9
-			air_agility = -3
+			air_agility = -4
 			build_cost_ic = 8
 			weight = 60
 		}
@@ -1103,7 +1103,7 @@ equipment_modules = {
 		parent = aircraft_cannon_1_2x
 		add_stats = {
 			air_attack = 18
-			air_agility = -6
+			air_agility = -8
 			build_cost_ic = 16
 			weight = 120
 		}

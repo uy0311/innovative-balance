@@ -1105,7 +1105,7 @@ technologies = {
 			air_attack = 0.1
 		}
 
-		tech_air_damage_factor = -0.02
+		tech_air_damage_factor = -0.01
 		
 		research_cost = 1.0
 
