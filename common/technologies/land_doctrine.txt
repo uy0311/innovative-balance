@@ -30,6 +30,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 2.5
 
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_mobile_warfare_idea }
+					}
+				add_ideas = { doctrine_cat_mobile_warfare_idea }
+				}
+		}
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
@@ -780,6 +789,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_idea }
+					}
+				add_ideas = { doctrine_cat_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -928,6 +946,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_idea }
+					}
+				add_ideas = { doctrine_cat_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -978,6 +1005,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 2.5
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_superior_firepower_idea }
+					}
+				add_ideas = { doctrine_cat_superior_firepower_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1627,6 +1663,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_idea }
+					}
+				add_ideas = { doctrine_cat_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1862,6 +1907,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_idea }
+					}
+				add_ideas = { doctrine_cat_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1917,6 +1971,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 2.5
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_grand_battle_plan_idea }
+					}
+				add_ideas = { doctrine_cat_grand_battle_plan_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -2447,6 +2510,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_idea }
+					}
+				add_ideas = { doctrine_cat_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -2836,6 +2908,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_idea }
+					}
+				add_ideas = { doctrine_cat_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -2890,6 +2971,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 2.5
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_grand_battle_plan_idea }
+					}
+				add_ideas = { doctrine_cat_grand_battle_plan_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -3468,6 +3558,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_idea }
+					}
+				add_ideas = { doctrine_cat_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -3749,6 +3848,15 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_idea }
+					}
+				add_ideas = { doctrine_cat_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_mass_assault
