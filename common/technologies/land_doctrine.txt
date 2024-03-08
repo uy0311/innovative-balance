@@ -31,12 +31,14 @@ technologies = {
 		research_cost = 2.5
 
 		on_research_complete = {
+			hidden_effect = {
 				if = {
 					limit = {
 						NOT = {	has_idea = doctrine_cat_mobile_warfare_idea }
 					}
 				add_ideas = { doctrine_cat_mobile_warfare_idea }
 				}
+			}
 		}
 
 		folder = {
@@ -1006,12 +1008,14 @@ technologies = {
 		research_cost = 2.5
 		
 		on_research_complete = {
+			hidden_effect = {
 				if = {
 					limit = {
 						NOT = {	has_idea = doctrine_cat_superior_firepower_idea }
 					}
 				add_ideas = { doctrine_cat_superior_firepower_idea }
 				}
+			}
 		}
 
 		categories = {
@@ -1972,12 +1976,14 @@ technologies = {
 		research_cost = 2.5
 		
 		on_research_complete = {
+			hidden_effect = {
 				if = {
 					limit = {
 						NOT = {	has_idea = doctrine_cat_grand_battle_plan_idea }
 					}
 				add_ideas = { doctrine_cat_grand_battle_plan_idea }
 				}
+			}
 		}
 
 		categories = {
@@ -2972,12 +2978,14 @@ technologies = {
 		research_cost = 2.5
 		
 		on_research_complete = {
+			hidden_effect = {
 				if = {
 					limit = {
 						NOT = {	has_idea = doctrine_cat_grand_battle_plan_idea }
 					}
 				add_ideas = { doctrine_cat_grand_battle_plan_idea }
 				}
+			}
 		}
 
 		categories = {
