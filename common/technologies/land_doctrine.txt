@@ -2981,9 +2981,9 @@ technologies = {
 			hidden_effect = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_grand_battle_plan_idea }
+						NOT = {	has_idea = doctrine_cat_mass_assault_idea }
 					}
-				add_ideas = { doctrine_cat_grand_battle_plan_idea }
+				add_ideas = { doctrine_cat_mass_assault_idea }
 				}
 			}
 		}
