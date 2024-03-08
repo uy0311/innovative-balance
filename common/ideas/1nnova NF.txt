@@ -754,7 +754,51 @@ ideas = {
 			}
 		}
 
+		research_bonus_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				research_speed_factor = 1000000
+				industrial_capacity_dockyard = 1000
+				industrial_capacity_factory = 1000
+				production_speed_buildings_factor = 1000
+				political_power_gain = 1000
+
+			}
+		}
+
+		doctrine_cat_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				land_doctrine_cost_factor = -0.75
+			}
+		}
+	}
+
+	
 	hidden_ideas = {
+
 		doctrine_cat_mobile_warfare_idea = {
 			
 			allowed = {
@@ -840,45 +884,4 @@ ideas = {
 		}
 	}
 
-		doctrine_cat_idea = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			picture = generic_research_bonus
-			
-			modifier = {
-				land_doctrine_cost_factor = -0.75
-			}
-		}
-
-		research_bonus_idea = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			picture = generic_research_bonus
-			
-			modifier = {
-				research_speed_factor = 1000000
-				industrial_capacity_dockyard = 1000
-				industrial_capacity_factory = 1000
-				production_speed_buildings_factor = 1000
-				political_power_gain = 1000
-
-			}
-		}
-	}
 }
