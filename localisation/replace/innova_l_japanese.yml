@@ -16,7 +16,6 @@
  IB_SCOUT_PLANE_TEXT:0 "艦上偵察機"
  IB_tank_design_bonus:0 "戦車設計局"
 
-
  #提督
 ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
 
@@ -289,6 +288,9 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  veteran_air_instructors_spirit: "本土防衛"
  veteran_air_instructors_spirit_desc: "我々はいかなる犠牲を払おうとも、自らの国を守る。"
 
+ ###戦車企業###
+ SWE_valtion_panssaritehdas_organization:0 "州立装甲車工場"
+
  ###追加火砲技術###
  artillery5:0 "発展型野戦砲改良 I"
  artillery5_desc:0 "全高を低くした設計の砲は、敵が標的にするのをより困難にさせる。"
@@ -300,6 +302,9 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  antiair6_desc:0 "最新のレーダー装置と統合された電算機と自動装填装置は、より速い航空機に対抗するため必要となる。"
  antitank6:0 "発展型対戦車砲改善"
  antitank6_desc:0 "低抵抗の風防を弾頭の先端に取り付けることによって、距離が離れても弾速を維持できるようになる。"
+
+ ###陸軍ドクトリン研究補正###
+ doctrine_cat_idea:0 "陸軍ドクトリンの完遂"
 
  ###海軍###
  ship_hull_cruiser_submarine_desc:0 "大型で航続力・居住性などに優れ、遠方の外洋に進出して長期間の行動が可能な潜水艦である。"

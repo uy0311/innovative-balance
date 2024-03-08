@@ -13,7 +13,7 @@ equipment_modules = {
 			maximum_speed = 1
 		}
 		multiply_stats = {
-			maximum_speed = 0.50
+			maximum_speed = 0.60
 		}
 
 	}
@@ -957,7 +957,7 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 		add_stats = {
 			soft_attack = 35
-			hard_attack = 5
+			hard_attack = 3
 			ap_attack = 12
 			build_cost_ic = 1.25
 			reliability = -0.1
@@ -1075,7 +1075,7 @@ equipment_modules = {
 
 		add_stats = {
 			soft_attack = 42
-			hard_attack = 9
+			hard_attack = 5
 			ap_attack = 20
 			build_cost_ic = 1.75
 			reliability = -0.2
@@ -1104,7 +1104,7 @@ equipment_modules = {
 		parent = tank_medium_howitzer
 		add_stats = {
 			soft_attack = 47
-			hard_attack = 13
+			hard_attack = 7
 			ap_attack = 30
 			build_cost_ic = 2.25
 			reliability = -0.2
