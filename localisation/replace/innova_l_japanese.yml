@@ -304,7 +304,10 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  antitank6_desc:0 "低抵抗の風防を弾頭の先端に取り付けることによって、距離が離れても弾速を維持できるようになる。"
 
  ###陸軍ドクトリン研究補正###
- doctrine_cat_idea:0 "陸軍ドクトリンの完遂"
+ doctrine_cat_MW_idea:0 "陸軍ドクトリンの完遂"
+ doctrine_cat_SF_idea:0 "陸軍ドクトリンの完遂"
+ doctrine_cat_GB_idea:0 "陸軍ドクトリンの完遂"
+ doctrine_cat_MA_idea:0 "陸軍ドクトリンの完遂"
 
  ###海軍###
  ship_hull_cruiser_submarine_desc:0 "大型で航続力・居住性などに優れ、遠方の外洋に進出して長期間の行動が可能な潜水艦である。"
