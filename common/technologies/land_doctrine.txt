@@ -794,9 +794,9 @@ technologies = {
 		on_research_complete = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_idea }
+						NOT = {	has_idea = doctrine_cat_MW_idea }
 					}
-				add_ideas = { doctrine_cat_idea }
+				add_ideas = { doctrine_cat_MW_idea }
 				}
 		}
 
@@ -951,9 +951,9 @@ technologies = {
 		on_research_complete = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_idea }
+						NOT = {	has_idea = doctrine_cat_MW_idea }
 					}
-				add_ideas = { doctrine_cat_idea }
+				add_ideas = { doctrine_cat_MW_idea }
 				}
 		}
 
@@ -1670,9 +1670,9 @@ technologies = {
 		on_research_complete = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_idea }
+						NOT = {	has_idea = doctrine_cat_SF_idea }
 					}
-				add_ideas = { doctrine_cat_idea }
+				add_ideas = { doctrine_cat_SF_idea }
 				}
 		}
 
@@ -1914,9 +1914,9 @@ technologies = {
 		on_research_complete = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_idea }
+						NOT = {	has_idea = doctrine_cat_SF_idea }
 					}
-				add_ideas = { doctrine_cat_idea }
+				add_ideas = { doctrine_cat_SF_idea }
 				}
 		}
 
@@ -2519,9 +2519,9 @@ technologies = {
 		on_research_complete = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_idea }
+						NOT = {	has_idea = doctrine_cat_GB_idea }
 					}
-				add_ideas = { doctrine_cat_idea }
+				add_ideas = { doctrine_cat_GB_idea }
 				}
 		}
 
@@ -2917,9 +2917,9 @@ technologies = {
 		on_research_complete = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_idea }
+						NOT = {	has_idea = doctrine_cat_GB_idea }
 					}
-				add_ideas = { doctrine_cat_idea }
+				add_ideas = { doctrine_cat_GB_idea }
 				}
 		}
 
@@ -3569,9 +3569,9 @@ technologies = {
 		on_research_complete = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_idea }
+						NOT = {	has_idea = doctrine_cat_MA_idea }
 					}
-				add_ideas = { doctrine_cat_idea }
+				add_ideas = { doctrine_cat_MA_idea }
 				}
 		}
 
@@ -3859,9 +3859,9 @@ technologies = {
 		on_research_complete = {
 				if = {
 					limit = {
-						NOT = {	has_idea = doctrine_cat_idea }
+						NOT = {	has_idea = doctrine_cat_MA_idea }
 					}
-				add_ideas = { doctrine_cat_idea }
+				add_ideas = { doctrine_cat_MA_idea }
 				}
 		}
 
