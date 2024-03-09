@@ -855,7 +855,6 @@ generic_medium_aircraft_organization = {
 		mio_cat_eq_only_light_fighter
 		medium_plane_fighter_airframe
 		medium_plane_scout_plane_airframe
-		transport_plane_equipment
 	}
 
 	research_categories = { air_equipment }
@@ -884,7 +883,6 @@ generic_heavy_aircraft_organization = {
 		mio_cat_eq_only_tactical_bomber
 		medium_plane_scout_plane_airframe
 		large_plane_airframe
-		transport_plane_equipment
 	}
 
 	research_categories = { air_equipment }
