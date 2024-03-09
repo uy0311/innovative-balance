@@ -349,7 +349,7 @@ NCountry = {
 	ADDITIONAL_MAJOR_COUNTRIES_IC_RATIO = 0.7,		-- Countries will also be considered major when having more factories that the average of top MIN_MAJOR_COUNTRIES countries' factories times ADDITIONAL_MAJOR_COUNTRIES_IC_RATIO
 	BASE_TENSION_MAJOR_COUNTRY_INDEX = 1,			-- Which major country should be considered the base country when scaling generated world tension. 0 is the country with the most factories, 1 is the second most-factories country etc. This number has to be lower than MIN_MAJOR_COUNTRIES
 	MIN_NAVAL_SUPPLY_EFFICIENCY = 0.1,				-- Min ratio when supplies will be considered delivered from the capital by naval path
-	PARADROP_AIR_SUPERIORITY_RATIO = 0.7,			-- Min ratio of air superiority for paradropping
+	PARADROP_AIR_SUPERIORITY_RATIO = 0.8,			-- Min ratio of air superiority for paradropping
 	STATE_VALUE_BASE = 10.0,                        -- Base value of a state (value is used to determine costs in e.g. peace conferences)
 	STATE_VALUE_BUILDING_SLOTS_MULT = 4.0,          -- The value of each building slot in a state
 	STATE_VALUE_MANPOWER_FACTOR = 0.1,              -- State cost increases with this for every 10k population (so 3.1M becomes 310 and then multiplied by this)
@@ -1344,7 +1344,7 @@ NAir = {
 	INTERCEPTION_DISTANCE_SCALE = 50, -- At this many pixels of path length, full interception efficiency is applied to air missions. Lerp from 0.
 	INTERCEPTION_DAMAGE_SCALE = 0.3, -- Multiply the interception damage with this value. Works as a cap when interception distance is at maximum.
 
-	MIN_PLANE_COUNT_PARADROP = 50,
+	MIN_PLANE_COUNT_PARADROP = 100,
 	MIN_PLANE_COUNT_AIR_SUPPLY = 1,
 	BASE_UNIT_WEIGHT_IN_TRANSPORT_PLANES = 45.0,
 
@@ -1357,7 +1357,7 @@ NAir = {
 		0.0, -- STRATEGIC_BOMBER
 		0.0, -- NAVAL_BOMBER
 		0.0, -- DROP_NUKE
-		0.0, -- PARADROP
+		1.0, -- PARADROP
 		0.0, -- NAVAL_KAMIKAZE
         0.0, -- PORT_STRIKE
 		0.0, -- ATTACK_LOGISTICS
