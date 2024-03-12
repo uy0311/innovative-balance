@@ -1631,6 +1631,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_medium
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -1638,6 +1639,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -1830,6 +1832,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_medium
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -1837,6 +1840,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -1958,6 +1962,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_medium
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -1965,6 +1970,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -2086,6 +2092,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_medium
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -2093,6 +2100,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -2214,6 +2222,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_module_Lower_medium
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 
@@ -2221,6 +2230,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
