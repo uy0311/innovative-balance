@@ -3764,7 +3764,7 @@ technologies = {
 
 		army_bonus_air_superiority_factor = -1.00
 		air_cas_present_factor = -1.00
-		enemy_army_bonus_air_superiority_factor = -1.0
+		enemy_army_bonus_air_superiority_factor = -0.75
 		cas_damage_reduction = 0.25
 
 		supply_consumption_factor = -0.05
