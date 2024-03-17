@@ -87,7 +87,10 @@ JAP_mitsubishi_organization = {
 	icon = GFX_idea_mitsubishi
 	
 	allowed = {	 
-		tag = JAP 
+		OR = {
+			tag = JAP
+			tag = SIA
+		}
 	}
 } 
 
@@ -95,7 +98,10 @@ JAP_aichi_organization = {
 	include = generic_medium_aircraft_organization
 	icon = GFX_idea_aichi
 	allowed = {	
-		tag = JAP
+		OR = {
+			tag = JAP
+			tag = SIA
+		}
 	}
 }
 
@@ -103,8 +109,13 @@ JAP_nakajima_organization = {
 	include = generic_heavy_aircraft_organization
 	icon = GFX_idea_nakajima
 	allowed = {	
-		tag = JAP
-		has_dlc = "Arms Against Tyranny"
+		OR = {
+			AND = {
+				tag = JAP
+				has_dlc = "Arms Against Tyranny"
+			}
+			tag = SIA
+		}
 	}
 }
 
@@ -112,8 +123,13 @@ JAP_yokosuka_organization = {
 	include = generic_naval_aircraft_organization 
 	icon = GFX_idea_yokosuka
 	allowed = {	
-		tag = JAP
-		has_dlc = "Arms Against Tyranny"
+		OR = {
+			AND = {
+				tag = JAP
+				has_dlc = "Arms Against Tyranny"
+			}
+			tag = SIA
+		}
 	}
 }
 

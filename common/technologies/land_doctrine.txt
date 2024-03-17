@@ -3818,7 +3818,7 @@ technologies = {
 
 		supply_consumption_factor = -0.05
 		out_of_supply_factor = -0.40
-		land_reinforce_rate = 0.10
+		land_reinforce_rate = 0.05
 
 		armored_car = {
 			combat_width = -0.5
