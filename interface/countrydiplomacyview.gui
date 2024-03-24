@@ -3578,7 +3578,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "infantry_button"
-				position = { x=91 y=149 }
+				position = { x=131 y=149 }
 				quadTextureSprite ="GFX_add_prod_inf_art_line"
 				clicksound = click_checkbox
 				pdx_tooltip = PRODUCTION_EQUIPMENT_FILTER
@@ -3586,7 +3586,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "tank_button"
-				position = { x=171 y=149 }
+				position = { x=211 y=149 }
 				quadTextureSprite ="GFX_add_prod_armour_line"
 				clicksound = click_checkbox
 				pdx_tooltip = PRODUCTION_ARMOR_FILTER
@@ -3594,7 +3594,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "aircraft_button"
-				position = { x=251 y=149 }
+				position = { x=10000 y=10000 }
 				quadTextureSprite ="GFX_add_prod_aircraft_line"
 				clicksound = click_checkbox
 				pdx_tooltip = PRODUCTION_AIR_FILTER
@@ -3602,7 +3602,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "naval_button"
-				position = { x=331 y=149 }
+				position = { x=291 y=149 }
 				spriteType ="GFX_add_prod_naval_line"
 				clicksound = click_checkbox
 				pdx_tooltip = EQUIPMENT_NAVAL
