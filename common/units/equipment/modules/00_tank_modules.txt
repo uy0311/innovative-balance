@@ -1534,7 +1534,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = amphibious
 		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = { anti_air artillery anti_tank flame}
+		forbid_equipment_type = { anti_air artillery anti_tank flame }
 
 		add_stats = {
 			#build_cost_ic = 2
@@ -1551,7 +1551,7 @@ equipment_modules = {
 		abbreviation = "thmg"
 		category = tank_secondary_turret
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = {anti_air artillery anti_tank flame}
+		forbid_equipment_type = {anti_air artillery anti_tank flame }
 
 		add_stats = {
 			build_cost_ic = 3.0
@@ -1559,7 +1559,7 @@ equipment_modules = {
 			soft_attack = 6
 			breakthrough = 2
 			defense = 1
-			maximum_speed = -2.0
+			maximum_speed = -1.0
 		}
 		xp_cost = 0#1
 		multiply_stats = {
@@ -1579,7 +1579,7 @@ equipment_modules = {
 			hard_attack = 6
 			breakthrough = 2
 			defense = 1
-			maximum_speed = -2.0
+			maximum_speed = -1.0
 		}
 		xp_cost = 0#1
 		multiply_stats = {
