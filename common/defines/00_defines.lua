@@ -665,7 +665,7 @@ NTechnology = {
 	BASE_YEAR_AHEAD_PENALTY_FACTOR = 4,		-- Base year ahead penalty
 	BASE_TECH_COST = 100,					-- Base cost for a tech. multiplied with tech cost and ahead of time penalties
 	MAX_TECH_SHARING_BONUS = 1.0, 			-- Max technology sharing bonus that can be applied instantly
-	LICENSE_PRODUCTION_TECH_BONUS = 0.5,	-- License production tech bonus
+	LICENSE_PRODUCTION_TECH_BONUS = 0.0,	-- License production tech bonus
 
 	DEFAULT_XP_UNLOCK_RESEARCH_COST = 0,			-- default xp cost of a research to unlock directly
 	DEFAULT_XP_BOOST_RESEARCH_COST = 0,				-- default xp cost of a research to speed up the process

@@ -5,7 +5,7 @@ technology_sharing_group = {
 	desc = commonwealth_research_desc
 	picture = GFX_commonwealth_research
     
-	research_sharing_per_country_bonus = 0.2
+	research_sharing_per_country_bonus = 0.5
 
     available = {
         is_in_faction_with = ENG
@@ -20,7 +20,7 @@ technology_sharing_group = {
 	desc = comintern_research_desc
 	picture = GFX_technology_sharing_default
     
-	research_sharing_per_country_bonus = 0.2
+	research_sharing_per_country_bonus = 0.5
 
     available = {
         is_in_faction_with = SOV
@@ -35,7 +35,7 @@ technology_sharing_group = {
 	desc = axis_research_desc
 	picture = GFX_technology_sharing_default
     
-	research_sharing_per_country_bonus = 0.2
+	research_sharing_per_country_bonus = 0.5
 
     available = {
         is_in_faction_with = GER
@@ -51,7 +51,7 @@ technology_sharing_group = {
 	desc = japanese_research_desc
 	picture = GFX_technology_sharing_default
     
-	research_sharing_per_country_bonus = 0.2
+	research_sharing_per_country_bonus = 0.5
 
     available = {
         is_in_faction_with = JAP
@@ -66,7 +66,7 @@ technology_sharing_group = {
 	desc = us_research_desc
 	picture = GFX_technology_sharing_default
     
-	research_sharing_per_country_bonus = 0.2
+	research_sharing_per_country_bonus = 0.5
 
     available = {
         is_in_faction_with = USA

@@ -107,14 +107,10 @@ ideas = {
 				always = no # Added via focus
 			}
 
-			allowed_civil_war = {
-				has_government = communism
-			}
-
 			picture = generic_production_bonus
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.05
+				production_speed_industrial_complex_factor = 0.04
 			}
 		}
 		
@@ -126,18 +122,13 @@ ideas = {
 				always = no # Added via focus
 			}
 
-			allowed_civil_war = {
-				has_government = communism
-			}
-
 			picture = generic_production_bonus
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.07
+				production_speed_industrial_complex_factor = 0.06
 			}
 		}
-		
-		
+
 		ib_workers_culture_3 = {
 			
 			removal_cost = -1
@@ -156,6 +147,7 @@ ideas = {
 				production_speed_buildings_factor = 0.08
 			}
 		}
+
 		ib_wartime_industry_focus_1 = {
 			allowed = {
 				always = no
