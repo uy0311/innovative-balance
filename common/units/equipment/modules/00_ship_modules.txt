@@ -17,7 +17,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 50
-			max_strength = 7.0
+			max_strength = 7.5
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.94
 			anti_air_attack = 0.8
@@ -48,7 +48,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 75
-			max_strength = 7.7
+			max_strength = 8.25
 			lg_attack = 3.0
 			naval_light_gun_hit_chance_factor = 0.98
 			anti_air_attack = 1.6
@@ -79,7 +79,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 50
-			max_strength = 7.0
+			max_strength = 7.5
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.04
 			anti_air_attack = 0.8
@@ -104,7 +104,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 75
-			max_strength = 7.7
+			max_strength = 8.25
 			lg_attack = 3.0
 			naval_light_gun_hit_chance_factor = 0.08
 			anti_air_attack = 1.6
@@ -130,7 +130,7 @@ equipment_modules = {
 	
 		add_stats = {
 			build_cost_ic = 60
-			max_strength = 7.0
+			max_strength = 7.5
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.94
 			anti_air_attack = 2.0
@@ -161,7 +161,7 @@ equipment_modules = {
 	
 		add_stats = {
 			build_cost_ic = 90
-			max_strength = 7.7
+			max_strength = 8.25
 			lg_attack = 3.0
 			naval_light_gun_hit_chance_factor = 0.98
 			anti_air_attack = 4.0
@@ -192,7 +192,7 @@ equipment_modules = {
 	
 		add_stats = {
 			build_cost_ic = 60
-			max_strength = 7.0
+			max_strength = 7.5
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.04
 			anti_air_attack = 2.0
@@ -217,7 +217,7 @@ equipment_modules = {
 	
 		add_stats = {
 			build_cost_ic = 90
-			max_strength = 7.7
+			max_strength = 8.25
 			lg_attack = 3.0
 			naval_light_gun_hit_chance_factor = 0.08
 			anti_air_attack = 4.0
@@ -2593,7 +2593,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 8
-			build_cost_ic = 45#90
+			build_cost_ic = 15
 		}
 
 		can_convert_from = {
@@ -2614,7 +2614,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 12
-			build_cost_ic = 60#120
+			build_cost_ic = 20
 		}
 
 		can_convert_from = {
@@ -2635,7 +2635,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 16
-			build_cost_ic = 75#150
+			build_cost_ic = 25
 		}
 
 		can_convert_from = {
@@ -2656,7 +2656,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 20
-			build_cost_ic = 90#180
+			build_cost_ic = 30
 		}
 
 		can_convert_from = {
