@@ -297,6 +297,9 @@ ideas = {
 
 				unit_amphibious_mechanized_design_cost_factor = -0.33
 				unit_amphibious_armor_design_cost_factor = -0.33
+				unit_amphibious_light_armor_design_cost_factor = -0.33
+				unit_amphibious_medium_armor_design_cost_factor = -0.33
+				unit_amphibious_heavy_armor_design_cost_factor = -0.33
 
 				unit_light_armor_design_cost_factor = -0.33
 				unit_medium_armor_design_cost_factor = -0.33
@@ -346,6 +349,9 @@ ideas = {
 
 				unit_amphibious_mechanized_design_cost_factor = -1
 				unit_amphibious_armor_design_cost_factor = -1
+				unit_amphibious_light_armor_design_cost_factor = -1
+				unit_amphibious_medium_armor_design_cost_factor = -1
+				unit_amphibious_heavy_armor_design_cost_factor = -1
 
 				unit_light_sp_artillery_brigade_design_cost_factor = -1
 				unit_medium_sp_artillery_brigade_design_cost_factor = -1
