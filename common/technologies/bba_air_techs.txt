@@ -1274,7 +1274,7 @@ technologies = {
 			cannon_defense_turret_2x
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.75
 		start_year = 1940
 
 		folder = {
@@ -1325,7 +1325,7 @@ technologies = {
 			large_aircraft_cannon_2x
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.75
 		start_year = 1943
 
 		folder = {
@@ -1367,7 +1367,7 @@ technologies = {
 			aircraft_cannon_2_2x
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.75
 		start_year = 1943
 
 		folder = {
@@ -1412,7 +1412,7 @@ technologies = {
 			engine_1_6x	
 		}
 		
-		research_cost = 1
+		research_cost = 1.0
 		start_year = 1933
 
 		folder = {
@@ -1484,7 +1484,7 @@ technologies = {
 			engine_2_6x	
 		}
 		
-		research_cost = 1
+		research_cost = 1.0
 		start_year = 1938
 
 		folder = {
@@ -1538,7 +1538,7 @@ technologies = {
 			engine_3_6x	
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.75
 		start_year = 1941
 
 		folder = {
@@ -1592,7 +1592,7 @@ technologies = {
 			engine_4_6x	
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.75
 		start_year = 1944
 
 		folder = {
