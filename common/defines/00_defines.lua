@@ -1400,7 +1400,7 @@ NAir = {
 	NAVAL_MINES_PLANTING_SPEED_MULT = 0.025,						-- Value used to overall balance of the speed of planting naval mines
 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.25,						-- Value used to overall balance of the speed of sweeping naval mines
 	NON_CORE_STRATEGIC_IMPACT = 0.5,                                -- multiplier for strategic impact of non-core bombing
-	RECON_LAND_SPOT_CHANCE = 0.02,                     				-- scale factor on spotting lan
+	RECON_LAND_SPOT_CHANCE = 2.00,                     				-- scale factor on spotting lan
 
 	REINFORCEMENT_DISABLING_DURATION_IN_LAND_CARRIER_TRANSFER = 48,	-- The reinforcement disabling duration in hours when transfering from land to carrier and vice versa
 
@@ -3597,7 +3597,7 @@ NIntel = {
 		0.3,
 	},
 
-	RECON_PLANE_INTEL_BASE = 2.00, 				-- intel base amount for a strategic area per plane
+	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 	RECON_PLANE_LAND_DISTRIBUTION = { 10.0, 6.0, 0.0, 3.0 },    -- controls for land and sea zones how much of each intel typee is given (civ, army, navy, air)
 	RECON_PLANE_SEA_DISTRIBUTION = { 0.0, 0.0, 10.0, 0.0 },
 
