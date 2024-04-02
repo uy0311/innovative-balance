@@ -288,22 +288,38 @@ spriteTypes = {
     #technologies
 	spriteType = {
 		name = "GFX_antiair6_medium"
-		textureFile = "gfx/interface/technologies/antiair6.dds"
+		textureFile = "gfx/interface/technologies/antiair3.dds"
+	}
+	spriteType = {
+		name = "GFX_antiair7_medium"
+		textureFile = "gfx/interface/technologies/antiair4.dds"
 	}
 
 	spriteType = {
 		name = "GFX_artillery6_medium"
 		textureFile = "gfx/interface/technologies/artillery6.dds"
 	}
+	spriteType = {
+		name = "GFX_artillery7_medium"
+		textureFile = "gfx/interface/technologies/artillery7.dds"
+	}
 
 	spriteType = {
 		name = "GFX_rocket_artillery5_medium"
-		textureFile = "gfx/interface/technologies/rocket_artillery5.dds"
+		textureFile = "gfx/interface/technologies/rocket_artillery4.dds"
+	}
+	spriteType = {
+		name = "GFX_rocket_artillery6_medium"
+		textureFile = "gfx/interface/technologies/rocket_artillery3.dds"
 	}
 
 	spriteType = {
 		name = "GFX_antitank6_medium"
 		textureFile = "gfx/interface/technologies/antitank6.dds"
+	}
+	spriteType = {
+		name = "GFX_antitank7_medium"
+		textureFile = "gfx/interface/technologies/antitank7.dds"
 	}
 
 	spriteType = { #infantry_at3
