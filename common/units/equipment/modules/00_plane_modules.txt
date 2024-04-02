@@ -22,6 +22,79 @@ equipment_modules = {
 				machine_gun
 			}
 		}
+
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
 	}
 
 	concept_cas = {
@@ -36,8 +109,77 @@ equipment_modules = {
 			}
 		}
 
-		multiply_stats = {
-			air_superiority = -0.667
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
 		}
 	}
 
@@ -53,8 +195,77 @@ equipment_modules = {
 			}
 		}
 
-		multiply_stats = {
-			air_superiority = -0.667
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
 		}
 	}
 
@@ -75,6 +286,79 @@ equipment_modules = {
 				machine_gun
 			}
 		}
+		
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
 	}
 
 	concept_tactical_bomber = {
@@ -88,9 +372,78 @@ equipment_modules = {
 				plane_special_module_defense_turret
 			}
 		}
-
-		multiply_stats = {
-			air_superiority = -0.667
+		
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
 		}
 	}
 
@@ -111,13 +464,82 @@ equipment_modules = {
 				plane_special_module_defense_turret
 			}
 		}
-
-		multiply_stats = {
-			air_superiority = -0.667
-		}
 		
 		allow_mission_type = {
 			recon
+		}
+		
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
 		}
 	}
 	
@@ -132,10 +554,6 @@ equipment_modules = {
 				plane_special_module_defense_turret
 			}
 		}
-
-		multiply_stats = {
-			air_superiority = -0.667
-		}
 		
 		mission_type_stats = {
 			limit = {
@@ -143,6 +561,71 @@ equipment_modules = {
 			}
 			multiply_stats = {
 				air_ground_attack = -0.75
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
 			}
 		}
 	}
@@ -159,19 +642,81 @@ equipment_modules = {
 			}
 		}
 
-		multiply_stats = {
-			air_superiority = -0.667
-		}
 		allow_mission_type = {
 			naval_patrol
 		}
-
+		
 		mission_type_stats = {
 			limit = {
 				cas
 			}
 			multiply_stats = {
 				air_ground_attack = -0.75
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
 			}
 		}
 	}
