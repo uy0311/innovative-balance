@@ -1201,7 +1201,7 @@ equipments = {
 		}
 		module_count_limit = {
 			module = amphibious_drive
-			count < 2
+			count < 1
 		}
 		module_count_limit = {
 			module = dozer_blade

@@ -2667,7 +2667,7 @@ technologies = {
 			breakthrough = 0.2
 		}
 
-		amphibious_armor = {
+		amphibious_medium_armor = {
 			max_organisation = 10
 			default_morale = 0.1
 			breakthrough = 0.2

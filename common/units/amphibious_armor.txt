@@ -16,7 +16,6 @@ sub_units = {
 		group = armor
 
 		categories = {
-			category_tanks
 			category_front_line
 			category_all_armor
 			category_army
@@ -83,7 +82,6 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_tanks
 			category_front_line
 			category_all_armor
 			category_army
@@ -123,7 +121,7 @@ sub_units = {
 			attack = 0.6
 		}
 		river = {
-			attack = 1.2
+			attack = 0.8
 		}
 		amphibious = {
 			attack = 1.8
@@ -147,7 +145,6 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_tanks
 			category_front_line
 			category_all_armor
 			category_army
@@ -190,7 +187,7 @@ sub_units = {
 			attack = 0.6
 		}
 		river = {
-			attack = 1.2
+			attack = 0.8
 		}
 		amphibious = {
 			attack = 1.8
@@ -214,7 +211,6 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_tanks
 			category_front_line
 			category_all_armor
 			category_army
