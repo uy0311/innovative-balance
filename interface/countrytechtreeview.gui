@@ -1097,7 +1097,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_light"
-					position = { x = -195 y = 20  }
+					position = { x = -95 y = 20  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1109,7 +1109,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "armour_subtitle_amphibious"
-					position = { x = 13 y = 265 }
+					position = { x = -295 y = 565 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1204,6 +1204,14 @@ guiTypes = {
 			gridboxtype = {
 				name = "tankother_tree"
 				position = { x = 24% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "amphibious_drive_tree"
+				position = { x = 4% y = -50 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
