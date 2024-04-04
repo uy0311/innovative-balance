@@ -10,10 +10,22 @@ equipment_modules = {
 		category = light_plane_concept
 		sfx = light_plane_concept_fighter
 		add_equipment_type = fighter
-		
+
 		allow_mission_type = {
 			air_superiority
 			interception
+		}
+
+		forbid_equipment_type_exact_match_for_category = {
+	#		fighter_weapon = fighter
+	#		machine_gun = fighter
+	#		rocket_rails_weapon = fighter
+			anti_tank_weapon = fighter
+	#		cas_weapon = fighter
+	#		tac_weapon = fighter
+	#		nav_bomber_weapon = fighter
+	#		mine_warfare_offense = fighter
+	#		plane_special_module_defense_turret = fighter
 		}
 
 		allowed_module_categories = {
@@ -103,6 +115,18 @@ equipment_modules = {
 		sfx = light_plane_concept_cas
 		add_equipment_type = cas
 
+	#	forbid_equipment_type_exact_match_for_category = {
+	#		fighter_weapon = cas
+	#		machine_gun = cas
+	#		rocket_rails_weapon = cas
+	#		anti_tank_weapon = cas
+	#		cas_weapon = cas
+	#		tac_weapon = cas
+	#		nav_bomber_weapon = cas
+	#		mine_warfare_offense = cas
+	#		plane_special_module_defense_turret = cas
+	#	}
+
 		allowed_module_categories = {
 			special_type_slot_3 = {
 				plane_special_module_defense_turret
@@ -188,6 +212,18 @@ equipment_modules = {
 		category = light_plane_concept
 		sfx = light_plane_concept_naval_bomber
 		add_equipment_type = naval_bomber
+
+	#	forbid_equipment_type_exact_match_for_category = {
+	#		fighter_weapon = naval_bomber
+	#		machine_gun = naval_bomber
+	#		rocket_rails_weapon = naval_bomber
+	#		anti_tank_weapon = naval_bomber
+	#		cas_weapon = naval_bomber
+	#		tac_weapon = naval_bomber
+	#		nav_bomber_weapon = naval_bomber
+	#		mine_warfare_offense = naval_bomber
+	#		plane_special_module_defense_turret = naval_bomber
+	#	}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -279,7 +315,19 @@ equipment_modules = {
 			air_superiority
 			interception
 		}
-		
+
+		forbid_equipment_type_exact_match_for_category = {
+	#		fighter_weapon = heavy_fighter
+	#		machine_gun = heavy_fighter
+	#		rocket_rails_weapon = heavy_fighter
+			anti_tank_weapon = heavy_fighter
+	#		cas_weapon = heavy_fighter
+	#		tac_weapon = heavy_fighter
+	#		nav_bomber_weapon = heavy_fighter
+	#		mine_warfare_offense = heavy_fighter
+	#		plane_special_module_defense_turret = heavy_fighter
+		}
+
 		allowed_module_categories = {
 			special_type_slot_3 = {
 				fighter_weapon
@@ -367,6 +415,18 @@ equipment_modules = {
 		sfx = medium_plane_concept_tactical_bomber
 		add_equipment_type = tactical_bomber
 
+	#	forbid_equipment_type_exact_match_for_category = {
+	#		fighter_weapon = tactical_bomber
+	#		machine_gun = tactical_bomber
+	#		rocket_rails_weapon = tactical_bomber
+	#		anti_tank_weapon = tactical_bomber
+	#		cas_weapon = tactical_bomber
+	#		tac_weapon = tactical_bomber
+	#		nav_bomber_weapon = tactical_bomber
+	#		mine_warfare_offense = tactical_bomber
+	#		plane_special_module_defense_turret = tactical_bomber
+	#	}
+
 		allowed_module_categories = {
 			special_type_slot_3 = {
 				plane_special_module_defense_turret
@@ -452,21 +512,27 @@ equipment_modules = {
 		category = medium_plane_concept
 		sfx = medium_plane_concept_scout_plane
 		add_equipment_type = scout_plane
+
+		allow_mission_type = {
+			recon
+		}
+
 		forbid_equipment_type_exact_match_for_category = {
+			fighter_weapon = scout_plane
+			machine_gun = scout_plane
+			rocket_rails_weapon = scout_plane
+			anti_tank_weapon = scout_plane
 			cas_weapon = scout_plane
-			nav_bomber_weapon = scout_plane
 			tac_weapon = scout_plane
-			mine_warfare_offense = scout_plane
+			nav_bomber_weapon = scout_plane
+	#		mine_warfare_offense = scout_plane
+	#		plane_special_module_defense_turret = scout_plane
 		}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
 				plane_special_module_defense_turret
 			}
-		}
-		
-		allow_mission_type = {
-			recon
 		}
 		
 		mission_type_stats = {
@@ -548,6 +614,18 @@ equipment_modules = {
 		category = large_plane_concept
 		sfx = large_plane_concept_strategic_bomber
 		add_equipment_type = strategic_bomber
+
+	#	forbid_equipment_type_exact_match_for_category = {
+	#		fighter_weapon = strategic_bomber
+	#		machine_gun = strategic_bomber
+	#		rocket_rails_weapon = strategic_bomber
+	#		anti_tank_weapon = strategic_bomber
+	#		cas_weapon = strategic_bomber
+	#		tac_weapon = strategic_bomber
+	#		nav_bomber_weapon = strategic_bomber
+	#		mine_warfare_offense = strategic_bomber
+	#		plane_special_module_defense_turret = strategic_bomber
+	#	}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -635,6 +713,17 @@ equipment_modules = {
 		category = large_plane_concept
 		sfx = large_plane_concept_maritime_patrol_plane
 		add_equipment_type = maritime_patrol_plane
+
+	#	forbid_equipment_type_exact_match_for_category = {
+	#		fighter_weapon = maritime_patrol_plane
+	#		machine_gun = maritime_patrol_plane
+	#		anti_tank_weapon = maritime_patrol_plane
+	#		cas_weapon = maritime_patrol_plane
+	#		tac_weapon = maritime_patrol_plane
+	#		nav_bomber_weapon = maritime_patrol_plane
+	#		mine_warfare_offense = maritime_patrol_plane
+	#		plane_special_module_defense_turret = maritime_patrol_plane
+	#	}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
