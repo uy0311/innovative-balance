@@ -95,7 +95,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -307,7 +306,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -437,7 +435,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -568,7 +565,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -699,7 +695,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					plane_engine_type
-					plane_rocket_engine_type
 				}
 			}
 
@@ -1728,7 +1723,7 @@ equipments = {
 		air_range = 1650
 		thrust = 1400
 		air_agility = 25
-		air_defence = 18
+		air_defence = 15
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 62
@@ -1858,7 +1853,7 @@ equipments = {
 		air_range = 1800
 		thrust = 1500
 		air_agility = 35
-		air_defence = 24
+		air_defence = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 64
@@ -1988,7 +1983,7 @@ equipments = {
 		air_range = 1950
 		thrust = 1600
 		air_agility = 40
-		air_defence = 30
+		air_defence = 21
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 66
@@ -2118,7 +2113,7 @@ equipments = {
 		air_range = 2100
 		thrust = 1700
 		air_agility = 50
-		air_defence = 36
+		air_defence = 25
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 68
@@ -2443,7 +2438,7 @@ equipments = {
 		air_range = 2000
 		thrust = 3000
 		air_agility = 15
-		air_defence = 26
+		air_defence = 16
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -2460,7 +2455,7 @@ equipments = {
 		air_range = 2200
 		thrust = 3250
 		air_agility = 20
-		air_defence = 30
+		air_defence = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 74
@@ -2585,7 +2580,7 @@ equipments = {
 		air_range = 2400
 		thrust = 3500
 		air_agility = 25
-		air_defence = 34
+		air_defence = 20
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 76
@@ -2710,7 +2705,7 @@ equipments = {
 		air_range = 3000
 		thrust = 3750
 		air_agility = 30
-		air_defence = 42
+		air_defence = 25
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 78
@@ -2835,7 +2830,7 @@ equipments = {
 		air_range = 4800
 		thrust = 4000
 		air_agility = 35
-		air_defence = 50
+		air_defence = 30
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 80

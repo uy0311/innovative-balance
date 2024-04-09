@@ -1,0 +1,5 @@
+﻿l_japanese:
+ convoys_add_decision:0 "輸送船所持数の更新用ディシジョン"
+ convoys_add_decision_desc:0 "マルチプレイ時の途中参加などでロビーが開いた際に輸送船が0になるバグがある為、その対応の為のディシジョンです"
+ gain_convoys_from_pp:0 "輸送船を政治力で追加"
+ gain_convoys_from_CP:0 "輸送船を指揮力で追加"

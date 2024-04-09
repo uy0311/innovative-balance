@@ -462,7 +462,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_concept_fighter"
 		textureFile = "gfx/interface/strategicair/adjuster_air_superiority.dds"
-		
+	}
+
+	spriteType = {
+		name = "GFX_EMI_concept_interception"
+		textureFile = "gfx/interface/strategicair/adjuster_interception.dds"
 	}
 
 	spriteType = {

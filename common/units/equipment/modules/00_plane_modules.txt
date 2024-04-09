@@ -10,10 +10,17 @@ equipment_modules = {
 		category = light_plane_concept
 		sfx = light_plane_concept_fighter
 		add_equipment_type = fighter
-
+		
 		allow_mission_type = {
 			air_superiority
 			interception
+		}
+
+		allowed_module_categories = {
+			special_type_slot_3 = {
+				fighter_weapon
+				machine_gun
+			}
 		}
 
 		forbid_equipment_type_exact_match_for_category = {
@@ -28,11 +35,110 @@ equipment_modules = {
 	#		plane_special_module_defense_turret = fighter
 		}
 
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_superiority = -1
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				drop_nuke
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				air_supply
+			}
+			multiply_stats = {
+				air_superiority = -0.9
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				recon
+			}
+			multiply_stats = {
+				air_superiority = -0.667
+			}
+		}
+	}
+
+	concept_interception = {
+		abbreviation = "concept_interception"
+		category = light_plane_concept
+		sfx = light_plane_concept_interception
+		add_equipment_type = fighter
+		
+		allow_mission_type = {
+			interception
+		}
+
 		allowed_module_categories = {
+			engine_type_slot = {
+				plane_rocket_engine_type
+			}
 			special_type_slot_3 = {
 				fighter_weapon
 				machine_gun
 			}
+		}
+
+		forbid_equipment_type_exact_match_for_category = {
+	#		fighter_weapon = fighter
+	#		machine_gun = fighter
+	#		rocket_rails_weapon = fighter
+			anti_tank_weapon = fighter
+	#		cas_weapon = fighter
+	#		tac_weapon = fighter
+	#		nav_bomber_weapon = fighter
+	#		mine_warfare_offense = fighter
+	#		plane_special_module_defense_turret = fighter
 		}
 
 		mission_type_stats = {
@@ -315,7 +421,6 @@ equipment_modules = {
 			air_superiority
 			interception
 		}
-
 		forbid_equipment_type_exact_match_for_category = {
 	#		fighter_weapon = heavy_fighter
 	#		machine_gun = heavy_fighter
@@ -327,7 +432,7 @@ equipment_modules = {
 	#		mine_warfare_offense = heavy_fighter
 	#		plane_special_module_defense_turret = heavy_fighter
 		}
-
+		
 		allowed_module_categories = {
 			special_type_slot_3 = {
 				fighter_weapon
@@ -936,7 +1041,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 0.7
-			air_range = -0.9
+			air_range = -0.8
 		}
 		build_cost_resources = {
 			tungsten = 3
@@ -976,7 +1081,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 0.8
-			air_range = -0.6
+			air_range = -0.8
 		}
 		build_cost_resources = {
 			tungsten = 3
@@ -2724,7 +2829,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			air_bombing = 0.2
+			air_bombing = 0.1
 		}
 		
 	}
@@ -2741,7 +2846,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			air_bombing = 0.4
+			air_bombing = 0.2
 		}
 		
 	}
@@ -2756,10 +2861,6 @@ equipment_modules = {
 			build_cost_ic = 1
 			night_penalty = -0.4
 		}
-
-		multiply_stats = {
-			air_bombing = 0.08
-		}
 		
 	}
 
@@ -2773,10 +2874,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1
 			night_penalty = -0.8
-		}
-
-		multiply_stats = {
-			air_bombing = 0.16
 		}
 		
 	}
@@ -2793,7 +2890,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			air_bombing = 0.08
+			air_bombing = 0.04
 		}
 
 		mission_type_stats = {
@@ -2832,7 +2929,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			air_bombing = 0.16
+			air_bombing = 0.08
 		}
 
 		mission_type_stats = {
