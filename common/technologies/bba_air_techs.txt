@@ -16,6 +16,7 @@ technologies = {
 		enable_equipment_modules = {
 			radio_navigation_0
 			concept_fighter
+			concept_interception
 			concept_cas
 			concept_naval_bomber
 		}

@@ -233,6 +233,8 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
 
  concept_fighter:0"戦闘機"
  concept_fighter_desc:0"この航空機機体は 戦闘機 として設計開発される"
+ concept_interception:0"迎撃機"
+ concept_interception_desc:0"この航空機機体は 迎撃機 として設計開発される"
  concept_cas:0"近接航空支援機"
  concept_cas_desc:0"この航空機機体は 近接航空支援機 として設計開発される"
  concept_naval_bomber:0"対艦攻撃機"

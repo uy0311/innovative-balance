@@ -208,7 +208,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_strategic_bomber_bombing_factor = 0.2
+		air_strategic_bomber_bombing_factor = 0.1
 		###########
 		
 		path = {
@@ -236,7 +236,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_strategic_bomber_defence_factor = 0.25
+		air_strategic_bomber_defence_factor = 0.1
 		###########
 		
 		path = {
@@ -328,7 +328,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_strategic_bomber_bombing_factor = 0.3
+		air_strategic_bomber_bombing_factor = 0.15
 		###########
 
 		XOR = {
@@ -360,7 +360,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_strategic_bomber_bombing_factor = 0.2
+		air_strategic_bomber_bombing_factor = 0.1
 		###########
 
 		path = {
