@@ -132,13 +132,13 @@ equipment_modules = {
 		forbid_equipment_type_exact_match_for_category = {
 	#		fighter_weapon = fighter
 	#		machine_gun = fighter
-	#		rocket_rails_weapon = fighter
+			rocket_rails_weapon = fighter
 			anti_tank_weapon = fighter
-	#		cas_weapon = fighter
-	#		tac_weapon = fighter
-	#		nav_bomber_weapon = fighter
+			cas_weapon = fighter
+			tac_weapon = fighter
+			nav_bomber_weapon = fighter
 	#		mine_warfare_offense = fighter
-	#		plane_special_module_defense_turret = fighter
+			plane_special_module_defense_turret = fighter
 		}
 
 		mission_type_stats = {
