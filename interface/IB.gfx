@@ -504,4 +504,33 @@ spriteTypes = {
 		textureFile = "gfx/interface/strategicair/adjuster_naval_patrol.dds"
 	}
 
+	#industry technology
+	SpriteType = {
+		name = "GFX_flexible_line2_medium"
+		texturefile = "gfx/interface/technologies/industry/r56_tech_flexible_line_01.dds"
+	}
+	SpriteType = {
+		name = "GFX_concentrated_industry6_medium"
+		texturefile = "gfx/interface/technologies/industry/r56_tech_concentrated_industry_01.dds"
+	}
+	SpriteType = {
+		name = "GFX_dispersed_industry6_medium"
+		texturefile = "gfx/interface/technologies/industry/r56_tech_dispersed_industry_01.dds"
+	}
+	SpriteType = {
+		name = "GFX_construction6_medium"
+		texturefile = "gfx/interface/technologies/industry/r56_tech_construction_01.dds"
+	}
+	SpriteType = {
+		name = "GFX_excavation6_medium"
+		texturefile = "gfx/interface/technologies/industry/r56_tech_excavation_01.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_rubber_processing2_medium"
+		texturefile = "gfx/interface/technologies/modern_rubber_processing.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_oil_processing2_medium"
+		texturefile = "gfx/interface/technologies/modern_oil_processing.dds"
+	}
 }
