@@ -503,3 +503,12 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  reset_capital_unlock:0 "首都移動コマンドを解禁"
  all_system_unlock:0 "全追加機能を使用可能にする"
  delete_ewm_unlock_decision:0 "このディシジョンを全て削除する"
+
+###産業研究###
+flexible_line2:0 "改良型流動的ライン生産"
+concentrated_industry6:0 "集中工業Ⅵ"
+dispersed_industry6:0 "分散工業Ⅵ"
+construction6:0 "建築Ⅵ"
+excavation6:0 "掘削Ⅵ"
+modern_oil_processing2:0 "現代型石油化工Ⅱ"
+modern_rubber_processing2:0 "現代型ゴム加工Ⅱ"
