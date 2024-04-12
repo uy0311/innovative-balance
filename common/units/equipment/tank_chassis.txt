@@ -146,7 +146,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 4
-		build_cost_ic = 1.5
+		build_cost_ic = 2.0
 		reliability = 0.4
 		hardness = 0.85
 		armor_value = 5
@@ -299,7 +299,7 @@ equipments = {
 		}
 
 		maximum_speed = 4
-		build_cost_ic = 1.875
+		build_cost_ic = 2.5
 		reliability = 0.5
 		armor_value = 10
 	}
@@ -386,7 +386,7 @@ equipments = {
 			}
 		}
 
-		build_cost_ic = 2.4
+		build_cost_ic = 3.0
 		maximum_speed = 4.5
 		reliability = 0.55
 		armor_value = 20
@@ -491,7 +491,7 @@ equipments = {
 			}
 		}
 
-		build_cost_ic = 3
+		build_cost_ic = 3.5
 		maximum_speed = 5
 		reliability = 0.65
 		armor_value = 30
@@ -499,8 +499,6 @@ equipments = {
 			steel = 2
 		}
 	}
-
-	
 
 	medium_tank_chassis = {
 		year = 1922
@@ -659,7 +657,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 4
-		build_cost_ic = 3.75
+		build_cost_ic = 3.5
 		reliability = 0.5
 		armor_value = 40
 		hardness = 0.90
@@ -672,6 +670,7 @@ equipments = {
 		manpower = 2
 
 	}
+
 	medium_tank_chassis_0 = { #used for interwar tanks
 		abbreviation = "mt0"
 		derived_variant_name = medium_tank_chassis_0
@@ -746,7 +745,7 @@ equipments = {
 			tank_reliability_upgrade
 		}
 		maximum_speed = 4
-		build_cost_ic = 3.75
+		build_cost_ic = 3.5
 		reliability = 0.4
 		armor_value = 20
 		resources = {
@@ -838,8 +837,9 @@ equipments = {
 		}
 
 		armor_value = 40
-		build_cost_ic = 3.75
+		build_cost_ic = 4.0
 	}
+
 	medium_tank_chassis_2 = {
 		abbreviation = "mt2"
 		derived_variant_name = medium_tank_equipment_2
@@ -938,13 +938,14 @@ equipments = {
 		}
 
 		maximum_speed = 4
-		build_cost_ic = 4.8
+		build_cost_ic = 5.0
 		reliability = 0.65
 		armor_value = 60
 		resources = {
 			steel = 1
 		}
 	}
+
 	medium_tank_chassis_3 = {
 		abbreviation = "mt3"
 		derived_variant_name = medium_tank_equipment_3
@@ -1219,7 +1220,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 0.5
-		build_cost_ic = 6.0
+		build_cost_ic = 5.5
 		reliability = 0.5
 		armor_value = 50
 		hardness = 0.95
@@ -1631,7 +1632,7 @@ equipments = {
 			}
 		}
 		maximum_speed = 0.8
-		build_cost_ic = 8.0
+		build_cost_ic = 8.5
 		reliability = 0.65
 		armor_value = 120
 		resources = {
@@ -1824,7 +1825,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 4.5
-		build_cost_ic = 7.0
+		build_cost_ic = 7.5
 		reliability = 0.8
 		armor_value = 120
 		hardness = 0.95
