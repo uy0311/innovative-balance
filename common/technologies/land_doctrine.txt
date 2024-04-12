@@ -1537,17 +1537,17 @@ technologies = {
 		motorized = {
 			soft_attack = 0.10
 			hard_attack = 0.10
-			defense = 0.10
+			defense = 0.20
 		}
 		mechanized = {
 			soft_attack = 0.10
 			hard_attack = 0.10
-			defense = 0.10
+			defense = 0.20
 		}
 		amphibious_mechanized = {
 			soft_attack = 0.10
 			hard_attack = 0.10
-			defense = 0.10
+			defense = 0.20
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -1605,8 +1605,20 @@ technologies = {
 		}
 
 		category_tanks = {
-			soft_attack = 0.05
-			hard_attack = 0.10
+			defense = 0.20
+		}
+
+		motorized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		mechanized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		amphibious_mechanized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
 		}
 
 		enable_tactic = tactic_tactical_withdrawal
