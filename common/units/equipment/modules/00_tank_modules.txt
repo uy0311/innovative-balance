@@ -979,7 +979,7 @@ equipment_modules = {
 
 	tank_medium_cannon = {
 		abbreviation = "mc1"
-		category = tank_small_main_armament
+		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 
@@ -1039,7 +1039,7 @@ equipment_modules = {
 
 	tank_medium_cannon_3 = {
 		abbreviation = "mc3"
-		category = tank_heavy_main_armament
+		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		parent = tank_medium_cannon_2
@@ -1277,7 +1277,7 @@ equipment_modules = {
 
 	tank_heavy_cannon = {
 		abbreviation = "hc1"
-		category = tank_medium_main_armament
+		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 
@@ -1307,7 +1307,7 @@ equipment_modules = {
 
 	tank_heavy_cannon_2 = {
 		abbreviation = "hc2"
-		category = tank_heavy_main_armament
+		category = tank_super_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		parent = tank_heavy_cannon
@@ -1337,7 +1337,7 @@ equipment_modules = {
 
 	tank_heavy_cannon_3 = {
 		abbreviation = "hc3"
-		category = tank_super_heavy_main_armament
+		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		parent = tank_heavy_cannon_2
