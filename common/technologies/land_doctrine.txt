@@ -1089,12 +1089,14 @@ technologies = {
 	mobile_defence = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+
 		category_all_infantry = {
 			defense = 0.20
 		}
+
 		land_reinforce_rate = 0.05
+
 		enable_tactic = tactic_elastic_defense
-		
 		
 		path = {
 			leads_to_tech = intergrated_support 
@@ -1205,13 +1207,13 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_support_battalions = {
-			reliability_factor = 0.02
-			equipment_capture_factor = 0.02
-			casualty_trickleback = 0.06
-			experience_loss_factor = -0.05
-			supply_consumption_factor = -0.04
-			fuel_consumption_factor = -0.02
-			initiative = 0.02
+			reliability_factor = 0.01
+			equipment_capture_factor = 0.01
+			casualty_trickleback = 0.03
+			experience_loss_factor = -0.025
+			supply_consumption_factor = -0.02
+			fuel_consumption_factor = -0.01
+			initiative = 0.01
 		}
 
 		enable_tactic = tactic_overwhelming_fire
@@ -1266,28 +1268,24 @@ technologies = {
 		}
 		
 		artillery = {
-			max_organisation = 60
 			default_morale = 0.2
 			soft_attack = 0.40
 			hard_attack = 0.40
 			air_attack = 0.40
 		}
 		rocket_artillery = {
-			max_organisation = 60
 			default_morale = 0.2
 			soft_attack = 0.40
 			hard_attack = 0.40
 			air_attack = 0.40
 		}
 		anti_tank = {
-			max_organisation = 60
 			default_morale = 0.2
 			soft_attack = 0.40
 			hard_attack = 0.40
 			air_attack = 0.40
 		}
 		anti_air = {
-			max_organisation = 60
 			default_morale = 0.2
 			soft_attack = 0.40
 			hard_attack = 0.40
