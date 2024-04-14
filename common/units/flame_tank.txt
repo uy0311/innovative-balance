@@ -10,32 +10,32 @@ sub_units = {
 		type = {
 			armor
 			flame
-			support
+			#support
 		}
 
-		group = support
+		group = mobile #support
 
 		categories = {
 			category_front_line
-			category_support_battalions
+			#category_support_battalions
 			category_tanks
 			category_all_armor
 			category_army
 		}
 
-		combat_width = 0
+		combat_width = 2 #0
 
 		#Size Definitions
-		max_strength = 2
+		max_strength = 3 #2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 300
-		training_time = 120
+		manpower = 500 #300
+		training_time = 180 #120
 
 		#Misc Abilities
-		weight = 0.1
-		supply_consumption = 0.02
-		can_be_parachuted = yes
+		weight = 1 #0.1
+		supply_consumption = 0.22 #0.02
+		#can_be_parachuted = yes
 
 		soft_attack = -0.75
 		hard_attack = -0.75
@@ -51,7 +51,7 @@ sub_units = {
 		armor_value = -0.75
 
 		need = {
-			light_tank_flame_chassis = 15
+			light_tank_flame_chassis = 60
 		}
 
 		forest = {
@@ -79,7 +79,7 @@ sub_units = {
 			attack = -0.1
 		}
 
-		same_support_type = flame
+		#same_support_type = flame
 	}
 
 	medium_flame_tank = {
@@ -93,20 +93,20 @@ sub_units = {
 		type = {
 			armor
 			flame
-			support
+			#support
 		}
 
-		group = support
+		group = mobile #support
 
 		categories = {
 			category_front_line
-			category_support_battalions
+			#category_support_battalions
 			category_tanks
 			category_all_armor
 			category_army
 		}
 
-		combat_width = 0
+		combat_width = 2 #0
 		
 		battalion_mult = {
 			category = category_all_infantry
@@ -114,16 +114,16 @@ sub_units = {
 		}
 		
 		#Size Definitions
-		max_strength = 2
+		max_strength = 2.5 #2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 300
-		training_time = 120
+		manpower = 500 #300
+		training_time = 180 #120
 
 		#Misc Abilities
-		weight = 0.1
-		supply_consumption = 0.025
-		can_be_parachuted = yes
+		weight = 1.25 #0.1
+		supply_consumption = 1.25 #0.025
+		#can_be_parachuted = yes
 
 		soft_attack = -0.7
 		hard_attack = -0.7
@@ -134,7 +134,7 @@ sub_units = {
 		armor_value = -0.7
 
 		need = {
-			medium_tank_flame_chassis = 15
+			medium_tank_flame_chassis = 50 #15
 		}
 
 		forest = {
@@ -162,7 +162,7 @@ sub_units = {
 			attack = -0.1
 		}
 
-		same_support_type = flame
+		#same_support_type = flame
 	}
 
 	heavy_flame_tank = {
@@ -176,10 +176,10 @@ sub_units = {
 		type = {
 			armor
 			flame
-			support
+			#support
 		}
 
-		group = support
+		group = mobile #support
 		
 		battalion_mult = {
 			category = category_all_infantry
@@ -188,25 +188,25 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_support_battalions
+			#category_support_battalions
 			category_tanks
 			category_all_armor
 			category_army
 		}
 
-		combat_width = 0
+		combat_width = 2 #0
 
 		#Size Definitions
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 300
-		training_time = 120
+		manpower = 500
+		training_time = 180 #120
 
 		#Misc Abilities
-		weight = 0.1
-		supply_consumption = 0.03
-		can_be_parachuted = yes
+		weight = 1.5 #0.1
+		supply_consumption = 0.32 #0.03
+		#can_be_parachuted = yes
 
 		soft_attack = -0.625
 		hard_attack = -0.625
@@ -217,7 +217,7 @@ sub_units = {
 		armor_value = -0.625
 
 		need = {
-			heavy_tank_flame_chassis = 15
+			heavy_tank_flame_chassis = 40 #15
 		}
 
 		forest = {
@@ -242,6 +242,6 @@ sub_units = {
 			attack = -0.15
 		}
 
-		same_support_type = flame
+		#same_support_type = flame
 	}
 }

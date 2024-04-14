@@ -750,6 +750,7 @@ technologies = {
 
 		enable_subunits = {
 			mountaineers
+			rangers_support
 		}
 
 		on_research_complete_limit = {
