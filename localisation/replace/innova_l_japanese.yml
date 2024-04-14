@@ -203,6 +203,13 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  tank_heavy_fixed_superstructure_turret_1:0 "超大型砲用固定砲塔"
  tank_heavy_fixed_superstructure_turret_1_desc:0 "超大型砲用固定砲塔"
 
+ #IB_armored_car_tank
+ armored_car_tank_chassis:0 "装甲車"
+ armored_car_tank_chassis_1:0 "1936年型装甲車車体"
+ tank_designer_armored_car_tank_chassis:0 "装甲車"
+ armored_car_tank_chassis_desc:0 "軽量の装輪式装甲車両。通常、偵察と抵抗運動の鎮圧用だが、より重火器の搭載も可能である。"
+ armored_car_tank_chassis_design_cost_factor:0 "装甲車車体改造コスト"
+
  #air_modules_replace
  EQ_MOD_SLOT_fixed_main_weapon_slot_TITLE:0"設計思想"
  EQ_MOD_SLOT_fixed_auxiliary_weapon_slot_1_TITLE:0"航空機胴体と航行装置"
