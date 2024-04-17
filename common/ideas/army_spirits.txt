@@ -553,6 +553,10 @@ ideas = {
 				
 				amphibious_tank_chassis = {
 					reliability = 0.25 instant = yes	}
+				
+				#IB_armored_car_tank
+				armored_car_tank_chassis = {
+					reliability = 0.25 instant = yes	}
 
 			}
 			modifier = {

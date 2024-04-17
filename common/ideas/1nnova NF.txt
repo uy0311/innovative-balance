@@ -398,6 +398,9 @@ ideas = {
 					modern_tank_artillery_chassis_design_cost_factor = -0.6
 					modern_tank_destroyer_chassis_design_cost_factor = -0.6
 
+                    #IB_armored_car_tank
+					armored_car_tank_chassis_design_cost_factor = -0.6
+
 				}
 			}
 

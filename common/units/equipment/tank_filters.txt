@@ -22,3 +22,9 @@ search_filters = {
 	name = amphibious_tanks
 	values = {amphibious_tank_chassis}
 }
+
+#IB_armored_car_tank
+search_filters = {
+	name = armored_car_tank_chassis
+	values = {armored_car_tank_chassis}
+}
