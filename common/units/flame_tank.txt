@@ -3,80 +3,67 @@ sub_units = {
 		abbreviation = "LFT"
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 0
+		priority = 2506
 		ai_priority = 0
 		active = no
 
 		type = {
 			armor
 			flame
-			#support
 		}
 
-		group = mobile #support
+		group = mobile
 
 		categories = {
-			category_front_line
-			#category_support_battalions
-			category_tanks
 			category_all_armor
+			category_front_line
 			category_army
+			category_mountaineers
 		}
 
-		combat_width = 2 #0
+		combat_width = 2
 
 		#Size Definitions
-		max_strength = 3 #2
-		max_organisation = 20
+		max_strength = 2.4
+		max_organisation = 10
 		default_morale = 0.3
-		manpower = 500 #300
-		training_time = 180 #120
+		manpower = 500
+		training_time = 180
 
 		#Misc Abilities
-		weight = 1 #0.1
-		supply_consumption = 0.22 #0.02
-		#can_be_parachuted = yes
-
-		soft_attack = -0.75
-		hard_attack = -0.75
-		defense = -0.75
-		breakthrough = -0.75
-		
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
-		
-		# Support nerfs to combat abilities
-		armor_value = -0.75
+		weight = 1
+		suppression = 2.5
+		supply_consumption = 0.22 
 
 		need = {
 			light_tank_flame_chassis = 60
 		}
 
 		forest = {
-			attack = 0.05
+		    attack = 0.2
+			movement = -0.3
 		}
-		mountain = {
-			attack = -0.05
-		}
-		hills = {
-			attack = -0.05
+		mountain = 	{
+		    attack = -0.1
 		}
 		jungle = {
-			attack = 0.1
+		    attack = 0.4
+			movement = -0.2
 		}
 		marsh = {
-			attack = -0.05
+		    attack = -0.1 
+			movement = -0.1
 		}
 		urban = {
-			attack = 0.1
+			attack = -0.2
+			defence = -0.05
 		}
-		river = {
-			attack = -0.1
+		river = { 
+			attack = -0.2 
+			movement = -0.2
 		}
-		amphibious = {
-			attack = -0.1
+		amphibious = { 
+			attack = -0.4
 		}
 
 		#same_support_type = flame
@@ -86,80 +73,70 @@ sub_units = {
 		abbreviation = "MFT"
 		sprite = medium_armor
 		map_icon_category = armored
-		priority = 0
+		priority = 2507
 		ai_priority = 0
 		active = no
 
 		type = {
 			armor
 			flame
-			#support
 		}
 
-		group = mobile #support
+		group = mobile
 
 		categories = {
-			category_front_line
-			#category_support_battalions
-			category_tanks
 			category_all_armor
+			category_front_line
 			category_army
+			category_mountaineers
 		}
 
-		combat_width = 2 #0
-		
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
+		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 2.5 #2
-		max_organisation = 20
+		max_strength = 2.0
+		max_organisation = 10
 		default_morale = 0.3
-		manpower = 500 #300
-		training_time = 180 #120
+		manpower = 500
+		training_time = 180
 
 		#Misc Abilities
-		weight = 1.25 #0.1
-		supply_consumption = 1.25 #0.025
-		#can_be_parachuted = yes
-
-		soft_attack = -0.7
-		hard_attack = -0.7
-		defense = -0.7
-		breakthrough = -0.7
-
-		# Support nerfs to combat abilities
-		armor_value = -0.7
+		weight = 1.25
+		suppression = 2.5
+		supply_consumption = 0.25
 
 		need = {
-			medium_tank_flame_chassis = 50 #15
+			medium_tank_flame_chassis = 50
 		}
 
 		forest = {
-			attack = 0.1
+		    attack = 0.1
+			movement = -0.3
 		}
-		mountain = {
-			attack = -0.05
+		hills = 	{
+		    attack = -0.1
 		}
-		hills = {
-			attack = -0.05
+		mountain = 	{
+		    attack = -0.2
 		}
 		jungle = {
-			attack = 0.15
+		    attack = 0.3
+			movement = -0.2
 		}
 		marsh = {
-			attack = -0.05
+		    attack = -0.1 
+			movement = -0.1
 		}
 		urban = {
-			attack = 0.15
+			attack = -0.2
+			defence = -0.05
 		}
-		river = {
-			attack = -0.1
+		river = { 
+			attack = -0.2 
+			movement = -0.2
 		}
-		amphibious = {
-			attack = -0.1
+		amphibious = { 
+			attack = -0.7
 		}
 
 		#same_support_type = flame
@@ -169,77 +146,72 @@ sub_units = {
 		abbreviation = "HFT"
 		sprite = heavy_armor
 		map_icon_category = armored
-		priority = 0
+		priority = 2508
 		ai_priority = 0
 		active = no
 
 		type = {
 			armor
 			flame
-			#support
 		}
 
-		group = mobile #support
-		
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
+		group = mobile
 		
 		categories = {
-			category_front_line
-			#category_support_battalions
-			category_tanks
 			category_all_armor
+			category_front_line
 			category_army
+			category_mountaineers
 		}
 
-		combat_width = 2 #0
+		combat_width = 2
 
 		#Size Definitions
-		max_strength = 2
-		max_organisation = 20
+		max_strength = 1.6
+		max_organisation = 10
 		default_morale = 0.3
 		manpower = 500
-		training_time = 180 #120
+		training_time = 180
 
 		#Misc Abilities
-		weight = 1.5 #0.1
-		supply_consumption = 0.32 #0.03
-		#can_be_parachuted = yes
-
-		soft_attack = -0.625
-		hard_attack = -0.625
-		defense = -0.625
-		breakthrough = -0.625
-
-		# Support nerfs to combat abilities
-		armor_value = -0.625
+		weight = 1.5
+		suppression = 2.5
+		supply_consumption = 0.32
 
 		need = {
-			heavy_tank_flame_chassis = 40 #15
+			heavy_tank_flame_chassis = 40
 		}
 
 		forest = {
-			attack = 0.1
+			movement = -0.30
 		}
 		hills = {
-			attack = -0.05
+		    attack = -0.20
+		}
+		mountain = 	{
+		    attack = -0.3
 		}
 		jungle = {
-			attack = 0.1
+		    attack = 0.1
+			movement = -0.2
 		}
 		marsh = {
-			attack = -0.05
+		    attack = -0.4 
+			movement = -0.2
 		}
 		urban = {
+			attack = -0.3
+			defence = -0.15
+		}
+		river = { 
+			attack = -0.4 
+			movement = -0.4
+		}
+		amphibious = { 
+			attack = -0.9
+		}
+		fort = {
 			attack = 0.1
-		}
-		river = {
-			attack = -0.15
-		}
-		amphibious = {
-			attack = -0.15
 		}
 
 		#same_support_type = flame

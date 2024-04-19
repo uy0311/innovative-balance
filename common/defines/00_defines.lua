@@ -1183,11 +1183,11 @@ NAir = {
 	AIR_WING_MAX_STATS_ATTACK = 100,					-- Max stats
 	AIR_WING_MAX_STATS_DEFENCE = 100,
 	AIR_WING_MAX_STATS_AGILITY = 100,
-	AIR_WING_MAX_STATS_SPEED = 1000,
+	AIR_WING_MAX_STATS_SPEED = 800,
 	AIR_WING_MAX_STATS_BOMBING = 100,
 	AIR_WING_MAX_SIZE = 1000, 							-- Max amount of airplanes in wing
 	AIR_WING_AVERAGE_SIZE = 100, 						-- Eyeballed average amount of airplanes in wing. Used when calculating air volunteer.
-	AIR_WING_BOMB_DAMAGE_FACTOR = 0.25,					-- Used to balance the damage done while bombing.
+	AIR_WING_BOMB_DAMAGE_FACTOR = 2.0,					-- Used to balance the damage done while bombing.
 	BIGGEST_AGILITY_FACTOR_DIFF = 4.0,					-- biggest factor difference in agility for doing damage (caps to this)
 	BIGGEST_SPEED_FACTOR_DIFF = 3.5,					-- biggest factor difference in speed for doing damage (caps to this)
 	TOP_SPEED_DAMAGE_BONUS_FACTOR = 0.025,				-- A factor for scaling the top speed of a plane into damage buff. If an attacking wing has a speed advantage of any form their speed value will be converted into a percentage bonus with this modifier
@@ -1201,7 +1201,7 @@ NAir = {
 	COMBAT_MAX_WINGS_AT_ONCE_PORT_STRIKE = 1000,        -- we can really pounce a naval strike and escalate
 	AIR_REGION_SUPERIORITY_PIXEL_SCALE = 0.04,           -- air superiority scale = superiority/(pixels*this)
 	COMBAT_MULTIPLANE_CAP = 1.0,						-- How many planes can shoot at each plane on other side ( if there are 100 planes we are atttacking COMBAT_MULTIPLANE_CAP * 100 of our planes can shoot )
-	COMBAT_DAMAGE_SCALE = 0.42,							-- Higher value = more shot down planes
+	COMBAT_DAMAGE_SCALE = 0.50,							-- Higher value = more shot down planes
 	COMBAT_DAMAGE_SCALE_CARRIER = 5.25,					-- same as above but used inside naval combat for carrier battles
 	DETECT_CHANCE_FROM_OCCUPATION = 0.10, 				-- How much the controlled provinces in area affects the air detection base value.
 	DETECT_CHANCE_FROM_RADARS = 0.5, 					-- How much the radars in area affects detection chance.

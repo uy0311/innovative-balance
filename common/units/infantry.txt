@@ -77,7 +77,6 @@ sub_units = {
 		max_strength = 25
 		max_organisation = 60
 		default_morale = 0.3
-	#	maximum_speed = 0.6
 		manpower = 1000
 
 		#Misc Abilities
@@ -310,6 +309,74 @@ sub_units = {
 		need = {
 			infantry_equipment = 130
 		}
+	}
+
+	rangers_support = { #independent recon
+		abbreviation = "RAN"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1004
+		ai_priority = 0
+		active = no
+
+		type = {
+			infantry
+		}
+	
+		group = infantry
+
+		categories = {
+			category_front_line
+			category_army
+			category_mountaineers
+			category_light_infantry
+			category_all_infantry
+			category_special_forces
+		}
+
+		combat_width = 2
+
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000
+		training_time = 160
+
+		#Misc Abilities
+		weight = 0.5
+		suppression = 1
+		supply_consumption = 0.05
+		breakthrough = 0.3
+		#recon = 1
+		can_be_parachuted = yes
+
+		transport = infantry_equipment
+	
+		essential = {
+			infantry_equipment
+		}
+
+		need = {
+			infantry_equipment = 200
+		}
+
+		forest = {
+			attack = 0.4
+			defence = 0.10
+			movement = 0.1
+		}
+		jungle = {
+			attack = 0.7
+			defence = 0.2
+			movement = 0.2
+		}
+		urban = {
+			attack = 0.2
+			defence = 0.05
+			movement = 0.05
+		}
+
 	}
 
 	motorized = {

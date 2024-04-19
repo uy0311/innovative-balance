@@ -31,7 +31,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-					tank_non_tracked_suspension_type
 				}
 			}
 
@@ -102,10 +101,6 @@ equipments = {
 			count < 2
 		}
 
-        module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
 		module_count_limit = {
 			category = tank_commander_module
 			count < 2
@@ -113,6 +108,18 @@ equipments = {
 		module_count_limit = {
 			module = IB_tank_coaxial_machine_gun
 			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
+			count < 3
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -186,7 +193,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-					tank_non_tracked_suspension_type
 				}
 			}
 
@@ -253,7 +259,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-					tank_non_tracked_suspension_type
 				}
 			}
 
@@ -331,7 +336,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-					tank_non_tracked_suspension_type
 				}
 			}
 
@@ -424,7 +428,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-					tank_non_tracked_suspension_type
 				}
 			}
 
@@ -613,10 +616,6 @@ equipments = {
 			count < 2
 		}
 
-        module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
 		module_count_limit = {
 			category = tank_commander_module
 			count < 2
@@ -624,6 +623,18 @@ equipments = {
 		module_count_limit = {
 			module = IB_tank_coaxial_machine_gun
 			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
+			count < 3
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -1176,10 +1187,6 @@ equipments = {
 			count < 2
 		}
 
-        module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
 		module_count_limit = {
 			category = tank_commander_module
 			count < 2
@@ -1187,6 +1194,18 @@ equipments = {
 		module_count_limit = {
 			module = IB_tank_coaxial_machine_gun
 			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
+			count < 3
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -1782,10 +1801,6 @@ equipments = {
 			count < 2
 		}
 
-        module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
 		module_count_limit = {
 			category = tank_commander_module
 			count < 2
@@ -1793,6 +1808,18 @@ equipments = {
 		module_count_limit = {
 			module = IB_tank_coaxial_machine_gun
 			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
+			count < 3
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -2004,10 +2031,6 @@ equipments = {
 			count < 2
 		}
 
-        module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
 		module_count_limit = {
 			category = tank_commander_module
 			count < 2
@@ -2015,6 +2038,18 @@ equipments = {
 		module_count_limit = {
 			module = IB_tank_coaxial_machine_gun
 			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
+			count < 3
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -2223,10 +2258,6 @@ equipments = {
 			count < 2
 		}
 
-        module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
 		module_count_limit = {
 			category = tank_commander_module
 			count < 2
@@ -2234,6 +2265,18 @@ equipments = {
 		module_count_limit = {
 			module = IB_tank_coaxial_machine_gun
 			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_coaxial_module
+			count < 3
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -2295,216 +2338,226 @@ equipments = {
 	}
 
 		#IB_armored_car_tank
-		armored_car_tank_chassis = {
-			year = 1936
-			is_archetype = yes
-			is_buildable = no
+	armored_car_tank_chassis = {
+		year = 1936
+		is_archetype = yes
+		is_buildable = no
 			 
-			picture = armored_car2_medium
-			type = armor
-			group_by = archetype
-			interface_category = interface_category_armor
-			priority = 2000
+		picture = armored_car2_medium
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
 	
-			module_slots = {
-				main_armament_slot = {
-					required = yes
-					allowed_module_categories = {
-						tank_flamethrower
-					}
-				}
-	
-				turret_type_slot = {
-					required = yes
-					allowed_module_categories = {
-						tank_light_turret_type
-					}
-				}
-	
-				suspension_type_slot = {
-					required = yes
-					allowed_module_categories = {
-						tank_non_tracked_suspension_type
-					}
-				}
-	
-				armor_type_slot = {
-					required = yes
-					allowed_module_categories = {
-						tank_armor_type
-					}
-				}
-	
-				engine_type_slot = {
-					required = yes
-					allowed_module_categories = {
-						tank_engine_type
-					}
-				}
-	
-				special_type_slot_1 = {
-					required = no
-					allowed_module_categories = {
-						tank_radio_module
-						tank_special_armor_module
-						tank_special_turret_module
-						tank_special_ammo_module
-						tank_special_module
-						tank_coaxial_module
-					}
-				}
-	
-				special_type_slot_2 = {
-					required = no
-					allowed_module_categories = {
-						tank_radio_module
-						tank_special_armor_module
-						tank_special_turret_module
-						tank_special_ammo_module
-						tank_special_module
-						tank_coaxial_module
-					}
-				}
-	
-				special_type_slot_3 = {
-					required = no
-					allowed_module_categories = {
-						tank_radio_module
-						tank_special_armor_module
-						tank_special_turret_module
-						tank_special_ammo_module
-						tank_special_module
-						tank_coaxial_module
-					}
-				}
-	
-				special_type_slot_4 = {
-					required = no
-					allowed_module_categories = {
-						tank_radio_module
-						tank_special_armor_module
-						tank_special_turret_module
-						tank_special_ammo_module
-						tank_special_module
-						tank_coaxial_module
-					}
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_flamethrower
 				}
 			}
+
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_non_tracked_suspension_type
+				}
+			}
+	
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+	
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+	
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
+	
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
+	
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
+	
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+					tank_coaxial_module
+				}
+			}
+		}
 			
-			module_count_limit = {
-				category = tank_radio_module
-				count < 2
-			}
-	
-			module_count_limit = {
-				category = tank_secondary_turret
-				count < 1
-			}
-	
-			module_count_limit = {
-				module = additional_frontal_armor
-				count < 2
-			}
-			module_count_limit = {
-				module = armor_skirts
-				count < 2
-			}
-			module_count_limit = {
-				module = spare_tracks
-				count < 2
-			}
-	
-			module_count_limit = {
-				module = squeezebore_adaptor
-				count < 2
-			}
-			module_count_limit = {
-				module = stabilizer
-				count < 2
-			}
-			module_count_limit = {
-				module = auto_loader
-				count < 1
-			}
-	
-			module_count_limit = {
-				module = extra_ammo_storage
-				count < 2
-			}
-			module_count_limit = {
-				module = wet_ammo_storage
-				count < 2
-			}
-	
-			module_count_limit = {
-				module = additional_machine_guns
-				count < 2
-			}
-			module_count_limit = {
-				category = tank_commander_module
-				count < 2
-			}
-			module_count_limit = {
-				module = IB_tank_coaxial_machine_gun
-				count < 2
-			}
-			module_count_limit = {
-				module = easy_maintenance
-				count < 2
-			}
-			module_count_limit = {
-				module = equipment_for_engineers
-				count < 2
-			}
-			module_count_limit = {
-				module = smoke_launchers
-				count < 2
-			}
-			module_count_limit = {
-				module = amphibious_drive
-				count < 2
-			}
-			module_count_limit = {
-				module = dozer_blade
-				count < 2
-			}	
-	
-	
-			default_modules = {
-				main_armament_slot = empty
-				turret_type_slot = tank_light_one_man_tank_turret
-				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_gasoline_engine
-			}
-	
-			fuel_consumption = 0
-			build_cost_ic = 2.4
-			maximum_speed = 4.5
-			reliability = 0.55
-			armor_value = 20
-			hardness = 0.85
-			resources = {
-				steel = 1
-			}
-	
-			lend_lease_cost = 10
-	
-			manpower = 2
-	
+
+		module_count_limit = {
+			module = tank_light_three_man_tank_turret
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_light_fixed_superstructure_turret
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_light_fixed_superstructure_turret_1
+			count < 1
+		}
+
+		module_count_limit = {
+			category = tank_radio_module
+			count < 2
 		}
 	
-		armored_car_tank_chassis_1 = {
-			abbreviation = "ac0"
-			derived_variant_name = light_tank_equipment_1
-			year = 1936
-			archetype = armored_car_tank_chassis
-			priority = 2000
-			upgrades = {
-				tank_nsb_engine_upgrade
-				tank_reliability_upgrade
-			}
-			module_slots = inherit
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 1
 		}
+	
+		module_count_limit = {
+			module = additional_frontal_armor
+			count < 2
+		}
+		module_count_limit = {
+			module = armor_skirts
+			count < 2
+		}
+		module_count_limit = {
+			module = spare_tracks
+			count < 2
+		}
+	
+		module_count_limit = {
+			module = squeezebore_adaptor
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
+			count < 2
+		}
+		module_count_limit = {
+			module = auto_loader	
+			count < 1
+		}
+	
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = wet_ammo_storage
+			count < 2
+		}
+	
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_commander_module
+			count < 2
+		}
+		module_count_limit = {
+			module = IB_tank_coaxial_machine_gun
+			count < 2
+		}
+		module_count_limit = {
+			module = easy_maintenance
+			count < 2
+		}
+		module_count_limit = {
+			module = equipment_for_engineers
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = amphibious_drive
+			count < 2
+		}
+		module_count_limit = {
+			module = dozer_blade
+			count < 2
+		}	
+	
+	
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_wheeled_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+	
+		fuel_consumption = 0
+		build_cost_ic = 2.5
+		maximum_speed = 4.5
+		reliability = 0.55
+		armor_value = 5
+		hardness = 0.50
+		resources = {
+			steel = 1
+		}
+	
+		lend_lease_cost = 10
+	
+		manpower = 2
+
+	}
+	
+	armored_car_tank_chassis_1 = {
+		abbreviation = "ac0"
+		derived_variant_name = light_tank_equipment_1
+		year = 1936
+		archetype = armored_car_tank_chassis
+		priority = 2000
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_reliability_upgrade
+		}
+		module_slots = inherit
+	}
 
 }
