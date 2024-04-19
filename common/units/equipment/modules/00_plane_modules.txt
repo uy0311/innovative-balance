@@ -1968,7 +1968,7 @@ equipment_modules = {
 				strategic_bomber
 			}
 			add_stats = {
-				air_bombing = 10
+				air_bombing = 3.5
 				air_defence = -5.0
 			}
 		}
@@ -2161,7 +2161,7 @@ equipment_modules = {
 				strategic_bomber
 			}
 			add_stats = {
-				air_bombing = 10
+				air_bombing = 3.5
 				air_defence = -2
 			}
 		}
@@ -2211,7 +2211,7 @@ equipment_modules = {
 				strategic_bomber
 			}
 			add_stats = {
-				air_bombing = 30
+				air_bombing = 10
 				air_defence = -5
 			}
 		}

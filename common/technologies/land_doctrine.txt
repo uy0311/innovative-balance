@@ -130,14 +130,12 @@ technologies = {
 		category_tanks = {
 			max_organisation = 5#1
 		}
-		armored_car = {
-			max_organisation = 10#2
-		}
-
 		category_all_armor = {
 			maximum_speed = 0.1
 		}
-		
+		armored_car = {
+			max_organisation = 10#2
+		}
 	
 		enable_tactic = tactic_elastic_defense
 		
@@ -350,7 +348,6 @@ technologies = {
 
 		motorized = {
 			max_organisation = 15
-			
 		}
 		mechanized = {
 			max_organisation = 15
@@ -358,13 +355,13 @@ technologies = {
 		amphibious_mechanized = {
 			max_organisation = 15
 		}
-		
-		armored_car = {
-			max_organisation = 15#3	
-		}
 
 		category_tanks = {
 			max_organisation = 15#3
+		}
+		armored_car = {
+			default_morale = 0.1
+			max_organisation = 35#7
 		}
 	
 
@@ -545,10 +542,6 @@ technologies = {
 		category_all_armor = {
 			max_organisation = 5#1
 			default_morale = 0.1
-		}
-		armored_car = {
-			default_morale = 0.1
-			max_organisation = 35#7
 		}
 
 		enable_tactic = tactic_breakthrough
@@ -1600,10 +1593,8 @@ technologies = {
 	
 		category_front_line = {
 			max_organisation = 5
-		}
-
-		category_tanks = {
-			defense = 0.20
+			soft_attack = 0.05
+			hard_attack = 0.10
 		}
 
 		motorized = {
@@ -1804,20 +1795,12 @@ technologies = {
 		land_reinforce_rate = 0.02
 		category_recon = {
 			recon = 3
-			max_organisation = 20
+			max_organisation = 60
 			soft_attack = 0.5
 		}
-		light_flame_tank= {
-			max_organisation = 10
-			soft_attack = 0.5
-		}
-		medium_flame_tank= {
-			max_organisation = 10
-			soft_attack = 0.5
-		}
-		heavy_flame_tank= {
-			max_organisation = 10
-			soft_attack = 0.5
+		category_mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.20
 		}
 		
 		path = {
@@ -2219,12 +2202,6 @@ technologies = {
 			default_morale = 0.1
 			initiative = 0.01
 		}
-		armored_car = {
-			max_organisation = 10
-			breakthrough = 0.20
-			default_morale = 0.1
-			initiative = 0.01
-		}
 		mechanized = {
 			max_organisation = 10
 			breakthrough = 0.20
@@ -2235,6 +2212,13 @@ technologies = {
 			max_organisation = 10
 			breakthrough = 0.20
 			default_morale = 0.1
+			initiative = 0.01
+		}
+		armored_car = {
+			max_organisation = 10
+			breakthrough = 0.20
+			default_morale = 0.1
+			initiative = 0.01
 		}
 		
 		enable_tactic = tactic_blitz
@@ -2428,7 +2412,7 @@ technologies = {
 
 		category_special_forces = {
 			max_organisation = 20
-			breakthrough = 0.20
+			breakthrough = 0.40
 			initiative = 0.01
 		}
 		
@@ -2683,6 +2667,18 @@ technologies = {
 			breakthrough = 0.2
 		}
 
+		light_flame_tank = {
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.2
+		}
+
+		medium_flame_tank = {
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.2
+		}
+
 		armored_car = {
 			max_organisation = 10
 			default_morale = 0.1
@@ -2924,7 +2920,7 @@ technologies = {
 			breakthrough = 0.2
 		}	
 
-		recon = { 
+		category_recon = { 
 			forest = {
 				movement = 0.1
 			}
@@ -3214,7 +3210,7 @@ technologies = {
 			default_morale = 0.1
 		}
 		armored_car = {
-			default_morale = 0.2
+			default_morale = 0.1
 		}
 
 		xp_research_type = army
@@ -3343,7 +3339,7 @@ technologies = {
 			breakthrough = 0.10
 		}
 		armored_car = {
-			max_organisation = 1
+			default_morale = 0.2
 			breakthrough = 0.10
 		}
 
@@ -3468,17 +3464,17 @@ technologies = {
 
 		light_armor = {
 			combat_width = -0.33
-			max_organisation = 10
+			max_organisation = 15
 			default_morale = 0.25
 		}
 		medium_armor = {
 			combat_width = -0.33
-			max_organisation = 10
+			max_organisation = 15
 			default_morale = 0.25
 		}
 		modern_armor = {
 			combat_width = -0.33
-			max_organisation = 10
+			max_organisation = 15
 			default_morale = 0.25
 		}
 

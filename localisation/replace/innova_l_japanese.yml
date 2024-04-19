@@ -1,5 +1,11 @@
 ﻿l_japanese:
 
+#統合兵科読み替え
+ category_mountaineers:0 "対山岳及び森林兵科"
+ category_marines:0 "全ての上陸兵科"
+ category_paratroopers:0 "全ての空挺兵科"
+
+#空軍任務
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"
  STAT_AIR_SUPERIORITY:0 "制空値:"
  MODIFIER_AIR_SUPERIORITY_EFFICIENCY:0 "制空作戦効率"
@@ -56,11 +62,11 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
 
  #火炎放射戦車大隊
  tank_designer_flame:0 "火炎放射"
- light_flame_tank:0 "軽火炎放射戦車支援大隊"
+ light_flame_tank:0 "軽火炎放射戦車大隊"
  light_flame_tank_desc:0 "火炎放射器を装備した軽戦車大隊で、都市や要塞への攻撃を支援する。"
- medium_flame_tank:0 "中火炎放射戦車支援大隊"
+ medium_flame_tank:0 "中火炎放射戦車大隊"
  medium_flame_tank_desc:0 "火炎放射器を装備した中戦車大隊で、都市や要塞への攻撃を支援する。"
- heavy_flame_tank:0 "重火炎放射戦車支援大隊"
+ heavy_flame_tank:0 "重火炎放射戦車大隊"
  heavy_flame_tank_desc:0 "火炎放射器を装備した重戦車大隊で、都市や要塞への攻撃を支援する。"
 
  #tank_modules
@@ -95,6 +101,11 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  equipment_for_engineers:0 "応急修理装備"
  equipment_for_engineers_desc:0 "工兵部隊が使用する工事用の道具に加え、戦車整備員が使用する機械類を搭載することで、現地での突発的故障や多少の被弾などに対し緊急的な修理を行うだけでなく、撃破して放棄された敵車両から装備を流用するといった工夫が可能になる。"
 
+ IB_tank_coaxial_machine_gun:0 "同軸機関銃"
+ IB_tank_coaxial_machine_gun_desc:0 "砲塔に固定式の機関銃を搭載する事により、指向した方向に対し限定的ではあるが制圧力を発揮する。"
+ additional_machine_guns:0 "車体用機関銃"
+ additional_machine_guns_desc:0 "車体前面に通常の歩兵部隊が使用する機関銃を搭載する事により、周囲への掃射や簡易的な対歩兵戦闘への力を得る事が出来る。"
+
  basic_heavy_tank_chassis_short:0 "1938年型重戦車"
  basic_medium_tank_chassis_short:0 "1936年型中戦車"
  tank_small_cannon:0 "基本型小口径砲"
@@ -120,8 +131,8 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  EQ_MOD_CAT_tank_special_armor_module_TITLE:0 "装甲防護"
  EQ_MOD_CAT_tank_special_turret_module_TITLE:0 "主砲機構"
  EQ_MOD_CAT_tank_special_ammo_module_TITLE:0 "車載弾薬庫"
- EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "固定式機関銃"
- EQ_MOD_CAT_tank_commander_module_TITLE:0 "車長用機関銃"
+ EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "車載機関銃・火炎放射器"
+ EQ_MOD_CAT_tank_commander_module_TITLE:0 "車長用重機関銃"
 
  EQ_MOD_CAT_tank_sloped_armor_type_TITLE:0 "戦車装甲角度"
  EQ_MOD_SLOT_sloped_armor_type_slot_TITLE:0 "装甲傾斜角度"
@@ -185,15 +196,10 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  tank_welded_sloped_armor:0 "溶接傾斜装甲"
  tank_welded_sloped_armor_desc:0 "溶接傾斜装甲"
 
- IB_tank_coaxial_machine_gun:0 "同軸機関銃"
- IB_tank_coaxial_machine_gun_desc:0 "砲塔に固定式の機関銃を搭載する事により、指向した方向に対し限定的ではあるが制圧力を発揮する。"
- additional_machine_guns:0 "車体用機関銃"
- additional_machine_guns_desc:0 "車体前面に通常の歩兵部隊が使用する機関銃を搭載する事により、周囲への掃射や簡易的な対歩兵戦闘への力を得る事が出来る。"
-
  EQ_MOD_CAT_tank_small_main_armament_TITLE:0 "小型砲"
  EQ_MOD_CAT_tank_medium_main_armament_TITLE:0 "中型砲"
  EQ_MOD_CAT_tank_heavy_main_armament_TITLE:0 "大型砲"
- EQ_MOD_CAT_tank_flamethrower_TITLE:0 "機関砲・火炎放射器"
+ EQ_MOD_CAT_tank_flamethrower_TITLE:0 "機関砲"
  EQ_MOD_CAT_tank_super_heavy_main_armament_TITLE:0 "超大型砲"
 
  EQ_MOD_CAT_tank_light_turret_type_C1_TITLE:0 "中型砲用固定砲塔"
