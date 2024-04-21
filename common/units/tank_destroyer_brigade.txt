@@ -57,7 +57,7 @@ sub_units = {
 			movement = -0.1
 		}
 		urban = {
-			attack = -0.4
+			attack = -0.3
 			defence = -0.1
 		}
 		river = { 
@@ -127,7 +127,7 @@ sub_units = {
 			movement = -0.1
 		}
 		urban = {
-			attack = -0.4
+			attack = -0.3
 			defence = -0.1
 		}
 		river = { 
@@ -189,19 +189,19 @@ sub_units = {
 		    attack = -0.3
 		}
 		jungle = {
-		    attack = -0.6
+		    attack = -0.5
 			movement = -0.4
 		}
 		marsh = {
-		    attack = -0.4 
+		    attack = -0.3
 			movement = -0.2
 		}
 		urban = {
-			attack = -0.5
+			attack = -0.4
 			defence = -0.2
 		}
 		river = { 
-			attack = -0.4 
+			attack = -0.3
 			movement = -0.4
 		}
 		amphibious = { 
@@ -342,7 +342,7 @@ sub_units = {
 			movement = -0.1
 		}
 		urban = {
-			attack = -0.4
+			attack = -0.3
 			defence = -0.1
 		}
 		river = { 
