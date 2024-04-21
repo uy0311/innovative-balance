@@ -377,22 +377,22 @@ characters={
 		}
 	}
 
-	#navy
 	Anna_Mochizuki={
 		name="Anna Mochizuki"
 		portraits={
-			navy={
+			army={
 				large="gfx/leaders/CHI/anna.dds"
 				small="gfx/interface/ideas/idea_generic_fascist_africa.dds"
 			}
 		}
-		
-		navy_leader={
+		field_marshal = {
 			traits = { logistics_wizard defensive_doctrine  }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
+
+	#navy
 
 	Julia={
 		name="Julia"

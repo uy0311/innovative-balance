@@ -55,5 +55,5 @@ dependencies={
 	"JLm Fonts"
 }
 name="Innova test"
-supported_version="1.13.7"
+supported_version="1.14.*"
 remote_file_id="2405615607"

@@ -3,7 +3,7 @@ sub_units = {
 		abbreviation = "LFT"
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 2506
+		priority = 6
 		ai_priority = 0
 		active = no
 
@@ -40,23 +40,23 @@ sub_units = {
 		}
 
 		forest = {
-		    attack = 0.2
-			movement = -0.3
+		    attack = -0.1
+			movement = -0.4
 		}
 		mountain = 	{
 		    attack = -0.1
 		}
 		jungle = {
-		    attack = 0.4
-			movement = -0.2
+		    attack = 0.1
+			movement = -0.4
 		}
 		marsh = {
 		    attack = -0.1 
 			movement = -0.1
 		}
 		urban = {
-			attack = -0.2
-			defence = -0.05
+			attack = -0.3
+			defence = -0.1
 		}
 		river = { 
 			attack = -0.2 
@@ -73,7 +73,7 @@ sub_units = {
 		abbreviation = "MFT"
 		sprite = medium_armor
 		map_icon_category = armored
-		priority = 2507
+		priority = 7
 		ai_priority = 0
 		active = no
 
@@ -110,8 +110,8 @@ sub_units = {
 		}
 
 		forest = {
-		    attack = 0.1
-			movement = -0.3
+		    attack = -0.2
+			movement = -0.4
 		}
 		hills = 	{
 		    attack = -0.1
@@ -120,16 +120,16 @@ sub_units = {
 		    attack = -0.2
 		}
 		jungle = {
-		    attack = 0.3
-			movement = -0.2
+		    attack = 0.0
+			movement = -0.4
 		}
 		marsh = {
 		    attack = -0.1 
 			movement = -0.1
 		}
 		urban = {
-			attack = -0.2
-			defence = -0.05
+			attack = -0.3
+			defence = -0.1
 		}
 		river = { 
 			attack = -0.2 
@@ -146,7 +146,7 @@ sub_units = {
 		abbreviation = "HFT"
 		sprite = heavy_armor
 		map_icon_category = armored
-		priority = 2508
+		priority = 8
 		ai_priority = 0
 		active = no
 
@@ -183,7 +183,8 @@ sub_units = {
 		}
 
 		forest = {
-			movement = -0.30
+			attack = -0.3
+			movement = -0.4
 		}
 		hills = {
 		    attack = -0.20
@@ -192,19 +193,19 @@ sub_units = {
 		    attack = -0.3
 		}
 		jungle = {
-		    attack = 0.1
-			movement = -0.2
+		    attack = -0.1
+			movement = -0.4
 		}
 		marsh = {
-		    attack = -0.4 
+		    attack = -0.3
 			movement = -0.2
 		}
 		urban = {
-			attack = -0.3
-			defence = -0.15
+			attack = -0.4
+			defence = -0.2
 		}
 		river = { 
-			attack = -0.4 
+			attack = -0.3
 			movement = -0.4
 		}
 		amphibious = { 

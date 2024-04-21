@@ -137,15 +137,13 @@ technologies = {
 
 		engineer = {
 			entrenchment  = 2
-			
-			fort = {
+			river = {
+				attack = 0.10
 				defence = 0.10
-				attack = 0.05
 			}
 		}
 
 		enable_equipment_modules = {
-			#dozer_blade
 			flamethrower
 		}
 
@@ -197,36 +195,12 @@ technologies = {
 
 		engineer = {
 			entrenchment  = 2
-			river = {
-				attack = 0.1	
+			fort = {
 				defence = 0.10
+				attack = 0.05
 			}
 		}
 
-		light_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.05
-			}
-		}
-		medium_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.05
-			}
-		}
-		heavy_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.05
-			}
-		}
 		path = {
 			leads_to_tech = tech_engineers4
 			research_cost_coeff = 1
@@ -278,30 +252,6 @@ technologies = {
 			dozer_blade
 		}
 
-		light_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.05
-			}
-		}
-		medium_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.05
-			}
-		}
-		heavy_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.05
-			}
-		}
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
