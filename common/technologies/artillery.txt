@@ -821,6 +821,8 @@ technologies = {
 			level = 5
 		}
 
+		static_anti_air_damage_factor = 0.1
+
 		path = {
 			leads_to_tech = antiair1
 			research_cost_coeff = 1

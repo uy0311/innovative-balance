@@ -232,7 +232,7 @@ technologies = {
 			air_air_radar_1
 		}
 
-		static_anti_air_hit_chance_factor = 0.2
+		static_anti_air_hit_chance_factor = 0.1
 		
 		path = {
 			leads_to_tech = improved_centimetric_radar 
@@ -282,7 +282,7 @@ technologies = {
 			air_ground_radar_1
 		}
 
-		static_anti_air_hit_chance_factor = 0.2
+		static_anti_air_hit_chance_factor = 0.1
 		
 		path = {
 			leads_to_tech = advanced_centimetric_radar 
@@ -332,7 +332,7 @@ technologies = {
 			air_air_radar_2
 		}
 		
-		static_anti_air_hit_chance_factor = 0.2
+		static_anti_air_hit_chance_factor = 0.1
 		
 		research_cost = 1.25
 		start_year = 1942
