@@ -2295,6 +2295,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_tt
+		}
+
 		doctrine = yes	
 		research_cost = 5.0
 		
@@ -2440,11 +2445,6 @@ technologies = {
 		path = {
 			leads_to_tech = central_planning
 			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
-			custom_effect_tooltip = IB_three_man_turret_tt
 		}
 
 		doctrine = yes	
