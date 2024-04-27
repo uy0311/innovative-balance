@@ -1580,21 +1580,18 @@ technologies = {
 			battalion_mult = {
 				category = category_front_line
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		mechanized = {
 			battalion_mult = {
 				category = category_front_line
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		amphibious_mechanized = {
 			battalion_mult = {
 				category = category_front_line
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		
@@ -1840,42 +1837,36 @@ technologies = {
 			battalion_mult = {
 				category = category_artillery
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		marine = {
 			battalion_mult = {
 				category = category_artillery
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		marine_commando = {
 			battalion_mult = {
 				category = category_artillery
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		mountaineers = {
 			battalion_mult = {
 				category = category_artillery
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		rangers_support = {
 			battalion_mult = {
 				category = category_artillery
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		paratrooper = {
 			battalion_mult = {
 				category = category_artillery
 				soft_attack = 0.02
-				add = yes
 			}
 		}
 		
