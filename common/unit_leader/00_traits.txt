@@ -980,7 +980,7 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			terrain_penalty_reduction = 0.30
+			terrain_penalty_reduction = 0.15
 			acclimatization_cold_climate_gain_factor = 0.1
 			acclimatization_hot_climate_gain_factor = 0.1
 		}
@@ -1992,12 +1992,6 @@ leader_traits = {
 		gui_row = 6
 		gui_column = 1
 	}
-
-
-
-
-
-
 
 	flight_deck_manager = { 
 		type = navy

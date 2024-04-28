@@ -68,6 +68,10 @@ sub_units = {
 			movement = -0.25
 		}
 
+		farmland = {
+			movement = -0.25
+		}
+
 		urban = {
 			movement = -0.25
 		}

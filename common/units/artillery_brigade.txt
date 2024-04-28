@@ -65,6 +65,10 @@ sub_units = {
 			movement = -0.25
 		}
 
+		farmland = {
+			movement = -0.25
+		}
+
 		urban = {
 			movement = -0.25
 		}
@@ -227,6 +231,10 @@ sub_units = {
 		}
 
 		plains = {
+			movement = -0.25
+		}
+
+		farmland = {
 			movement = -0.25
 		}
 
