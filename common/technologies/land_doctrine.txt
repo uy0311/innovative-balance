@@ -1086,7 +1086,7 @@ technologies = {
 			defense = 0.20
 		}
 
-		land_reinforce_rate = 0.05
+		land_reinforce_rate = 0.03
 
 		enable_tactic = tactic_elastic_defense
 		
@@ -1206,24 +1206,28 @@ technologies = {
 			soft_attack = 0.40
 			hard_attack = 0.40
 			air_attack = 0.40
+			initiative = 0.03
 		}
 		rocket_artillery = {
 			default_morale = 0.5
 			soft_attack = 0.40
 			hard_attack = 0.40
 			air_attack = 0.40
+			initiative = 0.03
 		}
 		anti_tank = {
 			default_morale = 0.5
 			soft_attack = 0.40
 			hard_attack = 0.40
 			air_attack = 0.40
+			initiative = 0.03
 		}
 		anti_air = {
 			default_morale = 0.5
 			soft_attack = 0.40
 			hard_attack = 0.40
 			air_attack = 0.40
+			initiative = 0.03
 		}
 
 		enable_tactic = tactic_overwhelming_fire
@@ -1487,6 +1491,7 @@ technologies = {
 			soft_attack = 0.20
 			hard_attack = 0.20
 			air_attack = 0.20
+			initiative = 0.01
 		}
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -1599,6 +1604,8 @@ technologies = {
 		xor = {
 			forward_observers
 		}
+
+		land_reinforce_rate = 0.02
 
 		motorized = {
 			breakthrough = 0.25
@@ -1733,8 +1740,7 @@ technologies = {
 		land_reinforce_rate = 0.02
 
 		category_front_line = {
-			breakthrough = 0.05
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 
 		naval_invasion_capacity = 30
@@ -2000,18 +2006,20 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
+		land_reinforce_rate = 0.02
+
 		category_marines = {
 			breakthrough = 0.10
 			max_organisation = 10
 			default_morale = 0.2
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 
 		category_mountaineers = {
 			breakthrough = 0.10
 			max_organisation = 10
 			default_morale = 0.2
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		
 		path = {
@@ -2288,6 +2296,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		naval_invasion_planning_bonus_speed = 5.0
+		land_reinforce_rate = 0.03
 
 		category_light_infantry = {
 			breakthrough = 0.60
@@ -2468,6 +2477,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 	
+		land_reinforce_rate = 0.02
+
 		motorized = {
 			max_organisation = 10
 			breakthrough = 0.20
@@ -2616,7 +2627,6 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		land_reinforce_rate = 0.05
 		max_planning = 0.2
 
 		shore_bombardment_bonus = 1.0
@@ -2893,13 +2903,13 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
+		land_reinforce_rate = 0.02
+
 		category_light_infantry = {
 			breakthrough = 0.10
 			max_organisation = 10
 			default_morale = 0.10
 		}
-
-		land_reinforce_rate = 0.05
 	
 		org_loss_when_moving = -0.15
 		

@@ -374,7 +374,7 @@ leader_traits = {
 		cost = 200
 		
 		modifier = {
-			army_artillery_attack_factor = 0.075
+			army_artillery_attack_factor = 0.15
 		}
 		
 		new_commander_weight = {
@@ -865,9 +865,9 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			cavalry_attack_factor = 0.06
-			motorized_attack_factor = 0.06
-			mechanized_attack_factor = 0.06
+			cavalry_attack_factor = 0.12
+			motorized_attack_factor = 0.12
+			mechanized_attack_factor = 0.12
 		}
 		
 		slot = high_command
@@ -893,7 +893,7 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			army_infantry_defence_factor = 0.05
+			army_infantry_defence_factor = 0.10
 		}
 		
 		slot = high_command
@@ -960,7 +960,7 @@ leader_traits = {
 		gain_xp = {
 			temperature < -10
 		}
-		cost = 500
+		cost = 50
 		modifier = {
 			winter_attrition_factor = -0.5
 		}
@@ -980,9 +980,9 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			terrain_penalty_reduction = 0.15
-			acclimatization_cold_climate_gain_factor = 0.1
-			acclimatization_hot_climate_gain_factor = 0.1
+			terrain_penalty_reduction = 0.10
+			acclimatization_cold_climate_gain_factor = 0.25
+			acclimatization_hot_climate_gain_factor = 0.25
 		}
 		
 		ai_will_do = {
@@ -1071,7 +1071,7 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			army_armor_speed_factor = 0.05 
-			army_armor_attack_factor = 0.05
+			army_armor_attack_factor = 0.10
 		}
 		ai_will_do = {
 			factor = 1
@@ -1118,12 +1118,12 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = desert
 		}
-		cost = 700
+		cost = 70
 		modifier = {
 			desert = {
 				movement = 0.05
-				attack = 0.05
-				defence = 0.05
+				attack = 0.10
+				defence = 0.10
 			}
 		}
 		new_commander_weight = {
@@ -1146,12 +1146,12 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = marsh
 		}
-		cost = 700
+		cost = 70
 		modifier = {
 			marsh = {
 				movement = 0.05
-				attack = 0.05
-				defence = 0.05
+				attack = 0.10
+				defence = 0.10
 			}
 		}
 		
@@ -1167,12 +1167,12 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = mountain
 		}
-		cost = 700
+		cost = 70
 		modifier = {
 			mountain = {
 				movement = 0.05
-				attack = 0.05
-				defence = 0.05
+				attack = 0.10
+				defence = 0.10
 			}
 		}
 		
@@ -1188,12 +1188,12 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = hills
 		}
-		cost = 700
+		cost = 70
 		modifier = {
 			hills = {
 				movement = 0.05
-				attack = 0.05
-				defence = 0.05
+				attack = 0.10
+				defence = 0.10
 			}
 		}
 		
@@ -1209,12 +1209,12 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = jungle
 		}
-		cost = 700
+		cost = 70
 		modifier = {
 			jungle = {
 				movement = 0.05
-				attack = 0.05
-				defence = 0.05
+				attack = 0.10
+				defence = 0.10
 			}
 		}
 		
@@ -1230,12 +1230,12 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = forest
 		}
-		cost = 700
+		cost = 70
 		modifier = {
 			forest = {
 				movement = 0.05
-				attack = 0.05
-				defence = 0.05
+				attack = 0.10
+				defence = 0.10
 			}
 		}
 		
@@ -1251,12 +1251,12 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = urban
 		}
-		cost = 500
+		cost = 50
 		modifier = {
 			urban = {
 				movement = 0.05
-				attack = 0.05
-				defence = 0.05
+				attack = 0.10
+				defence = 0.10
 			}
 		}
 		
@@ -1303,7 +1303,7 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			army_armor_defence_factor = 0.05
+			army_armor_defence_factor = 0.10
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -1328,8 +1328,8 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			motorized_defence_factor = 0.075
-			mechanized_defence_factor = 0.075
+			motorized_defence_factor = 0.15
+			mechanized_defence_factor = 0.15
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -1360,8 +1360,8 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			cavalry_attack_factor = 0.05
-			cavalry_defence_factor = 0.05
+			cavalry_attack_factor = 0.10
+			cavalry_defence_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -1437,7 +1437,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			army_infantry_attack_factor = 0.05
+			army_infantry_attack_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -1458,7 +1458,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			max_dig_in = 3
+			max_dig_in = 5
 			recon_factor_while_entrenched = 0.25
 		}
 		
