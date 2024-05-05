@@ -319,11 +319,11 @@ technologies = {
 	artillery4 = {
 
 		enable_equipments = {
-			tank_heavy_howitzer
 			artillery_equipment_3
 		}
 
-		enable_equipment_modules = {	
+		enable_equipment_modules = {
+			tank_heavy_howitzer
 			tank_medium_cannon_3
 		}
 
