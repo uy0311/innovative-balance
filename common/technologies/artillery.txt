@@ -62,6 +62,7 @@ technologies = {
 	interwar_artillery = {
 
 		enable_equipment_modules = {
+			tank_medium_howitzer
 			tank_small_cannon_2
 		}
 
@@ -135,7 +136,6 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_medium_howitzer
 			tank_medium_cannon
 		}
 
@@ -184,6 +184,10 @@ technologies = {
 
 	artillery2 = {
 		
+		enable_equipment_modules = {	
+			tank_medium_howitzer_2
+		}
+
 		artillery = {
 			soft_attack = 0.10
 		}
@@ -250,7 +254,6 @@ technologies = {
 	artillery3 = {
 
 		enable_equipment_modules = {	
-			tank_medium_howitzer_2
 			tank_medium_cannon_2
 			tank_heavy_cannon
 		}
@@ -316,6 +319,7 @@ technologies = {
 	artillery4 = {
 
 		enable_equipments = {
+			tank_heavy_howitzer
 			artillery_equipment_3
 		}
 
@@ -364,7 +368,6 @@ technologies = {
 	artillery5 = {
 
 		enable_equipment_modules = {
-			tank_heavy_howitzer
 			tank_heavy_cannon_3
 			tank_super_heavy_cannon
 		}
