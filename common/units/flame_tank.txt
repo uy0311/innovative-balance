@@ -3,7 +3,7 @@ sub_units = {
 		abbreviation = "LFT"
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 6
+		priority = 2505
 		ai_priority = 0
 		active = no
 
@@ -73,7 +73,7 @@ sub_units = {
 		abbreviation = "MFT"
 		sprite = medium_armor
 		map_icon_category = armored
-		priority = 7
+		priority = 2506
 		ai_priority = 0
 		active = no
 
@@ -146,7 +146,7 @@ sub_units = {
 		abbreviation = "HFT"
 		sprite = heavy_armor
 		map_icon_category = armored
-		priority = 8
+		priority = 2507
 		ai_priority = 0
 		active = no
 
