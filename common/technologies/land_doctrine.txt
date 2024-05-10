@@ -2682,7 +2682,7 @@ technologies = {
 			default_morale = 0.05
 			max_organisation = 5
 		}
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 10
 			soft_attack = 0.1
 		}
@@ -3022,9 +3022,9 @@ technologies = {
 			max_organisation = 5
 			default_morale = 0.10
 		}
-		category_tanks = {
-			default_morale = 0.05
-			max_organisation = 3
+		category_all_armor = {
+			max_organisation = 5
+			default_morale = 0.10
 		}	
 
 		path = {
