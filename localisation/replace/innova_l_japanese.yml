@@ -347,6 +347,7 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  doctrine_cat_SF_idea:0 "陸軍ドクトリンの完遂"
  doctrine_cat_GB_idea:0 "陸軍ドクトリンの完遂"
  doctrine_cat_MA_idea:0 "陸軍ドクトリンの完遂"
+ mechanized_wave_idea:0 "機械化人海戦術による生産の見直し"
 
  ###海軍###
  ship_hull_cruiser_submarine_desc:0 "大型で航続力・居住性などに優れ、遠方の外洋に進出して長期間の行動が可能な潜水艦である。"

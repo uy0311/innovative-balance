@@ -3724,6 +3724,15 @@ technologies = {
 			default_morale = 0.25
 		}
 
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = mechanized_wave_idea }
+					}
+				add_ideas = { mechanized_wave_idea }
+			}
+		}
+
 		light_tank_destroyer_brigade = {
 			max_organisation = 10
 			default_morale = 0.25
