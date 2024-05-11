@@ -7465,7 +7465,8 @@ leader_traits = {
 
 	air_air_superiority_1 = {
 		sprite = 1
-		air_superiority_efficiency = 0.01
+		army_bonus_air_superiority_factor = 0.03
+		air_cas_present_factor = 0.03
 		#experience_gain_air = @experience_gain_low
 
 		command_cap = @tier1
@@ -7481,7 +7482,8 @@ leader_traits = {
 
 	air_air_superiority_2 = {
 		sprite = 1
-		air_superiority_efficiency = 0.02
+		army_bonus_air_superiority_factor = 0.06
+		air_cas_present_factor = 0.06
 		#experience_gain_air = @experience_gain_medium
 
 		command_cap = @tier2
@@ -7497,7 +7499,8 @@ leader_traits = {
 
 	air_air_superiority_3 = {
 		sprite = 1
-		air_superiority_efficiency = 0.03
+		army_bonus_air_superiority_factor = 0.09
+		air_cas_present_factor = 0.09
 		#experience_gain_air = @experience_gain_high
 
 		command_cap = @tier3
