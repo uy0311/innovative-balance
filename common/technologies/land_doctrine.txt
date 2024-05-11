@@ -1608,19 +1608,19 @@ technologies = {
 		land_reinforce_rate = 0.02
 
 		motorized = {
-			breakthrough = 0.25
-			soft_attack = 0.25
-			hard_attack = 0.25
+			soft_attack = 0.20
+			hard_attack = 0.20
+			initiative = 0.02
 		}
 		mechanized = {
-			breakthrough = 0.25
-			soft_attack = 0.15
-			hard_attack = 0.15
+			soft_attack = 0.10
+			hard_attack = 0.10
+			initiative = 0.02
 		}
 		amphibious_mechanized = {
-			breakthrough = 0.25
-			soft_attack = 0.15
-			hard_attack = 0.15
+			soft_attack = 0.10
+			hard_attack = 0.10
+			initiative = 0.02
 		}
 		
 		path = {
@@ -1671,22 +1671,19 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		motorized = {
-			defense = 0.10
-			soft_attack = 0.25
-			hard_attack = 0.25
-			initiative = 0.02
+			defense = 0.20
+			soft_attack = 0.20
+			hard_attack = 0.20
 		}
 		mechanized = {
 			defense = 0.10
-			soft_attack = 0.15
-			hard_attack = 0.15
-			initiative = 0.02
+			soft_attack = 0.10
+			hard_attack = 0.10
 		}
 		amphibious_mechanized = {
 			defense = 0.10
-			soft_attack = 0.15
-			hard_attack = 0.15
-			initiative = 0.02
+			soft_attack = 0.10
+			hard_attack = 0.10
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -2419,10 +2416,26 @@ technologies = {
 			max_organisation  = 10
 			default_morale = 0.1
 		}
-		category_all_armor = {
-			default_morale = 0.1
-			max_organisation = 5
-			breakthrough = 0.1
+		category_artillery = {
+			defense = 0.2
+		 }
+		light_sp_artillery_brigade = {
+			defense = 0.2
+		}
+		light_tank_destroyer_brigade = {
+			defense = 0.2
+		}
+		medium_tank_destroyer_brigade = {
+			defense = 0.2
+		}
+		medium_sp_artillery_brigade = {
+			defense = 0.2
+		}
+		heavy_tank_destroyer_brigade = {
+			defense = 0.2
+		}
+		heavy_sp_artillery_brigade = {
+			defense = 0.2
 		}
 
 		path = {
@@ -2553,28 +2566,28 @@ technologies = {
 		xp_unlock_cost = 100
 
 		medium_armor = {
+			default_morale = 0.1
 			breakthrough = 0.2
-			defense = 0.4
 		}
 		medium_tank_destroyer_brigade = {
+			default_morale = 0.1
 			breakthrough = 0.2
-			defense = 0.4
 		}
 		medium_sp_artillery_brigade = {
+			default_morale = 0.1
 			breakthrough = 0.2
-			defense = 0.4
 		}
 		heavy_armor = {
+			default_morale = 0.1
 			breakthrough = 0.2
-			defense = 0.4
 		}
 		heavy_tank_destroyer_brigade = {
+			default_morale = 0.1
 			breakthrough = 0.2
-			defense = 0.4
 		}
 		heavy_sp_artillery_brigade = {
+			default_morale = 0.1
 			breakthrough = 0.2
-			defense = 0.4
 		}
 
 		enable_tactic = tactic_overwhelming_fire
@@ -2679,12 +2692,12 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_army = {
-			default_morale = 0.05
 			max_organisation = 5
+			default_morale = 0.05
 		}
 		category_all_armor = {
 			max_organisation = 10
-			soft_attack = 0.1
+			default_morale = 0.05
 		}
 
 		air_cas_present_factor = 0.30
@@ -3022,10 +3035,10 @@ technologies = {
 			max_organisation = 5
 			default_morale = 0.10
 		}
-		category_all_armor = {
-			max_organisation = 5
-			default_morale = 0.10
-		}	
+		category_artillery = {
+			max_organisation = 10
+			defense = 0.2
+		}
 
 		path = {
 			leads_to_tech = infiltration_in_depth 
@@ -3074,6 +3087,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
+		category_artillery = {
+			default_morale = 0.10
+			breakthrough = 0.2
+		}
+
 		armored_car = {
 			max_organisation = 15
 			default_morale = 0.10
