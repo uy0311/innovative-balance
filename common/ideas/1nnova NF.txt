@@ -355,6 +355,7 @@ ideas = {
 
 			modifier = {
 				mechanized_equipment_design_cost_factor = -0.30
+				amphibious_mechanized_equipment_design_cost_factor = -0.30
 
 				custom_modifier_tooltip = IB_tank_cost_modifier_tt
 				hidden_modifier = {
