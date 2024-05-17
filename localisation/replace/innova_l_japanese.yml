@@ -537,6 +537,7 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  delete_ewm_unlock_decision:0 "このディシジョンを全て削除する"
 
 ###産業研究###
+industrial_form_switching_idea:0 "工業形態の切り替えによる混乱"
 flexible_line2:0 "改良型流動的ライン生産"
 concentrated_industry6:0 "集中工業Ⅵ"
 dispersed_industry6:0 "分散工業Ⅵ"

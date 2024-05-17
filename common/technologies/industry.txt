@@ -265,6 +265,18 @@ technologies = {
 		
 		research_cost = 2
 
+		on_research_complete = {
+			set_country_flag = concentrated_industry_Select
+				if = {
+					limit = {
+						has_country_flag = dispersed_industry_Select
+					}
+					add_timed_idea = {
+      				  idea = industrial_form_switching_idea
+  				      days = 7
+ 				   }
+				}
+		}
 		
 		folder = {
 			name = industry_folder
@@ -541,6 +553,18 @@ technologies = {
 		
 		research_cost = 2
 		
+		on_research_complete = {
+			set_country_flag = dispersed_industry_Select
+				if = {
+					limit = {
+						has_country_flag = concentrated_industry_Select
+					}
+				    add_timed_idea = {
+      				  idea = industrial_form_switching_idea
+  				      days = 7
+ 				   }
+				}
+		}
 		
 		folder = {
 			name = industry_folder
