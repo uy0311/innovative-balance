@@ -769,7 +769,6 @@ ideas = {
 				industrial_capacity_factory = 1000
 				production_speed_buildings_factor = 1000
 				political_power_gain = 1000
-
 			}
 		}
 
@@ -855,6 +854,31 @@ ideas = {
 				cat_grand_battle_plan_cost_factor = -0.75
 				
 			}
+		}
+
+		industrial_form_switching_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				industrial_capacity_factory = -1.00
+				industrial_capacity_dockyard = -1.00
+				production_factory_max_efficiency_factor = -2.0
+				production_factory_start_efficiency_factor = -2.0
+			#	line_change_production_efficiency_factor = 0.1
+			#	equipment_conversion_speed = 0.45
+			}
+
+			removal_cost = -1
+			
+			picture = generic_industrial_concern_1
+
 		}
 	}
 

@@ -31,7 +31,6 @@ technologies = {
 			marine
 			paratrooper
 			mountaineers
-			rangers_support
 		}
 		
 		path = {
