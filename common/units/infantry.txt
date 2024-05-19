@@ -150,7 +150,7 @@ sub_units = {
 		}
 	}
 
-	marine_commando  = {
+	marine_commando = {
 		abbreviation = "MRC"
 		sprite = infantry
 		map_icon_category = infantry
@@ -197,16 +197,16 @@ sub_units = {
 		}
 
 		forest = {
-			attack = 0.1
+			attack = 0.05
 		}
 		jungle = {
-			attack = 0.2
-		}
-		hills = {
 			attack = 0.1
 		}
+		hills = {
+			attack = 0.05
+		}
 		mountain = {
-			attack = 0.2
+			attack = 0.1
 		}
 		marsh = {
 			attack = 0.6
