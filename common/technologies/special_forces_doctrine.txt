@@ -6,7 +6,7 @@ technologies = {
 		doctrine_name = "TITLE_SPECIAL_FORCES"
 
 		xp_research_type = army
-		xp_unlock_cost = 60
+		xp_unlock_cost = 50
 		
 		enable_subunits = {
 			rangers_support
@@ -14,6 +14,11 @@ technologies = {
 
 		path = {
 			leads_to_tech = mountaineers_combat_3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = tech_mountaineers
 			research_cost_coeff = 1
 		}
 		
@@ -49,7 +54,7 @@ technologies = {
 	mountaineers_combat_3 = {
 
 		xp_research_type = army
-		xp_unlock_cost = 120
+		xp_unlock_cost = 50
 		
 		enable_equipment_modules = {
 			flamethrower
@@ -73,7 +78,7 @@ technologies = {
 		
 		folder = {
 			name = special_forces_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = -1 y = 3 }
 		}
 		
 		ai_will_do = {
@@ -85,7 +90,117 @@ technologies = {
 		}
 	}
 
+	tech_mountaineers = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 30
+
+		category_mountaineers = {
+			max_organisation = 5
+			default_morale = 0.1
+		}
+
+		path = {
+			leads_to_tech = tech_mountaineers2
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = special_forces_doctrine_folder
+			position = { x = 1 y = 5 }
+		}
+		
+		force_use_small_tech_layout = yes
+		doctrine = yes	
+		research_cost = 4.5
+
+		categories = {
+			special_forces_doctrine
+			mountaineers_tech
+			cat_mountaineers_doctrine
+		}
+	}
 	
+	tech_mountaineers2 = {
+
+		xp_research_type = army
+		xp_unlock_cost = 30
+
+		category_mountaineers = {
+			max_organisation = 5
+			default_morale = 0.1
+		}
+
+		path = {
+			leads_to_tech = tech_mountaineers3
+			research_cost_coeff = 1
+		}
+
+		start_year = 1939
+				folder = {
+			name = special_forces_doctrine_folder
+			position = { x = 1 y = 7 }
+		}
+		
+		force_use_small_tech_layout = yes
+		doctrine = yes	
+		research_cost = 4.5
+
+		categories = {
+			special_forces_doctrine
+			mountaineers_tech
+			cat_mountaineers_doctrine
+		}
+	}
+	
+	tech_mountaineers3 = {	
+
+		xp_research_type = army
+		xp_unlock_cost = 30
+
+		light_flame_tank = {
+			forest = {
+				attack = 0.1
+			}
+			jungle = {
+				attack = 0.2
+			}
+		}
+
+		medium_flame_tank = {
+			forest = {
+				attack = 0.1
+			}
+			jungle = {
+				attack = 0.2
+			}
+		}
+
+		heavy_flame_tank = {
+			forest = {
+				attack = 0.1
+			}
+			jungle = {
+				attack = 0.2
+			}
+		}
+
+		folder = {
+			name = special_forces_doctrine_folder
+			position = { x = 1 y = 9 }
+		}
+		
+		force_use_small_tech_layout = yes
+		doctrine = yes	
+		research_cost = 4.5
+
+		categories = {
+			special_forces_doctrine
+			mountaineers_tech
+			cat_mountaineers_doctrine
+		}
+	}
+
 	###Marines
 	
 	special_forces_marines = {
@@ -100,6 +215,11 @@ technologies = {
 
 		path = {
 			leads_to_tech = marines_commandoes_mechanised 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = marines 
 			research_cost_coeff = 1
 		}
 		
@@ -163,7 +283,7 @@ technologies = {
 		
 		folder = {
 			name = special_forces_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = -1 y = 3 }
 		}
 		
 		ai_will_do = {
@@ -175,6 +295,104 @@ technologies = {
 		}
 	}
 	
+	marines = {
+
+		xp_research_type = army
+		xp_unlock_cost = 30
+
+		category_marines = {
+			max_organisation = 5
+			default_morale = 0.1
+		}
+
+		path = {
+			leads_to_tech = marines2 
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = special_forces_doctrine_folder
+			position = { x = 1 y = 5 }
+		}
+
+		force_use_small_tech_layout = yes
+		doctrine = yes	
+		research_cost = 2.25
+		
+		categories = {
+			special_forces_doctrine
+			marine_tech
+			cat_marines_doctrine
+		}
+	}
+	
+	marines2 = {
+
+		xp_research_type = army
+		xp_unlock_cost = 30
+
+		category_marines = {
+			max_organisation = 5
+			default_morale = 0.1
+		}
+
+		path = {
+			leads_to_tech = marines3 
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = special_forces_doctrine_folder
+			position = { x = 1 y = 7 }
+		}
+
+		force_use_small_tech_layout = yes
+		doctrine = yes	
+		research_cost = 2.25
+		
+		categories = {
+			special_forces_doctrine
+			marine_tech
+			cat_marines_doctrine
+		}
+	}
+	
+	marines3 = {
+
+		xp_research_type = army
+		xp_unlock_cost = 30
+
+		marine_commando = {
+			forest = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.1
+			}
+			hills = {
+				attack = 0.05
+			}
+			mountain = {
+				attack = 0.1
+			}
+		}
+		folder = {
+			name = special_forces_doctrine_folder
+			position = { x = 1 y = 9 }
+		}
+
+		force_use_small_tech_layout = yes
+		doctrine = yes	
+		research_cost = 2.25
+		
+		categories = {
+			special_forces_doctrine
+			marine_tech
+			cat_marines_doctrine
+		}
+	}	
+	
+
 	###Paratroopers
 	
 	special_forces_paratroopers = {
@@ -255,4 +473,16 @@ technologies = {
 		}
 	}
 	
+#	paratroopers = {
+
+#	}
+	
+#	paratroopers2 = {
+
+#	}
+
+#	paratroopers3 = {
+
+#	}
+
 }
