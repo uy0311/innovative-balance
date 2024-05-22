@@ -927,7 +927,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 300
 			thrust = 700
-			build_cost_ic = 28
+			build_cost_ic = 30
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
@@ -944,7 +944,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 340
 			thrust = 800
-			build_cost_ic = 30
+			build_cost_ic = 31
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
@@ -988,7 +988,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 420
 			thrust = 1000
-			build_cost_ic = 34
+			build_cost_ic = 33
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
@@ -1010,7 +1010,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 460
 			thrust = 1100
-			build_cost_ic = 36
+			build_cost_ic = 34
 			fuel_consumption = 0.3
 		}
 		multiply_stats = {
@@ -1099,7 +1099,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 288
 			thrust = 1300
-			build_cost_ic = 56
+			build_cost_ic = 58
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
@@ -1116,7 +1116,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 326
 			thrust = 1400
-			build_cost_ic = 59
+			build_cost_ic = 60
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
@@ -1160,7 +1160,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 402
 			thrust = 1600
-			build_cost_ic = 65
+			build_cost_ic = 64
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
@@ -1182,7 +1182,7 @@ equipment_modules = {
 		add_stats = {
 			maximum_speed = 444
 			thrust = 1700
-			build_cost_ic = 68
+			build_cost_ic = 66
 			fuel_consumption = 0.6
 		}
 		multiply_stats = {
