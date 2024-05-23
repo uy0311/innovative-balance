@@ -224,7 +224,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ bold }
+			traits={ bold blockade_runner }
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -264,11 +264,7 @@ characters={
 		}
 		navy_leader={
 			traits = { seawolf }
-            skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 3
+            skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -303,47 +299,61 @@ characters={
 		}
 	}
 
-	takao={
-		name="takao"
+	leonard_w_murray={
+		name=CAN_leonard_w_murray
 		portraits={
 			army={
-				large="gfx/leaders/AST/_takao3.dds"
-				small="gfx/interface/ideas/idea_AST_victor_crutchley.dds"
+				large="GFX_CAN_leonard_warren_murray"
+				small=GFX_portrait_CAN_leonard_w_murray_small
 			}
 		}
 		navy_leader={
-			traits = { blockade_runner superior_tactician air_controller }
-	        skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=-1
 		}
 	}
 
-	iona={
-		name="iona"
+	ht_bailliegrohman={
+		name=CAN_ht_bailliegrohman
 		portraits={
 			army={
-				large="gfx/leaders/AST/_iona2.dds"
-				small="gfx/interface/ideas/idea_AST_victor_crutchley.dds"
+				large=GFX_portrait_CAN_ht_bailliegrohman
+				small=GFX_portrait_CAN_ht_bailliegrohman_small
 			}
 		}
 		navy_leader={
-			traits = { superior_tactician }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			traits={ spotter }
+			skill=4 attack_skill=4 defense_skill=4 maneuvering_skill=4 coordination_skill=4
 			legacy_id=-1
 		}
 	}
 
-	Mohandas_Karamchand_Gandhi={
-		name="Mohandas Karamchand Gandhi"
+	james_d_prentice={
+		name=CAN_james_d_prentice
 		portraits={
 			army={
-				large="gfx/leaders/AST/Mohandas Karamchand Gandhi.dds"
-				small="gfx/interface/ideas/idea_AST_victor_crutchley.dds"
+				large="GFX_CAN_james_prentice"
+				small=GFX_portrait_CAN_james_d_prentice_small
 			}
 		}
 		navy_leader={
-			traits = { fly_swatter }
-	        skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
+			traits={ spotter }
+			skill=3 attack_skill=3 defense_skill=3 maneuvering_skill=3 coordination_skill=3
+			legacy_id=-1
+		}
+	}
+
+	harry_dewolf={
+		name=CAN_harry_dewolf
+		portraits={
+			army={
+				large="GFX_CAN_harry_dewolf"
+				small=GFX_portrait_CAN_harry_dewolf_small
+			}
+		}
+		navy_leader={
+			traits={ bold superior_tactician ironside }
+			skill=3 attack_skill=3 defense_skill=3 maneuvering_skill=3 coordination_skill=3
 			legacy_id=-1
 		}
 	}
