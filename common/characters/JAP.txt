@@ -667,7 +667,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { superior_tactician spotter air_controller fly_swatter blue_water_expert navy_media_personality bold }
+			traits = { superior_tactician spotter air_controller blockade_runner blue_water_expert navy_media_personality bold }
             skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
 			legacy_id=0
 		}
