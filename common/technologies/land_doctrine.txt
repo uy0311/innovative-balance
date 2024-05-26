@@ -1873,31 +1873,31 @@ technologies = {
 		recon = {
 			battalion_mult = {
 				category = category_special_forces
-				soft_attack = 0.4
+				soft_attack = 0.15
 			}
 		}
 		mot_recon = {
 			battalion_mult = {
 				category = category_special_forces
-				soft_attack = 0.4
+				soft_attack = 0.15
 			}
 		}
 		armored_car_recon = {
 			battalion_mult = {
 				category = category_special_forces
-				soft_attack = 0.4
+				soft_attack = 0.15
 			}
 		}
 		light_tank_recon = {
 			battalion_mult = {
 				category = category_special_forces
-				soft_attack = 0.4
+				soft_attack = 0.15
 			}
 		}
 		airborne_light_armor = {
 			battalion_mult = {
 				category = category_special_forces
-				soft_attack = 0.4
+				soft_attack = 0.15
 			}
 		}
 
@@ -1952,9 +1952,9 @@ technologies = {
 		
 		naval_invasion_planning_bonus_speed = 1.0
 
-		category_special_forces = {
-			soft_attack = 0.2
-			hard_attack = 0.4
+		category_light_infantry = {
+			soft_attack = 0.15
+			hard_attack = 0.2
 		}
 
 		path = {
@@ -2977,7 +2977,7 @@ technologies = {
 
 		category_light_infantry = {
 			breakthrough = 0.2
-			default_morale = 0.1
+			default_morale = 0.10
 		}
 
 		path = {
@@ -3337,7 +3337,6 @@ technologies = {
 		category_light_infantry = {
 			max_organisation = 5
 		}
-		
 		
 		path = {
 			leads_to_tech = large_front_operations
@@ -3821,7 +3820,7 @@ technologies = {
 		org_loss_when_moving = -0.25
 
 		category_army = {
-			default_morale = 0.05
+			default_morale = 0.10
 			max_organisation = 5
 			breakthrough = 0.05
 		}
@@ -3887,7 +3886,6 @@ technologies = {
 	}
 	
 	peoples_army = {
-	
 		xor = {
 			large_front_operations
 		}
@@ -3896,20 +3894,27 @@ technologies = {
 		xp_unlock_cost = 100
 
 		conscription = 0.02
+		land_reinforce_rate = 0.15
 		resistance_growth_on_our_occupied_states = 0.5
 
-		attrition = -0.8
+		army_defence_factor = -0.5
+		army_core_defence_factor = 0.5
+		army_attack_factor = -0.5
+		army_core_attack_factor = 0.5
+		supply_combat_penalties_on_core_factor = -1.0
 
-		land_reinforce_rate = 0.13
+		army_org = -15
+
+		category_army = {
+			initiative = -0.01
+		}
 
 		infantry = {
-			combat_width = -0.4
-			default_morale = 0.20
-			max_organisation = -15
+			default_morale = 0.3
 		}
 
 		path = {
-			leads_to_tech = human_infantry_offensive
+			leads_to_tech = guerilla_warfare
 			research_cost_coeff = 1
 		}
 
@@ -3964,34 +3969,47 @@ technologies = {
 		}
 	}
 	
-	human_infantry_offensive = {
+	guerilla_warfare = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		conscription = 0.01
-		supply_consumption_factor = 1.0
+		conscription = 0.02
+		land_reinforce_rate = 0.04
+		resistance_growth_on_our_occupied_states = 0.5
+		resistance_target_on_our_occupied_states = 0.3
+		resistance_damage_to_garrison_on_our_occupied_states = 0.5  
+
+		attrition = -0.8
 		out_of_supply_factor = -1.0
-		supply_combat_penalties_on_core_factor = -1.0
+		pocket_penalty = 0.3
 
-		land_reinforce_rate = 0.05	
-
-		category_all_infantry = {
-			default_morale = 0.20
+		category_light_infantry = {
+			default_morale = 0.2
 		}
 		
 		path = {
-			leads_to_tech = large_front_offensive
+			leads_to_tech = human_infantry_offensive
 			research_cost_coeff = 1
 		}
+
+		enable_tactic = tactic_guerrilla_tactics
 
 		doctrine = yes	
 		research_cost = 5.0
 		
+		on_research_complete = {
+				if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_MA_idea }
+					}
+				add_ideas = { doctrine_cat_MA_idea }
+				}
+		}
+
 		categories = {
 			land_doctrine
 			cat_mass_assault
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
@@ -3999,33 +4017,44 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
 			modifier = {
 				not = {
 					has_army_experience > 120
 				}
 				factor = 0.8
 			}
+			factor = 20
 		}
 		
 		ai_research_weights = {
 			industry = 2.0
 		}
 	}
-	
-	large_front_offensive = {
+
+	human_infantry_offensive = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		conscription = 0.02
-
+		conscription = 0.01
+		land_reinforce_rate = 0.04
+		enemy_army_bonus_air_superiority_factor = -0.75
 		army_bonus_air_superiority_factor = -1.00
-		air_cas_present_factor = -1.00
 
-		land_reinforce_rate = 0.05
+		category_all_infantry = {
+			default_morale = 0.20
+		}
+
+		infantry = {
+			max_strength = 10
+		}
+
+		anti_air_brigade = {
+			ap_attack = 0.1
+			air_attack = 0.15
+		}
 		
 		path = {
-			leads_to_tech = human_wave_offensive
+			leads_to_tech = large_front_offensive
 			research_cost_coeff = 1
 		}
 
@@ -4063,25 +4092,24 @@ technologies = {
 		}
 	}
 	
-	human_wave_offensive = {
-
+	large_front_offensive = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		enable_tactic = tactic_human_wave_tactics
-
-		enemy_army_bonus_air_superiority_factor = -0.75
+		land_reinforce_rate = 0.04
+		air_cas_present_factor = -1.00
 		cas_damage_reduction = 0.25
-
-		land_reinforce_rate = 0.05
-
-		armored_car = {
-			combat_width = -0.5
-			max_organisation = 15
+		
+		anti_air_brigade = {
+			ap_attack = 0.1
+			air_attack = 0.15
+		}
+		category_army = {
+			default_morale = 0.20
 		}
 
 		path = {
-			leads_to_tech = guerilla_warfare
+			leads_to_tech = human_wave_offensive
 			research_cost_coeff = 1
 		}
 
@@ -4110,25 +4138,26 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			infantry_weapons = 1.0
 			industry = 2.0
 		}
 	}
 	
-	guerilla_warfare = {
+	human_wave_offensive = {
+
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		resistance_target_on_our_occupied_states = 0.3
-		resistance_damage_to_garrison_on_our_occupied_states = 0.5  
-		resistance_growth_on_our_occupied_states = 0.5
+		land_reinforce_rate = 0.04
+		army_org_regain = 0.2
 
-		category_army = {
-			default_morale = 0.2
+		armored_car = {
+			combat_width = -0.5
+			default_morale = 0.20
+			max_organisation = 20
 		}
-		
-		enable_tactic = tactic_guerrilla_tactics
-		
+
+		enable_tactic = tactic_human_wave_tactics
+
 		on_research_complete = {
 			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
 			custom_effect_tooltip = IB_three_man_turret_tt
@@ -4137,19 +4166,11 @@ technologies = {
 		doctrine = yes	
 		research_cost = 5.0
 		
-		on_research_complete = {
-				if = {
-					limit = {
-						NOT = {	has_idea = doctrine_cat_MA_idea }
-					}
-				add_ideas = { doctrine_cat_MA_idea }
-				}
-		}
-
 		categories = {
 			land_doctrine
 			cat_mass_assault
 		}
+
 		
 		folder = {
 			name = land_doctrine_folder
@@ -4157,16 +4178,17 @@ technologies = {
 		}
 		
 		ai_will_do = {
+			factor = 20
 			modifier = {
 				not = {
 					has_army_experience > 120
 				}
 				factor = 0.8
 			}
-			factor = 20
 		}
 		
 		ai_research_weights = {
+			infantry_weapons = 1.0
 			industry = 2.0
 		}
 	}
