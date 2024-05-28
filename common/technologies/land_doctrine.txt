@@ -3981,7 +3981,7 @@ technologies = {
 
 		attrition = -0.8
 		out_of_supply_factor = -1.0
-		pocket_penalty = 0.3
+		pocket_penalty = -0.3
 
 		category_light_infantry = {
 			default_morale = 0.2
