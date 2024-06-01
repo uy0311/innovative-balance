@@ -3996,15 +3996,6 @@ technologies = {
 
 		doctrine = yes	
 		research_cost = 5.0
-		
-		on_research_complete = {
-				if = {
-					limit = {
-						NOT = {	has_idea = doctrine_cat_MA_idea }
-					}
-				add_ideas = { doctrine_cat_MA_idea }
-				}
-		}
 
 		categories = {
 			land_doctrine
@@ -4159,6 +4150,12 @@ technologies = {
 		enable_tactic = tactic_human_wave_tactics
 
 		on_research_complete = {
+			if = {
+					limit = {
+						NOT = {	has_idea = doctrine_cat_MA_idea }
+					}
+				add_ideas = { doctrine_cat_MA_idea }
+				}
 			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
 			custom_effect_tooltip = IB_three_man_turret_tt
 		}
