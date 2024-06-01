@@ -34,6 +34,7 @@ sub_units = {
 		weight = 1
 		suppression = 2.5
 		supply_consumption = 0.22 
+		air_attack = -0.50
 
 		need = {
 			light_tank_flame_chassis = 60
