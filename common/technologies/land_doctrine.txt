@@ -4028,8 +4028,8 @@ technologies = {
 
 		conscription = 0.01
 		land_reinforce_rate = 0.04
-		enemy_army_bonus_air_superiority_factor = -0.75
-		army_bonus_air_superiority_factor = -1.00
+		enemy_army_bonus_air_superiority_factor = -10.00
+		army_bonus_air_superiority_factor = -10.00
 
 		category_all_infantry = {
 			default_morale = 0.20
@@ -4088,7 +4088,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		land_reinforce_rate = 0.04
-		air_cas_present_factor = -1.00
+		air_cas_present_factor = -10.00
 		cas_damage_reduction = 0.25
 		
 		anti_air_brigade = {
