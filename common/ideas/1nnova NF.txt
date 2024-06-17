@@ -438,9 +438,11 @@ ideas = {
 			removal_cost = -1
 			
 			picture = eng_special_air_service
-			
-			research_bonus = {
-				cat_special_forces_generic = 0.80
+
+			modifier = {
+				cat_mountaineers_doctrine_cost_factor = -0.4
+				cat_marines_doctrine_cost_factor = -0.4
+				cat_paratroopers_doctrine_cost_factor = -0.4
 			}
 
 		}

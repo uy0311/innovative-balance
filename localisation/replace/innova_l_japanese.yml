@@ -349,6 +349,19 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  doctrine_cat_MA_idea:0 "陸軍ドクトリンの完遂"
  mechanized_wave_idea:0 "機械化人海戦術による生産の見直し"
 
+ ###将校団と特殊部隊ドクトリン####
+ cat_mountaineers_doctrine_cost_factor: "山岳兵ドクトリンコスト"
+ cat_marines_doctrine_cost_factor: "海兵隊ドクトリンコスト"
+ cat_paratroopers_doctrine_cost_factor: "空挺兵ドクトリンコスト"
+ modifier_unit_amphibious_light_armor_design_cost_factor: "水陸両用軽戦車ユニット設計コスト"
+ modifier_unit_amphibious_medium_armor_design_cost_factor: "水陸両用中戦車ユニット設計コスト"
+ modifier_unit_amphibious_heavy_armor_design_cost_factor: "水陸両用重戦車ユニット設計コスト"
+ modifier_unit_light_flame_tank_design_cost_factor: "軽火炎放射戦車ユニット設計コスト"
+ modifier_unit_medium_flame_tank_design_cost_factor: "中火炎放射戦車ユニット設計コスト"
+ modifier_unit_heavy_flame_tank_design_cost_factor: "重火炎放射戦車ユニット設計コスト"
+ modifier_unit_marine_commando_design_cost_factor: "海兵隊特殊部隊ユニット設計コスト"
+ modifier_unit_airborne_light_armor_design_cost_factor: "海兵隊特殊部隊ユニット設計コスト"
+
  ###海軍###
  ship_hull_cruiser_submarine_desc:0 "大型で航続力・居住性などに優れ、遠方の外洋に進出して長期間の行動が可能な潜水艦である。"
 
