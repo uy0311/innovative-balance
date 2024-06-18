@@ -756,11 +756,19 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+		rangers_support = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
 		paratrooper = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
 		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		special_forces_marines = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
@@ -847,11 +855,19 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+		rangers_support = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
 		paratrooper = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
 		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		special_forces_marines = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
@@ -944,11 +960,19 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+		rangers_support = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
 		paratrooper = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
 		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		special_forces_marines = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
@@ -1028,11 +1052,19 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+		rangers_support = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
 		paratrooper = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
 		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		special_forces_marines = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
