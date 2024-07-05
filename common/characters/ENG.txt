@@ -388,7 +388,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trickster }
+			traits={ trickster trait_engineer }
 			skill=2
 			attack_skill=2
 			defense_skill=2

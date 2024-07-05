@@ -245,7 +245,7 @@ characters={
 		}
 		
 		corps_commander={
-			traits = { bearer_of_artillery panzer_leader }
+			traits = { bearer_of_artillery trait_engineer panzer_leader }
 	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
 			legacy_id=0
 		}

@@ -368,6 +368,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_heavy_howitzer
+			tank_heavy_cannon_2
 			tank_heavy_cannon_3
 		}
 
@@ -501,7 +502,7 @@ technologies = {
 	artillery7 = {
 
 		enable_equipment_modules = {
-			tank_heavy_cannon_2
+			tank_super_heavy_cannon_2
 		}
 
 		artillery = {
@@ -1756,6 +1757,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_heavy_cannon_3
+			tank_heavy_cannon_2
 		}
 
 		path = {
@@ -1915,7 +1917,7 @@ technologies = {
 	antitank7 = {
 
 		enable_equipment_modules = {
-			tank_heavy_cannon_2
+			tank_super_heavy_cannon_2
 		}
 
 		anti_tank = {
