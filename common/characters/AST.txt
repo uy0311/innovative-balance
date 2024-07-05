@@ -244,7 +244,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { fast_planner  trait_mountaineer }
+			traits = { fast_planner trait_engineer trait_mountaineer }
             skill = 3
             attack_skill = 3
             defense_skill = 3
