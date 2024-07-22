@@ -22,7 +22,6 @@ technologies = {
 		enable_equipment_modules = {
 			secondary_turret_hmg
 			additional_machine_guns
-			IB_tank_coaxial_machine_gun
 		}
 		
 		enable_subunits = {
@@ -433,7 +432,12 @@ technologies = {
 	advanced_infantry_weapons2 = {
 
 		enable_equipment_modules = {
-			IB_tank_heavy_machine_gun
+			tank_light_three_man_tank_turret_Hmg
+			tank_light_three_man_tank_turret_CHmg
+			tank_medium_three_man_tank_turret_Hmg
+			tank_medium_three_man_tank_turret_CHmg
+			tank_heavy_three_man_tank_turret_Hmg
+			tank_heavy_three_man_tank_turret_CHmg
 		}
 
 		category_light_infantry = {
