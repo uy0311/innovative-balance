@@ -51,19 +51,12 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
-		}
-
-		module_count_limit = {
-			category = tank_radio_module
-			count < 2
 		}
 
 	    module_count_limit = {
@@ -102,24 +95,8 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = tank_commander_module
-			count < 2
-		}
-		module_count_limit = {
-			module = IB_tank_coaxial_machine_gun
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
-		module_count_limit = {
-			module = flamethrower
-			count < 2
-		}
-		module_count_limit = {
 			category = tank_coaxial_module
-			count < 3
+			count < 2
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -214,12 +191,10 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -279,12 +254,10 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 					
 					
 				}
@@ -293,12 +266,10 @@ equipments = {
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -356,36 +327,30 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -448,48 +413,40 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -553,34 +510,25 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 			
 		}
 		
-		module_count_limit = {
-			category = tank_radio_module
-			count < 2
-		}
-
 	    module_count_limit = {
 	    	module = additional_frontal_armor
 	    	count < 2
@@ -617,24 +565,8 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = tank_commander_module
-			count < 2
-		}
-		module_count_limit = {
-			module = IB_tank_coaxial_machine_gun
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
-		module_count_limit = {
-			module = flamethrower
-			count < 2
-		}
-		module_count_limit = {
 			category = tank_coaxial_module
-			count < 3
+			count < 2
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -729,24 +661,20 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 			
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -813,36 +741,30 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 			
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -902,48 +824,40 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 			
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -1009,48 +923,40 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 			
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -1114,43 +1020,32 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
-		}
-
-		module_count_limit = {
-			category = tank_radio_module
-			count < 2
 		}
 	    module_count_limit = {
 	    	module = additional_frontal_armor
@@ -1188,24 +1083,8 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = tank_commander_module
-			count < 2
-		}
-		module_count_limit = {
-			module = IB_tank_coaxial_machine_gun
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
-		module_count_limit = {
-			module = flamethrower
-			count < 2
-		}
-		module_count_limit = {
 			category = tank_coaxial_module
-			count < 3
+			count < 2
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -1290,43 +1169,37 @@ equipments = {
 			engine_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_engine_type
+					heavy_tank_engine_type
 				}
 			}
 
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -1384,56 +1257,47 @@ equipments = {
 			engine_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_engine_type
+					heavy_tank_engine_type
 				}
 			}
 
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -1491,55 +1355,47 @@ equipments = {
 			engine_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_engine_type
+					heavy_tank_engine_type
 				}
 			}
 
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -1599,55 +1455,47 @@ equipments = {
 			engine_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_engine_type
+					heavy_tank_engine_type
 				}
 			}
 
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -1714,57 +1562,44 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 		}
-		module_count_limit = {
-			category = tank_radio_module
-			count < 2
-		}
-
 
 	    module_count_limit = {
 	    	module = additional_frontal_armor
@@ -1802,24 +1637,8 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = tank_commander_module
-			count < 2
-		}
-		module_count_limit = {
-			module = IB_tank_coaxial_machine_gun
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
-		module_count_limit = {
-			module = flamethrower
-			count < 2
-		}
-		module_count_limit = {
 			category = tank_coaxial_module
-			count < 3
+			count < 2
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -1929,68 +1748,55 @@ equipments = {
 			engine_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_engine_type
+					heavy_tank_engine_type
 				}
 			}
 
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 		}
-		module_count_limit = {
-			category = tank_radio_module
-			count < 2
-		}
-
 	    module_count_limit = {
 	    	category = tank_secondary_turret
 	    	count < 2
@@ -2032,24 +1838,8 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = tank_commander_module
-			count < 2
-		}
-		module_count_limit = {
-			module = IB_tank_coaxial_machine_gun
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
-		module_count_limit = {
-			module = flamethrower
-			count < 2
-		}
-		module_count_limit = {
 			category = tank_coaxial_module
-			count < 3
+			count < 2
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -2163,61 +1953,48 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_armor_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_secondary_turret
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
 		
-		module_count_limit = {
-			category = tank_radio_module
-			count < 2
-		}
-
 	    module_count_limit = {
 	    	category = tank_secondary_turret
 	    	count < 2
@@ -2259,24 +2036,8 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = tank_commander_module
-			count < 2
-		}
-		module_count_limit = {
-			module = IB_tank_coaxial_machine_gun
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
-		module_count_limit = {
-			module = flamethrower
-			count < 2
-		}
-		module_count_limit = {
 			category = tank_coaxial_module
-			count < 3
+			count < 2
 		}
 		module_count_limit = {
 			module = easy_maintenance
@@ -2388,44 +2149,36 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 	
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 	
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 	
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_turret_module
 					tank_special_ammo_module
 					tank_special_module
-					tank_coaxial_module
 				}
 			}
 		}
@@ -2442,11 +2195,6 @@ equipments = {
 		module_count_limit = {
 			module = tank_light_fixed_superstructure_turret_1
 			count < 1
-		}
-
-		module_count_limit = {
-			category = tank_radio_module
-			count < 2
 		}
 	
 		module_count_limit = {
