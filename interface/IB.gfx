@@ -154,17 +154,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_EMI_tank_modern_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_modern_turret_Cmg.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_modern_tank_turret_Cmg.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_EMI_tank_modern_tank_turret_Hmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_modern_turret_Hmg.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_modern_tank_turret_Hmg.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_EMI_tank_modern_tank_turret_CHmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_modern_turret_CHmg.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_modern_tank_turret_CHmg.dds"
 		legacy_lazy_load = no
 	}
 
