@@ -136,8 +136,6 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "車載機関銃・火炎放射器"
  EQ_MOD_CAT_tank_commander_module_TITLE:0 "車長用重機関銃"
 
- EQ_MOD_CAT_tank_sloped_armor_type_TITLE:0 "戦車装甲角度"
- EQ_MOD_SLOT_sloped_armor_type_slot_TITLE:0 "装甲傾斜角度"
  EQ_MOD_SLOT_special_type_slot_5_TITLE:0 "特殊機能"
  EQ_MOD_SLOT_special_type_slot_6_TITLE:0 "特殊機能"
 
