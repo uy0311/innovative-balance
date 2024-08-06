@@ -1,0 +1,166 @@
+ib_se_infrastructure_rule = {
+	name = "ib_se_infrastructure_rule"
+	group = "rule_group_ib_se"
+	option = {
+		name = "ib_se_level_no"
+		text = "rule_option_ib_se_level_no"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_1"
+		text = "rule_option_ib_se_level_1"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_2"
+		text = "rule_option_ib_se_level_2"
+		desc = ""
+		allow_achievements = yes
+	}
+	default = {
+		name = "ib_se_level_3"
+		text = "rule_option_ib_se_level_3"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_4"
+		text = "rule_option_ib_se_level_4"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_5"
+		text = "rule_option_ib_se_level_5"
+		desc = ""
+		allow_achievements = yes
+	}
+}
+ib_se_rail_way_rule = {
+	name = "ib_se_rail_way_rule"
+	group = "rule_group_ib_se"
+	option = {
+		name = "ib_se_level_no"
+		text = "rule_option_ib_se_level_no"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_1"
+		text = "rule_option_ib_se_level_1"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_2"
+		text = "rule_option_ib_se_level_2"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_3"
+		text = "rule_option_ib_se_level_3"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_4"
+		text = "rule_option_ib_se_level_4"
+		desc = ""
+		allow_achievements = yes
+	}
+	default = {
+		name = "ib_se_level_5"
+		text = "rule_option_ib_se_level_5"
+		desc = ""
+		allow_achievements = yes
+	}
+}
+ib_se_supply_node_rule = {
+	name = "ib_se_supply_node_rule"
+	group = "rule_group_ib_se"
+	option = {
+		name = "ib_se_level_no"
+		text = "rule_option_ib_se_level_no"
+		desc = ""
+		allow_achievements = yes
+	}
+	default = {
+		name = "ib_se_level_1"
+		text = "rule_option_ib_se_level_1"
+		desc = ""
+		allow_achievements = yes
+	}
+}
+ib_se_air_base_rule = {
+	name = "ib_se_air_base_rule"
+	group = "rule_group_ib_se"
+	option = {
+		name = "ib_se_level_no"
+		text = "rule_option_ib_se_level_no"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_1"
+		text = "rule_option_ib_se_level_1"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_2"
+		text = "rule_option_ib_se_level_2"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_3"
+		text = "rule_option_ib_se_level_3"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_4"
+		text = "rule_option_ib_se_level_4"
+		desc = ""
+		allow_achievements = yes
+	}
+	default = {
+		name = "ib_se_level_5"
+		text = "rule_option_ib_se_level_5"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_6"
+		text = "rule_option_ib_se_level_6"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_7"
+		text = "rule_option_ib_se_level_7"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_8"
+		text = "rule_option_ib_se_level_8"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_9"
+		text = "rule_option_ib_se_level_9"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_10"
+		text = "rule_option_ib_se_level_10"
+		desc = ""
+		allow_achievements = yes
+	}
+}
