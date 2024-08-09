@@ -2197,6 +2197,18 @@ equipments = {
 			module = tank_light_fixed_superstructure_turret_1
 			count < 1
 		}
+		module_count_limit = {
+			module = tank_light_three_man_tank_turret_Cmg
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_light_three_man_tank_turret_Hmg
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_light_three_man_tank_turret_CHmg
+			count < 1
+		}
 	
 		module_count_limit = {
 			category = tank_secondary_turret
