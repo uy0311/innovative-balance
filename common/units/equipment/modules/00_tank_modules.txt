@@ -1454,7 +1454,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			soft_attack = 13
+			soft_attack = 14
 			hard_attack = 4
 			ap_attack = 20
 			build_cost_ic = 0.5
@@ -1478,7 +1478,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_auto_cannon
 		add_stats = {
-			soft_attack = 17
+			soft_attack = 18
 			hard_attack = 6
 			ap_attack = 35
 			build_cost_ic = 1.0
@@ -1598,7 +1598,7 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 17
+			soft_attack = 18
 			hard_attack = 10
 			ap_attack = 60
 			build_cost_ic = 2.0
@@ -1628,7 +1628,7 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 20
+			soft_attack = 22
 			hard_attack = 12
 			ap_attack = 90
 			build_cost_ic = 2.5
@@ -1763,7 +1763,7 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 24
+			soft_attack = 26
 			hard_attack = 18
 			ap_attack = 90
 			build_cost_ic = 3.0
@@ -1986,7 +1986,7 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 40
+			soft_attack = 38
 			hard_attack = 36
 			ap_attack = 240
 			build_cost_ic = 5.0
@@ -2021,7 +2021,7 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 36
+			soft_attack = 34
 			hard_attack = 28
 			ap_attack = 140
 			build_cost_ic = 4.25
@@ -2057,7 +2057,7 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 40
+			soft_attack = 38
 			hard_attack = 32
 			ap_attack = 200
 			build_cost_ic = 4.75
@@ -2094,7 +2094,7 @@ equipment_modules = {
 		}
 		add_stats = {
 			soft_attack = 34
-			hard_attack = 28
+			hard_attack = 26
 			ap_attack = 140
 			build_cost_ic = 4.0
 			reliability = -0.25
