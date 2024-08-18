@@ -124,7 +124,7 @@ equipments = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
+			armor_type_slot = empty
 			engine_type_slot = tank_gasoline_engine
 		}
 
@@ -274,7 +274,7 @@ equipments = {
 			}
 		}
 
-		maximum_speed = 4
+		maximum_speed = 3
 		build_cost_ic = 2.5
 		reliability = 0.5
 		armor_value = 10
@@ -594,7 +594,7 @@ equipments = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
+			armor_type_slot = empty
 			engine_type_slot = tank_gasoline_engine
 		}
 
@@ -989,12 +989,12 @@ equipments = {
 				}
 			}
 
-			turret_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_heavy_turret_type
-				}
-			}
+			# turret_type_slot = {
+			# 	required = yes
+			# 	allowed_module_categories = {
+			# 		tank_heavy_turret_type
+			# 	}
+			# }
 
 			suspension_type_slot = {
 				required = yes
@@ -1047,6 +1047,32 @@ equipments = {
 				}
 			}
 		}
+
+		module_count_limit = {
+	    	module = tank_light_three_man_tank_turret
+	    	count < 1
+	    }
+		module_count_limit = {
+	    	module = tank_light_three_man_tank_turret_Cmg
+	    	count < 1
+	    }
+		module_count_limit = {
+	    	module = tank_light_three_man_tank_turret_Hmg
+	    	count < 1
+	    }
+		module_count_limit = {
+	    	module = tank_light_three_man_tank_turret_CHmg
+	    	count < 1
+	    }	   
+		module_count_limit = {
+	    	module = tank_light_fixed_superstructure_turret
+	    	count < 1
+	    }
+		module_count_limit = {
+	    	module = tank_light_fixed_superstructure_turret_1
+	    	count < 1
+	    }
+
 	    module_count_limit = {
 	    	module = additional_frontal_armor
 	    	count < 2
@@ -1110,13 +1136,17 @@ equipments = {
 		 
 		default_modules = {
 			main_armament_slot = empty
-			turret_type_slot = tank_heavy_two_man_tank_turret
+			turret_type_slot = empty
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+			armor_type_slot = empty
+			engine_type_slot = heavy_tank_gasoline_engine
 		}
 
 		fuel_consumption = 0
+		maximum_speed = 0.5
+		build_cost_ic = 5.5
+		reliability = 0.5
+		armor_value = 50
 		hardness = 0.95
 		resources = {
 			steel = 1
@@ -1140,8 +1170,6 @@ equipments = {
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_main_armament
-					tank_medium_main_armament
 					tank_flamethrower
 				}
 			}
@@ -1149,7 +1177,7 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_heavy_turret_type
+					tank_light_turret_type
 				}
 			}
 
@@ -1209,10 +1237,6 @@ equipments = {
 			tank_nsb_engine_upgrade
 			tank_reliability_upgrade
 		}
-		maximum_speed = 0.5
-		build_cost_ic = 5.5
-		reliability = 0.5
-		armor_value = 50
 	}
 
 	heavy_tank_chassis_1 = {
@@ -1667,7 +1691,7 @@ equipments = {
 			main_armament_slot = empty
 			turret_type_slot = tank_modern_tank_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
+			armor_type_slot = empty
 			engine_type_slot = tank_gasoline_engine
 		}
 
@@ -1868,7 +1892,7 @@ equipments = {
 			main_armament_slot = empty
 			turret_type_slot = tank_super_heavy_three_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
+			armor_type_slot = empty
 			engine_type_slot = tank_gasoline_engine
 		}
 
@@ -2066,7 +2090,7 @@ equipments = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
+			armor_type_slot = empty
 			engine_type_slot = tank_gasoline_engine
 		}
 
@@ -2288,7 +2312,7 @@ equipments = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
 			suspension_type_slot = tank_wheeled_suspension
-			armor_type_slot = tank_riveted_armor
+			armor_type_slot = empty
 			engine_type_slot = tank_gasoline_engine
 		}
 	
