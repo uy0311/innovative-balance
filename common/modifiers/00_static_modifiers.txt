@@ -181,7 +181,7 @@ resistance_effect = {
 # For compliance base + effect * compliance_level will be applied as a modifier.
 compliance_effect_base = {
 	#local_factories = -0.75
-	#local_manpower = -0.75
+	local_non_core_manpower = -0.5
 	#local_resources = -0.75
 }
 
