@@ -1,0 +1,7 @@
+ib_se_category = {
+	icon = GFX_decision_category_border_conflicts
+	
+	allowed = {
+		is_ai = no
+	}
+}

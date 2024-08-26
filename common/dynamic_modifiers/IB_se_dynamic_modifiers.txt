@@ -1,0 +1,9 @@
+ib_scorched_earth_ready = {
+	enable = { always = yes }
+	icon = GFX_modifiers_SOV_civilian_labor_in_defense 
+}
+
+ib_scorched_earth_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_FIN_motti_tactics_modifier 
+}
