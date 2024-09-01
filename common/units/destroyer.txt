@@ -8,7 +8,7 @@ sub_units = {
 		need = { ship_hull_light = 1 }
 		
 		max_organisation = 35
-
+		default_morale = 0.35
 		supply_consumption = 0.01
 		
 		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed}

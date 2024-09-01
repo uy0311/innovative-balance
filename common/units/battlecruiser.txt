@@ -15,7 +15,7 @@ sub_units = {
 		}
 
 		max_organisation = 50
-
+		default_morale = 0.5
 		supply_consumption = 0.12
 		
 		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
