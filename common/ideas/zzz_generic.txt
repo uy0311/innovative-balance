@@ -224,8 +224,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				#democratic_drift = -0.02
 				consumer_goods_factor = -0.25
+				economy_cost_factor = -1.0
 			}
 		}
 	
@@ -245,9 +245,10 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 	
 			modifier = {
-				trade_opinion_factor = 20
-				research_speed_factor = 0.15
+				research_speed_factor = 0.10
+				trade_laws_cost_factor = -1.0
 				production_speed_dockyard_factor = 0.10
+				trade_opinion_factor = 20
 			}
 		}
 	
