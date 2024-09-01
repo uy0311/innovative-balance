@@ -7,10 +7,10 @@ technologies = {
 		
 		# EFFECT #############
 		battleship = {
-			max_organisation = 10			
+			max_organisation = 20			
 		}
 		battle_cruiser = {
-			max_organisation = 10			
+			max_organisation = 20		
 		}
 		heavy_cruiser = {
 			max_organisation = 10			
@@ -72,10 +72,10 @@ technologies = {
 	battlefleet_concentration = {
 		# EFFECT #############
 		battleship = {
-			max_organisation = 10
+			max_organisation = 20
 		}
 		battle_cruiser = {
-			max_organisation = 10
+			max_organisation = 20
 		}
 		heavy_cruiser = {
 			max_organisation = 10
@@ -132,7 +132,7 @@ technologies = {
 		
 		# EFFECT #############
 		carrier = {
-			max_organisation = 10			
+			max_organisation = 5		
 		}
 		#sortie_efficiency = 0.05
 		########
@@ -259,7 +259,7 @@ technologies = {
 		
 		# EFFECT #############
 		battleship = {
-			max_organisation = 20
+			max_organisation = 40
 		}
 		
 		#navy_capital_ship_defence_factor = 0.10
@@ -310,11 +310,11 @@ technologies = {
 		
 		# EFFECT #############
 		battleship = {
-			max_organisation = 20
+			max_organisation = 40
 		}
 
 		battle_cruiser = {
-			max_organisation = 20
+			max_organisation = 40
 		}
 
 		heavy_cruiser = {
@@ -846,7 +846,7 @@ technologies = {
 		}
 
 		battle_cruiser = {
-			max_organisation = 10
+			max_organisation = 20
 			convoy_raiding_coordination = 0.35
 			surface_detection = 0.15
 		}
@@ -955,13 +955,13 @@ technologies = {
 
 		# EFFECT ##############		
 		battle_cruiser = {
-			max_organisation = 20
+			max_organisation = 40
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
 
 		battleship = {
-			max_organisation = 20
+			max_organisation = 40
 			convoy_raiding_coordination = 0.5
 			surface_detection = 0.25
 		}
@@ -1014,7 +1014,7 @@ technologies = {
 
 		# EFFECT #############
 		carrier = {
-			max_organisation = 20
+			max_organisation = 10
 		}
 		modifier = {
 			naval_strike_targetting_factor = 0.1
@@ -1065,7 +1065,7 @@ technologies = {
 
 		# EFFECT #############
 		carrier = {
-			max_organisation = 10			
+			max_organisation = 5		
 		}
 		modifier = {
 			naval_strike_targetting_factor = 0.1
@@ -1111,7 +1111,7 @@ technologies = {
 		
 		# EFFECT ##############
 		carrier = {
-			max_organisation = 20
+			max_organisation = 10
 		}
 		port_strike = 0.5
 		#####
@@ -1178,7 +1178,7 @@ technologies = {
 		#The idea that the carrier is the primary naval weapon and that other ships, even the BB, exist to support them
 		# EFFECT ##############
 		carrier = {
-			max_organisation = 20
+			max_organisation = 10
 		}
 		#sortie_efficiency = 0.05
 
@@ -1246,7 +1246,7 @@ technologies = {
 		#Task forces are based around carrier flagship 
 		# EFFECT ##############
 		carrier = {
-			max_organisation = 20
+			max_organisation = 10
 		}
 		light_cruiser = {
 			max_organisation = 20
@@ -1321,7 +1321,7 @@ technologies = {
 		#same as floating_airfield
 		# EFFECT #############
 		carrier = {
-			max_organisation = 20
+			max_organisation = 10
 		}
 		#sortie_efficiency = 0.1
 		########
@@ -1393,7 +1393,7 @@ technologies = {
 		#CAGs are larger and more effort is made to have all planes arrive at the target at the same time, even when launched from multiple CVs
 		# EFFECT #############
 		carrier = {
-			max_organisation = 20			
+			max_organisation = 10			
 		}
 		carrier_capacity_penalty_reduction = -0.2
 		##sortie_efficiency = 0.1
@@ -1472,7 +1472,7 @@ technologies = {
 		
 		# EFFECT ##############
 		carrier = {
-			max_organisation = 20
+			max_organisation = 10
 		}
 		light_cruiser = {
 			max_organisation = 20

@@ -116,7 +116,7 @@ equipments = {
 
 		naval_range = 4500
 
-		max_strength = 250
+		max_strength = 200
 
 
 		fuel_consumption = 87
@@ -211,7 +211,7 @@ equipments = {
 		}
 		naval_range = 6000
 		reliability = 0.75
-		max_strength = 325
+		max_strength = 250
 		naval_speed = 12.5
 		surface_visibility = 21.5
 
@@ -283,7 +283,7 @@ equipments = {
 
 		naval_range = 7500
 		reliability = 0.8
-		max_strength = 350
+		max_strength = 300
 		naval_speed = 13
 		surface_visibility = 23
 
@@ -357,7 +357,7 @@ equipments = {
 		}
 		naval_range = 6000
 		reliability = 0.65
-		max_strength = 325
+		max_strength = 300
 		naval_speed = 11
 		surface_visibility = 23.5
 
@@ -423,7 +423,7 @@ equipments = {
 		}
 		naval_range = 6000
 
-		max_strength = 125
+		max_strength = 100
 		surface_visibility = 14.5
 		reliability = 0.65
 		naval_speed = 13
