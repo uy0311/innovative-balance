@@ -1,0 +1,53 @@
+﻿l_japanese:
+ ib_se_category: "焦土作戦"
+ ib_se_category_desc: "自国もしくは同盟国のステートが敵国と§Y隣接§!している場合、該当地域を§Y焦土化§!する事が可能となる。\nただし、ディシジョン押下後でも爆破前に敵にステートが奪取された場合はキャンセルされる。\nまた、一度押したディシジョンは再度の実行まで§Y30日間§!のクールタイムが存在している。"
+
+ ib_scorched_earth_state_flag: "該当ステートは焦土化済みである"
+
+ ib_scorched_earth: "[FROM.GetName]の焦土化"
+
+ ib_se_eq_trigger1_tt: "現地の陸軍が§Y2500§!を超える§Y歩兵装備§!を所持"
+ ib_se_eq_trigger3_tt: "現地の陸軍が所持している§Y歩兵装備§!が§Y2500§!未満"
+
+ ib_se_eq_trigger2_tt: "現地の陸軍が§Y35§!を超える§Y支援装備§!を所持"
+ ib_se_eq_trigger4_tt: "現地の陸軍が所持している§Y支援装備§!が§Y35§!未満"
+
+ ib_se_eq_trigger_cancel_tt: "現地の陸軍が§Y撤退§!した"
+
+ rail_way_plural: "鉄道"
+
+ is_controlled_by_enemy: "いずれかの§Y敵国§!に支配されている"
+
+ ib_scorched_earth_ready: "焦土作戦準備中"
+ ib_scorched_earth_modifier: "焦土化"
+
+ decision_cost_st_1_ws_1: "£stability_texticon  §Y1§! £war_support_texticon  §Y1§!"
+ decision_cost_st_1_ws_1_blocked: "£stability_texticon  §Y1§! £war_support_texticon  §Y1§!"
+ decision_cost_st_1_ws_1_tooltip: "このディシジョンを実行するには、£stability_texticon  §Y1§! £war_support_texticon  §Y1§!が必要"
+
+ rule_group_ib_se: "焦土化の詳細設定"
+ ib_se_infrastructure_rule: "インフラ"
+ ib_se_rail_way_rule: "鉄道"
+ ib_se_supply_node_rule: "補給ハブ"
+ ib_se_air_base_rule: "空港"
+ rule_option_ib_se_level_no: "破壊無し"
+ rule_option_ib_se_level_1: "レベル1"
+ rule_option_ib_se_level_2: "レベル2"
+ rule_option_ib_se_level_3: "レベル3"
+ rule_option_ib_se_level_4: "レベル4"
+ rule_option_ib_se_level_5: "レベル5"
+ rule_option_ib_se_level_6: "レベル6"
+ rule_option_ib_se_level_7: "レベル7"
+ rule_option_ib_se_level_8: "レベル8"
+ rule_option_ib_se_level_9: "レベル9"
+ rule_option_ib_se_level_10: "レベル10"
+ rule_option_ib_se_level_11: "レベル11"
+ rule_option_ib_se_level_12: "レベル12"
+ rule_option_ib_se_level_13: "レベル13"
+ rule_option_ib_se_level_14: "レベル14"
+ rule_option_ib_se_level_15: "レベル15"
+ rule_option_ib_se_level_16: "レベル16"
+ rule_option_ib_se_level_17: "レベル17"
+ rule_option_ib_se_level_18: "レベル18"
+ rule_option_ib_se_level_19: "レベル19"
+ rule_option_ib_se_level_20: "レベル20"

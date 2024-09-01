@@ -710,4 +710,10 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+	spriteType = { #ib_se_decision_icon
+		name = "GFX_war_support_texticon"
+		texturefile = "gfx/texticons/war_support_texticon.dds"
+		legacy_lazy_load = no
+	}
+
 }

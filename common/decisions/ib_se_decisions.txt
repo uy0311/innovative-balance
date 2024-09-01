@@ -1,0 +1,148 @@
+#ib_state_control_trigger -> common/scripted_triggers/ib_se_scripted_triggers
+#ib_se_effect -> common/scripted_effects/ib_se_scripted_effects
+
+ib_se_category = {
+	ib_scorched_earth = {
+		icon = generic_scorched_earth
+
+		state_target = yes
+
+		on_map_mode = map_and_decisions_view
+
+		visible = {
+			FROM = {
+				state_population > 100
+				NOT = { has_state_flag = ib_scorched_earth_state_flag }
+				any_neighbor_state = {
+					if = {
+						limit = {
+							any_country = {
+								controls_state = PREV
+								has_war = yes
+								ib_state_control_trigger = yes
+							}
+						}
+						controller = {
+							has_war = yes
+							NOT = {
+								ib_state_control_trigger = yes
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						any_country = {
+							controls_state = PREV
+							ib_state_control_trigger = yes
+						}
+					}
+					controller = {
+						ib_state_control_trigger = yes
+					}
+				}
+				else = {
+					always = no
+				}
+				NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_modifier } }
+			}
+		}
+
+		available = {
+			FROM = {
+				NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_ready } }
+				NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_modifier } }
+			}
+			OR = {
+				AND = {
+					divisions_in_state = {
+        	        	type = infantry
+        	        	state = FROM 
+        	        	size > 4 
+        	        }
+			        army_manpower_in_state = { 
+			        	state = FROM 
+			        	amount > 50000 
+			        }
+			        custom_trigger_tooltip = {
+			         	tooltip = ib_se_eq_trigger1_tt
+			         	check_variable = { num_equipment_in_armies_k@infantry_equipment > 2.5 }
+			        }
+			        custom_trigger_tooltip = {
+			         	tooltip = ib_se_eq_trigger2_tt
+			         	check_variable = { num_equipment_in_armies@support_equipment > 35 }
+			        }
+				}
+				any_allied_country = {
+					AND = {
+					    divisions_in_state = {
+        	            	type = infantry
+        	            	state = FROM 
+        	            	size > 4 
+        	            }
+			            army_manpower_in_state = { 
+			            	state = FROM 
+			            	amount > 50000 
+			            }
+			            custom_trigger_tooltip = {
+			             	tooltip = ib_se_eq_trigger1_tt
+			             	check_variable = { num_equipment_in_armies_k@infantry_equipment > 2.5 }
+			            }
+			            custom_trigger_tooltip = {
+			             	tooltip = ib_se_eq_trigger2_tt
+			             	check_variable = { num_equipment_in_armies@support_equipment > 35 }
+			            }
+				    }
+				}
+			}
+		}
+        
+        cancel_trigger = {
+			FROM = {
+				NOT = {
+					if = {
+						limit = {
+							any_country = {
+								controls_state = PREV
+								ib_state_control_trigger = yes
+							}
+						}
+						controller = {
+							ib_state_control_trigger = yes
+						}
+					}
+				}
+			}
+        }
+
+		custom_cost_trigger = {
+			has_stability > 0.01
+			has_war_support > 0.01
+		}
+
+		custom_cost_text = decision_cost_st_1_ws_1
+
+		fire_only_once = no
+
+        days_remove = 3
+		days_re_enable = 30
+
+		complete_effect = {
+			FROM = {
+				add_dynamic_modifier = { modifier = ib_scorched_earth_ready days = 3 }
+			}
+			hidden_effect = {
+				add_stability = -0.01
+				add_war_support = -0.01
+			}
+		}
+
+		remove_effect = {
+			FROM = {
+				ib_se_effect = yes
+				add_dynamic_modifier = { modifier = ib_scorched_earth_modifier days = 30 }
+				set_state_flag = { flag = ib_scorched_earth_state_flag days = 30 }
+			}
+		}
+	}
+}
