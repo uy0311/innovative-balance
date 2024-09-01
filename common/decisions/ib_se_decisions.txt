@@ -115,12 +115,12 @@ ib_se_category = {
 			}
         }
 
-		custom_cost_trigger = {
-			has_stability > 0.00
-			has_war_support > 0.00
-		}
+	#	custom_cost_trigger = {
+	#		has_stability > 0.00
+	#		has_war_support > 0.00
+	#	}
+	#	custom_cost_text = decision_cost_st_1_ws_1
 
-		custom_cost_text = decision_cost_st_1_ws_1
 		cost = 100
 		fire_only_once = no
 
@@ -131,10 +131,10 @@ ib_se_category = {
 			FROM = {
 				add_dynamic_modifier = { modifier = ib_scorched_earth_ready days = 3 }
 			}
-			hidden_effect = {
-				add_stability = -0.00
-				add_war_support = -0.00
-			}
+		#	hidden_effect = {
+		#		add_stability = -0.00
+		#		add_war_support = -0.00
+		#	}
 		}
 
 		remove_effect = {
