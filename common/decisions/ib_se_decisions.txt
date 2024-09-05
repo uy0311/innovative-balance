@@ -121,7 +121,7 @@ ib_se_category = {
 	#	}
 	#	custom_cost_text = decision_cost_st_1_ws_1
 
-		cost = 100
+		cost = 50
 		fire_only_once = no
 
         days_remove = 3
