@@ -263,15 +263,15 @@ equipments = {
 				}
 			}
 
-			special_type_slot_2 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_special_module
-				}
-			}
+			#special_type_slot_2 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		tank_special_armor_module
+			#		tank_special_turret_module
+			#		tank_special_ammo_module
+			#		tank_special_module
+			#	}
+			#}
 		}
 
 		maximum_speed = 3
@@ -344,15 +344,15 @@ equipments = {
 				}
 			}
 
-			special_type_slot_3 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_special_module
-				}
-			}
+			#special_type_slot_3 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		tank_special_armor_module
+			#		tank_special_turret_module
+			#		tank_special_ammo_module
+			#		tank_special_module
+			#	}
+			#}
 		}
 
 		build_cost_ic = 3.0
@@ -440,15 +440,15 @@ equipments = {
 				}
 			}
 
-			special_type_slot_4 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_special_module
-				}
-			}
+			#special_type_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		tank_special_armor_module
+			#		tank_special_turret_module
+			#		tank_special_ammo_module
+			#		tank_special_module
+			#	}
+			#}
 		}
 
 		build_cost_ic = 3.5
@@ -758,15 +758,15 @@ equipments = {
 				}
 			}
 
-			special_type_slot_3 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_special_module
-				}
-			}
+			#special_type_slot_3 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		tank_special_armor_module
+			#		tank_special_turret_module
+			#		tank_special_ammo_module
+			#		tank_special_module
+			#	}
+			#}
 		}
 
 		armor_value = 40
@@ -851,15 +851,15 @@ equipments = {
 				}
 			}
 			
-			special_type_slot_4 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_special_module
-				}
-			}
+			#special_type_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		tank_special_armor_module
+			#		tank_special_turret_module
+			#		tank_special_ammo_module
+			#		tank_special_module
+			#	}
+			#}
 		}
 
 		maximum_speed = 4
@@ -1222,15 +1222,15 @@ equipments = {
 				}
 			}
 
-			special_type_slot_3 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_special_module
-				}
-			}
+			#special_type_slot_3 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		tank_special_armor_module
+			#		tank_special_turret_module
+			#		tank_special_ammo_module
+			#		tank_special_module
+			#	}
+			#}
 		}
 
 		upgrades = {
@@ -1316,15 +1316,15 @@ equipments = {
 				}
 			}
 
-			special_type_slot_4 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_special_module
-				}
-			}
+			#special_type_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		tank_special_armor_module
+			#		tank_special_turret_module
+			#		tank_special_ammo_module
+			#		tank_special_module
+			#	}
+			#}
 		}
 
 		fuel_consumption = 0
