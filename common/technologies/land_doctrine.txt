@@ -1147,12 +1147,9 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_light_three_man_tank_turret_Hmg
-			tank_light_three_man_tank_turret_CHmg
-			tank_medium_three_man_tank_turret_Hmg
-			tank_medium_three_man_tank_turret_CHmg
-			tank_heavy_three_man_tank_turret_Hmg
-			tank_heavy_three_man_tank_turret_CHmg
+			tank_light_three_man_tank_turret_mg
+			tank_medium_three_man_tank_turret_mg
+			tank_heavy_three_man_tank_turret_mg
 		}
 
 		path = {
@@ -1437,12 +1434,9 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_light_three_man_tank_turret_Hmg
-			tank_light_three_man_tank_turret_CHmg
-			tank_medium_three_man_tank_turret_Hmg
-			tank_medium_three_man_tank_turret_CHmg
-			tank_heavy_three_man_tank_turret_Hmg
-			tank_heavy_three_man_tank_turret_CHmg
+			tank_light_three_man_tank_turret_mg
+			tank_medium_three_man_tank_turret_mg
+			tank_heavy_three_man_tank_turret_mg
 		}
 
 		path = {

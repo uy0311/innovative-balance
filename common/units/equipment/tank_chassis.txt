@@ -1053,15 +1053,7 @@ equipments = {
 	    	count < 1
 	    }
 		module_count_limit = {
-	    	module = tank_light_three_man_tank_turret_Cmg
-	    	count < 1
-	    }
-		module_count_limit = {
-	    	module = tank_light_three_man_tank_turret_Hmg
-	    	count < 1
-	    }
-		module_count_limit = {
-	    	module = tank_light_three_man_tank_turret_CHmg
+	    	module = tank_light_three_man_tank_turret_mg
 	    	count < 1
 	    }	   
 		module_count_limit = {
@@ -2222,15 +2214,7 @@ equipments = {
 			count < 1
 		}
 		module_count_limit = {
-			module = tank_light_three_man_tank_turret_Cmg
-			count < 1
-		}
-		module_count_limit = {
-			module = tank_light_three_man_tank_turret_Hmg
-			count < 1
-		}
-		module_count_limit = {
-			module = tank_light_three_man_tank_turret_CHmg
+			module = tank_light_three_man_tank_turret_mg
 			count < 1
 		}
 	

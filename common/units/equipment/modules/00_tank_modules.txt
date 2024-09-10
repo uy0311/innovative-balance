@@ -367,32 +367,8 @@ equipment_modules = {
 	###Turret Types - light
 	### turrets are split by chassis to make it easier to control which guns they can mount
 
-#	tank_light_one_man_tank_turret = {
-#		abbreviation = "l1m"
-#		category = tank_light_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#
-#		add_stats = {
-#			build_cost_ic = 0.5
-#			breakthrough = 7
-#			defense = 3.5
-#			max_strength = 0.3
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#			
-#		}
-#
-#	}
-
-	tank_light_one_man_tank_turret_Cmg = {
-		abbreviation = "l1mC"
+	tank_light_one_man_tank_turret = {
+		abbreviation = "l1m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -416,32 +392,8 @@ equipment_modules = {
 
 	}
 
-#	tank_light_two_man_tank_turret = {
-#		abbreviation = "l2m"
-#		category = tank_light_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#
-#		add_stats = {
-#			build_cost_ic = 0.8
-#			breakthrough = 10
-#			defense = 5
-#			max_strength = 0.6
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#			
-#		}
-#
-#	}
-
-	tank_light_two_man_tank_turret_Cmg = {
-		abbreviation = "l2mC"
+	tank_light_two_man_tank_turret = {
+		abbreviation = "l2m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -465,32 +417,8 @@ equipment_modules = {
 
 	}
 
-#	tank_light_three_man_tank_turret = {
-#		abbreviation = "l3m"
-#		category = tank_light_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#
-#		add_stats = {
-#			build_cost_ic = 1.1
-#			breakthrough = 14
-#			defense = 7
-#			max_strength = 0.9
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#			maximum_speed = -0.05
-#		}
-#
-#	}
-
-	tank_light_three_man_tank_turret_Cmg = {
-		abbreviation = "l3mC"
+	tank_light_three_man_tank_turret = {
+		abbreviation = "l3m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -514,33 +442,7 @@ equipment_modules = {
 
 	}
 
-	tank_light_three_man_tank_turret_Hmg = {
-		abbreviation = "l3mH"
-		category = tank_light_turret_type
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_coaxial_module
-			}
-		}
-
-		add_stats = {
-			build_cost_ic = 1.4
-			breakthrough = 16
-			defense = 8
-			soft_attack = 2.5
-		    hard_attack = 1
-			air_attack = 2
-			max_strength = 0.9
-		}
-		xp_cost = 0#2
-		multiply_stats = {
-			maximum_speed = -0.07
-		}
-	}
-
-	tank_light_three_man_tank_turret_CHmg = {
+	tank_light_three_man_tank_turret_mg = {
 		abbreviation = "l3mCH"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
@@ -628,32 +530,8 @@ equipment_modules = {
 
 	}
 
-#	tank_medium_one_man_tank_turret = {
-#		abbreviation = "m1m"
-#		category = tank_medium_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#
-#		add_stats = {
-#			build_cost_ic = 1.2
-#			breakthrough = 10
-#			defense = 5
-#			max_strength = 0.285
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#			
-#		}
-#
-#	}
-
-	tank_medium_one_man_tank_turret_Cmg = {
-		abbreviation = "m1mC"
+	tank_medium_one_man_tank_turret = {
+		abbreviation = "m1m"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -677,31 +555,8 @@ equipment_modules = {
 
 	}
 
-#	tank_medium_two_man_tank_turret = {
-#		abbreviation = "m2m"
-#		category = tank_medium_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#
-#		add_stats = {
-#			build_cost_ic = 1.6
-#			breakthrough = 16
-#			defense = 8
-#			max_strength = 0.57
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#		}
-#
-#	}
-
-	tank_medium_two_man_tank_turret_Cmg = {
-		abbreviation = "m2mC"
+	tank_medium_two_man_tank_turret = {
+		abbreviation = "m2m"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -724,32 +579,8 @@ equipment_modules = {
 
 	}
 
-#	tank_medium_three_man_tank_turret = {
-#		abbreviation = "m3m"
-#		category = tank_medium_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#
-#		add_stats = {
-#			build_cost_ic = 2.0
-#			breakthrough = 20
-#			defense = 10
-#			max_strength = 0.855
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#			maximum_speed = -0.10
-#		}
-#
-#	}
-
-	tank_medium_three_man_tank_turret_Cmg = {
-		abbreviation = "m3mC"
+	tank_medium_three_man_tank_turret = {
+		abbreviation = "m3m"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -773,33 +604,7 @@ equipment_modules = {
 
 	}
 
-	tank_medium_three_man_tank_turret_Hmg = {
-		abbreviation = "m3mH"
-		category = tank_medium_turret_type
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_coaxial_module
-			}
-		}
-
-		add_stats = {
-			build_cost_ic = 2.3
-			breakthrough = 22
-			defense = 11
-			soft_attack = 2.5
-		    hard_attack = 1
-			air_attack = 2
-			max_strength = 0.855
-		}
-		xp_cost = 0#2
-		multiply_stats = {
-			maximum_speed = -0.12
-		}
-	}
-
-	tank_medium_three_man_tank_turret_CHmg = {
+	tank_medium_three_man_tank_turret_mg = {
 		abbreviation = "m3mCH"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
@@ -913,32 +718,8 @@ equipment_modules = {
 
 	}
 
-#	tank_heavy_two_man_tank_turret = {
-#		abbreviation = "h2m"
-#		category = tank_heavy_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#
-#		xp_cost = 0#2
-#		add_stats = {
-#			build_cost_ic = 3.0
-#			breakthrough = 18
-#			defense = 9
-#			max_strength = 0.53
-#		}
-#
-#		multiply_stats = {
-#		}
-#
-#	}
-
-	tank_heavy_two_man_tank_turret_Cmg = {
-		abbreviation = "h2mC"
+	tank_heavy_two_man_tank_turret = {
+		abbreviation = "h2m"
 		category = tank_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -962,33 +743,8 @@ equipment_modules = {
 
 	}
 
-#	tank_heavy_three_man_tank_turret = {
-#		abbreviation = "h3m"
-#		category = tank_heavy_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#
-#		xp_cost = 0#2
-#		add_stats = {
-#			build_cost_ic = 3.5
-#			breakthrough = 22
-#			defense = 11
-#			max_strength = 0.8
-#		}
-#
-#		multiply_stats = {
-#			maximum_speed = -0.20
-#		}
-#
-#	}
-
-	tank_heavy_three_man_tank_turret_Cmg = {
-		abbreviation = "h3mC"
+	tank_heavy_three_man_tank_turret = {
+		abbreviation = "h3m"
 		category = tank_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -1013,34 +769,7 @@ equipment_modules = {
 
 	}
 
-	tank_heavy_three_man_tank_turret_Hmg = {
-		abbreviation = "h3mH"
-		category = tank_heavy_turret_type
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_coaxial_module
-			}
-		}
-
-		xp_cost = 0#2
-		add_stats = {
-			build_cost_ic = 3.8
-			breakthrough = 24
-			defense = 12
-			soft_attack = 2.5
-		    hard_attack = 1
-			air_attack = 2
-			max_strength = 0.8
-		}
-
-		multiply_stats = {
-			maximum_speed = -0.22
-		}
-	}
-
-	tank_heavy_three_man_tank_turret_CHmg = {
+	tank_heavy_three_man_tank_turret_mg = {
 		abbreviation = "h3mCH"
 		category = tank_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
@@ -1125,32 +854,8 @@ equipment_modules = {
 
 	}
 
-#	tank_super_heavy_three_man_tank_turret = {
-#		abbreviation = "s3m"
-#		category = tank_super_heavy_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#		add_stats = {
-#			build_cost_ic = 6.0
-#			reliability = -0.1
-#			breakthrough = 24
-#			defense = 12
-#			max_strength = 0.8
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#			maximum_speed = -0.20
-#		}
-#
-#	}
-
-	tank_super_heavy_three_man_tank_turret_Cmg = {
-		abbreviation = "s3mC"
+	tank_super_heavy_three_man_tank_turret = {
+		abbreviation = "s3m"
 		category = tank_super_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -1174,33 +879,7 @@ equipment_modules = {
 
 	}
 
-	tank_super_heavy_three_man_tank_turret_Hmg = {
-		abbreviation = "s3mH"
-		category = tank_super_heavy_turret_type
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_coaxial_module
-			}
-		}
-		add_stats = {
-			build_cost_ic = 6.3
-			reliability = -0.1
-			breakthrough = 26
-			defense = 13
-			soft_attack = 2.5
-		    hard_attack = 1
-			air_attack = 2
-			max_strength = 0.8
-		}
-		xp_cost = 0#2
-		multiply_stats = {
-			maximum_speed = -0.22
-		}
-	}
-
-	tank_super_heavy_three_man_tank_turret_CHmg = {
+	tank_super_heavy_three_man_tank_turret_mg = {
 		abbreviation = "s3mCH"
 		category = tank_super_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
@@ -1227,32 +906,8 @@ equipment_modules = {
 
 	}
 
-#	tank_super_heavy_four_man_tank_turret = {
-#		abbreviation = "s4m"
-#		category = tank_super_heavy_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_coaxial_module
-#			}
-#		}
-#		add_stats = {
-#			build_cost_ic = 7.0
-#			reliability = -0.25
-#			breakthrough = 35
-#			defense = 17.5
-#			max_strength = 1.06
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#			maximum_speed = -0.35
-#		}
-#
-#	}
-
-	tank_super_heavy_four_man_tank_turret_Cmg = {
-		abbreviation = "s4mC"
+	tank_super_heavy_four_man_tank_turret = {
+		abbreviation = "s4m"
 		category = tank_super_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -1276,33 +931,7 @@ equipment_modules = {
 
 	}
 
-	tank_super_heavy_four_man_tank_turret_Hmg = {
-		abbreviation = "s4mH"
-		category = tank_super_heavy_turret_type
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_coaxial_module
-			}
-		}
-		add_stats = {
-			build_cost_ic = 7.3
-			reliability = -0.25
-			breakthrough = 36
-			defense = 18
-			soft_attack = 2.5
-		    hard_attack = 1
-			air_attack = 2
-			max_strength = 1.06
-		}
-		xp_cost = 0#2
-		multiply_stats = {
-			maximum_speed = -0.37
-		}
-	}
-
-	tank_super_heavy_four_man_tank_turret_CHmg = {
+	tank_super_heavy_four_man_tank_turret_mg = {
 		abbreviation = "s4mC"
 		category = tank_super_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
@@ -1329,45 +958,23 @@ equipment_modules = {
 
 	}
 
-#	tank_modern_tank_turret = {
-#		abbreviation = "mbt"
-#		category = tank_modern_turret_type
-#		sfx = sfx_ui_sd_module_turret
-#
-#		allowed_module_categories = {
-#			special_type_slot_1 = {
-#				tank_commander_module
-#			}
-#		}
-#		add_stats = {
-#			build_cost_ic = 3.5
-#			breakthrough = 24
-#			defense = 12
-#			max_strength = 0.855
-#		}
-#		xp_cost = 0#2
-#		multiply_stats = {
-#			maximum_speed = -0.10
-#		}
-#
-#	}
-
-	tank_modern_tank_turret_Cmg = {
-		abbreviation = "mbtC"
+	tank_modern_tank_turret = {
+		abbreviation = "mbt"
 		category = tank_modern_turret_type
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
-				tank_coaxial_module
+				tank_commander_module
 			}
 		}
 		add_stats = {
-			build_cost_ic = 3.7
-			breakthrough = 24
-			defense = 12
+			build_cost_ic = 7.2
+			reliability = -0.25
+			breakthrough = 35
+			defense = 17.5
 			soft_attack = 1.5
-			max_strength = 0.855
+			max_strength = 1.06
 		}
 		xp_cost = 0#2
 		multiply_stats = {
@@ -1376,32 +983,7 @@ equipment_modules = {
 
 	}
 
-	tank_modern_tank_turret_Hmg = {
-		abbreviation = "mbtH"
-		category = tank_modern_turret_type
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			special_type_slot_1 = {
-				tank_coaxial_module
-			}
-		}
-		add_stats = {
-			build_cost_ic = 3.8
-			breakthrough = 26
-			defense = 13
-			soft_attack = 2.5
-		    hard_attack = 1
-			air_attack = 2
-			max_strength = 0.855
-		}
-		xp_cost = 0#2
-		multiply_stats = {
-			maximum_speed = -0.12
-		}
-	}
-
-	tank_modern_tank_turret_CHmg = {
+	tank_modern_tank_turret_mg = {
 		abbreviation = "mbtCH"
 		category = tank_modern_turret_type
 		sfx = sfx_ui_sd_module_turret
