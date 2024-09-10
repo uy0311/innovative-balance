@@ -37,9 +37,7 @@ technologies = {
 			tank_bogie_suspension
 			tank_torsion_bar_suspension
 			tank_light_one_man_tank_turret
-			tank_light_one_man_tank_turret_Cmg
 			tank_medium_one_man_tank_turret
-			tank_medium_one_man_tank_turret_Cmg
 			expanded_fuel_tank
 		}
 		enable_subunits = {
@@ -219,7 +217,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_light_two_man_tank_turret
-			tank_light_two_man_tank_turret_Cmg
 		}
 
 		path = {
@@ -363,7 +360,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_medium_two_man_tank_turret
-			tank_medium_two_man_tank_turret_Cmg
 		}
 
 		enable_subunits = {
@@ -600,9 +596,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_modern_tank_turret
-			tank_modern_tank_turret_Cmg
-			tank_modern_tank_turret_Hmg
-			tank_modern_tank_turret_CHmg
+			tank_modern_tank_turret_mg
 		}
 		enable_subunits = {
 			modern_armor
@@ -653,7 +647,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_heavy_two_man_tank_turret
-			tank_heavy_two_man_tank_turret_Cmg
 		}
 
 		enable_subunits = {
@@ -875,13 +868,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_super_heavy_three_man_tank_turret
-			tank_super_heavy_three_man_tank_turret_Cmg
-			tank_super_heavy_three_man_tank_turret_Hmg
-			tank_super_heavy_three_man_tank_turret_CHmg
+			tank_super_heavy_three_man_tank_turret_mg
 			tank_super_heavy_four_man_tank_turret
-			tank_super_heavy_four_man_tank_turret_Cmg
-			tank_super_heavy_four_man_tank_turret_Hmg
-			tank_super_heavy_four_man_tank_turret_CHmg
+			tank_super_heavy_four_man_tank_turret_mg
 		}
 
 		research_cost = 2.5
@@ -1597,11 +1586,8 @@ technologies = {
     
     	enable_equipment_modules = {
     		tank_light_three_man_tank_turret
-			tank_light_three_man_tank_turret_Cmg
 			tank_medium_three_man_tank_turret
-			tank_medium_three_man_tank_turret_Cmg
 			tank_heavy_three_man_tank_turret
-			tank_heavy_three_man_tank_turret_Cmg
     	}
     }
 

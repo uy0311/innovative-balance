@@ -43,127 +43,37 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_EMI_tank_light_one_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_EMI_tank_light_two_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_two_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_EMI_tank_light_three_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_three_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_light_three_man_tank_turret_Hmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_three_man_turret_Hmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_light_three_man_tank_turret_CHmg"
+		name = "GFX_EMI_tank_light_three_man_tank_turret_mg"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_three_man_turret_CHmg.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
-		name = "GFX_EMI_tank_medium_one_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_one_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_EMI_tank_medium_two_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_two_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_EMI_tank_medium_three_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_three_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_medium_three_man_tank_turret_Hmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_three_man_turret_Hmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_medium_three_man_tank_turret_CHmg"
+		name = "GFX_EMI_tank_medium_three_man_tank_turret_mg"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_three_man_turret_CHmg.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
-		name = "GFX_EMI_tank_heavy_two_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_two_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_EMI_tank_heavy_three_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_three_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_heavy_three_man_tank_turret_Hmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_three_man_turret_Hmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_heavy_three_man_tank_turret_CHmg"
+		name = "GFX_EMI_tank_heavy_three_man_tank_turret_mg"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_three_man_turret_CHmg.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_three_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_three_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_three_man_tank_turret_Hmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_three_man_turret_Hmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_three_man_tank_turret_CHmg"
+		name = "GFX_EMI_tank_super_heavy_three_man_tank_turret_mg"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_three_man_turret_CHmg.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_four_man_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_four_man_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_four_man_tank_turret_Hmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_four_man_turret_Hmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_four_man_tank_turret_CHmg"
+		name = "GFX_EMI_tank_super_heavy_four_man_tank_turret_mg"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_four_man_turret_CHmg.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
-		name = "GFX_EMI_tank_modern_tank_turret_Cmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_modern_tank_turret_Cmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_modern_tank_turret_Hmg"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_modern_tank_turret_Hmg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_modern_tank_turret_CHmg"
+		name = "GFX_EMI_tank_modern_tank_turret_mg"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_modern_tank_turret_CHmg.dds"
 		legacy_lazy_load = no
 	}

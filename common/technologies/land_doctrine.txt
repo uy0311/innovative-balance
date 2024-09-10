@@ -1147,12 +1147,9 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_light_three_man_tank_turret_Hmg
-			tank_light_three_man_tank_turret_CHmg
-			tank_medium_three_man_tank_turret_Hmg
-			tank_medium_three_man_tank_turret_CHmg
-			tank_heavy_three_man_tank_turret_Hmg
-			tank_heavy_three_man_tank_turret_CHmg
+			tank_light_three_man_tank_turret_mg
+			tank_medium_three_man_tank_turret_mg
+			tank_heavy_three_man_tank_turret_mg
 		}
 
 		path = {
@@ -1437,12 +1434,9 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_light_three_man_tank_turret_Hmg
-			tank_light_three_man_tank_turret_CHmg
-			tank_medium_three_man_tank_turret_Hmg
-			tank_medium_three_man_tank_turret_CHmg
-			tank_heavy_three_man_tank_turret_Hmg
-			tank_heavy_three_man_tank_turret_CHmg
+			tank_light_three_man_tank_turret_mg
+			tank_medium_three_man_tank_turret_mg
+			tank_heavy_three_man_tank_turret_mg
 		}
 
 		path = {
@@ -3906,6 +3900,8 @@ technologies = {
 		conscription = 0.02
 		land_reinforce_rate = 0.15
 		resistance_growth_on_our_occupied_states = 0.5
+		training_time_army_factor = 0.9
+		minimum_training_level = -0.5
 
 		army_defence_factor = -0.5
 		army_core_defence_factor = 0.5
