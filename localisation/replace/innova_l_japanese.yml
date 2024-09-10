@@ -155,22 +155,22 @@ ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
  heavy_tank_gas_turbine_engine: "重戦車用ガスタービン"
  heavy_tank_gas_turbine_engine_desc: "ジェットエンジンから発展したタービンエンジン。燃料消費量は多くなるが、一定のエンジンサイズの中では最高の速度を誇る。"
 
- tank_light_three_man_tank_turret_mg: "車長＆同軸機関銃付き・三名用砲塔"
+ tank_light_three_man_tank_turret_mg: "車長用機関銃付き三名用砲塔"
  tank_light_three_man_tank_turret_mg_desc: "搭乗員三名が、装填や照準・索敵などを分担して行うのに十分な広さの砲塔。"
 
- tank_medium_three_man_tank_turret_mg: "車長＆同軸機関銃付き・三名用砲塔"
+ tank_medium_three_man_tank_turret_mg: "車長用機関銃付き三名用砲塔"
  tank_medium_three_man_tank_turret_mg_desc: "搭乗員三名が、装填や照準・索敵などを分担して行うのに十分な広さの砲塔。"
 
- tank_heavy_three_man_tank_turret_mg: "車長＆同軸機関銃付き・三名用砲塔"
+ tank_heavy_three_man_tank_turret_mg: "車長用機関銃付き三名用砲塔"
  tank_heavy_three_man_tank_turret_mg_desc: "搭乗員三名が、装填や照準・索敵などを分担して行うのに十分な広さの砲塔。"
 
- tank_super_heavy_three_man_tank_turret_mg: "車長＆同軸機関銃付き・三名用砲塔"
+ tank_super_heavy_three_man_tank_turret_mg: "車長用機関銃付き三名用砲塔"
  tank_super_heavy_three_man_tank_turret_mg_desc: "搭乗員三名が、装填や照準・索敵などを分担して行うのに十分な広さの砲塔。"
 
- tank_super_heavy_four_man_tank_turret_mg: "車長＆同軸機関銃付き・四名用砲塔"
+ tank_super_heavy_four_man_tank_turret_mg: "車長用機関銃付き四名用砲塔"
  tank_super_heavy_four_man_tank_turret_mg_desc: "主砲を搭載するために副装填装置用のスペースを追加した巨大な砲塔。"
 
- tank_modern_tank_turret_mg: "車長＆同軸機関銃付き・現代型砲塔"
+ tank_modern_tank_turret_mg: "車長用機関銃付き現代型砲塔"
  tank_modern_tank_turret_mg_desc: "搭乗員三名が効率的に主砲を操作し、周囲の状況を把握可能なように配置された砲塔。"
 
  delay_desc:0 "この§Hドクトリンをアンロック§!する事で、戦車モジュールの§O3人用砲塔§!が使用可能になります\n\n勝利できないときも、待ち伏せと時間稼は攻撃側の進行を遅らせるために有効だ。"
