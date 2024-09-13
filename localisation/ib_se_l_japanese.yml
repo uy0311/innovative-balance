@@ -4,19 +4,15 @@
 
  ib_scorched_earth_state_flag: "該当ステートは焦土化済みである"
 
+ ib_scorched_earth_description: "焦土作戦の実行条件と効果"
  ib_scorched_earth: "[FROM.GetName]の焦土化"
 
- ib_se_eq_trigger1_tt: "現地の陸軍が§Y2500§!を超える§Y歩兵装備§!を所持"
- ib_se_eq_trigger3_tt: "現地の陸軍が所持している§Y歩兵装備§!が§Y2500§!未満"
-
- ib_se_eq_trigger2_tt: "現地の陸軍が§Y35§!を超える§Y支援装備§!を所持"
- ib_se_eq_trigger4_tt: "現地の陸軍が所持している§Y支援装備§!が§Y35§!未満"
-
- ib_se_eq_trigger_cancel_tt: "現地の陸軍が§Y撤退§!した"
+ ib_se_description_tt: "自国又は同盟国が焦土作戦対象州で以下を満たす:\n-§Y歩兵§!師団が§Y5§!師団以上\n-§Y50000§!以上の人的資源を師団が保有\n-§Y2500§!以上の歩兵装備を師団が保有\n-§Y35§!以上の支援装備を師団が保有"
+ ib_se_trigger_tt: "焦土作戦実行条件を満たしている"
+ ib_se_cancel_tt: "§R州の支配を喪失§!"
+ ib_se_effect_tt: "§O焦土作戦実行§!"
 
  rail_way_plural: "鉄道"
-
- is_controlled_by_enemy: "いずれかの§Y敵国§!に支配されている"
 
  ib_scorched_earth_ready: "焦土作戦準備中"
  ib_scorched_earth_modifier: "焦土化"
@@ -29,7 +25,7 @@
  ib_se_infrastructure_rule: "インフラ"
  ib_se_rail_way_rule: "鉄道"
  ib_se_supply_node_rule: "補給ハブ"
- ib_se_air_base_rule: "空港"
+ ib_se_air_base_rule: "航空基地"
  rule_option_ib_se_level_no: "破壊無し"
  rule_option_ib_se_level_1: "レベル1"
  rule_option_ib_se_level_2: "レベル2"

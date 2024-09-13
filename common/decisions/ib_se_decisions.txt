@@ -2,14 +2,34 @@
 #ib_se_effect -> common/scripted_effects/ib_se_scripted_effects
 
 ib_se_category = {
+	ib_scorched_earth_description = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+
+		visible = { always = yes }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ib_se_description_tt
+				always = no
+			}
+		}
+
+		remove_effect = {
+			ib_se_effect = yes
+		}
+		
+	}
 	ib_scorched_earth = {
 		icon = generic_scorched_earth
 
 		state_target = yes
 
-		on_map_mode = map_and_decisions_view
+		on_map_mode = map_only
 
 		visible = {
+			ROOT = {
+				has_war = yes
+			}
 			FROM = {
 				state_population > 100
 				NOT = { has_state_flag = ib_scorched_earth_state_flag }
@@ -49,77 +69,73 @@ ib_se_category = {
 		}
 
 		available = {
-			FROM = {
-				NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_ready } }
-				NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_modifier } }
-			}
-			OR = {
-				AND = {
-					divisions_in_state = {
-        	        	type = infantry
-        	        	state = FROM 
-        	        	size > 4 
-        	        }
-			        army_manpower_in_state = { 
-			        	state = FROM 
-			        	amount > 50000 
-			        }
-			        custom_trigger_tooltip = {
-			         	tooltip = ib_se_eq_trigger1_tt
-			         	check_variable = { num_equipment_in_armies_k@infantry_equipment > 2.5 }
-			        }
-			        custom_trigger_tooltip = {
-			         	tooltip = ib_se_eq_trigger2_tt
-			         	check_variable = { num_equipment_in_armies@support_equipment > 35 }
-			        }
+			custom_trigger_tooltip = {
+				tooltip = ib_se_trigger_tt
+				FROM = {
+					NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_ready } }
+					NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_modifier } }
 				}
-				any_allied_country = {
+				OR = {
 					AND = {
-					    divisions_in_state = {
-        	            	type = infantry
-        	            	state = FROM 
-        	            	size > 4 
-        	            }
-			            army_manpower_in_state = { 
-			            	state = FROM 
-			            	amount > 50000 
-			            }
-			            custom_trigger_tooltip = {
-			             	tooltip = ib_se_eq_trigger1_tt
-			             	check_variable = { num_equipment_in_armies_k@infantry_equipment > 2.5 }
-			            }
-			            custom_trigger_tooltip = {
-			             	tooltip = ib_se_eq_trigger2_tt
-			             	check_variable = { num_equipment_in_armies@support_equipment > 35 }
-			            }
-				    }
+						divisions_in_state = {
+							type = infantry
+							state = FROM 
+							size > 4 
+						}
+						army_manpower_in_state = { 
+							state = FROM 
+							amount > 50000 
+						}
+						check_variable = { num_equipment_in_armies_k@infantry_equipment > 2.5 }
+						check_variable = { num_equipment_in_armies@support_equipment > 35 }
+					}
+					any_allied_country = {
+						AND = {
+							divisions_in_state = {
+								type = infantry
+								state = FROM 
+								size > 4 
+							}
+							army_manpower_in_state = { 
+								state = FROM 
+								amount > 50000 
+							}
+							check_variable = { num_equipment_in_armies_k@infantry_equipment > 2.5 }
+							check_variable = { num_equipment_in_armies@support_equipment > 35 }
+						}
+					}
 				}
 			}
+			
 		}
         
         cancel_trigger = {
-			FROM = {
-				NOT = {
-					if = {
-						limit = {
-							any_country = {
-								controls_state = PREV
+			custom_trigger_tooltip = {
+				tooltip = ib_se_cancel_tt
+				FROM = {
+					NOT = {
+						if = {
+							limit = {
+								any_country = {
+									controls_state = PREV
+									ib_state_control_trigger = yes
+								}
+							}
+							controller = {
 								ib_state_control_trigger = yes
 							}
-						}
-						controller = {
-							ib_state_control_trigger = yes
 						}
 					}
 				}
 			}
         }
 
-	#	custom_cost_trigger = {
-	#		has_stability > 0.00
-	#		has_war_support > 0.00
-	#	}
-	#	custom_cost_text = decision_cost_st_1_ws_1
+#		custom_cost_trigger = {
+#			has_stability > 0.01
+#			has_war_support > 0.01
+#		}
+
+#		custom_cost_text = decision_cost_st_1_ws_1
 
 		cost = 50
 		fire_only_once = no
@@ -128,20 +144,23 @@ ib_se_category = {
 		days_re_enable = 30
 
 		complete_effect = {
-			FROM = {
-				add_dynamic_modifier = { modifier = ib_scorched_earth_ready days = 3 }
+			hidden_effect = {
+				FROM = {
+					add_dynamic_modifier = { modifier = ib_scorched_earth_ready days = 3 }
+				}
+#				add_stability = -0.01
+#				add_war_support = -0.01
 			}
-		#	hidden_effect = {
-		#		add_stability = -0.00
-		#		add_war_support = -0.00
-		#	}
 		}
 
 		remove_effect = {
-			FROM = {
-				ib_se_effect = yes
-				add_dynamic_modifier = { modifier = ib_scorched_earth_modifier days = 30 }
-				set_state_flag = { flag = ib_scorched_earth_state_flag days = 30 }
+			custom_effect_tooltip = ib_se_effect_tt
+			hidden_effect = {
+				FROM = {
+					ib_se_effect = yes
+					add_dynamic_modifier = { modifier = ib_scorched_earth_modifier days = 30 }
+					set_state_flag = { flag = ib_scorched_earth_state_flag days = 30 }
+				}
 			}
 		}
 	}
