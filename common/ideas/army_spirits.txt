@@ -139,10 +139,8 @@ ideas = {
 		professional_officer_corps_spirit = {
 			ledger = army
 			modifier = {
-				max_planning = 0.05
-				#experience_gain_army_factor = 0.05
-				#land_doctrine_cost_factor = -0.05
-				command_power_gain = 0.2
+				experience_gain_army_unit_factor = 0.15
+				max_command_power = 300
 			}
 			research_bonus = {
 				support_tech = 0.2
@@ -155,10 +153,8 @@ ideas = {
 		elevated_engineering_corps_spirit = {
 			ledger = army
 			modifier = {
-				trait_engineer_xp_gain_factor = 0.25
-				unit_engineer_design_cost_factor = -1
-				dig_in_speed_factor = 0.1
-				railway_gun_bombardment_factor = 0.05
+				dig_in_speed_factor = 0.25
+				railway_gun_bombardment_factor = 0.25
 			}
 			ai_will_do = {
 				factor = 1
@@ -168,6 +164,7 @@ ideas = {
 		proper_heritage_spirit = {
 			ledger = army
 			modifier = {
+				experience_gain_factor = 0.10
 				unit_cavalry_design_cost_factor = -1
 				cavalry_attack_factor = 0.10
 				cavalry_defence_factor = 0.10
@@ -205,9 +202,8 @@ ideas = {
 			ledger = army
 			#available = { has_government = communism }
 			modifier = {
-				pocket_penalty = -0.2
+				pocket_penalty = -0.4
 				weekly_manpower = 500
-				army_morale_factor = 0.05
 			}
 			ai_will_do = {
 				factor = 1
@@ -548,13 +544,13 @@ ideas = {
 			available = { has_tech = trench_warfare }
 			modifier = {
 				tactic_planned_attack_preferred_weight_factor = 1
+				supply_consumption_factor = -0.10
+				air_fuel_consumption_factor = -0.10
+				navy_fuel_consumption_factor = -0.10
 				extra_paratrooper_supply_grace = 24
 				extra_marine_supply_grace = 24
 				naval_invasion_capacity = 50
 				invasion_preparation = -0.3
-				supply_consumption_factor = -0.05
-				air_fuel_consumption_factor = -0.05
-				navy_fuel_consumption_factor = -0.05
 			}
 			ai_will_do = {
 				factor = 1

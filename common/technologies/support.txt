@@ -1247,9 +1247,13 @@ technologies = {
 	tech_signal_company2 = {
 
 		signal_company = {
-			initiative = 0.2
+			initiative = 0.05
+			battalion_mult = {
+				category = category_all_armor
+				initiative = 0.01
+				add = yes
+			}
 		}
-		
 		
 		path = {
 			leads_to_tech = tech_signal_company3
@@ -1292,8 +1296,14 @@ technologies = {
 	tech_signal_company3 = {
 
 		signal_company = {
-			initiative = 0.2
+			initiative = 0.05
+			battalion_mult = {
+				category = category_all_armor
+				initiative = 0.01
+				add = yes
+			}
 		}
+
 		path = {
 			leads_to_tech = tech_signal_company4
 			research_cost_coeff = 1
@@ -1334,7 +1344,12 @@ technologies = {
 	tech_signal_company4 = {
 
 		signal_company = {
-			initiative = 0.2
+			initiative = 0.05
+			battalion_mult = {
+				category = category_all_armor
+				initiative = 0.01
+				add = yes
+			}
 		}
 
 		research_cost = 1.5

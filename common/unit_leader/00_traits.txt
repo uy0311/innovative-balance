@@ -806,7 +806,7 @@ leader_traits = {
 		cost = 1000
 		
 		field_marshal_modifier = {
-			experience_gain_factor = 0.50
+			experience_gain_factor = 0.20
 		}
 		
 		slot = army_chief
@@ -917,7 +917,7 @@ leader_traits = {
 		cost = 2000
 		
 		corps_commander_modifier = {
-			experience_gain_factor = 0.25
+			experience_gain_factor = 0.10
 		}
 		
 		ai_will_do = {
