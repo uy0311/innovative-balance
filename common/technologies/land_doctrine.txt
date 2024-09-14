@@ -16,10 +16,16 @@ technologies = {
 		
 		category_all_armor = {
 			breakthrough = 0.20
-			initiative = 0.03
 		}
 		category_army = {
 			maximum_speed = 0.10
+		}
+		signal_company = {
+			battalion_mult = {
+				category = category_all_armor
+				initiative = 0.03
+				add = yes
+			}
 		}
 
 		planning_speed = 0.5
