@@ -2,22 +2,11 @@ ideas = {
 	air_force_spirit = {
 		independent_air_force_spirit = {
 			ledger = air
+			cost = 0
 			modifier = {
-				air_advisor_cost_factor = -0.75
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		industrial_destruction_spirit = {
-			ledger = air
-			research_bonus = {
-				heavy_air = 0.05
-			}
-			modifier = {
-				large_plane_airframe_design_cost_factor = -0.75
-				#strat_bomber_equipment_design_cost_factor = -0.75
-				#jet_strat_bomber_equipment_design_cost_factor = -0.75
+				air_advisor_cost_factor = -0.5
+				experience_gain_air_factor = 0.10
+				airforce_intel_to_others = -5
 			}
 			ai_will_do = {
 				factor = 1
@@ -26,14 +15,14 @@ ideas = {
 		dive_bombing_spirit = {
 			ledger = air
 			research_bonus = {
-				cas_bomber = 0.05
+				light_air = 0.15
 			}
-			modifier = {
-				small_plane_cas_airframe_design_cost_factor = -0.75
-				cv_small_plane_cas_airframe_design_cost_factor = -0.75
-				#CAS_equipment_design_cost_factor = -0.75
-				#cv_CAS_equipment_design_cost_factor = -0.75
-			}
+			# modifier = {
+			# 	small_plane_cas_airframe_design_cost_factor = -0.75
+			# 	cv_small_plane_cas_airframe_design_cost_factor = -0.75
+			# 	CAS_equipment_design_cost_factor = -0.75
+			# 	cv_CAS_equipment_design_cost_factor = -0.75
+			# }
 			ai_will_do = {
 				factor = 1
 			}
@@ -41,13 +30,27 @@ ideas = {
 		material_destruction_spirit = {
 			ledger = air
 			research_bonus = {
-				tactical_bomber = 0.05
+				medium_air = 0.15
 			}
-			modifier = {
-				medium_plane_airframe_design_cost_factor = -0.75
-				#tac_bomber_equipment_design_cost_factor = -0.75
-				#jet_tac_bomber_equipment_design_cost_factor = -0.75
+			# modifier = {
+			# 	medium_plane_airframe_design_cost_factor = -0.75
+			# 	tac_bomber_equipment_design_cost_factor = -0.75
+			# 	jet_tac_bomber_equipment_design_cost_factor = -0.75
+			# }
+			ai_will_do = {
+				factor = 1
 			}
+		}
+		industrial_destruction_spirit = {
+			ledger = air
+			research_bonus = {
+				heavy_air = 0.15
+			}
+			# modifier = {
+			# 	large_plane_airframe_design_cost_factor = -0.75
+			# 	strat_bomber_equipment_design_cost_factor = -0.75
+			# 	jet_strat_bomber_equipment_design_cost_factor = -0.75
+			# }
 			ai_will_do = {
 				factor = 1
 			}
@@ -55,9 +58,8 @@ ideas = {
 		industry_liasons_spirit = {
 			ledger = air
 			research_bonus = {
-				light_air = 0.15
-				medium_air = 0.15
-				heavy_air = 0.15
+				cat_air_engine = 0.10
+				cat_air_guns = 0.10
 			}
 			ai_will_do = {
 				factor = 1
@@ -66,6 +68,7 @@ ideas = {
 		
 		effective_training_programs_spirit = {
 			ledger = air
+			visible = { always = no }
 			modifier = {
 				air_training_xp_gain_factor = 0.25
 			}
@@ -75,9 +78,9 @@ ideas = {
 		}
 		branch_independence_spirit = {
 			ledger = air
-			cost = 0
+			visible = { always = no }
 			modifier = {
-				experience_gain_air_factor = 0.10
+				experience_gain_air = 0.1
 				airforce_intel_to_others = -5
 			}
 			ai_will_do = {
@@ -86,6 +89,7 @@ ideas = {
 		}
 		air_crew_surveys_spirit = {
 			ledger = air
+			visible = { always = no }
 			modifier = {
 				air_doctrine_cost_factor = -0.15
 				air_accidents_factor = -0.25
@@ -103,17 +107,6 @@ ideas = {
 			modifier = {
 				ground_attack_factor = 0.05
 				air_escort_efficiency = 0.05
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		cag_night_fighting_spirit = {
-			ledger = air
-			available = { has_tech = dogfighting_experience }
-			modifier = {
-				air_carrier_night_penalty_reduction_factor = 0.33
-				carrier_night_traffic = 0.5
 			}
 			ai_will_do = {
 				factor = 1

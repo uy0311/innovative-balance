@@ -266,7 +266,7 @@ focus_tree = {
 		cost = 10
 
 		completion_reward = {
-			navy_experience = 50
+			add_ideas = naval_reform_spirit 
 			add_ideas = naval_doctrine_research_bonus_S
 		}
 		available_if_capitulated = yes
