@@ -767,8 +767,7 @@ technologies = {
 		submarine = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.2
-			surface_detection = 0.1
-			max_strength = 0.2
+			surface_detection = 0.25
 		}
 		
 		path = {

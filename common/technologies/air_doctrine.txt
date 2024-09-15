@@ -100,8 +100,8 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_destruction_tree
-			cat_strategic_destruction
+			battlefield_support_tree
+			cat_battlefield_support
 		}
 		
 		folder = {
@@ -398,8 +398,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_destruction_tree
-			cat_strategic_destruction
+			cat_superior_firepower
 		}
 		
 		folder = {
@@ -421,8 +420,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_destruction_tree
-			cat_strategic_destruction
+			cat_superior_firepower
 		}
 		
 		folder = {
@@ -450,8 +448,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_destruction_tree
-			cat_strategic_destruction
+			cat_superior_firepower
 		}
 		
 		folder = {
@@ -473,8 +470,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			operational_integrity_tree
-			cat_operational_integrity
+			cat_superior_firepower
 		}
 		
 		folder = {
@@ -570,8 +566,8 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_destruction_tree
-			cat_strategic_destruction
+			operational_integrity_tree
+			cat_operational_integrity
 		}
 		
 		folder = {
@@ -722,8 +718,7 @@ technologies = {
 
 		categories = {
 			air_doctrine
-			strategic_destruction_tree
-			cat_strategic_destruction
+			cat_base_strike
 		}
 		
 		folder = {
@@ -750,8 +745,7 @@ technologies = {
 
 		categories = {
 			air_doctrine
-			battlefield_support_tree
-			cat_battlefield_support
+			cat_base_strike
 		}
 		
 		folder = {
@@ -786,8 +780,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_support_tree
-			cat_battlefield_support
+			cat_base_strike
 		}
 		
 		folder = {
@@ -822,8 +815,7 @@ technologies = {
 
 		categories = {
 			air_doctrine
-			operational_integrity_tree
-			cat_operational_integrity
+			cat_base_strike
 		}
 		
 		folder = {
@@ -865,8 +857,7 @@ technologies = {
 
 		categories = {
 			air_doctrine
-			strategic_destruction_tree
-			cat_strategic_destruction
+			cat_base_strike
 		}
 		
 		folder = {
@@ -897,6 +888,8 @@ technologies = {
 		
 		categories = {
 			air_doctrine
+			battlefield_support_tree
+			cat_battlefield_support
 		}
 		
 		folder = {

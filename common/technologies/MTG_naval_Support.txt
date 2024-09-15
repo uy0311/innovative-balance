@@ -947,7 +947,6 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			cat_ship_light_battery
 		}
 	}
 

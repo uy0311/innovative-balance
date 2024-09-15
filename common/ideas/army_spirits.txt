@@ -202,8 +202,8 @@ ideas = {
 			ledger = army
 			#available = { has_government = communism }
 			modifier = {
-				pocket_penalty = -0.4
-				weekly_manpower = 500
+				pocket_penalty = -0.3
+				weekly_manpower = 2000
 			}
 			ai_will_do = {
 				factor = 1
