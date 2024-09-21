@@ -328,11 +328,13 @@ stability_bad_modifier = {
 }
 
 war_support_good_modifier = {
+	stability_weekly_factor = 1.0
 	mobilization_speed = 0.30 #in 1/1000 of 1 %
 	surrender_limit = 0.15
 }
 
 war_support_bad_modifier = {
+	stability_weekly_factor = -1.0
 	mobilization_speed = -0.30 # Reduce mobilization speed by half.
 	surrender_limit = -0.15
 }
