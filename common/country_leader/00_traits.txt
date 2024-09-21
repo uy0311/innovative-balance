@@ -3865,7 +3865,7 @@ leader_traits = {
 
 	popular_figurehead = {
 		sprite = 13
-		stability_factor = 0.15 
+		stability_factor = 0.10
 		
 		ai_will_do = {
 			factor = 1

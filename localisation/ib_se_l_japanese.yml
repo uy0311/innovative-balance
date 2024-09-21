@@ -1,6 +1,7 @@
 ﻿l_japanese:
  ib_se_category: "焦土作戦"
- ib_se_category_desc: "自国もしくは同盟国のステートが敵国と§Y隣接§!している場合、該当地域を§Y焦土化§!する事が可能となる。\nただし、ディシジョン押下後でも爆破前に敵にステートが奪取された場合はキャンセルされる。\nまた、一度押したディシジョンは再度の実行まで§Y30日間§!のクールタイムが存在している。"
+ ib_se_category_desc: "自国もしくは同盟国のステートが敵国と§Y隣接§!している場合、該当地域を§Y焦土化§!する事が可能となる。\nまた、一度押したディシジョンは再度の実行まで§Y30日間§!のクールタイムが存在している。"
+ #ib_se_category_desc: "自国もしくは同盟国のステートが敵国と§Y隣接§!している場合、該当地域を§Y焦土化§!する事が可能となる。\nただし、ディシジョン押下後でも爆破前に敵にステートが奪取された場合はキャンセルされる。\nまた、一度押したディシジョンは再度の実行まで§Y30日間§!のクールタイムが存在している。"
 
  ib_scorched_earth_state_flag: "該当ステートは焦土化済みである"
 
@@ -9,17 +10,21 @@
 
  ib_se_description_tt: "自国又は同盟国が焦土作戦対象州で以下を満たす:\n-§Y歩兵§!師団が§Y5§!師団以上\n-§Y50000§!以上の人的資源を師団が保有\n-§Y2500§!以上の歩兵装備を師団が保有\n-§Y35§!以上の支援装備を師団が保有"
  ib_se_trigger_tt: "焦土作戦実行条件を満たしている"
- ib_se_cancel_tt: "§R州の支配を喪失§!"
+ #ib_se_cancel_tt: "§R州の支配を喪失§!"
  ib_se_effect_tt: "§O焦土作戦実行§!"
 
  rail_way_plural: "鉄道"
 
- ib_scorched_earth_ready: "焦土作戦準備中"
+ #ib_scorched_earth_ready: "焦土作戦準備中"
  ib_scorched_earth_modifier: "焦土化"
 
- decision_cost_st_1_ws_1: "£stability_texticon  §Y1§! £war_support_texticon  §Y1§!"
- decision_cost_st_1_ws_1_blocked: "£stability_texticon  §Y1§! £war_support_texticon  §Y1§!"
- decision_cost_st_1_ws_1_tooltip: "このディシジョンを実行するには、£stability_texticon  §Y1§! £war_support_texticon  §Y1§!が必要"
+ #decision_cost_st_1_ws_1: "£stability_texticon  §Y1§! £war_support_texticon  §Y1§!"
+ #decision_cost_st_1_ws_1_blocked: "£stability_texticon  §Y1§! £war_support_texticon  §Y1§!"
+ #decision_cost_st_1_ws_1_tooltip: "このディシジョンを実行するには、£stability_texticon  §Y1§! £war_support_texticon  §Y1§!が必要"
+
+ decision_cost_st_3: "£stability_texticon  §Y3§!"
+ decision_cost_st_3_blocked: "£stability_texticon  §Y3§!"
+ decision_cost_st_3_tooltip: "このディシジョンを実行するには、£stability_texticon  §Y3§!が必要"
 
  rule_group_ib_se: "焦土化の詳細設定"
  ib_se_infrastructure_rule: "インフラ"
