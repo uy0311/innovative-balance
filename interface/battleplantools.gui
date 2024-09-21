@@ -100,6 +100,7 @@ guiTypes = {
 				spriteType = "GFX_BPT_order_draw_naval_inv_btn"
 				clicksound = click_battleplan
 				oversound = ui_menu_over
+				shortcut = "a"
 			}
 
 			buttonType = {
@@ -116,6 +117,7 @@ guiTypes = {
 				spriteType = "GFX_BPT_order_draw_paradrop_btn"
 				clicksound = click_battleplan
 				oversound = ui_menu_over
+				shortcut = "d"
 			}
 
 			buttonType = {
