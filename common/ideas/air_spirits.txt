@@ -4,7 +4,6 @@ ideas = {
 			ledger = air
 			cost = 0
 			modifier = {
-				air_advisor_cost_factor = -0.5
 				experience_gain_air_factor = 0.10
 				airforce_intel_to_others = -5
 			}
