@@ -398,7 +398,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			cat_superior_firepower
 		}
 		
 		folder = {
@@ -420,7 +419,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			cat_superior_firepower
 		}
 		
 		folder = {
@@ -448,7 +446,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			cat_superior_firepower
 		}
 		
 		folder = {
@@ -470,7 +467,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			cat_superior_firepower
 		}
 		
 		folder = {
