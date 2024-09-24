@@ -398,6 +398,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
+			cat_coordinated_support
 			cat_superior_firepower
 		}
 		
@@ -420,6 +421,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
+			cat_coordinated_support
 			cat_superior_firepower
 		}
 		
@@ -448,6 +450,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
+			cat_coordinated_support
 			cat_superior_firepower
 		}
 		
@@ -470,6 +473,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
+			cat_coordinated_support
 			cat_superior_firepower
 		}
 		
@@ -718,6 +722,7 @@ technologies = {
 
 		categories = {
 			air_doctrine
+			cat_maritime_operations
 			cat_base_strike
 		}
 		
@@ -745,6 +750,7 @@ technologies = {
 
 		categories = {
 			air_doctrine
+			cat_maritime_operations
 			cat_base_strike
 		}
 		
@@ -780,6 +786,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
+			cat_maritime_operations
 			cat_base_strike
 		}
 		
@@ -815,6 +822,7 @@ technologies = {
 
 		categories = {
 			air_doctrine
+			cat_maritime_operations
 			cat_base_strike
 		}
 		
@@ -857,6 +865,7 @@ technologies = {
 
 		categories = {
 			air_doctrine
+			cat_maritime_operations
 			cat_base_strike
 		}
 		
@@ -888,8 +897,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_support_tree
-			cat_battlefield_support
+			cat_escort_combat
 		}
 		
 		folder = {
@@ -911,6 +919,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
+			cat_escort_combat
 		}
 		
 		folder = {
@@ -932,8 +941,7 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			operational_integrity_tree
-			cat_operational_integrity
+			cat_escort_combat
 		}
 		
 		folder = {
