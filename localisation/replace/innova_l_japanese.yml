@@ -570,11 +570,40 @@
 
 ##air_doctrine,air_spirits##
  TITLE_COORDINATED_SUPPORT:0"地上支援"
+ cat_coordinated_support: "地上支援ドクトリン"
+ cat_coordinated_support_research: "地上支援ドクトリン"
+ cat_coordinated_support_cost_factor: "地上支援ドクトリンコスト"
  TITLE_MARITIME_OPERATIONS:0"海上航空作戦"
+ cat_maritime_operations: "海上航空作戦ドクトリン"
+ cat_maritime_operations_research: "海上航空作戦ドクトリン"
+ cat_maritime_operations_factor: "海上航空作戦ドクトリンコスト"
  TITLE_ESCORT_COMBAT:0"迎撃護衛戦"
+ cat_escort_combat: "迎撃護衛戦ドクトリン"
+ cat_escort_combat_research: "迎撃護衛戦ドクトリン"
+ cat_escort_combat_cost_factor: "迎撃護衛戦ドクトリンコスト"
 
  veteran_air_instructors_spirit: "本土防衛"
  veteran_air_instructors_spirit_desc: "我々はいかなる犠牲を払おうとも、自らの国を守る。"
+
+##theorist##
+ military_theorist: "§G陸軍§!§Y理論家§!"
+ mobile_warfare_expert: "§G機動戦の達人§!"
+ superior_firepower_expert: "§G優勢火力の達人§!"
+ grand_battle_plan_expert: "§G大規模作戦の達人§!"
+ mass_assault_expert: "§G大量突撃の達人§!"
+ blitzkrieg_theorist: "§G電撃戦理論家§!"
+
+ naval_theorist: "§C海軍§!§Y理論家§!"
+ grand_fleet_proponent: "§C大艦隊の提唱者§!"
+ submarine_specialist: "§C潜水艦専門家§!"
+ naval_aviation_pioneer: "§C航空主兵論の先駆者§!"
+ base_strike_isoroku: "§C基地攻撃§!"
+
+ air_warfare_theorist: "§R空軍§!§Y理論家§!"
+ close_air_support_proponent: "§R航空支援の提唱者§!"
+ victory_through_airpower: "§R空軍力の勝利§!"
+ assault_avaition: "§R航空襲撃§!"
+ dive_bomber: "§R急降下爆撃§!"
 
 ##空軍任務##
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"
