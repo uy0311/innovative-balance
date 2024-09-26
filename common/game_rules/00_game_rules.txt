@@ -494,6 +494,22 @@ allow_scorched_earth = {
 	}
 }
 
+ib_international_market_rule = {
+	name = "ib_international_market_rule"
+	group = "RULE_GROUP_GAMEPLAY"
+	icon = "GFX_lend_lease"
+	default = {
+		name = "LIMITED"
+		text = "RULE_OPTION_LIMITED"
+		desc = "ib_international_market_limited_desc"
+	}
+	option = {
+		name = "FREE"
+		text = "RULE_OPTION_FREE"
+		desc = "ib_international_market_free_desc"
+	}
+}
+
 ###  ###  ## ###  ##  ###   ##  #  # 
 #  # #   #   #   #  # #  # #  # #  # 
 ###  ##   #  ##  #### ###  #    #### 

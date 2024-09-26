@@ -12,6 +12,11 @@
  operation_Bagration:0 "バグラチオン作戦"
  fall_of_moscow:0 "モスクワ陥落"
 
+##ゲームルール##
+ ib_international_market_rule: "国際市場"
+ ib_international_market_limited_desc: "国際市場は傀儡国と宗主国の関係でない限り、利用できません"
+ ib_international_market_free_desc: "国際市場が参入交渉を経て独立国家間で利用できるようになります"
+
 ##継続方針##
  Industrial_development:0 "産業の発展"
  Industrial_development_desc:0 "産業の発展は更なる国力増強に繋がるだろう。"
