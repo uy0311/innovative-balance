@@ -1,0 +1,19 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            if = {
+				limit = {
+					has_game_rule = {
+						rule = ib_international_market_rule
+						option = LIMITED
+					}
+				}
+                every_country = {
+                    set_rule = {
+                        can_access_market = no
+                    }
+                }
+            }
+        }
+    }
+}
