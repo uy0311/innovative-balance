@@ -22,6 +22,8 @@
  Industrial_development_desc:0 "産業の発展は更なる国力増強に繋がるだろう。"
  doctrine_development:0 "ドクトリンの発達"
  doctrine_development_desc:0 "「兵士よ!突撃の時だ!」 先の大戦ではこのような殺し文句で文字通り兵士が大いに殺された。 人間の良い所は過去の間違いから反省できるところにある。"
+ War_support_boost:0 "戦意高揚のプロパガンダ"
+ War_support_boost_desc:0 "我らの未来と自由を守るため、今こそ一丸となるべきである。家族、友人、そして次の世代のために、我が国の正義を貫く戦いに力を貸して欲しい。国民の協力が、この国の明日を築く力となる。"
 
 ##工業NFツリー##
  industry_research_bonus:0 "工業技術の向上"
