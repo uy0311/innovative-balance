@@ -543,6 +543,9 @@ ideas = {
 			ledger = army
 			available = { has_tech = trench_warfare }
 			modifier = {
+				cat_mountaineers_doctrine_cost_factor = -0.25
+				cat_marines_doctrine_cost_factor = -0.25
+				cat_paratroopers_doctrine_cost_factor = -0.25
 				tactic_planned_attack_preferred_weight_factor = 1
 				supply_consumption_factor = -0.10
 				air_fuel_consumption_factor = -0.10

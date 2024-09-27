@@ -662,7 +662,7 @@ characters={
 			}
 			
 			traits = {
-				base_strike_isoroku
+				base_strike_theorist
 			}
 		}
 		

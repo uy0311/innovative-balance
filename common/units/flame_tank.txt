@@ -16,6 +16,7 @@ sub_units = {
 
 		categories = {
 			category_all_armor
+			category_amphibious_tanks
 			category_front_line
 			category_army
 			category_mountaineers
@@ -87,6 +88,7 @@ sub_units = {
 
 		categories = {
 			category_all_armor
+			category_amphibious_tanks
 			category_front_line
 			category_army
 			category_mountaineers
@@ -160,6 +162,7 @@ sub_units = {
 		
 		categories = {
 			category_all_armor
+			category_amphibious_tanks
 			category_front_line
 			category_army
 			category_mountaineers
