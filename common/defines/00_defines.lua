@@ -640,9 +640,9 @@ NProduction = {
 },
 
 NMarket = {
-	PURCHASE_CONTRACT_DELIVERY_TOTAL_DAYS = 5000,                   	-- Number of days between purchase contract deliveries
+	PURCHASE_CONTRACT_DELIVERY_TOTAL_DAYS = 30,                   	-- Number of days between purchase contract deliveries
 	IC_TO_CIC_FACTOR = 2.0,                    						-- The factor for mapping IC cost to CIC cost. Should be a positive number.
-	MAX_CIV_FACTORIES_PER_CONTRACT = 1,							-- Max number of factories that can be assigned for paying single contract.
+	MAX_CIV_FACTORIES_PER_CONTRACT = 100,							-- Max number of factories that can be assigned for paying single contract.
 	LOW_PRICE_LEVEL_FACTOR = 0.75,                    				-- The factor of base equipment price for low price level. Should be in range (0,1] 
 	HIGH_PRICE_LEVEL_FACTOR = 1.25,                    				-- The factor of base equipment price for high price level. Should be more than 1.
 	MIN_DELIVERY_LIMIT_WARNING_UI = 0.8,							-- The delivery percentage under we want to let player know the contract is inefficient. [0,1]
