@@ -418,8 +418,13 @@
 
 ##統合特殊兵科読み替え＆編成コスト##
  category_mountaineers:0 "対山岳及び森林兵科"
- category_marines:0 "全ての上陸兵科"
- category_paratroopers:0 "全ての空挺兵科"
+ category_marines:0 "上陸兵科"
+ category_paratroopers:0 "空挺兵科"
+ category_amphibious_tanks:0 "火炎放射＆水陸両用戦車"
+ category_line_artillery:0 "全ての砲兵大隊"
+ category_support_artillery:0 "全ての支援砲兵中隊"
+ category_artillery:0 "牽引式野砲＆ロケット砲"
+ category_anti_air:0 "牽引式対空砲"
  modifier_unit_amphibious_light_armor_design_cost_factor: "水陸両用軽戦車ユニット設計コスト"
  modifier_unit_amphibious_medium_armor_design_cost_factor: "水陸両用中戦車ユニット設計コスト"
  modifier_unit_amphibious_heavy_armor_design_cost_factor: "水陸両用重戦車ユニット設計コスト"
@@ -576,7 +581,7 @@
  TITLE_MARITIME_OPERATIONS:0"海上航空作戦"
  cat_maritime_operations: "海上航空作戦ドクトリン"
  cat_maritime_operations_research: "海上航空作戦ドクトリン"
- cat_maritime_operations_factor: "海上航空作戦ドクトリンコスト"
+ cat_maritime_operations_cost_factor: "海上航空作戦ドクトリンコスト"
  TITLE_ESCORT_COMBAT:0"迎撃護衛戦"
  cat_escort_combat: "迎撃護衛戦ドクトリン"
  cat_escort_combat_research: "迎撃護衛戦ドクトリン"
@@ -591,19 +596,19 @@
  superior_firepower_expert: "§G優勢火力の達人§!"
  grand_battle_plan_expert: "§G大規模作戦の達人§!"
  mass_assault_expert: "§G大量突撃の達人§!"
- blitzkrieg_theorist: "§G電撃戦理論家§!"
+ blitzkrieg_theorist: "§G電撃戦の発案者§!"
 
  naval_theorist: "§C海軍§!§Y理論家§!"
  grand_fleet_proponent: "§C大艦隊の提唱者§!"
  submarine_specialist: "§C潜水艦専門家§!"
  naval_aviation_pioneer: "§C航空主兵論の先駆者§!"
- base_strike_isoroku: "§C基地攻撃§!"
+ base_strike_theorist: "§C機動艦隊の創設者§!"
 
  air_warfare_theorist: "§R空軍§!§Y理論家§!"
  close_air_support_proponent: "§R航空支援の提唱者§!"
  victory_through_airpower: "§R空軍力の勝利§!"
  assault_avaition: "§R航空襲撃§!"
- dive_bomber: "§R急降下爆撃§!"
+ dive_bomber: "§R急降下爆撃の信奉者§!"
 
 ##空軍任務##
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"
