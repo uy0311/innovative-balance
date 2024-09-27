@@ -733,6 +733,24 @@ ideas = {
 			}
 		}
 		
+		War_support_boost_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				war_support_weekly = 0.01
+			}
+		}
+
 		Industrial_research_idea = {
 			
 			allowed = {

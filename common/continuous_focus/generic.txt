@@ -124,7 +124,7 @@ continuous_focus_palette = {
 		}
 				
 		modifier = {
-			resistance_target = -0.05
+			resistance_target = -0.10
 		}
 		
 		supports_ai_strategy = ai_focus_military_advancements
@@ -135,18 +135,20 @@ continuous_focus_palette = {
 	}
 
 	focus = {
-		id = doctrine_development
+		id = War_support_boost
 		
-		icon = GFX_goal_continuous_research
+		icon = GFX_goal_generic_demand_territory
 		
 		available = {
+			has_political_power > 100
+			has_war_support < 0.7
 		}
 
-		idea = doctrine_research_idea
+		idea = War_support_boost_idea
 		
 		supports_ai_strategy = ai_focus_military_advancements
 		
-		daily_cost = 1
+		daily_cost = 2
 		
 		available_if_capitulated = yes
 	}
