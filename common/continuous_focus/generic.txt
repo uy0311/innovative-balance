@@ -140,6 +140,8 @@ continuous_focus_palette = {
 		icon = GFX_goal_generic_demand_territory
 		
 		available = {
+		}
+		enable = {
 			has_political_power > 100
 			has_war_support < 0.7
 		}
