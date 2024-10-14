@@ -1610,4 +1610,20 @@ technologies = {
 			tank_heavy_fixed_superstructure_turret_1
     	}
     }
+
+	IB_three_turret_mg_tech = {
+    		
+    	allow = {
+    		always = no
+    	}
+    
+    	research_cost = 1
+    	start_year = 1936
+    
+    	enable_equipment_modules = {
+    		tank_light_three_man_tank_turret_mg
+			tank_medium_three_man_tank_turret_mg
+			tank_heavy_three_man_tank_turret_mg
+    	}
+    }
 }

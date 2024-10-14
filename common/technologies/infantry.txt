@@ -430,11 +430,10 @@ technologies = {
 	}
 	
 	advanced_infantry_weapons2 = {
-
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret_mg
-			tank_medium_three_man_tank_turret_mg
-			tank_heavy_three_man_tank_turret_mg
+		
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_mg_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_mg_tt
 		}
 
 		category_light_infantry = {

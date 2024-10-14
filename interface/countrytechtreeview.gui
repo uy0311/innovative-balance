@@ -57,6 +57,13 @@ guiTypes = {
 				}
 				clipping = no
 
+				iconType = { 
+				name ="IB_infantry_red_frame"
+				spriteType = "GFX_IB_three"
+				position = { x=1254 y=284 }
+			    }
+
+
 				iconType = {
 					name ="infantry_techtree_bg"
 					spriteType = "GFX_infantry_techtree_bg"
