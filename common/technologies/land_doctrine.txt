@@ -1149,12 +1149,6 @@ technologies = {
 			air_attack = 0.40
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret_mg
-			tank_medium_three_man_tank_turret_mg
-			tank_heavy_three_man_tank_turret_mg
-		}
-
 		path = {
 			leads_to_tech =  centralized_fire_control
 			research_cost_coeff = 1
@@ -1164,6 +1158,11 @@ technologies = {
 			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
 			custom_effect_tooltip = IB_three_man_turret_tt
 		}
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_mg_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_mg_tt
+		}
+
 
 		doctrine = yes	
 		research_cost = 5.0
@@ -1270,12 +1269,6 @@ technologies = {
 			air_attack = 0.20
 		}
 
-		enable_equipment_modules = {
-			tank_light_three_man_tank_turret_mg
-			tank_medium_three_man_tank_turret_mg
-			tank_heavy_three_man_tank_turret_mg
-		}
-
 		path = {
 			leads_to_tech = advanced_firebases
 			research_cost_coeff = 1
@@ -1285,6 +1278,11 @@ technologies = {
 			hidden_effect = { set_technology = { IB_three_turret_tech = 1 popup = no } }
 			custom_effect_tooltip = IB_three_man_turret_tt
 		}
+		on_research_complete = {
+			hidden_effect = { set_technology = { IB_three_turret_mg_tech = 1 popup = no } }
+			custom_effect_tooltip = IB_three_man_turret_mg_tt
+		}
+
 		
 		doctrine = yes	
 		research_cost = 5.0
