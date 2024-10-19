@@ -3291,6 +3291,7 @@ technologies = {
 	defence_in_depth = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+
 		max_dig_in = 5
 
 		category_light_infantry = {
@@ -3410,13 +3411,6 @@ technologies = {
 	}
 	
 	deep_operations = {
-		category_tanks = {
-			default_morale = 0.1
-		}
-		armored_car = {
-			default_morale = 0.1
-		}
-
 		xp_research_type = army
 		xp_unlock_cost = 100
 
@@ -3424,8 +3418,14 @@ technologies = {
 		land_reinforce_rate = 0.05
 
 		enable_tactic = tactic_blitz
-		
-		
+
+		category_tanks = {
+			default_morale = 0.1
+		}
+		armored_car = {
+			default_morale = 0.1
+		}
+
 		path = {
 			leads_to_tech = operational_concentration
 			research_cost_coeff = 1
@@ -3472,6 +3472,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		max_planning = 0.15
+
+		land_reinforce_rate = 0.03
 
 		anti_tank_brigade = {
 			combat_width = -0.4

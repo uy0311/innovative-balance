@@ -5170,7 +5170,7 @@ leader_traits = {
 		}
 	}
 	
-	dive_bomber = {
+	dive_bomber_theorist = {
 		sprite = 14
 		equipment_bonus = {
 			small_plane_cas_airframe = {
