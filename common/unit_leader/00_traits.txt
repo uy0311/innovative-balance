@@ -2196,7 +2196,7 @@ leader_traits = {
 	fighter_director = { 
 		type = navy
 		modifier = {
-			navy_max_range_factor = 0.20
+			navy_max_range = 1500
 		}
 				
 		slot = high_command
