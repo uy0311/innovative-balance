@@ -975,7 +975,7 @@ characters={
 				original_tag = GER
 			}
 			traits = {
-				dive_bomber
+				dive_bomber_theorist
 			}
 		}
 	}

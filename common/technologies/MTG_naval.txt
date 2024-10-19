@@ -246,34 +246,6 @@ technologies = {
 		}
 	}
 
-	smoke_generator = {
-
-		naval_retreat_speed = 0.2
-
-		research_cost = 1.0
-
-		start_year = 1933
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = 2 }
-		}
-
-		ai_will_do = {
-			factor = 8
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-
-		categories = {
-			naval_equipment
-			dd_tech
-			ship_modules_tech
-		}
-	}
 
  ##  #  # ### ###      ## #  # ###  #   #  ##  ###  ### #  # ###
 #  # ## #  #   #      #   #  # #  # ## ## #  # #  #  #  ## # #
@@ -311,7 +283,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 2 }
 		}
 
 		ai_will_do = {

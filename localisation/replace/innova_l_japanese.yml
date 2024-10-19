@@ -619,7 +619,19 @@
  close_air_support_proponent: "§R航空支援の提唱者§!"
  victory_through_airpower: "§R空軍力の勝利§!"
  assault_avaition: "§R航空襲撃§!"
- dive_bomber: "§R急降下爆撃の信奉者§!"
+ dive_bomber_theorist: "§R急降下爆撃の信奉者§!"
+
+
+##提督特性##
+ ib_hit_chance:0 "正確無比"
+ ib_hit_chance_desc:0 "バランス調整用の特性 取得推奨"
+ fighter_director:0 "長距離打撃"
+ fighter_director_desc:0 "この提督の艦隊は敵後方のかく乱により優位を作り出す"
+ dive_bomber:0 "航空索敵"
+ dive_bomber_desc:0 "この提督の艦隊は空母による優れた索敵を行う"
+ torpedo_bomber:0 "艦隊の傘"
+ torpedo_bomber_desc:0 "この提督の艦隊は決戦において最後まで義務を果たす"
+
 
 ##空軍任務##
  AIRWING_MISSION_TYPE_AIR_SUPERIORITY:0 "制空任務"

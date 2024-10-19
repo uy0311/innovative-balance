@@ -5,8 +5,8 @@ leader_maneuvering_skills = {
 		cost = 100
 		type = navy
 		modifier = {
-			#positioning = 0.025
-			naval_retreat_speed = 0.01
+			naval_retreat_speed = 0.16
+			convoy_retreat_speed = 0.16
 		}
 	}
 
@@ -14,8 +14,8 @@ leader_maneuvering_skills = {
 		cost = 200
 		type = navy
 		modifier = {
-			#positioning = 0.05
-			naval_retreat_speed = 0.02
+			naval_retreat_speed = 0.17
+			convoy_retreat_speed = 0.17
 		}
 	}
 
@@ -23,8 +23,8 @@ leader_maneuvering_skills = {
 		cost = 400
 		type = navy
 		modifier = {
-			#positioning = 0.075
-			naval_retreat_speed = 0.03
+			naval_retreat_speed = 0.18
+			convoy_retreat_speed = 0.18
 		}
 	}
 
@@ -32,8 +32,8 @@ leader_maneuvering_skills = {
 		cost = 800
 		type = navy
 		modifier = {
-			#positioning = 0.1
-			naval_retreat_speed = 0.04
+			naval_retreat_speed = 0.19
+			convoy_retreat_speed = 0.19
 		}
 	}
 
@@ -41,8 +41,8 @@ leader_maneuvering_skills = {
 		cost = 1600
 		type = navy
 		modifier = {
-			#positioning = 0.125
-			naval_retreat_speed = 0.05
+			naval_retreat_speed = 0.20
+			convoy_retreat_speed = 0.20
 		}
 	}
 
@@ -50,8 +50,8 @@ leader_maneuvering_skills = {
 		cost = 3200
 		type = navy
 		modifier = {
-			#positioning = 0.15
-			naval_retreat_speed = 0.06
+			naval_retreat_speed = 0.21
+			convoy_retreat_speed = 0.21
 		}
 	}
 
@@ -59,8 +59,8 @@ leader_maneuvering_skills = {
 		cost = 6400
 		type = navy
 		modifier = {
-			#positioning = 0.175
-			naval_retreat_speed = 0.07
+			naval_retreat_speed = 0.22
+			convoy_retreat_speed = 0.22
 		}
 	}
 
@@ -68,8 +68,8 @@ leader_maneuvering_skills = {
 		cost = 12800
 		type = navy
 		modifier = {
-			#positioning = 0.2
-			naval_retreat_speed = 0.08
+			naval_retreat_speed = 0.23
+			convoy_retreat_speed = 0.23
 		}
 	}
 
@@ -77,8 +77,8 @@ leader_maneuvering_skills = {
 		cost = 25600
 		type = navy
 		modifier = {
-			#positioning = 0.225
-			naval_retreat_speed = 0.09
+			naval_retreat_speed = 0.24
+			convoy_retreat_speed = 0.24
 		}
 	}
 
@@ -86,8 +86,8 @@ leader_maneuvering_skills = {
 		cost = 51200
 		type = navy
 		modifier = {
-			#positioning = 0.25
-			naval_retreat_speed = 0.10
+			naval_retreat_speed = 0.25
+			convoy_retreat_speed = 0.25
 		}
 	}
 }
