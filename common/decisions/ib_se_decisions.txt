@@ -129,30 +129,9 @@ ib_se_category = {
 			}
 			
 		}
-        
-        # cancel_trigger = {
-		# 	custom_trigger_tooltip = {
-		# 		tooltip = ib_se_cancel_tt
-		# 		FROM = {
-		# 			NOT = {
-		# 				if = {
-		# 					limit = {
-		# 						any_country = {
-		# 							controls_state = PREV
-		# 							ib_state_control_trigger = yes
-		# 						}
-		# 					}
-		# 					controller = {
-		# 						ib_state_control_trigger = yes
-		# 					}
-		# 				}
-		# 			}
-		# 		}
-		# 	}
-        # }
 
 		custom_cost_trigger = {
-			has_stability > 0.03
+			has_stability > 0.02
 		}
 
 		custom_cost_text = decision_cost_st_3
@@ -168,11 +147,10 @@ ib_se_category = {
 			hidden_effect = {
 				FROM = {
 					ib_se_effect = yes
-				#	add_dynamic_modifier = { modifier = ib_scorched_earth_ready days = 1 }
 					add_dynamic_modifier = { modifier = ib_scorched_earth_modifier days = 30 }
 					set_state_flag = { flag = ib_scorched_earth_state_flag days = 30 }
 				}
-				add_stability = -0.03
+				add_stability = -0.02
 				add_offsite_building = { type = industrial_complex level = 1 }
 			}
 		}
