@@ -1,0 +1,15 @@
+defined_text = {
+	name = Getib_se_autoName
+	text = {
+		trigger = {
+			has_country_flag = ib_se_auto_enable_flag
+		}
+		localization_key = Getib_se_auto_enableName
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = ib_se_auto_enable_flag }
+		}
+		localization_key = Getib_se_auto_disableName
+	}
+}
