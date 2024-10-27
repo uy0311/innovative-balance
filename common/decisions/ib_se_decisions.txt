@@ -19,6 +19,26 @@ ib_se_category = {
 		}
 		
 	}
+	ib_se_auto_enable = {
+		icon = GFX_decision_generic_operation
+		fire_only_once = no
+
+		visible = { NOT = { has_country_flag = ib_se_auto_enable_flag } }
+
+		complete_effect = {
+			set_country_flag = ib_se_auto_enable_flag
+		}
+	}
+	ib_se_auto_disable = {
+		icon = GFX_decision_generic_operation
+		fire_only_once = no
+
+		visible = { has_country_flag = ib_se_auto_enable_flag }
+
+		complete_effect = {
+			clr_country_flag = ib_se_auto_enable_flag
+		}
+	}
 	ib_scorched_earth = {
 		icon = generic_scorched_earth
 
@@ -29,6 +49,7 @@ ib_se_category = {
 		visible = {
 			ROOT = {
 				has_war = yes
+				NOT = { has_country_flag = ib_se_auto_enable_flag }
 			}
 			FROM = {
 				state_population > 100
@@ -158,7 +179,7 @@ ib_se_category = {
 
 		remove_effect = {
 			hidden_effect = {
-					add_offsite_building = { type = industrial_complex level = -1 }
+				add_offsite_building = { type = industrial_complex level = -1 }
 			}
 		}
 	}
