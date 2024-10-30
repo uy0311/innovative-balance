@@ -3,27 +3,13 @@ on_actions = {
 		effect = {
             #FROM = 州を占領された国
             #FROM.FROM = 占領された州
+            
+            #自動焦土化対象かどうか
             if = {
                 limit = {
                     FROM = {
                         has_country_flag = ib_se_auto_enable_flag
                         has_stability > 0.03
-                    }
-                }
-                FROM = {
-                    add_stability = -0.03
-                    add_offsite_building = { type = industrial_complex level = 1 }
-                    add_offsite_building = { type = industrial_complex level = -1 }
-                }
-            }
-
-            FROM.FROM = {
-                if = {
-                    limit = {
-                        state_population > 100
-                        NOT = { has_state_flag = ib_scorched_earth_state_flag }
-                        NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_ready } }
-                        NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_modifier } }
                         OR = {
                             AND = {
                                 divisions_in_state = {
@@ -56,10 +42,41 @@ on_actions = {
                         }
                     }
                 }
+                FROM = {
+                    set_temp_variable = { temp = 1 } #焦土作戦実行可
+                }
+            }
+
+            #実行処理
+            FROM.FROM = {
+                if = {
+                    limit = {
+                        state_population > 100
+                        NOT = { has_state_flag = ib_scorched_earth_state_flag }
+                        NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_ready } }
+                        NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_modifier } }
+
+                        check_variable = { temp = 1 } #焦土作戦実行可
+                    }
+                }
                 ib_se_effect = yes
             #	add_dynamic_modifier = { modifier = ib_scorched_earth_ready days = 1 }
                 add_dynamic_modifier = { modifier = ib_scorched_earth_modifier days = 30 }
                 set_state_flag = { flag = ib_scorched_earth_state_flag days = 30 }
+                set_temp_variable = { temp = 2 } #焦土作戦実行済
+                
+            }
+
+            #安定度低下(焦土化コスト)処理
+            FROM = {
+                if = {
+                    limit = {
+                        check_variable = { temp = 2 } #焦土作戦実行済
+                    }
+                    add_stability = -0.03
+                    add_offsite_building = { type = industrial_complex level = 1 }
+                    add_offsite_building = { type = industrial_complex level = -1 }
+                }
             }
 		}
     }
