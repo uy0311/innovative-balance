@@ -471,6 +471,11 @@
 ##提督##
  ENG_bertram_home_ramsay:0 "バートラム・ラムゼー"
 
+##naval_modules_replace##
+ ship_armor_bb_4: "舷側 450mm/甲板 210mm"
+ ship_armor_bb_4_short: "戦艦用装甲 IV"
+ ship_armor_bb_4_desc: "まさしく装甲案の決定版である。この装甲はありとあらゆる既知の主砲を打ち負かすことを意図しており、今日の世界にてありとあらゆる戦艦と交戦し撃沈させることを可能としている。"
+
 ##海軍艤装技術背景##
  EQ_MOD_SLOT_fixed_ship_radar_slot_TITLE: "レーダー"
  EQ_MOD_SLOT_fixed_ship_sonar_slot_TITLE:0 "ソナー"
