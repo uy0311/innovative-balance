@@ -3296,6 +3296,7 @@ technologies = {
 
 		category_light_infantry = {
 			max_organisation = 5
+			default_morale = 0.10
 		}
 		
 		path = {
@@ -3477,9 +3478,11 @@ technologies = {
 
 		anti_tank_brigade = {
 			combat_width = -0.4
+			default_morale = 0.10
 		}
 		infantry = {
 			combat_width = -0.4
+			default_morale = 0.10
 		}
 
 		enable_tactic = tactic_elastic_defense
@@ -3538,7 +3541,7 @@ technologies = {
 		land_reinforce_rate = 0.03
 
 		infantry = {
-			default_morale = 0.15
+			default_morale = 0.10
 		}
 		category_all_armor = {
 			default_morale = 0.2
@@ -3598,7 +3601,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_all_infantry = {
-			max_organisation = 5
+			max_organisation = 10
 		}
 		motorized = {
 			max_organisation = 5
@@ -3667,6 +3670,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		land_reinforce_rate = 0.02
+		supply_consumption_factor = -0.05
 
 		light_armor = {
 			combat_width = -0.33
