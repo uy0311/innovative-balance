@@ -49,7 +49,7 @@ ib_se_category = {
 		visible = {
 			ROOT = {
 				has_war = yes
-				NOT = { has_country_flag = ib_se_auto_enable_flag }
+		#		NOT = { has_country_flag = ib_se_auto_enable_flag }
 			}
 			FROM = {
 				state_population > 100
@@ -131,7 +131,7 @@ ib_se_category = {
 		}
 
 		custom_cost_trigger = {
-			has_stability > 0.02
+			has_stability > 0.03
 		}
 
 		custom_cost_text = decision_cost_st_3
@@ -150,7 +150,7 @@ ib_se_category = {
 					add_dynamic_modifier = { modifier = ib_scorched_earth_modifier days = 30 }
 					set_state_flag = { flag = ib_scorched_earth_state_flag days = 30 }
 				}
-				add_stability = -0.02
+				add_stability = -0.03
 				add_offsite_building = { type = industrial_complex level = 1 }
 			}
 		}
