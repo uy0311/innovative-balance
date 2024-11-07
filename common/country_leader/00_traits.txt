@@ -3865,7 +3865,7 @@ leader_traits = {
 
 	popular_figurehead = {
 		sprite = 13
-		stability_weekly_factor = 0.4
+		stability_weekly_factor = 0.2
 		
 		ai_will_do = {
 			factor = 1
@@ -3955,7 +3955,7 @@ leader_traits = {
 	ideological_crusader = {
 		random = yes
 		sprite = 13
-		stability_weekly_factor = 0.4
+		stability_weekly_factor = 0.2
 		party_popularity_stability_factor = 0.1
 		
 		ai_will_do = {
@@ -4423,7 +4423,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		political_power_factor = 0.05
-		stability_weekly_factor = 0.2
+		stability_weekly_factor = 0.1
 		
 		
 		ai_will_do = {
