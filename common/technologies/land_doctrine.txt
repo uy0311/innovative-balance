@@ -3954,6 +3954,39 @@ technologies = {
 			default_morale = 0.2
 		}
 		
+		infantry = {
+			forest = {
+				movement = 0.25
+			}
+			hills = {
+				movement = 0.25
+			}
+			mountain = {
+				movement = 0.25
+			}
+			jungle = {
+				movement = 0.25
+			}
+			marsh = {
+				movement = 0.25
+			}
+			plains = {
+				movement = 0.25
+			}
+			farmland = {
+				movement = 0.25
+			}
+			urban = {
+				movement = 0.25
+			}
+			desert = {
+				movement = 0.25
+			}
+			river = {
+				movement = 0.25
+			}
+		}
+
 		path = {
 			leads_to_tech = human_infantry_offensive
 			research_cost_coeff = 1
@@ -3997,6 +4030,7 @@ technologies = {
 		land_reinforce_rate = 0.04
 		enemy_army_bonus_air_superiority_factor = -10.00
 		army_bonus_air_superiority_factor = -10.00
+		experience_loss_factor = -0.34
 
 		category_all_infantry = {
 			default_morale = 0.20

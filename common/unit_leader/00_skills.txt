@@ -2,7 +2,7 @@ leader_skills = {
 
 	### NAVY ###
 	1 = {
-		cost = 50
+		cost = 100
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.05
@@ -11,7 +11,7 @@ leader_skills = {
 	}
 
 	2 = {
-		cost = 100
+		cost = 400
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.1
@@ -20,7 +20,7 @@ leader_skills = {
 	}
 
 	3 = {
-		cost = 200
+		cost = 900
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.15
@@ -29,7 +29,7 @@ leader_skills = {
 	}
 
 	4 = {
-		cost = 400
+		cost = 1600
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.2
@@ -38,7 +38,7 @@ leader_skills = {
 	}
 
 	5 = {
-		cost = 800
+		cost = 2500
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.25
@@ -47,7 +47,7 @@ leader_skills = {
 	}
 
 	6 = {
-		cost = 1600
+		cost = 3600
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.3
@@ -56,7 +56,7 @@ leader_skills = {
 	}
 
 	7 = {
-		cost = 3200
+		cost = 4900
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.35
@@ -74,7 +74,7 @@ leader_skills = {
 	}
 
 	9 = {
-		cost = 12800
+		cost = 8100
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.45
@@ -89,42 +89,42 @@ leader_skills = {
 	}
 		
 	2 = {
-		cost = 360
+		cost = 400
 		type = corps_commander
 	}
 	
 	3 = {
-		cost = 600
+		cost = 900
 		type = corps_commander
 	}
 	
 	4 = {
-		cost = 1200
+		cost = 1600
 		type = corps_commander
 	}
 	
 	5 = {
-		cost = 1700
+		cost = 2500
 		type = corps_commander
 	}
 
 	6 = {
-		cost = 3000
+		cost = 3600
 		type = corps_commander
 	}
 
 	7 = {
-		cost = 6000
+		cost = 4900
 		type = corps_commander
 	}
 
 	8 = {
-		cost = 9000
+		cost = 6400
 		type = corps_commander
 	}
 
 	9 = {
-		cost = 12000
+		cost = 8100
 		type = corps_commander
 	}
 	
@@ -136,42 +136,42 @@ leader_skills = {
 	}
 		
 	2 = {
-		cost = 360
+		cost = 400
 		type = field_marshal
 	}
 	
 	3 = {
-		cost = 600
+		cost = 900
 		type = field_marshal
 	}
 	
 	4 = {
-		cost = 1200
+		cost = 1600
 		type = field_marshal
 	}
 	
 	5 = {
-		cost = 1700
+		cost = 2500
 		type = field_marshal
 	}
 
 	6 = {
-		cost = 3000
+		cost = 3600
 		type = field_marshal
 	}
 
 	7 = {
-		cost = 6000
+		cost = 4900
 		type = field_marshal
 	}
 
 	8 = {
-		cost = 9000
+		cost = 6400
 		type = field_marshal
 	}
 
 	9 = {
-		cost = 12000
+		cost = 8100
 		type = field_marshal
 	}
 	
