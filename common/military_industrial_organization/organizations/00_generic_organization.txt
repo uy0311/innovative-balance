@@ -864,7 +864,7 @@ generic_medium_aircraft_organization = {
 
 		equipment_bonus = {
 			air_range = 0.2
-			maximum_speed = 0.10
+			maximum_speed = 0.07
 		}
 	}
 

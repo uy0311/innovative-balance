@@ -2788,7 +2788,7 @@ equipment_modules = {
 		
 		add_stats = {
 			naval_range = 2000
-			build_cost_ic = 200
+			build_cost_ic = 50
 		}
 		multiply_stats = {
 		#	build_cost_ic = 0.10
