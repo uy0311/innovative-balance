@@ -1,4 +1,34 @@
 on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {
+                if = {
+                    limit = {
+                        NOT = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_no } }
+                    }
+                    set_country_flag = ib_se_infrastructure_on_flag
+                }
+                if = {
+                    limit = {
+                        NOT = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_no } }
+                    }
+                    set_country_flag = ib_se_rail_way_on_flag
+                }
+                if = {
+                    limit = {
+                        NOT = { has_game_rule = { rule = ib_se_supply_node_rule option = ib_se_level_no } }
+                    }
+                    set_country_flag = ib_se_supply_node_on_flag
+                }
+                if = {
+                    limit = {
+                        NOT = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_no } }
+                    }
+                    set_country_flag = ib_se_air_base_on_flag
+                }
+            }
+        }
+    }
     on_state_control_changed = {
 		effect = {
             #FROM = 州を占領された国
@@ -8,7 +38,7 @@ on_actions = {
             if = {
                 limit = {
                     FROM = {
-                        has_country_flag = ib_se_auto_enable_flag
+                        has_country_flag = ib_se_auto_on_flag
                         has_stability > 0.03
                         OR = {
                             AND = {

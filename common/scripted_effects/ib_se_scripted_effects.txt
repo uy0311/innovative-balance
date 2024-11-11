@@ -1,89 +1,109 @@
 ib_se_effect = {
 	if = {
-		limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_1 } }
-		damage_building = { type = infrastructure damage = 1 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_2 } }
-		damage_building = { type = infrastructure damage = 2 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_3 } }
-		damage_building = { type = infrastructure damage = 3 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_4 } }
-		damage_building = { type = infrastructure damage = 4 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_5 } }
-		damage_building = { type = infrastructure damage = 5 }
-	}
-
-	if = {
-		limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_1 } }
-		damage_building = { type = rail_way damage = 1 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_2 } }
-		damage_building = { type = rail_way damage = 2 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_3 } }
-		damage_building = { type = rail_way damage = 3 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_4 } }
-		damage_building = { type = rail_way damage = 4 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_5 } }
-		damage_building = { type = rail_way damage = 5 }
+		limit = {
+			has_country_flag = ib_se_infrastructure_on_flag
+		}
+		if = {
+			limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_1 } }
+			damage_building = { type = infrastructure damage = 1 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_2 } }
+			damage_building = { type = infrastructure damage = 2 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_3 } }
+			damage_building = { type = infrastructure damage = 3 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_4 } }
+			damage_building = { type = infrastructure damage = 4 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_infrastructure_rule option = ib_se_level_5 } }
+			damage_building = { type = infrastructure damage = 5 }
+		}
 	}
 
 	if = {
-		limit = { has_game_rule = { rule = ib_se_supply_node_rule option = ib_se_level_1 } }
-		damage_building = { type = supply_node damage = 1 }
+		limit = {
+			has_country_flag = ib_se_rail_way_on_flag
+		}
+		if = {
+			limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_1 } }
+			damage_building = { type = rail_way damage = 1 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_2 } }
+			damage_building = { type = rail_way damage = 2 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_3 } }
+			damage_building = { type = rail_way damage = 3 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_4 } }
+			damage_building = { type = rail_way damage = 4 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_rail_way_rule option = ib_se_level_5 } }
+			damage_building = { type = rail_way damage = 5 }
+		}
 	}
 
 	if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_1 } }
-		damage_building = { type = air_base damage = 1 }
+		limit = {
+			has_country_flag = ib_se_supply_node_on_flag
+		}
+		if = {
+			limit = { has_game_rule = { rule = ib_se_supply_node_rule option = ib_se_level_1 } }
+			damage_building = { type = supply_node damage = 1 }
+		}
 	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_2 } }
-		damage_building = { type = air_base damage = 2 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_3 } }
-		damage_building = { type = air_base damage = 3 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_4 } }
-		damage_building = { type = air_base damage = 4 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_5 } }
-		damage_building = { type = air_base damage = 5 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_6 } }
-		damage_building = { type = air_base damage = 6 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_7 } }
-		damage_building = { type = air_base damage = 7 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_8 } }
-		damage_building = { type = air_base damage = 8 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_9 } }
-		damage_building = { type = air_base damage = 9 }
-	}
-	else_if = {
-		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_10 } }
-		damage_building = { type = air_base damage = 10 }
+
+	if = {
+		limit = {
+			has_country_flag = ib_se_air_base_on_flag
+		}
+		if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_1 } }
+			damage_building = { type = air_base damage = 1 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_2 } }
+			damage_building = { type = air_base damage = 2 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_3 } }
+			damage_building = { type = air_base damage = 3 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_4 } }
+			damage_building = { type = air_base damage = 4 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_5 } }
+			damage_building = { type = air_base damage = 5 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_6 } }
+			damage_building = { type = air_base damage = 6 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_7 } }
+			damage_building = { type = air_base damage = 7 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_8 } }
+			damage_building = { type = air_base damage = 8 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_9 } }
+			damage_building = { type = air_base damage = 9 }
+		}
+		else_if = {
+			limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_10 } }
+			damage_building = { type = air_base damage = 10 }
+		}
 	}
 }

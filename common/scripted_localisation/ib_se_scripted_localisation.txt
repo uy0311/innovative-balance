@@ -2,14 +2,50 @@ defined_text = {
 	name = Getib_se_autoName
 	text = {
 		trigger = {
-			has_country_flag = ib_se_auto_enable_flag
+			has_country_flag = ib_se_auto_on_flag
 		}
-		localization_key = Getib_se_auto_enableName
+		localization_key = Getib_se_setting_onName
 	}
 	text = {
 		trigger = {
-			NOT = { has_country_flag = ib_se_auto_enable_flag }
+			NOT = { has_country_flag = ib_se_auto_on_flag }
 		}
-		localization_key = Getib_se_auto_disableName
+		localization_key = Getib_se_setting_offName
+	}
+}
+defined_text = {
+	name = Getib_se_infrastructureName
+	text = {
+		trigger = {
+			has_country_flag = ib_se_infrastructure_on_flag
+		}
+		localization_key = Getib_se_infrastructureName
+	}
+}
+defined_text = {
+	name = Getib_se_rail_wayName
+	text = {
+		trigger = {
+			has_country_flag = ib_se_rail_way_on_flag
+		}
+		localization_key = Getib_se_rail_wayName
+	}
+}
+defined_text = {
+	name = Getib_se_supply_nodeName
+	text = {
+		trigger = {
+			has_country_flag = ib_se_supply_node_on_flag
+		}
+		localization_key = Getib_se_supply_nodeName
+	}
+}
+defined_text = {
+	name = Getib_se_air_baseName
+	text = {
+		trigger = {
+			has_country_flag = ib_se_air_base_on_flag
+		}
+		localization_key = Getib_se_air_baseName
 	}
 }

@@ -1,16 +1,29 @@
 ﻿l_japanese:
  ib_se_category: "焦土作戦"
- ib_se_category_desc: "§Y自動焦土化は現在、[Root.Getib_se_autoName]§!\n\n自国もしくは同盟国のステートが敵国と§Y隣接§!している場合、該当地域を§Y焦土化§!する事が可能となる。\nまた、一度押したディシジョンは再度の実行まで§Y30日間§!のクールタイムが存在している。\nまた、焦土作戦は§Y自動化§!することが可能で、自国のステートが§R占領§!された時、焦土作戦実行条件を満たしている場合に§Y自動的§!に§Y焦土化§!が実行される。"
+ ib_se_category_desc: "§Y自動焦土化§!...[Root.Getib_se_autoName]\n\n§Y施設の破壊§!....[Root.Getib_se_infrastructureName][Root.Getib_se_rail_wayName][Root.Getib_se_supply_nodeName][Root.Getib_se_air_baseName]\n\n自国もしくは同盟国のステートが敵国と§Y隣接§!している場合、該当地域を§Y焦土化§!する事が可能となる。\nまた、一度押したディシジョンは再度の実行まで§Y30日間§!のクールタイムが存在している。\nまた、焦土作戦は§Y自動化§!することが可能で、自国のステートが§R占領§!された時、焦土作戦実行条件を満たしている場合に§Y自動的§!に§Y焦土化§!が実行される。"
  #ib_se_category_desc: "自国もしくは同盟国のステートが敵国と§Y隣接§!している場合、該当地域を§Y焦土化§!する事が可能となる。\nただし、ディシジョン押下後でも爆破前に敵にステートが奪取された場合はキャンセルされる。\nまた、一度押したディシジョンは再度の実行まで§Y30日間§!のクールタイムが存在している。"
 
  ib_scorched_earth_state_flag: "該当ステートは焦土化済みである"
 
- ib_se_auto_enable: "自動焦土化の有効化"
- ib_se_auto_disable: "自動焦土化の無効化"
- ib_se_auto_enable_flag: "自動焦土化が有効化されている"
+ ib_se_auto_on: "自動焦土化を§GON§!に"
+ ib_se_auto_off: "自動焦土化を§ROFF§!に"
+ ib_se_auto_on_flag: "自動焦土化が有効化されている"
 
- Getib_se_auto_enableName: "§G有効§!"
- Getib_se_auto_disableName: "§R無効§!"
+ ib_se_infrastructure_off: "§Yインフラ§!の焦土化を§ROFF§!に"
+ ib_se_infrastructure_on: "§Yインフラ§!の焦土化を§GON§!に"
+ ib_se_rail_way_off: "§Y鉄道施設§!の焦土化を§ROFF§!に"
+ ib_se_rail_way_on: "§Y鉄道施設§!の焦土化を§GON§!に"
+ ib_se_supply_node_off: "§Y補給ハブ§!の焦土化を§ROFF§!に"
+ ib_se_supply_node_on: "§Y補給ハブ§!の焦土化を§GON§!に"
+ ib_se_air_base_off: "§Y航空基地§!の焦土化を§ROFF§!に"
+ ib_se_air_base_on: "§Y航空基地§!の焦土化を§GON§!に"
+
+ Getib_se_setting_onName: "§GON§!"
+ Getib_se_setting_offName: "§ROFF§!"
+ Getib_se_infrastructureName: "§Y$infrastructure$§! "
+ Getib_se_rail_wayName: "§Y$rail_way$§! "
+ Getib_se_supply_nodeName: "§Y$supply_node$§! "
+ Getib_se_air_baseName: "§Y$air_base$§!"
 
  ib_scorched_earth_description: "焦土作戦の実行条件と効果"
  ib_scorched_earth: "[FROM.GetName]の焦土化"
