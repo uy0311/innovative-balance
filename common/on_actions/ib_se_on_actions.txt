@@ -38,8 +38,9 @@ on_actions = {
             if = {
                 limit = {
                     FROM = {
+                        is_owned_by = FROM.FROM
                         has_country_flag = ib_se_auto_on_flag
-                        has_stability > 0.03
+                        has_stability > 0.02
                         OR = {
                             AND = {
                                 divisions_in_state = {
@@ -72,7 +73,7 @@ on_actions = {
                         }
                     }
                 }
-                set_temp_variable = { temp = 1 } #焦土作戦実行可
+                set_temp_variable = { temp = 1 } #焦土作戦実行可-国家条件
             }
 
             #実行処理
@@ -84,21 +85,31 @@ on_actions = {
                         NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_ready } }
                         NOT = { has_dynamic_modifier = { modifier = ib_scorched_earth_modifier } }
 
-                        check_variable = { temp = 1 } #焦土作戦実行可
+                        check_variable = { temp = 1 } #焦土作戦実行可-国家条件
                     }
-                    ib_se_effect = yes
+                    
                 #	add_dynamic_modifier = { modifier = ib_scorched_earth_ready days = 1 }
                     add_dynamic_modifier = { modifier = ib_scorched_earth_modifier days = 30 }
                     set_state_flag = { flag = ib_scorched_earth_state_flag days = 30 }
-                    set_temp_variable = { temp = 2 } #焦土作戦実行済
+                    set_temp_variable = { temp = 2 } #焦土作戦実行-国家及び州条件
                 }
+            }
+
+            FROM = {
+                if = {
+                    limit = {
+                        set_temp_variable = { temp = 2 } #焦土作戦実行-国家及び州条件
+                    }
+                }
+                ib_se_auto_effect = yes
+                set_temp_variable = { temp = 3 } #焦土作戦実行済
             }
 
             #安定度低下(焦土化コスト)処理
             FROM = {
                 if = {
                     limit = {
-                        check_variable = { temp = 2 } #焦土作戦実行済
+                        check_variable = { temp = 3 } #焦土作戦実行済
                     }
                     add_stability = -0.03
                     add_offsite_building = { type = industrial_complex level = 1 }
