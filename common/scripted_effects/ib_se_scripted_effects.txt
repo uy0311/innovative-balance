@@ -36,35 +36,27 @@ ib_se_effect = {
 ib_se_auto_effect = {
 	if = {
 		limit = {
-			has_country_flag = ib_se_infrastructure_on_flag
+			FROM = { has_country_flag = ib_se_infrastructure_on_flag }
 		}
-		FROM.FROM = {
-			ib_se_infrastructure_effect = yes
-		}
+		FROM.FROM = { ib_se_infrastructure_effect = yes }
 	}
 	if = {
 		limit = {
-			has_country_flag = ib_se_rail_way_on_flag
+			FROM = { has_country_flag = ib_se_rail_way_on_flag }
 		}
-		FROM.FROM = {
-			ib_se_rail_way_effect = yes
-		}
+		FROM.FROM = { ib_se_rail_way_effect = yes }
 	}
 	if = {
 		limit = {
-			has_country_flag = ib_se_supply_node_on_flag
+			FROM = { has_country_flag = ib_se_supply_node_on_flag }
 		}
-		FROM.FROM = {
-			ib_se_supply_node_effect = yes
-		}
+		FROM.FROM = { ib_se_supply_node_effect = yes }
 	}
 	if = {
 		limit = {
-			has_country_flag = ib_se_air_base_on_flag
+			FROM = { has_country_flag = ib_se_air_base_on_flag }
 		}
-		FROM.FROM = {
-			ib_se_air_base_effect = yes
-		}
+		FROM.FROM = { ib_se_air_base_effect = yes }
 	}
 }
 
