@@ -495,6 +495,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			breakthrough = -0.1
 			armor_value = 0.25
 		}
 
@@ -525,6 +526,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			breakthrough = -0.1
 			armor_value = 0.25
 		}
 
@@ -656,6 +658,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			breakthrough = -0.1
 			armor_value = 0.25
 		}
 
@@ -685,6 +688,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			breakthrough = -0.1
 			armor_value = 0.25
 		}
 
@@ -713,6 +717,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			breakthrough = -0.1
 			armor_value = 0.25
 		}
 
@@ -821,6 +826,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			breakthrough = -0.1
 			armor_value = 0.25
 		}
 
@@ -849,6 +855,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			breakthrough = -0.1
 			armor_value = 0.25
 		}
 
@@ -1842,6 +1849,7 @@ equipment_modules = {
 
 		add_stats = {
 			soft_attack = 1.5
+			breakthrough = 2
 			defense = 1
 			build_cost_ic = 0.3
 		}
@@ -1977,7 +1985,7 @@ equipment_modules = {
 			build_cost_ic = 0.3
 		}
 		multiply_stats = {
-			breakthrough = 0.20
+			breakthrough = 0.15
 		}
 		xp_cost = 0#1
 
