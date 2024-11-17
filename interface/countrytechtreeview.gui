@@ -1064,7 +1064,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "engine_subtitle"
-					position = { x = -450 y = 80 }
+					position = { x = -395 y = 80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1077,7 +1077,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armaments_subtitle"
-					position = { x = -275 y = 80 }
+					position = { x = -245 y = 80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1113,7 +1113,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "armor_tech_1_tree"
-				position = { x = -24% y = 172 }
+				position = { x = -21% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1121,7 +1121,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "engine_tech_1_tree"
-				position = { x = -28% y = 172 }
+				position = { x = -25% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1129,7 +1129,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tankammo_tech_1_tree"
-				position = { x = 39% y = 172 }
+				position = { x = 36% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1137,7 +1137,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "cannon_tech_1_tree"
-				position = { x = 47% y = 172 }
+				position = { x = 43% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1145,7 +1145,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tankother_tree"
-				position = { x = 24% y = 172 }
+				position = { x = 22% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
