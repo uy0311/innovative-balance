@@ -105,6 +105,7 @@ characters={
 			legacy_id=0
 		}
 	}
+		#chief
 	SWE_per_sylvan={
 		advisor={
 			slot = army_chief
@@ -113,7 +114,7 @@ characters={
 				original_tag = SWE
 			}
 			traits = {
-				army_chief_defensive_1
+				army_chief_defensive_2
 			}
 			cost =  50
 			ai_will_do = {
@@ -124,6 +125,50 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_6"
+			}
+		}
+	}
+	SWE_ivar_holmquist={
+		advisor={
+			slot = army_chief
+			idea_token = SWE_ivar_holmquist
+			allowed = {
+					original_tag = SWE
+				}
+				traits = {
+					army_chief_organizational_3
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=SWE_ivar_holmquist
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+	}
+	SWE_oscar_nygren={
+		advisor={
+			slot = army_chief
+			idea_token = SWE_oscar_nygren
+			allowed = {
+					original_tag = SWE
+				}
+				traits = {
+					army_chief_drill_3
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=SWE_oscar_nygren
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_3"
 			}
 		}
 	}
@@ -149,6 +194,28 @@ characters={
 			}
 		}
 	}
+	SWE_charles_de_champs={
+		advisor={
+			slot = navy_chief
+			idea_token = SWE_charles_de_champs
+			allowed = {
+					original_tag = SWE
+				}
+				traits = {
+					navy_chief_decisive_battle_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=SWE_charles_de_champs
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
 	SWE_torsten_friis={
 		advisor={
 			slot = air_chief
@@ -157,7 +224,7 @@ characters={
 				original_tag = SWE
 			}
 			traits = {
-				air_chief_all_weather_2
+				air_chief_reform_1
 			}
 			cost = 100
 			ai_will_do = {
@@ -168,6 +235,119 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+	SWE_bengt_nordenskiold={
+		advisor={
+			slot = air_chief
+			idea_token = SWE_bengt_nordenskiold
+			allowed = {
+					original_tag = SWE
+				}
+				traits = {
+					air_chief_ground_support_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=SWE_bengt_nordenskiold
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+		#high_command
+	SWE_olof_thornell={
+		advisor={
+			slot = high_command
+			idea_token = SWE_olof_thornell
+			allowed = {
+					original_tag = SWE
+				}
+				traits = {
+					army_entrenchment_3
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=SWE_olof_thornell
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_5"
+			}
+		}
+	}
+	SWE_axel_rappe={
+		advisor={
+			slot = high_command
+			idea_token = SWE_axel_rappe
+			ledger = army
+				allowed = {
+					original_tag = SWE
+				}
+				traits = {
+					army_logistics_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=SWE_axel_rappe
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+	}
+	SWE_archibald_douglas={
+		advisor={
+			slot = high_command
+			idea_token = SWE_archibald_douglas
+			ledger = army
+			allowed = {
+				original_tag = SWE
+			}
+			traits = {
+				army_concealment_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=SWE_archibald_douglas
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+	SWE_fabian_tamm={
+		advisor={
+			slot = high_command
+			idea_token = SWE_fabian_tamm
+			allowed = {
+					original_tag = SWE
+				}
+				traits = {
+					army_regrouping_3
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=SWE_fabian_tamm
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_1"
 			}
 		}
 	}
@@ -194,10 +374,33 @@ characters={
 			}
 		}
 	}
+	SWE_axel_ljungdahl={
+		advisor={
+			slot = high_command
+			idea_token = SWE_axel_ljungdahl
+			ledger = air
+			allowed = {
+				original_tag = SWE
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name=SWE_axel_ljungdahl
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_2"
+			}
+		}
+	}
+		#theorist
 	SWE_helge_jung={
 		advisor={
 			cost = 100
-			
 			slot = theorist
 			idea_token = SWE_helge_jung
 			ledger = army
@@ -253,206 +456,7 @@ characters={
 			}
 		}
 	}
-	SWE_olof_thornell={
-		advisor={
-			slot = army_chief
-			idea_token = SWE_olof_thornell
-			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_chief_old_guard
-				}
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=SWE_olof_thornell
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_5"
-			}
-		}
-	}
-	SWE_bengt_nordenskiold={
-		advisor={
-			slot = air_chief
-			idea_token = SWE_bengt_nordenskiold
-			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=SWE_bengt_nordenskiold
-		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_3"
-			}
-		}
-	}
-	SWE_ivar_holmquist={
-		advisor={
-			slot = army_chief
-			idea_token = SWE_ivar_holmquist
-			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_chief_organizational_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=SWE_ivar_holmquist
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_1"
-			}
-		}
-	}
-	SWE_fabian_tamm={
-		advisor={
-			slot = navy_chief
-			idea_token = SWE_fabian_tamm
-			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					navy_chief_reform_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=SWE_fabian_tamm
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_1"
-			}
-		}
-	}
-	SWE_charles_de_champs={
-		advisor={
-			slot = navy_chief
-			idea_token = SWE_charles_de_champs
-			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=SWE_charles_de_champs
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_2"
-			}
-		}
-	}
-	SWE_axel_rappe={
-		advisor={
-			slot = high_command
-			idea_token = SWE_axel_rappe
-			ledger = army
-				allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_artillery_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=SWE_axel_rappe
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_1"
-			}
-		}
-	}
-	SWE_oscar_nygren={
-		advisor={
-			slot = army_chief
-			idea_token = SWE_oscar_nygren
-			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_chief_drill_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=SWE_oscar_nygren
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_3"
-			}
-		}
-	}
-	SWE_axel_ljungdahl={
-		advisor={
-			slot = high_command
-			idea_token = SWE_axel_ljungdahl
-			ledger = air
-			allowed = {
-				original_tag = SWE
-			}
-			traits = {
-				air_bomber_interception_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		name=SWE_axel_ljungdahl
-		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_2"
-			}
-		}
-	}
-	SWE_archibald_douglas={
-		advisor={
-			slot = high_command
-			idea_token = SWE_archibald_douglas
-			ledger = army
-			allowed = {
-				original_tag = SWE
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		name=SWE_archibald_douglas
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_2"
-			}
-		}
-	}
+		#political_advisor
 	SWE_ernst_wigforss={
 		advisor={
 			slot = political_advisor
@@ -555,8 +559,8 @@ characters={
 			}
 		}
 		field_marshal={
-			traits = { thorough_planner organizer organization_first fast_planner offensive_doctrine  }
-	        skill = 4 attack_skill = 3 defense_skill = 6 planning_skill = 4 logistics_skill = 4
+			traits = { thorough_planner bearer_of_artillery organizer organization_first fast_planner unyielding_defender winter_specialist }
+	        skill = 5 attack_skill = 4 defense_skill = 6 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
 	}
@@ -570,8 +574,8 @@ characters={
 			}
 		}
 		field_marshal={
-			traits = { logistics_wizard offensive_doctrine organizer }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			traits = { logistics_wizard offensive_doctrine organizer winter_specialist }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -585,7 +589,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { winter_specialist bearer_of_artillery panzer_leader }
+			traits = { bearer_of_artillery commando trait_engineer winter_specialist }
 	        skill = 4 attack_skill = 6 defense_skill = 3 planning_skill = 4 logistics_skill = 5
 			legacy_id=0
 		}
@@ -600,7 +604,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { ranger urban_assault_specialist }
+			traits = { trickster ranger urban_assault_specialist winter_specialist }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
@@ -615,8 +619,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { winter_specialist engineer  }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			traits = { panzer_leader engineer winter_specialist }
+	        skill = 3 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -630,7 +634,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { winter_specialist ranger engineer  }
+			traits = { ranger engineer trickster winter_specialist }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
@@ -645,8 +649,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { trickster panzer_leader  }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			traits = { trickster panzer_leader winter_specialist  }
+	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -660,7 +664,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { ranger }
+			traits = { panzer_leader ranger winter_specialist }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
@@ -675,8 +679,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { engineer panzer_leader  }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			traits = { engineer panzer_leader winter_specialist  }
+	        skill = 3 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
