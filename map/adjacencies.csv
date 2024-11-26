@@ -359,8 +359,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9083;6130;impassable;-1;-1;-1;-1;-1;;Norway-Sweden Scandes
 6055;6130;impassable;-1;-1;-1;-1;-1;;Norway-Sweden Scandes
 6055;3145;impassable;-1;-1;-1;-1;-1;;Norway-Sweden Scandes
-4041;12414;impassable;-1;-1;-1;-1;-1;;Sichuan
-4041;5030;impassable;-1;-1;-1;-1;-1;;Sichuan
+4041;7948;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+4041;15186;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+4041;11865;impassable;-1;-1;-1;-1;-1;;Sichuan IB
 5030;7948;impassable;-1;-1;-1;-1;-1;;Sichuan
 10757;7948;impassable;-1;-1;-1;-1;-1;;Sichuan
 7596;7948;impassable;-1;-1;-1;-1;-1;;Sichuan
@@ -371,6 +372,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7256;4295;impassable;-1;-1;-1;-1;-1;;Sichuan
 15189;7418;impassable;-1;-1;-1;-1;-1;;Sichuan
 15189;4167;impassable;-1;-1;-1;-1;-1;;Sichuan
+1884;1172;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+1884;1625;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+1884;4085;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+4532;4085;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+12436;4085;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+12436;4628;impassable;-1;-1;-1;-1;-1;;Sichuan IB
 10781;12248;impassable;-1;-1;-1;-1;-1;;Panjshir Valley
 10781;10826;impassable;-1;-1;-1;-1;-1;;Panjshir Valley
 10781;14912;impassable;-1;-1;-1;-1;-1;;Panjshir Valley
