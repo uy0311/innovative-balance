@@ -68,7 +68,7 @@ idea_categories = {
 	academy_spirit = {
 		type = army_spirit
 
-		cost = 20
+		cost = 10
 		removal_cost = -1
 		
 		politics_tab = no
@@ -81,7 +81,7 @@ idea_categories = {
 	army_spirit = {
 		type = army_spirit
 
-		cost = 25
+		cost = 20
 		removal_cost = -1
 		
 		politics_tab = no
@@ -93,7 +93,7 @@ idea_categories = {
 	division_command_spirit = {
 		type = army_spirit
 		
-		cost = 50
+		cost = 20
 		removal_cost = -1
 		
 		politics_tab = no
