@@ -208,7 +208,38 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
+	PRC_mao_zedong={
+		name=PRC_mao_zedong
+		portraits={
+			army={
+				large="GFX_portrait_prc_mao_zedong"
+				small=GFX_portrait_PRC_mao_zedong_small
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = PRC_mao_zedong
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				mass_assault_expert
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious politically_connected defensive_doctrine }
+			skill=4
+			attack_skill=2
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+
+
 	Haruka_Amami = {
 		name = "Haruka Amami"
 		portraits={
