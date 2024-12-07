@@ -108,6 +108,7 @@ sub_units = {
 		type = {
 			infantry
 			support
+			flame
 		}
 		
 		group = support
@@ -122,7 +123,7 @@ sub_units = {
 		combat_width = 0
 	
 		#Size Definitions
-		max_strength = 2
+		max_strength = 5
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
@@ -135,13 +136,10 @@ sub_units = {
 		entrenchment = 2
 		
 		battalion_mult = {
-			category = category_marines
-			breakthrough = 0.15
-			#add = yes
+			category = category_light_infantry
+			breakthrough = 0.40
 		}
 
-		
-		entrenchment = 2.5
 		defense = 0.1
 		breakthrough = 0.5
 
@@ -152,30 +150,46 @@ sub_units = {
 			support_equipment
 		}
 
+		transport = infantry_equipment
+
 		need = {
 			infantry_equipment = 10
-			support_equipment = 40
+			support_equipment = 25
 		}
 
 		can_be_parachuted = yes
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+
+		hills = {
+			defence = 0.1
+		}
+
+		jungle = {
+			defence = 0.25
+		}
 
 		marsh = {
-			attack = 0.10
-			defence = 0.20
+			defence = 0.25
 			movement = 0.2
 		}
 
 		fort = {
-			attack = 0.075
-			defence = 0.10
+			attack = 0.05
+			defence = 0.25
 		}
 
 		river = {
-			attack = 0.10
-			defence = 0.20
+			defence = 0.25
 			movement = 0.25
 		}
-		
+
+		amphibious = {
+			attack = 0.15
+		}
+
 		same_support_type = engineer
 		
 	}

@@ -242,7 +242,7 @@ characters={
 		}
 		
 		corps_commander={
-			traits= { trickster panzer_leader brilliant_strategist ranger trait_engineer }
+			traits= { trickster panzer_leader brilliant_strategist ranger adaptable trait_engineer }
 			skill=6
 			attack_skill = 6
 	        defense_skill = 1

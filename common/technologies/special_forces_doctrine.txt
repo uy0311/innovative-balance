@@ -160,28 +160,34 @@ technologies = {
 
 		light_flame_tank = {
 			forest = {
-				attack = 0.1
+				attack = 0.10
+				defence = 0.05
 			}
 			jungle = {
-				attack = 0.2
+				attack = 0.4
+				defence = 0.10
 			}
 		}
 
 		medium_flame_tank = {
 			forest = {
-				attack = 0.1
+				attack = 0.10
+				defence = 0.05
 			}
 			jungle = {
-				attack = 0.2
+				attack = 0.4
+				defence = 0.10
 			}
 		}
 
 		heavy_flame_tank = {
 			forest = {
-				attack = 0.1
+				attack = 0.10
+				defence = 0.05
 			}
 			jungle = {
-				attack = 0.2
+				attack = 0.4
+				defence = 0.10
 			}
 		}
 
