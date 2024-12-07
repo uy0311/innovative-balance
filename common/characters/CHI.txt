@@ -229,12 +229,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ politically_connected defensive_doctrine unyielding_defender scavenger infantry_expert camouflage_expert guerilla_fighter adaptable }
+			traits={ politically_connected defensive_doctrine unyielding_defender scavenger infantry_expert ambusher camouflage_expert guerilla_fighter adaptable }
 			skill=4
-			attack_skill=2
+			attack_skill=4
 			defense_skill=5
-			planning_skill=5
-			logistics_skill=4
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
