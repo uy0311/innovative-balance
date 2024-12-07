@@ -229,7 +229,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ trait_cautious politically_connected defensive_doctrine }
+			traits={ politically_connected defensive_doctrine unyielding_defender scavenger infantry_expert camouflage_expert guerilla_fighter adaptable }
 			skill=4
 			attack_skill=2
 			defense_skill=5
