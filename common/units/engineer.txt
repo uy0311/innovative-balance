@@ -52,6 +52,7 @@ sub_units = {
 		soft_attack = -0.5
 
 		essential = {
+			infantry_equipment
 			support_equipment
 		}
 
@@ -103,7 +104,7 @@ sub_units = {
 		priority = 0
 		ai_priority = 0
 		active = no
-		affects_speed = no
+		affects_speed = yes
 
 		type = {
 			infantry
@@ -147,6 +148,7 @@ sub_units = {
 		soft_attack = -0.5
 
 		essential = {
+			infantry_equipment
 			support_equipment
 		}
 

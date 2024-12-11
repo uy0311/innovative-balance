@@ -43,54 +43,6 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
-	
-		nationalism = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = fascism
-			}
-
-			removal_cost = -1
-
-			picture = generic_infantry_bonus
-
-			
-			modifier = {
-#				fascism_drift = 1.0
-				political_power_gain = 0.5
-				justify_war_goal_when_in_major_war_time = -0.80
-		        army_attack_factor = 0.05
-		        army_defence_factor = 0.05
-			}
-		}
-
-		internationalism = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			removal_cost = -1
-
-			picture = generic_intel_bonus
-			
-			modifier = {
-				training_time_army_factor = -0.2
-#				communism_drift = 1.0
-				conscription = 0.025
-				army_morale_factor = 0.12
-				license_production_speed = 0.25 #speed  increase for being a license
-				license_tech_difference_speed = -0.05 #less cost increase for each tech level between the license and own tech level 
-			}
-		}
 
 		fascist_influence = {
 			
@@ -132,6 +84,7 @@ ideas = {
 				communism_acceptance = 85
 			}
 		}
+
 		democratic_influence = {
 			
 			
@@ -153,6 +106,42 @@ ideas = {
 			}
 		}
 		
+		communism_banned = {
+			picture = anti_soviet_pact
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				communism_drift = -0.05
+			}
+		}
+
+		fascism_banned = {
+
+			picture = generic_fascism_banned
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				fascism_drift = -0.05
+			}
+		}
+
 		soviet_german_friendship = {
 			allowed = {
 				always = no
@@ -208,8 +197,6 @@ ideas = {
 		
 		# Generic Focus Ideas
 
-		
-		
 		collectivist_ethos_focus = {
 			
 		
@@ -230,30 +217,30 @@ ideas = {
 				economy_cost_factor = -1.0
 			}
 		}
-	
-		liberty_ethos_focus = {
-			
+
+		nationalism = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = fascism
 			}
-			
+
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
-	
+			picture = generic_infantry_bonus
+
+			
 			modifier = {
-				research_speed_factor = 0.10
-				trade_laws_cost_factor = -1.0
-				production_speed_dockyard_factor = 0.10
-				trade_opinion_factor = 20
+				justify_war_goal_when_in_major_war_time = -0.80
+				political_power_gain = 0.5
+				army_attack_factor = 0.05
+		        army_defence_factor = 0.05
 			}
 		}
-	
+
 		militarism_focus = {
 			
 			
@@ -294,8 +281,8 @@ ideas = {
 			picture = generic_manpower_bonus
 	
 			modifier = {
-				experience_loss_factor = -0.5
 				conscription = 0.015
+				truck_attrition_factor = -0.50
 			}
 		}
 	
@@ -319,9 +306,53 @@ ideas = {
 	
 			modifier = {
 				attrition = -0.12
+				experience_loss_factor = -0.25
 			}
 		}
-	
+
+		internationalism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				army_morale_factor = 0.12
+				license_production_speed = 0.25 #speed  increase for being a license
+				license_tech_difference_speed = -0.05 #less cost increase for each tech level between the license and own tech level 
+				mobilization_speed = 1.00
+				conscription = 0.025
+			}
+		}
+
+		idea_political_correctness = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+				foreign_subversive_activites = -0.75
+				training_time_army_factor = -0.5
+			}			
+		}
+
 		indoctrination_focus = {
 			
 			
@@ -342,10 +373,33 @@ ideas = {
 	
 			modifier = {
 				local_resources_factor = 0.30
-				war_support_factor = 0.05
+				surrender_limit = 0.10
+				war_support_weekly_factor = 0.5
 			}
 		}
+
+		political_commissars_focus = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
 	
+			modifier = {
+				supply_consumption_factor = -0.15
+				army_fuel_capacity_factor = 0.5
+				army_strength_factor = 0.025
+			}
+		}
+
 		ideological_fanaticism_focus = {
 			
 			
@@ -366,15 +420,16 @@ ideas = {
 			}
 	
 			modifier = {
-				war_support_factor = 0.05
+				war_support_factor = 0.20
 				army_core_attack_factor = 0.05
 				army_core_defence_factor = 0.05
 				conscription = 0.015
 				command_power_gain_mult = 0.5
 			}
 		}
-	
-		political_commissars_focus = {
+
+
+		liberty_ethos_focus = {
 			
 			
 			allowed = {
@@ -382,15 +437,18 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = democratic
 			}
 			
 			removal_cost = -1
 
-			picture = generic_morale_bonus
+			picture = generic_democratic_drift_bonus
 	
 			modifier = {
-				supply_consumption_factor = -0.15
+				research_speed_factor = 0.10
+				trade_laws_cost_factor = -1.0
+				production_speed_dockyard_factor = 0.10
+				trade_opinion_factor = 20
 			}
 		}
 	
@@ -441,7 +499,7 @@ ideas = {
 				production_speed_bunker_factor = 0.1
 				production_speed_coastal_bunker_factor = 0.1
 				production_speed_anti_air_building_factor = 0.1
-#				industrial_capacity_factory = 0.14
+			#	industrial_capacity_factory = 0.14
 				production_factory_max_efficiency_factor = 0.20
 				production_factory_efficiency_gain_factor = -0.17
 			}
@@ -461,10 +519,10 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 
 			modifier = {
-#			send_volunteer_divisions_required = -5.00
-			line_change_production_efficiency_factor = 0.70
-#			production_factory_start_efficiency_factor = 0.15
-#			production_factory_efficiency_gain_factor = 0.25
+			#	send_volunteer_divisions_required = -5.00
+				line_change_production_efficiency_factor = 0.70
+			#	production_factory_start_efficiency_factor = 0.15
+			#	production_factory_efficiency_gain_factor = 0.25
 			}
 		}
 
@@ -482,12 +540,12 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
-			research_speed_factor = 0.25
-#			invasion_preparation = -0.25
-#			special_forces_attack_factor = 0.05
-#			special_forces_defence_factor = 0.05
-#			amphibious_invasion_defence = 0.50
-#			naval_invasion_capacity = 20
+				research_speed_factor = 0.25
+			#	invasion_preparation = -0.25
+			#	special_forces_attack_factor = 0.05
+			#	special_forces_defence_factor = 0.05
+			#	amphibious_invasion_defence = 0.50
+			#	naval_invasion_capacity = 20
 			}
 		}
 
@@ -509,69 +567,33 @@ ideas = {
 			}
 
 			modifier = {
-				war_support_factor = 0.10
+				war_support_factor = 0.20
 				production_speed_bunker_factor = 0.1
 				production_speed_coastal_bunker_factor = 0.1
 				production_speed_anti_air_building_factor = 0.1
-		
 			}
 		}	
 
-		idea_political_correctness = {
+		technology_sharing_idea = {
+			
 			allowed = {
 				always = no
 			}
-
-			allowed_civil_war = {
-				always = yes
-			}
 			
+			picture = air_support_focus
+
 			removal_cost = -1
-
-			picture = generic_intel_bonus
 			
-			modifier = {
-				justify_war_goal_time = -0.25
-				foreign_subversive_activites = -0.75
-				mobilization_speed = 1.00
-			}			
-		}
-
-		communism_banned = {
-			picture = anti_soviet_pact
-			allowed = {
-				always = no
+			research_bonus = {
+				industry = 0.5
+				electronics = 0.5
 			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
-			}
-
 			modifier = {
-				communism_drift = -0.05
+				research_sharing_per_country_bonus = 0.5
 			}
 		}
 
-		fascism_banned = {
 
-			picture = generic_fascism_banned
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-
-			modifier = {
-				fascism_drift = -0.05
-			}
-		}
 	}
 	
 	political_advisor = {

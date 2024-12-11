@@ -224,8 +224,9 @@
  SWE_valtion_panssaritehdas_organization:0 "州立装甲車工場"
 
 ##IB_additional_cost_factor##
- IB_tank_cost_modifier_tt:0 "全種類の戦車改造コスト：§G-60%§!"
+ IB_tank_cost_modifier_tt:0 "全種類の戦車改造コスト：§G-50%§!"
  mechanized_equipment_design_cost_factor:0 "機械化装備改造コスト"
+ amphibious_mechanized_equipment_design_cost_factor:0 "水陸機械化装備改造コスト"
  light_tank_chassis_design_cost_factor:0 "軽戦車車体改造コスト"
  medium_tank_chassis_design_cost_factor:0 "中戦車車体改造コスト"
  heavy_tank_chassis_design_cost_factor:0 "重戦車車体改造コスト"
