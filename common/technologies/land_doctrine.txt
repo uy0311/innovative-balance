@@ -1344,48 +1344,48 @@ technologies = {
 		artillery_brigade = {
 			forest = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			hills = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			mountain = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			jungle = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			marsh = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			plains = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			farmland = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			urban = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			desert = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			river = {
 				movement = 0.25
@@ -1398,48 +1398,48 @@ technologies = {
 		rocket_artillery_brigade = {
 			forest = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			hills = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			mountain = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			jungle = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			marsh = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			plains = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			farmland = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			urban = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			desert = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			river = {
 				movement = 0.25
@@ -1452,48 +1452,48 @@ technologies = {
 		anti_tank_brigade = {
 			forest = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			hills = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			mountain = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			jungle = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			marsh = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			plains = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			farmland = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			urban = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			desert = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			river = {
 				movement = 0.25
@@ -1506,48 +1506,48 @@ technologies = {
 		anti_air_brigade = {
 			forest = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			hills = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			mountain = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			jungle = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			marsh = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			plains = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			farmland = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			urban = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			desert = {
 				movement = 0.25
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			river = {
 				movement = 0.25
@@ -1560,160 +1560,160 @@ technologies = {
 		mot_artillery_brigade = {
 			maximum_speed = 0.45
 			forest = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			hills = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			mountain = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			jungle = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			marsh = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			plains = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			farmland = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			urban = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			desert = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 		}
 
 		mot_rocket_artillery_brigade = {
 			maximum_speed = 0.45
 			forest = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			hills = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			mountain = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			jungle = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			marsh = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			plains = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			farmland = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			urban = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			desert = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 		}
 
 		mot_anti_tank_brigade = {
 			maximum_speed = 0.45
 			forest = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			hills = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			mountain = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			jungle = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			marsh = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			plains = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			farmland = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			urban = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			desert = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 		}
 
 		mot_anti_air_brigade = {
 			maximum_speed = 0.45
 			forest = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			hills = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			mountain = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			jungle = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			marsh = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			plains = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			farmland = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			urban = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 			desert = {
-				attack = 0.25
-				defence = 0.25
+				attack = 0.15
+				defence = 0.15
 			}
 		}
 		
@@ -3186,7 +3186,7 @@ technologies = {
 		org_loss_when_moving = -0.15
 
 		category_light_infantry = {
-			max_organisation = 10
+			max_organisation = 15
 			default_morale = 0.1
 		}
 		armored_car = {
@@ -3374,6 +3374,7 @@ technologies = {
 
 		category_artillery = {
 			max_organisation = 10
+			default_morale = 0.10
 			defense = 0.2
 		}
 
@@ -4319,7 +4320,7 @@ technologies = {
 		land_reinforce_rate = 0.04
 		enemy_army_bonus_air_superiority_factor = -10.00
 		army_bonus_air_superiority_factor = -10.00
-		experience_loss_factor = -0.34
+		experience_loss_factor = -0.25
 
 		category_all_infantry = {
 			default_morale = 0.20
@@ -4433,6 +4434,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		land_reinforce_rate = 0.04
+		army_fuel_consumption_factor = -0.80
 		army_org_regain = 0.2
 
 		armored_car = {

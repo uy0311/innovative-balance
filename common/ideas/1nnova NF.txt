@@ -14,9 +14,8 @@ ideas = {
 			picture = generic_build_infrastructure
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.15
+				production_speed_supply_node_factor = 0.15
 				production_speed_rail_way_factor = 0.15
-				war_support_factor = 0.05
 			}
 		}
 		
@@ -32,9 +31,8 @@ ideas = {
 			picture = generic_build_infrastructure
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.15
+				production_speed_supply_node_factor = 0.15
 				production_speed_rail_way_factor = 0.15
-				war_support_factor = 0.05
 			}
 		}
 		
@@ -80,22 +78,6 @@ ideas = {
 			
 			research_bonus = {
 				nuclear = 0.8
-			}
-		}
-
-		technology_sharing_idea = {
-			
-			allowed = {
-				always = no
-			}
-			
-			picture = air_support_focus
-
-			removal_cost = -1
-			
-			research_bonus = {
-				industry = 0.5
-				electronics = 0.5
 			}
 		}
 
