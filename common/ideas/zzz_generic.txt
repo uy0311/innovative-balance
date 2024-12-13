@@ -349,7 +349,7 @@ ideas = {
 			modifier = {
 				justify_war_goal_time = -0.25
 				foreign_subversive_activites = -0.75
-				training_time_army_factor = -0.5
+				training_time_army_factor = -0.25
 			}			
 		}
 

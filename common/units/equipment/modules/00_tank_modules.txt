@@ -396,6 +396,7 @@ equipment_modules = {
 		abbreviation = "l2m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_light_one_man_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -421,6 +422,7 @@ equipment_modules = {
 		abbreviation = "l3m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_light_two_man_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -446,6 +448,7 @@ equipment_modules = {
 		abbreviation = "l3mCH"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_light_three_man_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -561,6 +564,7 @@ equipment_modules = {
 		abbreviation = "m2m"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_one_man_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -585,6 +589,7 @@ equipment_modules = {
 		abbreviation = "m3m"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_two_man_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -610,6 +615,7 @@ equipment_modules = {
 		abbreviation = "m3mCH"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_three_man_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -752,6 +758,7 @@ equipment_modules = {
 		abbreviation = "h3m"
 		category = tank_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_heavy_two_man_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -778,6 +785,7 @@ equipment_modules = {
 		abbreviation = "h3mCH"
 		category = tank_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_heavy_three_man_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -994,6 +1002,7 @@ equipment_modules = {
 		abbreviation = "mbtCH"
 		category = tank_modern_turret_type
 		sfx = sfx_ui_sd_module_turret
+		parent = tank_modern_tank_turret
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -1344,7 +1353,7 @@ equipment_modules = {
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
-		parent = tank_medium_cannon_2
+		parent = tank_small_cannon_2
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -1674,7 +1683,7 @@ equipment_modules = {
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
-		parent = tank_heavy_cannon_2
+		parent = tank_medium_cannon_2
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
@@ -1776,6 +1785,7 @@ equipment_modules = {
 		category = tank_super_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
+		parent = tank_super_heavy_cannon
 
 		allowed_module_categories = {
 			special_type_slot_1 = {
