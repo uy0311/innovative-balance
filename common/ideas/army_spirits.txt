@@ -478,7 +478,7 @@ ideas = {
 			ledger = army
 			modifier = {
 				tactic_delay_preferred_weight_factor = 1
-				training_time_army_factor = -0.15
+				training_time_army_factor = -0.10
 			}
 			ai_will_do = {
 				factor = 1
