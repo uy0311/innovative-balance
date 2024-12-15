@@ -589,7 +589,7 @@ ideas = {
 				electronics = 0.5
 			}
 			modifier = {
-				research_sharing_per_country_bonus = 0.5
+				research_sharing_per_country_bonus_factor = 2.0
 			}
 		}
 
