@@ -392,11 +392,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
+			max_organisation = 15#3
 			breakthrough = 0.20
 		}
 		
 		category_all_armor = {
-			max_organisation = 15#3
 			maximum_speed = 0.10
 		}
 
@@ -468,8 +468,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		category_all_armor = {
+		category_tanks = {
 			max_organisation = 10#2
+		}
+
+		category_all_armor = {
 			default_morale = 0.1
 		}
 		
@@ -522,8 +525,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		category_all_armor = {
+		category_tanks = {
 			max_organisation = 5#1
+		}
+
+		category_all_armor = {
 			default_morale = 0.1
 		}
 		armored_car = {
@@ -654,7 +660,7 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 20
 		}
-		category_all_armor = {
+		category_tanks = {
 			max_organisation = 10#2
 		}
 		armored_car = {
@@ -2512,7 +2518,7 @@ technologies = {
 
 		category_light_infantry = {
 			max_organisation = 10
-			defense = 0.15
+			defense = 0.10
 		}
 		
 		path = {
