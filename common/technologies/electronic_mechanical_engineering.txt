@@ -370,8 +370,6 @@ technologies = {
 	tank_radio_1 = {
 		
 		category_all_armor = {
-			breakthrough = 0.10
-			defense = 0.20
 			initiative = 0.01
 		}
 
