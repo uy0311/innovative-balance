@@ -2625,31 +2625,31 @@ technologies = {
 
 		infantry = {
 			max_organisation = 20
-			default_morale = 0.2
+			default_morale = 0.1
 			initiative = 0.01
 		}
 
 		mountaineers = {
 			max_organisation = 20
-			default_morale = 0.2
+			default_morale = 0.1
 			initiative = 0.01
 		}
 
 		rangers_support = {
 			max_organisation = 20
-			default_morale = 0.2
+			default_morale = 0.1
 			initiative = 0.01
 		}
 
 		paratrooper = {
 			max_organisation = 20
-			default_morale = 0.2
+			default_morale = 0.1
 			initiative = 0.01
 		}
 
 		armored_car = {
 			max_organisation = 20
-			default_morale = 0.2
+			default_morale = 0.1
 			initiative = 0.01
 		}
 		
@@ -3323,7 +3323,7 @@ technologies = {
 		land_night_attack = 0.25 # negates half of base penalty
 
 		category_light_infantry = {
-			default_morale = 0.15
+			default_morale = 0.1
 		}
 
 		path = {
