@@ -3131,6 +3131,21 @@ technologies = {
 			default_morale = 0.2
 		}
 
+		medium_sp_artillery_brigade = {
+			max_organisation = 10
+			default_morale = 0.1
+		}
+
+		medium_tank_destroyer_brigade = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+
+		medium_sp_anti_air_brigade = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+
 		enable_tactic = tactic_blitz
 		enable_tactic = tactic_elastic_defense
 		

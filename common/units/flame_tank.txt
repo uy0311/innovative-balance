@@ -5,7 +5,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 2505
 		ai_priority = 0
-		active = no
+		active = yes
 
 		type = {
 			armor
@@ -78,7 +78,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 2506
 		ai_priority = 0
-		active = no
+		active = yes
 
 		type = {
 			armor
@@ -153,7 +153,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 2507
 		ai_priority = 0
-		active = no
+		active = yes
 
 		type = {
 			armor
