@@ -684,7 +684,7 @@ equipments = {
 			tank_reliability_upgrade
 		}
 		maximum_speed = 4
-		build_cost_ic = 4.0
+		build_cost_ic = 100
 		reliability = 0.4
 		armor_value = 20
 		resources = {
@@ -768,9 +768,10 @@ equipments = {
 			#	}
 			#}
 		}
-
-		armor_value = 40
+		maximum_speed = 4
 		build_cost_ic = 4.5
+		reliability = 0.5
+		armor_value = 40
 	}
 
 	medium_tank_chassis_2 = {

@@ -60,12 +60,6 @@ technologies = {
 			flamethrower
 		}
 
-		enable_subunits = {
-			light_flame_tank
-			medium_flame_tank
-			heavy_flame_tank
-		}
-
 		force_use_small_tech_layout = yes
 		doctrine = yes	
 		research_cost = 4.5
@@ -269,11 +263,6 @@ technologies = {
 		
 		enable_equipment_modules = {
 			amphibious_drive
-		}
-		
-		enable_subunits = {
-			amphibious_light_armor
-			amphibious_medium_armor
 		}
 
 		force_use_small_tech_layout = yes
