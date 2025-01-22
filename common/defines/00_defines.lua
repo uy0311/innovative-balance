@@ -302,9 +302,9 @@ NCountry = {
 	WEEKLY_STABILITY_GAIN = 0.02,
 	WEEKLY_WAR_SUPPORT_GAIN = 0.0,
 	SUPPLY_CONVOY_FACTOR = 0.25,					-- How many convoys each supply needs
-	CONVOY_RANGE_FACTOR = 1,                        -- How much range affects convoy need for resource trades and supply
-	CONVOY_LENDLEASE_RANGE_FACTOR = 1,				-- How much range affects convoy need for lend lease
-	CONVOY_INTERNATIONAL_MARKET_RANGE_FACTOR = 1,	-- How much range affects convoy need for international market
+	CONVOY_RANGE_FACTOR = 0.5,                        -- How much range affects convoy need for resource trades and supply
+	CONVOY_LENDLEASE_RANGE_FACTOR = 0.5,				-- How much range affects convoy need for lend lease
+	CONVOY_INTERNATIONAL_MARKET_RANGE_FACTOR = 0.5,	-- How much range affects convoy need for international market
 	LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR = 0.50,  -- accessible recruitable factor base
 	MAX_NON_CORE_MANPOWER_FACTOR = 1.0,				-- max clamp for recruitable local non core manpower factor for states
 	DEFAULT_STABILITY = 0.5,						-- Default stability if not scripted otherwise.
@@ -1963,11 +1963,11 @@ NNavy = {
 	NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 0.0,						-- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant
 
 	NAVAL_COMBAT_AIR_SUB_TARGET_SCORE = 10.0,                             -- scoring for target picking for planes inside naval combat, one define per ship typ
-	NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 50,
+	NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 20,
 	NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 15,
 	NAVAL_COMBAT_AIR_CONVOY_TARGET_SCORE = 10,
 	NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE = 5,                         -- how much score factor from low health (scales between 0->this number)
-	NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 0,                           -- how much score factor from low AA guns (scales between 0->this number)
+	NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 5,                           -- how much score factor from low AA guns (scales between 0->this number)
 
 	NEW_NAVY_LEADER_LEVEL_CHANCES = {									-- chances for new navy leaders to start at a given level
 		0.95, -- 95% for level one
