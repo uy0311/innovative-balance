@@ -105,12 +105,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits = { defensive_doctrine offensive_doctrine }
-			skill=4
-			attack_skill = 3
-	        defense_skill = 2
-	        planning_skill = 3
-	        logistics_skill = 2
+			traits = { old_guard defensive_doctrine offensive_doctrine ambusher infantry_expert }
+			skill=6
+			attack_skill = 4
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 4
 			legacy_id=1
 		}
 	}
@@ -124,12 +124,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits = { defensive_doctrine offensive_doctrine }
-			skill=3
-			attack_skill = 3
-	        defense_skill = 2
+			traits = { organizer defensive_doctrine offensive_doctrine ambusher infantry_expert }
+			skill=6
+			attack_skill = 4
+	        defense_skill = 5
 	        planning_skill = 3
-	        logistics_skill = 2
+	        logistics_skill = 3
 			legacy_id=2
 		}
 	}
@@ -144,7 +144,7 @@ characters={
 		}
 		field_marshal = {
 			traits={ thorough_planner logistics_wizard }
-			skill=2
+			skill=3
 			attack_skill = 3
 	        defense_skill = 2
 	        planning_skill = 3
@@ -212,9 +212,9 @@ characters={
 		field_marshal={
 			traits={ offensive_doctrine thorough_planner fast_planner brilliant_strategist aggressive_assaulter trickster }
 			skill=7
-			attack_skill = 5
-	        defense_skill = 5
-	        planning_skill = 7
+			attack_skill = 4
+	        defense_skill = 4
+	        planning_skill = 9
 	        logistics_skill = 3
 			legacy_id=5
 		}
@@ -318,8 +318,8 @@ characters={
 			}
 		}
 		field_marshal={
-			traits= { inspirational_leader defensive_doctrine organisational_leader trait_engineer logistics_wizard }
-			skill=5
+			traits= { inflexible_strategist unyielding_defender inspirational_leader defensive_doctrine organisational_leader trait_engineer logistics_wizard }
+			skill=6
 			attack_skill = 3
 	        defense_skill = 6
 	        planning_skill = 2
@@ -429,10 +429,10 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ commando hill_fighter }
+			traits={ commando hill_fighter ambusher infantry_expert }
 			skill=4
 			attack_skill = 4
-	        defense_skill = 2
+	        defense_skill = 4
 	        planning_skill = 4
 	        logistics_skill = 3
 			legacy_id=16
@@ -467,11 +467,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ panzer_leader  }
-			skill=4
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
+			traits={ panzer_leader urban_assault_specialist trait_engineer }
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=4
 			logistics_skill=3
 			legacy_id=18
 		}
