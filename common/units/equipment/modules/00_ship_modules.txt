@@ -1807,7 +1807,7 @@ equipment_modules = {
 	light_ship_engine_2 = {
 		abbreviation = "sbo"
 		category = light_ship_engine
-		parent = light_ship_engine_1
+		#parent = light_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1836,7 +1836,7 @@ equipment_modules = {
 	light_ship_engine_3 = {
 		abbreviation = "sbp"
 		category = light_ship_engine
-		parent = light_ship_engine_2
+		#parent = light_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1864,7 +1864,7 @@ equipment_modules = {
 	light_ship_engine_4 = {
 		abbreviation = "sbq"
 		category = light_ship_engine
-		parent = light_ship_engine_3
+		#parent = light_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1917,7 +1917,7 @@ equipment_modules = {
 	sub_ship_engine_2 = {
 		abbreviation = "sbs"
 		category = sub_ship_engine
-		parent = sub_ship_engine_1
+		#parent = sub_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1947,7 +1947,7 @@ equipment_modules = {
 	sub_ship_engine_3 = {
 		abbreviation = "sbt"
 		category = sub_ship_engine
-		parent = sub_ship_engine_2
+		#parent = sub_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1976,7 +1976,7 @@ equipment_modules = {
 	sub_ship_engine_4 = {
 		abbreviation = "sbu"
 		category = sub_ship_engine
-		parent = sub_ship_engine_3
+		#parent = sub_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2028,7 +2028,7 @@ equipment_modules = {
 	cruiser_ship_engine_2 = {
 		abbreviation = "sbw"
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_1
+		#parent = cruiser_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2057,7 +2057,7 @@ equipment_modules = {
 	cruiser_ship_engine_3 = {
 		abbreviation = "sbx"
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_2
+		#parent = cruiser_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2085,7 +2085,7 @@ equipment_modules = {
 	cruiser_ship_engine_4 = {
 		abbreviation = "sby"
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_3
+		#parent = cruiser_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2136,7 +2136,7 @@ equipment_modules = {
 	heavy_ship_engine_2 = {
 		abbreviation = "sca"
 		category = heavy_ship_engine
-		parent = heavy_ship_engine_1
+		#parent = heavy_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2165,7 +2165,7 @@ equipment_modules = {
 	heavy_ship_engine_3 = {
 		abbreviation = "scb"
 		category = heavy_ship_engine
-		parent = heavy_ship_engine_2
+		#parent = heavy_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2194,7 +2194,7 @@ equipment_modules = {
 	heavy_ship_engine_4 = {
 		abbreviation = "scc"
 		category = heavy_ship_engine
-		parent = heavy_ship_engine_3
+		#parent = heavy_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2246,7 +2246,7 @@ equipment_modules = {
 	carrier_ship_engine_2 = {
 		abbreviation = "sce"
 		category = carrier_ship_engine
-		parent = carrier_ship_engine_1
+		#parent = carrier_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2275,7 +2275,7 @@ equipment_modules = {
 	carrier_ship_engine_3 = {
 		abbreviation = "scf"
 		category = carrier_ship_engine
-		parent = carrier_ship_engine_2
+		#parent = carrier_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 		
 		
@@ -2303,7 +2303,7 @@ equipment_modules = {
 	carrier_ship_engine_4 = {
 		abbreviation = "scg"
 		category = carrier_ship_engine
-		parent = carrier_ship_engine_3
+		#parent = carrier_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -2822,6 +2822,7 @@ equipment_modules = {
 		gfx = ship_sonar_2
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_1
+
 		add_stats = {
 			sub_detection = 7.0
 		}
@@ -2838,6 +2839,7 @@ equipment_modules = {
 		category = ship_sonar
 		gfx = ship_sonar_3
 		sfx = sfx_ui_sd_module_sonar
+		parent = ship_sonar_2
 		
 		add_stats = {
 			sub_detection = 11.0
@@ -2855,6 +2857,7 @@ equipment_modules = {
 		category = ship_sonar
 		gfx = ship_sonar_4
 		sfx = sfx_ui_sd_module_sonar
+		parent = ship_sonar_3
 		
 		add_stats = {
 			sub_detection = 15.0
@@ -2914,7 +2917,7 @@ equipment_modules = {
 		abbreviation = "sdg"
 		category = ship_heavy_armor
 		gfx = ship_armor_thick_2
-		parent = ship_armor_bb_1
+		#parent = ship_armor_bb_1
 		multiply_stats = {
 			build_cost_ic = 0.15
 			max_strength = 0.2
@@ -2934,7 +2937,7 @@ equipment_modules = {
 		abbreviation = "sdh"
 		category = ship_heavy_armor
 		gfx = ship_armor_2
-		parent = ship_armor_bc_1
+		#parent = ship_armor_bc_1
 		multiply_stats = {
 			build_cost_ic = 0.1
 		}
@@ -2952,7 +2955,7 @@ equipment_modules = {
 		abbreviation = "sdi"
 		category = ship_heavy_armor
 		gfx = ship_armor_thick_3
-		parent = ship_armor_bb_2
+		#parent = ship_armor_bb_2
 		multiply_stats = {
 			build_cost_ic = 0.15
 			max_strength = 0.30
@@ -2973,7 +2976,7 @@ equipment_modules = {
 		abbreviation = "sdj"
 		category = ship_heavy_armor
 		gfx = ship_armor_3
-		parent = ship_armor_bc_2
+		#parent = ship_armor_bc_2
 		multiply_stats = {
 			build_cost_ic = 0.1
 		}
@@ -3051,7 +3054,7 @@ equipment_modules = {
 		abbreviation = "sdg"
 		category = ship_cruiser_armor
 		gfx = ship_armor_thin_2
-		parent = ship_armor_cruiser_1
+		#parent = ship_armor_cruiser_1
 		multiply_stats = {
 			build_cost_ic = 0.10
 			max_strength = 0.15
@@ -3071,7 +3074,7 @@ equipment_modules = {
 		abbreviation = "sdn"
 		category = ship_cruiser_armor
 		gfx = ship_armor_thin_3
-		parent = ship_armor_cruiser_2
+		#parent = ship_armor_cruiser_2
 		multiply_stats = {
 			build_cost_ic = 0.15
 			max_strength = 0.20
@@ -3092,7 +3095,7 @@ equipment_modules = {
 		abbreviation = "sdo"
 		category = ship_cruiser_armor
 		gfx = ship_armor_thin_4
-		parent = ship_armor_cruiser_3
+		#parent = ship_armor_cruiser_3
 		multiply_stats = {
 			build_cost_ic = 0.20
 			max_strength = 0.25

@@ -51,10 +51,10 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { defensive_doctrine inflexible_strategist organizer logistics_wizard unyielding_defender}
+			traits = { inflexible_strategist skilled_staffer organizer logistics_wizard unyielding_defender }
 	        skill = 3
         
-	        attack_skill = 3
+	        attack_skill = 4
 	        defense_skill = 5
 	        planning_skill = 4
 	        logistics_skill = 6
@@ -62,7 +62,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 150
+			cost = 100
 			slot = theorist
 			idea_token = georgy_zhukov
 			ledger = army
@@ -70,7 +70,7 @@ characters = {
 				original_tag = SOV
 			}
 			traits = {
-				mobile_warfare_expert
+				military_theorist
 			}
 		}		
 	}
@@ -86,13 +86,13 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { panzer_leader hill_fighter ranger}
+			traits = { skilled_staffer panzer_leader cavalry_leader hill_fighter ranger }
 	        skill = 3
 	        
-	        attack_skill = 4
-	        defense_skill = 2
+	        attack_skill = 5
+	        defense_skill = 3
 	        planning_skill = 4
-	        logistics_skill = 3
+	        logistics_skill = 4
 			legacy_id = 402
 		}
 
@@ -122,13 +122,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { panzer_leader trickster trait_engineer }
-	        skill = 2
+			traits = { skilled_staffer panzer_leader trickster trait_engineer commando winter_specialist }
+	        skill = 3
         
-	        attack_skill = 4
+	        attack_skill = 5
 	        defense_skill = 4
 	        planning_skill = 3
-	        logistics_skill = 2
+	        logistics_skill = 3
 			legacy_id = 407
 		}
 
@@ -155,18 +155,6 @@ characters = {
 			army = {
 				small = "GFX_idea_boris_shaposhnikov"
 				large = "gfx/leaders/SOV/Portrait_Soviet_Boris_Shaposhnikov.dds"
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = boris_shaposhnikov
-			ledger = army
-			allowed = {
-				original_tag = SOV
-			}
-			traits = {
-				military_theorist
 			}
 		}
 
@@ -228,12 +216,12 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { winter_specialist commando trait_engineer}
-	        skill = 2
+			traits = { skilled_staffer winter_specialist commando trait_engineer}
+	        skill = 3
         
 	        attack_skill = 3
-	        defense_skill = 3
-	        planning_skill = 4
+	        defense_skill = 5
+	        planning_skill = 3
 	        logistics_skill = 4
 			legacy_id = 408
 		}
