@@ -52,7 +52,7 @@ MAN_mamc_light_organization = {
 
 MAN_mamc_medium_organization = {
 	include = generic_medium_aircraft_organization
-	icon = GFX_idea_generic_air_manufacturer_1
+	icon = GFX_idea_generic_air_manufacturer_2
 	allowed = {	
 		original_tag = MAN
 		has_dlc = "Waking the Tiger"
@@ -61,7 +61,7 @@ MAN_mamc_medium_organization = {
 
 MAN_mamc_heavy_organization = {
 	include = generic_heavy_aircraft_organization
-	icon = GFX_idea_generic_air_manufacturer_1
+	icon = GFX_idea_generic_air_manufacturer_3
 	allowed = {	
 		original_tag = MAN
 		has_dlc = "Waking the Tiger"
