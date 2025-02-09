@@ -1879,11 +1879,11 @@ technologies = {
 		show_equipment_icon = yes
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1939
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 13 }
+			position = { x = 0 y = 11 }
 		}
 
 		ai_will_do = {
