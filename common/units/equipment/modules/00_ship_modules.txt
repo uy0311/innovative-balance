@@ -1290,7 +1290,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			build_cost_ic = 2430
+			build_cost_ic = 2025
 			max_strength = 40
 			hg_attack = 24
 			naval_heavy_gun_hit_chance_factor = 0.015
