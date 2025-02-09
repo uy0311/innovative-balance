@@ -49,9 +49,9 @@ sub_units = {
 		    attack = -0.1
 		}
 		jungle = {
-		    attack = 0.1
-			defence = 0.1
-			movement = -0.2
+		    attack = 1.0
+			defence = 0.3
+			movement = 0.3
 		}
 		marsh = {
 		    attack = -0.1 
@@ -124,9 +124,9 @@ sub_units = {
 		    attack = -0.2
 		}
 		jungle = {
-		    attack = 0.0
-			defence = 0.1
-			movement = -0.2
+		    attack = 0.9
+			defence = 0.3
+			movement = 0.3
 		}
 		marsh = {
 		    attack = -0.1 
@@ -199,9 +199,9 @@ sub_units = {
 		    attack = -0.3
 		}
 		jungle = {
-		    attack = -0.1
-			defence = 0.1
-			movement = -0.2
+		    attack = 0.8
+			defence = 0.3
+			movement = 0.3
 		}
 		marsh = {
 		    attack = -0.3
