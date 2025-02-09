@@ -579,7 +579,7 @@ NResistance = {
 
 NProduction = {
 	MAX_EQUIPMENT_RESOURCES_NEED = 3, 	-- Max number of different strategic resources an equipment can be dependent on.
-	MAX_CIV_FACTORIES_PER_LINE = 15,	-- Max number of factories that can be assigned a single production line.
+	MAX_CIV_FACTORIES_PER_LINE = 45,	-- Max number of factories that can be assigned a single production line.
 	DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 30,
 	FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 5,
 	CONVOY_MAX_NAV_FACTORIES_PER_LINE = 600,
@@ -591,7 +591,7 @@ NProduction = {
 	RESOURCE_PENALTY_WARNING_CRITICAL_RATIO =  0.8, -- Switch to red progress bar if penalty is over threshold
 	BASE_FACTORY_SPEED = 7.3, 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
 	BASE_FACTORY_SPEED_MIL = 4.5, 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
-	BASE_FACTORY_SPEED_NAV = 4.5, 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
+	BASE_FACTORY_SPEED_NAV = 6.75, 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
 	BASE_FACTORY_START_EFFICIENCY_FACTOR = 10,	-- Base start efficiency for factories expressed in %.
 	BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 50,	-- Base max efficiency for factories expressed in %.
 	BASE_FACTORY_EFFICIENCY_GAIN = 1,		-- Base efficiency factor.
@@ -1482,7 +1482,7 @@ NNavy = {
 	REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.8,						-- % of total damaged ships, that will be sent for repair-and-return in one call.
 	REPAIR_AND_RETURN_UNIT_DYING_STR = 0.2,							-- Str below this point is considering a single ship "dying", and a high priority to send to repair.
 	EXPERIENCE_LOSS_FACTOR = 1.00,                 					-- percentage of experienced solders who die when manpower is removed
-	NAVY_EXPENSIVE_IC = 5500,										-- How much IC is considering the fleet to be expensive. Those expensive will triger the alert, when are on low STR.
+	NAVY_EXPENSIVE_IC = 10000,										-- How much IC is considering the fleet to be expensive. Those expensive will triger the alert, when are on low STR.
 	MISSION_MAX_REGIONS = 0,										-- Limit of the regions that can be assigned to naval mission. Set to 0 for unlimited.
 	CONVOY_EFFICIENCY_LOSS_MODIFIER = 4.0,							-- How much efficiency drops when losing convoys. If modifier is 0.5, then losing 100% of convoys in short period, the efficiency will drop by 50%.
 	CONVOY_EFFICIENCY_REGAIN_AFTER_DAYS = 5,						-- Convoy starts regaining it's efficiency after X days without any convoys being sink.
@@ -1847,7 +1847,7 @@ NNavy = {
 	SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS 					= 3.0,	-- this screen ratio to num capital/carriers is needed for full screening beyond screen line
 	SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS 					= 0.34,	-- this screen ratio to num convoys is needed for full screening beyond screen line
 	CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CARRIERS 					= 0.34,  -- this capital ratio to num carriers is needed for full screening beyond screen line
-	CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS 					= 0.1,  -- this capital ratio to num convoys is needed for full screening beyond screen line
+	CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS 					= 0.05,  -- this capital ratio to num convoys is needed for full screening beyond screen line
 
 	TASK_FORCE_ROLE_TO_INSIGNIA = {								-- define the index of the insignia to use for a task force designed for a specific role
 		6,	-- Role undefined
@@ -1885,7 +1885,7 @@ NNavy = {
 	HIT_PROFILE_SPEED_BASE											= 20,		-- Base value added to hitprofile speed calulation
 
 	CONVOY_RAID_MAX_REGION_TO_TASKFORCE_RATIO						= 1.0,		-- each taskforce in convoy raid mission can at most cover this many regions without losing efficiency
-	CONVOY_DEFENSE_MAX_CONVOY_TO_SHIP_RATIO							= 20.0,		-- each ship in convoy defense mission can at most cover this many convoys without losing efficiency
+	CONVOY_DEFENSE_MAX_CONVOY_TO_SHIP_RATIO							= 25.0,		-- each ship in convoy defense mission can at most cover this many convoys without losing efficiency
 	CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO					= 5.0,		-- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency
 
 	MINE_SWEEPING_SUPREMACY_EFFICIENCY_MAX_REGION_TO_TASKFORCE_RATIO = 1.0,		-- mine missions will get lower supremacies if they are assigned more regions than this

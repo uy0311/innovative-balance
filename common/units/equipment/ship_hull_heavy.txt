@@ -143,7 +143,7 @@ equipments = {
 
 		fuel_consumption = 67
 		
-		build_cost_ic = 3300
+		build_cost_ic = 4100
 		resources = {
 			steel = 1
 			chromium = 1
@@ -323,7 +323,7 @@ equipments = {
 		surface_visibility = 20
 		fuel_consumption = 67
 		
-		build_cost_ic = 3300
+		build_cost_ic = 5100
 	}
 	ship_hull_heavy_2 = {
 		abbreviation = "hcd"
@@ -417,7 +417,7 @@ equipments = {
 		surface_visibility = 21
 		fuel_consumption = 67
 		naval_speed = 11.5
-		build_cost_ic = 3400
+		build_cost_ic = 5400
 		resources = {
 			#oil = 1
 			steel = 1
@@ -517,7 +517,7 @@ equipments = {
 		reliability = 0.9
 		fuel_consumption = 67
 		
-		build_cost_ic = 3500
+		build_cost_ic = 5700
 		resources = {
 			#oil = 1
 			steel = 1
@@ -616,7 +616,7 @@ equipments = {
 		fuel_consumption = 67
 		reliability = 0.95
 		surface_visibility = 24
-		build_cost_ic = 3600
+		build_cost_ic = 6000
 		resources = {
 			#oil = 1
 			steel = 1
