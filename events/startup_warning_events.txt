@@ -1,0 +1,26 @@
+add_namespace = startup_warning_events
+
+country_event = {
+	id = startup_warning_events.1
+	title = startup_warning_events.1.t
+	desc = startup_warning_events.1.d
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+		name = startup_warning_events.op
+	}
+}
+country_event = {
+	id = startup_warning_events.2
+	title = startup_warning_events.2.t
+	desc = startup_warning_events.2.d
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+		name = startup_warning_events.op
+	}
+}

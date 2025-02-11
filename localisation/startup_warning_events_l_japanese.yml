@@ -1,0 +1,22 @@
+﻿l_japanese:
+ startup_warning_events.1.t: "必要なDLCが不足しています!"
+ startup_warning_events.1.d: "以下のDLCが不足している為、ゲームプレイに支障をきたす可能性があります。\n [Root.Getdlc_name_TFVName] [Root.Getdlc_name_DODName] [Root.Getdlc_name_WTTName] [Root.Getdlc_name_MTGName] [Root.Getdlc_name_LARName] [Root.Getdlc_name_NSBName] [Root.Getdlc_name_BBAName] [Root.Getdlc_name_BFTBName]"
+ startup_warning_events.2.t: "必要なDLCが不足しています!"
+ startup_warning_events.2.d: "以下のDLCが導入されている為、当該DLC未所持者はセーブデータを開けなくなります。\n [Root.Getdlc_name_AXAName] [Root.Getdlc_name_SUPName]"
+ startup_warning_events.op: "上記注意事項を確認の上、ゲームを続けて下さい"
+#Expansion DLC
+ dlc_name_TFV: "\nExpansion / Together for Victory"
+ dlc_name_DOD: "\nExpansion / Death or Dishonor"
+ dlc_name_WTT: "\nExpansion / Waking the Tiger"
+ dlc_name_MTG: "\nExpansion / Man the Guns"
+ dlc_name_LAR: "\nExpansion / La Resistance"
+ dlc_name_NSB: "\nExpansion / No Step Back"
+ dlc_name_BBA: "\nExpansion / By Blood Alone"
+ dlc_name_GOT: "\nExpansion / Götterdämmerung"
+#Country Pack
+ dlc_name_BFTB: "\nCountry Pack / Battle for the Bosporus"
+ dlc_name_TOA: "\nCountry Pack / Trial of Allegiance"
+ dlc_name_GOE: "\nCountry Pack / Graveyard of Empires"
+#Unit Pack
+ dlc_name_AXA: "\nUnit Pack / Axis Armor"
+ dlc_name_SUP: "\nUnit Pack / Expansion pass 1: Supporter Pack"

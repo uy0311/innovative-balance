@@ -34,7 +34,7 @@ CHI_sino_german_technical_mission_organization = {
 
 CHI_jiangnan_shipyard_group_organization = {
 	include = generic_task_force_ship_organization
-	icon = GFX_idea_generic_naval_manufacturer_3
+	icon = GFX_idea_generic_naval_manufacturer_1
 	allowed = {	
 		OR = {
 			is_literally_china = yes
@@ -72,12 +72,12 @@ CHI_camco_organization = {
 	include = generic_medium_aircraft_organization
 	icon = GFX_idea_CHI_camco
 	allowed = {	
-		tag = CHI
+#		tag = CHI
 	}
 }
 CHI_camco_medium_organization = {
 	include = generic_medium_aircraft_organization
-	icon = GFX_idea_CHI_camco
+	icon = GFX_idea_generic_air_manufacturer_2
 	allowed = {	
 		OR = {
 			is_literally_china = yes
@@ -88,7 +88,7 @@ CHI_camco_medium_organization = {
 }
 CHI_camco_fighter_organization = {
 	include = generic_light_aircraft_organization
-	icon = GFX_idea_CHI_camco
+	icon = GFX_idea_generic_air_manufacturer_1
 	allowed = {	
 		OR = {
 			is_literally_china = yes
@@ -99,7 +99,7 @@ CHI_camco_fighter_organization = {
 }
 CHI_camco_bomber_organization = {
 	include = generic_cas_aircraft_organization
-	icon = GFX_idea_CHI_camco
+	icon = GFX_idea_generic_air_manufacturer_3
 	allowed = {	
 		OR = {
 			is_literally_china = yes

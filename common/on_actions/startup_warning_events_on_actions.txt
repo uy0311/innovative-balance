@@ -1,0 +1,33 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = {
+						OR = {
+							NOT = { has_dlc = "Together for Victory" }
+							NOT = { has_dlc = "Death or Dishonor" }
+							NOT = { has_dlc = "Waking the Tiger" }
+							NOT = { has_dlc = "Man the Guns" }
+							NOT = { has_dlc = "La Resistance" }
+							NOT = { has_dlc = "Battle for the Bosporus" }
+							NOT = { has_dlc = "No Step Back" }
+							NOT = { has_dlc = "By Blood Alone" }
+							NOT = { has_dlc = "Arms Against Tyranny" }
+						}
+					}
+					country_event = startup_warning_events.1
+				}
+				if = {
+					limit = {
+						OR = {
+							has_dlc = "Axis Armor Pack"
+							has_dlc = "Expansion Pass 1: Supporter Pack"
+						}
+					}
+					country_event = startup_warning_events.2
+				}
+			}
+		}
+	}
+}

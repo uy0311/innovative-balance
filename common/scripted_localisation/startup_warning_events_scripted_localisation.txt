@@ -1,0 +1,123 @@
+defined_text = {
+	name = Getdlc_name_TFVName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Together for Victory" }
+		}
+		localization_key = dlc_name_TFV
+	}
+}
+defined_text = {
+	name = Getdlc_name_DODName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Death or Dishonor" }
+		}
+		localization_key = dlc_name_DOD
+	}
+}
+defined_text = {
+	name = Getdlc_name_WTTName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Waking the Tiger" }
+		}
+		localization_key = dlc_name_WTT
+	}
+}
+defined_text = {
+	name = Getdlc_name_MTGName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Man the Guns" }
+		}
+		localization_key = dlc_name_MTG
+	}
+}
+defined_text = {
+	name = Getdlc_name_LARName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		localization_key = dlc_name_LAR
+	}
+}
+defined_text = {
+	name = Getdlc_name_NSBName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "No Step Back" }
+		}
+		localization_key = dlc_name_NSB
+	}
+}
+defined_text = {
+	name = Getdlc_name_BBAName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "By Blood Alone" }
+		}
+		localization_key = dlc_name_BBA
+	}
+}
+defined_text = {
+	name = Getdlc_name_GOTName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Gotterdammerung" }
+		}
+		localization_key = dlc_name_GOT
+	}
+}
+
+
+
+defined_text = {
+	name = Getdlc_name_BFTBName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Battle for the Bosporus" }
+		}
+		localization_key = dlc_name_BFTB
+	}
+}
+defined_text = {
+	name = Getdlc_name_TOAName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Trial of Allegiance" }
+		}
+		localization_key = dlc_name_TOA
+	}
+}
+#defined_text = {
+#	name = Getdlc_name_GOEName
+#	text = {
+#		trigger = {
+#			NOT = { has_dlc = "Graveyard of Empire" }
+#		}
+#		localization_key = Getdlc_name_GOEName
+#	}
+#}
+
+
+
+defined_text = {
+	name = Getdlc_name_AXAName
+	text = {
+		trigger = {
+			has_dlc = "Axis Armor Pack"
+		}
+		localization_key = dlc_name_AXA
+	}
+}
+defined_text = {
+	name = Getdlc_name_SUPName
+	text = {
+		trigger = {
+			has_dlc = "Expansion Pass 1: Supporter Pack"
+		}
+		localization_key = dlc_name_SUP
+	}
+}

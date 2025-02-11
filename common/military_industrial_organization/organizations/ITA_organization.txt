@@ -219,10 +219,10 @@ ITA_breda_organization = {
 	allowed = {	 
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
+#			AND = {
+#				tag = ETH
+#				has_dlc = "By Blood Alone"
+#			}
 		}
 	}
 }
@@ -241,7 +241,7 @@ ITA_officine_meccaniche_organization = {
 	icon = GFX_idea_ITA_officine_meccaniche
 	
 	allowed = {
-		original_tag = ITA
-		has_dlc = "By Blood Alone"
+#		original_tag = ITA
+#		has_dlc = "By Blood Alone"
 	}
 }
