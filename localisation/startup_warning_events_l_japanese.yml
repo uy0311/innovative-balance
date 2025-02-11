@@ -1,7 +1,7 @@
 ﻿l_japanese:
  startup_warning_events.1.t: "必要なDLCが不足しています!"
  startup_warning_events.1.d: "以下のDLCが不足している為、ゲームプレイに支障をきたす可能性があります。\n [Root.Getdlc_name_TFVName] [Root.Getdlc_name_DODName] [Root.Getdlc_name_WTTName] [Root.Getdlc_name_MTGName] [Root.Getdlc_name_LARName] [Root.Getdlc_name_NSBName] [Root.Getdlc_name_BBAName] [Root.Getdlc_name_BFTBName]"
- startup_warning_events.2.t: "必要なDLCが不足しています!"
+ startup_warning_events.2.t: "注意が必要なDLCが導入されています!"
  startup_warning_events.2.d: "以下のDLCが導入されている為、当該DLC未所持者はセーブデータを開けなくなります。\n [Root.Getdlc_name_AXAName] [Root.Getdlc_name_SUPName]"
  startup_warning_events.op: "上記注意事項を確認の上、ゲームを続けて下さい"
 #Expansion DLC
