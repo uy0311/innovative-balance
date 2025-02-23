@@ -2762,7 +2762,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			surface_visibility = 0.15
-			build_cost_ic = 2500
+			build_cost_ic = 1750
 			reliability = -0.10
 		}
 		manpower = 100#500 #outside the add_stats section for code reasons
