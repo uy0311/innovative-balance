@@ -91,7 +91,6 @@ leader_traits = {
 		
 	}
 	
-	
 	brilliant_strategist = { 
 		type = land
 		trait_type = personality_trait
@@ -120,7 +119,6 @@ leader_traits = {
 		}
 		
 	}
-	
 	
 	inflexible_strategist = { 
 		type = land
@@ -566,8 +564,6 @@ leader_traits = {
 		planning_skill_factor = 1
 	}
 
-
-	
 ##################################
 # Field Marshal traits.
 ##################################
@@ -662,7 +658,6 @@ leader_traits = {
 		trait_type = assignable_trait
 	}
 
-
 	thorough_planner = { 
 		type = field_marshal
 		gain_xp = {
@@ -686,7 +681,6 @@ leader_traits = {
 		mutually_exclusive = fast_planner
 		trait_type = assignable_trait
 	}
-
 
 	unyielding_defender = { 
 		type = field_marshal
@@ -720,7 +714,6 @@ leader_traits = {
 		mutually_exclusive = aggressive_assaulter
 
 	}
-
 
 	aggressive_assaulter = { 
 		type = field_marshal
@@ -822,7 +815,6 @@ leader_traits = {
 		gui_row = 15
 	}
 
-
 ##################################
 # Corps Commander traits.
 ##################################
@@ -907,6 +899,7 @@ leader_traits = {
 		
 		gui_row = 6
 	}
+
 	skilled_staffer = { 
 		type = corps_commander
 		gain_xp = {
@@ -932,6 +925,7 @@ leader_traits = {
 		expert_advisor_trait = army_logistics_2
 		genius_advisor_trait = army_logistics_3
 	}
+
 	trickster = { 
 		type = corps_commander
 		gain_xp = {
@@ -953,7 +947,6 @@ leader_traits = {
 		
 		gui_row = 13
 	}
-
 
 	winter_specialist = { 
 		type = corps_commander
@@ -1028,7 +1021,6 @@ leader_traits = {
 		gui_row = 7
 	}
 
-	
 	trait_engineer = { 
 		type = corps_commander
 		gain_xp = {
@@ -1058,7 +1050,6 @@ leader_traits = {
 		
 		gui_row = 4
 	}
-
 
 	panzer_leader = {
  		type = corps_commander
@@ -1267,7 +1258,6 @@ leader_traits = {
 		gui_row = 4
 	}
 
-	
 	naval_invader = {
 		type = corps_commander
 		gain_xp = {
@@ -1294,7 +1284,6 @@ leader_traits = {
 ##################################
 # Corps Commander assignable traits.
 ##################################
-
 
 	panzer_expert = { 
 		type = corps_commander
@@ -1473,6 +1462,7 @@ leader_traits = {
 		
 		gui_row = 7
 	}
+
 	invader_ii = { 
 		type = corps_commander
 		gain_xp = {
@@ -1494,6 +1484,7 @@ leader_traits = {
 		
 		gui_row = 8
 	}
+
 	naval_liason = { 
 		type = corps_commander
 		gain_xp = {
@@ -1556,7 +1547,6 @@ leader_traits = {
 		
 		gui_row = 11
 	}
-	
 	
 	camouflage_expert = { 
 		type = corps_commander
@@ -1655,8 +1645,6 @@ leader_traits = {
 		gui_row = 14
 	}
 	
-	
-
 
 ##################################
 # Naval traits.
@@ -2310,6 +2298,7 @@ leader_traits = {
 ##################################
 # navy terrain trait
 ##################################
+
 	arctic_water_expert = {
 		type = navy
 		gain_xp = {
@@ -2428,6 +2417,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	gentlemanly = { 
 		type = navy
 		trait_type = personality_trait
@@ -2455,6 +2445,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	gunnery_expert = { 
 		type = navy
 		trait_type = personality_trait
@@ -2484,6 +2475,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	cuts_corners = { 
 		type = navy
 		trait_type = personality_trait
@@ -2511,6 +2503,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	chief_engineer = { 
 		type = navy
 		trait_type = personality_trait
@@ -2537,6 +2530,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	navy_media_personality = { 
 		type = navy
 		trait_type = personality_trait
@@ -2563,6 +2557,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	bold = { 
 		type = navy
 		trait_type = personality_trait
@@ -2590,6 +2585,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	navy_career_officer = { 
 		type = navy
 		trait_type = personality_trait
@@ -2616,6 +2612,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	battleship_adherent = { 
 		type = navy
 		trait_type = personality_trait
@@ -2643,6 +2640,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	aviation_enthusiast = { 
 		type = navy
 		trait_type = personality_trait
@@ -2672,6 +2670,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	caustic_personality = { 
 		type = navy
 		trait_type = personality_trait
@@ -2698,6 +2697,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
 	craven = { 
 		type = navy
 		trait_type = personality_trait
@@ -2725,6 +2725,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
 	naval_lineage = { 
 		type = navy
 		trait_type = personality_trait
@@ -2854,7 +2855,6 @@ leader_traits = {
 	# 	}
 	# }
 
-
 	##################################
 	# Special trait for exiled leaders
 	##################################
@@ -2876,192 +2876,6 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPA_nationalist_sympathies = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPA_falangist_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPA_carlist_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPR_republican_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPR_stalinist_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPR_anti_stalinist_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_BUL_zveno_member = {
-
-		type = all
-		trait_type = personality_trait
-
-		allowed = {
-			FROM = { original_tag = BUL }
-		}
-
-		new_commander_weight = {
-			factor = 1
-			modifier = {
-				factor = 0
-				FROM = { has_country_flag = BUL_zveno_destroyed_flag }
-			}
-		}
-	}
-
-	trait_BUL_tsar_loyalist = {
-
-		type = all
-		trait_type = personality_trait
-
-		allowed = {
-			FROM = { original_tag = BUL }
-		}
-
-		new_commander_weight = {
-			factor = 1
-			modifier = {
-				factor = 0
-				FROM = {
-						neutrality < 0.05
-				}
-			}
-		}
-	}
-
-	trait_BUL_ff_sympathizer = {
-
-		type = all
-		trait_type = personality_trait
-
-		allowed = {
-			FROM = { original_tag = BUL }
-		}
-
-		new_commander_weight = {
-			factor = 1
-			modifier = {
-				factor = 0
-					FROM = { communism < 0.05 }
-			}
-		}
-	}
-
-	trait_TUR_kemalist_champion = {
-
-		type = all
-		trait_type = personality_trait
-
-		allowed = {
-			FROM = { original_tag = TUR }
-		}
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_GRE_stauch_monarchist = {
-
-		type = all
-		trait_type = personality_trait
-
-		allowed = {
-			FROM = { original_tag = GRE }
-		}
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_GRE_venezelist_loyalist = {
-
-		type = all
-		trait_type = personality_trait
-
-		allowed = {
-			FROM = { original_tag = GRE }
-		}
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_GRE_marxist_acolyte = {
-
-		type = all
-		trait_type = personality_trait
-
-		allowed = {
-			FROM = { original_tag = GRE }
-		}
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_GRE_fascist_sympathizer = {
-
-		type = all
-		trait_type = personality_trait
-
-		allowed = {
-			FROM = { original_tag = GRE }
-		}
-
 		new_commander_weight = {
 			factor = 0
 		}

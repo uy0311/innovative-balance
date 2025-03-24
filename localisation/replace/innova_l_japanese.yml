@@ -650,8 +650,6 @@
  STAT_AIR_SUPERIORITY:0 "制空値:"
  MODIFIER_AIR_SUPERIORITY_EFFICIENCY:0 "制空作戦効率"
  technology_sharing_idea:0 "技術の共有"
- ib_hit_chance:0 "正確無比"
- ib_hit_chance_desc:0 "この提督の艦隊は砲精度に於いて他に引けを取らない"
  night_vision3:0 "暗視装置Ⅲ"
  night_vision3_desc:0 "更なる技術革新により、我が陸軍部隊は夜間に於いても全てを見通す全能の神が如く戦場を支配することになるだろう。"
  TUR_black_sea_shipyard:0 "トルコ黒海造船所"
