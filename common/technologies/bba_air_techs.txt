@@ -174,10 +174,6 @@ technologies = {
 			name = bba_air_techs_folder
 			position = { x = -2 y = 6 }
 		}
-		folder = {
-			name = secret_weapons_folder
-			position = { x = 6 y = 8 }
-		}
 		
 		categories = {
 			light_air
@@ -186,8 +182,7 @@ technologies = {
 			naval_air
 			naval_bomber
 			air_equipment
-					}
-		
+		}	
 		ai_will_do = {
 			factor = 2
 			

@@ -2,6 +2,28 @@
 ideas = {
 	country = {
 		
+		research_bonus_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				research_speed_factor = 1000000
+				industrial_capacity_dockyard = 1000
+				industrial_capacity_factory = 1000
+				production_speed_buildings_factor = 1000
+				political_power_gain = 1000
+			}
+		}
+
 		ib_new_deal = {
 			
 			
@@ -749,28 +771,6 @@ ideas = {
 			research_bonus = {
 				industry = 0.10
 				electronics = 0.10
-			}
-		}
-
-		research_bonus_idea = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			picture = generic_research_bonus
-			
-			modifier = {
-				research_speed_factor = 1000000
-				industrial_capacity_dockyard = 1000
-				industrial_capacity_factory = 1000
-				production_speed_buildings_factor = 1000
-				political_power_gain = 1000
 			}
 		}
 
