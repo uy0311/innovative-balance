@@ -551,7 +551,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_improved_decimetric_radar_medium"
 		texturefile = "gfx/interface/technologies/improved_decimetric_radar.dds"
-	}	]
+	}
 
 	SpriteType = {
 		name = "GFX_improved_centimetric_radar_medium"
