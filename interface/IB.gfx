@@ -541,6 +541,28 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/IB_tank_designer_manufactur_frame.dds"
 	}
 
+	#radar tech
+
+	SpriteType = {
+		name = "GFX_decimetric_radar_medium"
+		texturefile = "gfx/interface/technologies/decimetric_radar.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_improved_decimetric_radar_medium"
+		texturefile = "gfx/interface/technologies/improved_decimetric_radar.dds"
+	}	]
+
+	SpriteType = {
+		name = "GFX_improved_centimetric_radar_medium"
+		texturefile = "gfx/interface/technologies/improved_centimetric_radar.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_advanced_centimetric_radar_medium"
+		texturefile = "gfx/interface/technologies/advanced_centimetric_radar.dds"
+	}
+
 	#tank_turret_tech
 
 	spriteType = { #tank_radio_1
