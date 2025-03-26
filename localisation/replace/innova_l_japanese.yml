@@ -26,8 +26,8 @@
  War_support_boost_desc:0 "我らの未来と自由を守るため、今こそ一丸となるべきである。家族、友人、そして次の世代のために、我が国の正義を貫く戦いに力を貸して欲しい。国民の協力が、この国の明日を築く力となる。"
 
 ##政治NFツリー##
- nationalism_focus: "ナショナリズム"
- internationalism_focus: "グローバリズム"
+ nationalism_focus: "全体主義重視"
+ internationalism_focus: "社会主義重視"
 
 ##工業NFツリー##
  construction_effort: "民需建設への注力"
