@@ -25,7 +25,16 @@
  War_support_boost:0 "戦意高揚のプロパガンダ"
  War_support_boost_desc:0 "我らの未来と自由を守るため、今こそ一丸となるべきである。家族、友人、そして次の世代のために、我が国の正義を貫く戦いに力を貸して欲しい。国民の協力が、この国の明日を築く力となる。"
 
+##政治NFツリー##
+ nationalism_focus: "ナショナリズム"
+ internationalism_focus: "グローバリズム"
+
 ##工業NFツリー##
+ construction_effort: "民需建設への注力"
+ construction_effort_2: "民需建設への注力 II"
+ construction_effort_3: "建設への注力"
+ production_effort: "軍需建設への注力"
+ production_effort_2: "軍需建設への注力 II"
  industry_research_bonus:0 "工業技術の向上"
  ib_workers_culture_1:0 "民需工場への注力"
  ib_workers_culture_2:0 "更なる民需工場への注力"
@@ -53,6 +62,10 @@
  delete_ewm_unlock_decision:0 "このディシジョンを全て削除する"
 
 ##陸軍NFツリー##
+ equipment_effort: "砲兵への注力"
+ equipment_effort_2: "歩兵装備への注力"
+ equipment_effort_3: "装甲車両への注力"
+ armor_effort: "戦車への注力"
  artillery_research_bonus:0 "砲兵技術の向上"
  artillery_research_bonus_desc:0 "誰かが言った。砲兵が耕し、戦車が種を蒔き、歩兵が収穫する…と。 農業を始めるにはまず鍬が必要である。"
  infantry_weapons_research_bonus:0 "歩兵装備技術の向上"
@@ -189,6 +202,16 @@
  excavation6_desc:0 "先進的な採掘技術の登場は新規鉱山の確保を実現させ、資源生産量を向上させる。"
  modern_oil_processing2_desc:0 "先進的な建築技術と原油加工方式の確立により、製油所の発展が可能となる。"
  modern_rubber_processing2_desc:0 "新たなゴム加工技術の到来により、更なるコスト削減と生産量増加が可能となる。"
+
+##レーダー技術##
+ decimetric_radar: "デシメートル波レーダー"
+ decimetric_radar_desc: "数多くの部隊は、その戦闘効率を相手を驚かせることに依拠している。デシメートル波レーダーの開発は敵からその優位性を奪う事ができる。"
+ improved_decimetric_radar: "改良型デシメートル波レーダー"
+ improved_decimetric_radar_desc: "レーダーの利用が重要なものであることは既に証明されているが、我々のデシメートル波レーダーは良好な索敵網を構築しているとはいいがたい。レーダーの改良に技術力を最大限に投入するべきである。"
+ improved_centimetric_radar: "改良型センチ波レーダー"
+ improved_centimetric_radar_desc: "単パルスレーダーのような最新のレーダー技術の導入により、重要な作戦において非常に高い精度で追跡を行うことができる。"
+ advanced_centimetric_radar: "発展型センチ波レーダー"
+ advanced_centimetric_radar_desc: "我々の発展的なレーダーを持ってしても、敵には探知を避ける方法がまだ存在する。パルスドップラーレーダーなどの開発は、我々の装備におけるそれらの限界の多くを排除する。"
 
 ##追加火砲技術##
  artillery5:0 "発展型野戦砲改良 I"
