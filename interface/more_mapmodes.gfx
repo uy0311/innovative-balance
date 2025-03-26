@@ -20,15 +20,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_caused_world_tension_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_caused_world_tension_map_mode.dds"
-	}
-	spriteType = {
-		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_caused_world_tension_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_caused_world_tension_map_mode.dds"
-	}
-
-	spriteType = {
 		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_stability_map_mode"
 		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_stability_map_mode.dds"
 	}
@@ -44,15 +35,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_war_support_map_mode"
 		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_war_support_map_mode.dds"
-	}
-
-	spriteType = {
-		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_war_goals_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_war_goals_map_mode.dds"
-	}
-	spriteType = {
-		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_war_goals_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_war_goals_map_mode.dds"
 	}
 
 	spriteType = {
@@ -73,57 +55,4 @@ spriteTypes = {
 		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_air_base_map_mode.dds"
 	}
 
-	spriteType = {
-		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_intervention_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_intervention_map_mode.dds"
-	}
-	spriteType = {
-		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_intervention_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_intervention_map_mode.dds"
-	}
-
-	spriteType = {
-		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_majors_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_majors_map_mode.dds"
-	}
-	spriteType = {
-		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_majors_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_majors_map_mode.dds"
-	}
-
-	spriteType = {
-		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_world_war_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_world_war_map_mode.dds"
-	}
-	spriteType = {
-		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_world_war_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_world_war_map_mode.dds"
-	}
-
-	spriteType = {
-		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_spymasters_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_spymasters_map_mode.dds"
-	}
-	spriteType = {
-		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_spymasters_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_spymasters_map_mode.dds"
-	}
-
-	spriteType = {
-		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_guarantees_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_guarantees_map_mode.dds"
-	}
-	spriteType = {
-		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_guarantees_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_guarantees_map_mode.dds"
-	}
-
-	spriteType = {
-		name = "GFX_mapmode_buttons_deselected_small_more_mapmodes_subjects_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_deselected_small_more_mapmodes_subjects_map_mode.dds"
-	}
-	spriteType = {
-		name = "GFX_mapmode_buttons_selected_small_more_mapmodes_subjects_map_mode"
-		textureFile = "gfx/interface/mapmodes/mapmode_buttons_selected_small_more_mapmodes_subjects_map_mode.dds"
-	}
 }
