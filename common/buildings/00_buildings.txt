@@ -93,22 +93,6 @@ buildings = {
 		}
 	}
 
-	anti_air_building = {
-		show_on_map = 3
-		base_cost = 1000
-		icon_frame = 9
-		anti_air = yes
-		
-		allied_build = yes
-		air_defence = 1
-		damage_factor = 0.1
-		value = 1
-		infrastructure_construction_effect = no
-		level_cap = {
-			state_max = 5
-		}
-	}
-
 	synthetic_refinery = {
 		show_on_map = 1
 		base_cost = 14500
@@ -160,6 +144,21 @@ buildings = {
 		}
 	}
 
+	air_base = {
+		show_on_map = 1
+		base_cost = 2500
+		icon_frame = 5
+		air_base = yes
+		value = 1
+		damage_factor = 0.0
+		allied_build = yes
+		infrastructure_construction_effect = no
+		level_cap = {
+			shares_slots = yes
+			state_max = 10
+		}
+	}
+
 	rocket_site = {
 		show_on_map = 1
 		base_cost = 6400
@@ -177,47 +176,19 @@ buildings = {
 		}
 	}
 
-	nuclear_reactor = {
-		hide_if_missing_tech = yes
-		missing_tech_loc = { 
-			localization_key = SP_BUILDING_MISSING_PROJECT
-			PROJECT = sp_nuclear_reactor
-		}
-		spawn_point = nuclear_reactor_spawn
-		show_on_map = 1
-		base_cost = 30000
-		icon_frame = 13
-		nuclear_reactor = yes
-		value = 10
-		tags = { specialization_nuclear }
-		infrastructure_construction_effect = no
-
-		country_modifiers = {
-			modifiers = {
-				nuclear_production_factor = 3
-				sp_nuclear_bomb_speed_factor = 0.05
-				sp_thermo_nuclear_bomb_speed_factor = 0.05
-				thermonuclear_production_factor = 2
-			}
-		}
-		level_cap = {
-			state_max = 1
-			group_by = reactors
-		}
-	}
-
-	air_base = {
-		show_on_map = 1
-		base_cost = 2500
-		icon_frame = 5
-		air_base = yes
-		value = 1
-		damage_factor = 0.0
+	anti_air_building = {
+		show_on_map = 3
+		base_cost = 1000
+		icon_frame = 9
+		anti_air = yes
+		
 		allied_build = yes
+		air_defence = 1
+		damage_factor = 0.1
+		value = 1
 		infrastructure_construction_effect = no
 		level_cap = {
-			shares_slots = yes
-			state_max = 10
+			state_max = 5
 		}
 	}
 
@@ -304,11 +275,12 @@ buildings = {
 		dlc_allowed = { has_dlc = Gotterdammerung }
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 20000000
+		base_cost = 20000
 		
 		icon_frame = 23
 		value = 1
 		infrastructure_construction_effect = no
+		is_buildable = no
 		level_cap = {
 			state_max = 1
 			
@@ -329,12 +301,13 @@ buildings = {
 		dlc_allowed = { has_dlc = Gotterdammerung }
 		hide_if_missing_tech = yes
 		show_on_map = 1
-		base_cost = 20000000
+		base_cost = 20000
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 24
 		value = 1
 		
 		infrastructure_construction_effect = no
+		is_buildable = no
 		gun_emplacement = yes
 		spawn_point = rocket_site_spawn
 		level_cap = {
@@ -345,6 +318,36 @@ buildings = {
 		#Building utilizes equipment "explosive_ammo_equipment" as ammunition for the air mission barrage
 	}
 
+	nuclear_reactor = {
+		hide_if_missing_tech = yes
+		missing_tech_loc = { 
+			localization_key = SP_BUILDING_MISSING_PROJECT
+			PROJECT = sp_nuclear_reactor
+		}
+		spawn_point = nuclear_reactor_spawn
+		show_on_map = 1
+		base_cost = 30000
+		icon_frame = 13
+		nuclear_reactor = yes
+		value = 10
+		tags = { specialization_nuclear }
+		infrastructure_construction_effect = no
+		is_buildable = no
+
+		country_modifiers = {
+			modifiers = {
+				nuclear_production_factor = 3
+				sp_nuclear_bomb_speed_factor = 0.05
+				sp_thermo_nuclear_bomb_speed_factor = 0.05
+				thermonuclear_production_factor = 2
+			}
+		}
+		level_cap = {
+			state_max = 1
+			group_by = reactors
+		}
+	}
+
 	nuclear_reactor_heavy_water = {
 		hide_if_missing_tech = yes
 		missing_tech_loc = { 
@@ -353,11 +356,12 @@ buildings = {
 		}
 		spawn_point = nuclear_reactor_spawn
 		show_on_map = 1
-		base_cost = 25000000
+		base_cost = 25000
 		icon_frame = 13
 		nuclear_reactor = yes
 		value = 10
 		infrastructure_construction_effect = no
+		is_buildable = no
 
 		country_modifiers = {
 			modifiers = {
@@ -384,11 +388,12 @@ buildings = {
 		}
 		spawn_point = nuclear_reactor_spawn
 		show_on_map = 1
-		base_cost = 35000000
+		base_cost = 35000
 		icon_frame = 27
 		#nuclear_reactor = yes
 		value = 10
 		infrastructure_construction_effect = no
+		is_buildable = no
 		
 		country_modifiers = {
 			modifiers = {
@@ -413,7 +418,7 @@ buildings = {
 
 	nuclear_facility = {
 		show_on_map = 1
-		base_cost = 15000000
+		base_cost = 15000
 		per_controlled_building_extra_cost = 5000
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 20
@@ -425,6 +430,7 @@ buildings = {
 		tags = { facility }
 		
 		only_display_if_exists = yes
+		is_buildable = no
 		special_icon = GFX_specialization_nuclear
 		#state_damage_modifier = { conscription_exemptions_granted }
 		#construction_speed_factor = {
@@ -446,7 +452,7 @@ buildings = {
 
 	air_facility = {
 		show_on_map = 1
-		base_cost = 12000000
+		base_cost = 12000
 		per_controlled_building_extra_cost = 5000
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 17
@@ -459,6 +465,7 @@ buildings = {
 		detecting_intel_type = airforce
 		
 		only_display_if_exists = yes
+		is_buildable = no
 		special_icon = GFX_specialization_air
 		level_cap = {
 			province_max = 1
@@ -469,7 +476,7 @@ buildings = {
 
 	naval_facility = {
 		show_on_map = 1
-		base_cost = 12000000
+		base_cost = 12000
 		per_controlled_building_extra_cost = 5000
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 18
@@ -482,6 +489,7 @@ buildings = {
 		need_detection = yes
 		detecting_intel_type = navy
 		only_display_if_exists = yes
+		is_buildable = no
 		special_icon = GFX_specialization_naval
 		level_cap = {
 			province_max = 1
@@ -493,7 +501,7 @@ buildings = {
 
 	land_facility = {
 		show_on_map = 1
-		base_cost = 12000000
+		base_cost = 12000
 		per_controlled_building_extra_cost = 5000
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 19
@@ -506,6 +514,7 @@ buildings = {
 		need_detection = yes
 		detecting_intel_type = army
 		only_display_if_exists = yes
+		is_buildable = no
 		special_icon = GFX_specialization_land
 		level_cap = {
 			province_max = 1

@@ -310,7 +310,7 @@ AST = {
 	}
 	air_wing_names_template = AIR_WING_NAME_AST_FALLBACK
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Squadron RAN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
@@ -318,14 +318,14 @@ AST = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Squadron RAN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Squadron RAN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
@@ -339,7 +339,7 @@ AUS = {
 	air_wing_names_template = AIR_WING_NAME_GER_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Jagdgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -347,7 +347,7 @@ AUS = {
 		}	
 	}
 
-	scout_plane_equipment = {
+	medium_plane_scout_plane_airframe = {
 		prefix = ""
 		generic = { "Aufklärungsgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -363,7 +363,7 @@ AUS = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Zerstörergeschwader" "Nachtjagdgeschwader"}
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -371,7 +371,7 @@ AUS = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Schlachtgeschwader" "Stukageschwader" "Schnellkampfgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -379,7 +379,7 @@ AUS = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Träger-Jagdgruppe" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -387,14 +387,14 @@ AUS = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Träger-Stukagruppe" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Torpedobombergruppe" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -402,7 +402,7 @@ AUS = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Kampfgeschwader" "Kampfschulgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -418,7 +418,7 @@ AUS = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Küstenfliegergruppe" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -426,7 +426,7 @@ AUS = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Fernkampfgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -450,13 +450,6 @@ AUS = {
 		}	
 	}
 
-	scout_plane_equipment = {
-		prefix = ""
-		generic = { "Aufklärungsgeschwader"}
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
-		unique = {
-		}	
-	}
 }
 
 BEL = {
@@ -514,7 +507,7 @@ BEL = {
 	air_wing_names_template = AIR_WING_NAME_GER_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Escadrille de Chasse" "Jachtvliegtuiggroep" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -522,7 +515,7 @@ BEL = {
 		}	
 	}
 
-	scout_plane_equipment = {
+	medium_plane_scout_plane_airframe = {
 		prefix = ""
 		generic = { "Escadre de Reconnaissance" "Verkenningsgroep" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -538,7 +531,7 @@ BEL = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Escadrille de Chasse" "Jachtvliegtuiggroep" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -546,7 +539,7 @@ BEL = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Escadrille d'Assaut" "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -554,7 +547,7 @@ BEL = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Escadrille de Chasse Naval" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -562,14 +555,14 @@ BEL = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Escadrille d'Assaut Naval" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Escadrille de Torpilleur" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -577,7 +570,7 @@ BEL = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Escadrille de Bombardement" "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -593,7 +586,7 @@ BEL = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Escadrille de Bombardement Naval" "Escadrille de Torpilleur" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -601,7 +594,7 @@ BEL = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Escadrille de Bombardement" "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -689,15 +682,15 @@ BRA = {
 	air_wing_names_template = AIR_WING_NAME_BRA_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
-		generic = { "Grupo de Cacas" }
+		generic = { "Grupo de Caça" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
 		unique = {
 		}	
 	}
 
-	scout_plane_equipment = {
+	medium_plane_scout_plane_airframe = {
 		prefix = ""
 		generic = { "Grupo de Aviação" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -706,44 +699,44 @@ BRA = {
 	}
 	jet_fighter_equipment = {
 		prefix = ""
-		generic = { "Grupo de Cacas" }
+		generic = { "Grupo de Caça" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
 		unique = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
-		generic = { "Grupo de Cacas" }
+		generic = { "Grupo de Caça" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
 		unique = {
 		}	
 	}
 
-	CAS_equipment = {
-		prefix = ""
-		generic = { "Grupo de Bomb. de Mergulho" }
-		generic_pattern = AIR_WING_NAME_BRA_GENERIC
-		unique = {
-		}	
-	}
-
-	cv_fighter_equipment = {
-		prefix = ""
-		generic = { "Grupo de Cacas" }
-		generic_pattern = AIR_WING_NAME_BRA_GENERIC
-		unique = {
-		}	
-	}
-
-	cv_CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Grupo de Bomb. de Mergulho" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+
+	cv_small_plane_airframe = {
+		prefix = ""
+		generic = { "Grupo de Caça" }
+		generic_pattern = AIR_WING_NAME_BRA_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_small_plane_cas_airframe = {
+		prefix = ""
+		generic = { "Grupo de Bomb. de Mergulho" }
+		generic_pattern = AIR_WING_NAME_BRA_GENERIC
+		unique = {
+		}	
+	}
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Grupo de Aviões Torpedeiros" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -751,7 +744,7 @@ BRA = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Grupo de Bombardeiros" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -767,7 +760,7 @@ BRA = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Grupo de Bomb. do Navais" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -775,7 +768,7 @@ BRA = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Grupo de Bombardeiros" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -855,7 +848,7 @@ BUL = {
 	air_wing_names_template = AIR_WING_NAME_BUL_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -871,7 +864,7 @@ BUL = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -879,7 +872,7 @@ BUL = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Shturmovi polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -887,7 +880,7 @@ BUL = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -895,14 +888,14 @@ BUL = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Shturmovi polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Vodosamoleten orljak" "Vodosamoleten polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -910,7 +903,7 @@ BUL = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Lineen polk" "Bombardirovatchen polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -926,7 +919,7 @@ BUL = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Vodosamoleten orljak" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -934,7 +927,7 @@ BUL = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Bombardirovatchen polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -1025,7 +1018,7 @@ CAN = {
 
 	air_wing_names_template = AIR_WING_NAME_CAN_FALLBACK
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Squadron RCN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
@@ -1033,76 +1026,20 @@ CAN = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Squadron RCN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Squadron RCN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = {
 		}	
 	}
-}
-
-CHL = {
-	submarine = {
-		prefix = "BACH"
-		generic = { "Submarino" }
-		unique = {
-			"Gualcolda" "Tegualda" "Rucumilla" "Quidora" "Fresia" "Guale" "Capitán O`Brien" "Almirante Simpson" "Capitán Thomson" "O`Higgins" "Carrera" 
-		}
-	}
-	destroyer = {
-		prefix = "BACH"
-		generic = { 
-			"Destructor"
-		}
-		unique = {
-			"Almirante Lynch" "Almirante Condell" "Aldea" "Hyatt" "Orella" "Requelme" "Videla" "Almirante Riveros" "Almirante Williams" "Blanco Encalada" "Cochrane" 
-			"Ministro Zenteno" "Ministro Portales" 
-		}
-	}
-	light_cruiser = {
-		prefix = "BACH"
-		generic = { "Crucero Ligero" }
-		unique = {
-			"Chacabuco" "Araucano" "Santiago de Chile" "Valparaiso" "Valdivia" "Osorno" "Punta Arenas" "Chillán" "Talcahuano" "Rancagua" "Coquimbo" 
-		}
-	}
-	heavy_cruiser = {
-		prefix = "BACH"
-		generic = { "Crucero Pesado" }
-		unique = {
-			"O`Higgins" "Araucano" "Santiago de Chile" "Valparaiso" "Valdivia" "Osorno" "Punta Arenas" "Chillán" "Talcahuano" "Rancagua" "Coquimbo" 
-		}
-	}
-	battle_cruiser = {
-		prefix = "BACH"
-		generic = { "Crucero de Batalla" }
-		unique = {
-			"República de Chile" "Lima"
-		}
-	}
-	battleship = {
-		prefix = "BACH"
-		generic = { "Acorazado" }
-		unique = {
-			"Almirante Latorre" "República de Chile" "Lima" 
-		}
-	}
-	carrier = {
-		prefix = "BACH"
-		generic = { "Portaaviones" }
-		unique = {
-			"Los Andes de Chile" "Pacífico" 
-		}
-	}
-	
 }
 
 CHI = {
@@ -1159,7 +1096,7 @@ CHI = {
 	air_wing_names_template = AIR_WING_NAME_CHI_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1175,7 +1112,7 @@ CHI = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1183,7 +1120,7 @@ CHI = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Jinjuli Kongyuan Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1191,7 +1128,7 @@ CHI = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1199,14 +1136,14 @@ CHI = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Jinjuli Kongyuan Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Haijun Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1214,7 +1151,7 @@ CHI = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Zhanshu Hongzhaji Dadui" "Huweiji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1230,7 +1167,7 @@ CHI = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Haijun Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1238,7 +1175,7 @@ CHI = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Zhanlue Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1263,12 +1200,12 @@ CHI = {
 	}
 }
 
-COL = {
+CUB = {
 	submarine = {
 		prefix = "ARC"
 		generic = { "Submarino" }
 		unique = {
-			"20 de Julio" "7 de Agosto" "Santander" "Almirante Padilla" "Almirante Tono" "Almirante Brión" "Cordoba" "Antioquia" "Caldas" 
+			"Santa Clara" "Diez de Octubre" "Veinte y Cuatro de Febrero" "Patria" "Habana" "Pinar del Río" "Cuba" "Rio Damuji" "Rio Jatibonico" 
 		}
 	}
 	destroyer = {
@@ -1277,99 +1214,45 @@ COL = {
 			"Destructor"
 		}
 		unique = {
-			"Antioquia" "Caldas" "20 de Julio" "7 de Agosto" "Santander" "Almirante Padilla" "Almirante Tono" "Almirante Brión" "Cordoba" 
+			"Santa Clara" "Diez de Octubre" "Veinte y Cuatro de Febrero" "Patria" "Habana" "Pinar del Río" "Cuba" "Rio Damuji" "Rio Jatibonico" 
 		}
 	}
 	light_cruiser = {
 		prefix = "ARC"
 		generic = { "Crucero Ligero" }
 		unique = {
-			"Medellín" "Cartagena" "Barranquilla" "Santa Marta" "Bucaramanga" "Tumaco" "Buenaventura" 
+			"La Habana" "Santiago de Cuba" "Marinao" "Santa Clara" "Guantanamo" 
 		}
 	}
 	heavy_cruiser = {
 		prefix = "ARC"
 		generic = { "Crucero Pesado" }
 		unique = {
-			"Medellín" "Cartagena" "Barranquilla" "Santa Marta" "Bucaramanga" "Tumaco" "Buenaventura" 
+			"La Habana" "Santiago de Cuba" "Marinao" "Santa Clara" "Guantanamo" 
 		}
 	}
 	battle_cruiser = {
 		prefix = "ARC"
 		generic = { "Crucero de Batalla" }
 		unique = {
-			"Cristobal Colón" "Bogotá" 
+			"Theodore Roosevelt" "Fulgencio Batista" 
 		}
 	}
 	battleship = {
 		prefix = "ARC"
 		generic = { "Acorazado" }
 		unique = {
-			"Cristobal Colón" "Bogotá" 
+			"Theodore Roosevelt" "Fulgencio Batista" 
 		}
 	}
 	carrier = {
 		prefix = "ARC"
 		generic = { "Portaaviones" }
 		unique = {
-			"República de Colombia" "La Gloriosa" "Magdalena" "Bogotá" "Pamplonita" "Rio Negro" "Arauca" 
+		"República de Cuba" "La Sabana" "Almendares" "Cauto" 
 		}
 	}
 	
-}
-
-COS = {
-	submarine = {
-		prefix = "ARCR"
-		generic = { "Submarino" }
-		unique = {
-			"Punta Arenas" "Nicoya" "Liberia" "Bagaces" "Puerto Jesús" 
-		}
-	}
-	destroyer = {
-		prefix = "ARCR"
-		generic = { 
-			"Destructor"
-		}
-		unique = {
-			"Punta Arenas" "Nicoya" "Liberia" "Bagaces" "Puerto Jesús" 
-		}
-	}
-	light_cruiser = {
-		prefix = "ARCR"
-		generic = { "Crucero Ligero" }
-		unique = {
-			"Punta Arenas" "Nicoya" "Liberia" "Bagaces" "Puerto Jesús" 
-		}
-	}
-	heavy_cruiser = {
-		prefix = "ARCR"
-		generic = { "Crucero Pesado" }
-		unique = {
-			"Punta Arenas" "Nicoya" "Liberia" "Bagaces" "Puerto Jesús" 
-		}
-	}
-	battle_cruiser = {
-		prefix = "ARCR"
-		generic = { "Crucero de Batalla" }
-		unique = {
-			"San José" "Limón" 
-		}
-	}
-	battleship = {
-		prefix = "ARCR"
-		generic = { "Acorazado" }
-		unique = {
-			"San José" "Limón" 
-		}
-	}
-	carrier = {
-		prefix = "ARCR"
-		generic = { "Portaaviones" }
-		unique = {
-			"República de Costa Rica" "Bahia Coronado" 
-		}
-	}	
 }
 
 CZE = {
@@ -1434,7 +1317,7 @@ CZE = {
 	air_wing_names_template = AIR_WING_NAME_CZE_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "stíhací letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
@@ -1450,7 +1333,7 @@ CZE = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "stíhací letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
@@ -1458,7 +1341,7 @@ CZE = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "bitevný letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
@@ -1466,7 +1349,7 @@ CZE = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "námořní stíhací letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
@@ -1474,14 +1357,14 @@ CZE = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "námořní bitevný letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "námořní letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
@@ -1489,7 +1372,7 @@ CZE = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "bombardovací letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
@@ -1505,7 +1388,7 @@ CZE = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "námořní letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
@@ -1513,7 +1396,7 @@ CZE = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "bombardovací letecký pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
@@ -1598,6 +1481,61 @@ DEN = {
 		generic = { "Hangarskib" }
 		unique = {
 			"Danske Løve" "Peter Willemoes" "Steen Bille" "Peder Marsvin" "Dannebrog" "Peder Skram" "Rolf Krake" "Lindormen" "Gorm" "Odin" 
+		}
+	}
+	
+}
+
+DOM = {
+	submarine = {
+		prefix = "ARD"
+		generic = { "Submarino" }
+		unique = {
+			"Presidente Trujillo" "Juan Pablo Duarte" "Pedro Santana" "Cristobal Colón" "Juan Alejandro Acosta" "Juan Bautista Cambiaso" "Gerardo Jansen" "Juan Bautista Maggiolo" 
+		}
+	}
+	destroyer = {
+		prefix = "ARD"
+		generic = { 
+			"Destructor"
+		}
+		unique = {
+			"Presidente Trujillo" "Juan Pablo Duarte" "Pedro Santana" "Cristobal Colón" "Juan Alejandro Acosta" "Juan Bautista Cambiaso" "Gerardo Jansen" "Juan Bautista Maggiolo" 
+		}
+	}
+	light_cruiser = {
+		prefix = "ARD"
+		generic = { "Crucero Ligero" }
+		unique = {
+			"El Benefactor" "Santo Domingo" "Santiago" "San Pedro" "La Romana" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = "ARD"
+		generic = { "Crucero Pesado" }
+		unique = {
+			"El Benefactor" "Santo Domingo" "Santiago" "San Pedro" "La Romana" 
+		}
+	}
+	battle_cruiser = {
+		prefix = "ARD"
+		generic = { "Crucero de Batalla" }
+		unique = {
+			"Don Rafél Trujillo" "Eleonora Trujillo" 
+		}
+	}
+	battleship = {
+		prefix = "ARD"
+		generic = { "Acorazado" }
+		unique = {
+			"Don Rafél Trujillo" "Eleonora Trujillo" 
+		}
+	}
+	carrier = {
+		prefix = "ARD"
+		generic = { "Portaaviones" }
+		unique = {
+			"República Dominicana" "Isla Catalina" "Yaque del Norte" "Lago Enriquillo" 
 		}
 	}
 	
@@ -1714,7 +1652,7 @@ FIN = {
 
 	#Air wings can only be named through archetype
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Erill.Merilennosto" }
 		generic_pattern = AIR_WING_NAME_FIN_BOMBER
@@ -1722,7 +1660,7 @@ FIN = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Kaukopommituslennosto" }
 		generic_pattern = AIR_WING_NAME_FIN_BOMBER
@@ -1860,7 +1798,7 @@ HOL = {
 	air_wing_names_template = AIR_WING_NAME_HOL_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Jachtvliegtuiggroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -1868,7 +1806,7 @@ HOL = {
 		}	
 	}
 
-	scout_plane_equipment = {
+	medium_plane_scout_plane_airframe = {
 		prefix = ""
 		generic = { "Verkenningsgroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -1884,7 +1822,7 @@ HOL = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Jachtvliegtuiggroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -1892,7 +1830,7 @@ HOL = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Duikbommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -1900,7 +1838,7 @@ HOL = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Marine-Jachtvliegtuiggroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -1908,14 +1846,14 @@ HOL = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Marine-Duikbommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Marine-Torpedobommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -1923,7 +1861,7 @@ HOL = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -1939,7 +1877,7 @@ HOL = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Marine-Bommenwerpergroep" "Marine-Torpedobommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -1947,7 +1885,7 @@ HOL = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -2027,7 +1965,7 @@ HUN = {
 	air_wing_names_template = AIR_WING_NAME_HUN_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Vadászosztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2043,7 +1981,7 @@ HUN = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Vadászosztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2051,7 +1989,7 @@ HUN = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Zuhanóbombázó Osztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2059,7 +1997,7 @@ HUN = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Vadászosztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2067,14 +2005,14 @@ HUN = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Zuhanóbombázó Osztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Torpedorepülõ Osztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2082,7 +2020,7 @@ HUN = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Bombázóosztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2098,7 +2036,7 @@ HUN = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Tengerészetibombázó osztály" "Torpedorepülõ Osztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2106,7 +2044,7 @@ HUN = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Stratégiaibombázó osztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2399,7 +2337,7 @@ SAF = {
 
 	air_wing_names_template = AIR_WING_NAME_SAF_FALLBACK
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Squadron SAN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
@@ -2407,19 +2345,73 @@ SAF = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Squadron SAN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Squadron SAN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = {
 		}	
+	}
+}
+
+MAL = {
+	submarine = {
+		prefix = "KD"
+		generic = { "Submarine" }
+		unique = {
+			"Tunku Abdul Rahman" "Tun Abdul Razak"
+		}
+	}
+	destroyer = {
+		prefix = "KD"
+		generic = { 
+			"Destroyer"
+		}
+		unique = {
+			"Kasturi" "Lekir" "Laksamana Hang Nadim" "Laksamana Tun Abdul Jamil" "Kedah" "Pahang" "Perak" "Terengganu" "Kelantan" "Selangor" "Perdana" "Serang" "Ganas" "Ganyang" "Handalan" "Perkasa" "Pendekar" "Gempita" "Jerung" "Todak" "Paus" "Yu" "Baung" "Pari" "Sri Perlis" "Sri Johor"
+		}
+	}
+	light_cruiser = {
+		prefix = "KD"
+		generic = { "Light Cruiser" }
+		unique = {
+			"Jebat" "Lekiu" "Kuala Lumpur" "Kuantan" "Mersing" "Kulai" "Skudai" "Kluang" "Balok" "Chukai" "Kuala Dungun" "Georgetown" "Butterworth" "Jelutong" "Bukit Mertajam" "Kuching" "Sibu" "Bintulu" "Miri" "Tawau" "Sandakan" "Lahad Datu" "Kudat" "Ipoh" "Kota Barhu"
+		}
+	}
+	heavy_cruiser = {
+		prefix = "KD"
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Jebat" "Lekiu" "Kuala Lumpur" "Kuantan" "Mersing" "Kulai" "Skudai" "Kluang" "Balok" "Chukai" "Kuala Dungun" "Georgetown" "Butterworth" "Jelutong" "Bukit Mertajam" "Kuching" "Sibu" "Bintulu" "Miri" "Tawau" "Sandakan" "Lahad Datu" "Kudat"
+		}
+	}
+	battle_cruiser = {
+		prefix = "KD"
+		generic = { "Battle Cruiser" }
+		unique = {
+			"Malaya" "Singapore" "Malacca" "Borneo" "Brunai" "Segamat" "Penang" "Sabah" "Sarawak"
+		}
+	}
+	battleship = {
+		prefix = "KD"
+		generic = { "Battleship" }
+		unique = {
+			"Malaya" "Singapore" "Malacca" "Borneo" "Brunai" "Segamat" "Penang" "Sabah" "Sarawak"
+		}
+	}
+	carrier = {
+		prefix = "KD"
+		generic = { "Carrier" }
+		unique = {
+			"Malaya" "Singapore" "Malacca" "Borneo" "Brunai" "Segamat" "Penang" "Sabah" "Sarawak"
+		}
 	}
 }
 
@@ -2726,7 +2718,7 @@ NZL = {
 
 	air_wing_names_template = AIR_WING_NAME_NZL_FALLBACK
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Squadron RNZN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
@@ -2734,19 +2726,71 @@ NZL = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Squadron RNZN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Squadron RNZN" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = {
 		}	
+	}
+}
+
+OMA = {
+	submarine = {
+		prefix = "SNV"
+		generic = { "Submarine" }
+		unique = {
+			"Al Shamikh" "Al Rahmani" "Al Rasikh" "Qahir Al Amwaj" "Al Mua'zzar" "Al Mubrukah"
+		}
+	}
+	destroyer = {
+		prefix = "SNV"
+		generic = { "Destroyer" }
+		unique = {
+			"Al Shamikh" "Al Rahmani" "Al Rasikh" "Qahir Al Amwaj" "Al Mua'zzar" "Al Mubrukah"
+		}
+	}
+	light_cruiser = {
+		prefix = "SNV"
+		generic = { "Light Cruiser" }
+		unique = {
+			"Salalah" "Raysut" "Mirbah" "Sawqirah" "Duqm" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = "SNV"
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Salalah" "Raysut" "Mirbah" "Sawqirah" "Duqm" 
+		}
+	}
+	battle_cruiser = {
+		prefix = "SNV"
+		generic = { "Battlecruiser" }
+		unique = {
+			"Masqat" "Matrah" 
+		}
+	}
+	battleship = {
+		prefix = "SNV"
+		generic = { "Battleship" }
+		unique = {
+			"Masqat" "Matrah" 
+		}
+	}
+	carrier = {
+		prefix = "SNV"
+		generic = { "Aircraft Carrier" }
+		unique = {
+			"Salah al-Din" 
+		}
 	}
 }
 
@@ -2857,7 +2901,7 @@ PER = {
 	air_wing_names_template = AIR_WING_NAME_BRA_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Dastebandi Sahrbani" "Daste Barangixtan" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -2873,7 +2917,7 @@ PER = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Dastebandi Sahrbani" "Daste Barangixtan" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -2881,7 +2925,7 @@ PER = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Daste Sirje Raftan Bombon" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -2889,7 +2933,7 @@ PER = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Dastebandi Sahrbani" "Daste Barangixtan" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -2897,14 +2941,14 @@ PER = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Daste Sirje Raftan Bombon" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Daste Azdar Bombon" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -2912,7 +2956,7 @@ PER = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Daste Bombon Kardani" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -2928,7 +2972,7 @@ PER = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Daste Daryayi Bombon" "Daste Azdar Bombon" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -2936,7 +2980,7 @@ PER = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Daste Bombon Razmarayi" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -3126,7 +3170,7 @@ PRC = {
 	air_wing_names_template = AIR_WING_NAME_CHI_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3142,7 +3186,7 @@ PRC = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3150,7 +3194,7 @@ PRC = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Jinjuli Kongyuan Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3158,7 +3202,7 @@ PRC = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3166,14 +3210,14 @@ PRC = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Jinjuli Kongyuan Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Haijun Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3181,7 +3225,7 @@ PRC = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Zhanshu Hongzhaji Dadui" "Huweiji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3197,7 +3241,7 @@ PRC = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Haijun Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3205,7 +3249,7 @@ PRC = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Zhanlue Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3228,6 +3272,63 @@ PRC = {
 		unique = {
 		}	
 	}
+}
+
+PAK = {
+	submarine = {
+		prefix = "PNS"
+		generic = { "Submarine" }
+		unique = {
+			"Hashmat" "Hurmat" "Khalid" "Saad" "Hamza" "Ghazi" "Hangor" "Shushuk" "Mangro"
+		}
+	}
+	destroyer = {
+		prefix = "PNS"
+		generic = { 
+			"Destroyer"
+		}
+		unique = {
+			"Shamsher" "Tippu Sultan" "Tariq" "Jhelum" "Tughril" "Taimur" "Badr" "Zarrar" "Karrar" "Larkana" "Rajshahi" "Jalalat" "Shujaat" "Jurrat" "Quwwat" "Azmat" "Dehshat" "Munsif" "Muhafiz" "Mujahid" "Nazim" "Shahjahan" "Khaibar" "Dacca" "Zulfikar"
+		}
+	}
+	light_cruiser = {
+		prefix = "PNS"
+		generic = { "Light Cruiser" }
+		unique = {
+		   "Babur" "Jahangir" "Humayun" "Sher Shah Suri" "Akbar" "Shah Jahan" "Aurangzeb" "Bahadur Shah" "Furrukhsiyar" "Rafi Ul-Darjat" "Muhammad Ibrahim" "Saif"
+
+		}
+	}
+	heavy_cruiser = {
+		prefix = "PNS"
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Babur" "Jahangir" "Humayun" "Sher Shah Suri" "Akbar" "Shah Jahan" "Aurangzeb" "Bahadur Shah" "Furrukhsiyar" "Rafi Ul-Darjat" "Muhammad Ibrahim" "Saif"
+		}
+	}
+	battle_cruiser = {
+		prefix = "PNS"
+		generic = { "Battlecruiser" }
+		unique = {
+			"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
+		}
+	}
+	battleship = {
+		prefix = "PNS"
+		generic = { "Battleship" }
+		unique = {
+			"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
+		}
+	}
+	carrier = {
+		prefix = "PNS"
+		generic = { "Carrier" }
+		unique = {
+		 	"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
+
+		}
+	}
+	
 }
 
 RAJ = {
@@ -3343,7 +3444,7 @@ ROM = {
 	air_wing_names_template = AIR_WING_NAME_ROM_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Grup Avion de Vanatoare" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3359,7 +3460,7 @@ ROM = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Grup Avion de Vanatoare" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3367,7 +3468,7 @@ ROM = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Grup Asalt" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3375,7 +3476,7 @@ ROM = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Escadrile Avion de Vanatoare" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3383,14 +3484,14 @@ ROM = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Escadrile Asalt" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Escadrile Avion Torpila" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3398,7 +3499,7 @@ ROM = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Grup Tactic Bombardier" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3414,7 +3515,7 @@ ROM = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Grup Hidroavioane" "Grup Avion Torpila" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3422,7 +3523,7 @@ ROM = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Grup Strategic Bombardier" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3502,7 +3603,7 @@ YUG = {
 	air_wing_names_template = AIR_WING_NAME_YUG_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Vazduhoplovni Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3518,7 +3619,7 @@ YUG = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Vazduhoplovni Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3526,7 +3627,7 @@ YUG = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Bombarderski Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3534,7 +3635,7 @@ YUG = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Vazduhoplovni Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3542,14 +3643,14 @@ YUG = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Bombarderski Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Torpedo Komanda" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3557,7 +3658,7 @@ YUG = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Bombarderski Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3573,7 +3674,7 @@ YUG = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Hidroplanska Komanda" "Torpedo Komanda" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3581,7 +3682,7 @@ YUG = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Bombarderski Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3603,6 +3704,59 @@ YUG = {
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
 		unique = {
 		}	
+	}
+}
+
+
+VEN = {
+	submarine = {
+		prefix = "ARV"
+		generic = { "Submarino" }
+		unique = {
+			"SAbalo" "Caribe" "Almirante Clemente" "General Flores" "General Moran" "Almirante Brión" "General Austria" "Almirante Garcia"
+		}
+	}
+	destroyer = {
+		prefix = "ARV"
+		generic = { "Destructor" }
+		unique = {
+			"Nueva Esparta" "Zulia" "Aragua" "Almirante Clemente" "General Flores" "General Moran" "Almirante Brión" "General Austria" "Almirante Garcia"
+		}
+	}
+	light_cruiser = {
+		prefix = "ARV"
+		generic = { "Crucero Ligero" }
+		unique = {
+			"Maracay" "Barquisimeto" "Valencia" "Petare Teques" "Puerto de la Cruz" "Cumana" "Maturin" "Sotavento" "Isla de Tortuga" "Pedregal" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = "ARV"
+		generic = { "Crucero Pesado" }
+		unique = {
+			"Maracay" "Barquisimeto" "Valencia" "Petare Teques" "Puerto de la Cruz" "Cumana" "Maturin" "Sotavento" "Isla de Tortuga" "Pedregal" 
+		}
+	}
+	battle_cruiser = {
+		prefix = "ARV"
+		generic = { "Crucero de Batalla" }
+		unique = {
+			"Coronel Eduardo Blanco" "Almirante San Pablo" "Caracas" 
+		}
+	}
+	battleship = {
+		prefix = "ARV"
+		generic = { "Acorazado" }
+		unique = {
+			"Coronel Eduardo Blanco" "Almirante San Pablo" "Caracas" 
+		}
+	}
+	carrier = {
+		prefix = "ARV"
+		generic = { "Portaaviones" }
+		unique = {
+			"Republica de Venezuela" "Simón Bolivar" "General Urdaneta" "Almirante Brión" "General Soublette" "General Salóm" 
+		}
 	}
 }
 
@@ -3668,7 +3822,7 @@ SWE = {
 	air_wing_names_template = AIR_WING_NAME_SWE_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Jaktflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3676,7 +3830,7 @@ SWE = {
 		}	
 	}
 
-	scout_plane_equipment = {
+	medium_plane_scout_plane_airframe = {
 		prefix = ""
 		generic = { "Spaningsgruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3692,7 +3846,7 @@ SWE = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Jaktflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3700,7 +3854,7 @@ SWE = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Bombflyggruppen" "Dykbombflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3708,7 +3862,7 @@ SWE = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Jaktflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3716,14 +3870,14 @@ SWE = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Bombflyggruppen" "Dykbombflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Torpedbombflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3731,7 +3885,7 @@ SWE = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Bombflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3747,7 +3901,7 @@ SWE = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Marinbombflyggruppen" "Torpedbombflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3755,7 +3909,7 @@ SWE = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Bombflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -3841,7 +3995,7 @@ TUR = {
 	air_wing_names_template = AIR_WING_NAME_TUR_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Avci Filo" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -3857,7 +4011,7 @@ TUR = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Avci Filo" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -3865,7 +4019,7 @@ TUR = {
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Tank Avci Filo" "Bombardiman Filosu" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -3873,7 +4027,7 @@ TUR = {
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Avci Filo" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -3881,14 +4035,14 @@ TUR = {
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Tank Avci Filo" "Bombardiman Filosu" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Torpil Filo" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -3896,7 +4050,7 @@ TUR = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Bombardiman Filosu" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -3912,7 +4066,7 @@ TUR = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Deniz Avci Filo" "Torpil Filo" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -3920,7 +4074,7 @@ TUR = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Bombardiman Filosu" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -4167,9 +4321,9 @@ POL = {
 	air_wing_names_template = AIR_WING_NAME_POL_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
-		generic = { "Dywizjon mysliwski" }
+		generic = { "Dywizjon Myśliwski" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4177,44 +4331,44 @@ POL = {
 
 	jet_fighter_equipment = {
 		prefix = ""
-		generic = { "Dywizjon mysliwski" }
+		generic = { "Dywizjon Myśliwski" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
 	}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
-		generic = { "Dywizjon mysliwski" }
+		generic = { "Dywizjon Myśliwski" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
 	}
 
-	CAS_equipment = {
-		prefix = ""
-		generic = { "Dywizjon bombowy" }
-		generic_pattern = AIR_WING_NAME_POL_GENERIC
-		unique = {
-		}	
-	}
-
-	cv_fighter_equipment = {
-		prefix = ""
-		generic = { "Dywizjon mysliwski" }
-		generic_pattern = AIR_WING_NAME_POL_GENERIC
-		unique = {
-		}	
-	}
-
-	cv_CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+
+	cv_small_plane_airframe = {
+		prefix = ""
+		generic = { "Dywizjon Myśliwski" }
+		generic_pattern = AIR_WING_NAME_POL_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_small_plane_cas_airframe = {
+		prefix = ""
+		generic = { "Dywizjon bombowy" }
+		generic_pattern = AIR_WING_NAME_POL_GENERIC
+		unique = {
+		}	
+	}
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Morski dyon lotniczy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
@@ -4222,7 +4376,7 @@ POL = {
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
@@ -4238,7 +4392,7 @@ POL = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Morski dyon lotniczy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
@@ -4246,7 +4400,7 @@ POL = {
 		}	
 	}
 
-	strat_bomber_equipment = {
+	large_plane_airframe = {
 		prefix = ""
 		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
@@ -4268,5 +4422,57 @@ POL = {
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
+	}
+}
+
+INS = {
+	submarine = {
+		prefix = "KRI"
+		generic = { "Submarine" }
+		unique = {
+			"Nagapasa" "Ardadedali" "Alugoro" "Cakra" "Nanggala"
+		}
+	}
+	destroyer = {
+		prefix = "KRI"
+		generic = { "Destroyer" }
+		unique = {
+			"Mandau" "Rencong" "Badik" "Keris" "Todak" "Hiu" "Layang" "Lemadang" "Pandrong" "Sura" "Clurit" "Kujang" "Beladau" "Alamang" "Parang" "Siwar" "Surik" "Terapang" "Sampari" "Tombak" "Halasan" "Badau" "Selawaku" "Ajak" "Andau" "Singa" "Tongkak" "Kakap" "Kerapu" "Tongkol" "Barakuda" "Boa" "Welang"
+		}
+	}
+	light_cruiser = {
+		prefix = "KRI"
+		generic = { "Light Cruiser" }
+		unique = {
+			"Diponegoro" "Sultan Hasanuddin" "Sultan Iskandar Muda" "Frans Kaisiepo" "Bung Tomo" "John Lie" "Usman Harun" "Fatahillah" "Malahayati" "Nala" " Kapitan Pattimura" "Untung Suropati" "Nuku" "Lambung Mangkurat" "Cut Nyak Dien" "Sultan Thaha Syaifudin" "Sutanto" "Sutedi Senoputra" "Wiratno" "Tjiptadi" "Hasan Basri" "Imam Bonjol" "Teuku Umar" "Silas Papare"
+		}
+	}
+	heavy_cruiser = {
+		prefix = "KRI"
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Raden Edi Martadinata" "I Gusti Ngurah Rai" "Diponegoro" "Ahmad Yani" "Slamet Riyadi" "Yos Sudarso" "Oswald Siahaan" "Abdul Halim Perdanakusuma" "Karel Satsuit Tubun"
+		}
+	}
+	battle_cruiser = {
+		prefix = "KRI"
+		generic = { "Battle Cruiser" }
+		unique = {
+			"Jakarta" "Bandung" "Semarang" "Surabaya" "Malang" 
+		}
+	}
+	battleship = {
+		prefix = "KRI"
+		generic = { "Battleship" }
+		unique = {
+			"Palembang" "Balikpapan" "Makassar" "Padang" "Medan" 
+		}
+	}
+	carrier = {
+		prefix = "KRI"
+		generic = { "Carrier" }
+		unique = {
+			"Sumatra" "Java" "Kalimantan" "Sulawesi" "Nusa Tenggara" "Papua" "Maluku" "Aceh"
+		}
 	}
 }
