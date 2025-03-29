@@ -2961,7 +2961,7 @@ technologies = {
 
 		pioneer_support = {
 			amphibious = {
-				attack = 0.70
+				attack = 1.00
 			}
 		}
 		

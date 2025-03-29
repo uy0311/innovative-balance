@@ -68,13 +68,13 @@ sub_units = {
 			defence = -0.05
 		}
 		marsh = {
-			attack = 0.6
+			attack = 0.3
 		}
 		river = {
-			attack = 0.6
+			attack = 0.3
 		}
 		amphibious = {
-			attack = 1.8
+			attack = 5.5
 		}
 
 		#hardness = 0.2 this is now rolled into normal stats
