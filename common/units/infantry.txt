@@ -140,10 +140,10 @@ sub_units = {
 		}
 
 		marsh = {
-			attack = 0.6
+			attack = 0.3
 		}
 		river = {
-			attack = 0.6
+			attack = 0.3
 		}
 		amphibious = {
 			attack = 1.5
@@ -209,10 +209,10 @@ sub_units = {
 			attack = 0.1
 		}
 		marsh = {
-			attack = 0.6
+			attack = 0.3
 		}
 		river = {
-			attack = 0.6
+			attack = 0.3
 		}
 		amphibious = {
 			attack = 1.5
