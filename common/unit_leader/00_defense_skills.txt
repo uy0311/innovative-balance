@@ -5,8 +5,8 @@ leader_defense_skills = {
 		cost = 100
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.05
-			naval_morale_factor = 0.02
+			navy_org_factor = 0.06
+			naval_morale_factor = 0.06
 		}
 	}
 
@@ -14,8 +14,8 @@ leader_defense_skills = {
 		cost = 200
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.10
-			naval_morale_factor = 0.04
+			navy_org_factor = 0.07
+			naval_morale_factor = 0.07
 		}
 	}
 
@@ -23,8 +23,8 @@ leader_defense_skills = {
 		cost = 400
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.15
-			naval_morale_factor = 0.06
+			navy_org_factor = 0.08
+			naval_morale_factor = 0.08
 		}
 	}
 
@@ -32,8 +32,8 @@ leader_defense_skills = {
 		cost = 800
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.20
-			naval_morale_factor = 0.08
+			navy_org_factor = 0.09
+			naval_morale_factor = 0.09
 		}
 	}
 
@@ -41,7 +41,7 @@ leader_defense_skills = {
 		cost = 1600
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.25
+			navy_org_factor = 0.10
 			naval_morale_factor = 0.10
 		}
 	}
@@ -50,8 +50,8 @@ leader_defense_skills = {
 		cost = 3200
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.30
-			naval_morale_factor = 0.12
+			navy_org_factor = 0.11
+			naval_morale_factor = 0.11
 		}
 	}
 
@@ -59,8 +59,8 @@ leader_defense_skills = {
 		cost = 6400
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.35
-			naval_morale_factor = 0.14
+			navy_org_factor = 0.12
+			naval_morale_factor = 0.12
 		}
 	}
 
@@ -68,8 +68,8 @@ leader_defense_skills = {
 		cost = 12800
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.40
-			naval_morale_factor = 0.16
+			navy_org_factor = 0.13
+			naval_morale_factor = 0.13
 		}
 	}
 
@@ -77,8 +77,8 @@ leader_defense_skills = {
 		cost = 25600
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.45
-			naval_morale_factor = 0.18
+			navy_org_factor = 0.14
+			naval_morale_factor = 0.14
 		}
 	}
 	
@@ -86,8 +86,8 @@ leader_defense_skills = {
 		cost = 51200
 		type = navy
 		modifier = {
-			#naval_defense_factor =  0.50
-			naval_morale_factor = 0.20
+			navy_org_factor = 0.15
+			naval_morale_factor = 0.15
 		}
 	}
 
