@@ -1,0 +1,27 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+				every_military_industrial_organization = {
+
+					limit = {
+						has_mio_trait = generic_mio_trait_fleet_escorts
+						has_mio_trait = generic_mio_trait_internal_armor_belt
+						has_mio_trait = generic_mio_trait_flight_deck_edge_aa_mounts
+						has_mio_trait = generic_mio_trait_experimental_anechoic_tiles
+					}
+					
+					complete_mio_trait = generic_mio_trait_fleet_escorts
+					complete_mio_trait = generic_mio_trait_internal_armor_belt
+					complete_mio_trait = generic_mio_trait_flight_deck_edge_aa_mounts
+					complete_mio_trait = generic_mio_trait_experimental_anechoic_tiles
+				}
+            }
+		}
+	}
+}
