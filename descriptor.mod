@@ -1,4 +1,5 @@
 version="1.00"
+replace_path="map"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="events"
