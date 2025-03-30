@@ -16,6 +16,7 @@ sub_units = {
 		group = mobile
 
 		categories = {
+			category_self_propelled_artillery
 			category_all_armor
 			category_army
 		}		
@@ -82,6 +83,7 @@ sub_units = {
 		group = mobile
 
 		categories = {
+			category_self_propelled_artillery
 			category_all_armor
 			category_army
 		}		
@@ -151,6 +153,7 @@ sub_units = {
 		group = mobile
 		
 		categories = {
+			category_self_propelled_artillery
 			category_all_armor
 			category_army
 		}
@@ -222,6 +225,7 @@ sub_units = {
 		group = mobile
 		
 		categories = {
+			category_self_propelled_artillery
 			category_all_armor
 			category_army
 		}
@@ -292,6 +296,7 @@ sub_units = {
 		group = mobile
 		
 		categories = {
+			category_self_propelled_artillery
 			category_all_armor
 			category_army
 		}
