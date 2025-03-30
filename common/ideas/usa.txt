@@ -1247,7 +1247,7 @@ ideas = {
 		#		original_tag = USA
 		#	}
 		#	available = {
-		#		has_completed_focus = USA_main_battle_tanks
+		#		
 		#	}
 
 			

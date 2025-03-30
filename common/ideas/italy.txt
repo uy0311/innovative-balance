@@ -167,8 +167,7 @@ ideas = {
 			}
 					
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
+				
 			}
 
 			research_bonus = {

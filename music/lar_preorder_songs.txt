@@ -13,8 +13,6 @@ music = {
 		}
 		modifier = {
 			factor = 2
-
-			#has_completed_focus = FRA_the_council_of_rambouillet
 		}
 	}
 

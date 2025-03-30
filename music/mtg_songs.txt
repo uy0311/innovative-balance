@@ -30,7 +30,6 @@ music = {
 	chance = {
 		factor = 1
 		modifier = {
-			#not = { has_completed_focus = USA_suspend_the_presecution }
 			not = { has_government = communism }
 			factor = 0
 		}
@@ -41,7 +40,6 @@ music = {
 			factor = 2
 		}
 		modifier = {
-			#has_completed_focus = USA_democratic_socialism
 			factor = 3
 		}
 		modifier = {
@@ -58,7 +56,6 @@ music = {
 	chance = {
 		factor = 1
 		modifier = {
-			#not = { has_completed_focus = USA_america_first }
 			factor = 0
 		}
 		modifier = {
@@ -68,7 +65,6 @@ music = {
 			factor = 2
 		}
 		modifier = {
-			#has_completed_focus = USA_honor_the_confederacy
 			factor = 3
 		}
 		modifier = {
