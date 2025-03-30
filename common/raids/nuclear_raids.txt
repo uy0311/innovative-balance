@@ -368,7 +368,6 @@ types = {
 							limit = {
 								var:actor_country = {
 									original_tag = RAJ
-									has_completed_focus = RAJ_bathe_in_hellfire
 								}
 								has_dlc = "Graveyard of Empires"
 							}
@@ -627,7 +626,6 @@ types = {
 							limit = {
 								var:actor_country = {
 									original_tag = RAJ
-									has_completed_focus = RAJ_bathe_in_hellfire
 								}
 								has_dlc = "Graveyard of Empires"
 							}

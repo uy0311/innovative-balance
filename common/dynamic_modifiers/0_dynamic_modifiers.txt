@@ -24,6 +24,37 @@
 #	can be added to countries, states or unit leaders
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
+##### Nuclear Fallout ####
+
+fallout_atomic = {
+	enable = { always = yes }
+	icon = GFX_modifiers_radiation
+	army_defence_factor = -0.25
+	army_speed_factor = -0.3
+	max_dig_in_factor = -0.5 
+	industry_repair_factor = -0.4
+	industry_free_repair_factor = -0.4
+	repair_speed_infrastructure_factor = -0.4
+	repair_speed_rail_way_factor = -0.4
+	local_resources_factor = -0.4
+	state_production_speed_buildings_factor = -0.4
+}
+
+fallout_thermonuclear = {
+	enable = { always = yes }
+	icon = GFX_modifiers_radiation
+	army_defence_factor = -0.5
+	army_speed_factor = -0.65
+	max_dig_in_factor = -0.9
+	industry_repair_factor = -0.75
+	industry_free_repair_factor = -0.75
+	repair_speed_infrastructure_factor = -0.75
+	repair_speed_rail_way_factor = -0.75
+	local_resources_factor = -0.75
+	state_production_speed_buildings_factor = -0.75
+}
+
+
 sabotaged_resources = {
 	remove_trigger = { 
 		has_resistance = no

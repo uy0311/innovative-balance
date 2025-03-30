@@ -278,7 +278,7 @@ characters={
 				original_tag = USA
 			}
 			available = {
-				#has_completed_focus = USA_war_plans_division
+				
 			}
 			traits = {
 				army_chief_planning_2
@@ -616,7 +616,7 @@ characters={
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
-			#visible = { has_completed_focus = USA_intervention_in_asia }
+			
 		}
 	}
 

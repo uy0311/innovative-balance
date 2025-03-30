@@ -2938,8 +2938,7 @@ ideas = {
 				has_dlc = "Battle for the Bosporus"
 			}
 			available = { 
-		#		TUR_debt_council_has_no_sway = yes
-		#		has_completed_focus = TUR_turkish_state_railways
+
 			}	
 
 		#	cost = 75			

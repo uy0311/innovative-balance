@@ -291,7 +291,6 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				#has_completed_focus = ENG_the_kings_party
 				has_country_leader = {
 				    name = "Elizabeth II"
 				    ruling_only = yes
@@ -322,7 +321,6 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				#has_completed_focus = ENG_the_kings_party
 				has_country_leader = {
 				    name = "Elizabeth II"
 				    ruling_only = yes
@@ -353,7 +351,7 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				#has_completed_focus = ENG_the_kings_party
+				
 				has_country_leader = {
 				    name = "Elizabeth II"
 				    ruling_only = yes
