@@ -91,15 +91,15 @@ defined_text = {
 		localization_key = dlc_name_TOA
 	}
 }
-#defined_text = {
-#	name = Getdlc_name_GOEName
-#	text = {
-#		trigger = {
-#			NOT = { has_dlc = "Graveyard of Empire" }
-#		}
-#		localization_key = Getdlc_name_GOEName
-#	}
-#}
+defined_text = {
+	name = Getdlc_name_GOEName
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Graveyard of Empire" }
+		}
+		localization_key = Getdlc_name_GOEName
+	}
+}
 
 
 
