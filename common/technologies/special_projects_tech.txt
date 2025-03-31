@@ -15,9 +15,9 @@ technologies = {
 
 		start_year = 1936
 
-		enable_equipment_modules = {
-			advanced_modern_tank_turret 
-		}
+		# enable_equipment_modules = {
+		# 	advanced_modern_tank_turret 
+		# }
 	}
 
 	land_multi_charge_large_caliber_gun_tech = {

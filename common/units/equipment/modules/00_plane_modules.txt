@@ -3,7 +3,7 @@ equipment_modules = {
 		has_dlc = "By Blood Alone"
 	}
 
-	### 設計思想
+### 設計思想
 
 	concept_fighter = {
 		abbreviation = "concept_fighter"
@@ -24,15 +24,7 @@ equipment_modules = {
 		}
 
 		forbid_equipment_type_exact_match_for_category = {
-	#		fighter_weapon = fighter
-	#		machine_gun = fighter
-	#		rocket_rails_weapon = fighter
 			anti_tank_weapon = fighter
-	#		cas_weapon = fighter
-	#		tac_weapon = fighter
-	#		nav_bomber_weapon = fighter
-	#		mine_warfare_offense = fighter
-	#		plane_special_module_defense_turret = fighter
 		}
 
 		mission_type_stats = {
@@ -130,14 +122,11 @@ equipment_modules = {
 		}
 
 		forbid_equipment_type_exact_match_for_category = {
-	#		fighter_weapon = fighter
-	#		machine_gun = fighter
 			rocket_rails_weapon = fighter
 			anti_tank_weapon = fighter
 			cas_weapon = fighter
 			tac_weapon = fighter
 			nav_bomber_weapon = fighter
-	#		mine_warfare_offense = fighter
 			plane_special_module_defense_turret = fighter
 		}
 
@@ -220,18 +209,6 @@ equipment_modules = {
 		category = light_plane_concept
 		sfx = light_plane_concept_cas
 		add_equipment_type = cas
-
-	#	forbid_equipment_type_exact_match_for_category = {
-	#		fighter_weapon = cas
-	#		machine_gun = cas
-	#		rocket_rails_weapon = cas
-	#		anti_tank_weapon = cas
-	#		cas_weapon = cas
-	#		tac_weapon = cas
-	#		nav_bomber_weapon = cas
-	#		mine_warfare_offense = cas
-	#		plane_special_module_defense_turret = cas
-	#	}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -318,18 +295,6 @@ equipment_modules = {
 		category = light_plane_concept
 		sfx = light_plane_concept_naval_bomber
 		add_equipment_type = naval_bomber
-
-	#	forbid_equipment_type_exact_match_for_category = {
-	#		fighter_weapon = naval_bomber
-	#		machine_gun = naval_bomber
-	#		rocket_rails_weapon = naval_bomber
-	#		anti_tank_weapon = naval_bomber
-	#		cas_weapon = naval_bomber
-	#		tac_weapon = naval_bomber
-	#		nav_bomber_weapon = naval_bomber
-	#		mine_warfare_offense = naval_bomber
-	#		plane_special_module_defense_turret = naval_bomber
-	#	}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -422,15 +387,7 @@ equipment_modules = {
 			interception
 		}
 		forbid_equipment_type_exact_match_for_category = {
-	#		fighter_weapon = heavy_fighter
-	#		machine_gun = heavy_fighter
-	#		rocket_rails_weapon = heavy_fighter
 			anti_tank_weapon = heavy_fighter
-	#		cas_weapon = heavy_fighter
-	#		tac_weapon = heavy_fighter
-	#		nav_bomber_weapon = heavy_fighter
-	#		mine_warfare_offense = heavy_fighter
-	#		plane_special_module_defense_turret = heavy_fighter
 		}
 		
 		allowed_module_categories = {
@@ -520,17 +477,6 @@ equipment_modules = {
 		sfx = medium_plane_concept_tactical_bomber
 		add_equipment_type = tactical_bomber
 
-	#	forbid_equipment_type_exact_match_for_category = {
-	#		fighter_weapon = tactical_bomber
-	#		machine_gun = tactical_bomber
-	#		rocket_rails_weapon = tactical_bomber
-	#		anti_tank_weapon = tactical_bomber
-	#		cas_weapon = tactical_bomber
-	#		tac_weapon = tactical_bomber
-	#		nav_bomber_weapon = tactical_bomber
-	#		mine_warfare_offense = tactical_bomber
-	#		plane_special_module_defense_turret = tactical_bomber
-	#	}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -630,8 +576,6 @@ equipment_modules = {
 			cas_weapon = scout_plane
 			tac_weapon = scout_plane
 			nav_bomber_weapon = scout_plane
-	#		mine_warfare_offense = scout_plane
-	#		plane_special_module_defense_turret = scout_plane
 		}
 
 		allowed_module_categories = {
@@ -720,17 +664,6 @@ equipment_modules = {
 		sfx = large_plane_concept_strategic_bomber
 		add_equipment_type = strategic_bomber
 
-	#	forbid_equipment_type_exact_match_for_category = {
-	#		fighter_weapon = strategic_bomber
-	#		machine_gun = strategic_bomber
-	#		rocket_rails_weapon = strategic_bomber
-	#		anti_tank_weapon = strategic_bomber
-	#		cas_weapon = strategic_bomber
-	#		tac_weapon = strategic_bomber
-	#		nav_bomber_weapon = strategic_bomber
-	#		mine_warfare_offense = strategic_bomber
-	#		plane_special_module_defense_turret = strategic_bomber
-	#	}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -819,16 +752,6 @@ equipment_modules = {
 		sfx = large_plane_concept_maritime_patrol_plane
 		add_equipment_type = maritime_patrol_plane
 
-	#	forbid_equipment_type_exact_match_for_category = {
-	#		fighter_weapon = maritime_patrol_plane
-	#		machine_gun = maritime_patrol_plane
-	#		anti_tank_weapon = maritime_patrol_plane
-	#		cas_weapon = maritime_patrol_plane
-	#		tac_weapon = maritime_patrol_plane
-	#		nav_bomber_weapon = maritime_patrol_plane
-	#		mine_warfare_offense = maritime_patrol_plane
-	#		plane_special_module_defense_turret = maritime_patrol_plane
-	#	}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -915,9 +838,9 @@ equipment_modules = {
 		}
 	}
 
-	### エンジン
+### エンジン
 
-	### 単発
+### 単発
 
 	engine_1_1x = {
 		abbreviation = "e11"
@@ -1027,7 +950,35 @@ equipment_modules = {
 		}
 	}
 
-	### ロケットエンジン
+	jet_engine_axial_1x = {
+		abbreviation = "ja1"
+		category = plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		parent = jet_engine_1x
+
+		add_stats = {
+			thrust = 30
+			build_cost_ic = 20
+			fuel_consumption = 0.4
+		}
+
+		multiply_stats = {
+			air_range = -0.3
+			maximum_speed = 0.70
+			air_agility = 0.05
+		}
+
+		build_cost_resources = {
+			chromium = 1
+		}
+
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 6
+		}
+	}
+
+### ロケットエンジン
 
 	rocket_engine_1 = { #rocket engines only come in sets of 1
 		abbreviation = "re1"
@@ -1089,7 +1040,7 @@ equipment_modules = {
 		dismantle_cost_ic = 10
 	}
 
-	### 双発
+### 双発
 
 	engine_1_2x = {
 		abbreviation = "e12"
@@ -1198,8 +1149,36 @@ equipment_modules = {
 			convert_cost_ic = 10
 		}
 	}
+
+	jet_engine_axial_2x = {
+		abbreviation = "ja2"
+		category = twin_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		parent = jet_engine_2x
+
+		add_stats = {
+			thrust = 45
+			build_cost_ic = 40
+			fuel_consumption = 0.8
+		}
+
+		multiply_stats = {
+			air_range = -0.3
+			maximum_speed = 0.70
+			air_agility = 0.05
+		}
+
+		build_cost_resources = {
+			chromium = 2
+		}
+
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 12
+		}
+	}
 	
-	### 三発
+### 三発
 
 	engine_1_3x = {
 		abbreviation = "e13"
@@ -1309,7 +1288,35 @@ equipment_modules = {
 		}
 	}
 
-	### 四発
+	jet_engine_axial_3x = {
+		abbreviation = "ja3"
+		category = medium_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		parent = jet_engine_3x
+
+		add_stats = {
+			thrust = 60
+			build_cost_ic = 60
+			fuel_consumption = 1.2
+		}
+
+		multiply_stats = {
+			air_range = -0.3
+			maximum_speed = 0.70
+			air_agility = 0.05
+		}
+
+		build_cost_resources = {
+			chromium = 2
+		}
+
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 18
+		}
+	}
+
+### 四発
 
 	engine_1_4x = {
 		abbreviation = "e14"
@@ -1418,7 +1425,35 @@ equipment_modules = {
 		}
 	}
 
-	### 六発
+	jet_engine_axial_4x = {
+		abbreviation = "ja4"
+		category = quad_large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		parent = jet_engine_4x
+
+		add_stats = {
+			thrust = 75
+			build_cost_ic = 80
+			fuel_consumption = 1.6
+		}
+
+		multiply_stats = {
+			air_range = -0.3
+			maximum_speed = 0.70
+			air_agility = 0.05
+		}
+
+		build_cost_resources = {
+			chromium = 3
+		}
+
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 24
+		}
+	}
+
+### 六発
 
 	engine_1_6x = {
 		abbreviation = "e16"
@@ -1524,6 +1559,34 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = large_plane_engine_type
 			convert_cost_ic = 30
+		}
+	}
+
+	jet_engine_axial_6x = {
+		abbreviation = "ja6"
+		category = large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		parent = jet_engine_6x
+
+		add_stats = {
+			thrust = 105
+			build_cost_ic = 120
+			fuel_consumption = 2.4
+		}
+
+		multiply_stats = {
+			air_range = -0.3
+			maximum_speed = 0.70
+			air_agility = 0.05
+		}
+
+		build_cost_resources = {
+			chromium = 4
+		}
+
+		can_convert_from = {
+			module_category = large_plane_engine_type
+			convert_cost_ic = 36
 		}
 	}
 
@@ -2443,6 +2506,123 @@ equipment_modules = {
 			}
 		}
 		dismantle_cost_ic = 4
+	}
+
+#### Special Project Modules
+
+	earthshaker_bomb_release = {
+		abbreviation = "bbr"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { strategic_bomber }
+
+		add_stats = {
+			build_cost_ic = 9
+			weight = 1
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			add_stats = {
+				naval_strike_attack = 9
+				weight = 9
+				air_agility = -20
+			}
+			add_average_stats = {
+				naval_strike_targetting = 3
+			}			
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			add_stats = {
+				air_bombing = 15
+				weight = 9
+				air_agility = -20
+			}
+		}
+		dismantle_cost_ic = 7
+	}
+
+	rocket_propelled_bombs = {
+		abbreviation = "bol"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = strategic_bomber
+
+		add_stats = {
+			build_cost_ic = 12
+			air_agility = -15
+			air_defence = 2
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			add_stats = {
+				air_bombing = 14
+				weight = 12
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			add_stats = {
+				naval_strike_attack = 12
+				weight = 12
+			}
+		}
+		dismantle_cost_ic = 12
+	}
+
+	improved_rocket_propelled_bombs = {
+		abbreviation = "bol"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = strategic_bomber
+
+		add_stats = {
+			build_cost_ic = 16
+			air_agility = -18
+			air_defence = 2
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+		mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			add_stats = {
+				air_bombing = 16
+				weight = 15
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				port_strike
+			}
+			add_stats = {
+				naval_strike_attack = 18
+				weight = 15
+			}
+		}
+		dismantle_cost_ic = 12
 	}
 
  ######  ########  ########  ######  ####    ###    ##          ##     ##  #######  ########  ##     ## ##       ########  ######                 ######  ##     ##    ###    ##       ##       
