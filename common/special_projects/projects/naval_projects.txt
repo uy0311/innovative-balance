@@ -56,13 +56,13 @@ sp_naval_cruiser_submarine = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			ship_hull_cruiser_submarine
+		#	ship_hull_cruiser_submarine
 		}
 		enable_equipments = {	
 			limit = {
 				not = { has_dlc = "Man the Guns" }
 			}
-			cruiser_submarine
+		#	cruiser_submarine
 		}
 		
 		country_effects = {
@@ -115,26 +115,26 @@ sp_naval_cruiser_submarine = {
 				
 				iteration_output = {
 					country_effects = { 
-						if = {
-							limit = {
-								NOT = {has_dlc = "Man the Guns"}
-							}
-							add_equipment_bonus = {
-								name = sp_cruiser_submarine_eq_bonus_range
-								bonus = {
-									cruiser_submarine = {
-										naval_range = 0.1
-									}
-								}
-							}
-						}
+						# if = {
+						# 	limit = {
+						# 		NOT = {has_dlc = "Man the Guns"}
+						# 	}
+						# 	add_equipment_bonus = {
+						# 		name = sp_cruiser_submarine_eq_bonus_range
+						# 		bonus = {
+						# 			cruiser_submarine = {
+						# 				naval_range = 0.1
+						# 			}
+						# 		}
+						# 	}
+						# }
 					}
 
 					enable_equipment_modules = {
 						limit = {
 							has_dlc = "Man the Guns"
 						}
-						ship_extra_fuel_tank
+					#	ship_extra_fuel_tank
 					}
 				}
 			}
@@ -144,26 +144,26 @@ sp_naval_cruiser_submarine = {
 				
 				iteration_output = {
 					country_effects = { 
-						if = {
-							limit = {
-								NOT = {has_dlc = "Man the Guns"}
-							}
-							add_equipment_bonus = {
-								name = sp_cruiser_submarine_eq_bonus_raiding
-								bonus = {
-									cruiser_submarine = {
-										torpedo_attack = 0.1
-									}
-								}
-							}
-						}
+						# if = {
+						# 	limit = {
+						# 		NOT = {has_dlc = "Man the Guns"}
+						# 	}
+						# 	add_equipment_bonus = {
+						# 		name = sp_cruiser_submarine_eq_bonus_raiding
+						# 		bonus = {
+						# 			cruiser_submarine = {
+						# 				torpedo_attack = 0.1
+						# 			}
+						# 		}
+						# 	}
+						# }
 					}
 					
 					enable_equipment_modules = {
 						limit = {
 							has_dlc = "Man the Guns"
 						}
-						ship_light_battery_sub
+					#	ship_light_battery_sub
 					}
 				}
 			}
@@ -241,13 +241,13 @@ sp_naval_fleet_submarine = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			ship_hull_fleet_submarine
+		#	ship_hull_fleet_submarine
 		}
 		enable_equipments = {	
 			limit = {
 				not = { has_dlc = "Man the Guns" }
 			}
-			fleet_submarine
+		#	fleet_submarine
 		}				
 	}
 
@@ -285,32 +285,32 @@ sp_naval_fleet_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_fleet_submarine_eq_bonus_attack
-								bonus = {
-									ship_hull_fleet_submarine = {
-										naval_speed = 0.05
-										torpedo_attack = 0.05
-										sub_visibility = -0.03										
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_fleet_submarine_eq_bonus_attack
-								bonus = {
-									fleet_submarine = {
-										naval_speed = 0.05
-										torpedo_attack = 0.05
-										sub_visibility = -0.03										
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_fleet_submarine_eq_bonus_attack
+						# 		bonus = {
+						# 			ship_hull_fleet_submarine = {
+						# 				naval_speed = 0.05
+						# 				torpedo_attack = 0.05
+						# 				sub_visibility = -0.03										
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_fleet_submarine_eq_bonus_attack
+						# 		bonus = {
+						# 			fleet_submarine = {
+						# 				naval_speed = 0.05
+						# 				torpedo_attack = 0.05
+						# 				sub_visibility = -0.03										
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -320,31 +320,31 @@ sp_naval_fleet_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
-							add_equipment_bonus = {
-								name = sp_fleet_submarine_eq_bonus_reliability
-								bonus = {
-									ship_hull_fleet_submarine = {
-										reliability = 0.05
-										max_strength = 0.05
-										naval_weather_penalty_factor = -0.1									
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_fleet_submarine_eq_bonus_reliability
-								bonus = {
-									fleet_submarine = {
-										reliability = 0.05
-										max_strength = 0.05
-										naval_weather_penalty_factor = -0.1									
-									}
-								}
-							}						
-						}
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
+						# 	add_equipment_bonus = {
+						# 		name = sp_fleet_submarine_eq_bonus_reliability
+						# 		bonus = {
+						# 			ship_hull_fleet_submarine = {
+						# 				reliability = 0.05
+						# 				max_strength = 0.05
+						# 				naval_weather_penalty_factor = -0.1									
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_fleet_submarine_eq_bonus_reliability
+						# 		bonus = {
+						# 			fleet_submarine = {
+						# 				reliability = 0.05
+						# 				max_strength = 0.05
+						# 				naval_weather_penalty_factor = -0.1									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -411,13 +411,13 @@ sp_naval_nuclear_submarine = {
 		}
 		enable_equipments = {
 			limit = { has_dlc = "Man the Guns"}
-			ship_hull_nuclear_submarine
+		#	ship_hull_nuclear_submarine
 		}
 		enable_equipments = {
 			limit = { 
 				not = { has_dlc = "Man the Guns" }
 			}
-			nuclear_submarine
+		#	nuclear_submarine
 		}
 	}
 
@@ -455,33 +455,33 @@ sp_naval_nuclear_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
-							add_equipment_bonus = {
-								name = sp_nuclear_submarine_eq_bonus_ic_reduction
-								bonus = {
-									ship_hull_nuclear_submarine = {
-										build_cost_ic = -0.1
-										reliability = -0.05
-										sub_visibility = 0.1
-										naval_range = -0.1
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_nuclear_submarine_eq_bonus_ic_reduction
-								bonus = {
-									nuclear_submarine = {
-										build_cost_ic = -0.1
-										reliability = -0.05
-										sub_visibility = 0.1
-										naval_range = -0.1
-									}
-								}
-							}						
-						}
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
+						# 	add_equipment_bonus = {
+						# 		name = sp_nuclear_submarine_eq_bonus_ic_reduction
+						# 		bonus = {
+						# 			ship_hull_nuclear_submarine = {
+						# 				build_cost_ic = -0.1
+						# 				reliability = -0.05
+						# 				sub_visibility = 0.1
+						# 				naval_range = -0.1
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_nuclear_submarine_eq_bonus_ic_reduction
+						# 		bonus = {
+						# 			nuclear_submarine = {
+						# 				build_cost_ic = -0.1
+						# 				reliability = -0.05
+						# 				sub_visibility = 0.1
+						# 				naval_range = -0.1
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -502,33 +502,33 @@ sp_naval_nuclear_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
-							add_equipment_bonus = {
-								name = sp_nuclear_submarine_eq_bonus_quality
-								bonus = {
-									ship_hull_nuclear_submarine = {
-										build_cost_ic = 0.1
-										max_strength = 0.1
-										reliability = 0.05
-										sub_visibility = -0.05
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_nuclear_submarine_eq_bonus_quality
-								bonus = {
-									nuclear_submarine = {
-										build_cost_ic = 0.1
-										max_strength = 0.1
-										reliability = 0.05
-										sub_visibility = -0.05
-									}
-								}
-							}						
-						}
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
+						# 	add_equipment_bonus = {
+						# 		name = sp_nuclear_submarine_eq_bonus_quality
+						# 		bonus = {
+						# 			ship_hull_nuclear_submarine = {
+						# 				build_cost_ic = 0.1
+						# 				max_strength = 0.1
+						# 				reliability = 0.05
+						# 				sub_visibility = -0.05
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_nuclear_submarine_eq_bonus_quality
+						# 		bonus = {
+						# 			nuclear_submarine = {
+						# 				build_cost_ic = 0.1
+						# 				max_strength = 0.1
+						# 				reliability = 0.05
+						# 				sub_visibility = -0.05
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}			
@@ -587,11 +587,11 @@ sp_naval_rocket_launching_submarine = {
 			limit = { 
 				not = {has_dlc = "Man the Guns"}
 			}
-			rocket_submarine
+		#	rocket_submarine
 		}
 
 		enable_equipment_modules = {
-			sub_missile_launcher
+		#	sub_missile_launcher
 		}
 	}
 
@@ -628,31 +628,31 @@ sp_naval_rocket_launching_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
-								add_equipment_bonus = {
-									name = sp_rocket_submarine_eq_bonus_range_increase
-									bonus = {
-										ship_hull_fleet_submarine = {
-											naval_range = 0.1
-											sub_visibility = 0.05
-											build_cost_ic = 0.07
-										}
-									}
-								}
-							}
-						else = {
-							add_equipment_bonus = {
-								name = sp_rocket_submarine_eq_bonus_range_increase
-								bonus = {
-									rocket_submarine = {
-										naval_range = 0.15
-										sub_visibility = 0.05
-										build_cost_ic = 0.1
-									}
-								}
-							}						
-						}
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
+						# 		add_equipment_bonus = {
+						# 			name = sp_rocket_submarine_eq_bonus_range_increase
+						# 			bonus = {
+						# 				ship_hull_fleet_submarine = {
+						# 					naval_range = 0.1
+						# 					sub_visibility = 0.05
+						# 					build_cost_ic = 0.07
+						# 				}
+						# 			}
+						# 		}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_rocket_submarine_eq_bonus_range_increase
+						# 		bonus = {
+						# 			rocket_submarine = {
+						# 				naval_range = 0.15
+						# 				sub_visibility = 0.05
+						# 				build_cost_ic = 0.1
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -662,27 +662,27 @@ sp_naval_rocket_launching_submarine = {
 				default = yes
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
-								add_equipment_bonus = {
-									name = sp_rocket_submarine_eq_bonus_reliability
-									bonus = {
-										ship_hull_fleet_submarine = {
-											reliability = 0.03
-										}
-									}
-								}
-							}
-						else = {
-							add_equipment_bonus = {
-								name = sp_rocket_submarine_eq_bonus_reliability
-								bonus = {
-									rocket_submarine = {
-										reliability = 0.05
-									}
-								}
-							}						
-						}
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
+						# 		add_equipment_bonus = {
+						# 			name = sp_rocket_submarine_eq_bonus_reliability
+						# 			bonus = {
+						# 				ship_hull_fleet_submarine = {
+						# 					reliability = 0.03
+						# 				}
+						# 			}
+						# 		}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_rocket_submarine_eq_bonus_reliability
+						# 		bonus = {
+						# 			rocket_submarine = {
+						# 				reliability = 0.05
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 					
 					 
@@ -695,31 +695,31 @@ sp_naval_rocket_launching_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
-								add_equipment_bonus = {
-									name = sp_rocket_submarine_eq_bonus_stealth
-									bonus = {
-										ship_hull_fleet_submarine = {
-											sub_visibility = -0.05
-											naval_range = -0.05
-											build_cost_ic = 0.1
-										}
-									}
-								}
-							}
-						else = {
-							add_equipment_bonus = {
-								name = sp_rocket_submarine_eq_bonus_stealth
-								bonus = {
-									rocket_submarine = {
-										sub_visibility = -0.15
-										naval_range = -0.05
-										build_cost_ic = 0.1
-									}
-								}
-							}						
-						}
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
+						# 		add_equipment_bonus = {
+						# 			name = sp_rocket_submarine_eq_bonus_stealth
+						# 			bonus = {
+						# 				ship_hull_fleet_submarine = {
+						# 					sub_visibility = -0.05
+						# 					naval_range = -0.05
+						# 					build_cost_ic = 0.1
+						# 				}
+						# 			}
+						# 		}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_rocket_submarine_eq_bonus_stealth
+						# 		bonus = {
+						# 			rocket_submarine = {
+						# 				sub_visibility = -0.15
+						# 				naval_range = -0.05
+						# 				build_cost_ic = 0.1
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}			
@@ -778,13 +778,13 @@ sp_naval_nuclear_missile_submarine = {
 			limit = {
 				NOT = { has_dlc = "Man the Guns" }
 			}
-			nuclear_missile_submarine
+		#	nuclear_missile_submarine
 		}
 		enable_equipment_modules = {
 			limit = {
 				 has_dlc = "Man the Guns" 
 			}
-			slbm_launcher
+		#	slbm_launcher
 		}
 		
 	}
@@ -823,31 +823,31 @@ sp_naval_nuclear_missile_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
-							add_equipment_bonus = {
-								name = sp_nuclear_missile_submarine_eq_bonus_stealth
-								bonus = {
-									ship_hull_nuclear_submarine = {
-										sub_visibility = -0.05
-										surface_detection = 0.02
-										build_cost_ic = 0.05
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_nuclear_missile_submarine_eq_bonus_stealth
-								bonus = {
-									nuclear_missile_submarine = {
-										sub_visibility = -0.1
-										surface_detection = 0.05
-										build_cost_ic = 0.1
-									}
-								}
-							}						
-						}
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
+						# 	add_equipment_bonus = {
+						# 		name = sp_nuclear_missile_submarine_eq_bonus_stealth
+						# 		bonus = {
+						# 			ship_hull_nuclear_submarine = {
+						# 				sub_visibility = -0.05
+						# 				surface_detection = 0.02
+						# 				build_cost_ic = 0.05
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_nuclear_missile_submarine_eq_bonus_stealth
+						# 		bonus = {
+						# 			nuclear_missile_submarine = {
+						# 				sub_visibility = -0.1
+						# 				surface_detection = 0.05
+						# 				build_cost_ic = 0.1
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -868,31 +868,31 @@ sp_naval_nuclear_missile_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
-							add_equipment_bonus = {
-								name = sp_nuclear_missile_submarine_eq_bonus_strength
-								bonus = {
-									ship_hull_nuclear_submarine = {
-										max_strength = 0.02
-										naval_weather_penalty_factor = -0.2
-										build_cost_ic = 0.05
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_nuclear_missile_submarine_eq_bonus_strength
-								bonus = {
-									nuclear_missile_submarine = {
-										max_strength = 0.05
-										naval_weather_penalty_factor = -0.2
-										build_cost_ic = 0.1
-									}
-								}
-							}						
-						}
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
+						# 	add_equipment_bonus = {
+						# 		name = sp_nuclear_missile_submarine_eq_bonus_strength
+						# 		bonus = {
+						# 			ship_hull_nuclear_submarine = {
+						# 				max_strength = 0.02
+						# 				naval_weather_penalty_factor = -0.2
+						# 				build_cost_ic = 0.05
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_nuclear_missile_submarine_eq_bonus_strength
+						# 		bonus = {
+						# 			nuclear_missile_submarine = {
+						# 				max_strength = 0.05
+						# 				naval_weather_penalty_factor = -0.2
+						# 				build_cost_ic = 0.1
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}			
@@ -955,7 +955,7 @@ sp_naval_nuclear_torpedo = {
 			
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_nuclear
+		#	ship_torpedo_sub_nuclear
 		}
 		
 	}
@@ -1078,88 +1078,88 @@ sp_naval_midget_submarine = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			ship_hull_midget_submarine
+		#	ship_hull_midget_submarine
 		}
 		enable_equipments = {	
 			limit = {
 				not = {has_dlc = "Man the Guns"}
 			}
-			midget_submarine
+		#	midget_submarine
 		}
 
 		country_effects = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				add_design_template_bonus = {
-					name = sp_naval_midget_submarine_free_design
-					uses = 1
-					cost_factor = 1
-					equipment = ship_hull_midget_submarine
-				}
-			}
+			# if = {
+			# 	limit = {
+			# 		has_dlc = "Man the Guns"
+			# 	}
+			# 	add_design_template_bonus = {
+			# 		name = sp_naval_midget_submarine_free_design
+			# 		uses = 1
+			# 		cost_factor = 1
+			# 		equipment = ship_hull_midget_submarine
+			# 	}
+			# }
 
-			if = { #Italian content from Midget Submarines focus moved here (focus now completes this SP)
-				limit = {
-					original_tag = ITA
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					create_equipment_variant = {
-						name = "CB Class"
-						type = ship_hull_midget_submarine
-						allow_without_tech = yes # Display tooltip as if we have the tech.
-						name_group = ITA_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes # Display tooltip as if we have the tech.
-						mark_older_equipment_obsolete = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_2
-							fixed_ship_engine_slot = sub_ship_engine_2
-						}
-					}
-					add_equipment_production = {
-						equipment = {
-							type = ship_hull_midget_submarine
-							creator = "ITA"
-							version_name = "CB Class"
-						}
-						name = "Ammiraglio Millo"
-						requested_factories = 1
-						progress = 0.35
-						amount = 2
-					}
-				}
-				else = {
-					create_equipment_variant = {
-						name = "CB Class"
-						type = midget_submarine
-						allow_without_tech = yes # Display tooltip as if we have the tech.
-						name_group = ITA_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes # Display tooltip as if we have the tech.
-						mark_older_equipment_obsolete = yes
-						upgrades = {
-							sub_torpedo_upgrade = 2
-							sub_engine_upgrade = 2
-						}
-					}
-					add_equipment_production = {
-						equipment = {
-							type = midget_submarine
-							creator = "ITA"
-							version_name = "CB Class"
-						}
-						name = "Ammiraglio Millo"
-						requested_factories = 1
-						progress = 0.35
-						amount = 2
-					}
-				}	
-			}
+			# if = { #Italian content from Midget Submarines focus moved here (focus now completes this SP)
+			# 	limit = {
+			# 		original_tag = ITA
+			# 	}
+			# 	if = {
+			# 		limit = {
+			# 			has_dlc = "Man the Guns"
+			# 		}
+			# 		create_equipment_variant = {
+			# 			name = "CB Class"
+			# 			type = ship_hull_midget_submarine
+			# 			allow_without_tech = yes # Display tooltip as if we have the tech.
+			# 			name_group = ITA_SS_HISTORICAL
+			# 			parent_version = 0
+			# 			allow_without_tech = yes # Display tooltip as if we have the tech.
+			# 			mark_older_equipment_obsolete = yes
+			# 			modules = {
+			# 				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			# 				fixed_ship_engine_slot = sub_ship_engine_2
+			# 			}
+			# 		}
+			# 		add_equipment_production = {
+			# 			equipment = {
+			# 				type = ship_hull_midget_submarine
+			# 				creator = "ITA"
+			# 				version_name = "CB Class"
+			# 			}
+			# 			name = "Ammiraglio Millo"
+			# 			requested_factories = 1
+			# 			progress = 0.35
+			# 			amount = 2
+			# 		}
+			# 	}
+			# 	else = {
+			# 		create_equipment_variant = {
+			# 			name = "CB Class"
+			# 			type = midget_submarine
+			# 			allow_without_tech = yes # Display tooltip as if we have the tech.
+			# 			name_group = ITA_SS_HISTORICAL
+			# 			parent_version = 0
+			# 			allow_without_tech = yes # Display tooltip as if we have the tech.
+			# 			mark_older_equipment_obsolete = yes
+			# 			upgrades = {
+			# 				sub_torpedo_upgrade = 2
+			# 				sub_engine_upgrade = 2
+			# 			}
+			# 		}
+			# 		add_equipment_production = {
+			# 			equipment = {
+			# 				type = midget_submarine
+			# 				creator = "ITA"
+			# 				version_name = "CB Class"
+			# 			}
+			# 			name = "Ammiraglio Millo"
+			# 			requested_factories = 1
+			# 			progress = 0.35
+			# 			amount = 2
+			# 		}
+			# 	}	
+			# }
 		}
 	}
 
@@ -1197,30 +1197,30 @@ sp_naval_midget_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_midget_submarine_eq_bonus_stealth
-								bonus = {
-									ship_hull_midget_submarine = {
-										naval_range = -0.2
-										sub_visibility = -0.1										
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_midget_submarine_eq_bonus_stealth
-								bonus = {
-									midget_submarine = {
-										naval_range = -0.2
-										sub_visibility = -0.1									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_midget_submarine_eq_bonus_stealth
+						# 		bonus = {
+						# 			ship_hull_midget_submarine = {
+						# 				naval_range = -0.2
+						# 				sub_visibility = -0.1										
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_midget_submarine_eq_bonus_stealth
+						# 		bonus = {
+						# 			midget_submarine = {
+						# 				naval_range = -0.2
+						# 				sub_visibility = -0.1									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -1230,28 +1230,28 @@ sp_naval_midget_submarine = {
 				default = yes
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_midget_submarine_eq_bonus_reliability
-								bonus = {
-									ship_hull_midget_submarine = {
-										reliability = 0.1										
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_midget_submarine_eq_bonus_reliability
-								bonus = {
-									midget_submarine = {
-										reliability	= 0.1									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_midget_submarine_eq_bonus_reliability
+						# 		bonus = {
+						# 			ship_hull_midget_submarine = {
+						# 				reliability = 0.1										
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_midget_submarine_eq_bonus_reliability
+						# 		bonus = {
+						# 			midget_submarine = {
+						# 				reliability	= 0.1									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				} 
 			}
@@ -1261,30 +1261,30 @@ sp_naval_midget_submarine = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_midget_submarine_eq_bonus_range
-								bonus = {
-									ship_hull_midget_submarine = {
-										naval_range = 0.2
-										sub_visibility = 0.1										
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_midget_submarine_eq_bonus_range
-								bonus = {
-									midget_submarine = {
-										naval_range = 0.2
-										sub_visibility = 0.1										
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_midget_submarine_eq_bonus_range
+						# 		bonus = {
+						# 			ship_hull_midget_submarine = {
+						# 				naval_range = 0.2
+						# 				sub_visibility = 0.1										
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_midget_submarine_eq_bonus_range
+						# 		bonus = {
+						# 			midget_submarine = {
+						# 				naval_range = 0.2
+						# 				sub_visibility = 0.1										
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -1367,7 +1367,7 @@ sp_naval_aip_engine = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			 ship_engine_sub_aip_1
+		#	 ship_engine_sub_aip_1
 		}
 
 		enable_subunits = { 
@@ -1523,7 +1523,7 @@ sp_naval_anechoic_tiles = {
 			limit = { 
 				has_dlc = "Man the Guns" 
 			} 		
-			ship_anechoic_tile
+		#	ship_anechoic_tile
 				
 			}
 		
@@ -1697,7 +1697,7 @@ sp_naval_torpedo_cruiser = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			ship_hull_torpedo_cruiser
+		#	ship_hull_torpedo_cruiser
 		}	
 			
 
@@ -1705,7 +1705,7 @@ sp_naval_torpedo_cruiser = {
 			limit = {
 				not = {has_dlc = "Man the Guns"}
 			}
-				torpedo_cruiser			
+		#		torpedo_cruiser			
 			}	
 		
 		enable_equipment_modules = {
@@ -1757,30 +1757,30 @@ sp_naval_torpedo_cruiser = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_torpedo_cruiser_eq_bonus_torpedo
-								bonus = {
-									ship_hull_torpedo_cruiser = {
-										naval_torpedo_hit_chance_factor = 0.1
-										torpedo_attack = 0.15										
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_torpedo_cruiser_eq_bonus_torpedo
-								bonus = {
-									torpedo_cruiser = {
-										naval_torpedo_hit_chance_factor = 0.1
-										torpedo_attack = 0.15									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_torpedo_cruiser_eq_bonus_torpedo
+						# 		bonus = {
+						# 			ship_hull_torpedo_cruiser = {
+						# 				naval_torpedo_hit_chance_factor = 0.1
+						# 				torpedo_attack = 0.15										
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_torpedo_cruiser_eq_bonus_torpedo
+						# 		bonus = {
+						# 			torpedo_cruiser = {
+						# 				naval_torpedo_hit_chance_factor = 0.1
+						# 				torpedo_attack = 0.15									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -1790,32 +1790,32 @@ sp_naval_torpedo_cruiser = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_torpedo_cruiser_eq_bonus_light_attack
-								bonus = {
-									ship_hull_torpedo_cruiser = {
-										naval_light_gun_hit_chance_factor = 0.15
-										lg_attack = 0.1
-										lg_armor_piercing = 0.1										
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_torpedo_cruiser_eq_bonus_light_attack
-								bonus = {
-									torpedo_cruiser = {
-										naval_light_gun_hit_chance_factor = 0.15
-										lg_attack = 0.1
-										lg_armor_piercing = 0.1										
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_torpedo_cruiser_eq_bonus_light_attack
+						# 		bonus = {
+						# 			ship_hull_torpedo_cruiser = {
+						# 				naval_light_gun_hit_chance_factor = 0.15
+						# 				lg_attack = 0.1
+						# 				lg_armor_piercing = 0.1										
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_torpedo_cruiser_eq_bonus_light_attack
+						# 		bonus = {
+						# 			torpedo_cruiser = {
+						# 				naval_light_gun_hit_chance_factor = 0.15
+						# 				lg_attack = 0.1
+						# 				lg_armor_piercing = 0.1										
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -1896,18 +1896,18 @@ sp_naval_super_heavy_battleship = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			ship_hull_super_heavy_1
+		#	ship_hull_super_heavy_1
 		}
 		enable_equipments = {
 			limit = {
 				not = {has_dlc = "Man the Guns"}
 			}
-			SH_battleship_1
+		#	SH_battleship_1
 		}
 
 		enable_equipment_modules = {	
 			limit = { has_dlc = "Man the Guns" } 		
-			ship_armor_shbb
+		#	ship_armor_shbb
 		}
 
 		enable_subunits = { 
@@ -1955,32 +1955,32 @@ sp_naval_super_heavy_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_heavy_attack
-								bonus = {
-									ship_hull_super_heavy_1 = {
-										naval_heavy_gun_hit_chance_factor = 0.15
-										hg_attack = 0.15
-										hg_armor_piercing = 0.1										
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_heavy_attack
-								bonus = {
-									SH_battleship_1 = {
-										naval_heavy_gun_hit_chance_factor = 0.15
-										hg_attack = 0.15
-										hg_armor_piercing = 0.1										
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_heavy_attack
+						# 		bonus = {
+						# 			ship_hull_super_heavy_1 = {
+						# 				naval_heavy_gun_hit_chance_factor = 0.15
+						# 				hg_attack = 0.15
+						# 				hg_armor_piercing = 0.1										
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_heavy_attack
+						# 		bonus = {
+						# 			SH_battleship_1 = {
+						# 				naval_heavy_gun_hit_chance_factor = 0.15
+						# 				hg_attack = 0.15
+						# 				hg_armor_piercing = 0.1										
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 
 				}
@@ -1991,32 +1991,32 @@ sp_naval_super_heavy_battleship = {
 				default = yes
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_speed
-								bonus = {
-									ship_hull_super_heavy_1 = {
-										naval_speed = 0.1
-										surface_detection = 0.15
-										surface_visibility = -0.05									
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_speed
-								bonus = {
-									SH_battleship_1 = {
-										naval_speed = 0.1
-										surface_detection = 0.15
-										surface_visibility = -0.05									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_speed
+						# 		bonus = {
+						# 			ship_hull_super_heavy_1 = {
+						# 				naval_speed = 0.1
+						# 				surface_detection = 0.15
+						# 				surface_visibility = -0.05									
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_speed
+						# 		bonus = {
+						# 			SH_battleship_1 = {
+						# 				naval_speed = 0.1
+						# 				surface_detection = 0.15
+						# 				surface_visibility = -0.05									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}					 
 				}
 			}
@@ -2026,32 +2026,32 @@ sp_naval_super_heavy_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_light_attack
-								bonus = {
-									ship_hull_super_heavy_1 = {
-										naval_light_gun_hit_chance_factor = 0.1
-										lg_attack = 0.1
-										lg_armor_piercing = 0.1								
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_light_attack
-								bonus = {
-									SH_battleship_1 = {
-										naval_light_gun_hit_chance_factor = 0.1
-										lg_attack = 0.1
-										lg_armor_piercing = 0.1								
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_light_attack
+						# 		bonus = {
+						# 			ship_hull_super_heavy_1 = {
+						# 				naval_light_gun_hit_chance_factor = 0.1
+						# 				lg_attack = 0.1
+						# 				lg_armor_piercing = 0.1								
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_light_attack
+						# 		bonus = {
+						# 			SH_battleship_1 = {
+						# 				naval_light_gun_hit_chance_factor = 0.1
+						# 				lg_attack = 0.1
+						# 				lg_armor_piercing = 0.1								
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}					 
 				}
 			}
@@ -2075,30 +2075,30 @@ sp_naval_super_heavy_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_armor
-								bonus = {
-									ship_hull_super_heavy_1 = {
-										armor_value = 0.1
-										max_strength = 0.1 							
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_armor
-								bonus = {
-									SH_battleship_1 = {
-										armor_value = 0.1
-										max_strength = 0.1 						
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_armor
+						# 		bonus = {
+						# 			ship_hull_super_heavy_1 = {
+						# 				armor_value = 0.1
+						# 				max_strength = 0.1 							
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_armor
+						# 		bonus = {
+						# 			SH_battleship_1 = {
+						# 				armor_value = 0.1
+						# 				max_strength = 0.1 						
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 
 				}
@@ -2109,30 +2109,30 @@ sp_naval_super_heavy_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_anti_air
-								bonus = {
-									ship_hull_super_heavy_1 = {
-										anti_air_attack = 0.25
-										reliability = 0.05							
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_anti_air
-								bonus = {
-									SH_battleship_1 = {
-										anti_air_attack = 0.25
-										reliability = 0.05						
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_anti_air
+						# 		bonus = {
+						# 			ship_hull_super_heavy_1 = {
+						# 				anti_air_attack = 0.25
+						# 				reliability = 0.05							
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_anti_air
+						# 		bonus = {
+						# 			SH_battleship_1 = {
+						# 				anti_air_attack = 0.25
+						# 				reliability = 0.05						
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2142,30 +2142,30 @@ sp_naval_super_heavy_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_anti_torpedo
-								bonus = {
-									ship_hull_super_heavy_1 = {
-										naval_torpedo_enemy_critical_chance_factor = 0.15
-										naval_torpedo_damage_reduction_factor = 0.15							
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_super_heavy_battleship_eq_bonus_anti_torpedo
-								bonus = {
-									SH_battleship_1 = {
-										naval_torpedo_enemy_critical_chance_factor = 0.15
-										naval_torpedo_damage_reduction_factor = 0.15					
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_anti_torpedo
+						# 		bonus = {
+						# 			ship_hull_super_heavy_1 = {
+						# 				naval_torpedo_enemy_critical_chance_factor = 0.15
+						# 				naval_torpedo_damage_reduction_factor = 0.15							
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_super_heavy_battleship_eq_bonus_anti_torpedo
+						# 		bonus = {
+						# 			SH_battleship_1 = {
+						# 				naval_torpedo_enemy_critical_chance_factor = 0.15
+						# 				naval_torpedo_damage_reduction_factor = 0.15					
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2241,13 +2241,13 @@ sp_naval_modern_battleship = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-				ship_hull_heavy_modern
+		#		ship_hull_heavy_modern
 		}
 		enable_equipments = {	
 			limit = {
 				not = {has_dlc = "Man the Guns"}
 			}
-				modern_battleship
+		#		modern_battleship
 		}
 		enable_equipment_modules = {
 			 
@@ -2299,32 +2299,32 @@ sp_naval_modern_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_heavy_attack
-								bonus = {
-									ship_hull_heavy_modern = {
-										naval_heavy_gun_hit_chance_factor = 0.2
-										hg_attack = 0.15
-										hg_armor_piercing = 0.15									
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_heavy_attack
-								bonus = {
-									modern_battleship = {
-										naval_heavy_gun_hit_chance_factor = 0.2
-										hg_attack = 0.15
-										hg_armor_piercing = 0.15									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_heavy_attack
+						# 		bonus = {
+						# 			ship_hull_heavy_modern = {
+						# 				naval_heavy_gun_hit_chance_factor = 0.2
+						# 				hg_attack = 0.15
+						# 				hg_armor_piercing = 0.15									
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_heavy_attack
+						# 		bonus = {
+						# 			modern_battleship = {
+						# 				naval_heavy_gun_hit_chance_factor = 0.2
+						# 				hg_attack = 0.15
+						# 				hg_armor_piercing = 0.15									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 
 				}
@@ -2335,32 +2335,32 @@ sp_naval_modern_battleship = {
 				default = yes
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_speed
-								bonus = {
-									ship_hull_heavy_modern = {
-										naval_speed = 0.1
-										surface_detection = 0.15
-										surface_visibility = -0.07									
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_speed
-								bonus = {
-									modern_battleship = {
-										naval_speed = 0.1
-										surface_detection = 0.15
-										surface_visibility = -0.07									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_speed
+						# 		bonus = {
+						# 			ship_hull_heavy_modern = {
+						# 				naval_speed = 0.1
+						# 				surface_detection = 0.15
+						# 				surface_visibility = -0.07									
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_speed
+						# 		bonus = {
+						# 			modern_battleship = {
+						# 				naval_speed = 0.1
+						# 				surface_detection = 0.15
+						# 				surface_visibility = -0.07									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2370,32 +2370,32 @@ sp_naval_modern_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_light_attack
-								bonus = {
-									ship_hull_heavy_modern = {
-										naval_light_gun_hit_chance_factor = 0.1
-										lg_attack = 0.1
-										lg_armor_piercing = 0.15									
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_light_attack
-								bonus = {
-									modern_battleship = {
-										naval_light_gun_hit_chance_factor = 0.1
-										lg_attack = 0.1
-										lg_armor_piercing = 0.15									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_light_attack
+						# 		bonus = {
+						# 			ship_hull_heavy_modern = {
+						# 				naval_light_gun_hit_chance_factor = 0.1
+						# 				lg_attack = 0.1
+						# 				lg_armor_piercing = 0.15									
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_light_attack
+						# 		bonus = {
+						# 			modern_battleship = {
+						# 				naval_light_gun_hit_chance_factor = 0.1
+						# 				lg_attack = 0.1
+						# 				lg_armor_piercing = 0.15									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2419,30 +2419,30 @@ sp_naval_modern_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_armor
-								bonus = {
-									ship_hull_heavy_modern = {
-										armor_value = 0.15
-										max_strength = 0.1 									
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_armor
-								bonus = {
-									modern_battleship = {
-										armor_value = 0.15
-										max_strength = 0.1 									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_armor
+						# 		bonus = {
+						# 			ship_hull_heavy_modern = {
+						# 				armor_value = 0.15
+						# 				max_strength = 0.1 									
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_armor
+						# 		bonus = {
+						# 			modern_battleship = {
+						# 				armor_value = 0.15
+						# 				max_strength = 0.1 									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2452,30 +2452,30 @@ sp_naval_modern_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_anti_air
-								bonus = {
-									ship_hull_heavy_modern = {
-										anti_air_attack = 0.25
-										reliability = 0.07									
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_anti_air
-								bonus = {
-									modern_battleship = {
-										anti_air_attack = 0.25
-										reliability = 0.07									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_anti_air
+						# 		bonus = {
+						# 			ship_hull_heavy_modern = {
+						# 				anti_air_attack = 0.25
+						# 				reliability = 0.07									
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_anti_air
+						# 		bonus = {
+						# 			modern_battleship = {
+						# 				anti_air_attack = 0.25
+						# 				reliability = 0.07									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2485,30 +2485,30 @@ sp_naval_modern_battleship = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_anti_torpedo
-								bonus = {
-									ship_hull_heavy_modern = {
-										naval_torpedo_enemy_critical_chance_factor = 0.15
-										naval_torpedo_damage_reduction_factor = 0.2									
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_battleship_eq_bonus_anti_torpedo
-								bonus = {
-									modern_battleship = {
-										naval_torpedo_enemy_critical_chance_factor = 0.15
-										naval_torpedo_damage_reduction_factor = 0.2									
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_anti_torpedo
+						# 		bonus = {
+						# 			ship_hull_heavy_modern = {
+						# 				naval_torpedo_enemy_critical_chance_factor = 0.15
+						# 				naval_torpedo_damage_reduction_factor = 0.2									
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_battleship_eq_bonus_anti_torpedo
+						# 		bonus = {
+						# 			modern_battleship = {
+						# 				naval_torpedo_enemy_critical_chance_factor = 0.15
+						# 				naval_torpedo_damage_reduction_factor = 0.2									
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2583,14 +2583,14 @@ sp_naval_modern_carrier = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			ship_hull_carrier_modern
+		#	ship_hull_carrier_modern
 		}
 
 		enable_equipments = {
 			limit = {
 				not = {has_dlc = "Man the Guns"}
 			}
-			modern_carrier
+		#	modern_carrier
 		}
 
 		enable_equipment_modules = {
@@ -2638,30 +2638,30 @@ sp_naval_modern_carrier = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_detection
-								bonus = {
-									ship_hull_carrier_modern = {
-										surface_detection = 0.2
-										sub_detection = 0.2
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_detection
-								bonus = {
-									modern_carrier = {
-										surface_detection = 0.2
-										sub_detection = 0.2						 
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_detection
+						# 		bonus = {
+						# 			ship_hull_carrier_modern = {
+						# 				surface_detection = 0.2
+						# 				sub_detection = 0.2
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_detection
+						# 		bonus = {
+						# 			modern_carrier = {
+						# 				surface_detection = 0.2
+						# 				sub_detection = 0.2						 
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2671,30 +2671,30 @@ sp_naval_modern_carrier = {
 				default = yes
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_speed
-								bonus = {
-									ship_hull_carrier_modern = {
-										naval_speed = 0.1
-										naval_weather_penalty_factor = -0.25
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_speed
-								bonus = {
-									modern_carrier = {
-										naval_speed = 0.1
-										naval_weather_penalty_factor = -0.25					 
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_speed
+						# 		bonus = {
+						# 			ship_hull_carrier_modern = {
+						# 				naval_speed = 0.1
+						# 				naval_weather_penalty_factor = -0.25
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_speed
+						# 		bonus = {
+						# 			modern_carrier = {
+						# 				naval_speed = 0.1
+						# 				naval_weather_penalty_factor = -0.25					 
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2704,32 +2704,32 @@ sp_naval_modern_carrier = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_light_attack
-								bonus = {
-									ship_hull_carrier_modern = {
-										naval_light_gun_hit_chance_factor = 0.1
-										lg_attack = 0.15
-										lg_armor_piercing = 0.15
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_light_attack
-								bonus = {
-									modern_carrier = {
-										naval_light_gun_hit_chance_factor = 0.1
-										lg_attack = 0.15
-										lg_armor_piercing = 0.15					 
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_light_attack
+						# 		bonus = {
+						# 			ship_hull_carrier_modern = {
+						# 				naval_light_gun_hit_chance_factor = 0.1
+						# 				lg_attack = 0.15
+						# 				lg_armor_piercing = 0.15
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_light_attack
+						# 		bonus = {
+						# 			modern_carrier = {
+						# 				naval_light_gun_hit_chance_factor = 0.1
+						# 				lg_attack = 0.15
+						# 				lg_armor_piercing = 0.15					 
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2753,30 +2753,30 @@ sp_naval_modern_carrier = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_armor
-								bonus = {
-									ship_hull_carrier_modern = {
-										armor_value = 0.15
-										max_strength = 0.1 
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_armor
-								bonus = {
-									modern_carrier = {
-										armor_value = 0.15
-										max_strength = 0.1 					 
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_armor
+						# 		bonus = {
+						# 			ship_hull_carrier_modern = {
+						# 				armor_value = 0.15
+						# 				max_strength = 0.1 
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_armor
+						# 		bonus = {
+						# 			modern_carrier = {
+						# 				armor_value = 0.15
+						# 				max_strength = 0.1 					 
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2786,30 +2786,30 @@ sp_naval_modern_carrier = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_anti_air
-								bonus = {
-									ship_hull_carrier_modern = {
-										anti_air_attack = 0.25
-										reliability = 0.07
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_anti_air
-								bonus = {
-									modern_carrier = {
-										anti_air_attack = 0.25
-										reliability = 0.07					 
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_anti_air
+						# 		bonus = {
+						# 			ship_hull_carrier_modern = {
+						# 				anti_air_attack = 0.25
+						# 				reliability = 0.07
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_anti_air
+						# 		bonus = {
+						# 			modern_carrier = {
+						# 				anti_air_attack = 0.25
+						# 				reliability = 0.07					 
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2819,30 +2819,30 @@ sp_naval_modern_carrier = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_anti_torpedo
-								bonus = {
-									ship_hull_carrier_modern = {
-										naval_torpedo_enemy_critical_chance_factor = 0.15
-										naval_torpedo_damage_reduction_factor = 0.2
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_modern_carrier_eq_bonus_anti_torpedo
-								bonus = {
-									modern_carrier = {
-										naval_torpedo_enemy_critical_chance_factor = 0.15
-										naval_torpedo_damage_reduction_factor = 0.2					 
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_anti_torpedo
+						# 		bonus = {
+						# 			ship_hull_carrier_modern = {
+						# 				naval_torpedo_enemy_critical_chance_factor = 0.15
+						# 				naval_torpedo_damage_reduction_factor = 0.2
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_modern_carrier_eq_bonus_anti_torpedo
+						# 		bonus = {
+						# 			modern_carrier = {
+						# 				naval_torpedo_enemy_critical_chance_factor = 0.15
+						# 				naval_torpedo_damage_reduction_factor = 0.2					 
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -2899,41 +2899,41 @@ sp_naval_ice_carrier = {
 	
 	project_output = {
 		country_effects = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				add_design_template_bonus = {
-					name = sp_naval_ice_carrier_free_design
-					uses = 1
-					cost_factor = 0.5
-					equipment = ship_hull_mega_carrier
-				}
-				SP_create_variant_of_habakkuk_for_production_line = yes
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_TECH
-					TECH = sp_refined_pykrete
-				}
-				add_equipment_production =	{
-					equipment = {
-						type = ship_hull_mega_carrier
-						version_name = "Habakkuk"
-					}
-					requested_factories = 1
-					progress = 0.95
-					amount = 1
-				}
-			}
-			else = {
-				add_equipment_production =	{
-					equipment = {
-						type = mega_carrier
-					}
-					requested_factories = 1
-					progress = 0.95
-					amount = 1
-				}			
-			}
+			# if = {
+			# 	limit = {
+			# 		has_dlc = "Man the Guns"
+			# 	}
+			# 	add_design_template_bonus = {
+			# 		name = sp_naval_ice_carrier_free_design
+			# 		uses = 1
+			# 		cost_factor = 0.5
+			# 		equipment = ship_hull_mega_carrier
+			# 	}
+			# 	SP_create_variant_of_habakkuk_for_production_line = yes
+			# 	custom_effect_tooltip = {
+			# 		localization_key = SP_UNLOCK_TECH
+			# 		TECH = sp_refined_pykrete
+			# 	}
+			# 	add_equipment_production =	{
+			# 		equipment = {
+			# 			type = ship_hull_mega_carrier
+			# 			version_name = "Habakkuk"
+			# 		}
+			# 		requested_factories = 1
+			# 		progress = 0.95
+			# 		amount = 1
+			# 	}
+			# }
+			# else = {
+			# 	add_equipment_production =	{
+			# 		equipment = {
+			# 			type = mega_carrier
+			# 		}
+			# 		requested_factories = 1
+			# 		progress = 0.95
+			# 		amount = 1
+			# 	}			
+			# }
 		}
 		
 
@@ -2942,19 +2942,19 @@ sp_naval_ice_carrier = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			ship_hull_mega_carrier
+		#	ship_hull_mega_carrier
 		}
 		enable_equipments = {
 			limit = {
 				not = {has_dlc = "Man the Guns"}
 			}
-			mega_carrier
+		#	mega_carrier
 		}
 
 		enable_equipment_modules = {	
 			limit = { has_dlc = "Man the Guns" } 		
-			big_ship_deck_space
-			ship_armor_ice_carrier_deck_1
+		#	big_ship_deck_space
+		#	ship_armor_ice_carrier_deck_1
 		}	
 
 
@@ -2993,30 +2993,30 @@ sp_naval_ice_carrier = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_mega_carrier_eq_bonus_weather
-								bonus = {
-									ship_hull_mega_carrier = {
-										naval_weather_penalty_factor = -0.15
-										instant = yes
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_mega_carrier_eq_bonus_weather
-								bonus = {
-									mega_carrier = {
-										naval_weather_penalty_factor = -0.2
-										instant = yes					 
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_mega_carrier_eq_bonus_weather
+						# 		bonus = {
+						# 			ship_hull_mega_carrier = {
+						# 				naval_weather_penalty_factor = -0.15
+						# 				instant = yes
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_mega_carrier_eq_bonus_weather
+						# 		bonus = {
+						# 			mega_carrier = {
+						# 				naval_weather_penalty_factor = -0.2
+						# 				instant = yes					 
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}
@@ -3026,32 +3026,32 @@ sp_naval_ice_carrier = {
 				
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}							
+						# if = {
+						# 	limit = { has_dlc = "Man the Guns"}							
 						
-							add_equipment_bonus = {
-								name = sp_mega_carrier_eq_bonus_strength
-								bonus = {
-									ship_hull_mega_carrier = {
-										build_cost_ic = 0.05
-										max_strength = 0.1
-										instant = yes
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_mega_carrier_eq_bonus_strength
-								bonus = {
-									mega_carrier = {
-										build_cost_ic = 0.05
-										max_strength = 0.1	
-										instant = yes			 
-									}
-								}
-							}						
-						}
+						# 	add_equipment_bonus = {
+						# 		name = sp_mega_carrier_eq_bonus_strength
+						# 		bonus = {
+						# 			ship_hull_mega_carrier = {
+						# 				build_cost_ic = 0.05
+						# 				max_strength = 0.1
+						# 				instant = yes
+						# 			}
+						# 		}
+						# 	}
+						# }
+						# else = {
+						# 	add_equipment_bonus = {
+						# 		name = sp_mega_carrier_eq_bonus_strength
+						# 		bonus = {
+						# 			mega_carrier = {
+						# 				build_cost_ic = 0.05
+						# 				max_strength = 0.1	
+						# 				instant = yes			 
+						# 			}
+						# 		}
+						# 	}						
+						# }
 					}
 				}
 			}

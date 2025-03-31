@@ -204,12 +204,12 @@ types = {
 			}
 			limited_success = {
 			    victim_effects = {
-					var:target_state = {
-						add_dynamic_modifier = {
-							modifier = steel_mines_lightly_damaged_modifier
-							days = 90
-						}
-					}
+					# var:target_state = {
+					# 	add_dynamic_modifier = {
+					# 		modifier = steel_mines_lightly_damaged_modifier
+					# 		days = 90
+					# 	}
+					# }
 			    }
 				actor_effects = {
 					# Damage to unit
@@ -232,12 +232,12 @@ types = {
 			}
 			success = {
 			    victim_effects = {
-					var:target_state = {
-						add_dynamic_modifier = {
-							modifier = steel_mines_damaged_modifier
-							days = 120
-						}
-					}
+					# var:target_state = {
+					# 	add_dynamic_modifier = {
+					# 		modifier = steel_mines_damaged_modifier
+					# 		days = 120
+					# 	}
+					# }
 			    }
 				actor_effects = {
 					# Damage to unit
@@ -261,12 +261,12 @@ types = {
 			}
 			critical_success = {
 			    victim_effects = {
-					var:target_state = {
-						add_dynamic_modifier = {
-							modifier = steel_mines_critically_damaged_modifier
-							days = 180
-						}
-					}
+					# var:target_state = {
+					# 	add_dynamic_modifier = {
+					# 		modifier = steel_mines_critically_damaged_modifier
+					# 		days = 180
+					# 	}
+					# }
 			    }
 				actor_effects = {
 					# Damage to unit
@@ -475,12 +475,12 @@ types = {
 			}
 			limited_success = {
 			    victim_effects = {
-					var:target_state = {
-						add_dynamic_modifier = {
-							modifier = pathfinder_infiltration_modifier
-							days = 20
-						}
-					}
+					# var:target_state = {
+					# 	add_dynamic_modifier = {
+					# 		modifier = pathfinder_infiltration_modifier
+					# 		days = 20
+					# 	}
+					# }
 			    }
 				actor_effects = {
 					# Damage to unit
@@ -503,12 +503,12 @@ types = {
 			}
 			success = {
 			    victim_effects = {
-					var:target_state = {
-						add_dynamic_modifier = {
-							modifier = pathfinder_infiltration_modifier
-							days = 40
-						}
-					}
+					# var:target_state = {
+					# 	add_dynamic_modifier = {
+					# 		modifier = pathfinder_infiltration_modifier
+					# 		days = 40
+					# 	}
+					# }
 			    }
 				actor_effects = {
 					# Damage to unit
@@ -532,12 +532,12 @@ types = {
 			}
 			critical_success = {
 			    victim_effects = {
-					var:target_state = {
-						add_dynamic_modifier = {
-							modifier = pathfinder_infiltration_modifier
-							days = 60
-						}
-					}
+					# var:target_state = {
+					# 	add_dynamic_modifier = {
+					# 		modifier = pathfinder_infiltration_modifier
+					# 		days = 60
+					# 	}
+					# }
 			    }
 				actor_effects = {
 					# Damage to unit
