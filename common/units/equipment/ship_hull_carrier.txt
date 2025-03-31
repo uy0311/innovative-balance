@@ -295,6 +295,203 @@ equipments = {
 		manpower = 2750#5500
 	}
 
+	#MODERN CARRIER
+	ship_hull_carrier_modern = {
+		abbreviation = "hacm"
+		year = 1948
+		visual_level = 1
+		archetype = ship_hull_carrier
+		model = ship_hull_super_carrier
+		priority = 1000
+		parent = ship_hull_carrier_3
+		module_slots = {
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_deck_slot_2 = {
+				required = no
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { carrier_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { battery_base_4in battery_base_5in battery_base_5Hin battery_base_6in battery_base_8in }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { ship_cruiser_armor }	
+			}
+
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_deck_space
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					battery_secondaries_4in
+					battery_secondaries_5in
+					battery_add_5Hin
+					battery_add_6in
+					battery_add_8in
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_carrier_armor
+					ship_depth_charge
+					ship_extra_fuel_tank
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+
+		default_modules = {
+			fixed_ship_deck_slot_1 = empty
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = empty
+		}
+
+		naval_range = 7500
+		reliability = 0.85
+		max_strength = 400
+		naval_speed = 30
+		fuel_consumption = 90
+
+		build_cost_ic = 4250
+		resources = {
+			steel = 5
+			chromium = 3
+		}
+		manpower = 6500
+	}
+	
+	# TODO MANU HABAKKUK
+	ship_hull_mega_carrier = {
+		abbreviation = "hamc"
+		year = 1944
+		visual_level = 1
+		model = ship_hull_ice_carrier
+		archetype = ship_hull_carrier
+		priority = 1000
+		module_slots = {
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_deck_slot_2 = {
+				required = no
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { carrier_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { battery_base_4in battery_base_5in battery_base_5Hin battery_base_6in battery_base_8in }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { ship_cruiser_armor }	
+			}
+
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_deck_space
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					battery_secondaries_4in
+					battery_secondaries_5in
+					battery_add_5Hin
+					battery_add_6in
+					battery_add_8in
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_carrier_armor
+					ship_depth_charge
+					ship_extra_fuel_tank
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+
+		default_modules = {
+			fixed_ship_deck_slot_1 = empty
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = empty
+		}
+
+		naval_range = 7000
+		reliability = 0.8
+		max_strength = 350
+
+		build_cost_ic = 4500
+		surface_visibility = 40
+		naval_speed = 18
+
+		fuel_consumption = 95		
+		resources = {
+			steel = 5
+			chromium = 2
+		}
+		manpower = 6000
+	}
+
 	ship_hull_carrier_conversion_bb = {
 		abbreviation = "had"
 		year = 1922
