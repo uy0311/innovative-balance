@@ -16,6 +16,7 @@ sub_units = {
 		group = mobile
 		
 		categories = {
+			category_self_propelled_anti_air
 			category_all_armor
 			category_army
 		}
@@ -81,6 +82,7 @@ sub_units = {
 		group = mobile
 		
 		categories = {
+			category_self_propelled_anti_air
 			category_all_armor
 			category_army
 		}
@@ -150,6 +152,7 @@ sub_units = {
 		group = mobile
 		
 		categories = {
+			category_self_propelled_anti_air
 			category_all_armor
 			category_army
 		}
@@ -212,6 +215,7 @@ sub_units = {
 		ai_priority = 100
 		active = yes
 		categories = {
+			category_self_propelled_anti_air
 			category_all_armor
 			category_army
 		}
@@ -287,6 +291,7 @@ sub_units = {
 		group = mobile
 		
 		categories = {
+			category_self_propelled_anti_air
 			category_all_armor
 			category_army
 		}
