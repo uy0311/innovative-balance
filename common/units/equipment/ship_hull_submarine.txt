@@ -345,4 +345,197 @@ equipments = {
 		}	
 	}
 
+	ship_hull_fleet_submarine = {
+		abbreviation = "hefs"
+		year = 1940
+		model = ship_hull_fleet_submarine
+		archetype = ship_hull_submarine
+		priority = 2600
+		module_slots = {
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					#ship_mine_layer_sub
+				}
+			}
+			front_2_custom_slot = front_1_custom_slot
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_sub_snorkel
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 2
+		}
+		module_count_limit = {
+	    	module = ship_airplane_launcher_2
+	    	count < 1
+	    }
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_1
+		}
+
+		sub_visibility = 18
+		naval_speed = 18
+		reliability = 0.75
+		
+		naval_range = 6500
+		
+		max_strength = 40
+
+
+		
+		build_cost_ic = 650
+		resources = {
+			steel = 3
+		}
+	}
+
+	ship_hull_midget_submarine = {
+		abbreviation = "ssm"
+		year = 1940
+
+		archetype = ship_hull_submarine
+		priority = 1500
+		module_slots = {
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					#ship_mine_layer_sub
+				}
+			}
+			front_2_custom_slot = front_1_custom_slot
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_sub_snorkel
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 2
+		}
+		module_count_limit = {
+	    	module = ship_airplane_launcher_2
+	    	count < 1
+	    }
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_1
+		}
+		
+		sub_visibility = 15
+		naval_speed = 8.3
+		reliability = 0.60
+		
+		naval_range = 500
+		
+		max_strength = 5
+
+		manpower = 100
+
+		
+		build_cost_ic = 150
+		resources = {
+			steel = 1
+		}
+	}
+
+
+	ship_hull_nuclear_submarine = {
+		abbreviation = "hefns"
+		year = 1954
+		model = ship_hull_nuclear_powered_submarine
+		archetype = ship_hull_submarine
+		priority = 2800
+		module_slots = {
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					#ship_mine_layer_sub
+				}
+			}
+			front_2_custom_slot = front_1_custom_slot
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_sub_snorkel
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 2
+		}
+		module_count_limit = {
+	    	module = ship_airplane_launcher_2
+	    	count < 1
+	    }
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_1
+		}
+		
+		sub_visibility = 16
+		naval_speed = 20
+		reliability = 0.75
+		
+		naval_range = 10000
+		
+		manpower = 400
+		max_strength = 50
+
+
+		
+		build_cost_ic = 1150
+		resources = {
+			steel = 3
+			chromium = 2
+		}
+	}
+
 }

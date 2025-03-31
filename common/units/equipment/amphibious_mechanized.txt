@@ -55,9 +55,6 @@ equipments = {
 		archetype = amphibious_mechanized_equipment
 		priority = 40
 		visual_level = 0
-		can_convert_from = { 
-			mechanized_equipment_1
-		}
 	}
 
 	# ~1943
@@ -68,9 +65,6 @@ equipments = {
 		parent = amphibious_mechanized_equipment_1
 		priority = 40
 		visual_level = 1
-		can_convert_from = { 
-			mechanized_equipment_2
-		}
 
 		maximum_speed = 7
 
