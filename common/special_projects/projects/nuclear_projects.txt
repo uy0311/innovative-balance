@@ -429,9 +429,9 @@ sp_nuclear_engines = {
 		}
 
 		enable_equipment_modules = {
-			sub_ship_nuclear_engine_1
-			heavy_ship_nuclear_engine_1
-			carrier_ship_nuclear_engine_1
+		#	sub_ship_nuclear_engine_1
+		#	heavy_ship_nuclear_engine_1
+		#	carrier_ship_nuclear_engine_1
 		}
 	}
 	
@@ -804,7 +804,7 @@ sp_nuclear_warheads = {
 			
 		}
 		enable_equipments = {
-			nuclear_missile_equipment_1
+		#	nuclear_missile_equipment_1
 		}
 	}
 	

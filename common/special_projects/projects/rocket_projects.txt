@@ -87,7 +87,7 @@ sp_rockets_flying_bomb = {
 			}
 		}
 		enable_equipments = {
-			guided_missile_equipment_1
+		#	guided_missile_equipment_1
 		}
 	}
 
@@ -399,13 +399,13 @@ sp_rockets_ballistic_missile = {
 			limit = {
 				has_dlc = "Gotterdammerung"
 			}
-			ballistic_missile_equipment_1
+		#	ballistic_missile_equipment_1
 		}
 		enable_equipments = {
 			limit = {
 				NOT = { has_dlc = "Gotterdammerung" }
 			}
-			guided_missile_equipment_2
+		#	guided_missile_equipment_2
 		}
 		
 	}
@@ -611,13 +611,13 @@ sp_rockets_medium_range_ballistic_missile = {
 			limit = {
 				has_dlc = "Gotterdammerung"
 			}
-			ballistic_missile_equipment_2
+		#	ballistic_missile_equipment_2
 		}
 		enable_equipments = {
 			limit = {
 				NOT = { has_dlc = "Gotterdammerung" }
 			}
-			guided_missile_equipment_3
+		#	guided_missile_equipment_3
 		}
 		
 	}
@@ -754,7 +754,7 @@ sp_rockets_long_range_ballistic_missile = {
 		}	
 		enable_equipments = {
 			#ballistic_missile_equipment_3
-			nuclear_missile_equipment_2
+		#	nuclear_missile_equipment_2
 		}
 		
 	}
@@ -930,7 +930,7 @@ sp_rockets_ground_to_air_missile = {
 		}
 
 		enable_equipments = {
-			sam_missile_equipment_1
+		#	sam_missile_equipment_1
 		}
 		
 	}
@@ -1138,13 +1138,13 @@ sp_rocket_interceptor = {
 			limit = {
 				NOT = { has_dlc = "By Blood Alone" }
 			}
-			rocket_interceptor_equipment_1
+		#	rocket_interceptor_equipment_1
 		}
 		enable_equipment_modules = {
 			limit = { 
 				has_dlc = "By Blood Alone" 
 			}
-			rocket_engine_1
+		#	rocket_engine_1
 		}
 		
 	}

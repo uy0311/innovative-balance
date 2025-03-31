@@ -73,20 +73,20 @@ sp_land_flamethrower_tank = {
 		}
 
 		enable_equipment_modules = {
-			flamethrower 
+		#	flamethrower 
 		}
 
 		enable_equipment_modules = {
 			limit = {
 				has_dlc = "Gotterdammerung"
 			}
-			lc_flamethrower_turret
+		#	lc_flamethrower_turret
 		}
 
 		enable_subunits = { 
-			light_flame_tank
-			medium_flame_tank
-			heavy_flame_tank
+		#	light_flame_tank
+		#	medium_flame_tank
+		#	heavy_flame_tank
 		}
 	}
 
@@ -138,11 +138,11 @@ sp_land_military_engineering_vehicles = {
 	
 	project_output = {
 		enable_equipments = {
-			armored_support_vehicle_1
+		#	armored_support_vehicle_1
 		}
 
 		enable_subunits = {
-			assault_engineer
+		#	assault_engineer
 		}
 
 		country_effects = {
@@ -268,33 +268,33 @@ sp_land_land_cruiser = {
 	
 	project_output = {
 		country_effects = {
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				add_design_template_bonus = {
-					name = sp_land_land_cruiser
-					uses = 1
-					cost_factor = 1
-					equipment = land_cruiser_chassis_1
-				}
-			}
-			else = {
-				add_equipment_to_stockpile = { 
-					type = land_cruiser_equipment_1
-					amount = 1
-				}
+			# if = {
+			# 	limit = {
+			# 		has_dlc = "No Step Back"
+			# 	}
+			# 	add_design_template_bonus = {
+			# 		name = sp_land_land_cruiser
+			# 		uses = 1
+			# 		cost_factor = 1
+			# 		equipment = land_cruiser_chassis_1
+			# 	}
+			# }
+			# else = {
+			# 	add_equipment_to_stockpile = { 
+			# 		type = land_cruiser_equipment_1
+			# 		amount = 1
+			# 	}
 
-				add_equipment_production = {
-					equipment = {
-						type = land_cruiser_equipment_1
-					}
-					requested_factories = 1 #optional
-					progress = 0.35 #optional
-					amount = 1
-					efficiency = 30
-				}
-			}
+			# 	add_equipment_production = {
+			# 		equipment = {
+			# 			type = land_cruiser_equipment_1
+			# 		}
+			# 		requested_factories = 1 #optional
+			# 		progress = 0.35 #optional
+			# 		amount = 1
+			# 		efficiency = 30
+			# 	}
+			# }
 
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
@@ -325,34 +325,34 @@ sp_land_land_cruiser = {
 		}
 
 		enable_subunits = {
-			land_cruiser
+		#	land_cruiser
 		}
 
 		enable_equipments = {
 			limit = {
 				has_dlc = "No Step Back"
 			}
-			land_cruiser_chassis_1
+		#	land_cruiser_chassis_1
 		}
 
 		enable_equipments = {
 			limit = {
 				NOT = { has_dlc = "No Step Back" }
 			}
-			land_cruiser_equipment_1
+		#	land_cruiser_equipment_1
 		}
 
 		enable_equipment_modules = {
 			limit = {
 				has_dlc = "No Step Back"
 			}
-			lc_heavy_naval_guns
+		#	lc_heavy_naval_guns
 			#lc_super_heavy_railway_gun #SP: SH RWG
 			#lc_high_impact_obliterator_cannon #SP Tech: Obliterator Cannon
 			#lc_heavy_anti_air_platform #Tech: AA III (last AA tech)
-			lc_medium_naval_guns
+		#	lc_medium_naval_guns
 			#lc_hull_mounted_railway_gun #Tech: RWG
-			lc_super_heavy_howitzer
+		#	lc_super_heavy_howitzer
 			#lc_heavy_high_velocity_cannons #Tech: AT III (Last AT tech)
 			#lc_heavy_anti_air_battery #Tech: AA II (Second AA eq. tech)
 			#lc_medium_cannon_turret #Tech: Arty II (Second Arty eq. Tech)
@@ -366,16 +366,16 @@ sp_land_land_cruiser = {
 			#lc_radio_3 #Tech: Radio III
 			#lc_command_center #SP Tech: Armored Signal Company
 			#lc_radar #SP: Radar
-			lc_aircraft_catapult
+		#	lc_aircraft_catapult
 			#lc_helipad #SP: Helicopter
 			#lc_armored_skirts #Tech: Tank Armor III
 			#lc_bunker_emplacement #Tech: Improved Forts (II)
 			#lc_obstacle_clearance_gear #Tech: Engineers II
-			lc_internal_fuel_tanks
-			lc_internal_ammunition_compartments
-			lc_wet_ammunition_storage
-			lc_smoke_generators
-			lc_stabilizers
+		#	lc_internal_fuel_tanks
+		#	lc_internal_ammunition_compartments
+		#	lc_wet_ammunition_storage
+		#	lc_smoke_generators
+		#	lc_stabilizers
 		}
 
 		#MM: List of all modules for Debug purposes
@@ -486,9 +486,9 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_chassis_redesign_bonus_name
-						land_cruiser_chassis_1 = {
-							reliability = 0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	reliability = 0.05
+						# }
 					}
 
 					country_effects = {
@@ -505,10 +505,10 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_chassis_reinforce_bonus_name
-						land_cruiser_chassis_1 = {
-							reliability = -0.03
-							armor_value = 0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	reliability = -0.03
+						# 	armor_value = 0.05
+						# }
 					}
 
 					country_effects = {
@@ -525,9 +525,9 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_chassis_lighter_materials_bonus_name
-						land_cruiser_chassis_1 = {
-							armor_value = -0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	armor_value = -0.05
+						# }
 					}
 				}
 			}
@@ -563,9 +563,9 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_engine_modify_bonus_name
-						land_cruiser_chassis_1 = {
-							maximum_speed = 0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	maximum_speed = 0.05
+						# }
 					}
 
 					country_effects = {
@@ -582,10 +582,10 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_engine_new_bonus_name
-						land_cruiser_chassis_1 = {
-							reliability = 0.05
-							maximum_speed = 0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	reliability = 0.05
+						# 	maximum_speed = 0.05
+						# }
 					}
 
 					country_effects = {
@@ -622,10 +622,10 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_turret_simplify_bonus_name
-						land_cruiser_chassis_1 = {
-							breakthrough = -0.03
-							build_cost_ic = -0.02
-						}
+						# land_cruiser_chassis_1 = {
+						# 	breakthrough = -0.03
+						# 	build_cost_ic = -0.02
+						# }
 					}
 
 					country_effects = {
@@ -642,11 +642,11 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_turret_redesign_bonus_name
-						land_cruiser_chassis_1 = {
-							breakthrough = 0.03
-							maximum_speed = 0.03
-							build_cost_ic = 0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	breakthrough = 0.03
+						# 	maximum_speed = 0.03
+						# 	build_cost_ic = 0.05
+						# }
 					}
 
 					country_effects = {
@@ -688,9 +688,9 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_track_reduce_armor_bonus_name
-						land_cruiser_chassis_1 = {
-							armor_value = -0.03
-						}
+						# land_cruiser_chassis_1 = {
+						# 	armor_value = -0.03
+						# }
 					}
 				}
 			}
@@ -701,10 +701,10 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_track_reinforce_track_bonus_name
-						land_cruiser_chassis_1 = {
-							reliability = 0.05
-							build_cost_ic = 0.03
-						}
+						# land_cruiser_chassis_1 = {
+						# 	reliability = 0.05
+						# 	build_cost_ic = 0.03
+						# }
 					}
 
 					country_effects = {
@@ -741,9 +741,9 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_communication_new_bonus_name
-						land_cruiser_chassis_1 = {
-							breakthrough = 0.03
-						}
+						# land_cruiser_chassis_1 = {
+						# 	breakthrough = 0.03
+						# }
 					}
 
 					country_effects = {
@@ -760,11 +760,11 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_communication_redesign_bonus_name
-						land_cruiser_chassis_1 = {
-							breakthrough = 0.03
-							defense = 0.03
-							build_cost_ic = 0.02
-						}
+						# land_cruiser_chassis_1 = {
+						# 	breakthrough = 0.03
+						# 	defense = 0.03
+						# 	build_cost_ic = 0.02
+						# }
 					}
 
 					country_effects = {
@@ -794,10 +794,10 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_assembly_bonus_name
-						land_cruiser_chassis_1 = {
-							reliability = 0.07
-							build_cost_ic = 0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	reliability = 0.07
+						# 	build_cost_ic = 0.05
+						# }
 					}
 
 					country_effects = {
@@ -814,9 +814,9 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_option_land_cruiser_assembly_bonus_name
-						land_cruiser_chassis_1 = {
-							reliability = 0.03
-						}
+						# land_cruiser_chassis_1 = {
+						# 	reliability = 0.03
+						# }
 					}
 				}
 			}
@@ -840,11 +840,11 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_land_cruiser_suspension
-						land_cruiser_chassis_1 = {
-							maximum_speed = 0.03
-							reliability = 0.03
-							build_cost_ic = 0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	maximum_speed = 0.03
+						# 	reliability = 0.03
+						# 	build_cost_ic = 0.05
+						# }
 					}
 
 					country_effects = {
@@ -861,9 +861,9 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_land_cruiser_suspension
-						land_cruiser_chassis_1 = {
-							reliability = 0.03
-						}
+						# land_cruiser_chassis_1 = {
+						# 	reliability = 0.03
+						# }
 					}
 				}
 			}
@@ -894,10 +894,10 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_land_cruiser_ammunition
-						land_cruiser_chassis_1 = {
-							breakthrough = 0.03
-							build_cost_ic = 0.02
-						}
+						# land_cruiser_chassis_1 = {
+						# 	breakthrough = 0.03
+						# 	build_cost_ic = 0.02
+						# }
 					}
 				}
 			}
@@ -908,11 +908,11 @@ sp_land_land_cruiser = {
 				iteration_output = {
 					equipment_bonus = {
 						#name = sp_land_reward_land_cruiser_ammunition
-						land_cruiser_chassis_1 = {
-							breakthrough = 0.05
-							reliability = 0.03
-							build_cost_ic = 0.05
-						}
+						# land_cruiser_chassis_1 = {
+						# 	breakthrough = 0.05
+						# 	reliability = 0.03
+						# 	build_cost_ic = 0.05
+						# }
 					}
 
 					country_effects = {
@@ -971,11 +971,11 @@ sp_land_super_heavy_howitzer = {
 	
 	project_output = {
 		enable_subunits = {
-			super_heavy_artillery
+		#	super_heavy_artillery
 		}
 
 		enable_equipments = {
-			super_heavy_artillery_equipment_1
+		#	super_heavy_artillery_equipment_1
 		}
 
 		country_effects = {
@@ -1114,11 +1114,11 @@ sp_land_self_propelled_super_heavy_howitzer = {
 		}
 		
 		enable_subunits = {
-			self_propelled_super_heavy_artillery
+		#	self_propelled_super_heavy_artillery
 		}
 
 		enable_equipments = {
-			self_propelled_super_heavy_artillery_equipment_1
+		#	self_propelled_super_heavy_artillery_equipment_1
 		}
 	}
 
@@ -1236,18 +1236,18 @@ sp_land_super_heavy_railway_gun = {
 	
 	project_output = {
 		enable_equipments = {
-			super_heavy_railway_gun_equipment_1
+		#	super_heavy_railway_gun_equipment_1
 		}
 
 		enable_subunits = {
-			super_heavy_railway_gun
+		#	super_heavy_railway_gun
 		}
 
 		enable_equipment_modules = {
 			limit = {
 				has_dlc = "Gotterdammerung"
 			}
-			lc_super_heavy_railway_gun
+		#	lc_super_heavy_railway_gun
 		}
 
 		country_effects = {
