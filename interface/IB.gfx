@@ -186,19 +186,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	spriteType = {
-		name = "GFX_EMI_IB_tank_heavy_machine_gun_2"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/IB_tank_heavy_machine_gun_2.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_EMI_IB_tank_heavy_machine_gun_3"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/IB_tank_heavy_machine_gun_3.dds"
-		legacy_lazy_load = no
-	}
-
-
 	spriteType = { #module_category_icon
 		name = "GFX_EMI_tank_light_turret_type_C1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_light_turret_type_C1.dds"
@@ -529,16 +516,6 @@ spriteTypes = {
 	spriteType = { #infantry_at3
 		name = "GFX_infantry_at3_medium"
 		textureFile = "gfx/interface/technologies/infantry_at3.dds"
-	}
-
-	spriteType = {
-		name = "GFX_IB_designer_frame_1"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/IB_tank_designer_additional_special_slot_frame.dds"
-	}
-
-	spriteType = {
-		name = "GFX_IB_designer_frame_2"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/IB_tank_designer_manufactur_frame.dds"
 	}
 
 	#radar tech
