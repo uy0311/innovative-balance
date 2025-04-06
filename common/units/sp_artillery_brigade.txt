@@ -36,6 +36,7 @@ sub_units = {
 
 		#Line artillery bonuses
 		breakthrough = -0.90
+		hardness = -0.15
 
 		suppression = 1.25
 
@@ -102,6 +103,7 @@ sub_units = {
 
 		#Line artillery bonuses
 		breakthrough = -0.90
+		hardness = -0.15
 
 		suppression = 1.5
 
@@ -172,6 +174,7 @@ sub_units = {
 
 		#Line artillery bonuses
 		breakthrough = -0.90
+		hardness = -0.15
 
 		suppression = 1.5
 
@@ -246,6 +249,7 @@ sub_units = {
 
 		#Line artillery bonuses
 		breakthrough = -0.90
+		hardness = -0.15
 
 		suppression = 1.25
 
@@ -316,6 +320,7 @@ sub_units = {
 		
 		#Line artillery bonuses
 		breakthrough = -0.90
+		hardness = -0.15
 
 		suppression = 1.5
 

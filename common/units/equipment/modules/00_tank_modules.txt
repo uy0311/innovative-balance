@@ -1755,7 +1755,7 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 42
+			soft_attack = 41
 			hard_attack = 36
 			ap_attack = 220
 			build_cost_ic = 6.0
@@ -2127,11 +2127,12 @@ equipment_modules = {
 
 		add_stats = {
 			reliability = -0.10
+			build_cost_ic = 2.0
 			maximum_speed = -1
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			build_cost_ic = 0.1
+			
 		}
 	}
 
