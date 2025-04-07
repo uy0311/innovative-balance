@@ -475,6 +475,25 @@
  modifier_unit_airborne_light_armor_design_cost_factor: "海兵隊特殊部隊ユニット設計コスト"
 
 ##海軍##
+ ship_hull_light_1: "1933年型駆逐艦船体"
+ ship_hull_light_2: "1938年型駆逐艦船体"
+ ship_hull_light_3: "1941年型駆逐艦船体"
+ ship_hull_light_4: "1944年型駆逐艦船体"
+ ship_hull_cruiser_1: "1933年型巡洋艦船体"
+ ship_hull_cruiser_2: "1938年型巡洋艦船体"
+ ship_hull_cruiser_3: "1941年型巡洋艦船体"
+ ship_hull_cruiser_4: "1944年型巡洋艦船体"
+ ship_hull_heavy_1: "1933年型大型艦船体"
+ ship_hull_heavy_2: "1938年型大型艦船体"
+ ship_hull_heavy_3: "1941年型大型艦船体"
+ ship_hull_heavy_4: "1944年型大型艦船体"
+ ship_hull_carrier_1: "1938年型空母船体"
+ ship_hull_carrier_2: "1941年型空母船体"
+ ship_hull_carrier_3: "1944年型空母船体"
+ ship_hull_submarine_1: "1933年型潜水艦船体"
+ ship_hull_submarine_2: "1938年型潜水艦船体"
+ ship_hull_submarine_3: "1941年型潜水艦船体"
+ ship_hull_submarine_4: "1944年型潜水艦船体"
  ship_hull_cruiser_submarine_desc:0 "大型で航続力・居住性などに優れ、遠方の外洋に進出して長期間の行動が可能な潜水艦である。"
 
 ##海軍企業##

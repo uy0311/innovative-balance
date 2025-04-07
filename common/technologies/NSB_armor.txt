@@ -11,7 +11,8 @@ technologies = {
 	@1943 = 10
 	@1944 = 11
 	@1945 = 12
-	@1946 = 20
+	@1946 = 13
+	@1964 = 14
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank_chassis = { #Leichttraktor
@@ -1485,7 +1486,7 @@ technologies = {
 		start_year = 1964
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 1 y = @1945 }
+			position = { x = 1 y = @1964 }
 		}
 
 		enable_equipment_modules = {
