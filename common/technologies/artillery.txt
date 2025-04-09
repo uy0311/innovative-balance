@@ -1344,6 +1344,12 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
+		category_tanks = {
+			ap_attack = 0.1
+		}
+		category_amphibious_tanks = {
+			ap_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = antitank2
@@ -1493,6 +1499,12 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
+		category_tanks = {
+			ap_attack = 0.1
+		}
+		category_amphibious_tanks = {
+			ap_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = antitank4
@@ -1574,6 +1586,12 @@ technologies = {
 		}
 		category_tank_destroyers = {
 			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		category_tanks = {
+			ap_attack = 0.1
+		}
+		category_amphibious_tanks = {
 			ap_attack = 0.1
 		}
 
@@ -1724,6 +1742,12 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
+		category_tanks = {
+			ap_attack = 0.1
+		}
+		category_amphibious_tanks = {
+			ap_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = antitank7
@@ -1799,6 +1823,12 @@ technologies = {
 		}
 		category_tank_destroyers = {
 			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		category_tanks = {
+			ap_attack = 0.1
+		}
+		category_amphibious_tanks = {
 			ap_attack = 0.1
 		}
 		
