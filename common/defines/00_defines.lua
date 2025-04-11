@@ -1208,9 +1208,9 @@ NAir = {
 	COMBAT_BETTER_SPEED_DAMAGE_INCREASE = 0.65, 		-- How much the better Speed (than opponent's) can reduce increase our damage to them.
 														-- Both of these defines are combined with their sister FACTOR_DIFF defines to create defense or offensive buffs
 														-- In both cases the maximum bonus or reduction is (BIGGEST_X_FACTOR_DIFF - 1) * COMBAT_BETTER_X_DAMAGE_Y * Damage
-	COMBAT_MAX_WINGS_AT_ONCE = 2000, 						-- Max amount of air wings in one combat simulation. The higher value, the quicker countries may loose their wings. It's a gameplay balance value.
-	COMBAT_MAX_WINGS_AT_GROUND_ATTACK = 1000,	        	-- we can really pounce a land strike and escalate
-	COMBAT_MAX_WINGS_AT_ONCE_PORT_STRIKE = 1000,        -- we can really pounce a naval strike and escalate
+	COMBAT_MAX_WINGS_AT_ONCE = 10000, 						-- Max amount of air wings in one combat simulation. The higher value, the quicker countries may loose their wings. It's a gameplay balance value.
+	COMBAT_MAX_WINGS_AT_GROUND_ATTACK = 10000,	        	-- we can really pounce a land strike and escalate
+	COMBAT_MAX_WINGS_AT_ONCE_PORT_STRIKE = 10000,        -- we can really pounce a naval strike and escalate
 	AIR_REGION_SUPERIORITY_PIXEL_SCALE = 0.04,           -- air superiority scale = superiority/(pixels*this)
 	COMBAT_MULTIPLANE_CAP = 1.0,						-- How many planes can shoot at each plane on other side ( if there are 100 planes we are atttacking COMBAT_MULTIPLANE_CAP * 100 of our planes can shoot )
 	COMBAT_DAMAGE_SCALE = 0.75,							-- Higher value = more shot down planes
@@ -1320,19 +1320,19 @@ NAir = {
 	AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0.0, 				--Training exercises cause more accidents
 	AIR_WING_XP_LOSS_REDUCTION_OVER_FRIENDLY_TERRITORY_FACTOR = 0.3, 	--Reduction on XP loss over friendly territory
 
-	DISRUPTION_FACTOR = 5.0,									-- multiplier on disruption damage to scale its effects on planes
-	DISRUPTION_FACTOR_CARRIER = 15.0,							-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
+	DISRUPTION_FACTOR = 4.0,									-- multiplier on disruption damage to scale its effects on planes
+	DISRUPTION_FACTOR_CARRIER = 12.0,							-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
 	DISRUPTION_SPEED_FACTOR = 1.0,
 	DISRUPTION_AGILITY_FACTOR = 0.0,
 	DISRUPTION_ATTACK_FACTOR = 0.0,
-	DISRUPTION_DETECTION_FACTOR = 1.0,
+	DISRUPTION_DETECTION_FACTOR = 0.5,
 	ESCORT_FACTOR = 2.0,
 	ESCORT_SPEED_FACTOR = 1.0,
-	ESCORT_AGILITY_FACTOR = 1.0,
-	ESCORT_ATTACK_FACTOR = 1.0,
-	DISRUPTION_DEFENCE_DEFENCE_FACTOR = 2.5,
+	ESCORT_AGILITY_FACTOR = 0.5,
+	ESCORT_ATTACK_FACTOR = 0.5,
+	DISRUPTION_DEFENCE_DEFENCE_FACTOR = 0.5,
 	DISRUPTION_DEFENCE_SPEED_FACTOR = 0.5,
-	DISRUPTION_DEFENCE_ATTACK_FACTOR = 0.5,
+	DISRUPTION_DEFENCE_ATTACK_FACTOR = 0.0,
 
 	CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 70,         -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning
 
