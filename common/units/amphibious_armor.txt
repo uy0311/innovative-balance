@@ -37,7 +37,6 @@ sub_units = {
 		weight = 1
 		suppression = 2.5
 		supply_consumption = 0.25
-		air_attack = -0.50
 
 		forest = {
 			attack = -0.3
