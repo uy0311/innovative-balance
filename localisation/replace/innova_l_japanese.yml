@@ -11,6 +11,7 @@
  operation_Uranus:0 "天王星作戦"
  operation_Bagration:0 "バグラチオン作戦"
  fall_of_moscow:0 "モスクワ陥落"
+ WW2_new_deal:0 "ニューディール政策"
 
 ##ゲームルール##
  ib_international_market_rule: "国際市場"
