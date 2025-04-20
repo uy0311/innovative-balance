@@ -36,6 +36,7 @@ sub_units = {
 
 		breakthrough = -1.00
 		hardness = -0.10
+		armor_value = -0.20
 
 		suppression = 0.75
 
@@ -103,6 +104,7 @@ sub_units = {
 
 		breakthrough = -1.00
 		hardness = -0.10
+		armor_value = -0.20
 
 		suppression = 0.8
 
@@ -173,6 +175,7 @@ sub_units = {
 
 		breakthrough = -1.00
 		hardness = -0.10
+		armor_value = -0.20
 
 		suppression = 0.75
 
@@ -245,6 +248,7 @@ sub_units = {
 
 		breakthrough = -1.00
 		hardness = -0.10
+		armor_value = -0.20
 
 		suppression = 0.75
 
@@ -315,6 +319,7 @@ sub_units = {
 
 		breakthrough = -1.00
 		hardness = -0.10
+		armor_value = -0.20
 
 		suppression = 2
 
