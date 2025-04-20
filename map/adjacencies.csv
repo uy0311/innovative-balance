@@ -359,25 +359,31 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9083;6130;impassable;-1;-1;-1;-1;-1;;Norway-Sweden Scandes
 6055;6130;impassable;-1;-1;-1;-1;-1;;Norway-Sweden Scandes
 6055;3145;impassable;-1;-1;-1;-1;-1;;Norway-Sweden Scandes
-4041;7948;impassable;-1;-1;-1;-1;-1;;Sichuan IB
-4041;15186;impassable;-1;-1;-1;-1;-1;;Sichuan IB
-4041;11865;impassable;-1;-1;-1;-1;-1;;Sichuan IB
-5030;7948;impassable;-1;-1;-1;-1;-1;;Sichuan
-10757;7948;impassable;-1;-1;-1;-1;-1;;Sichuan
-7596;7948;impassable;-1;-1;-1;-1;-1;;Sichuan
-8072;7948;impassable;-1;-1;-1;-1;-1;;Sichuan
-7418;7948;impassable;-1;-1;-1;-1;-1;;Sichuan
+15189;10144;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+15189;5048;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+15186;5048;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+11865;5048;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+11865;2030;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+11865;2030;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+15182;2030;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+15182;1893;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+4295;531;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+7911;531;impassable;-1;-1;-1;-1;-1;;Sichuan IB
 2091;4167;impassable;-1;-1;-1;-1;-1;;Sichuan
 2091;4295;impassable;-1;-1;-1;-1;-1;;Sichuan
 7256;4295;impassable;-1;-1;-1;-1;-1;;Sichuan
-15189;7418;impassable;-1;-1;-1;-1;-1;;Sichuan
 15189;4167;impassable;-1;-1;-1;-1;-1;;Sichuan
-1884;1172;impassable;-1;-1;-1;-1;-1;;Sichuan IB
-1884;1625;impassable;-1;-1;-1;-1;-1;;Sichuan IB
-1884;4085;impassable;-1;-1;-1;-1;-1;;Sichuan IB
-4532;4085;impassable;-1;-1;-1;-1;-1;;Sichuan IB
-12436;4085;impassable;-1;-1;-1;-1;-1;;Sichuan IB
-12436;4628;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+7549;8095;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+7549;14790;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+4532;14790;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+4532;4504;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+4504;1884;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+4192;1884;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+1010;4325;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+1010;10763;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+11972;10763;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+10819;10763;impassable;-1;-1;-1;-1;-1;;Sichuan IB
+10819;4504;impassable;-1;-1;-1;-1;-1;;Sichuan IB
 10781;12248;impassable;-1;-1;-1;-1;-1;;Panjshir Valley
 10781;10826;impassable;-1;-1;-1;-1;-1;;Panjshir Valley
 10781;14912;impassable;-1;-1;-1;-1;-1;;Panjshir Valley
