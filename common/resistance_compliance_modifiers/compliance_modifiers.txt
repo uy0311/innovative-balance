@@ -7,6 +7,11 @@ compliance_15 = {
 	small_icon = "GFX_occupation_compliance_modifier_small_strip:1"
 	threshold = 15
 	margin = 2
+
+	visible = {
+		has_idea = research_bonus_idea
+	}
+
 	state_modifier = {
 		enemy_operative_detection_chance = 0.25
 	}
@@ -18,6 +23,11 @@ compliance_25 = {
 	small_icon = "GFX_occupation_compliance_modifier_small_strip:2"
 	threshold = 25
 	margin = 2
+
+	visible = {
+		has_idea = research_bonus_idea
+	}
+
 	state_modifier = {
 		required_garrison_factor = -0.25
 		recruitable_population = 0.005
@@ -29,6 +39,11 @@ compliance_40 = {
 	small_icon = "GFX_occupation_compliance_modifier_small_strip:3"
 	threshold = 40
 	margin = 2
+
+	visible = {
+		has_idea = research_bonus_idea
+	}
+
 	state_modifier = {
 	#	local_factories = 0.1
 	#	local_resources = 0.1
@@ -41,6 +56,10 @@ compliance_60 = {
 	small_icon = "GFX_occupation_compliance_modifier_small_strip:4"
 	threshold = 60
 	margin = 2
+
+	visible = {
+		has_idea = research_bonus_idea
+	}
 	state_modifier = {
 		recruitable_population_factor = 0.2
 	}
@@ -53,7 +72,7 @@ compliance_80 = {
 	margin = 2
 	
 	visible = {
-		has_dlc = "La Resistance"
+		has_idea = research_bonus_idea
 	}
 	enabled = {
 		#is_available_to_collaboration_government = yes
