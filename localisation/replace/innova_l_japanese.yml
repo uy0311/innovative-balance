@@ -34,6 +34,8 @@
 ##政治NFツリー##
  nationalism_focus: "全体主義重視"
  internationalism_focus: "社会主義重視"
+ nationalism: "全体主義"
+ internationalism: "社会主義"
 
 ##工業NFツリー##
  construction_effort: "民需建設への注力"

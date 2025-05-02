@@ -2110,7 +2110,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments"
-					position = { x = 30 y = 780 }
+					position = { x = 180 y = 750 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2123,7 +2123,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_4in"
-					position = { x = 380 y = 110 }
+					position = { x = 380 y = 135 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2136,7 +2136,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_5in"
-					position = { x = 510 y = 320 }
+					position = { x = 520 y = 345 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2149,7 +2149,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_5Hin"
-					position = { x = 350 y = 530 }
+					position = { x = 360 y = 555 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2162,7 +2162,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_6in"
-					position = { x = 470 y = 630 }
+					position = { x = 520 y = 625 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2175,7 +2175,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_8in"
-					position = { x = 650 y = 740 }
+					position = { x = 660 y = 710 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2188,7 +2188,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_14in"
-					position = { x = 360 y = 850 }
+					position = { x = 370 y = 885 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2201,7 +2201,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_15in"
-					position = { x = 460 y = 950 }
+					position = { x = 470 y = 1050 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2214,7 +2214,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_16in"
-					position = { x = 460 y = 1020 }
+					position = { x = 650 y = 1130 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2227,7 +2227,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_18in"
-					position = { x = 740 y = 1090 }
+					position = { x = 750 y = 1230 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2240,7 +2240,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_turret"
-					position = { x = 350 y = 1160 }
+					position = { x = 535 y = 780 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2253,7 +2253,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_ammo"
-					position = { x = 350 y = 1290 }
+					position = { x = 350 y = 1270 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
