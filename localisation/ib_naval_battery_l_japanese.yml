@@ -26,6 +26,8 @@
  dp_base_battery_4in_x2_desc:0 "小型艦向けの対空兼用主砲として搭載する事を考慮して設計された連装砲。"
  dp_add_battery_4in_x2:0 "高角4インチ連装砲"
  dp_add_battery_4in_x2_desc:0 "小型艦に対空兼用砲として搭載する事を考慮して設計された連装砲。"
+ ship_add_secondaries_4in_x2x3:0 "4インチ連装砲群"
+ ship_add_secondaries_4in_x2x3_desc:0 "絶え間ない空からの脅威に対抗すべく、連装砲を複数取り付ける事によって大幅な対空火力の向上を狙っている。近接海上戦闘でもその実力が発揮出来る。"
  dp_ship_add_secondaries_4in_x2x3:0 "高角4インチ連装砲群"
  dp_ship_add_secondaries_4in_x2x3_desc:0 "絶え間ない空からの脅威に対抗すべく、連装砲を複数取り付ける事によって大幅な対空火力の向上を狙っている。近接海上戦闘でもその実力が発揮出来る。"
 
@@ -56,6 +58,8 @@
  dp_base_battery_5in_x2_desc:0 "小型艦向けの対空兼用主砲として搭載する事を考慮して設計された連装砲。"
  dp_add_battery_5in_x2:0 "高角5インチ連装砲"
  dp_add_battery_5in_x2_desc:0 "小型艦に対空兼用砲として搭載する事を考慮して設計された連装砲。"
+ ship_add_secondaries_5in_x2x3:0 "5インチ連装砲群"
+ ship_add_secondaries_5in_x2x3_desc:0 "絶え間ない空からの脅威に対抗すべく、連装砲を複数取り付ける事によって大幅な対空火力の向上を狙っている。近接海上戦闘でもその実力が発揮出来る。"
  dp_ship_add_secondaries_5in_x2x3:0 "高角5インチ連装砲群"
  dp_ship_add_secondaries_5in_x2x3_desc:0 "絶え間ない空からの脅威に対抗すべく、連装砲を複数取り付ける事によって大幅な対空火力の向上を狙っている。近接海上戦闘でもその実力が発揮出来る。"
 
@@ -94,6 +98,24 @@
  ship_add_battery_6in_x3:0 "6インチ三連装砲"
  ship_add_battery_6in_x3_desc:0 "中型艦に搭載する事を考慮して設計された火力に特化した三連装砲。"
 
+ ### 8inch ###
+
+ ship_front_battery_8in_x2: "8インチ連装砲"
+ ship_mid_battery_8in_x2: "8インチ連装砲"
+ ship_rear_battery_8in_x2: "8インチ連装砲"
+
+ ship_front_battery_8in_x2_desc: "中型艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_mid_battery_8in_x2_desc: "中型艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_rear_battery_8in_x2_desc: "中型艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+
+ ship_front_battery_8in_x3: "8インチ三連装砲"
+ ship_mid_battery_8in_x3: "8インチ三連装砲"
+ ship_rear_battery_8in_x3: "8インチ三連装砲"
+
+ ship_front_battery_8in_x3_desc: "中型艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_mid_battery_8in_x3_desc: "中型艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_rear_battery_8in_x3_desc: "中型艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+
  medium_battery_8in_x2:0 "8インチ連装砲"
  medium_battery_8in_x2_desc:0 "重巡洋艦の主兵装として設計・配備された比較的大型の艦砲である。軽巡洋艦や駆逐艦などの軟装甲目標に対して致命傷を与えるに留まらず、重装甲の戦艦にも損害を与える事が出来る。"
  ship_base_battery_8in_x2:0 "8インチ連装主砲"
@@ -107,6 +129,37 @@
  ship_base_battery_8in_x3_desc:0 "中型艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
  ship_add_battery_8in_x3:0 "8インチ三連装砲"
  ship_add_battery_8in_x3_desc:0 "中型艦に搭載する事を考慮して設計された火力に特化した三連装砲。"
+
+  ### 14inch ###
+
+ ship_front_battery_14in_x2: "14インチ連装砲"
+ ship_mid_battery_14in_x2: "14インチ連装砲"
+ ship_rear_battery_14in_x2: "14インチ連装砲"
+
+ ship_front_battery_14in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_mid_battery_14in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_rear_battery_14in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ 
+ ship_front_battery_14in_x3: "14インチ三連装砲"
+ ship_mid_battery_14in_x3: "14インチ三連装砲"
+ ship_rear_battery_14in_x3: "14インチ三連装砲"
+
+ ship_front_battery_14in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_mid_battery_14in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_rear_battery_14in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+
+ heavy_battery_14in_x4: "14インチ四連装砲"
+ heavy_battery_14in_x4_desc: "この主砲は海軍軍縮条約による口径制限を門数増加によって補った苦肉の策と言える。諸列強の主力戦艦と比べると小口径ではあるものの、しかしこれは同時に非常に高い目標破壊精度を発揮することを意味している。"
+ 
+ ship_base_battery_14in_x4: "14インチ四連装主砲"
+ ship_front_battery_14in_x4: "14インチ四連装砲"
+ ship_mid_battery_14in_x4: "14インチ四連装砲"
+ ship_rear_battery_14in_x4: "14インチ四連装砲"
+
+ ship_base_battery_14in_x4_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した四連装砲。"
+ ship_front_battery_14in_x4_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した四連装砲。"
+ ship_mid_battery_14in_x4_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した四連装砲。"
+ ship_rear_battery_14in_x4_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した四連装砲。"
 
  heavy_battery_14in_x2:0 "14インチ連装砲"
  heavy_battery_14in_x2_desc:0 "超弩級戦艦の主兵装として搭載するべく開発された一般的な艦砲。常に期待を裏切らない大火力を発揮し、艦隊砲撃戦の花形とも言える存在である。"
@@ -122,6 +175,37 @@
  ship_add_battery_14in_x3:0 "14インチ三連装砲"
  ship_add_battery_14in_x3_desc:0 "戦艦に搭載する事を考慮して設計された火力に特化した三連装砲。"
 
+  ### 15inch ###
+
+ ship_front_battery_15in_x2: "15インチ連装砲"
+ ship_mid_battery_15in_x2: "15インチ連装砲"
+ ship_rear_battery_15in_x2: "15インチ連装砲"
+
+ ship_front_battery_15in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_mid_battery_15in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_rear_battery_15in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+
+ ship_front_battery_15in_x3: "15インチ三連装砲"
+ ship_mid_battery_15in_x3: "15インチ三連装砲"
+ ship_rear_battery_15in_x3: "15インチ三連装砲"
+
+ ship_front_battery_15in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_mid_battery_15in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_rear_battery_15in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+
+ heavy_battery_15in_x4: "15インチ四連装砲"
+ heavy_battery_15in_x4_desc: "我が軍の開発部は、砲塔の四連装化による重量と装甲の選択的集中を可能とした。非常に高い火力と装甲を提供するが、複雑な構造によるトラブルも尽きないことが予想される。"
+ 
+ ship_base_battery_15in_x4: "15インチ四連装主砲"
+ ship_front_battery_15in_x4: "15インチ四連装砲"
+ ship_mid_battery_15in_x4: "15インチ四連装砲"
+ ship_rear_battery_15in_x4: "15インチ四連装砲"
+
+ ship_base_battery_15in_x4_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した四連装砲。"
+ ship_front_battery_15in_x4_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した四連装砲。"
+ ship_mid_battery_15in_x4_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した四連装砲。"
+ ship_rear_battery_15in_x4_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した四連装砲。"
+
  heavy_battery_15in_x2:0 "15インチ連装砲"
  heavy_battery_15in_x2_desc:0 "主力戦艦向けの兵装として世界中で広く採用された口径の艦砲であり、近距離から中距離までを活躍の舞台都市、敵目標に致命傷を負わせる破壊力を有する。"
  ship_base_battery_15in_x2:0 "15インチ連装主砲"
@@ -136,6 +220,24 @@
  ship_add_battery_15in_x3:0 "15インチ三連装砲"
  ship_add_battery_15in_x3_desc:0 "戦艦に搭載する事を考慮して設計された火力に特化した三連装砲。"
 
+  ### 16inch ###
+
+ ship_front_battery_16in_x2: "16インチ連装砲"
+ ship_mid_battery_16in_x2: "16インチ連装砲"
+ ship_rear_battery_16in_x2: "16インチ連装砲"
+
+ ship_front_battery_16in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_mid_battery_16in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_rear_battery_16in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+
+ ship_front_battery_16in_x3: "16インチ三連装砲"
+ ship_mid_battery_16in_x3: "16インチ三連装砲"
+ ship_rear_battery_16in_x3: "16インチ三連装砲"
+
+ ship_front_battery_16in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_mid_battery_16in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_rear_battery_16in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+
  heavy_battery_16in_x2:0 "16インチ連装砲"
  heavy_battery_16in_x2_desc:0 "事実上の世界最大口径を誇る戦艦向けの大型艦砲である。発射時の凄まじい衝撃に見劣りしない、圧倒的な火力を叩き出す事が出来る。"
  ship_base_battery_16in_x2:0 "16インチ連装主砲"
@@ -149,6 +251,24 @@
  ship_base_battery_16in_x3_desc:0 "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
  ship_add_battery_16in_x3:0 "16インチ三連装砲"
  ship_add_battery_16in_x3_desc:0 "戦艦に搭載する事を考慮して設計された火力に特化した三連装砲。"
+
+  ### 18inch ###
+
+ ship_front_battery_18in_x2: "18インチ連装砲"
+ ship_mid_battery_18in_x2: "18インチ連装砲"
+ ship_rear_battery_18in_x2: "18インチ連装砲"
+
+ ship_front_battery_18in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_mid_battery_18in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+ ship_rear_battery_18in_x2_desc: "戦艦向けの主砲として搭載する事を考慮して設計された連装砲。"
+
+ ship_front_battery_18in_x3: "18インチ三連装砲"
+ ship_mid_battery_18in_x3: "18インチ三連装砲"
+ ship_rear_battery_18in_x3: "18インチ三連装砲"
+
+ ship_front_battery_18in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_mid_battery_18in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
+ ship_rear_battery_18in_x3_desc: "戦艦向けの主砲として搭載する事を考慮して設計された火力に特化した三連装砲。"
 
  heavy_battery_18in_x2:0 "18インチ連装砲"
  heavy_battery_18in_x2_desc:0 "公式文書で「16インチ砲」とされているこの兵装は、史上最大の火力と大きさを誇る戦艦砲である。発射時の余りにも凄まじい衝撃波は、周囲の人間をミンチにする程だと噂されている。"
@@ -171,6 +291,10 @@
  triple_gun_battery:0 "三連装砲塔機構"
  triple_gun_battery_desc:0 "一つの砲塔に火砲を三門搭載する事を可能とする技術。各種三連装砲の研究開発には必須の艤装技術となっている。\n\n本技術の研究が終わらない限り、各種三連装砲モジュールの技術がアンロックされない"
  ib_triplegun_tt:0 "§C本技術の研究が終わらない限り、各種§O三連装砲モジュール§!の技術がアンロックされない§!"
+
+ quadruple_gun_battery:0 "四連装砲塔機構"
+ quadruple_gun_battery_desc:0 "一つの砲塔に火砲を四門搭載する事を可能とする技術。各種連装砲の研究開発には必須の艤装技術となっている。\n\n本技術の研究が終わらない限り、各種四装砲モジュールの技術がアンロックされない"
+ ib_quadruplegun_tt:0 "§C本技術の研究が終わらない限り、各種§Y四連装砲モジュール§!の技術がアンロックされない§!"
 
  ib_shell_tech2:0 "高角砲塔機構・二連装20mm対空機銃"
  ib_shell_tech2_desc:0 "中遠距離での艦隊防空を担う高角砲の搭載を可能とする技術。各種高角砲の研究開発には必須の艤装技術となっている。\n\n本技術の研究が終わらない限り、各種高角砲モジュールの技術がアンロックされない"

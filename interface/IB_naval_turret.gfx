@@ -1,303 +1,463 @@
 spriteTypes = {
 
+ #4in
+
 	spriteType = {
 		name = "GFX_light_battery_4in_x1_medium"
-		textureFile = "gfx/IB_turret/tech_lb4x1.png"
+		textureFile = "gfx/IB_turret/4inx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_4in_x1"
-		textureFile = "gfx/IB_turret/lb4x1.png"
+		textureFile = "gfx/IB_turret/m4inx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_4in_x1"
-		textureFile = "gfx/IB_turret/lb4x1.png"
+		textureFile = "gfx/IB_turret/m4inx1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_light_battery_4in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_lb4x2.png"
+		textureFile = "gfx/IB_turret/4inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_4in_x2"
-		textureFile = "gfx/IB_turret/lb4x2.png"
+		textureFile = "gfx/IB_turret/m4inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_4in_x2"
-		textureFile = "gfx/IB_turret/lb4x2.png"
+		textureFile = "gfx/IB_turret/m4inx2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_dp_light_battery_4in_x1_medium"
-		textureFile = "gfx/IB_turret/tech_dplb4x1.png"
+		textureFile = "gfx/IB_turret/4indpx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_dp_base_battery_4in_x1"
-		textureFile = "gfx/IB_turret/dplb4x1.png"
+		textureFile = "gfx/IB_turret/m4indpx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_dp_add_battery_4in_x1"
-		textureFile = "gfx/IB_turret/dplb4x1.png"
+		textureFile = "gfx/IB_turret/m4indpx1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_dp_light_battery_4in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_dplb4x2.png"
+		textureFile = "gfx/IB_turret/4indpx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_dp_base_battery_4in_x2"
-		textureFile = "gfx/IB_turret/dplb4x2.png"
+		textureFile = "gfx/IB_turret/m4indpx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_dp_add_battery_4in_x2"
-		textureFile = "gfx/IB_turret/dplb4x2.png"
+		textureFile = "gfx/IB_turret/m4indpx2.dds"
 	}
 
 	spriteType = {
+		name = "GFX_SMI_ship_add_secondaries_4in_x2x3"
+		textureFile = "gfx/IB_turret/m4inx2x3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_add_secondaries_4in_x2x3"
+		textureFile = "gfx/IB_turret/m4indpx2x3.dds"
+	}
+
+ #5in
+
+	spriteType = {
 		name = "GFX_light_battery_5in_x1_medium"
-		textureFile = "gfx/IB_turret/tech_lb5x1.png"
+		textureFile = "gfx/IB_turret/5inx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_5in_x1"
-		textureFile = "gfx/IB_turret/lb5x1.png"
+		textureFile = "gfx/IB_turret/m5inx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_5in_x1"
-		textureFile = "gfx/IB_turret/lb5x1.png"
+		textureFile = "gfx/IB_turret/m5inx1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_light_battery_5in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_lb5x2.png"
+		textureFile = "gfx/IB_turret/5inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_5in_x2"
-		textureFile = "gfx/IB_turret/lb5x2.png"
+		textureFile = "gfx/IB_turret/m5inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_5in_x2"
-		textureFile = "gfx/IB_turret/lb5x2.png"
+		textureFile = "gfx/IB_turret/m5inx2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_dp_light_battery_5in_x1_medium"
-		textureFile = "gfx/IB_turret/tech_dplb5x1.png"
+		textureFile = "gfx/IB_turret/5indpx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_dp_base_battery_5in_x1"
-		textureFile = "gfx/IB_turret/dplb5x1.png"
+		textureFile = "gfx/IB_turret/m5indpx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_dp_add_battery_5in_x1"
-		textureFile = "gfx/IB_turret/dplb5x1.png"
+		textureFile = "gfx/IB_turret/m5indpx1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_dp_light_battery_5in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_dplb5x2.png"
+		textureFile = "gfx/IB_turret/5indpx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_dp_base_battery_5in_x2"
-		textureFile = "gfx/IB_turret/dplb5x2.png"
+		textureFile = "gfx/IB_turret/m5indpx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_dp_add_battery_5in_x2"
-		textureFile = "gfx/IB_turret/dplb5x2.png"
+		textureFile = "gfx/IB_turret/m5indpx2.dds"
 	}
 
 	spriteType = {
+		name = "GFX_SMI_ship_add_secondaries_5in_x2x3"
+		textureFile = "gfx/IB_turret/m5inx2x3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_add_secondaries_5in_x2x3"
+		textureFile = "gfx/IB_turret/m5indpx2x3.dds"
+	}
+
+ #5Hin
+
+	spriteType = {
 		name = "GFX_medium_battery_5Hin_x1_medium"
-		textureFile = "gfx/IB_turret/tech_mb5Hx1.png"
+		textureFile = "gfx/IB_turret/5Hinx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_5Hin_x1"
-		textureFile = "gfx/IB_turret/mb5Hx1.png"
+		textureFile = "gfx/IB_turret/m5Hinx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_5Hin_x1"
-		textureFile = "gfx/IB_turret/mb5Hx1.png"
+		textureFile = "gfx/IB_turret/m5Hinx1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_medium_battery_5Hin_x2_medium"
-		textureFile = "gfx/IB_turret/tech_mb5Hx2.png"
+		textureFile = "gfx/IB_turret/5Hinx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_5Hin_x2"
-		textureFile = "gfx/IB_turret/mb5Hx2.png"
+		textureFile = "gfx/IB_turret/m5Hinx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_5Hin_x2"
-		textureFile = "gfx/IB_turret/mb5Hx2.png"
+		textureFile = "gfx/IB_turret/m5Hinx2.dds"
 	}
+
+ #6in
 
 	spriteType = {
 		name = "GFX_medium_battery_6in_x1_medium"
-		textureFile = "gfx/IB_turret/tech_mb6x1.png"
+		textureFile = "gfx/IB_turret/6inx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_6in_x1"
-		textureFile = "gfx/IB_turret/mb6x1.png"
+		textureFile = "gfx/IB_turret/m6inx1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_6in_x1"
-		textureFile = "gfx/IB_turret/mb6x1.png"
+		textureFile = "gfx/IB_turret/m6inx1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_medium_battery_6in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_mb6x2.png"
+		textureFile = "gfx/IB_turret/6inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_6in_x2"
-		textureFile = "gfx/IB_turret/mb6x2.png"
+		textureFile = "gfx/IB_turret/m6inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_6in_x2"
-		textureFile = "gfx/IB_turret/mb6x2.png"
+		textureFile = "gfx/IB_turret/m6inx2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_medium_battery_6in_x3_medium"
-		textureFile = "gfx/IB_turret/tech_mb6x3.png"
+		textureFile = "gfx/IB_turret/6inx3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_6in_x3"
-		textureFile = "gfx/IB_turret/mb6x3.png"
+		textureFile = "gfx/IB_turret/m6inx3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_add_battery_6in_x3"
-		textureFile = "gfx/IB_turret/mb6x3.png"
+		textureFile = "gfx/IB_turret/m6inx3.dds"
 	}
+
+ #8in
 
 	spriteType = {
 		name = "GFX_medium_battery_8in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_mb8x2.png"
+		textureFile = "gfx/IB_turret/8inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_8in_x2"
-		textureFile = "gfx/IB_turret/mb8x2.png"
+		textureFile = "gfx/IB_turret/m8inx2.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_8in_x2"
-		textureFile = "gfx/IB_turret/mb8x2.png"
+		name = "GFX_SMI_ship_front_battery_8in_x2"
+		textureFile = "gfx/IB_turret/m8inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_8in_x2"
+		textureFile = "gfx/IB_turret/m8inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_8in_x2"
+		textureFile = "gfx/IB_turret/m8inx2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_medium_battery_8in_x3_medium"
-		textureFile = "gfx/IB_turret/tech_mb8x3.png"
+		textureFile = "gfx/IB_turret/8inx3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_8in_x3"
-		textureFile = "gfx/IB_turret/mb8x3.png"
+		textureFile = "gfx/IB_turret/m8inx3.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_8in_x3"
-		textureFile = "gfx/IB_turret/mb8x3.png"
+		name = "GFX_SMI_ship_front_battery_8in_x3"
+		textureFile = "gfx/IB_turret/m8inx3.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_8in_x3"
+		textureFile = "gfx/IB_turret/m8inx3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_8in_x3"
+		textureFile = "gfx/IB_turret/m8inx3.dds"
+	}
+
+ #14in
 
 	spriteType = {
 		name = "GFX_heavy_battery_14in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_hb14x2.png"
+		textureFile = "gfx/IB_turret/14inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_14in_x2"
-		textureFile = "gfx/IB_turret/hb14x2.png"
+		textureFile = "gfx/IB_turret/m14inx2.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_14in_x2"
-		textureFile = "gfx/IB_turret/hb14x2.png"
+		name = "GFX_SMI_ship_front_battery_14in_x2"
+		textureFile = "gfx/IB_turret/m14inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_14in_x2"
+		textureFile = "gfx/IB_turret/m14inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_14in_x2"
+		textureFile = "gfx/IB_turret/m14inx2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_heavy_battery_14in_x3_medium"
-		textureFile = "gfx/IB_turret/tech_hb14x3.png"
+		textureFile = "gfx/IB_turret/14inx3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_14in_x3"
-		textureFile = "gfx/IB_turret/hb14x3.png"
+		textureFile = "gfx/IB_turret/m14inx3.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_14in_x3"
-		textureFile = "gfx/IB_turret/hb14x3.png"
+		name = "GFX_SMI_ship_front_battery_14in_x3"
+		textureFile = "gfx/IB_turret/m14inx3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_14in_x3"
+		textureFile = "gfx/IB_turret/m14inx3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_14in_x3"
+		textureFile = "gfx/IB_turret/m14inx3.dds"
 	}
 
 	spriteType = {
+		name = "GFX_heavy_battery_14in_x4_medium"
+		textureFile = "gfx/IB_turret/14inx4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_14in_x4"
+		textureFile = "gfx/IB_turret/m14inx4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_front_battery_14in_x4"
+		textureFile = "gfx/IB_turret/m14inx4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_14in_x4"
+		textureFile = "gfx/IB_turret/m14inx4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_14in_x4"
+		textureFile = "gfx/IB_turret/m14inx4.dds"
+	}
+
+ #15in
+
+	spriteType = {
 		name = "GFX_heavy_battery_15in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_hb15x2.png"
+		textureFile = "gfx/IB_turret/15inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_15in_x2"
-		textureFile = "gfx/IB_turret/hb15x2.png"
+		textureFile = "gfx/IB_turret/m15inx2.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_15in_x2"
-		textureFile = "gfx/IB_turret/hb15x2.png"
+		name = "GFX_SMI_ship_front_battery_15in_x2"
+		textureFile = "gfx/IB_turret/m15inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_15in_x2"
+		textureFile = "gfx/IB_turret/m15inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_15in_x2"
+		textureFile = "gfx/IB_turret/m15inx2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_heavy_battery_15in_x3_medium"
-		textureFile = "gfx/IB_turret/tech_hb15x3.png"
+		textureFile = "gfx/IB_turret/15inx3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_15in_x3"
-		textureFile = "gfx/IB_turret/hb15x3.png"
+		textureFile = "gfx/IB_turret/m15inx3.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_15in_x3"
-		textureFile = "gfx/IB_turret/hb15x3.png"
+		name = "GFX_SMI_ship_front_battery_15in_x3"
+		textureFile = "gfx/IB_turret/m15inx3.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_15in_x3"
+		textureFile = "gfx/IB_turret/m15inx3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_15in_x3"
+		textureFile = "gfx/IB_turret/m15inx3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_heavy_battery_15in_x4_medium"
+		textureFile = "gfx/IB_turret/15inx4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_base_battery_15in_x4"
+		textureFile = "gfx/IB_turret/m15inx4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_front_battery_15in_x4"
+		textureFile = "gfx/IB_turret/m15inx4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_15in_x4"
+		textureFile = "gfx/IB_turret/m15inx4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_15in_x4"
+		textureFile = "gfx/IB_turret/m15inx4.dds"
+	}
+
+ #16in
 
 	spriteType = {
 		name = "GFX_heavy_battery_16in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_hb16x2.png"
+		textureFile = "gfx/IB_turret/16inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_16in_x2"
-		textureFile = "gfx/IB_turret/hb16x2.png"
+		textureFile = "gfx/IB_turret/m16inx2.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_16in_x2"
-		textureFile = "gfx/IB_turret/hb16x2.png"
+		name = "GFX_SMI_ship_front_battery_16in_x2"
+		textureFile = "gfx/IB_turret/m16inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_16in_x2"
+		textureFile = "gfx/IB_turret/m16inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_16in_x2"
+		textureFile = "gfx/IB_turret/m16inx2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_heavy_battery_16in_x3_medium"
-		textureFile = "gfx/IB_turret/tech_hb16x3.png"
+		textureFile = "gfx/IB_turret/16inx3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_16in_x3"
-		textureFile = "gfx/IB_turret/hb16x3.png"
+		textureFile = "gfx/IB_turret/m16inx3.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_16in_x3"
-		textureFile = "gfx/IB_turret/hb16x3.png"
+		name = "GFX_SMI_ship_front_battery_16in_x3"
+		textureFile = "gfx/IB_turret/m16inx3.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_16in_x3"
+		textureFile = "gfx/IB_turret/m16inx3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_16in_x3"
+		textureFile = "gfx/IB_turret/m16inx3.dds"
+	}
+
+ #18in
 
 	spriteType = {
 		name = "GFX_heavy_battery_18in_x2_medium"
-		textureFile = "gfx/IB_turret/tech_hb18x2.png"
+		textureFile = "gfx/IB_turret/18inx2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_18in_x2"
-		textureFile = "gfx/IB_turret/hb18x2.png"
+		textureFile = "gfx/IB_turret/m18inx2.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_18in_x2"
-		textureFile = "gfx/IB_turret/hb18x2.png"
+		name = "GFX_SMI_ship_front_battery_18in_x2"
+		textureFile = "gfx/IB_turret/m18inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_18in_x2"
+		textureFile = "gfx/IB_turret/m18inx2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_18in_x2"
+		textureFile = "gfx/IB_turret/m18inx2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_heavy_battery_18in_x3_medium"
-		textureFile = "gfx/IB_turret/tech_hb18x3.png"
+		textureFile = "gfx/IB_turret/18inx3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_base_battery_18in_x3"
-		textureFile = "gfx/IB_turret/hb18x3.png"
+		textureFile = "gfx/IB_turret/m18inx3.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_add_battery_18in_x3"
-		textureFile = "gfx/IB_turret/hb18x3.png"
+		name = "GFX_SMI_ship_front_battery_18in_x3"
+		textureFile = "gfx/IB_turret/m18inx3.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_mid_battery_18in_x3"
+		textureFile = "gfx/IB_turret/m18inx3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_rear_battery_18in_x3"
+		textureFile = "gfx/IB_turret/m18inx3.dds"
+	}
+
+ #other
 
 	spriteType = {
 		name = "GFX_ib_shell_tech2_medium"
@@ -346,4 +506,10 @@ spriteTypes = {
 		name = "GFX_triple_gun_battery_medium"
 		textureFile = "gfx/IB_turret/tech_triple.png"
 	}
+
+	spriteType = {
+		name = "GFX_quadruple_gun_battery_medium"
+		textureFile = "gfx/IB_turret/tech_quad.png"
+	}
+
 }

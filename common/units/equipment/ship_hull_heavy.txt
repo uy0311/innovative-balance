@@ -47,44 +47,83 @@ equipments = {
 			}
 
 			front_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					front_battery_14in_x2
+					front_battery_14in_x3
+					front_battery_14in_x4
+					front_battery_15in_x2
+					front_battery_15in_x3
+					front_battery_15in_x4
+					front_battery_16in_x2
+					front_battery_16in_x3
+					front_battery_18in_x2
+					front_battery_18in_x3
+					battery_add_5Hin
+					battery_add_6in
 				}
 			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					mid_battery_14in_x3
+					mid_battery_14in_x4
+					mid_battery_15in_x2
+					mid_battery_15in_x3
+					mid_battery_16in_x2
+					mid_battery_16in_x3
+					mid_battery_18in_x2
 					battery_add_5Hin
 					battery_add_6in
-					ship_extra_fuel_tank
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					mid_battery_14in_x2
+					battery_add_5Hin
+					battery_add_6in
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
+				}
+			}
+			mid_3_custom_slot = mid_2_custom_slot
 
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_15in_x2
+					rear_battery_16in_x2
+					rear_battery_18in_x2
+					battery_add_5Hin
+					battery_add_6in
 					battery_secondaries_4in
 					battery_secondaries_5in
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_14in_x4
+					rear_battery_15in_x2
+					rear_battery_15in_x3
+					rear_battery_15in_x4
+					rear_battery_16in_x2
+					rear_battery_16in_x3
+					rear_battery_18in_x2
+					rear_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -92,15 +131,14 @@ equipments = {
 					battery_add_5in
 					ship_airplane_launcher
 					ship_torpedo
-					ship_extra_fuel_tank
 				}
 			}
 
 		}
 		
 		module_count_limit = {
-			category = ship_radar
-			count < 2
+			category = mid_battery_14in_x2
+			count < 3
 		}
 		module_count_limit = {
 			category = ship_airplane_launcher
@@ -171,11 +209,11 @@ equipments = {
 				allowed_module_categories = { battery_base_14in battery_base_15in battery_base_16in battery_base_18in }
 			}
 			fixed_ship_anti_air_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = { ship_anti_air }
 			}
 			fixed_ship_fire_control_system_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = { ship_fire_control_system }
 			}
 			fixed_ship_radar_slot = {
@@ -196,52 +234,90 @@ equipments = {
 			}
 
 			front_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					front_battery_14in_x2
+					front_battery_14in_x3
+					front_battery_14in_x4
+					front_battery_15in_x2
+					front_battery_15in_x3
+					front_battery_15in_x4
+					front_battery_16in_x2
+					front_battery_16in_x3
+					front_battery_18in_x2
+					front_battery_18in_x3
+					battery_add_5Hin
+					battery_add_6in
 				}
 			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					mid_battery_14in_x3
+					mid_battery_14in_x4
+					mid_battery_15in_x2
+					mid_battery_15in_x3
+					mid_battery_16in_x2
+					mid_battery_16in_x3
+					mid_battery_18in_x2
 					battery_add_5Hin
 					battery_add_6in
-					ship_extra_fuel_tank
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					mid_battery_14in_x2
+					battery_add_5Hin
+					battery_add_6in
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
+				}
+			}
+			mid_3_custom_slot = mid_2_custom_slot
 
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_15in_x2
+					rear_battery_16in_x2
+					rear_battery_18in_x2
+					battery_add_5Hin
+					battery_add_6in
 					battery_secondaries_4in
 					battery_secondaries_5in
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_14in_x4
+					rear_battery_15in_x2
+					rear_battery_15in_x3
+					rear_battery_15in_x4
+					rear_battery_16in_x2
+					rear_battery_16in_x3
+					rear_battery_18in_x2
+					rear_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_airplane_launcher
-					ship_torpedo
 					battery_add_4in
 					battery_add_5in
-					ship_extra_fuel_tank
+					ship_airplane_launcher
+					ship_torpedo
 				}
 			}
 
@@ -275,32 +351,48 @@ equipments = {
 		parent = ship_hull_heavy_1
 		visual_level = 1
 		module_slots = {
-			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
-			fixed_ship_fire_control_system_slot = inherit
-			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
-			fixed_ship_secondaries_slot = inherit
-			fixed_ship_armor_slot = inherit
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { battery_base_14in battery_base_15in battery_base_16in battery_base_18in }
+			}
+			fixed_ship_anti_air_slot = {
+				required = yes
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = yes
+				allowed_module_categories = { ship_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { heavy_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { battery_base_4in battery_base_5in battery_base_5Hin battery_base_6in }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_armor }	
+			}
 
 			front_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-				}
-			}
-			front_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					front_battery_14in_x2
+					front_battery_14in_x3
+					front_battery_14in_x4
+					front_battery_15in_x2
+					front_battery_15in_x3
+					front_battery_15in_x4
+					front_battery_16in_x2
+					front_battery_16in_x3
+					front_battery_18in_x2
+					front_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
@@ -308,41 +400,71 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					mid_battery_14in_x3
+					mid_battery_14in_x4
+					mid_battery_15in_x2
+					mid_battery_15in_x3
+					mid_battery_16in_x2
+					mid_battery_16in_x3
+					mid_battery_18in_x2
 					battery_add_5Hin
 					battery_add_6in
-					ship_extra_fuel_tank
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					mid_battery_14in_x2
+					battery_add_5Hin
+					battery_add_6in
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
+				}
+			}
+			mid_3_custom_slot = mid_2_custom_slot
 
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_15in_x2
+					rear_battery_16in_x2
+					rear_battery_18in_x2
+					battery_add_5Hin
+					battery_add_6in
 					battery_secondaries_4in
 					battery_secondaries_5in
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_14in_x4
+					rear_battery_15in_x2
+					rear_battery_15in_x3
+					rear_battery_15in_x4
+					rear_battery_16in_x2
+					rear_battery_16in_x3
+					rear_battery_18in_x2
+					rear_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_airplane_launcher
-					ship_torpedo
 					battery_add_4in
 					battery_add_5in
-					ship_extra_fuel_tank
+					ship_airplane_launcher
+					ship_torpedo
 				}
 			}
 
@@ -376,31 +498,48 @@ equipments = {
 		parent = ship_hull_heavy_2
 		visual_level = 1
 		module_slots = {
-			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
-			fixed_ship_fire_control_system_slot = inherit
-			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
-			fixed_ship_secondaries_slot = inherit
-			fixed_ship_armor_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-				}
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { battery_base_14in battery_base_15in battery_base_16in battery_base_18in }
 			}
-			front_2_custom_slot = {
+			fixed_ship_anti_air_slot = {
+				required = yes
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = yes
+				allowed_module_categories = { ship_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
 				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { heavy_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { battery_base_4in battery_base_5in battery_base_5Hin battery_base_6in }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_armor }	
+			}
+
+			front_1_custom_slot = {
+				required = yes
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					front_battery_14in_x2
+					front_battery_14in_x3
+					front_battery_14in_x4
+					front_battery_15in_x2
+					front_battery_15in_x3
+					front_battery_15in_x4
+					front_battery_16in_x2
+					front_battery_16in_x3
+					front_battery_18in_x2
+					front_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
@@ -408,41 +547,71 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					mid_battery_14in_x3
+					mid_battery_14in_x4
+					mid_battery_15in_x2
+					mid_battery_15in_x3
+					mid_battery_16in_x2
+					mid_battery_16in_x3
+					mid_battery_18in_x2
 					battery_add_5Hin
 					battery_add_6in
-					ship_extra_fuel_tank
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					mid_battery_14in_x2
+					battery_add_5Hin
+					battery_add_6in
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
+				}
+			}
+			mid_3_custom_slot = mid_2_custom_slot
 
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_15in_x2
+					rear_battery_16in_x2
+					rear_battery_18in_x2
+					battery_add_5Hin
+					battery_add_6in
 					battery_secondaries_4in
 					battery_secondaries_5in
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_14in_x4
+					rear_battery_15in_x2
+					rear_battery_15in_x3
+					rear_battery_15in_x4
+					rear_battery_16in_x2
+					rear_battery_16in_x3
+					rear_battery_18in_x2
+					rear_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_airplane_launcher
-					ship_torpedo
 					battery_add_4in
 					battery_add_5in
-					ship_extra_fuel_tank
+					ship_airplane_launcher
+					ship_torpedo
 				}
 			}
 
@@ -476,31 +645,48 @@ equipments = {
 		parent = ship_hull_heavy_3
 		visual_level = 1
 		module_slots = {
-			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
-			fixed_ship_fire_control_system_slot = inherit
-			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
-			fixed_ship_secondaries_slot = inherit
-			fixed_ship_armor_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-				}
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { battery_base_14in battery_base_15in battery_base_16in battery_base_18in }
 			}
-			front_2_custom_slot = {
+			fixed_ship_anti_air_slot = {
+				required = yes
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = yes
+				allowed_module_categories = { ship_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
 				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { heavy_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { battery_base_4in battery_base_5in battery_base_5Hin battery_base_6in }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_armor }	
+			}
+
+			front_1_custom_slot = {
+				required = yes
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					front_battery_14in_x2
+					front_battery_14in_x3
+					front_battery_14in_x4
+					front_battery_15in_x2
+					front_battery_15in_x3
+					front_battery_15in_x4
+					front_battery_16in_x2
+					front_battery_16in_x3
+					front_battery_18in_x2
+					front_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
@@ -508,43 +694,74 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					mid_battery_14in_x3
+					mid_battery_14in_x4
+					mid_battery_15in_x2
+					mid_battery_15in_x3
+					mid_battery_16in_x2
+					mid_battery_16in_x3
+					mid_battery_18in_x2
 					battery_add_5Hin
 					battery_add_6in
-					ship_extra_fuel_tank
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					mid_battery_14in_x2
+					battery_add_5Hin
+					battery_add_6in
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
+				}
+			}
+			mid_3_custom_slot = mid_2_custom_slot
 
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_15in_x2
+					rear_battery_16in_x2
+					rear_battery_18in_x2
+					battery_add_5Hin
+					battery_add_6in
 					battery_secondaries_4in
 					battery_secondaries_5in
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_14in_x4
+					rear_battery_15in_x2
+					rear_battery_15in_x3
+					rear_battery_15in_x4
+					rear_battery_16in_x2
+					rear_battery_16in_x3
+					rear_battery_18in_x2
+					rear_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_airplane_launcher
-					ship_torpedo
 					battery_add_4in
 					battery_add_5in
-					ship_extra_fuel_tank
+					ship_airplane_launcher
+					ship_torpedo
 				}
 			}
+
 		}
 
 		default_modules = {
@@ -607,44 +824,83 @@ equipments = {
 			}
 
 			front_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					front_battery_14in_x2
+					front_battery_14in_x3
+					front_battery_14in_x4
+					front_battery_15in_x2
+					front_battery_15in_x3
+					front_battery_15in_x4
+					front_battery_16in_x2
+					front_battery_16in_x3
+					front_battery_18in_x2
+					front_battery_18in_x3
+					battery_add_5Hin
+					battery_add_6in
 				}
 			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					mid_battery_14in_x3
+					mid_battery_14in_x4
+					mid_battery_15in_x2
+					mid_battery_15in_x3
+					mid_battery_16in_x2
+					mid_battery_16in_x3
+					mid_battery_18in_x2
 					battery_add_5Hin
 					battery_add_6in
-					ship_extra_fuel_tank
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					mid_battery_14in_x2
+					battery_add_5Hin
+					battery_add_6in
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
+				}
+			}
+			mid_3_custom_slot = mid_2_custom_slot
 
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_15in_x2
+					rear_battery_16in_x2
+					rear_battery_18in_x2
+					battery_add_5Hin
+					battery_add_6in
 					battery_secondaries_4in
 					battery_secondaries_5in
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_14in_x4
+					rear_battery_15in_x2
+					rear_battery_15in_x3
+					rear_battery_15in_x4
+					rear_battery_16in_x2
+					rear_battery_16in_x3
+					rear_battery_18in_x2
+					rear_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -652,15 +908,14 @@ equipments = {
 					battery_add_5in
 					ship_airplane_launcher
 					ship_torpedo
-					ship_extra_fuel_tank
 				}
 			}
 
 		}
 		
 		module_count_limit = {
-			category = ship_radar
-			count < 2
+			category = mid_battery_14in_x2
+			count < 3
 		}
 		module_count_limit = {
 			category = ship_airplane_launcher
@@ -730,44 +985,83 @@ equipments = {
 			}
 
 			front_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					front_battery_14in_x2
+					front_battery_14in_x3
+					front_battery_14in_x4
+					front_battery_15in_x2
+					front_battery_15in_x3
+					front_battery_15in_x4
+					front_battery_16in_x2
+					front_battery_16in_x3
+					front_battery_18in_x2
+					front_battery_18in_x3
+					battery_add_5Hin
+					battery_add_6in
 				}
 			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					mid_battery_14in_x3
+					mid_battery_14in_x4
+					mid_battery_15in_x2
+					mid_battery_15in_x3
+					mid_battery_16in_x2
+					mid_battery_16in_x3
+					mid_battery_18in_x2
 					battery_add_5Hin
 					battery_add_6in
-					ship_extra_fuel_tank
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					mid_battery_14in_x2
+					battery_add_5Hin
+					battery_add_6in
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
+				}
+			}
+			mid_3_custom_slot = mid_2_custom_slot
 
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_15in_x2
+					rear_battery_16in_x2
+					rear_battery_18in_x2
+					battery_add_5Hin
+					battery_add_6in
 					battery_secondaries_4in
 					battery_secondaries_5in
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_14in_x4
+					rear_battery_15in_x2
+					rear_battery_15in_x3
+					rear_battery_15in_x4
+					rear_battery_16in_x2
+					rear_battery_16in_x3
+					rear_battery_18in_x2
+					rear_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -775,15 +1069,14 @@ equipments = {
 					battery_add_5in
 					ship_airplane_launcher
 					ship_torpedo
-					ship_extra_fuel_tank
 				}
 			}
 
 		}
 		
 		module_count_limit = {
-			category = ship_radar
-			count < 2
+			category = mid_battery_14in_x2
+			count < 3
 		}
 		module_count_limit = {
 			category = ship_airplane_launcher
@@ -854,44 +1147,83 @@ equipments = {
 			}
 
 			front_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					front_battery_14in_x2
+					front_battery_14in_x3
+					front_battery_14in_x4
+					front_battery_15in_x2
+					front_battery_15in_x3
+					front_battery_15in_x4
+					front_battery_16in_x2
+					front_battery_16in_x3
+					front_battery_18in_x2
+					front_battery_18in_x3
+					battery_add_5Hin
+					battery_add_6in
 				}
 			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
-					battery_secondaries_4in
-					battery_secondaries_5in
+					mid_battery_14in_x3
+					mid_battery_14in_x4
+					mid_battery_15in_x2
+					mid_battery_15in_x3
+					mid_battery_16in_x2
+					mid_battery_16in_x3
+					mid_battery_18in_x2
 					battery_add_5Hin
 					battery_add_6in
-					ship_extra_fuel_tank
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					mid_battery_14in_x2
+					battery_add_5Hin
+					battery_add_6in
+					battery_secondaries_4in
+					battery_secondaries_5in
+					ship_airplane_launcher
+				}
+			}
+			mid_3_custom_slot = mid_2_custom_slot
 
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_14in
-					battery_add_15in
-					battery_add_16in
-					battery_add_18in
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_15in_x2
+					rear_battery_16in_x2
+					rear_battery_18in_x2
+					battery_add_5Hin
+					battery_add_6in
 					battery_secondaries_4in
 					battery_secondaries_5in
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					rear_battery_14in_x2
+					rear_battery_14in_x3
+					rear_battery_14in_x4
+					rear_battery_15in_x2
+					rear_battery_15in_x3
+					rear_battery_15in_x4
+					rear_battery_16in_x2
+					rear_battery_16in_x3
+					rear_battery_18in_x2
+					rear_battery_18in_x3
 					battery_add_5Hin
 					battery_add_6in
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -899,15 +1231,14 @@ equipments = {
 					battery_add_5in
 					ship_airplane_launcher
 					ship_torpedo
-					ship_extra_fuel_tank
 				}
 			}
 
 		}
 		
 		module_count_limit = {
-			category = ship_radar
-			count < 2
+			category = mid_battery_14in_x2
+			count < 3
 		}
 		module_count_limit = {
 			category = ship_airplane_launcher

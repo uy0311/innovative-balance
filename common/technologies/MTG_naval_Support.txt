@@ -13,6 +13,10 @@ technologies = {
 
 		start_year = 1922
 
+		on_research_complete = {
+			custom_effect_tooltip = ib_twingun_tt
+		}
+
 		path = {
 			leads_to_tech = light_battery_4in_x1
 			research_cost_coeff = 1
@@ -39,7 +43,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = twin_gun_battery
+			leads_to_tech = triple_gun_battery
 			research_cost_coeff = 1
 		}
 
@@ -62,7 +66,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 1 }
+			position = { x = -1 y = 1 }
 		}
 
 		categories = {
@@ -106,7 +110,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -20 y = 5 }
+			position = { x = -21 y = 5 }
 		}
 
 		categories = {
@@ -125,10 +129,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_base_battery_4in_x2
 			ship_add_battery_4in_x2
-		}
-
-		dependencies = {
-			twin_gun_battery = 1
+			ship_add_secondaries_4in_x2x3
 		}
 
 		on_research_complete = {
@@ -137,7 +138,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -20 y = 7 }
+			position = { x = -21 y = 7 }
 		}
 
 		categories = {
@@ -168,7 +169,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -18 y = 10 }
+			position = { x = -19 y = 10 }
 		}
 
 		categories = {
@@ -191,7 +192,6 @@ technologies = {
 		}
 
 		dependencies = {
-			twin_gun_battery = 1
 			ib_shell_tech2 = 1
 		}
 
@@ -201,7 +201,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -16 y = 13 }
+			position = { x = -17 y = 13 }
 		}
 
 		categories = {
@@ -243,7 +243,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -14 y = 7 }
+			position = { x = -15 y = 7 }
 		}
 
 		categories = {
@@ -262,10 +262,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_base_battery_5in_x2
 			ship_add_battery_5in_x2
-		}
-
-		dependencies = {
-			twin_gun_battery = 1
+			ship_add_secondaries_5in_x2x3
 		}
 
 		on_research_complete = {
@@ -274,7 +271,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -14 y = 10 }
+			position = { x = -15 y = 10 }
 		}
 
 		categories = {
@@ -305,7 +302,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -12 y = 13 }
+			position = { x = -13 y = 13 }
 		}
 
 		categories = {
@@ -328,7 +325,6 @@ technologies = {
 		}
 
 		dependencies = {
-			twin_gun_battery = 1
 			ib_shell_tech2 = 1
 		}
 
@@ -338,7 +334,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -10 y = 16 }
+			position = { x = -11 y = 16 }
 		}
 
 		categories = {
@@ -376,7 +372,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -8 y = 5 }
+			position = { x = -9 y = 5 }
 		}
 
 		categories = {
@@ -397,10 +393,6 @@ technologies = {
 			ship_add_battery_5Hin_x2
 		}
 
-		dependencies = {
-			twin_gun_battery = 1
-		}
-
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
@@ -408,7 +400,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -8 y = 9 }
+			position = { x = -9 y = 9 }
 		}
 
 		categories = {
@@ -445,7 +437,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 7 }
+			position = { x = -7 y = 7 }
 		}
 
 		categories = {
@@ -466,17 +458,13 @@ technologies = {
 			ship_add_battery_6in_x2
 		}
 
-		dependencies = {
-			twin_gun_battery = 1
-		}
-
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 11 }
+			position = { x = -7 y = 11 }
 		}
 
 		categories = {
@@ -507,7 +495,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -4 y = 13 }
+			position = { x = -5 y = 13 }
 		}
 
 
@@ -526,11 +514,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_8in_x2
-			ship_add_battery_8in_x2
-		}
-
-		dependencies = {
-			twin_gun_battery = 1
+			ship_front_battery_8in_x2
+			ship_mid_battery_8in_x2
+			ship_rear_battery_8in_x2
 		}
 
 		on_research_complete = {
@@ -544,7 +530,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -2 y = 9 }
+			position = { x = -3 y = 9 }
 		}
 
 		categories = {
@@ -562,7 +548,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_8in_x3
-			ship_add_battery_8in_x3
+			ship_front_battery_8in_x3
+			ship_mid_battery_8in_x3
+			ship_rear_battery_8in_x3
 		}
 
 		dependencies = {
@@ -575,7 +563,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -2 y = 15 }
+			position = { x = -3 y = 15 }
 		}
 
 		categories = {
@@ -593,15 +581,18 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_14in_x2
-			ship_add_battery_14in_x2
-		}
-
-		dependencies = {
-			twin_gun_battery = 1
+			ship_front_battery_14in_x2
+			ship_mid_battery_14in_x2
+			ship_rear_battery_14in_x2
 		}
 
 		path = {
 			leads_to_tech = heavy_battery_14in_x3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = heavy_battery_14in_x4
 			research_cost_coeff = 1
 		}
 
@@ -621,7 +612,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 1 y = 5 }
+			position = { x = 2 y = 5 }
 		}
 
 		categories = {
@@ -639,7 +630,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_14in_x3
-			ship_add_battery_14in_x3
+			ship_front_battery_14in_x3
+			ship_mid_battery_14in_x3
+			ship_rear_battery_14in_x3
 		}
 
 		dependencies = {
@@ -652,7 +645,40 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 1 y = 9 }
+			position = { x = 3 y = 9 }
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_heavy_battery
+		}
+	}
+
+	heavy_battery_14in_x4 = {
+
+		research_cost = 1
+
+		start_year = 1940
+
+		enable_equipment_modules = {
+			ship_base_battery_14in_x4
+			ship_front_battery_14in_x4
+			ship_mid_battery_14in_x4
+			ship_rear_battery_14in_x4
+		}
+
+		dependencies = {
+			quadruple_gun_battery = 1
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = heavy_battery_advice_tt
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 13 }
 		}
 
 		categories = {
@@ -670,15 +696,18 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_15in_x2
-			ship_add_battery_15in_x2
-		}
-
-		dependencies = {
-			twin_gun_battery = 1
+			ship_front_battery_15in_x2
+			ship_mid_battery_15in_x2
+			ship_rear_battery_15in_x2
 		}
 
 		path = {
 			leads_to_tech = heavy_battery_15in_x3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = heavy_battery_15in_x4
 			research_cost_coeff = 1
 		}
 
@@ -688,7 +717,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 7 }
+			position = { x = 6 y = 7 }
 		}
 
 		categories = {
@@ -706,7 +735,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_15in_x3
-			ship_add_battery_15in_x3
+			ship_front_battery_15in_x3
+			ship_mid_battery_15in_x3
+			ship_rear_battery_15in_x3
 		}
 
 		dependencies = {
@@ -719,7 +750,40 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 11 }
+			position = { x = 7 y = 11 }
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_heavy_battery
+		}
+	}
+
+	heavy_battery_15in_x4 = {
+
+		research_cost = 1
+
+		start_year = 1941
+
+		enable_equipment_modules = {
+			ship_base_battery_15in_x4
+			ship_front_battery_15in_x4
+			ship_mid_battery_15in_x4
+			ship_rear_battery_15in_x4
+		}
+
+		dependencies = {
+			quadruple_gun_battery = 1
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = heavy_battery_advice_tt
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 5 y = 15 }
 		}
 
 		categories = {
@@ -737,11 +801,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_16in_x2
-			ship_add_battery_16in_x2
-		}
-
-		dependencies = {
-			twin_gun_battery = 1
+			ship_front_battery_16in_x2
+			ship_mid_battery_16in_x2
+			ship_rear_battery_16in_x2
 		}
 
 		path = {
@@ -760,7 +822,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 5 y = 9 }
+			position = { x = 9 y = 9 }
 		}
 
 		categories = {
@@ -778,7 +840,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_16in_x3
-			ship_add_battery_16in_x3
+			ship_front_battery_16in_x3
+			ship_mid_battery_16in_x3
+			ship_rear_battery_16in_x3
 		}
 
 		dependencies = {
@@ -791,7 +855,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 5 y = 13 }
+			position = { x = 9 y = 13 }
 		}
 
 		categories = {
@@ -809,7 +873,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_18in_x2
-			ship_add_battery_18in_x2
+			ship_front_battery_18in_x2
+			ship_mid_battery_18in_x2
+			ship_rear_battery_18in_x2
 		}
 
 		on_research_complete = {
@@ -821,13 +887,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		dependencies = {
-			twin_gun_battery = 1
-		}
-
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 7 y = 11 }
+			position = { x = 11 y = 11 }
 		}
 
 		categories = {
@@ -845,7 +907,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_base_battery_18in_x3
-			ship_add_battery_18in_x3
+			ship_front_battery_18in_x3
+			ship_mid_battery_18in_x3
+			ship_rear_battery_18in_x3
 		}
 
 		dependencies = {
@@ -858,7 +922,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 7 y = 15 }
+			position = { x = 11 y = 15 }
 		}
 
 		categories = {
@@ -868,24 +932,24 @@ technologies = {
 		}
 	}
 
-	twin_gun_battery = {
+	triple_gun_battery = {
 
-		research_cost = 2.0
+		research_cost = 3.0
 
-		start_year = 1934
+		start_year = 1936
 
 		on_research_complete = {
-			custom_effect_tooltip = ib_twingun_tt
+			custom_effect_tooltip = ib_triplegun_tt
 		}
 
 		path = {
-			leads_to_tech = triple_gun_battery
+			leads_to_tech = quadruple_gun_battery
 			research_cost_coeff = 1
 		}
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 10 y = 5 }
+			position = { x = -1 y = 7 }
 		}
 
 		categories = {
@@ -894,19 +958,19 @@ technologies = {
 		}
 	}
 
-	triple_gun_battery = {
+	quadruple_gun_battery = {
 
 		research_cost = 3.0
 
-		start_year = 1937
+		start_year = 1939
 
 		on_research_complete = {
-			custom_effect_tooltip = ib_triplegun_tt
+			custom_effect_tooltip = ib_quadruplegun_tt
 		}
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 10 y = 9 }
+			position = { x = -1 y = 11 }
 		}
 
 		categories = {
@@ -941,7 +1005,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 12 y = 7 }
+			position = { x = 13 y = 7 }
 		}
 
 		categories = {
@@ -992,7 +1056,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 12 y = 13 }
+			position = { x = 13 y = 13 }
 		}
 
 		ai_will_do = {
@@ -1046,7 +1110,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 12 y = 19 }
+			position = { x = 13 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1090,7 +1154,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 14 y = 9 }
+			position = { x = 15 y = 9 }
 		}
 
 		ai_will_do = {
@@ -1123,7 +1187,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 14 y = 15 }
+			position = { x = 15 y = 15 }
 		}
 
 		ai_will_do = {
@@ -1161,7 +1225,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 16 y = 11 }
+			position = { x = 17 y = 11 }
 		}
 
 		ai_will_do = {
@@ -1196,7 +1260,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 16 y = 19 }
+			position = { x = 17 y = 19 }
 		}
 
 		ai_will_do = {

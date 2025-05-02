@@ -64,7 +64,8 @@ equipments = {
 					battery_secondaries_5in
 					battery_add_5Hin
 					battery_add_6in
-					battery_add_8in
+					mid_battery_8in_x2
+					mid_battery_8in_x3
 				}
 			}
 			rear_1_custom_slot = {
@@ -190,7 +191,8 @@ equipments = {
 					battery_secondaries_5in
 					battery_add_5Hin
 					battery_add_6in
-					battery_add_8in
+					mid_battery_8in_x2
+					mid_battery_8in_x3
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -261,7 +263,8 @@ equipments = {
 					battery_secondaries_5in
 					battery_add_5Hin
 					battery_add_6in
-					battery_add_8in
+					mid_battery_8in_x2
+					mid_battery_8in_x3
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -349,7 +352,8 @@ equipments = {
 					battery_secondaries_5in
 					battery_add_5Hin
 					battery_add_6in
-					battery_add_8in
+					mid_battery_8in_x2
+					mid_battery_8in_x3
 				}
 			}
 			rear_1_custom_slot = {
@@ -446,7 +450,8 @@ equipments = {
 					battery_secondaries_5in
 					battery_add_5Hin
 					battery_add_6in
-					battery_add_8in
+					mid_battery_8in_x2
+					mid_battery_8in_x3
 				}
 			}
 			rear_1_custom_slot = {
@@ -535,7 +540,8 @@ equipments = {
 					battery_secondaries_5in
 					battery_add_5Hin
 					battery_add_6in
-					battery_add_8in
+					mid_battery_8in_x2
+					mid_battery_8in_x3
 				}
 			}
 			rear_1_custom_slot = {
