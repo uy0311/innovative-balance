@@ -61,7 +61,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_1_custom_slot = {
@@ -70,7 +69,6 @@ equipments = {
 					ship_depth_charge
 					battery_add_4in
 					battery_add_5in
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = {
@@ -187,7 +185,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_1_custom_slot = {
@@ -196,7 +193,6 @@ equipments = {
 					ship_depth_charge
 					battery_add_4in
 					battery_add_5in
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = {
@@ -257,7 +253,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			mid_2_custom_slot = {
@@ -265,7 +260,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_1_custom_slot = {
@@ -274,7 +268,6 @@ equipments = {
 					ship_depth_charge
 					battery_add_4in
 					battery_add_5in
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = {
@@ -338,7 +331,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			mid_2_custom_slot = {
@@ -346,7 +338,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_1_custom_slot = {
@@ -355,7 +346,6 @@ equipments = {
 					ship_depth_charge
 					battery_add_4in
 					battery_add_5in
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = {
