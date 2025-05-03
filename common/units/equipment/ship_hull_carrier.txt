@@ -73,7 +73,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_carrier_armor
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -201,7 +200,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_carrier_armor
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -273,7 +271,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_carrier_armor
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -361,7 +358,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_carrier_armor
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -459,7 +455,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_carrier_armor
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -549,7 +544,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_carrier_armor
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 
@@ -615,7 +609,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_carrier_armor
 					ship_depth_charge
-					ship_extra_fuel_tank
 				}
 			}
 
