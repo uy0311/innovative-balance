@@ -1,0 +1,33 @@
+﻿l_japanese:
+#大運河
+ SUEZ_CANAL: "スエズ運河"
+ PANAMA_CANAL: "パナマ運河"
+ KIEL_CANAL: "キール運河"
+#小運河
+ CALEDONIAN_CANAL: "カレドニア運河"
+ CORINTH_CANAL: "コリントス運河"
+ WHITE_SEA_CANAL: "白海・バルト海運河"
+#大海峡/現代で未架橋
+ GIBRALTAR_STRAIT: "ジブラルタル海峡"
+ TORRES_STRAIT: "トレス海峡"
+ SUNDA_STRAIT: "スンダ海峡"
+ BAB_EL_MANDEB_STRAIT: "バブ・エル・マンデブ海峡"
+ HORMUZ_STRAIT: "ホルムズ海峡"
+ MALACCA_STRAIT: "マラッカ海峡"
+ TARTARY_STRAIT: "間宮海峡"
+ MESSINA_STRAIT: "メッシーナ海峡"
+ MOYLE_STRAIT: "ノース海峡"
+ LA_PEROUSE_STRAIT: "宗谷海峡"
+ TSUGARU_STRAIT: "津軽海峡"
+ MAKASSAR_STRAIT: "マカッサル海峡"
+ BOHAI_STRAIT: "渤海海峡"
+ OTRANTO_STRAIT: "オトラント海峡"
+#小海峡/現代で架橋済
+ ORESUND_STRAIT: "エーレスンド海峡"
+ STOREBALT_STRAIT: "大ベルト海峡"
+ LILLEBALT_STRAIT: "小ベルト海峡"
+ BOSPHORUS_STRAIT: "ボスポラス海峡"
+ DARDANELLES_STRAIT: "ダーダネルス海峡"
+ KANMON_STRAIT: "関門海峡"
+ BUNGO_STRAIT: "豊後水道"
+ KII_STRAIT: "紀伊水道"
