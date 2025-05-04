@@ -113,6 +113,14 @@ equipments = {
 		}
 		
 		module_count_limit = {
+			category = battery_secondaries_4in
+			count < 2
+		}
+		module_count_limit = {
+			category = battery_secondaries_5in
+			count < 2
+		}
+		module_count_limit = {
 			category = battery_add_5Hin
 			count < 5
 		}

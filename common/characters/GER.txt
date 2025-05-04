@@ -1463,7 +1463,7 @@ characters={
 				NOT = { has_country_flag = flight_of_hess }
 			}
 			traits = {
-				silent_workhorse
+				national_integralist
 			}
 		}
 	}
