@@ -358,7 +358,7 @@ equipments = {
 		build_cost_ic = 3.0
 		maximum_speed = 4.5
 		reliability = 0.55
-		armor_value = 20
+		armor_value = 30
 		resources = {
 			steel = 1
 		}
@@ -454,7 +454,7 @@ equipments = {
 		build_cost_ic = 3.5
 		maximum_speed = 5
 		reliability = 0.65
-		armor_value = 30
+		armor_value = 60
 		resources = {
 			steel = 2
 		}
@@ -771,7 +771,7 @@ equipments = {
 		maximum_speed = 4
 		build_cost_ic = 4.5
 		reliability = 0.5
-		armor_value = 40
+		armor_value = 60
 	}
 
 	medium_tank_chassis_2 = {
@@ -866,7 +866,7 @@ equipments = {
 		maximum_speed = 4
 		build_cost_ic = 5.5
 		reliability = 0.65
-		armor_value = 55
+		armor_value = 80
 		resources = {
 			steel = 1
 		}
@@ -965,7 +965,7 @@ equipments = {
 		maximum_speed = 4.0
 		build_cost_ic = 7.0
 		reliability = 0.75
-		armor_value = 80
+		armor_value = 115
 		resources = {
 			steel = 2
 		}
@@ -1324,7 +1324,7 @@ equipments = {
 		maximum_speed = 0.5
 		build_cost_ic = 6.5
 		reliability = 0.5
-		armor_value = 65
+		armor_value = 80
 		hardness = 0.95
 	}
 
@@ -1420,7 +1420,7 @@ equipments = {
 		maximum_speed = 0.8
 		build_cost_ic = 8.0
 		reliability = 0.6
-		armor_value = 105
+		armor_value = 115
 		resources = {
 			steel = 1
 			chromium = 1
@@ -1520,7 +1520,7 @@ equipments = {
 		maximum_speed = 0.8
 		build_cost_ic = 9.0
 		reliability = 0.65
-		armor_value = 130
+		armor_value = 135
 		resources = {
 			steel = 2
 			chromium = 1
@@ -2305,7 +2305,7 @@ equipments = {
 		build_cost_ic = 2.5
 		maximum_speed = 4.5
 		reliability = 0.55
-		armor_value = 5
+		armor_value = 30
 		hardness = 0.50
 		resources = {
 			steel = 1

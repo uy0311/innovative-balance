@@ -29,7 +29,7 @@ equipments = {
 		defense = 20
 		breakthrough = 5
 		hardness = 0.70
-		armor_value = 10
+		armor_value = 20
 
 		#Offensive Abilities
 		soft_attack = 2
@@ -73,7 +73,7 @@ equipments = {
 		defense = 25
 		breakthrough = 6.5
 		hardness = 0.75
-		armor_value = 15
+		armor_value = 30
 
 		#Offensive Abilities
 		soft_attack = 3
@@ -102,7 +102,7 @@ equipments = {
 		defense = 30
 		breakthrough = 8
 		hardness = 0.8
-		armor_value = 20
+		armor_value = 40
 
 		#Offensive Abilities
 		soft_attack = 4
