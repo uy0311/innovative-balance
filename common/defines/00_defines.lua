@@ -360,7 +360,7 @@ NCountry = {
 	STATE_VALUE_BUILDING_SLOTS_MULT = 4.0,          -- The value of each building slot in a state
 	STATE_VALUE_MANPOWER_FACTOR = 0.1,              -- State cost increases with this for every 10k population (so 3.1M becomes 310 and then multiplied by this)
 	INVASION_REPORT_EXPERATION_DAYS = 30,			-- Invasion experation days
-	MIN_FOCUSES_FOR_CONTINUOUS = 20,				-- Focuses needed to unlock continuous focuses
+	MIN_FOCUSES_FOR_CONTINUOUS = 10,				-- Focuses needed to unlock continuous focuses
 	AUTONOMOUS_TOTAL_SCORE = 5000,					-- Total score for autonomous scale
 	AUTONOMOUS_SPILLOVER = 0.025,					-- Total score that can be saved to reach next level
 	CIVIL_WAR_INVOLVEMENT_MIN_TENSION = 0.5,		-- base value of world tension to involve other sides to the civil war
@@ -1442,12 +1442,12 @@ NNavy = {
 	PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.25,			-- % of experience to retain after being transferred in a peace conference
 
 	-- Convoy Priorities START
-	NAVAL_INVASION_PRIORITY = 5,									-- Default convoy priority for naval invasions
-	NAVAL_TRANSFER_PRIORITY = 4,									-- Default convoy priority for naval transports
-	SUPPLY_PRIORITY = 3,											-- Default convoy priority for supplying units via sea
+	NAVAL_INVASION_PRIORITY = 3,									-- Default convoy priority for naval invasions
+	NAVAL_TRANSFER_PRIORITY = 1,									-- Default convoy priority for naval transports
+	SUPPLY_PRIORITY = 2,											-- Default convoy priority for supplying units via sea
 	RESOURCE_LENDLEASE_PRIORITY = 6,								-- Default convoy priority for export lend lease
-	RESOURCE_EXPORT_PRIORITY = 2,									-- Default convoy priority for export trade
-	RESOURCE_ORIGIN_PRIORITY = 1,									-- Default convoy priority for resources shipped internally
+	RESOURCE_EXPORT_PRIORITY = 5,									-- Default convoy priority for export trade
+	RESOURCE_ORIGIN_PRIORITY = 4,									-- Default convoy priority for resources shipped internally
 	RESOURCE_PURCHASE_PRIORITY = 7,									-- Default convoy priority for export equipment purchase
 	UNDERWAY_REPLENISHMENT_PRIORITY = 8,							-- Default convoy priority for underway replenishment
 	-- Convoy Priorities END
@@ -3929,10 +3929,10 @@ NSupply = {
 
 	--defines to calculate the capitals supply. This will be also used for max supply of other nodes depending on how well they are connected to capital. Using the formula:
 	--CapitalSupply = CAPITAL_SUPPLY_BASE + (NumberOfCivilianFactories * CAPITAL_SUPPLY_CIVILIAN_FACTORIES) + (NumberOfMilitaryFactories * CAPITAL_SUPPLY_MILITARY_FACTORIES) + (NumberOfDockyards * CAPITAL_SUPPLY_DOCKYARDS)
-	CAPITAL_SUPPLY_BASE = 100.0, -- base supply for capital
-	CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.1, -- supply from one civilian factory
-	CAPITAL_SUPPLY_MILITARY_FACTORIES = 0.1, -- supply from one military factory
-	CAPITAL_SUPPLY_DOCKYARDS = 0.1, --supply from one naval factory
+	CAPITAL_SUPPLY_BASE = 200.0, -- base supply for capital
+	CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.2, -- supply from one civilian factory
+	CAPITAL_SUPPLY_MILITARY_FACTORIES = 0.2, -- supply from one military factory
+	CAPITAL_SUPPLY_DOCKYARDS = 0.2, --supply from one naval factory
 
 	-- defines that are used for supply reach for capital
 	-- supply flow will start from INITIAL_SUPPLY_FLOW and will be reduced by a penalty on each province it travels (which depends on how far we are from our origin, terrain etc)

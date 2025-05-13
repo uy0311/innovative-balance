@@ -24,12 +24,14 @@
  ib_international_market_free_desc: "国際市場が参入交渉を経て独立国家間で利用できるようになります"
 
 ##継続方針##
- Industrial_development:0 "産業の発展"
- Industrial_development_desc:0 "産業の発展は更なる国力増強に繋がるだろう。"
- doctrine_development:0 "ドクトリンの発達"
- doctrine_development_desc:0 "「兵士よ!突撃の時だ!」 先の大戦ではこのような殺し文句で文字通り兵士が大いに殺された。 人間の良い所は過去の間違いから反省できるところにある。"
+ Industrial_development:0 "技術の共有"
+ Industrial_development_desc:0 "同盟内の技術連携を強めることで戦場での優位がより増すだろう。"
  War_support_boost:0 "戦意高揚のプロパガンダ"
  War_support_boost_desc:0 "我らの未来と自由を守るため、今こそ一丸となるべきである。家族、友人、そして次の世代のために、我が国の正義を貫く戦いに力を貸して欲しい。国民の協力が、この国の明日を築く力となる。"
+ government_of_national_unity:0 "挙国一致体制"
+ government_of_national_unity_desc:0 "戦争による国家の危機に際して、我々はお互いのイデオロギーを超えて、国家の為に団結する。"
+ Emergency_mobilization:0 "緊急動員"
+ Emergency_mobilization_desc:0 "敵の奇襲的軍事行動に対応する為に、国家に緊急動員を布告する。"
 
 ##政治NFツリー##
  nationalism_focus: "全体主義重視"

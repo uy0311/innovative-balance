@@ -473,28 +473,48 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_EMI_ship_light_battery_ib"
-		textureFile = "gfx/IB_turret/module_cat_lb.png"
+		name = "GFX_EMI_ship_4in_battery"
+		textureFile = "gfx/IB_turret/m4inx1.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_ship_light_dp_battery"
-		textureFile = "gfx/IB_turret/module_cat_dp.png"
+		name = "GFX_EMI_ship_5in_battery"
+		textureFile = "gfx/IB_turret/m5inx1.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_ship_medium_battery_cl"
-		textureFile = "gfx/IB_turret/module_cat_cl.png"
+		name = "GFX_EMI_ship_5Hin_battery"
+		textureFile = "gfx/IB_turret/m5Hinx1.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_ship_medium_battery_ib"
-		textureFile = "gfx/IB_turret/module_cat_mb.png"
+		name = "GFX_EMI_ship_6in_battery"
+		textureFile = "gfx/IB_turret/m6inx1.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_ship_heavy_battery_ib"
-		textureFile = "gfx/IB_turret/module_cat_hb.png"
+		name = "GFX_EMI_ship_8in_battery"
+		textureFile = "gfx/IB_turret/m8inx1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_14in_battery"
+		textureFile = "gfx/IB_turret/m14inx1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_15in_battery"
+		textureFile = "gfx/IB_turret/m15inx1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_16in_battery"
+		textureFile = "gfx/IB_turret/m16inx1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_18in_battery"
+		textureFile = "gfx/IB_turret/m18inx1.dds"
 		legacy_lazy_load = no
 	}
 

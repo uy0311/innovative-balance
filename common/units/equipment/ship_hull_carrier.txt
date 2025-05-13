@@ -85,9 +85,9 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_deck_slot_1 = empty
-			fixed_ship_deck_slot_2 = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
@@ -111,7 +111,7 @@ equipments = {
 		surface_detection = 11.25
 		sub_detection = 5
 		surface_visibility = 21
-		naval_speed = 12
+		naval_speed = 16
 		reliability = 0.60
 
 		naval_range = 4500
@@ -150,6 +150,7 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
+			front_1_custom_slot = ship_deck_space
 		}
 	}
 	ship_hull_carrier_2 = {
@@ -208,11 +209,12 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_3
+			front_2_custom_slot = ship_deck_space
 		}
 		naval_range = 6000
 		reliability = 0.70
 		max_strength = 250
-		naval_speed = 12.5
+		naval_speed = 16.5
 		surface_visibility = 21.5
 
 		build_cost_ic = 5750
@@ -279,12 +281,13 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_4
+			front_3_custom_slot = ship_deck_space
 		}
 
 		naval_range = 7500
 		reliability = 0.8
 		max_strength = 300
-		naval_speed = 13
+		naval_speed = 17
 		surface_visibility = 23
 
 		build_cost_ic = 6000
@@ -372,7 +375,7 @@ equipments = {
 		default_modules = {
 			fixed_ship_deck_slot_1 = empty
 			fixed_ship_deck_slot_2 = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
@@ -469,7 +472,7 @@ equipments = {
 		default_modules = {
 			fixed_ship_deck_slot_1 = empty
 			fixed_ship_deck_slot_2 = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
@@ -551,11 +554,12 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
+			front_1_custom_slot = ship_deck_space
 		}
 		naval_range = 6000
 		reliability = 0.50
 		max_strength = 300
-		naval_speed = 11
+		naval_speed = 12.5
 		surface_visibility = 23.5
 
 		build_cost_ic = 6000
@@ -622,7 +626,7 @@ equipments = {
 		max_strength = 100
 		surface_visibility = 14.5
 		reliability = 0.50
-		naval_speed = 13
+		naval_speed = 16.5
 		build_cost_ic = 5250
 		resources = {
 			steel = 3

@@ -10,18 +10,19 @@ continuous_focus_palette = {
 			
 	position = { x = 50 y = 1000 }
 	
-		
 	focus = {
-		id = continuous_naval_production
+		id = continuous_reduce_training_time
 		
-		icon = GFX_goal_continuous_naval_production
+		icon = GFX_goal_continuous_reduce_training_time
 		
 		available = {
 		}
 		
-		idea = idea_continuous_naval_production
+		modifier = {
+			training_time_army_factor = -0.30
+		}
 		
-		supports_ai_strategy = ai_focus_naval
+		supports_ai_strategy = ai_focus_defense
 		
 		daily_cost = 1
 		
@@ -29,22 +30,24 @@ continuous_focus_palette = {
 	}
 
 	focus = {
-		id = continuous_air_production
+		id = Emergency_mobilization
 		
-		icon = GFX_goal_continuous_air_production
+		icon = GFX_goal_continuous_def_against_influence
 		
 		available = {
 		}
-		
-		idea = idea_continuous_air_production
 
-		supports_ai_strategy = ai_focus_aviation
+		modifier = {
+			mobilization_speed = 2.00
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
 		
 		daily_cost = 1
 		
 		available_if_capitulated = yes
 	}
-	
+
 	focus = {
 		id = continuous_non_factory_construct
 		
@@ -97,25 +100,6 @@ continuous_focus_palette = {
 	}
 
 	focus = {
-		id = continuous_reduce_training_time
-		
-		icon = GFX_goal_continuous_reduce_training_time
-		
-		available = {
-		}
-		
-		modifier = {
-			training_time_army_factor = -0.30
-		}
-		
-		supports_ai_strategy = ai_focus_defense
-		
-		daily_cost = 1
-		
-		available_if_capitulated = yes
-	}
-
-	focus = {
 		id = continuous_suppression
 		
 		icon = GFX_goal_continuous_suppression
@@ -137,7 +121,7 @@ continuous_focus_palette = {
 	focus = {
 		id = War_support_boost
 		
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_TUR_ratify_the_six_arrows
 		
 		available = {
 		}
@@ -154,16 +138,40 @@ continuous_focus_palette = {
 		
 		available_if_capitulated = yes
 	}
-	
+
+	focus = {
+		id = government_of_national_unity
+		
+		icon = GFX_goal_continuous_increase_nu
+		
+		available = {
+		}
+				
+		modifier = {
+			political_power_gain = 1.0
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 0
+		
+		available_if_capitulated = yes
+	}
+
 	focus = {
 		id = Industrial_development
 		
 		icon = GFX_goal_continuous_research
 		
-		available = {		
+		available = {
+		}
+		enable = {
+			NOT = { has_idea = technology_sharing_idea }
 		}
 		
-		idea = Industrial_research_idea
+		modifier = {
+			research_sharing_per_country_bonus_factor = 2.0
+		}
 		
 		supports_ai_strategy = ai_focus_military_advancements
 		
@@ -171,5 +179,5 @@ continuous_focus_palette = {
 		
 		available_if_capitulated = yes
 	}
-
+	
 }
