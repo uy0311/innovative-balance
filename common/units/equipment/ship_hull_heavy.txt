@@ -127,8 +127,10 @@ equipments = {
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_airplane_launcher
 					ship_torpedo
 				}
@@ -147,7 +149,7 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_battery_slot = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
@@ -172,7 +174,7 @@ equipments = {
 		surface_detection = 18
 		sub_detection = 1
 		surface_visibility = 20
-		naval_speed = 11
+		naval_speed = 12.5
 		reliability = 0.80
 		
 		naval_range = 4500
@@ -314,8 +316,10 @@ equipments = {
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_airplane_launcher
 					ship_torpedo
 				}
@@ -325,7 +329,7 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_battery_slot = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
@@ -461,8 +465,10 @@ equipments = {
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_airplane_launcher
 					ship_torpedo
 				}
@@ -479,7 +485,7 @@ equipments = {
 		reliability = 0.85
 		surface_visibility = 21
 		fuel_consumption = 67
-		naval_speed = 11.5
+		naval_speed = 13.0
 		build_cost_ic = 5400
 		resources = {
 			#oil = 1
@@ -608,8 +614,10 @@ equipments = {
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_airplane_launcher
 					ship_torpedo
 				}
@@ -621,7 +629,7 @@ equipments = {
 			fixed_ship_engine_slot = heavy_ship_engine_3
 		}
 		naval_range = 6000
-		naval_speed = 12
+		naval_speed = 13.5
 		max_strength = 400
 		surface_visibility = 23
 		reliability = 0.9
@@ -755,8 +763,10 @@ equipments = {
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_airplane_launcher
 					ship_torpedo
 				}
@@ -770,7 +780,7 @@ equipments = {
 		naval_range = 6750
 		
 		max_strength = 450
-		naval_speed = 12.5
+		naval_speed = 14.0
 		fuel_consumption = 67
 		reliability = 0.95
 		surface_visibility = 24
@@ -904,8 +914,10 @@ equipments = {
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_airplane_launcher
 					ship_torpedo
 				}
@@ -924,7 +936,7 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_battery_slot = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
@@ -1065,8 +1077,10 @@ equipments = {
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_airplane_launcher
 					ship_torpedo
 				}
@@ -1085,7 +1099,7 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_battery_slot = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
@@ -1227,8 +1241,10 @@ equipments = {
 			rear_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_airplane_launcher
 					ship_torpedo
 				}
@@ -1247,7 +1263,7 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_battery_slot = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1

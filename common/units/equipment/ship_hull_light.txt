@@ -38,21 +38,22 @@ equipments = {
 				required = yes
 				allowed_module_categories = { light_ship_engine }
 			}
-			fixed_ship_sonar_slot = {
-				required = no
-				allowed_module_categories = { ship_sonar }
-			}
 			fixed_ship_torpedo_slot = {
+				required = no
+				allowed_module_categories = { ship_torpedo }
+			}
+			fixed_ship_sonar_slot = {
 				required = yes
-				allowed_module_categories = { ship_torpedo ship_depth_charge }
+				allowed_module_categories = { ship_sonar }
 			}
 
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_torpedo
 				}
 			}
@@ -63,43 +64,38 @@ equipments = {
 					ship_depth_charge
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 				}
 			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
-				}
-			}
-			rear_3_custom_slot = rear_2_custom_slot
+			rear_2_custom_slot = rear_1_custom_slot
 		}
 		
 		module_count_limit = {
-			category = ship_radar
-			count < 2
+			category = battery_add_4in_x2
+			count < 4
 		}
 		
 		module_count_limit = {
-			category = ship_sonar
-			count < 2
+			category = battery_add_5in_x2
+			count < 4
 		}
 		
 		default_modules = {
 			fixed_ship_battery_slot = empty
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_sonar_slot = empty
 			fixed_ship_torpedo_slot = empty
+			fixed_ship_sonar_slot = ship_sonar_1
 		}
 		
 		lg_armor_piercing = 1
@@ -119,7 +115,7 @@ equipments = {
 		surface_detection = 9.0
 		sub_detection = 1
 		surface_visibility = 10
-		naval_speed = 23
+		naval_speed = 32
 		reliability = 0.80
 		
 		naval_range = 2250
@@ -168,15 +164,16 @@ equipments = {
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_sonar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
+			fixed_ship_sonar_slot = inherit
 
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_torpedo
 				}
 			}
@@ -187,30 +184,25 @@ equipments = {
 					ship_depth_charge
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 				}
 			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
-				}
-			}
-			rear_3_custom_slot = rear_2_custom_slot
+			rear_2_custom_slot = rear_1_custom_slot
 		}
 
 		default_modules = {
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
 
-		naval_speed = 24
+		naval_speed = 36
 		reliability = 0.85
 		naval_range = 2700
 		max_strength = 40
@@ -236,15 +228,16 @@ equipments = {
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_sonar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
+			fixed_ship_sonar_slot = inherit
 
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_torpedo
 				}
 			}
@@ -255,27 +248,21 @@ equipments = {
 					ship_depth_charge
 				}
 			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_depth_charge
-				}
-			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
 				}
 			}
 			rear_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 				}
 			}
 			rear_3_custom_slot = rear_2_custom_slot
@@ -290,7 +277,7 @@ equipments = {
 			steel = 3
 		}
 
-		naval_speed = 25
+		naval_speed = 37
 		reliability = 0.90
 		naval_range = 3000
 		max_strength = 50
@@ -314,15 +301,16 @@ equipments = {
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_sonar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
+			fixed_ship_sonar_slot = inherit
 
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 					ship_torpedo
 				}
 			}
@@ -333,27 +321,21 @@ equipments = {
 					ship_depth_charge
 				}
 			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_depth_charge
-				}
-			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
 				}
 			}
 			rear_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_depth_charge
-					battery_add_4in
-					battery_add_5in
+					battery_add_4in_x1
+					battery_add_4in_x2
+					battery_add_5in_x1
+					battery_add_5in_x2
 				}
 			}
 			rear_3_custom_slot = rear_2_custom_slot
@@ -363,7 +345,7 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_4
 		}
 
-		naval_speed = 26
+		naval_speed = 38
 		reliability = 0.92
 		naval_range = 3750
 		max_strength = 60
