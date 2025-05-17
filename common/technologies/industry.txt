@@ -1534,9 +1534,7 @@ technologies = {
 	construction1 = {
 		
 		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
-		#production_speed_anti_air_building_factor = 0.2
-		#global_building_slots_factor = 0.2
+		industry_free_repair_factor = 0.2
 
 		path = {
 			leads_to_tech = construction2
@@ -1623,9 +1621,8 @@ technologies = {
 	construction2 = {
 
 		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
-		#production_speed_anti_air_building_factor = 0.2	
-		#global_building_slots_factor = 0.2
+		industry_free_repair_factor = 0.2
+
 		path = {
 			leads_to_tech = construction3 
 			research_cost_coeff = 1
@@ -1713,9 +1710,7 @@ technologies = {
 	construction3 = {
 
 		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
-		#production_speed_anti_air_building_factor = 0.2
-		#global_building_slots_factor = 0.2
+		industry_free_repair_factor = 0.2
 		
 		path = {
 			leads_to_tech = construction4 
@@ -1815,9 +1810,7 @@ technologies = {
 	construction4 = {
 
 		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
-		#production_speed_anti_air_building_factor = 0.2
-		#global_building_slots_factor = 0.2
+		industry_free_repair_factor = 0.2
 		
 		path = {
 			leads_to_tech = construction5 
@@ -1906,9 +1899,7 @@ technologies = {
 	construction5 = {
 
 		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
-		#production_speed_anti_air_building_factor = 0.2
-		#global_building_slots_factor = 0.2
+		industry_free_repair_factor = 0.2
 
 		path = {
 			leads_to_tech = construction6 
@@ -1941,9 +1932,7 @@ technologies = {
 	construction6 = {
 
 		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
-		#production_speed_anti_air_building_factor = 0.2
-		#global_building_slots_factor = 0.2
+		industry_free_repair_factor = 0.2
 
 		research_cost = 2
 		start_year = 1945

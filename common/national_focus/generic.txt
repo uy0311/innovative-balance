@@ -364,84 +364,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = construction_effort
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = industrial_effort }
-		x = 12
-		y = 1
-		cost = 10
-
-		
-		ai_will_do = {
-			factor = 2
-		}
-
-		completion_reward = {
-			add_ideas = ib_workers_culture_1
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = production_effort
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = industrial_effort }
-		x = 14
-		y = 1
-		cost = 10
-
-		ai_will_do = {
-			factor = 2			
-		}
-
-		completion_reward = {
-			add_ideas = ib_wartime_industry_focus_1
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = construction_effort_2
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = construction_effort }
-		x = 12
-		y = 3
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		completion_reward = {
-			add_ideas = ib_workers_culture_2
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = production_effort_2
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = production_effort }
-		x = 14
-		y = 3
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		completion_reward = {
-			add_ideas = ib_wartime_industry_focus_2
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
 		id = infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = industrial_effort }
-		x = 13
-		y = 2
+		x = 12
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -456,28 +383,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = wartime_industry_focus
-		icon = GFX_focus_generic_combined_arms
-		prerequisite = { focus = production_effort_2 focus =infrastructure_effort_2 }
-		x = 14
-		y = 5
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}	
-		completion_reward = {
-			add_ideas = ib_wartime_industry_focus_3
-		}
-		available_if_capitulated = yes
-	}
-
-	focus = {
 		id = infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = infrastructure_effort }
-		x = 13
-		y = 4
+		prerequisite = { focus = industrial_effort }
+		x = 14
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -492,9 +402,82 @@ focus_tree = {
 	}
 
 	focus = {
+		id = construction_effort
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = infrastructure_effort }
+		x = 12
+		y = 3
+		cost = 10
+
+		
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = ib_workers_culture_1
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = construction_effort_2
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = infrastructure_effort_2 }
+		x = 14
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = ib_workers_culture_2
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = production_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = industrial_effort }
+		x = 13
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 2			
+		}
+
+		completion_reward = {
+			add_ideas = ib_wartime_industry_focus_1
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = production_effort_2
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = production_effort focus = capital_ship_effort focus = screen_ship_effort }
+		x = 13
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = ib_wartime_industry_focus_2
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
 		id = construction_effort_3
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = infrastructure_effort_2 focus = capital_ship_effort focus = screen_ship_effort }
+		prerequisite = { focus = production_effort_2 focus = capital_ship_effort focus = screen_ship_effort }
 		x = 12
 		y = 5
 		cost = 10
@@ -511,22 +494,18 @@ focus_tree = {
 	}
 
 	focus = {
-		id = nuclear_effort
-		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = extra_tech_slot focus = wartime_industry_focus }
+		id = wartime_industry_focus
+		icon = GFX_focus_generic_combined_arms
+		prerequisite = { focus = production_effort_2 focus = capital_ship_effort focus = screen_ship_effort }
 		x = 14
-		y = 7
+		y = 5
 		cost = 10
-		completion_reward = {
-			add_ideas = nukes_research_bonus
-		}
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
+			factor = 2
+		}	
+		completion_reward = {
+			add_ideas = ib_wartime_industry_focus_3
 		}
 		available_if_capitulated = yes
 	}
@@ -534,7 +513,7 @@ focus_tree = {
 	focus = {
 		id = extra_tech_slot
 		icon = GFX_focus_research
-		prerequisite = { focus = infrastructure_effort_2 focus = construction_effort_3 focus = wartime_industry_focus }
+		prerequisite = { focus = production_effort_2 focus = construction_effort_3 focus = wartime_industry_focus }
 		x = 13
 		y = 6
 		cost = 10
@@ -567,6 +546,27 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_ideas = electronics_research_bonus
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = nuclear_effort
+		icon = GFX_focus_wonderweapons
+		prerequisite = { focus = extra_tech_slot focus = wartime_industry_focus }
+		x = 14
+		y = 7
+		cost = 10
+		completion_reward = {
+			add_ideas = nukes_research_bonus
 		}
 
 		ai_will_do = {
