@@ -437,7 +437,7 @@ ideas = {
 			modifier = {
 				research_speed_factor = 0.10
 				trade_laws_cost_factor = -1.0
-				production_speed_dockyard_factor = 0.10
+				production_cost_dockyard_factor = -0.05
 				trade_opinion_factor = 20
 			}
 		}
