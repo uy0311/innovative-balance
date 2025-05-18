@@ -597,6 +597,12 @@
  EQ_MOD_CAT_tac_weapon_TITLE:0"爆弾槽"
  EQ_MOD_CAT_nav_bomber_weapon_TITLE:0"対艦兵装"
 
+ EQ_MOD_CAT_nose_machine_gun_TITLE:0"機首機関銃"
+ EQ_MOD_CAT_nose_air_cannon_TITLE:0"機首機関砲"
+ EQ_MOD_CAT_wing_machine_gun_TITLE:0"主翼機関銃"
+ EQ_MOD_CAT_wing_air_cannon_TITLE:0"主翼機関砲"
+ EQ_MOD_CAT_body_air_cannon_TITLE:0"胴体機関砲"
+
  concept_fighter:0"戦闘機"
  concept_fighter_desc:0"この航空機機体は 戦闘機 として設計開発される"
  concept_interception:0"迎撃機"
@@ -621,8 +627,10 @@
  heavy_mg_4x:0"12.7mm重機関銃 ×4"
  aircraft_cannon_1_1x:0"20mm機関砲 I ×1"
  aircraft_cannon_1_2x:0"20mm機関砲 I ×2"
+ aircraft_cannon_1_2x_body:0"20mm機関砲 I ×2"
  aircraft_cannon_2_1x:0"20mm機関砲 Ⅱ ×1"
  aircraft_cannon_2_2x:0"20mm機関砲 Ⅱ ×2"
+ aircraft_cannon_2_2x_body:0"20mm機関砲 Ⅱ ×2"
  large_aircraft_cannon_1x:0"30mm機関砲 ×1"
  large_aircraft_cannon_2x:0"30mm機関砲 ×2"
  bomb_locks:0"200kg 吊り爆弾"
