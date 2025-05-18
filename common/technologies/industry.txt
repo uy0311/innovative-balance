@@ -9,7 +9,8 @@ technologies = {
 #			leads_to_tech = improved_machine_tools 
 #			research_cost_coeff = 1
 #		}
-		
+		air_cas_present_factor = -1.00
+
 		path = {
 			leads_to_tech = concentrated_industry 
 			research_cost_coeff = 1

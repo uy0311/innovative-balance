@@ -3984,17 +3984,17 @@ technologies = {
 		supply_consumption_factor = -0.05
 
 		light_armor = {
-			combat_width = -0.33
+			combat_width = -0.25
 			max_organisation = 15
 			default_morale = 0.25
 		}
 		medium_armor = {
-			combat_width = -0.33
+			combat_width = -0.25
 			max_organisation = 15
 			default_morale = 0.25
 		}
 		modern_armor = {
-			combat_width = -0.33
+			combat_width = -0.25
 			max_organisation = 15
 			default_morale = 0.25
 		}
