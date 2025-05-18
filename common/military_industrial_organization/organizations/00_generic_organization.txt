@@ -833,7 +833,7 @@ generic_light_aircraft_organization = {
 		name = generic_mio_initial_trait_light_aircraft_designer
 
 		equipment_bonus = {
-			air_agility = 0.15
+			air_agility = 0.10
 			maximum_speed = 0.10
 		}
 	}
