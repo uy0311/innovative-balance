@@ -6153,7 +6153,7 @@ leader_traits = {
 		sprite = 5
 		#experience_gain_army_factor = 0.05
 		experience_gain_army = 0.24
-		experience_gain_factor = 0.7
+		experience_gain_factor = 0.5
 
 		
 
