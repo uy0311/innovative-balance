@@ -499,7 +499,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			breakthrough = -0.1
-			armor_value = 0.25
+			armor_value = 0.15
 		}
 
 	}
@@ -530,7 +530,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			breakthrough = -0.1
-			armor_value = 0.25
+			armor_value = 0.15
 		}
 
 	}
@@ -665,7 +665,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			breakthrough = -0.1
-			armor_value = 0.25
+			armor_value = 0.15
 		}
 
 	}
@@ -695,7 +695,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			breakthrough = -0.1
-			armor_value = 0.25
+			armor_value = 0.15
 		}
 
 	}
@@ -724,7 +724,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			breakthrough = -0.1
-			armor_value = 0.25
+			armor_value = 0.15
 		}
 
 	}
@@ -835,7 +835,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			breakthrough = -0.1
-			armor_value = 0.25
+			armor_value = 0.15
 		}
 
 	}
@@ -864,7 +864,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			breakthrough = -0.1
-			armor_value = 0.25
+			armor_value = 0.15
 		}
 
 	}

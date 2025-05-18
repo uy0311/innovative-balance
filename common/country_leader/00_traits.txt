@@ -5991,7 +5991,7 @@ leader_traits = {
 	army_chief_defensive_1 = { # +5 Defensive efficiency
 		sprite = 9
 		army_defence_factor = 0.05
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6007,7 +6007,7 @@ leader_traits = {
 	army_chief_defensive_2 = { # +10 Defensive efficiency
 		sprite = 9
 		army_defence_factor = 0.1
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6023,7 +6023,7 @@ leader_traits = {
 	army_chief_defensive_3 = { # +15 Defensive efficiency
 		sprite = 9
 		army_defence_factor = 0.15
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6040,7 +6040,7 @@ leader_traits = {
 	army_chief_offensive_1 = { # +5 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.05
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6056,7 +6056,7 @@ leader_traits = {
 	army_chief_offensive_2 = { # +10 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.1
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6072,7 +6072,7 @@ leader_traits = {
 	army_chief_offensive_3 = { # +15 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.15
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6103,7 +6103,7 @@ leader_traits = {
 	army_chief_drill_1 = { # Decreases training time for ground units
 		sprite = 5
 		training_time_army_factor = -0.05
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6119,7 +6119,7 @@ leader_traits = {
 	army_chief_drill_2 = { # Decreases training time for ground units
 		sprite = 5
 		training_time_army_factor = -0.1
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6135,7 +6135,7 @@ leader_traits = {
 	army_chief_drill_3 = { # Decreases training time for ground units
 		sprite = 5
 		training_time_army_factor = -0.15
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6152,8 +6152,8 @@ leader_traits = {
 	army_chief_reform_1 = {
 		sprite = 5
 		#experience_gain_army_factor = 0.05
-		experience_gain_army = 0.25
-		experience_gain_army_unit_factor = 0.50
+		experience_gain_army = 0.24
+		experience_gain_factor = 0.5
 
 		
 
@@ -6169,8 +6169,8 @@ leader_traits = {
 	army_chief_reform_2 = {
 		sprite = 5
 		#experience_gain_army_factor = 0.1
-		experience_gain_army = 0.25
-		experience_gain_army_unit_factor = 0.7
+		experience_gain_army = 0.24
+		experience_gain_factor = 0.7
 		
 		
 
@@ -6186,8 +6186,8 @@ leader_traits = {
 	army_chief_reform_3 = {
 		sprite = 5
 		#experience_gain_army_factor = 0.15
-		experience_gain_army = 0.25
-		experience_gain_army_unit_factor = 0.9
+		experience_gain_army = 0.24
+		experience_gain_factor = 0.9
 
 		
 
@@ -6204,7 +6204,7 @@ leader_traits = {
 	army_chief_organizational_1 = { # Ground units get 4 more Organization
 		sprite = 5
 		army_org_factor = 0.04
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6220,7 +6220,7 @@ leader_traits = {
 	army_chief_organizational_2 = { # Ground units get 8 more Organization
 		sprite = 5
 		army_org_factor = 0.08
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6236,7 +6236,7 @@ leader_traits = {
 	army_chief_organizational_3 = { # Ground units get 12 more Organization
 		sprite = 5
 		army_org_factor = 0.12
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6252,7 +6252,7 @@ leader_traits = {
 	army_chief_planning_1 = { #
 		sprite = 5
 		planning_speed = 0.05
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6268,7 +6268,7 @@ leader_traits = {
 	army_chief_planning_2 = { #
 		sprite = 5
 		planning_speed = 0.10
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6284,7 +6284,7 @@ leader_traits = {
 	army_chief_planning_3 = { #
 		sprite = 5
 		planning_speed = 0.15
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6300,7 +6300,7 @@ leader_traits = {
 	army_chief_morale_1 = { # Ground units get 4 more Morale
 		sprite = 5
 		army_morale_factor = 0.04
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6316,7 +6316,7 @@ leader_traits = {
 	army_chief_morale_2 = { # Ground units get 8 more Morale
 		sprite = 5
 		army_morale_factor = 0.08
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6332,7 +6332,7 @@ leader_traits = {
 	army_chief_morale_3 = { # Ground units get 12 more Morale
 		sprite = 5
 		army_morale_factor = 0.12
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6349,7 +6349,7 @@ leader_traits = {
 	army_chief_maneuver_1 = { # Ground units move 5% faster
 		sprite = 5
 		army_speed_factor = 0.05
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6365,7 +6365,7 @@ leader_traits = {
 	army_chief_maneuver_2 = { # Ground units move 10% faster
 		sprite = 5
 		army_speed_factor = 0.1
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6381,7 +6381,7 @@ leader_traits = {
 	army_chief_maneuver_3 = { # Ground units move 15% faster
 		sprite = 5
 		army_speed_factor = 0.15
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6398,7 +6398,7 @@ leader_traits = {
 		sprite = 5
 		max_dig_in = 3
 		mobilization_speed = -0.02
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6415,7 +6415,7 @@ leader_traits = {
 		sprite = 5
 		max_dig_in = 5
 		mobilization_speed = -0.04
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 
@@ -6432,7 +6432,7 @@ leader_traits = {
 		sprite = 5
 		max_dig_in = 7
 		mobilization_speed = -0.06
-		experience_gain_army = 0.25
+		experience_gain_army = 0.24
 
 		
 

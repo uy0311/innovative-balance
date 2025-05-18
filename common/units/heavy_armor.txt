@@ -68,7 +68,7 @@ sub_units = {
 		max_strength = 1.6
 		weight = 1.5
 		
-		supply_consumption = 0.32
+		supply_consumption = 0.30
 
 		#breakthrough = 0.15
 

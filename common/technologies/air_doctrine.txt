@@ -388,7 +388,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		army_bonus_air_superiority_factor = 0.20
+		army_bonus_air_superiority_factor = 0.10
 		###########
 
 		path = {
@@ -415,7 +415,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		army_bonus_air_superiority_factor = 0.30
+		army_bonus_air_superiority_factor = 0.15
 		###########
 		
 		categories = {
@@ -438,7 +438,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_cas_present_factor = 0.2
+		army_bonus_air_superiority_factor = 0.10
 		###########
 
 		path = {
@@ -465,7 +465,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_cas_present_factor = 0.25
+		army_bonus_air_superiority_factor = 0.15
 		###########
 		
 		categories = {
