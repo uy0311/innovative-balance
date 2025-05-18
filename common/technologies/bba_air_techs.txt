@@ -1266,6 +1266,7 @@ technologies = {
 		enable_equipment_modules = {
 			aircraft_cannon_1_1x
 			aircraft_cannon_1_2x
+			aircraft_cannon_1_2x_body
 			cannon_defense_turret
 			cannon_defense_turret_2x
 		}
@@ -1361,6 +1362,7 @@ technologies = {
 		enable_equipment_modules = {
 			aircraft_cannon_2_1x
 			aircraft_cannon_2_2x
+			aircraft_cannon_2_2x_body
 		}
 		
 		research_cost = 1.75

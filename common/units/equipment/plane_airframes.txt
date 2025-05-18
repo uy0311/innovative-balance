@@ -101,15 +101,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -312,15 +313,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -441,15 +443,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -571,15 +574,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -701,15 +705,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -773,112 +778,107 @@ equipments = {
 			fixed_main_weapon_slot = {
 				required = yes
 				allowed_module_categories = {
-					fighter_weapon
-					cas_weapon
-					nav_bomber_weapon
-					kamikaze_bomber_weapon
+					light_plane_concept
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					recon_camera
-					fighter_weapon
-					cas_weapon
-					nav_bomber_weapon
-					mine_warfare_offense
-					kamikaze_bomber_weapon
-				}
-			}
-			fixed_auxiliary_weapon_slot_2 = { 
-				required = no
-				allowed_module_categories = {
-					recon_camera
-					fighter_weapon
-					cas_weapon
-					nav_bomber_weapon
-					mine_warfare_offense
-					kamikaze_bomber_weapon
-				}
-			}
-			fixed_auxiliary_weapon_slot_3 = { 
-				required = no
-				allowed_module_categories = {
-					recon_camera
-					fighter_weapon
-					cas_weapon
-					nav_bomber_weapon
-					mine_warfare_offense
-					kamikaze_bomber_weapon
+					plane_special_module_small
+					plane_special_module_bomb_sights
+					plane_special_module_radio_navigation
+					plane_special_module_air_ground_radar
+					plane_special_module_air_air_radar
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					recon_camera
-					fighter_weapon
-					cas_weapon
-					nav_bomber_weapon
-					mine_warfare_offense
-					kamikaze_bomber_weapon
+					plane_special_module_small
+					plane_special_module_bomb_sights
+					plane_special_module_radio_navigation
+					plane_special_module_air_ground_radar
+					plane_special_module_air_air_radar
+				}
+			}
+
+			fixed_auxiliary_weapon_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					plane_special_module_small
+					plane_special_module_bomb_sights
+					plane_special_module_radio_navigation
+					plane_special_module_air_ground_radar
+					plane_special_module_air_air_radar
+				}
+			}
+
+			fixed_auxiliary_weapon_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					plane_special_module_small
+					plane_special_module_bomb_sights
+					plane_special_module_radio_navigation
+					plane_special_module_air_ground_radar
+					plane_special_module_air_air_radar
 				}
 			}
 
 			engine_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					plane_jet_engine_type
-					twin_plane_jet_engine_type
-					plane_rocket_engine_type
+					plane_engine_type
 				}
 			}
 
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_small
-					plane_special_module_bomb_sights
-					plane_special_module_radio_navigation
-					plane_special_module_air_ground_radar
-					plane_special_module_air_air_radar
-					plane_special_module_defense_turret
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_small
-					plane_special_module_bomb_sights
-					plane_special_module_radio_navigation
-					plane_special_module_air_ground_radar
-					plane_special_module_air_air_radar
-					plane_special_module_defense_turret
+					wing_machine_gun
+					wing_air_cannon
+					anti_tank_weapon
 				}
 			}
+
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_small
-					plane_special_module_bomb_sights
-					plane_special_module_radio_navigation
-					plane_special_module_air_ground_radar
-					plane_special_module_air_air_radar
-					plane_special_module_defense_turret
 				}
 			}
 
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					plane_special_module_small
-					plane_special_module_bomb_sights
-					plane_special_module_radio_navigation
-					plane_special_module_air_ground_radar
-					plane_special_module_air_air_radar
-					plane_special_module_defense_turret
+					plane_module_drop_tanks
+					cas_weapon
+					nav_bomber_weapon
+				}
+			}
+
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					plane_module_Lower_small
+					cas_weapon
+					rocket_rails_weapon
+				}
+			}
+
+			special_type_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					cas_weapon
+					rocket_rails_weapon
 				}
 			}
 		}
@@ -993,15 +993,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -1206,15 +1207,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -1335,15 +1337,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -1465,15 +1468,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -1594,15 +1598,16 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
+					nose_machine_gun
+					nose_air_cannon
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -1730,8 +1735,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -1739,8 +1744,8 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 				}
 			}
 
@@ -1847,7 +1852,7 @@ equipments = {
 
 		air_range = 1500
 		thrust = 1300
-		air_agility = 20
+		air_agility = 30
 		air_defence = 17
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -1866,7 +1871,7 @@ equipments = {
 
 		air_range = 1650
 		thrust = 1400
-		air_agility = 30
+		air_agility = 40
 		air_defence = 20
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -1931,8 +1936,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -1940,8 +1945,8 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 				}
 			}
 
@@ -1996,7 +2001,7 @@ equipments = {
 
 		air_range = 1800
 		thrust = 1500
-		air_agility = 40
+		air_agility = 50
 		air_defence = 23
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -2061,8 +2066,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -2070,8 +2075,8 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 				}
 			}
 
@@ -2126,7 +2131,7 @@ equipments = {
 
 		air_range = 1950
 		thrust = 1600
-		air_agility = 50
+		air_agility = 60
 		air_defence = 26
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -2191,8 +2196,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -2200,8 +2205,8 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 				}
 			}
 
@@ -2256,7 +2261,7 @@ equipments = {
 
 		air_range = 2100
 		thrust = 1700
-		air_agility = 60
+		air_agility = 70
 		air_defence = 29
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -2321,8 +2326,8 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 					anti_tank_weapon
 				}
 			}
@@ -2330,8 +2335,8 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					fighter_weapon
-					machine_gun
+					wing_machine_gun
+					wing_air_cannon
 				}
 			}
 
