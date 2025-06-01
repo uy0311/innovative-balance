@@ -20,7 +20,10 @@ technologies = {
 			concept_cas
 			concept_naval_bomber
 		}
-		
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_light_air_tt
+		}	
 	
 		path = {
 			leads_to_tech = basic_small_airframe
@@ -28,7 +31,7 @@ technologies = {
 		}
 		
 		
-		research_cost = 2
+		research_cost = 7
 		start_year = 1933
 		folder = {
 			name = bba_air_techs_folder
@@ -82,12 +85,14 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = basic_medium_airframe	}
+
+			custom_effect_tooltip = tcl_light_air_tt
 		}
 		dependencies = {
 			iw_small_airframe = 1
 		}
 		
-		research_cost = 2
+		research_cost = 7
 		start_year = 1938
 
 		folder = {
@@ -163,12 +168,14 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_medium_airframe	}
+			
+			custom_effect_tooltip = tcl_light_air_tt
 		}
 		dependencies = {
 			basic_small_airframe = 1
 		}
 
-		research_cost = 2
+		research_cost = 7
 		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
@@ -244,12 +251,14 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = advanced_medium_airframe	}
+			
+			custom_effect_tooltip = tcl_light_air_tt
 		}
 		dependencies = {
 			improved_small_airframe = 1
 		}
 		
-		research_cost = 2
+		research_cost = 7
 		start_year = 1944
 
 		folder = {
@@ -316,13 +325,15 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = modern_medium_airframe	}
+			
+			custom_effect_tooltip = tcl_light_air_tt
 		}
 		dependencies = {
 			advanced_small_airframe = 1
 			jet_engines = 1
 		}
 		
-		research_cost = 2
+		research_cost = 7
 		start_year = 1945
 
 		folder = {
@@ -337,7 +348,7 @@ technologies = {
 			air_equipment
 			naval_air
 			naval_bomber
-			jet_technology
+			air_equipment
 					}
 
 		ai_will_do = {
@@ -367,6 +378,10 @@ technologies = {
 			concept_tactical_bomber
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_medium_air_tt
+		}
+
 		path = {
 			leads_to_tech = basic_medium_airframe
 			research_cost_coeff = 1
@@ -382,7 +397,7 @@ technologies = {
 			research_cost_coeff = 0.5
 		}
 		
-		research_cost = 2
+		research_cost = 7
 		start_year = 1933
 		folder = {
 			name = bba_air_techs_folder
@@ -429,12 +444,14 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = basic_large_airframe	}
+
+			custom_effect_tooltip = tcl_medium_air_tt
 		}
 		dependencies = {
 			iw_medium_airframe = 1
 		}
 
-		research_cost = 2
+		research_cost = 7
 		start_year = 1938
 
 		folder = {
@@ -506,12 +523,14 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_large_airframe	}
+			
+			custom_effect_tooltip = tcl_medium_air_tt
 		}
 		dependencies = {
 			basic_medium_airframe = 1
 		}
 		
-		research_cost = 2
+		research_cost = 7
 		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
@@ -582,12 +601,14 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = advanced_large_airframe	}
+			
+			custom_effect_tooltip = tcl_medium_air_tt
 		}
 		dependencies = {
 			improved_medium_airframe = 1
 		}
 
-		research_cost = 2
+		research_cost = 7
 		start_year = 1944
 		folder = {
 			name = bba_air_techs_folder
@@ -647,13 +668,15 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = modern_large_airframe	}
+			
+			custom_effect_tooltip = tcl_medium_air_tt
 		}
 		dependencies = {
 			advanced_medium_airframe = 1
 			jet_engines = 1
 		}
 
-		research_cost = 2
+		research_cost = 7
 		start_year = 1945
 		
 		folder = {
@@ -663,7 +686,7 @@ technologies = {
 		
 		categories = {
 			medium_air
-			jet_technology
+			air_equipment
 			cat_heavy_fighter
 			tactical_bomber
 					}
@@ -689,13 +712,17 @@ technologies = {
 			concept_strategic_bomber
 			concept_maritime_patrol_plane
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_heavy_air_tt
+		}
 		
 		path = {
 			leads_to_tech = basic_large_airframe
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 7
 		start_year = 1933
 		folder = {
 			name = bba_air_techs_folder
@@ -743,12 +770,14 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = basic_medium_airframe	}
+			
+			custom_effect_tooltip = tcl_heavy_air_tt
 		}
 		dependencies = {
 			iw_large_airframe = 1
 		}
 
-		research_cost = 2
+		research_cost = 7
 		start_year = 1938
 		folder = {
 			name = bba_air_techs_folder
@@ -795,12 +824,14 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_medium_airframe	}
+			
+			custom_effect_tooltip = tcl_heavy_air_tt
 		}
 		dependencies = {
 			basic_large_airframe = 1
 		}
 		
-		research_cost = 2
+		research_cost = 7
 		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
@@ -847,12 +878,14 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = advanced_medium_airframe	}
+			
+			custom_effect_tooltip = tcl_heavy_air_tt
 		}
 		dependencies = {
 			improved_large_airframe = 1
 		}
 
-		research_cost = 2
+		research_cost = 7
 		start_year = 1944
 		folder = {
 			name = bba_air_techs_folder
@@ -887,7 +920,7 @@ technologies = {
 			large_plane_maritime_patrol_plane_airframe_4
 		}
 		
-		research_cost = 2
+		research_cost = 7
 		start_year = 1950
 
 		path = {
@@ -897,6 +930,8 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = modern_medium_airframe	}
+			
+			custom_effect_tooltip = tcl_heavy_air_tt
 		}
 		dependencies = {
 			advanced_large_airframe = 1
@@ -910,7 +945,7 @@ technologies = {
 		
 		categories = {
 			heavy_air
-			jet_technology
+			air_equipment
 			cat_strategic_bomber
 					}
 		
@@ -933,8 +968,12 @@ technologies = {
 			medium_bomb_bay
 			large_bomb_bay
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_bombs_tt
+		}
 			
-		research_cost = 1
+		research_cost = 2
 		start_year = 1922
 
 		folder = {
@@ -971,8 +1010,12 @@ technologies = {
 			armor_piercing_bomb_locks
 			heavy_bomb_locks
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_bombs_tt
+		}
 			
-		research_cost = 1
+		research_cost = 2
 		start_year = 1937
 
 		folder = {
@@ -1003,6 +1046,10 @@ technologies = {
 	photo_reconnaisance = {
 		enable_equipment_modules = {
 			concept_scout_plane
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_plane_modules_tech_tt
 		}
 		
 		research_cost = 1
@@ -1130,8 +1177,12 @@ technologies = {
 			lmg_defense_turret
 			lmg_defense_turret_2x
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_guns_tt
+		}
 		
-		research_cost = 1
+		research_cost = 6.5
 		start_year = 1933
 
 		folder = {
@@ -1178,8 +1229,12 @@ technologies = {
 			armor_plate_medium
 			armor_plate_large
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_plane_modules_tech_tt
+		}
 		
-		research_cost = 1
+		research_cost = 2
 		start_year = 1936
 
 		folder = {
@@ -1221,8 +1276,12 @@ technologies = {
 			hmg_defense_turret
 			hmg_defense_turret_2x
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_guns_tt
+		}
 		
-		research_cost = 1
+		research_cost = 6.5
 		start_year = 1937
 
 		folder = {
@@ -1270,8 +1329,12 @@ technologies = {
 			cannon_defense_turret
 			cannon_defense_turret_2x
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_guns_tt
+		}
 		
-		research_cost = 1.75
+		research_cost = 6.5
 		start_year = 1940
 
 		folder = {
@@ -1321,8 +1384,12 @@ technologies = {
 			large_aircraft_cannon_1x
 			large_aircraft_cannon_2x
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_guns_tt
+		}
 		
-		research_cost = 1.75
+		research_cost = 6.5
 		start_year = 1943
 
 		folder = {
@@ -1364,8 +1431,12 @@ technologies = {
 			aircraft_cannon_2_2x
 			aircraft_cannon_2_2x_body
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_guns_tt
+		}
 		
-		research_cost = 1.75
+		research_cost = 6.5
 		start_year = 1943
 
 		folder = {
@@ -1409,8 +1480,12 @@ technologies = {
 			engine_1_4x
 			engine_1_6x	
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_engine_tt
+		}
 		
-		research_cost = 1.0
+		research_cost = 6
 		start_year = 1933
 
 		folder = {
@@ -1481,8 +1556,12 @@ technologies = {
 			engine_2_4x
 			engine_2_6x	
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_engine_tt
+		}
 		
-		research_cost = 1.0
+		research_cost = 6
 		start_year = 1938
 
 		folder = {
@@ -1535,8 +1614,12 @@ technologies = {
 			engine_3_4x
 			engine_3_6x	
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_engine_tt
+		}
 		
-		research_cost = 1.75
+		research_cost = 6
 		start_year = 1941
 
 		folder = {
@@ -1589,8 +1672,12 @@ technologies = {
 			engine_4_4x
 			engine_4_6x	
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_air_engine_tt
+		}
 		
-		research_cost = 1.75
+		research_cost = 6
 		start_year = 1944
 
 		folder = {
@@ -1637,8 +1724,12 @@ technologies = {
 			fuel_tanks_large
 			drop_tanks
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_plane_modules_tech_tt
+		}
 		
-		research_cost = 1
+		research_cost = 2
 		start_year = 1936
 
 		folder = {
@@ -1694,8 +1785,12 @@ technologies = {
 			non_strategic_materials_large
 			flying_boat_large
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_plane_modules_tech_tt
+		}
 		
-		research_cost = 1
+		research_cost = 2
 		start_year = 1936
 
 		folder = {

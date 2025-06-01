@@ -435,7 +435,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 	
 			modifier = {
-				research_speed_factor = 0.10
+				research_speed_factor = 0.15
 				trade_laws_cost_factor = -1.0
 				production_cost_dockyard_factor = -0.05
 				trade_opinion_factor = 20

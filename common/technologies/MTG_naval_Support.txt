@@ -9,12 +9,13 @@ technologies = {
 
 	basic_battery = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1922
 
 		on_research_complete = {
 			custom_effect_tooltip = ib_twingun_tt
+			custom_effect_tooltip = tcl_cat_ship_battery_tt
 		}
 
 		path = {
@@ -80,7 +81,7 @@ technologies = {
 
 	light_battery_4in_x1 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1934
 
@@ -106,6 +107,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
 		}
 
 		folder = {
@@ -122,7 +124,7 @@ technologies = {
 
 	light_battery_4in_x2 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1936
 
@@ -134,6 +136,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
 		}
 
 		folder = {
@@ -150,7 +153,7 @@ technologies = {
 
 	dp_light_battery_4in_x1 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1938
 
@@ -165,6 +168,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
 		}
 
 		folder = {
@@ -181,7 +185,7 @@ technologies = {
 
 	dp_light_battery_4in_x2 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1940
 
@@ -197,6 +201,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
 		}
 
 		folder = {
@@ -213,7 +218,7 @@ technologies = {
 
 	light_battery_5in_x1 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1936
 
@@ -239,6 +244,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
 		}
 
 		folder = {
@@ -255,7 +261,7 @@ technologies = {
 
 	light_battery_5in_x2 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1938
 
@@ -267,6 +273,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
 		}
 
 		folder = {
@@ -283,7 +290,7 @@ technologies = {
 
 	dp_light_battery_5in_x1 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1940
 
@@ -298,6 +305,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
 		}
 
 		folder = {
@@ -314,7 +322,7 @@ technologies = {
 
 	dp_light_battery_5in_x2 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1942
 
@@ -330,6 +338,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
 		}
 
 		folder = {
@@ -346,7 +355,7 @@ technologies = {
 
 	medium_battery_5Hin_x1 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1934
 
@@ -368,6 +377,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_medium_battery_tt
 		}
 
 		folder = {
@@ -384,7 +394,7 @@ technologies = {
 
 	medium_battery_5Hin_x2 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1937
 
@@ -396,6 +406,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_medium_battery_tt
 		}
 
 		folder = {
@@ -412,7 +423,7 @@ technologies = {
 
 	medium_battery_6in_x1 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1936
 
@@ -433,6 +444,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_medium_battery_tt
 		}
 
 		folder = {
@@ -449,7 +461,7 @@ technologies = {
 
 	medium_battery_6in_x2 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1939
 
@@ -460,6 +472,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_medium_battery_tt
 		}
 
 		folder = {
@@ -476,7 +489,7 @@ technologies = {
 
 	medium_battery_6in_x3 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1940
 
@@ -491,6 +504,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_medium_battery_tt
 		}
 
 		folder = {
@@ -508,7 +522,7 @@ technologies = {
 
 	medium_battery_8in_x2 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1937
 
@@ -521,6 +535,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_medium_battery_tt
 		}
 
 		path = {
@@ -542,7 +557,7 @@ technologies = {
 
 	medium_battery_8in_x3 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1941
 
@@ -559,6 +574,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_medium_battery_tt
 		}
 
 		folder = {
@@ -575,7 +591,7 @@ technologies = {
 
 	heavy_battery_14in_x2 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1934
 
@@ -608,6 +624,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -624,7 +641,7 @@ technologies = {
 
 	heavy_battery_14in_x3 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1937
 
@@ -641,6 +658,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -657,7 +675,7 @@ technologies = {
 
 	heavy_battery_14in_x4 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1940
 
@@ -674,6 +692,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -690,7 +709,7 @@ technologies = {
 
 	heavy_battery_15in_x2 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1936
 
@@ -713,6 +732,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -729,7 +749,7 @@ technologies = {
 
 	heavy_battery_15in_x3 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1939
 
@@ -746,6 +766,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -762,7 +783,7 @@ technologies = {
 
 	heavy_battery_15in_x4 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1941
 
@@ -779,6 +800,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -795,7 +817,7 @@ technologies = {
 
 	heavy_battery_16in_x2 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1937
 
@@ -818,6 +840,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -834,7 +857,7 @@ technologies = {
 
 	heavy_battery_16in_x3 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1940
 
@@ -851,6 +874,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -867,7 +891,7 @@ technologies = {
 
 	heavy_battery_18in_x2 = {
 
-		research_cost = 2.0
+		research_cost = 4
 
 		start_year = 1939
 
@@ -880,6 +904,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		path = {
@@ -901,7 +926,7 @@ technologies = {
 
 	heavy_battery_18in_x3 = {
 
-		research_cost = 1
+		research_cost = 4
 
 		start_year = 1941
 
@@ -918,6 +943,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
+			custom_effect_tooltip = tcl_cat_ship_heavy_battery_tt
 		}
 
 		folder = {
@@ -934,12 +960,13 @@ technologies = {
 
 	triple_gun_battery = {
 
-		research_cost = 3.0
+		research_cost = 6
 
 		start_year = 1936
 
 		on_research_complete = {
 			custom_effect_tooltip = ib_triplegun_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 
 		path = {
@@ -960,12 +987,13 @@ technologies = {
 
 	quadruple_gun_battery = {
 
-		research_cost = 3.0
+		research_cost = 6
 
 		start_year = 1939
 
 		on_research_complete = {
 			custom_effect_tooltip = ib_quadruplegun_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 
 		folder = {
@@ -981,7 +1009,7 @@ technologies = {
 
 	ib_shell_tech2 = {
 
-		research_cost = 2.0
+		research_cost = 3
 
 		start_year = 1936
 
@@ -1001,6 +1029,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = ib_dp_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 
 		folder = {
@@ -1016,7 +1045,7 @@ technologies = {
 
 	ib_shell_tech3 = {
 		
-		research_cost = 1.0
+		research_cost = 3
 
 		start_year = 1940
 
@@ -1049,6 +1078,10 @@ technologies = {
 			lg_armor_piercing = 0.05
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
+		}
+
 		path = {
 			leads_to_tech = ib_shell_tech4
 			research_cost_coeff = 1
@@ -1075,7 +1108,7 @@ technologies = {
 
 	ib_shell_tech4 = {
 
-		research_cost = 1.0
+		research_cost = 3
 
 		start_year = 1944
 
@@ -1108,6 +1141,10 @@ technologies = {
 			lg_armor_piercing = 0.05
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
+		}
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 13 y = 19 }
@@ -1129,7 +1166,7 @@ technologies = {
 
 	basic_medium_shell = {
 
-		research_cost = 1.5
+		research_cost = 3
 
 		start_year = 1937
 
@@ -1140,6 +1177,10 @@ technologies = {
 		heavy_cruiser = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		path = {
@@ -1172,7 +1213,7 @@ technologies = {
 
 	improved_medium_shell = {
 
-		research_cost = 1.5
+		research_cost = 3
 
 		start_year = 1941
 
@@ -1183,6 +1224,10 @@ technologies = {
 		heavy_cruiser = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		folder = {
@@ -1205,7 +1250,7 @@ technologies = {
 
 	basic_heavy_shell = {
 
-		research_cost = 1.75
+		research_cost = 3.5
 
 		start_year = 1939
 
@@ -1221,6 +1266,10 @@ technologies = {
 		battle_cruiser = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		folder = {
@@ -1245,7 +1294,7 @@ technologies = {
 
 	improved_heavy_shell = {
 
-		research_cost = 1.75
+		research_cost = 3.5
 
 		start_year = 1944
 
@@ -1256,6 +1305,10 @@ technologies = {
 		battle_cruiser = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		folder = {
@@ -1285,7 +1338,7 @@ technologies = {
 
 	basic_torpedo = {
 
-		research_cost = 2.0
+		research_cost = 3
 
 		start_year = 1922
 
@@ -1307,6 +1360,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
+			custom_effect_tooltip = tcl_cat_torpedoes_tt
 		}
 
 		folder = {
@@ -1342,7 +1396,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 4
 
 		start_year = 1936
 
@@ -1369,7 +1423,9 @@ technologies = {
 			torpedo_attack = 0.2
 		}
 
-
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_torpedoes_tt
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1408,7 +1464,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 4
 
 		start_year = 1942
 		destroyer = {
@@ -1423,6 +1479,11 @@ technologies = {
 		heavy_cruiser = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_torpedoes_tt
+		}
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 16 }
@@ -1456,13 +1517,15 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 4
 
 		start_year = 1940
 
-
 		naval_torpedo_reveal_chance_factor = -0.25
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_torpedoes_tt
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1489,7 +1552,7 @@ technologies = {
 	}
 	improved_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 3
 
 		start_year = 1936
 
@@ -1500,6 +1563,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
+			custom_effect_tooltip = tcl_cat_torpedoes_tt
 		}
 
 		enable_equipment_modules = {
@@ -1530,7 +1594,7 @@ technologies = {
 	}
 	advanced_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 3
 
 		start_year = 1940
 
@@ -1541,6 +1605,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
+			custom_effect_tooltip = tcl_cat_torpedoes_tt
 		}
 
 		enable_equipment_modules = {
@@ -1572,7 +1637,7 @@ technologies = {
 	}
 	modern_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 3
 
 		start_year = 1944
 
@@ -1583,6 +1648,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
+			custom_effect_tooltip = tcl_cat_torpedoes_tt
 		}
 
 
@@ -1615,13 +1681,18 @@ technologies = {
 
 	damage_control_1 = {
 
-		research_cost = 2.5
+		research_cost = 4
 		path = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
 		}
 		critical_receive_chance = -0.1
 		naval_critical_effect_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
+		}
+
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1655,13 +1726,18 @@ technologies = {
 
 	damage_control_2 = {
 
-		research_cost = 2.5
+		research_cost = 4
 		path = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
 		}
 		critical_receive_chance = -0.1
 		naval_critical_effect_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
+		}
+
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1695,9 +1771,14 @@ technologies = {
 
 	damage_control_3 = {
 
-		research_cost = 2.5
+		research_cost = 4
 		critical_receive_chance = -0.1
 		naval_critical_effect_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
+		}
+
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1739,7 +1820,7 @@ technologies = {
 
 	fire_control_methods_1 = {
 
-		research_cost = 2.5
+		research_cost = 4
 		path = {
 			leads_to_tech = fire_control_methods_2
 			research_cost_coeff = 1
@@ -1752,6 +1833,11 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
+		}
+
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1782,7 +1868,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 4
 		path = {
 			leads_to_tech = fire_control_methods_3
 			research_cost_coeff = 1
@@ -1798,6 +1884,10 @@ technologies = {
 		heavy_cruiser = {
 			lg_attack = 0.05
 			hg_attack = 0.05
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 
 		folder = {
@@ -1825,7 +1915,7 @@ technologies = {
 
 	fire_control_methods_3 = {
 
-		research_cost = 2.5
+		research_cost = 4
 		battleship = {
 			lg_attack = 0.15
 			hg_attack = 0.15
@@ -1846,6 +1936,11 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
+		}
+
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1878,12 +1973,16 @@ technologies = {
 		transport_capacity = -0.5
 		naval_invasion_capacity = 10
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_tp_tech_tt
+		}
+
 		path = {
 			leads_to_tech = mtg_landing_craft
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5
 		start_year = 1922
 
 		folder = {
@@ -1931,6 +2030,10 @@ technologies = {
 		amphibious_invasion_defence = 0.15
 		naval_invasion_capacity = 40
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_tp_tech_tt
+		}
+
 		path = {
 			leads_to_tech = mtg_tank_landing_craft
 			research_cost_coeff = 1
@@ -1942,7 +2045,7 @@ technologies = {
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 
-		research_cost = 2
+		research_cost = 5
 		start_year = 1939
 
 		folder = {
@@ -2009,7 +2112,11 @@ technologies = {
 		amphibious_invasion_defence = 0.5
 		naval_invasion_capacity = 100
 
-		research_cost = 2
+		on_research_complete = {
+			custom_effect_tooltip = tcl_tp_tech_tt
+		}
+
+		research_cost = 5
 		start_year = 1944
 		folder = {
 			name = mtgnavalsupportfolder

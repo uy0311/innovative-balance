@@ -31,13 +31,17 @@ technologies = {
 			paratrooper
 			mountaineers
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = infantry_weapons1
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.5
+		research_cost = 6.0
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -58,13 +62,17 @@ technologies = {
 		enable_equipments = {
 			infantry_equipment_1
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 				
 		path = {
 			leads_to_tech = infantry_weapons2
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.5
+		research_cost = 6.0
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -115,13 +123,17 @@ technologies = {
 		amphibious_mechanized = {
 			soft_attack = 0.05
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = improved_infantry_weapons
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.5
+		research_cost = 6.0
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -161,6 +173,10 @@ technologies = {
 		enable_equipments = {
 			infantry_equipment_2
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = improved_infantry_weapons_2
@@ -171,7 +187,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2
+		research_cost = 6.0
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -227,13 +243,17 @@ technologies = {
 		amphibious_mechanized = {
 			soft_attack = 0.05
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = advanced_infantry_weapons
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 6.0
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -270,13 +290,17 @@ technologies = {
 			hard_attack = 0.25
 			ap_attack = 1
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = infantry_at2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -314,12 +338,16 @@ technologies = {
 			ap_attack = 1
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
+
 		path = {
 			leads_to_tech = infantry_at3
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 5.0
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -356,8 +384,12 @@ technologies = {
 			hard_attack = 0.25
 			ap_attack = 1
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
-		research_cost = 1.5
+		research_cost = 5.0
 		start_year = 1944
 		folder = {
 			name = infantry_folder
@@ -393,13 +425,17 @@ technologies = {
 		enable_equipments = {
 			infantry_equipment_3
 		}	
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = advanced_infantry_weapons2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 6.0
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -455,7 +491,11 @@ technologies = {
 			soft_attack = 0.1
 		}		
 
-		research_cost = 1.5
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
+
+		research_cost = 6.0
 		start_year = 1944
 		folder = {
 			name = infantry_folder
@@ -489,13 +529,17 @@ technologies = {
 	night_vision = {
 
 		land_night_attack = 0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_night_vision_tt
+		}
 		
 		path = {
 			leads_to_tech = night_vision2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 2.5
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -539,12 +583,16 @@ technologies = {
 
 		land_night_attack = 0.10	
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_night_vision_tt
+		}
+
 		path = {
 			leads_to_tech = night_vision3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 2.5
 		start_year = 1944
 		folder = {
 			name = infantry_folder
@@ -579,7 +627,11 @@ technologies = {
 
 		land_night_attack = 0.10	
 
-		research_cost = 1.0
+		on_research_complete = {
+			custom_effect_tooltip = tcl_night_vision_tt
+		}
+
+		research_cost = 2.5
 		start_year = 1945
 		folder = {
 			name = infantry_folder
@@ -656,13 +708,17 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = support_weapons2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -755,13 +811,17 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = support_weapons3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -860,13 +920,17 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
 		path = {
 			leads_to_tech = support_weapons4
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 5.0
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -952,8 +1016,12 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_infantry_weapons_tt
+		}
 		
-		research_cost = 1.5
+		research_cost = 5.0
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -1007,16 +1075,8 @@ technologies = {
 			tank_wheeled_suspension
 		}
 
-		on_research_complete_limit = {
-			NOT = {
-				has_template_containing_unit = motorized
-			}
-		}
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_motorized"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = tcl_motorized_equipment_tt
 		}
 		
 		path = {
@@ -1034,7 +1094,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 9.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -1048,7 +1108,6 @@ technologies = {
 		
 		categories = {
 			motorized_equipment
-			infantry_tech
 		}
 		
 		ai_will_do = {
@@ -1111,7 +1170,11 @@ technologies = {
 			armored_car_tank_chassis_1
 		}
 
-		research_cost = 2
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_armored_cars_tt
+		}
+
+		research_cost = 9.5
 		start_year = 1914
 		folder = {
 			name = infantry_folder
@@ -1120,7 +1183,6 @@ technologies = {
 		
 		categories = {
 			motorized_equipment
-			armor
 			cat_armored_cars
 		}
 		
@@ -1284,6 +1346,10 @@ technologies = {
 			hardness = 1.0
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_motorized_equipment_tt
+		}
+
 		path = {
 			leads_to_tech = mechanised_infantry2
 			research_cost_coeff = 1
@@ -1294,7 +1360,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3
+		research_cost = 9.5
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -1303,8 +1369,7 @@ technologies = {
 		
 		categories = {
 			motorized_equipment
-			infantry_weapons
-					}
+		}
 		
 		ai_will_do = {
 			factor = 2
@@ -1336,6 +1401,10 @@ technologies = {
 			amphibious_mechanized
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_motorized_equipment_tt
+		}
+
 		path = {
 			leads_to_tech = amphibious_mechanized_infantry_2
 			research_cost_coeff = 1
@@ -1345,7 +1414,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3
+		research_cost = 9.5
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -1354,7 +1423,6 @@ technologies = {
 		
 		categories = {
 			motorized_equipment
-			tp_tech
 		}
 		
 		ai_will_do = {
@@ -1372,12 +1440,16 @@ technologies = {
 			amphibious_mechanized_equipment_2
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_motorized_equipment_tt
+		}
+
 		path = {
 			leads_to_tech = mechanised_infantry2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3
+		research_cost = 9.5
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -1386,7 +1458,6 @@ technologies = {
 		
 		categories = {
 			motorized_equipment
-			tp_tech
 		}
 		
 		ai_will_do = {
@@ -1404,6 +1475,10 @@ technologies = {
 			hardness = 1.0
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_motorized_equipment_tt
+		}
+
 		path = {
 			leads_to_tech = mechanised_infantry3
 			research_cost_coeff = 1
@@ -1413,7 +1488,7 @@ technologies = {
 			research_cost_coeff = 0.3
 		}
 
-		research_cost = 3
+		research_cost = 9.5
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -1422,7 +1497,6 @@ technologies = {
 		
 		categories = {
 			motorized_equipment
-			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -1445,7 +1519,11 @@ technologies = {
 			hard_attack = 0.15
 		}
 
-		research_cost = 3
+		on_research_complete = {
+			custom_effect_tooltip = tcl_motorized_equipment_tt
+		}
+
+		research_cost = 9.5
 		start_year = 1944
 		folder = {
 			name = infantry_folder
@@ -1454,7 +1532,6 @@ technologies = {
 		
 		categories = {
 			motorized_equipment
-			infantry_weapons
 		}
 		
 		ai_will_do = {

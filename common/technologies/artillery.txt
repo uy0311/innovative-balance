@@ -13,6 +13,10 @@ technologies = {
 			secondary_turret_small_cannon
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
 		path = {
 			leads_to_tech = interwar_artillery
 			research_cost_coeff = 1
@@ -28,7 +32,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		folder = {
 			name = artillery_folder
@@ -79,12 +83,16 @@ technologies = {
 			soft_attack = 0.15
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
 		path = {
 			leads_to_tech = artillery1
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1936
 
@@ -127,6 +135,10 @@ technologies = {
 			tank_medium_cannon
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
 		path = {
 			leads_to_tech = artillery2
 			research_cost_coeff = 1
@@ -137,7 +149,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1939
 
@@ -189,12 +201,16 @@ technologies = {
 			soft_attack = 0.10
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
 		path = {
 			leads_to_tech = artillery3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1940
 
@@ -248,12 +264,16 @@ technologies = {
 			soft_attack = 0.10
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
 		path = {
 			leads_to_tech = artillery4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1941
 
@@ -290,12 +310,16 @@ technologies = {
 			tank_medium_cannon_3
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
 		path = {
 			leads_to_tech = artillery5
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1942
 
@@ -349,12 +373,16 @@ technologies = {
 			soft_attack = 0.05
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
 		path = {
 			leads_to_tech = artillery6
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1943
 
@@ -406,12 +434,16 @@ technologies = {
 			soft_attack = 0.05
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
 		path = {
 			leads_to_tech = artillery7
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1944
 
@@ -458,7 +490,11 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		research_cost = 1.5
+		on_research_complete = {
+			custom_effect_tooltip = tcl_artillery_tt
+		}
+
+		research_cost = 5.0
 
 		start_year = 1945
 
@@ -520,12 +556,16 @@ technologies = {
 			rocket_rails
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_rocketry_tt
+		}
+
 		path = {
 			leads_to_tech = rocket_artillery2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 4.0
 
 		start_year = 1940
 
@@ -560,12 +600,16 @@ technologies = {
 			soft_attack = 0.15
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_rocketry_tt
+		}
+
 		path = {
 			leads_to_tech = rocket_artillery3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 4.0
 
 		start_year = 1941
 
@@ -600,12 +644,16 @@ technologies = {
 			soft_attack = 0.15
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_rocketry_tt
+		}
+
 		path = {
 			leads_to_tech = rocket_artillery4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 4.0
 
 		start_year = 1942
 
@@ -637,12 +685,16 @@ technologies = {
 			tank_rocket_launcher_2
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_rocketry_tt
+		}
+
 		path = {
 			leads_to_tech = rocket_artillery5
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 4.0
 
 		start_year = 1943
 
@@ -677,12 +729,16 @@ technologies = {
 			soft_attack = 0.10
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_rocketry_tt
+		}
+
 		path = {
 			leads_to_tech = rocket_artillery6
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 4.0
 
 		start_year = 1944
 
@@ -717,7 +773,11 @@ technologies = {
 			soft_attack = 0.10
 		}
 
-		research_cost = 1.5
+		on_research_complete = {
+			custom_effect_tooltip = tcl_rocketry_tt
+		}
+
+		research_cost = 4.0
 
 		start_year = 1945
 
@@ -758,12 +818,16 @@ technologies = {
 
 		static_anti_air_damage_factor = 0.1
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_air_tt
+		}
+
 		path = {
 			leads_to_tech = antiair1
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 3.5
 
 		start_year = 1936
 
@@ -840,12 +904,16 @@ technologies = {
 
 		tech_air_damage_factor = -0.02
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_air_tt
+		}
+
 		path = {
 			leads_to_tech = antiair2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 3.5
 
 		start_year = 1939
 
@@ -889,12 +957,16 @@ technologies = {
 			tank_anti_air_cannon_2
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_air_tt
+		}
+
 		path = {
 			leads_to_tech = antiair3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 3.5
 
 		start_year = 1940
 
@@ -956,12 +1028,16 @@ technologies = {
 
 		tech_air_damage_factor = -0.02
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_air_tt
+		}
+
 		path = {
 			leads_to_tech = antiair4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 3.5
 
 		start_year = 1941
 
@@ -1023,12 +1099,16 @@ technologies = {
 
 		tech_air_damage_factor = -0.02
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_air_tt
+		}
+
 		path = {
 			leads_to_tech = antiair5
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 3.5
 
 		start_year = 1942
 
@@ -1072,12 +1152,16 @@ technologies = {
 			tank_anti_air_cannon_3
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_air_tt
+		}
+
 		path = {
 			leads_to_tech = antiair6
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 3.5
 
 		start_year = 1943
 
@@ -1138,13 +1222,17 @@ technologies = {
 		}
 
 		tech_air_damage_factor = -0.01
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_air_tt
+		}
 		
 		path = {
 			leads_to_tech = antiair7
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 3.5
 
 		start_year = 1944
 		
@@ -1205,8 +1293,12 @@ technologies = {
 		}
 
 		tech_air_damage_factor = -0.01
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_air_tt
+		}
 		
-		research_cost = 1.0
+		research_cost = 3.5
 
 		start_year = 1945
 		
@@ -1249,12 +1341,16 @@ technologies = {
 			tank_buster_1
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_tank_tt
+		}
+
 		path = {
 			leads_to_tech = antitank1
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1936
 
@@ -1350,13 +1446,17 @@ technologies = {
 		category_amphibious_tanks = {
 			ap_attack = 0.1
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_tank_tt
+		}
 		
 		path = {
 			leads_to_tech = antitank2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1939
 
@@ -1414,12 +1514,17 @@ technologies = {
 			tank_high_velocity_cannon
 			tank_buster_2
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_tank_tt
+		}
+
 		path = {
 			leads_to_tech = antitank3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1940
 
@@ -1506,12 +1611,16 @@ technologies = {
 			ap_attack = 0.1
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_tank_tt
+		}
+
 		path = {
 			leads_to_tech = antitank4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1941
 
@@ -1595,12 +1704,16 @@ technologies = {
 			ap_attack = 0.1
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_tank_tt
+		}
+
 		path = {
 			leads_to_tech = antitank5
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1942
 
@@ -1661,12 +1774,16 @@ technologies = {
 			tank_super_heavy_cannon
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_tank_tt
+		}
+
 		path = {
 			leads_to_tech = antitank6
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1943
 
@@ -1749,12 +1866,16 @@ technologies = {
 			ap_attack = 0.1
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_tank_tt
+		}
+
 		path = {
 			leads_to_tech = antitank7
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1944
 
@@ -1831,8 +1952,12 @@ technologies = {
 		category_amphibious_tanks = {
 			ap_attack = 0.1
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_anti_tank_tt
+		}
 		
-		research_cost = 1.5
+		research_cost = 5.0
 
 		start_year = 1945
 		
