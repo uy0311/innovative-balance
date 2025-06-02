@@ -985,11 +985,10 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 3.7
-			reliability = -0.25
-			breakthrough = 35
-			defense = 17.5
+			breakthrough = 24
+			defense = 12
 			soft_attack = 1.5
-			max_strength = 1.06
+			max_strength = 0.855
 		}
 		xp_cost = 0#2
 		multiply_stats = {
