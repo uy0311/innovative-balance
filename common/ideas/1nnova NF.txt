@@ -898,13 +898,7 @@ ideas = {
 				light_tank_chassis = {
 					build_cost_ic = -0.15 instant = yes	}
 
-				medium_tank_chassis_2 = {
-					build_cost_ic = -0.15 instant = yes	}
-				medium_tank_artillery_chassis_2 = {
-					build_cost_ic = -0.15 instant = yes	}
-				medium_tank_destroyer_chassis_2 = {
-					build_cost_ic = -0.15 instant = yes	}
-				medium_tank_aa_chassis_2 = {
+				medium_tank_chassis = {
 					build_cost_ic = -0.15 instant = yes	}
 
 				modern_tank_chassis = {

@@ -67,16 +67,16 @@ technologies = {
 		}
 
 		artillery = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 		artillery_brigade = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 		category_self_propelled_artillery = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 
 		path = {
@@ -177,16 +177,16 @@ technologies = {
 		}
 
 		artillery = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		artillery_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		category_self_propelled_artillery = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 
 		path = {
@@ -236,16 +236,16 @@ technologies = {
 		}
 
 		artillery = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		artillery_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		category_self_propelled_artillery = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 
 		path = {
@@ -337,16 +337,16 @@ technologies = {
 		}
 
 		artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		artillery_brigade = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		category_self_propelled_artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 
 		path = {
@@ -394,16 +394,16 @@ technologies = {
 		}
 
 		artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		artillery_brigade = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		category_self_propelled_artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 
 		path = {
@@ -446,16 +446,16 @@ technologies = {
 		}
 
 		artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		artillery_brigade = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		category_self_propelled_artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 
 		research_cost = 1.5
@@ -551,13 +551,13 @@ technologies = {
 	rocket_artillery2 = {
 
 		rocket_artillery = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 
 		path = {
@@ -591,13 +591,13 @@ technologies = {
 	rocket_artillery3 = {
 
 		rocket_artillery = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.20
+			soft_attack = 0.15
 		}
 
 		path = {
@@ -668,13 +668,13 @@ technologies = {
 	rocket_artillery5 = {
 
 		rocket_artillery = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 
 		path = {
@@ -708,13 +708,13 @@ technologies = {
 	rocket_artillery6 = {
 
 		rocket_artillery = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.10
 		}
 
 		research_cost = 1.5
@@ -813,16 +813,29 @@ technologies = {
 	antiair1 = {
 
 		anti_air = {
-			air_attack = 0.20
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.20
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.20
+			air_attack = 0.1
 		}
-		category_self_propelled_anti_air = {
-			air_attack = 0.20
+
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
 		}
 
 		tech_air_damage_factor = -0.02
@@ -916,16 +929,29 @@ technologies = {
 	antiair3 = {
 
 		anti_air = {
-			air_attack = 0.15
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.15
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.15
+			air_attack = 0.1
 		}
-		category_self_propelled_anti_air = {
-			air_attack = 0.15
+
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
 		}
 
 		tech_air_damage_factor = -0.02
@@ -970,16 +996,29 @@ technologies = {
 	antiair4 = {
 
 		anti_air = {
-			air_attack = 0.15
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.15
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.15
+			air_attack = 0.1
 		}
-		category_self_propelled_anti_air = {
-			air_attack = 0.15
+		
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
 		}
 
 		tech_air_damage_factor = -0.02
@@ -1073,16 +1112,29 @@ technologies = {
 	antiair6 = {
 
 		anti_air = {
-			air_attack = 0.10
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.10
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.10
+			air_attack = 0.1
 		}
-		category_self_propelled_anti_air = {
-			air_attack = 0.10
+		
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
 		}
 
 		tech_air_damage_factor = -0.01
@@ -1127,16 +1179,29 @@ technologies = {
 	antiair7 = {
 
 		anti_air = {
-			air_attack = 0.10
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.10
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.10
+			air_attack = 0.1
 		}
-		category_self_propelled_anti_air = {
-			air_attack = 0.10
+		
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
 		}
 
 		tech_air_damage_factor = -0.01
@@ -1264,19 +1329,19 @@ technologies = {
 		}
 
 		anti_tank = {
-			hard_attack = 0.20
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.20
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		mot_anti_tank_brigade = {
-			hard_attack = 0.20
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tank_destroyers = {
-			hard_attack = 0.20
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tanks = {
@@ -1419,19 +1484,19 @@ technologies = {
 			tank_heavy_cannon
 		}
 		anti_tank = {
-			hard_attack = 0.15
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.15
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		mot_anti_tank_brigade = {
-			hard_attack = 0.15
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tank_destroyers = {
-			hard_attack = 0.15
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tanks = {
@@ -1508,19 +1573,19 @@ technologies = {
 		}
 
 		anti_tank = {
-			hard_attack = 0.15
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.15
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		mot_anti_tank_brigade = {
-			hard_attack = 0.15
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tank_destroyers = {
-			hard_attack = 0.15
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tanks = {
@@ -1662,19 +1727,19 @@ technologies = {
 		}
 
 		anti_tank = {
-			hard_attack = 0.10
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.10
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		mot_anti_tank_brigade = {
-			hard_attack = 0.10
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tank_destroyers = {
-			hard_attack = 0.10
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tanks = {
@@ -1745,19 +1810,19 @@ technologies = {
 		}
 
 		anti_tank = {
-			hard_attack = 0.10
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.10
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		mot_anti_tank_brigade = {
-			hard_attack = 0.10
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tank_destroyers = {
-			hard_attack = 0.10
+			hard_attack = 0.1
 			ap_attack = 0.1
 		}
 		category_tanks = {
