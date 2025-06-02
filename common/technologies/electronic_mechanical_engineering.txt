@@ -406,7 +406,7 @@ technologies = {
 		
 		category_all_armor = {
 			breakthrough = 0.10
-			defense = 0.20
+			defense = 0.10
 		}
 
 		research_cost = 1.75
@@ -442,7 +442,7 @@ technologies = {
 		
 		category_all_armor = {
 			breakthrough = 0.10
-			defense = 0.20
+			defense = 0.10
 		}
 
 		research_cost = 1.75
@@ -1066,13 +1066,13 @@ technologies = {
 		}
 		
 		rocket_artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		
 		path = {
@@ -1112,13 +1112,13 @@ technologies = {
 		}
 		
 		rocket_artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		
 		path = {
@@ -1164,13 +1164,13 @@ technologies = {
 		}
 		
 		rocket_artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.10
 		}
 		
 		research_cost = 1.5
