@@ -383,7 +383,7 @@ technologies = {
 	carousel_bombing = {
 
 		xp_research_type = air
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes	
 		research_cost = 3
 
@@ -410,7 +410,7 @@ technologies = {
 	offensive_formations = {
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes	
 		research_cost = 3
 
@@ -433,8 +433,8 @@ technologies = {
 	direct_ground_support = {
 
 		xp_research_type = air
-		xp_unlock_cost = 100
-		doctrine = yes	
+		xp_unlock_cost = 50
+		doctrine = yes
 		research_cost = 3
 
 		# EFFECT ########
@@ -460,7 +460,7 @@ technologies = {
 	low_echelon_support = {
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes	
 		research_cost = 3
 
