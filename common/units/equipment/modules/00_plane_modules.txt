@@ -1895,7 +1895,7 @@ equipment_modules = {
 		abbreviation = "ac22"
 		category = body_air_cannon
 		sfx = sfx_ui_sd_module_turret
-		parent = aircraft_cannon_1_2x_body
+		parent = aircraft_cannon_1_2x
 
 		add_stats = {
 			air_attack = 16
@@ -1963,7 +1963,7 @@ equipment_modules = {
 		abbreviation = "ac22"
 		category = body_air_cannon
 		sfx = sfx_ui_sd_module_turret
-		parent = aircraft_cannon_1_2x_body
+		parent = aircraft_cannon_1_2x
 		add_stats = {
 			air_attack = 24
 			air_agility = -12
