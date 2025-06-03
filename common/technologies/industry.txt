@@ -11,6 +11,10 @@ technologies = {
 #		}
 		air_cas_present_factor = -1.00
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_production_tt
+		}
+
 		path = {
 			leads_to_tech = concentrated_industry 
 			research_cost_coeff = 1
@@ -44,6 +48,10 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.1
 		#equipment_conversion_speed = 0.1
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_production_tt
+		}
+
 		path = {
 			leads_to_tech = advanced_machine_tools 
 			research_cost_coeff = 1
@@ -76,6 +84,10 @@ technologies = {
 	
 		production_factory_max_efficiency_factor = 0.1
 		#equipment_conversion_speed = 0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_production_tt
+		}
 		
 		path = {
 			leads_to_tech = assembly_line_production 
@@ -114,6 +126,10 @@ technologies = {
 	
 		production_factory_max_efficiency_factor = 0.1
 		#equipment_conversion_speed = 0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_production_tt
+		}
 		
 		path = {
 			leads_to_tech = streamlined_line
@@ -150,6 +166,10 @@ technologies = {
 		#equipment_conversion_speed = 0.1
 		#line_change_production_efficiency_factor = 0.2
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_production_tt
+		}
+
 		path = {
 			leads_to_tech = flexible_line2
 			research_cost_coeff = 1
@@ -183,6 +203,10 @@ technologies = {
 
 		production_factory_max_efficiency_factor = 0.1
 		#equipment_conversion_speed = 0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_production_tt
+		}
 		
 		path = {
 			leads_to_tech = flexible_line
@@ -219,6 +243,10 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.1
 		#industrial_capacity_factory = 0.1
 		#line_change_production_efficiency_factor = 0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_production_tt
+		}
 		
 		research_cost = 2.0
 		start_year = 1945
@@ -249,6 +277,10 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.10
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_concentrated_industry_tt
+		}
 
 		xor = {
 			dispersed_industry
@@ -325,7 +357,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			concentrated_industry_category
 		}
 		
@@ -338,6 +369,10 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.10
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_concentrated_industry_tt
+		}
 		
 		path = {
 			leads_to_tech = concentrated_industry3 
@@ -364,7 +399,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			concentrated_industry_category
 		}
 		
@@ -377,6 +411,10 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.10
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_concentrated_industry_tt
+		}
 		
 		path = {
 			leads_to_tech = concentrated_industry4 
@@ -402,7 +440,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			concentrated_industry_category
 		}
 		
@@ -415,6 +452,10 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.10
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_concentrated_industry_tt
+		}
 		
 		path = {
 			leads_to_tech = concentrated_industry5
@@ -440,7 +481,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			concentrated_industry_category
 		}
 		
@@ -453,6 +493,10 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.10
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_concentrated_industry_tt
+		}
 
 		path = {
 			leads_to_tech = concentrated_industry6
@@ -483,7 +527,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			concentrated_industry_category
 		}
 		
@@ -496,6 +539,10 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.10
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_concentrated_industry_tt
+		}
 		
 		path = {
 		
@@ -537,6 +584,10 @@ technologies = {
 		production_factory_start_efficiency_factor = 0.27
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_dispersed_industry_tt
+		}
 
 		xor = {
 			concentrated_industry
@@ -613,7 +664,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			dispersed_industry_category
 		}
 		
@@ -630,6 +680,10 @@ technologies = {
 		production_factory_start_efficiency_factor = 0.23
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_dispersed_industry_tt
+		}
 		
 		path = {
 			leads_to_tech = dispersed_industry3 
@@ -655,7 +709,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			dispersed_industry_category
 		}
 		
@@ -672,6 +725,10 @@ technologies = {
 		production_factory_start_efficiency_factor = 0.19
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_dispersed_industry_tt
+		}
 		
 		path = {
 			leads_to_tech = dispersed_industry4 
@@ -697,7 +754,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech	
 			dispersed_industry_category
 		}
 		
@@ -714,6 +770,10 @@ technologies = {
 		production_factory_start_efficiency_factor = 0.15
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_dispersed_industry_tt
+		}
 		
 		path = {
 			leads_to_tech = dispersed_industry5 
@@ -739,7 +799,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			dispersed_industry_category
 		}
 		
@@ -756,6 +815,10 @@ technologies = {
 		production_factory_start_efficiency_factor = 0.11
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_dispersed_industry_tt
+		}
 		
 		path = {
 			leads_to_tech = dispersed_industry6 
@@ -782,7 +845,6 @@ technologies = {
 		
 		categories = {
 			industry
-			industrial_form_tech
 			dispersed_industry_category
 		}
 		
@@ -799,6 +861,10 @@ technologies = {
 		production_factory_start_efficiency_factor = 0.07
 #		equipment_conversion_speed = 0.45
 #		industry_air_damage_factor = -0.1
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_dispersed_industry_tt
+		}
 		
 		path = {
 		
@@ -838,6 +904,10 @@ technologies = {
 
 		fuel_gain_factor = 1.0
 		fuel_gain_factor_from_states = 0.5
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_synth_resources_tt
+		}
 
 		enable_building = {
 			building = fuel_silo
@@ -940,6 +1010,10 @@ technologies = {
 			building = synthetic_refinery
 			level = 5
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_oil_tt
+		}
 				
 		path = {
 			leads_to_tech = oil_processing 
@@ -997,6 +1071,10 @@ technologies = {
 		
 		fuel_gain_factor_from_states = 0.5
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_oil_tt
+		}
+
 		start_year = 1937
 
 		path = {
@@ -1052,6 +1130,10 @@ technologies = {
 	improved_oil_processing = {
 		
 		fuel_gain_factor_from_states = 0.5
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_oil_tt
+		}
 
 		path = {
 			leads_to_tech = advanced_oil_processing
@@ -1113,11 +1195,15 @@ technologies = {
 
 		fuel_gain_factor_from_states = 0.5
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_oil_tt
+		}
+
 		path = {
 			leads_to_tech = modern_oil_processing
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1941
 		
@@ -1168,6 +1254,10 @@ technologies = {
 
 		fuel_gain_factor_from_states = 0.5
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_oil_tt
+		}
+
 		path = {
 			leads_to_tech = modern_oil_processing2
 			research_cost_coeff = 1
@@ -1213,6 +1303,10 @@ technologies = {
 	modern_oil_processing2 = {
 
 		fuel_gain_factor_from_states = 0.5
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_oil_tt
+		}
 		
 		research_cost = 1.5
 		start_year = 1945
@@ -1255,6 +1349,7 @@ technologies = {
 	rubber_processing = {
 
 		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_rubber_tt
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
@@ -1315,6 +1410,7 @@ technologies = {
 	improved_rubber_processing = {
 
 		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_rubber_tt
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
@@ -1375,6 +1471,7 @@ technologies = {
 	advanced_rubber_processing = {
 
 		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_rubber_tt
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
@@ -1386,7 +1483,7 @@ technologies = {
 			leads_to_tech = modern_rubber_processing
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1941
 		
@@ -1435,6 +1532,7 @@ technologies = {
 	modern_rubber_processing = {
 
 		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_rubber_tt
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
@@ -1487,6 +1585,7 @@ technologies = {
 	modern_rubber_processing2 = {
 
 		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_synth_rubber_tt
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
@@ -1537,6 +1636,10 @@ technologies = {
 		production_speed_buildings_factor = 0.10
 		industry_free_repair_factor = 0.2
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_construction_tt
+		}
+
 		path = {
 			leads_to_tech = construction2
 			research_cost_coeff = 1
@@ -1567,6 +1670,10 @@ technologies = {
 	excavation1 = {
 		
 		local_resources_factor = 0.10
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_excavation_tech_tt
+		}
 		
 		path = {
 			research_cost_coeff = 1
@@ -1624,6 +1731,10 @@ technologies = {
 		production_speed_buildings_factor = 0.10
 		industry_free_repair_factor = 0.2
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_construction_tt
+		}
+
 		path = {
 			leads_to_tech = construction3 
 			research_cost_coeff = 1
@@ -1655,6 +1766,10 @@ technologies = {
 	excavation2 = {
 		
 		local_resources_factor = 0.15
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_excavation_tech_tt
+		}
 		
 		path = {
 			research_cost_coeff = 1
@@ -1712,6 +1827,10 @@ technologies = {
 
 		production_speed_buildings_factor = 0.10
 		industry_free_repair_factor = 0.2
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_construction_tt
+		}
 		
 		path = {
 			leads_to_tech = construction4 
@@ -1755,6 +1874,10 @@ technologies = {
 	excavation3 = {
 		
 		local_resources_factor = 0.20
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_excavation_tech_tt
+		}
 		
 		path = {
 			research_cost_coeff = 1
@@ -1812,6 +1935,10 @@ technologies = {
 
 		production_speed_buildings_factor = 0.10
 		industry_free_repair_factor = 0.2
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_construction_tt
+		}
 		
 		path = {
 			leads_to_tech = construction5 
@@ -1844,6 +1971,10 @@ technologies = {
 	excavation4 = {
 		
 		local_resources_factor = 0.25
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_excavation_tech_tt
+		}
 		
 		path = {
 			research_cost_coeff = 1
@@ -1902,6 +2033,10 @@ technologies = {
 		production_speed_buildings_factor = 0.10
 		industry_free_repair_factor = 0.2
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_construction_tt
+		}
+
 		path = {
 			leads_to_tech = construction6 
 			research_cost_coeff = 1
@@ -1935,6 +2070,10 @@ technologies = {
 		production_speed_buildings_factor = 0.10
 		industry_free_repair_factor = 0.2
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_construction_tt
+		}
+
 		research_cost = 2
 		start_year = 1945
 		
@@ -1961,6 +2100,10 @@ technologies = {
 	excavation5 = {
 		
 		local_resources_factor = 0.30
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_excavation_tech_tt
+		}
 		
 		path = {
 			research_cost_coeff = 1
@@ -2017,6 +2160,10 @@ technologies = {
 	excavation6 = {
 		
 		local_resources_factor = 0.35
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_excavation_tech_tt
+		}
 		
 		path = {
 			research_cost_coeff = 1

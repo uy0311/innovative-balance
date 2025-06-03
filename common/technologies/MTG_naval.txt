@@ -15,6 +15,11 @@ technologies = {
 		enable_equipment_modules = {
 			light_ship_engine_1
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_dd_tech_tt
+		}
+
 		path = {
 			leads_to_tech = basic_ship_hull_light
 			research_cost_coeff = 1
@@ -86,6 +91,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = basic_ship_hull_heavy	}
+
+			custom_effect_tooltip = tcl_dd_tech_tt
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_heavy
@@ -151,6 +158,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_ship_hull_heavy	}
+			
+			custom_effect_tooltip = tcl_dd_tech_tt
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_heavy
@@ -208,6 +217,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = advanced_ship_hull_heavy	}
+			
+			custom_effect_tooltip = tcl_dd_tech_tt
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
@@ -470,6 +481,11 @@ technologies = {
 			cruiser_ship_engine_1
 			ship_armor_cruiser_1
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cruiser_tt
+		}
+
 		path = {
 			leads_to_tech = basic_ship_hull_cruiser
 			research_cost_coeff = 1
@@ -537,6 +553,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = basic_ship_hull_heavy	}
+			
+			custom_effect_tooltip = tcl_cruiser_tt
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_heavy
@@ -599,6 +617,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_ship_hull_heavy	}
+			
+			custom_effect_tooltip = tcl_cruiser_tt
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_heavy
@@ -657,6 +677,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = advanced_ship_hull_heavy	}
+			
+			custom_effect_tooltip = tcl_cruiser_tt
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
@@ -703,6 +725,7 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = airplane_launcher_advice_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 
 
@@ -743,6 +766,7 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = cruiser_armor_advice_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 
 		path = {
@@ -799,6 +823,10 @@ technologies = {
 			ship_armor_bb_1
 			ship_armor_bc_1
 			heavy_ship_engine_1
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_battle_ship_tt
 		}
 
 		path = {
@@ -871,6 +899,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = basic_ship_hull_cruiser	}
+			
+			custom_effect_tooltip = tcl_battle_ship_tt
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_cruiser
@@ -971,6 +1001,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_ship_hull_cruiser	}
+			
+			custom_effect_tooltip = tcl_battle_ship_tt
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_cruiser
@@ -1029,6 +1061,8 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = advanced_ship_hull_cruiser	}
+			
+			custom_effect_tooltip = tcl_battle_ship_tt
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_cruiser
@@ -1078,6 +1112,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_armor_advice_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 		path = {
 			leads_to_tech = improved_heavy_armor_scheme
@@ -1123,6 +1158,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_armor_advice_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 
 		research_cost = 2.0
@@ -1177,6 +1213,10 @@ early_ship_hull_carrier = {
 			ship_deck_space
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cv_tech_tt
+		}
+
 		path = {
 			leads_to_tech = basic_ship_hull_carrier
 			research_cost_coeff = 1
@@ -1218,6 +1258,11 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			carrier_ship_engine_2
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cv_tech_tt
+		}
+
 		path = {
 			leads_to_tech = improved_ship_hull_carrier
 			research_cost_coeff = 1
@@ -1259,6 +1304,11 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			carrier_ship_engine_3
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cv_tech_tt
+		}
+
 		path = {
 			leads_to_tech = advanced_ship_hull_carrier
 			research_cost_coeff = 1
@@ -1300,6 +1350,11 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			carrier_ship_engine_4
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cv_tech_tt
+		}
+
 		research_cost = 2.0
 
 		start_year = 1944
@@ -1344,6 +1399,10 @@ early_ship_hull_carrier = {
 			sub_ship_engine_1
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ss_tech_tt
+		}
+
 		path = {
 			leads_to_tech = basic_ship_hull_submarine
 			research_cost_coeff = 1
@@ -1384,6 +1443,11 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			sub_ship_engine_2
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ss_tech_tt
+		}
+
 		path = {
 			leads_to_tech = improved_ship_hull_submarine
 			research_cost_coeff = 1
@@ -1433,6 +1497,10 @@ early_ship_hull_carrier = {
 			sub_ship_engine_3
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ss_tech_tt
+		}
+
 		path = {
 			leads_to_tech = advanced_ship_hull_submarine
 			research_cost_coeff = 1
@@ -1474,8 +1542,12 @@ early_ship_hull_carrier = {
 			sub_ship_engine_4
 		}
 
-		research_cost = 2.0
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ss_tech_tt
+		}
 
+		research_cost = 2.0
+		
 		start_year = 1944
 
 		folder = {
@@ -1506,12 +1578,14 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			ship_sub_snorkel_1
 		}
+
 		path = {
 			leads_to_tech = improved_submarine_snorkel
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
 			custom_effect_tooltip = snorkel_advice_tt
+			custom_effect_tooltip = tcl_snorkel_tt
 		}
 		research_cost = 0.5
 
@@ -1556,6 +1630,7 @@ early_ship_hull_carrier = {
 
 		on_research_complete = {
 			custom_effect_tooltip = snorkel_advice_tt
+			custom_effect_tooltip = tcl_snorkel_tt
 		}
 		path = {
 			leads_to_tech = improved_submarine_snorkel
@@ -1651,8 +1726,18 @@ early_ship_hull_carrier = {
 		enable_equipments = {
 			ship_hull_cruiser_submarine
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_ss_tech_tt
+		}
+
 		research_cost = 1.5
 		start_year = 1938
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
 		
 	}
 	midget_submarines = {

@@ -14,7 +14,7 @@ ideas = {
 		dive_bombing_spirit = {
 			ledger = air
 			research_bonus = {
-				light_air = 0.15
+				light_air = 0.1
 			}
 			# modifier = {
 			# 	small_plane_cas_airframe_design_cost_factor = -0.75
@@ -29,7 +29,7 @@ ideas = {
 		material_destruction_spirit = {
 			ledger = air
 			research_bonus = {
-				medium_air = 0.15
+				medium_air = 0.1
 			}
 			# modifier = {
 			# 	medium_plane_airframe_design_cost_factor = -0.75
@@ -43,7 +43,7 @@ ideas = {
 		industrial_destruction_spirit = {
 			ledger = air
 			research_bonus = {
-				heavy_air = 0.15
+				heavy_air = 0.1
 			}
 			# modifier = {
 			# 	large_plane_airframe_design_cost_factor = -0.75
@@ -57,8 +57,8 @@ ideas = {
 		industry_liasons_spirit = {
 			ledger = air
 			research_bonus = {
-				cat_air_engine = 0.10
-				cat_air_guns = 0.10
+				cat_air_engine = 0.1
+				cat_air_guns = 0.1
 			}
 			ai_will_do = {
 				factor = 1
