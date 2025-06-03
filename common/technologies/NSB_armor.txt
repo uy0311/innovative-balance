@@ -45,30 +45,9 @@ technologies = {
 			medium_armor
 			heavy_armor
 		}
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = light_armor }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = medium_armor }
-		}
+
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = tcl_gwtank_tt
 		}
 
 		path = {
@@ -119,7 +98,8 @@ technologies = {
 
 		categories = {
 			armor
-			cat_light_armor
+			cat_medium_armor
+			cat_heavy_armor
 		}
 	}
 
@@ -137,30 +117,8 @@ technologies = {
 			light_armor
 		}
 
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = light_armor }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = medium_armor }
-		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
 
 		path = {
@@ -231,6 +189,7 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = basic_medium_tank_chassis	}
+			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
 		dependencies = {
 			basic_light_tank_chassis = 1
@@ -306,6 +265,7 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_medium_tank_chassis	}
+			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
 		dependencies = {
 			improved_light_tank_chassis = 1
@@ -375,6 +335,7 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_light_tank_chassis	}
+			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
 			gwtank_chassis = 1
@@ -462,6 +423,7 @@ technologies = {
 
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = improved_heavy_tank_chassis	}
+			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
 			basic_medium_tank_chassis = 1
@@ -543,6 +505,7 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = advanced_heavy_tank_chassis	}
+			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
 			improved_medium_tank_chassis = 1
@@ -598,6 +561,10 @@ technologies = {
 			modern_armor
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_medium_armor_tt
+		}
+
 		research_cost = 2.5
 		start_year = 1945
 
@@ -649,30 +616,8 @@ technologies = {
 			heavy_armor
 		}
 
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = light_armor }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = medium_armor }
-		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 
 		path = {
@@ -730,6 +675,10 @@ technologies = {
 			heavy_tank_artillery_chassis_2
 			heavy_tank_aa_chassis_2
 			
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 
 		path = {
@@ -810,6 +759,7 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			bonus = 0.5	technology = advanced_medium_tank_chassis	}
+			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 		dependencies = {
 			improved_heavy_tank_chassis = 1
@@ -867,6 +817,10 @@ technologies = {
 			tank_super_heavy_three_man_tank_turret_mg
 			tank_super_heavy_four_man_tank_turret
 			tank_super_heavy_four_man_tank_turret_mg
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 
 		research_cost = 2.5
@@ -950,6 +904,10 @@ technologies = {
 			tank_welded_half_sloped_armor
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
+		}
+
 		path = {
 			leads_to_tech = armor_tech_2
 			research_cost_coeff = 1
@@ -1008,6 +966,11 @@ technologies = {
 			tank_cast_half_sloped_armor
 			spare_tracks
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
+		}
+
 		path = {
 			leads_to_tech = armor_tech_3
 			research_cost_coeff = 1
@@ -1065,6 +1028,10 @@ technologies = {
 			tank_cast_sloped_armor
 			tank_welded_sloped_armor
 			additional_frontal_armor
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
 		}
 
 		path = {
@@ -1131,6 +1098,10 @@ technologies = {
 			armor_skirts
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
+		}
+
 		#on_research_complete = {
 		#	custom_effect_tooltip = armor_tech_4_tt
 		#}
@@ -1185,6 +1156,7 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_1_tt
+			custom_effect_tooltip = tcl_cat_tank_module_tt
 		}
 		show_effect_as_desc = yes
 		research_cost = 1.0
@@ -1244,6 +1216,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_2_tt
+			custom_effect_tooltip = tcl_cat_tank_module_tt
 		}
 		show_effect_as_desc = yes
 
@@ -1300,6 +1273,7 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_3_tt
+			custom_effect_tooltip = tcl_cat_tank_module_tt
 		}
 		show_effect_as_desc = yes
 		research_cost = 1.0
@@ -1354,6 +1328,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt
+			custom_effect_tooltip = tcl_cat_tank_module_tt
 		}
 		show_effect_as_desc = yes
 		ai_will_do = {
@@ -1403,6 +1378,10 @@ technologies = {
 			wet_ammo_storage
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
+		}
+
 		path = {
 			leads_to_tech = tankammo_tech_2
 			research_cost_coeff = 1
@@ -1428,6 +1407,10 @@ technologies = {
 			extra_ammo_storage
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
+		}
+
 		categories = {
 			armor
 			cat_tank_module
@@ -1445,6 +1428,10 @@ technologies = {
 
 		enable_equipment_modules = {
 			squeezebore_adaptor
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
 		}
 
 		path = {
@@ -1470,6 +1457,10 @@ technologies = {
 			stabilizer
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
+		}
+
 		path = {
 			leads_to_tech = cannon_tech_3
 			research_cost_coeff = 1
@@ -1491,6 +1482,10 @@ technologies = {
 
 		enable_equipment_modules = {
 			auto_loader
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
 		}
 
 		path = {
@@ -1520,6 +1515,10 @@ technologies = {
 			easy_maintenance
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
+		}
+
 		path = {
 			leads_to_tech = tankother_2
 			research_cost_coeff = 1
@@ -1542,6 +1541,11 @@ technologies = {
 		enable_equipment_modules = { 
 			equipment_for_engineers
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
+		}
+		
 		path = {
 			leads_to_tech = tankother_3
 			research_cost_coeff = 1
@@ -1562,6 +1566,10 @@ technologies = {
 
 		enable_equipment_modules = { 
 			smoke_launchers
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = tcl_cat_tank_module_tt
 		}
 
 		categories = {
