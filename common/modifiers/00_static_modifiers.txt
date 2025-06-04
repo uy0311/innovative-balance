@@ -358,8 +358,8 @@ air_wing_experience_malus_min = {
 ship_experience_bonus_max = {
 	naval_hit_chance = 0.3
 	naval_critical_effect_factor = -0.3
-	navy_org_factor = 0.015
-	naval_morale_factor = 0.015
+	navy_org_factor = 0.15
+	naval_morale_factor = 0.15
 }
 
 ship_experience_malus_min = {
@@ -368,8 +368,8 @@ ship_experience_malus_min = {
 }
 
 carrier_experience_bonus_max = {
-	navy_org_factor = 0.015
-	naval_morale_factor = 0.015
+	navy_org_factor = 0.15
+	naval_morale_factor = 0.15
 }
 
 carrier_experience_malus_min = {
