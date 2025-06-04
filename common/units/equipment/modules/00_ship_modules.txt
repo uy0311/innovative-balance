@@ -1264,8 +1264,8 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 1350
-			max_strength = 30
-			hg_attack = 9.5
+			max_strength = 30.0
+			hg_attack = 10.0
 			naval_heavy_gun_hit_chance_factor = 0.025
 			surface_visibility = 0.3
 			reliability = -0.05
@@ -1315,6 +1315,74 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_14in_x2 = {
+		abbreviation = "saf"
+		category = front_battery_14in_x2
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1350
+			max_strength = 30.0
+			hg_attack = 10.0
+			naval_heavy_gun_hit_chance_factor = 0.025
+			surface_visibility = 0.3
+			reliability = -0.05
+		}
+		multiply_stats = {
+			naval_speed = -0.15
+		}
+		
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_14in_x2 = {
+		abbreviation = "saf"
+		category = mid_battery_14in_x2
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1350
+			max_strength = 30.0
+			hg_attack = 10.0
+			naval_heavy_gun_hit_chance_factor = 0.025
+			surface_visibility = 0.3
+			reliability = -0.05
+		}
+		multiply_stats = {
+			naval_speed = -0.15
+		}
+		forbid_module_categories = {
+			rear_battery_14in_x3
+			rear_battery_14in_x4
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_14in_x2 = {
+		abbreviation = "saf"
+		category = rear_battery_14in_x2
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1350
+			max_strength = 30.0
+			hg_attack = 10.0
+			naval_heavy_gun_hit_chance_factor = 0.025
+			surface_visibility = 0.3
+			reliability = -0.05
+		}
+		multiply_stats = {
+			naval_speed = -0.15
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 	ship_base_battery_14in_x3 = {
 		abbreviation = "sag"
 		category = battery_base_14in
@@ -1324,8 +1392,8 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 1800
-			max_strength = 33
-			hg_attack = 14.25
+			max_strength = 33.0
+			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = 0.0375
 			surface_visibility = 0.33
 			reliability = -0.055
@@ -1375,6 +1443,88 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_14in_x3 = {
+		abbreviation = "sag"
+		category = front_battery_14in_x3
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1800
+			max_strength = 33.0
+			hg_attack = 15.0
+			naval_heavy_gun_hit_chance_factor = 0.0375
+			surface_visibility = 0.33
+			reliability = -0.055
+		}
+		multiply_stats = {
+			naval_speed = -0.165
+		}
+		forbid_module_categories = {
+			front_battery_14in_x4
+			mid_battery_14in_x4
+			rear_battery_14in_x4
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_14in_x3 = {
+		abbreviation = "sag"
+		category = mid_battery_14in_x3
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1800
+			max_strength = 33.0
+			hg_attack = 15.0
+			naval_heavy_gun_hit_chance_factor = 0.0375
+			surface_visibility = 0.33
+			reliability = -0.055
+		}
+		multiply_stats = {
+			naval_speed = -0.165
+		}
+		forbid_module_categories = {
+			front_battery_14in_x4
+			mid_battery_14in_x4
+			rear_battery_14in_x4
+
+			mid_battery_14in_x2
+			rear_battery_14in_x3
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_14in_x3 = {
+		abbreviation = "sag"
+		category = rear_battery_14in_x3
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1800
+			max_strength = 33.0
+			hg_attack = 15.0
+			naval_heavy_gun_hit_chance_factor = 0.0375
+			surface_visibility = 0.33
+			reliability = -0.055
+		}
+		multiply_stats = {
+			naval_speed = -0.165
+		}
+		forbid_module_categories = {
+			front_battery_14in_x4
+			mid_battery_14in_x4
+			rear_battery_14in_x4
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 	ship_base_battery_14in_x4 = {
 		abbreviation = "sag"
 		category = battery_base_14in
@@ -1385,7 +1535,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2250
 			max_strength = 36.0
-			hg_attack = 19.0
+			hg_attack = 20.0
 			naval_heavy_gun_hit_chance_factor = 0.05
 			surface_visibility = 0.36
 			reliability = -0.06
@@ -1435,6 +1585,90 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_14in_x4 = {
+		abbreviation = "sag"
+		category = front_battery_14in_x4
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2250
+			max_strength = 36.0
+			hg_attack = 20.0
+			naval_heavy_gun_hit_chance_factor = 0.05
+			surface_visibility = 0.36
+			reliability = -0.06
+		}
+		multiply_stats = {
+			naval_speed = -0.18
+		}
+		forbid_module_categories = {
+			front_battery_14in_x3
+			mid_battery_14in_x3
+			rear_battery_14in_x3
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_14in_x4 = {
+		abbreviation = "sag"
+		category = mid_battery_14in_x4
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2250
+			max_strength = 36.0
+			hg_attack = 20.0
+			naval_heavy_gun_hit_chance_factor = 0.05
+			surface_visibility = 0.36
+			reliability = -0.06
+		}
+		multiply_stats = {
+			naval_speed = -0.18
+		}
+		forbid_module_categories = {
+			front_battery_14in_x3
+			mid_battery_14in_x3
+			rear_battery_14in_x3
+
+			mid_battery_14in_x2
+			rear_battery_14in_x4
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_14in_x4 = {
+		abbreviation = "sag"
+		category = rear_battery_14in_x4
+		gui_category = ship_14in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2250
+			max_strength = 36.0
+			hg_attack = 20.0
+			naval_heavy_gun_hit_chance_factor = 0.05
+			surface_visibility = 0.36
+			reliability = -0.06
+		}
+		multiply_stats = {
+			naval_speed = -0.18
+		}
+		forbid_module_categories = {
+			front_battery_14in_x3
+			mid_battery_14in_x3
+			rear_battery_14in_x3
+
+			rear_battery_14in_x2
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 
 	ship_base_battery_15in_x2 = {
 		abbreviation = "sah"
@@ -1445,8 +1679,8 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 1710
-			max_strength = 35
-			hg_attack = 10.5
+			max_strength = 35.0
+			hg_attack = 12.2
 			naval_heavy_gun_hit_chance_factor = -0.03
 			surface_visibility = 0.35
 			reliability = -0.055
@@ -1500,6 +1734,73 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_15in_x2 = {
+		abbreviation = "sah"
+		category = front_battery_15in_x2
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1710
+			max_strength = 35.0
+			hg_attack = 12.2
+			naval_heavy_gun_hit_chance_factor = 0.02
+			surface_visibility = 0.35
+			reliability = -0.055
+		}
+		multiply_stats = {
+			naval_speed = -0.175
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_15in_x2 = {
+		abbreviation = "sah"
+		category = mid_battery_15in_x2
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1710
+			max_strength = 35.0
+			hg_attack = 12.2
+			naval_heavy_gun_hit_chance_factor = 0.02
+			surface_visibility = 0.35
+			reliability = -0.055
+		}
+		multiply_stats = {
+			naval_speed = -0.175
+		}
+		forbid_module_categories = {
+			rear_battery_15in_x2
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_15in_x2 = {
+		abbreviation = "sah"
+		category = rear_battery_15in_x2
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 1710
+			max_strength = 35.0
+			hg_attack = 12.2
+			naval_heavy_gun_hit_chance_factor = 0.02
+			surface_visibility = 0.35
+			reliability = -0.055
+		}
+		multiply_stats = {
+			naval_speed = -0.175
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 	ship_base_battery_15in_x3 = {
 		abbreviation = "sai"
 		category = battery_base_15in
@@ -1510,7 +1811,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2340
 			max_strength = 38.5
-			hg_attack = 15.75
+			hg_attack = 18.3
 			naval_heavy_gun_hit_chance_factor = -0.02
 			surface_visibility = 0.385
 			reliability = -0.0605
@@ -1564,6 +1865,73 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_15in_x3 = {
+		abbreviation = "sai"
+		category = front_battery_15in_x3
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2340
+			max_strength = 38.5
+			hg_attack = 18.3
+			naval_heavy_gun_hit_chance_factor = 0.03
+			surface_visibility = 0.385
+			reliability = -0.0605
+		}
+		multiply_stats = {
+			naval_speed = -0.1925
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_15in_x3 = {
+		abbreviation = "sai"
+		category = mid_battery_15in_x3
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2340
+			max_strength = 38.5
+			hg_attack = 18.3
+			naval_heavy_gun_hit_chance_factor = 0.03
+			surface_visibility = 0.385
+			reliability = -0.0605
+		}
+		multiply_stats = {
+			naval_speed = -0.1925
+		}
+		forbid_module_categories = {
+			rear_battery_15in_x3
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_15in_x3 = {
+		abbreviation = "sai"
+		category = rear_battery_15in_x3
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2340
+			max_strength = 38.5
+			hg_attack = 18.3
+			naval_heavy_gun_hit_chance_factor = 0.03
+			surface_visibility = 0.385
+			reliability = -0.0605
+		}
+		multiply_stats = {
+			naval_speed = -0.1925
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 	ship_base_battery_15in_x4 = {
 		abbreviation = "sai"
 		category = battery_base_15in
@@ -1574,7 +1942,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2850
 			max_strength = 42.0
-			hg_attack = 21.0
+			hg_attack = 24.4
 			naval_heavy_gun_hit_chance_factor = -0.01
 			surface_visibility = 0.42
 			reliability = -0.071
@@ -1628,6 +1996,73 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_15in_x4 = {
+		abbreviation = "sai"
+		category = front_battery_15in_x4
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2850
+			max_strength = 42.0
+			hg_attack = 24.4
+			naval_heavy_gun_hit_chance_factor = 0.04
+			surface_visibility = 0.42
+			reliability = -0.071
+		}
+		multiply_stats = {
+			naval_speed = -0.21
+		}
+		forbid_module_categories = {
+			rear_battery_15in_x4
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_15in_x4 = {
+		abbreviation = "sai"
+		category = mid_battery_15in_x4
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2850
+			max_strength = 42.0
+			hg_attack = 24.4
+			naval_heavy_gun_hit_chance_factor = 0.04
+			surface_visibility = 0.42
+			reliability = -0.071
+		}
+		multiply_stats = {
+			naval_speed = -0.21
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_15in_x4 = {
+		abbreviation = "sai"
+		category = rear_battery_15in_x4
+		gui_category = ship_15in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2850
+			max_strength = 42.0
+			hg_attack = 24.4
+			naval_heavy_gun_hit_chance_factor = 0.04
+			surface_visibility = 0.42
+			reliability = -0.071
+		}
+		multiply_stats = {
+			naval_speed = -0.21
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 
 	ship_base_battery_16in_x2 = {
 		abbreviation = "saf"
@@ -1638,8 +2073,8 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 2025
-			max_strength = 40
-			hg_attack = 12.0
+			max_strength = 40.0
+			hg_attack = 13.6
 			naval_heavy_gun_hit_chance_factor = -0.085
 			surface_visibility = 0.4
 			reliability = -0.06
@@ -1693,6 +2128,73 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_16in_x2 = {
+		abbreviation = "saf"
+		category = front_battery_16in_x2
+		gui_category = ship_16in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2025
+			max_strength = 40.0
+			hg_attack = 13.6
+			naval_heavy_gun_hit_chance_factor = 0.015
+			surface_visibility = 0.4
+			reliability = -0.06
+		}
+		multiply_stats = {
+			naval_speed = -0.20
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_16in_x2 = {
+		abbreviation = "saf"
+		category = mid_battery_16in_x2
+		gui_category = ship_16in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2025
+			max_strength = 40.0
+			hg_attack = 13.6
+			naval_heavy_gun_hit_chance_factor = 0.015
+			surface_visibility = 0.4
+			reliability = -0.06
+		}
+		multiply_stats = {
+			naval_speed = -0.20
+		}
+		forbid_module_categories = {
+			rear_battery_16in_x2
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_16in_x2 = {
+		abbreviation = "saf"
+		category = rear_battery_16in_x2 
+		gui_category = ship_16in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2025
+			max_strength = 40.0
+			hg_attack = 13.6
+			naval_heavy_gun_hit_chance_factor = 0.015
+			surface_visibility = 0.4
+			reliability = -0.06
+		}
+		multiply_stats = {
+			naval_speed = -0.20
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 	ship_base_battery_16in_x3 = {
 		abbreviation = "sag"
 		category = battery_base_16in
@@ -1702,8 +2204,8 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 2700
-			max_strength = 44
-			hg_attack = 18.0
+			max_strength = 44.0
+			hg_attack = 20.4
 			naval_heavy_gun_hit_chance_factor = -0.0775
 			surface_visibility = 0.44
 			reliability = -0.066
@@ -1757,6 +2259,73 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_16in_x3 = {
+		abbreviation = "sag"
+		category = front_battery_16in_x3
+		gui_category = ship_16in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2700
+			max_strength = 44.0
+			hg_attack = 20.4
+			naval_heavy_gun_hit_chance_factor = 0.0225
+			surface_visibility = 0.44
+			reliability = -0.066
+		}
+		multiply_stats = {
+			naval_speed = -0.22
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_16in_x3 = {
+		abbreviation = "sag"
+		category = mid_battery_16in_x3
+		gui_category = ship_16in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2700
+			max_strength = 44.0
+			hg_attack = 20.4
+			naval_heavy_gun_hit_chance_factor = 0.0225
+			surface_visibility = 0.44
+			reliability = -0.066
+		}
+		multiply_stats = {
+			naval_speed = -0.22
+		}
+		forbid_module_categories = {
+			rear_battery_16in_x3
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_16in_x3 = {
+		abbreviation = "sag"
+		category = rear_battery_16in_x3 
+		gui_category = ship_16in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2700
+			max_strength = 44.0
+			hg_attack = 20.4
+			naval_heavy_gun_hit_chance_factor = 0.0225
+			surface_visibility = 0.44
+			reliability = -0.066
+		}
+		multiply_stats = {
+			naval_speed = -0.22
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 
 	ship_base_battery_18in_x2 = {
 		abbreviation = "sah"
@@ -1767,8 +2336,8 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 2430
-			max_strength = 45
-			hg_attack = 13.0
+			max_strength = 45.0
+			hg_attack = 14.0
 			naval_heavy_gun_hit_chance_factor = -0.14
 			surface_visibility = 0.45
 			reliability = -0.065
@@ -1822,6 +2391,73 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
+	ship_front_battery_18in_x2 = {
+		abbreviation = "sah"
+		category = front_battery_18in_x2
+		gui_category = ship_18in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2430
+			max_strength = 45.0
+			hg_attack = 14.0
+			naval_heavy_gun_hit_chance_factor = 0.01
+			surface_visibility = 0.45
+			reliability = -0.065
+		}
+		multiply_stats = {
+			naval_speed = -0.225
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_mid_battery_18in_x2 = {
+		abbreviation = "sah"
+		category = mid_battery_18in_x2
+		gui_category = ship_18in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2430
+			max_strength = 45.0
+			hg_attack = 14.0
+			naval_heavy_gun_hit_chance_factor = 0.01
+			surface_visibility = 0.45
+			reliability = -0.065
+		}
+		multiply_stats = {
+			naval_speed = -0.225
+		}
+		forbid_module_categories = {
+			rear_battery_18in_x2
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_rear_battery_18in_x2 = {
+		abbreviation = "sah"
+		category = rear_battery_18in_x2
+		gui_category = ship_18in_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			build_cost_ic = 2430
+			max_strength = 45.0
+			hg_attack = 14.0
+			naval_heavy_gun_hit_chance_factor = 0.01
+			surface_visibility = 0.45
+			reliability = -0.065
+		}
+		multiply_stats = {
+			naval_speed = -0.225
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
 	ship_base_battery_18in_x3 = {
 		abbreviation = "sai"
 		category = battery_base_18in
@@ -1832,7 +2468,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 3240
 			max_strength = 49.5
-			hg_attack = 19.5
+			hg_attack = 21.0
 			naval_heavy_gun_hit_chance_factor = -0.135
 			surface_visibility = 0.495
 			reliability = -0.0715
@@ -1886,637 +2522,6 @@ equipment_modules = {
 
 		critical_parts = { damaged_heavy_guns }
 	}
-
-	ship_front_battery_14in_x2 = {
-		abbreviation = "saf"
-		category = front_battery_14in_x2
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1350
-			max_strength = 30
-			hg_attack = 9.5
-			naval_heavy_gun_hit_chance_factor = 0.025
-			surface_visibility = 0.3
-			reliability = -0.05
-		}
-		multiply_stats = {
-			naval_speed = -0.15
-		}
-		
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_14in_x2 = {
-		abbreviation = "saf"
-		category = mid_battery_14in_x2
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1350
-			max_strength = 30
-			hg_attack = 9.5
-			naval_heavy_gun_hit_chance_factor = 0.025
-			surface_visibility = 0.3
-			reliability = -0.05
-		}
-		multiply_stats = {
-			naval_speed = -0.15
-		}
-		forbid_module_categories = {
-			rear_battery_14in_x3
-			rear_battery_14in_x4
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_14in_x2 = {
-		abbreviation = "saf"
-		category = rear_battery_14in_x2
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1350
-			max_strength = 30
-			hg_attack = 9.5
-			naval_heavy_gun_hit_chance_factor = 0.025
-			surface_visibility = 0.3
-			reliability = -0.05
-		}
-		multiply_stats = {
-			naval_speed = -0.15
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_front_battery_14in_x3 = {
-		abbreviation = "sag"
-		category = front_battery_14in_x3
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1800
-			max_strength = 33
-			hg_attack = 14.25
-			naval_heavy_gun_hit_chance_factor = 0.0375
-			surface_visibility = 0.33
-			reliability = -0.055
-		}
-		multiply_stats = {
-			naval_speed = -0.165
-		}
-		forbid_module_categories = {
-			front_battery_14in_x4
-			mid_battery_14in_x4
-			rear_battery_14in_x4
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_14in_x3 = {
-		abbreviation = "sag"
-		category = mid_battery_14in_x3
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1800
-			max_strength = 33
-			hg_attack = 14.25
-			naval_heavy_gun_hit_chance_factor = 0.0375
-			surface_visibility = 0.33
-			reliability = -0.055
-		}
-		multiply_stats = {
-			naval_speed = -0.165
-		}
-		forbid_module_categories = {
-			front_battery_14in_x4
-			mid_battery_14in_x4
-			rear_battery_14in_x4
-
-			mid_battery_14in_x2
-			rear_battery_14in_x3
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_14in_x3 = {
-		abbreviation = "sag"
-		category = rear_battery_14in_x3
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1800
-			max_strength = 33
-			hg_attack = 14.25
-			naval_heavy_gun_hit_chance_factor = 0.0375
-			surface_visibility = 0.33
-			reliability = -0.055
-		}
-		multiply_stats = {
-			naval_speed = -0.165
-		}
-		forbid_module_categories = {
-			front_battery_14in_x4
-			mid_battery_14in_x4
-			rear_battery_14in_x4
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_front_battery_14in_x4 = {
-		abbreviation = "sag"
-		category = front_battery_14in_x4
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2250
-			max_strength = 36.0
-			hg_attack = 19.0
-			naval_heavy_gun_hit_chance_factor = 0.05
-			surface_visibility = 0.36
-			reliability = -0.06
-		}
-		multiply_stats = {
-			naval_speed = -0.18
-		}
-		forbid_module_categories = {
-			front_battery_14in_x3
-			mid_battery_14in_x3
-			rear_battery_14in_x3
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_14in_x4 = {
-		abbreviation = "sag"
-		category = mid_battery_14in_x4
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2250
-			max_strength = 36.0
-			hg_attack = 19.0
-			naval_heavy_gun_hit_chance_factor = 0.05
-			surface_visibility = 0.36
-			reliability = -0.06
-		}
-		multiply_stats = {
-			naval_speed = -0.18
-		}
-		forbid_module_categories = {
-			front_battery_14in_x3
-			mid_battery_14in_x3
-			rear_battery_14in_x3
-
-			mid_battery_14in_x2
-			rear_battery_14in_x4
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_14in_x4 = {
-		abbreviation = "sag"
-		category = rear_battery_14in_x4
-		gui_category = ship_14in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2250
-			max_strength = 36.0
-			hg_attack = 19.0
-			naval_heavy_gun_hit_chance_factor = 0.05
-			surface_visibility = 0.36
-			reliability = -0.06
-		}
-		multiply_stats = {
-			naval_speed = -0.18
-		}
-		forbid_module_categories = {
-			front_battery_14in_x3
-			mid_battery_14in_x3
-			rear_battery_14in_x3
-
-			rear_battery_14in_x2
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-
-	ship_front_battery_15in_x2 = {
-		abbreviation = "sah"
-		category = front_battery_15in_x2
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1710
-			max_strength = 35
-			hg_attack = 10.5
-			naval_heavy_gun_hit_chance_factor = 0.02
-			surface_visibility = 0.35
-			reliability = -0.055
-		}
-		multiply_stats = {
-			naval_speed = -0.175
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_15in_x2 = {
-		abbreviation = "sah"
-		category = mid_battery_15in_x2
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1710
-			max_strength = 35
-			hg_attack = 10.5
-			naval_heavy_gun_hit_chance_factor = 0.02
-			surface_visibility = 0.35
-			reliability = -0.055
-		}
-		multiply_stats = {
-			naval_speed = -0.175
-		}
-		forbid_module_categories = {
-			rear_battery_15in_x2
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_15in_x2 = {
-		abbreviation = "sah"
-		category = rear_battery_15in_x2
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 1710
-			max_strength = 35
-			hg_attack = 10.5
-			naval_heavy_gun_hit_chance_factor = 0.02
-			surface_visibility = 0.35
-			reliability = -0.055
-		}
-		multiply_stats = {
-			naval_speed = -0.175
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_front_battery_15in_x3 = {
-		abbreviation = "sai"
-		category = front_battery_15in_x3
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2340
-			max_strength = 38.5
-			hg_attack = 15.75
-			naval_heavy_gun_hit_chance_factor = 0.03
-			surface_visibility = 0.385
-			reliability = -0.0605
-		}
-		multiply_stats = {
-			naval_speed = -0.1925
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_15in_x3 = {
-		abbreviation = "sai"
-		category = mid_battery_15in_x3
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2340
-			max_strength = 38.5
-			hg_attack = 15.75
-			naval_heavy_gun_hit_chance_factor = 0.03
-			surface_visibility = 0.385
-			reliability = -0.0605
-		}
-		multiply_stats = {
-			naval_speed = -0.1925
-		}
-		forbid_module_categories = {
-			rear_battery_15in_x3
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_15in_x3 = {
-		abbreviation = "sai"
-		category = rear_battery_15in_x3
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2340
-			max_strength = 38.5
-			hg_attack = 15.75
-			naval_heavy_gun_hit_chance_factor = 0.03
-			surface_visibility = 0.385
-			reliability = -0.0605
-		}
-		multiply_stats = {
-			naval_speed = -0.1925
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_front_battery_15in_x4 = {
-		abbreviation = "sai"
-		category = front_battery_15in_x4
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2850
-			max_strength = 42.0
-			hg_attack = 21.0
-			naval_heavy_gun_hit_chance_factor = 0.04
-			surface_visibility = 0.42
-			reliability = -0.071
-		}
-		multiply_stats = {
-			naval_speed = -0.21
-		}
-		forbid_module_categories = {
-			rear_battery_15in_x4
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_15in_x4 = {
-		abbreviation = "sai"
-		category = mid_battery_15in_x4
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2850
-			max_strength = 42.0
-			hg_attack = 21.0
-			naval_heavy_gun_hit_chance_factor = 0.04
-			surface_visibility = 0.42
-			reliability = -0.071
-		}
-		multiply_stats = {
-			naval_speed = -0.21
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_15in_x4 = {
-		abbreviation = "sai"
-		category = rear_battery_15in_x4
-		gui_category = ship_15in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2850
-			max_strength = 42.0
-			hg_attack = 21.0
-			naval_heavy_gun_hit_chance_factor = 0.04
-			surface_visibility = 0.42
-			reliability = -0.071
-		}
-		multiply_stats = {
-			naval_speed = -0.21
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-
-	ship_front_battery_16in_x2 = {
-		abbreviation = "saf"
-		category = front_battery_16in_x2
-		gui_category = ship_16in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2025
-			max_strength = 40
-			hg_attack = 12.0
-			naval_heavy_gun_hit_chance_factor = 0.015
-			surface_visibility = 0.4
-			reliability = -0.06
-		}
-		multiply_stats = {
-			naval_speed = -0.20
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_16in_x2 = {
-		abbreviation = "saf"
-		category = mid_battery_16in_x2
-		gui_category = ship_16in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2025
-			max_strength = 40
-			hg_attack = 12.0
-			naval_heavy_gun_hit_chance_factor = 0.015
-			surface_visibility = 0.4
-			reliability = -0.06
-		}
-		multiply_stats = {
-			naval_speed = -0.20
-		}
-		forbid_module_categories = {
-			rear_battery_16in_x2
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_16in_x2 = {
-		abbreviation = "saf"
-		category = rear_battery_16in_x2 
-		gui_category = ship_16in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2025
-			max_strength = 40
-			hg_attack = 12.0
-			naval_heavy_gun_hit_chance_factor = 0.015
-			surface_visibility = 0.4
-			reliability = -0.06
-		}
-		multiply_stats = {
-			naval_speed = -0.20
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_front_battery_16in_x3 = {
-		abbreviation = "sag"
-		category = front_battery_16in_x3
-		gui_category = ship_16in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2700
-			max_strength = 44
-			hg_attack = 18.0
-			naval_heavy_gun_hit_chance_factor = 0.0225
-			surface_visibility = 0.44
-			reliability = -0.066
-		}
-		multiply_stats = {
-			naval_speed = -0.22
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_16in_x3 = {
-		abbreviation = "sag"
-		category = mid_battery_16in_x3
-		gui_category = ship_16in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2700
-			max_strength = 44
-			hg_attack = 18.0
-			naval_heavy_gun_hit_chance_factor = 0.0225
-			surface_visibility = 0.44
-			reliability = -0.066
-		}
-		multiply_stats = {
-			naval_speed = -0.22
-		}
-		forbid_module_categories = {
-			rear_battery_16in_x3
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_16in_x3 = {
-		abbreviation = "sag"
-		category = rear_battery_16in_x3 
-		gui_category = ship_16in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2700
-			max_strength = 44
-			hg_attack = 18.0
-			naval_heavy_gun_hit_chance_factor = 0.0225
-			surface_visibility = 0.44
-			reliability = -0.066
-		}
-		multiply_stats = {
-			naval_speed = -0.22
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-
-	ship_front_battery_18in_x2 = {
-		abbreviation = "sah"
-		category = front_battery_18in_x2
-		gui_category = ship_18in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2430
-			max_strength = 45
-			hg_attack = 13.0
-			naval_heavy_gun_hit_chance_factor = 0.01
-			surface_visibility = 0.45
-			reliability = -0.065
-		}
-		multiply_stats = {
-			naval_speed = -0.225
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_mid_battery_18in_x2 = {
-		abbreviation = "sah"
-		category = mid_battery_18in_x2
-		gui_category = ship_18in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2430
-			max_strength = 45
-			hg_attack = 13.0
-			naval_heavy_gun_hit_chance_factor = 0.01
-			surface_visibility = 0.45
-			reliability = -0.065
-		}
-		multiply_stats = {
-			naval_speed = -0.225
-		}
-		forbid_module_categories = {
-			rear_battery_18in_x2
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
-	ship_rear_battery_18in_x2 = {
-		abbreviation = "sah"
-		category = rear_battery_18in_x2
-		gui_category = ship_18in_battery
-		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
-		
-		add_stats = {
-			build_cost_ic = 2430
-			max_strength = 45
-			hg_attack = 13.0
-			naval_heavy_gun_hit_chance_factor = 0.01
-			surface_visibility = 0.45
-			reliability = -0.065
-		}
-		multiply_stats = {
-			naval_speed = -0.225
-		}
-
-		critical_parts = { damaged_heavy_guns }
-	}
 	ship_front_battery_18in_x3 = {
 		abbreviation = "sai"
 		category = front_battery_18in_x3
@@ -2527,7 +2532,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 3240
 			max_strength = 49.5
-			hg_attack = 19.5
+			hg_attack = 21.0
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.495
 			reliability = -0.0715
@@ -2548,7 +2553,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 3240
 			max_strength = 49.5
-			hg_attack = 19.5
+			hg_attack = 21.0
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.495
 			reliability = -0.0715
@@ -2569,7 +2574,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 3240
 			max_strength = 49.5
-			hg_attack = 19.5
+			hg_attack = 21.0
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.495
 			reliability = -0.0715
