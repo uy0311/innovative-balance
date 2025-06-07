@@ -1635,6 +1635,7 @@ equipment_modules = {
 			rear_battery_14in_x3
 
 			mid_battery_14in_x2
+			rear_battery_14in_x2
 			rear_battery_14in_x4
 		}
 
