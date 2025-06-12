@@ -72,32 +72,36 @@
  delete_ewm_unlock_decision:0 "このディシジョンを全て削除する"
 
 ##陸軍NFツリー##
- equipment_effort: "砲兵への注力"
- equipment_effort_2: "歩兵装備への注力"
- equipment_effort_3: "装甲車両への注力"
- armor_effort: "戦車への注力"
- artillery_research_bonus:0 "砲兵技術の向上"
- artillery_research_bonus_desc:0 "誰かが言った。砲兵が耕し、戦車が種を蒔き、歩兵が収穫する…と。 農業を始めるにはまず鍬が必要である。"
- infantry_weapons_research_bonus:0 "歩兵装備技術の向上"
- infantry_weapons_research_bonus_desc:0 "様々な新兵器が登場しても歩兵は戦争の中心を担う存在であり続けるだろう!"
- anti_tank_research_bonus:0 "対戦車砲技術の向上"
- anti_tank_research_bonus_desc:0 "より優れた初速と貫徹力を誇る対戦車兵器の登場は近年、前線兵士から最も渇望される所である。"
  land_doctrine_research_bonus1:0 "陸軍戦略の発展"
  land_doctrine_research_bonus1_desc:0 "技術進歩の結果誕生した戦車と航空機の複合運用は従来の戦争に革命をもたらすだろう"
+
  land_doctrine_research_bonus2:0 "更なる陸軍戦略の発展"
  land_doctrine_research_bonus2_desc:0 "戦争遂行の為には、これまでの概念に囚われない斬新な視点から物事を観察する必要がある。"
+
+ equipment_effort: "砲兵への注力"
+ artillery_research_bonus:0 "砲兵技術の向上"
+ artillery_research_bonus_desc:0 "誰かが言った。砲兵が耕し、戦車が種を蒔き、歩兵が収穫する…と。 農業を始めるにはまず鍬が必要である。"
+
+ equipment_effort_2: "歩兵装備への注力"
+ infantry_weapons_research_bonus:0 "歩兵装備技術の向上"
+ infantry_weapons_research_bonus_desc:0 "様々な新兵器が登場しても歩兵は戦争の中心を担う存在であり続けるだろう!"
+
+ equipment_effort_3: "支援兵科への注力"
+ support_tech_bonus:0 "支援兵科技術の向上"
+ support_tech_bonus_desc:0 "支援兵科の充実は、戦闘前の陣地の建設から、戦闘中における歩兵の支援など多岐に渡り、軍隊の近代化にとって重要な兵科である。"
+
+ armor_effort: "戦車への注力"
  tank_research_bonus:0 "戦車技術の向上"
  tank_research_bonus_desc:0 "進化した戦車は塹壕突破のみならず、敵防御陣地へ錐のように突撃する陸軍の新たなる矛となる。"
+
+ tank_module_effort:0 "戦車兵装への注力"
+ tank_module_effort_desc:0 "戦間期の様々な机上の空論は度重なる戦闘経験を経て、より実戦的な形で我々の戦車に影響を与えようとしている。革新的な装甲形式や主砲の新機構など、いささか前衛的に思える物でも試してみる価値はあるだろう。" 
  tank_module_research_bonus:0 "戦車兵装技術の向上"
  tank_module_research_bonus_desc:0 "戦車の兵装はその作戦や役割ごとに精鋭化していく必要がある"
- motorized_equipment_research_bonus:0 "装甲技術の向上"
- motorized_equipment_research_bonus_desc:0 "自動車化の波は歩兵まで到達した。 機関銃の掃射に耐えられる装甲を持ち、戦車に随伴可能な車両の開発に注力するべきだ"
- tank_module_effort:0 "戦車兵装への注力"
- tank_module_effort_desc:0 "戦間期の様々な机上の空論は度重なる戦闘経験を経て、より実戦的な形で我々の戦車に影響を与えようとしている。革新的な装甲形式や主砲の新機構など、いささか前衛的に思える物でも試してみる価値はあるだろう。"
- amphibious_tank_effort:0 "上陸への注力"
- amphibious_tank_effort_desc:0 "専門的な訓練を施された海兵隊と新技術の応用により編み出された両用機械化戦力、そして海軍との綿密な計画は有機的な連携を成功させ、大規模上陸作戦の成功の鍵になる。"
- landing_ship_research_bonus:0 "上陸部隊の設立"
- landing_ship_research_bonus_desc:0 "発展した上陸部隊はもはや島嶼部のみでの作戦に留まらず、水陸両用機甲戦力を保持した部隊による敵領土への直接上陸を可能とする。"
+
+ mechanization_equipment_research_bonus:0 "機械化技術の向上"
+ mechanization_equipment_research_bonus_desc:0 "自動車化の波は歩兵まで到達した。 機関銃の掃射に耐えられる装甲を持ち、戦車に随伴可能な車両の開発に注力するべきだ"
+
  special_forces_research_bonus:0 "特殊部隊の設立"
  special_forces_research_bonus_desc:0 "発展した特殊部隊は予想外の進撃を厳しい地形で可能にするだろう。"
 
@@ -110,6 +114,7 @@
  tp_tech_research:0 "上陸用装備研究速度"
  special_forces_tech_bonus:0 "特殊部隊研究速度"
  cat_tank_module_research:0 "戦車モジュール研究速度"
+ cat_mechanized_equipment_research:0 "装甲兵員輸送車研究速度"
 
 ##特殊部隊ドクトリン研究コスト##
  cat_mountaineers_doctrine_cost_factor: "山岳兵ドクトリンコスト"

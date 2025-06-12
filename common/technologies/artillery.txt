@@ -557,7 +557,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_rocketry_tt
+			custom_effect_tooltip = tcl_artillery_tt
 		}
 
 		path = {
@@ -584,7 +584,7 @@ technologies = {
 		}
 
 		categories = {
-			rocketry
+			artillery
 		}
 	}
 
@@ -601,7 +601,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_rocketry_tt
+			custom_effect_tooltip = tcl_artillery_tt
 		}
 
 		path = {
@@ -628,7 +628,7 @@ technologies = {
 		}
 
 		categories = {
-			rocketry
+			artillery
 		}
 	}
 
@@ -645,7 +645,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_rocketry_tt
+			custom_effect_tooltip = tcl_artillery_tt
 		}
 
 		path = {
@@ -672,7 +672,7 @@ technologies = {
 		}
 
 		categories = {
-			rocketry
+			artillery
 		}
 	}
 
@@ -686,7 +686,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_rocketry_tt
+			custom_effect_tooltip = tcl_artillery_tt
 		}
 
 		path = {
@@ -713,7 +713,7 @@ technologies = {
 		}
 
 		categories = {
-			rocketry
+			artillery
 		}
 	}
 
@@ -730,7 +730,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_rocketry_tt
+			custom_effect_tooltip = tcl_artillery_tt
 		}
 
 		path = {
@@ -757,7 +757,7 @@ technologies = {
 		}
 
 		categories = {
-			rocketry
+			artillery
 		}
 	}
 
@@ -774,7 +774,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_rocketry_tt
+			custom_effect_tooltip = tcl_artillery_tt
 		}
 
 		research_cost = 1.5
@@ -796,7 +796,7 @@ technologies = {
 		}
 
 		categories = {
-			rocketry
+			artillery
 		}
 	}
 

@@ -24,6 +24,21 @@ ideas = {
 			}
 		}
 
+		industry_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = generic_industrial_concern_1
+
+			removal_cost = -1
+			
+			research_bonus = {
+				industry = 0.2
+			}
+		}
+
 		ib_new_deal = {
 			
 			
@@ -63,51 +78,6 @@ ideas = {
 				production_speed_air_base_factor = 0.10
 				production_speed_radar_station_factor = 0.10
 				production_speed_fuel_silo_factor = 0.10
-			}
-		}
-		
-		industry_research_bonus = {
-			
-			allowed = {
-				always = no
-			}
-			
-			picture = generic_industrial_concern_1
-
-			removal_cost = -1
-			
-			research_bonus = {
-				industry = 0.2
-			}
-		}
-
-		electronics_research_bonus = {
-			
-			allowed = {
-				always = no
-			}
-			
-			picture = usa_magic
-
-			removal_cost = -1
-			
-			research_bonus = {
-				electronics = 0.5
-			}
-		}
-
-		nukes_research_bonus = {
-			
-			allowed = {
-				always = no
-			}
-			
-			picture = strategic_bombing_focus
-
-			removal_cost = -1
-			
-			research_bonus = {
-				nuclear = 0.8
 			}
 		}
 
@@ -216,6 +186,36 @@ ideas = {
 			}
 		}
 
+		electronics_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = usa_magic
+
+			removal_cost = -1
+			
+			research_bonus = {
+				electronics = 0.5
+			}
+		}
+
+		nukes_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = strategic_bombing_focus
+
+			removal_cost = -1
+			
+			research_bonus = {
+				nuclear = 0.8
+			}
+		}
+
 		artillery_research_bonus = {
 			
 			allowed = {
@@ -250,6 +250,26 @@ ideas = {
 			
 			research_bonus = {
 				infantry_weapons = 0.80
+			}
+
+		}
+
+		support_tech_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = eng_special_air_service
+			
+			research_bonus = {
+				support_tech = 0.80
+				train_tech = 0.80
 			}
 
 		}
@@ -294,6 +314,27 @@ ideas = {
 
 		}
 
+		tank_research_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = generic_acquire_tanks
+			
+			research_bonus = {
+				cat_light_armor = 0.80
+				cat_medium_armor = 0.80
+				cat_heavy_armor = 0.80
+			}
+
+		}
+
 		tank_module_research_bonus = {
 			
 			allowed = {
@@ -313,7 +354,7 @@ ideas = {
 
 		}
 
-		motorized_equipment_research_bonus = {
+		mechanization_equipment_research_bonus = {
 			
 			allowed = {
 				always = no
@@ -327,28 +368,7 @@ ideas = {
 			picture = FRA_motorized_focus
 			
 			research_bonus = {
-				motorized_equipment = 0.80
-			}
-
-		}
-
-		tank_research_bonus = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			picture = generic_acquire_tanks
-			
-			research_bonus = {
-				cat_light_armor = 0.80
-				cat_medium_armor = 0.80
-				cat_heavy_armor = 0.80
+				cat_mechanized_equipment = 0.80
 			}
 
 		}
@@ -415,25 +435,6 @@ ideas = {
 					armored_car_tank_chassis_design_cost_factor = -0.5
 
 				}
-			}
-
-		}
-
-		landing_ship_research_bonus = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			picture = eng_special_air_service
-			
-			research_bonus = {
-				tp_tech = 0.80
 			}
 
 		}
