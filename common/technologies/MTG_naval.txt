@@ -286,8 +286,8 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		research_cost = 0.5
 
 		start_year = 1933
@@ -312,7 +312,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			#dd_tech
 			asw_tech
 			ship_modules_tech
 		}
@@ -336,8 +335,8 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		research_cost = 0.5
 
 		start_year = 1938
@@ -362,7 +361,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			#dd_tech
 			asw_tech
 			ship_modules_tech
 		}
@@ -386,8 +384,8 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		research_cost = 0.5
 
 		start_year = 1941
@@ -412,7 +410,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			#dd_tech
 			asw_tech
 			ship_modules_tech
 		}
@@ -432,8 +429,8 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		research_cost = 0.5
 
 		start_year = 1944
@@ -753,8 +750,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			#cl_tech
-			#ca_tech
 			ship_modules_tech
 		}
 	}
@@ -798,8 +793,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			#cl_tech
-			#ca_tech
 			ship_modules_tech
 		}
 	}
@@ -1143,8 +1136,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			#bb_tech
-			#bc_tech
 			ship_modules_tech
 		}
 	}
@@ -1188,8 +1179,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			#bb_tech
-			#bc_tech
 			ship_modules_tech
 		}
 	}
@@ -1585,7 +1574,7 @@ early_ship_hull_carrier = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = snorkel_advice_tt
-			custom_effect_tooltip = tcl_snorkel_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 		research_cost = 0.5
 
@@ -1617,7 +1606,6 @@ early_ship_hull_carrier = {
 
 		categories = {
 			naval_equipment
-			ss_tech
 			ship_modules_tech
 		}
 	}
@@ -1630,7 +1618,7 @@ early_ship_hull_carrier = {
 
 		on_research_complete = {
 			custom_effect_tooltip = snorkel_advice_tt
-			custom_effect_tooltip = tcl_snorkel_tt
+			custom_effect_tooltip = tcl_ship_modules_tech_tt
 		}
 		path = {
 			leads_to_tech = improved_submarine_snorkel
@@ -1660,7 +1648,6 @@ early_ship_hull_carrier = {
 
 		categories = {
 			naval_equipment
-			ss_tech
 			ship_modules_tech
 		}
 	}

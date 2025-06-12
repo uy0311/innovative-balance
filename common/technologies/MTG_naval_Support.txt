@@ -1683,7 +1683,7 @@ technologies = {
 
 	damage_control_1 = {
 
-		research_cost = 2.5
+		research_cost = 1.5
 		path = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
@@ -1692,12 +1692,12 @@ technologies = {
 		naval_critical_effect_factor = -0.1
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 1 }
@@ -1722,13 +1722,12 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			ship_modules_tech
 		}
 	}
 
 	damage_control_2 = {
 
-		research_cost = 2.5
+		research_cost = 1.5
 		path = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
@@ -1737,12 +1736,12 @@ technologies = {
 		naval_critical_effect_factor = -0.1
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 6 }
@@ -1767,23 +1766,22 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			ship_modules_tech
 		}
 	}
 
 	damage_control_3 = {
 
-		research_cost = 2.5
+		research_cost = 1.5
 		critical_receive_chance = -0.1
 		naval_critical_effect_factor = -0.1
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 12 }
@@ -1808,7 +1806,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			ship_modules_tech
 		}
 	}
 
@@ -1822,7 +1819,7 @@ technologies = {
 
 	fire_control_methods_1 = {
 
-		research_cost = 2.5
+		research_cost = 1.5
 		path = {
 			leads_to_tech = fire_control_methods_2
 			research_cost_coeff = 1
@@ -1837,12 +1834,12 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 1 }
@@ -1862,15 +1859,14 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			ship_modules_tech
 		}
 	}
 
 	fire_control_methods_2 = {
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
-		research_cost = 2.5
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
+		research_cost = 1.5
 		path = {
 			leads_to_tech = fire_control_methods_3
 			research_cost_coeff = 1
@@ -1889,7 +1885,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		folder = {
@@ -1911,13 +1907,12 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			ship_modules_tech
 		}
 	}
 
 	fire_control_methods_3 = {
 
-		research_cost = 2.5
+		research_cost = 1.5
 		battleship = {
 			lg_attack = 0.15
 			hg_attack = 0.15
@@ -1940,12 +1935,12 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_equipment_tt
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
+		xp_boost_cost = 30
+		xp_research_bonus = 5.0
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 12 }
@@ -1965,7 +1960,6 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			ship_modules_tech
 		}
 	}
 
@@ -2047,7 +2041,7 @@ technologies = {
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1939
 
 		folder = {
@@ -2118,7 +2112,7 @@ technologies = {
 			custom_effect_tooltip = tcl_tp_tech_tt
 		}
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1944
 		folder = {
 			name = mtgnavalsupportfolder
