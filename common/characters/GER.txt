@@ -178,12 +178,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits= { trickster panzer_leader commando desert_fox }
+			traits= { brilliant_strategist trickster panzer_leader commando desert_fox }
 			skill=5
-			attack_skill = 6
-	        defense_skill = 3
-	        planning_skill = 5
-	        logistics_skill = 2
+			attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 4
+	        logistics_skill = 6
 			legacy_id=4
 		}
 	}
@@ -245,9 +245,9 @@ characters={
 			traits= { trickster panzer_leader brilliant_strategist ranger adaptable trait_engineer }
 			skill=6
 			attack_skill = 6
-	        defense_skill = 1
+	        defense_skill = 5
 	        planning_skill = 7
-	        logistics_skill = 2
+	        logistics_skill = 3
 			legacy_id=6
 		}
 	}

@@ -3834,7 +3834,7 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_1
 		
 		add_stats = {
-			surface_detection = 13.5#27
+			surface_detection = 9
 			sub_detection = 3.5
 			build_cost_ic = 170
 		}
@@ -3848,7 +3848,7 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_2
 		parent = ship_airplane_launcher_1
 		add_stats = {
-			surface_detection = 27#54
+			surface_detection = 18
 			sub_detection = 7
 			build_cost_ic = 340
 		}

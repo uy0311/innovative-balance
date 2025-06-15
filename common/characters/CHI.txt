@@ -249,7 +249,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { commando }
+			traits = { commando ambusher infantry_expert }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
@@ -263,7 +263,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { commando }
+			traits = { commando ambusher infantry_expert }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
@@ -277,7 +277,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { commando }
+			traits = { commando ambusher infantry_expert }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
