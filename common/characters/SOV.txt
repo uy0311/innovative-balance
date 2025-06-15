@@ -180,7 +180,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { panzer_leader }
+			traits = { panzer_leader fortress_buster }
 	        skill = 3
 	        
 	        attack_skill = 3
@@ -216,7 +216,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { skilled_staffer winter_specialist commando trait_engineer}
+			traits = { skilled_staffer winter_specialist commando trait_engineer ambusher infantry_expert }
 	        skill = 3
         
 	        attack_skill = 3

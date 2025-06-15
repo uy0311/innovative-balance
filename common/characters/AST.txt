@@ -224,7 +224,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ bold blockade_runner }
+			traits={ bold blockade_runner inshore_fighter  }
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -264,7 +264,7 @@ characters={
 		}
 		navy_leader={
 			traits = { seawolf }
-            skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
+            skill = 4 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -278,8 +278,8 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { spotter fly_swatter }
-            skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
+			traits = { spotter fly_swatter fleet_protector }
+            skill = 4 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -308,6 +308,7 @@ characters={
 			}
 		}
 		navy_leader={
+			traits = { blockade_runner superior_tactician air_controller }
 			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=-1
 		}
@@ -322,7 +323,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ spotter }
+			traits={ spotter superior_tactician }
 			skill=4 attack_skill=4 defense_skill=4 maneuvering_skill=4 coordination_skill=4
 			legacy_id=-1
 		}
@@ -337,8 +338,8 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ spotter }
-			skill=3 attack_skill=3 defense_skill=3 maneuvering_skill=3 coordination_skill=3
+			traits={ spotter blockade_runner inshore_fighter }
+			skill=4 attack_skill=3 defense_skill=3 maneuvering_skill=3 coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -353,7 +354,7 @@ characters={
 		}
 		navy_leader={
 			traits={ bold superior_tactician ironside }
-			skill=3 attack_skill=3 defense_skill=3 maneuvering_skill=3 coordination_skill=3
+			skill=4 attack_skill=3 defense_skill=3 maneuvering_skill=3 coordination_skill=3
 			legacy_id=-1
 		}
 	}
