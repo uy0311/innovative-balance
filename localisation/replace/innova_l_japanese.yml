@@ -12,6 +12,9 @@
  operation_Bagration:0 "バグラチオン作戦"
  fall_of_moscow:0 "モスクワ陥落"
 
+##地形##
+ farmland: "農地"
+
 ##パルチザン##
  resistance_20: "組織立った抵抗"
  resistance_35: "大胆な抵抗"
