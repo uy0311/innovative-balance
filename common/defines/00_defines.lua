@@ -1596,10 +1596,10 @@ NNavy = {
 	MAX_FUEL_FLOW_MULT = 2.0, -- max fuel flow ratio for ships, which will be multiplied by supply
 	FUEL_COST_MULT = 0.10, -- fuel multiplier for all naval missions
 
-	OUT_OF_FUEL_SPEED_FACTOR = -0.75,
+	OUT_OF_FUEL_SPEED_FACTOR = -0.00,
 	OUT_OF_FUEL_RANGE_FACTOR = -0.75,
-	OUT_OF_FUEL_ATTACK_FACTOR = -0.5,
-	OUT_OF_FUEL_TORPEDO_FACTOR = -0.8,
+	OUT_OF_FUEL_ATTACK_FACTOR = -0.50,
+	OUT_OF_FUEL_TORPEDO_FACTOR = -0.50,
 
 	UNDERWAY_REPLENISHMENT_RANGE_FACTOR = 0.4,			-- bonus factor applied to task force's range when underway replenishment is activated (e.g. 0.2 means +20%)
 	UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.28,	-- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up)
@@ -3994,8 +3994,8 @@ NSupply = {
 	-- used for calculating "flow" for railways.
 	RAILWAY_BASE_FLOW = 50.0, 		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
 	RAILWAY_FLOW_PER_LEVEL = 10.0, 	-- how much additional flow a railway level gives
-	RAILWAY_FLOW_PENALTY_PER_DAMAGED = 5.0, -- penalty to flow per damaged railway
-	RAILWAY_MIN_FLOW = 10.0, 		-- minimum railway flow can be reduced to
+	RAILWAY_FLOW_PENALTY_PER_DAMAGED = 10.0, -- penalty to flow per damaged railway
+	RAILWAY_MIN_FLOW = 0.0, 		-- minimum railway flow can be reduced to
 
 	-- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
 	-- NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9, -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)
