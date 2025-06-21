@@ -825,7 +825,8 @@ technologies = {
 		}
 
 		conscription = 0.02
-		out_of_supply_factor = -0.5
+		out_of_supply_factor = -0.1
+		supply_combat_penalties_on_core_factor = -0.33
 		minimum_training_level = -0.30
 		land_reinforce_rate = 0.03
 
@@ -888,7 +889,8 @@ technologies = {
 		xp_unlock_cost = 100
 
 		conscription = 0.02
-		out_of_supply_factor = -0.5
+		out_of_supply_factor = -0.1
+		supply_combat_penalties_on_core_factor = -0.33
 		minimum_training_level = -0.30
 		land_reinforce_rate = 0.03
 
@@ -944,7 +946,8 @@ technologies = {
 		resistance_damage_to_garrison_on_our_occupied_states = 0.5 
 		resistance_growth_on_our_occupied_states = 0.5
 		resistance_target_on_our_occupied_states = 0.3
-		supply_combat_penalties_on_core_factor = -1.0
+		out_of_supply_factor = -0.1
+		supply_combat_penalties_on_core_factor = -0.34
 		attrition = -0.8
 		
 		land_reinforce_rate = 0.06
@@ -1994,6 +1997,9 @@ technologies = {
 		category_light_infantry = {
 			defense = 0.15
 		}
+		category_front_line = {
+			max_organisation = 10
+		}
 
 		naval_invasion_capacity = 20
 	
@@ -2051,7 +2057,8 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_front_line = {
-			max_organisation = 10
+			max_organisation = 15
+			default_morale = 0.10
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
@@ -2287,6 +2294,9 @@ technologies = {
 			supply_consumption_factor = -0.02
 			fuel_consumption_factor = -0.01
 		}
+		category_front_line = {
+			max_organisation = 10
+		}
 
 		path = {
 			leads_to_tech = shock_and_awe
@@ -2340,7 +2350,8 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_front_line = {
-			max_organisation = 10
+			max_organisation = 15
+			default_morale = 0.10
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}

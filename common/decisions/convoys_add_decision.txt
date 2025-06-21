@@ -1,9 +1,9 @@
 convoys_add_decision = {
-	gain_convoys_from_pp = {
+	gain_1convoys_from_10pp = {
 
 		icon = generic_army_support
 
-		cost = 30
+		cost = 10
 
 		available = {
 			always = yes
@@ -25,7 +25,59 @@ convoys_add_decision = {
 		}
 	}
 
-	gain_convoys_from_CP = {
+	gain_10convoys_from_100pp = {
+
+		icon = generic_army_support
+
+		cost = 100
+
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 10
+			}
+		}
+	}
+
+	gain_100convoys_from_1000pp = {
+
+		icon = generic_army_support
+
+		cost = 1000
+
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 100
+			}
+		}
+	}
+
+	gain_1convoys_from_10CP = {
 
 		icon = generic_army_support
 		
@@ -42,10 +94,10 @@ convoys_add_decision = {
 		days_remove = 10
 
 		custom_cost_trigger = {
-			command_power > 34
+			command_power > 9
 		}
 
-		custom_cost_text = decision_cost_CP_35
+		custom_cost_text = decision_cost_CP_10
 	
 		complete_effect = {
 			add_equipment_to_stockpile = {
@@ -53,8 +105,167 @@ convoys_add_decision = {
 				amount = 1
 			}
 			hidden_effect = {
-				add_command_power = -35
+				add_command_power = -10
 			}
+		}
+	}
+
+	gain_10convoys_from_100CP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			command_power > 99
+		}
+
+		custom_cost_text = decision_cost_CP_100
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 10
+			}
+			hidden_effect = {
+				add_command_power = -100
+			}
+		}
+	}
+
+	gain_50convoys_from_500CP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			command_power > 499
+		}
+
+		custom_cost_text = decision_cost_CP_500
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 50
+			}
+			hidden_effect = {
+				add_command_power = -500
+			}
+		}
+	}
+
+	gain_1convoys_from_10NavyXP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			has_navy_experience > 9
+		}
+	
+		custom_cost_text = decision_cost_navy_experience
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 1
+			}
+			navy_experience = -10
+		}
+	}
+
+	gain_10convoys_from_100NavyXP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			has_navy_experience > 99
+		}
+	
+		custom_cost_text = decision_cost_navy_experience
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 1
+			}
+			navy_experience = -100
+		}
+	}
+
+	gain_100convoys_from_1000NavyXP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			has_navy_experience > 999
+		}
+	
+		custom_cost_text = decision_cost_navy_experience
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 1
+			}
+			navy_experience = -1000
 		}
 	}
 }
