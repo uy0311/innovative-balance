@@ -165,7 +165,7 @@ ideas = {
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 
-						ratio > 0.1
+						ratio > 0.03
 					}
 				}
 			}
