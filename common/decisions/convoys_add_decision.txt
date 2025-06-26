@@ -232,7 +232,7 @@ convoys_add_decision = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = 1
+				amount = 10
 			}
 			navy_experience = -100
 		}
@@ -263,7 +263,7 @@ convoys_add_decision = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = 1
+				amount = 100
 			}
 			navy_experience = -1000
 		}
