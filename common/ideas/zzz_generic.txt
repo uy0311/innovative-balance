@@ -489,8 +489,33 @@ ideas = {
 				production_speed_bunker_factor = 0.1
 				production_speed_coastal_bunker_factor = 0.1
 				production_speed_anti_air_building_factor = 0.1
-			#	industrial_capacity_factory = 0.14
 				production_factory_max_efficiency_factor = 0.20
+			}
+		}
+
+		deterrence_ib = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			cancel = {
+				OR = { 
+					has_idea = Great_Patriotic_War
+					has_idea = Remember_pearlHarbor
+				}
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+	
+			modifier = {
 				production_factory_efficiency_gain_factor = -0.35
 			}
 		}

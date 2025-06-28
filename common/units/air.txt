@@ -52,7 +52,7 @@ sub_units = {
 		type = naval_bomber
 		need = { small_plane_naval_bomber_airframe = 1 }
 		categories = { category_nav_bomber }
-		land_air_wing_size = 100
+		land_air_wing_size = 50
 		mega_carrier_air_wing_size = 10
 	}
 	cv_nav_bomber = {
@@ -63,7 +63,7 @@ sub_units = {
 		need = { cv_small_plane_naval_bomber_airframe = 1 }
 		categories = { category_nav_bomber }
 		carrier_air_wing_size = 20
-		land_air_wing_size = 100
+		land_air_wing_size = 50
 		mega_carrier_air_wing_size = 10
 	}
 
@@ -73,7 +73,7 @@ sub_units = {
 		active = yes
 		type = suicide
 		need = { small_plane_suicide_airframe = 1 }
-		land_air_wing_size = 100
+		land_air_wing_size = 20
 		mega_carrier_air_wing_size = 10
 	}
 	cv_suicide_craft = {
@@ -83,7 +83,7 @@ sub_units = {
 		type = suicide
 		need = { cv_small_plane_suicide_airframe = 1 }
 		carrier_air_wing_size = 20
-		land_air_wing_size = 100
+		land_air_wing_size = 20
 		mega_carrier_air_wing_size = 10
 	}
 
@@ -118,7 +118,7 @@ sub_units = {
 		type = scout_plane
 		need = { medium_plane_scout_plane_airframe = 1 }
 		categories = { category_scout_plane }
-		land_air_wing_size = 100
+		land_air_wing_size = 20
 		mega_carrier_air_wing_size = 10
 	}
 
