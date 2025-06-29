@@ -73,8 +73,8 @@ equipment_modules = {
 
 		add_stats = {
 			fuel_consumption = 1.5
-			build_cost_ic = 1
-			reliability = -0.15
+			build_cost_ic = 0.75
+			reliability = -0.10
 			breakthrough = 4
 			defense = 4
 		}
@@ -90,8 +90,8 @@ equipment_modules = {
 
 		add_stats = {
 			fuel_consumption = 1.5
-			build_cost_ic = 1
-			reliability = -0.15
+			build_cost_ic = 0.75
+			reliability = -0.10
 			breakthrough = 4
 			defense = 4
 		}
@@ -106,10 +106,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 0.75
 			fuel_consumption = 4
-			reliability = -0.15
-			maximum_speed = 1
+			reliability = -0.10
+			maximum_speed = 1.5
+			breakthrough = 4
+			defense = 4
 		}
 
 		multiply_stats = {
@@ -123,10 +125,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 0.75
 			fuel_consumption = 4
-			reliability = -0.15
-			maximum_speed = 1
+			reliability = -0.10
+			maximum_speed = 1.5
+			breakthrough = 4
+			defense = 4
 		}
 
 		multiply_stats = {
@@ -287,6 +291,8 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.5
 			reliability = 0.10
+			breakthrough = 1
+			defense = 1
 		}
 		multiply_stats = {
 			maximum_speed = 0.20
@@ -1361,8 +1367,8 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 29
-			hard_attack = 18
+			soft_attack = 30
+			hard_attack = 20
 			ap_attack = 69
 			build_cost_ic = 3.0
 			reliability = -0.20
@@ -1691,8 +1697,8 @@ equipment_modules = {
 			}
 		}
 		add_stats = {
-			soft_attack = 36
-			hard_attack = 26
+			soft_attack = 37
+			hard_attack = 28
 			ap_attack = 108
 			build_cost_ic = 4.0
 			reliability = -0.25

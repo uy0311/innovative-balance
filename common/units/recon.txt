@@ -375,11 +375,9 @@ sub_units = {
 		hard_attack = -0.6
 		armor_value = -0.6
 
-		maximum_speed = -0.5 # move at horsie speeds
-
 			battalion_mult = {
 				category = category_paratroopers
-				breakthrough = 0.25
+				breakthrough = 0.50
 			}
 
 		essential = {
