@@ -74,7 +74,7 @@ characters={
 			traits = {
 				army_chief_morale_2
 			}
-			cost =  100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -106,7 +106,7 @@ characters={
 			traits = {
 				army_chief_defensive_2
 			}
-			cost =  100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -142,7 +142,7 @@ characters={
 			traits = {
 				army_chief_maneuver_2
 			}
-			cost =  100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -166,7 +166,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 150
+			cost = 100
 			slot = theorist
 			idea_token = giovanni_messe
 			ledger = army
@@ -238,7 +238,7 @@ characters={
 			traits = {
 				air_chief_all_weather_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -441,7 +441,7 @@ characters={
 			traits = {
 				navy_chief_decisive_battle_2
 			}
-			cost =  100
+			cost =  150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -474,7 +474,7 @@ characters={
 			traits = {
 				navy_anti_submarine_2
 			}
-			cost =  100
+			cost =  150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -524,7 +524,7 @@ characters={
 			traits = {
 				navy_capital_ship_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -588,7 +588,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 250
+			cost = 150
 			slot = theorist
 			idea_token = guiseppe_fioravanzo
 			ledger = navy
@@ -695,7 +695,7 @@ characters={
 			traits = {
 				navy_chief_commerce_raiding_2
 			}
-			cost =  100
+			cost =  150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -718,7 +718,7 @@ characters={
 			traits = {
 				navy_chief_naval_aviation_2
 			}
-			cost =  100
+			cost =  150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -746,7 +746,7 @@ characters={
 			traits = {
 				air_chief_safety_1
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -769,7 +769,7 @@ characters={
 			traits = {
 				air_chief_reform_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -805,7 +805,7 @@ characters={
 			traits = {
 				army_regrouping_2
 			}
-			cost =  100
+			cost =  150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -829,7 +829,7 @@ characters={
 			traits = {
 				army_cavalry_1
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -853,7 +853,7 @@ characters={
 			traits = {
 				army_infantry_1
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 2.000
 			}
@@ -877,7 +877,7 @@ characters={
 			traits = {
 				air_tactical_bombing_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -901,7 +901,7 @@ characters={
 			traits = {
 				air_air_combat_training_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -925,7 +925,7 @@ characters={
 			traits = {
 				air_bomber_interception_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -949,7 +949,7 @@ characters={
 			traits = {
 				navy_naval_air_defense_2
 			}
-			cost =  100
+			cost =  150
 			ai_will_do = {
 				factor = 1.000
 			}

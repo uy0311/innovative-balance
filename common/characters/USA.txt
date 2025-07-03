@@ -133,7 +133,7 @@ characters={
 			traits = {
 				army_chief_offensive_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -208,7 +208,7 @@ characters={
 			traits = {
 				army_infantry_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -244,7 +244,7 @@ characters={
 			traits = {
 				army_chief_morale_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -283,7 +283,7 @@ characters={
 			traits = {
 				army_chief_planning_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -509,7 +509,7 @@ characters={
 			traits = {
 				army_commando_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -546,7 +546,7 @@ characters={
 			traits = {
 				army_logistics_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -639,7 +639,7 @@ characters={
 			traits = {
 				navy_chief_reform_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -675,7 +675,7 @@ characters={
 			traits = {
 				navy_carrier_3
 			}
-			cost = 100
+			cost = 200
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -710,7 +710,7 @@ characters={
 			traits = {
 				navy_chief_maneuver_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -766,7 +766,7 @@ characters={
 			traits = {
 				navy_chief_commerce_raiding_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1000,7 +1000,7 @@ characters={
 			traits = {
 				army_chief_drill_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1058,7 +1058,7 @@ characters={
 			traits = {
 				air_chief_night_operations_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1081,7 +1081,7 @@ characters={
 			traits = {
 				air_chief_safety_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1140,7 +1140,7 @@ characters={
 			traits = {
 				air_strategic_bombing_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1164,7 +1164,7 @@ characters={
 			traits = {
 				air_close_air_support_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1188,7 +1188,7 @@ characters={
 			traits = {
 				air_tactical_bombing_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1212,7 +1212,7 @@ characters={
 			traits = {
 				navy_naval_air_defense_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1236,7 +1236,7 @@ characters={
 			traits = {
 				navy_amphibious_assault_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}

@@ -3275,7 +3275,7 @@ NFocus = {
 	FOCUS_POINT_DAYS = 7,						-- Each point takes a week
 	FOCUS_PROGRESS_PEACE = 1,					-- Progress during peace
 	FOCUS_PROGRESS_WAR = 1,					-- Progress during war
-	MAX_SAVED_FOCUS_PROGRESS = 10,				-- This much progress can be saved while not having a focus selected
+	MAX_SAVED_FOCUS_PROGRESS = 1000,				-- This much progress can be saved while not having a focus selected
 },
 
 NOperatives = {
@@ -3911,7 +3911,7 @@ NCharacter = {
 	OFFICER_CORP_HIGH_COMMAND_SLOTS_IN_MENU = 3, --For Alert manager to count the number of High Command Slots in the UI
 	POLITICAL_ADVISOR_SLOTS_IN_MENU = 3, --For Alert manager to count the number of Political Advisor Slots in the UI
 
-	DEFAULT_PP_COST_FOR_MILITARY_ADVISOR = 50,	-- When an advisor does not have cost assigned this is the default used
+	DEFAULT_PP_COST_FOR_MILITARY_ADVISOR = 100,	-- When an advisor does not have cost assigned this is the default used
 	DEFAULT_PP_COST_FOR_POLITICAL_ADVISOR = 150,
 	DEFAULT_CP_COST_FOR_ADVISOR = 0,	-- For Starting Advisors
 	DEFAULT_CP_COST_FOR_DYNAMIC_ADVISORS = 0,	-- For Advisors created during gameplay

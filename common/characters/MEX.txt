@@ -237,7 +237,7 @@ characters={
 			traits = {
 				army_infantry_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -354,7 +354,7 @@ characters={
 			traits = {
 				navy_chief_decisive_battle_1
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -465,7 +465,7 @@ characters={
 		advisor={
 			slot = army_chief
 			idea_token = MEX_saturnino_cedillo
-			cost = 75.000
+			cost = 150
 			allowed = {
 				original_tag = MEX
 				has_dlc = "Man the Guns"
@@ -500,7 +500,7 @@ characters={
 			traits = {
 				army_chief_defensive_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -523,7 +523,7 @@ characters={
 			traits = {
 				army_chief_drill_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -544,7 +544,7 @@ characters={
 		advisor={
 			slot = army_chief
 			idea_token = MEX_leon_trotsky
-			cost = 75.000
+			cost = 150
 			visible = {
 				has_global_flag = flag_mexico_invited_trotsky_to_government
 			}
@@ -634,7 +634,7 @@ characters={
 			traits = {
 				air_chief_ground_support_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -673,7 +673,7 @@ characters={
 			traits = {
 				air_strategic_bombing_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -697,7 +697,7 @@ characters={
 			traits = {
 				army_regrouping_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -750,7 +750,7 @@ characters={
 			traits = {
 				navy_naval_air_defense_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}

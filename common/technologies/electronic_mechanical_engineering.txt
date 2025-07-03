@@ -1192,7 +1192,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -1246,7 +1246,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -1291,7 +1291,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -1307,7 +1307,7 @@ technologies = {
 	
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 4 }
+			position = { x = 2 y = 10 }
 		}
 		
 		start_year = 1945
@@ -1416,7 +1416,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 4 }
 		}
 
 		path = {
@@ -1453,7 +1453,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 8 }
 		}
 		
 		ai_will_do = {

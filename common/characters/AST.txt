@@ -423,7 +423,7 @@ characters={
 			traits = {
 				army_chief_defensive_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -446,7 +446,7 @@ characters={
 			traits = {
 				army_chief_organizational_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -469,7 +469,7 @@ characters={
 			traits = {
 				army_chief_offensive_1
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -495,7 +495,7 @@ characters={
 			traits = {
 				navy_chief_reform_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -518,7 +518,7 @@ characters={
 			traits = {
 				navy_chief_decisive_battle_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -567,7 +567,7 @@ characters={
 			traits = {
 				air_chief_reform_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -643,7 +643,7 @@ characters={
 			traits = {
 				navy_capital_ship_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -667,7 +667,7 @@ characters={
 			traits = {
 				army_artillery_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -692,7 +692,7 @@ characters={
 			traits = {
 				air_air_combat_training_2
 			}
-			cost = 100
+			cost = 150
 		}		
 	}
 	
@@ -711,11 +711,10 @@ characters={
 				original_tag = AST
 				has_dlc = "Together for Victory"
 			}
-			cost = 150
 			traits = {
 				army_logistics_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}

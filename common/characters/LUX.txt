@@ -94,7 +94,7 @@ characters={
 				traits = {
 					air_air_superiority_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -142,7 +142,7 @@ characters={
 				traits = {
 					army_chief_offensive_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -168,7 +168,7 @@ characters={
 				traits = {
 					navy_fleet_logistics_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -193,7 +193,7 @@ characters={
 				traits = {
 					air_air_combat_training_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -241,7 +241,7 @@ characters={
 				traits = {
 					navy_chief_maneuver_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -266,7 +266,7 @@ characters={
 				traits = {
 					army_chief_defensive_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -292,7 +292,7 @@ characters={
 				traits = {
 					army_infantry_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -318,7 +318,7 @@ characters={
 				traits = {
 					army_armored_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -366,7 +366,7 @@ characters={
 				traits = {
 					navy_chief_decisive_battle_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
@@ -391,7 +391,7 @@ characters={
 				traits = {
 					air_chief_ground_support_2
 				}
-				cost = 100
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
