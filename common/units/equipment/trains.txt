@@ -54,11 +54,12 @@ equipments = {
 		year = 1936
 
 		archetype = train_equipment
-		parent = train_equipment_1
+		#parent = train_equipment_1
 		priority = 30
 
 		armor_value = 750 # HP = BASE_TRAIN_HP + armor_value
 		air_attack = 54
+		active = yes
 
 		build_cost_ic = 105
 		resources = {
