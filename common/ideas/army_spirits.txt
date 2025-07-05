@@ -292,6 +292,7 @@ ideas = {
 					unit_mechanized_design_cost_factor = -0.33
 
 					unit_engineer_design_cost_factor = -1
+					unit_pioneer_support_design_cost_factor = -1
 
 					unit_light_flame_tank_design_cost_factor = -1
 					unit_medium_flame_tank_design_cost_factor = -1
@@ -355,6 +356,7 @@ ideas = {
 					unit_marine_commando_design_cost_factor = -1
 
 					unit_engineer_design_cost_factor = -0.66
+					unit_pioneer_support_design_cost_factor = -0.66
 
 					unit_artillery_brigade_design_cost_factor = -0.66
 					unit_artillery_design_cost_factor = -0.66
