@@ -34,7 +34,7 @@ equipments = {
 		archetype = railway_gun_equipment
 		priority = 50
 		visual_level = 0
-		active = no
+		active = yes
 
 		build_cost_ic = 800.0
 		resources = {

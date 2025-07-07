@@ -38,7 +38,7 @@ sub_units = {
 
 		can_be_parachuted = yes
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.03
 
 		# Support nerfs to combat abilities
 		defense = -0.4
