@@ -272,7 +272,7 @@
  SWE_valtion_panssaritehdas_organization:0 "州立装甲車工場"
 
 ##IB_additional_cost_factor##
- IB_tank_cost_modifier_tt:0 "全種類の戦車改造コスト：§G-50%§!"
+ IB_tank_cost_modifier_tt:0 "全種類の戦車改造コスト：§G-33%§!"
  mechanized_equipment_design_cost_factor:0 "機械化装備改造コスト"
  amphibious_mechanized_equipment_design_cost_factor:0 "水陸機械化装備改造コスト"
  light_tank_chassis_design_cost_factor:0 "軽戦車車体改造コスト"
@@ -458,6 +458,15 @@
  tank_designer_armored_car_tank_chassis:0 "装甲車"
  armored_car_tank_chassis_desc:0 "軽量の装輪式装甲車両。通常、偵察と抵抗運動の鎮圧用だが、より重火器の搭載も可能である。"
  armored_car_tank_chassis_design_cost_factor:0 "装甲車車体改造コスト"
+
+##tank MIO カテゴリ##
+ mio_cat_eq_all_light_tank: "軽戦車車体装備"
+ mio_cat_eq_all_medium_tank: "中戦車車体装備"
+ mio_cat_eq_all_heavy_tank: "重戦車車体装備"
+ mio_cat_eq_all_tank_armors: "戦車及び特殊戦車装備"
+ mio_cat_eq_all_tank_destroyers: "駆逐戦車装備"
+ mio_cat_eq_all_tank_artillerys: "自走砲装備"
+ mio_cat_eq_all_tank_antiairs: "自走対空砲装備"
 
 ##火炎放射戦車大隊##
  tank_designer_flame:0 "火炎放射"

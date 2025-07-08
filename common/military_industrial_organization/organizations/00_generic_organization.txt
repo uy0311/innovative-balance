@@ -9,6 +9,340 @@
    ##    ##     ## ##    ## ##    ##  ######  
 
 
+# MOBILE TANK DESIGNER / FAST TANK DESIGNER - Based on Hotchkiss (FRA)
+generic_mobile_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_fast_tanks_designer
+		
+		equipment_bonus = {
+			maximum_speed = 0.15
+			reliability = 0.15
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_boogies
+		name = generic_mio_trait_improved_boogies
+		icon = GFX_generic_mio_department_icon_tank_general_engine
+
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_armors }
+
+		equipment_bonus = {
+			breakthrough = 0.05
+			defense = 0.05
+		}
+	}
+
+	trait = {
+
+		token = generic_mio_trait_advanced_trajectory_calculations
+		name = generic_mio_trait_advanced_trajectory_calculations
+		icon = GFX_generic_mio_department_icon_artillery
+
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_artillerys }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_direct_fire_targeting
+		name = generic_mio_trait_improved_direct_fire_targeting
+		icon = GFX_generic_mio_department_icon_anti_tank
+
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_destroyers }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_advanced_anti_air_targeting
+		name = generic_mio_trait_advanced_anti_air_targeting
+		icon = GFX_generic_mio_department_icon_anti_air
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_antiairs }
+
+		equipment_bonus = {
+			air_attack = 0.1
+		}
+	}
+
+}
+
+
+# MEDIUM TANK DESIGNER - Based on Army Ordnance Department (USA)
+generic_medium_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_medium_tank_designer
+
+		equipment_bonus = {
+			soft_attack = 0.05
+			maximum_speed = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_boogies
+		name = generic_mio_trait_improved_boogies
+		icon = GFX_generic_mio_department_icon_tank_general_engine
+
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_armors }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+
+		token = generic_mio_trait_advanced_trajectory_calculations
+		name = generic_mio_trait_advanced_trajectory_calculations
+		icon = GFX_generic_mio_department_icon_artillery
+
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_artillerys }
+
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_direct_fire_targeting
+		name = generic_mio_trait_improved_direct_fire_targeting
+		icon = GFX_generic_mio_department_icon_anti_tank
+
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_destroyers }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_advanced_anti_air_targeting
+		name = generic_mio_trait_advanced_anti_air_targeting
+		icon = GFX_generic_mio_department_icon_anti_air
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_antiairs }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+}
+
+
+# HEAVY TANK DESIGNER - Based on KV (SOV)
+generic_heavy_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_heavy_tank_designer
+		
+		equipment_bonus = {
+			hard_attack = 0.05
+			armor_value = 0.10
+			reliability = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_boogies
+		name = generic_mio_trait_improved_boogies
+		icon = GFX_generic_mio_department_icon_tank_general_engine
+
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_armors }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+
+		token = generic_mio_trait_advanced_trajectory_calculations
+		name = generic_mio_trait_advanced_trajectory_calculations
+		icon = GFX_generic_mio_department_icon_artillery
+
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_artillerys }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_direct_fire_targeting
+		name = generic_mio_trait_improved_direct_fire_targeting
+		icon = GFX_generic_mio_department_icon_anti_tank
+
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_destroyers }
+
+		equipment_bonus = {
+			hard_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_advanced_anti_air_targeting
+		name = generic_mio_trait_advanced_anti_air_targeting
+		icon = GFX_generic_mio_department_icon_anti_air
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_antiairs }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+}
+
+
+# INFANTRY TANK DESIGNER  - Based on Renault (FRA)
+generic_infantry_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = { armor }
+	research_categories = { armor }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_infantry_tanks_designer
+		
+		equipment_bonus = {
+			soft_attack = 0.05
+			armor_value = 0.10
+			maximum_speed = -0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_boogies
+		name = generic_mio_trait_improved_boogies
+		icon = GFX_generic_mio_department_icon_tank_general_engine
+
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_armors }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+
+		token = generic_mio_trait_advanced_trajectory_calculations
+		name = generic_mio_trait_advanced_trajectory_calculations
+		icon = GFX_generic_mio_department_icon_artillery
+
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_artillerys }
+
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_direct_fire_targeting
+		name = generic_mio_trait_improved_direct_fire_targeting
+		icon = GFX_generic_mio_department_icon_anti_tank
+
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_destroyers }
+
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_advanced_anti_air_targeting
+		name = generic_mio_trait_advanced_anti_air_targeting
+		icon = GFX_generic_mio_department_icon_anti_air
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_antiairs }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+}
+
 
 # GENERIC TANK MANUFACTURER - Based on Daimler Benz
 generic_tank_organization = {
@@ -70,105 +404,69 @@ generic_tank_organization = {
 		name = generic_mio_initial_trait_standardized_production
 
 		equipment_bonus = {
+			maximum_speed = 0.10
+			reliability = 0.10
+		}
+
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_boogies
+		name = generic_mio_trait_improved_boogies
+		icon = GFX_generic_mio_department_icon_tank_general_engine
+
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_armors }
+
+		equipment_bonus = {
+
+		}
+	}
+
+	trait = {
+
+		token = generic_mio_trait_advanced_trajectory_calculations
+		name = generic_mio_trait_advanced_trajectory_calculations
+		icon = GFX_generic_mio_department_icon_artillery
+
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_artillerys }
+
+		equipment_bonus = {
 			soft_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_direct_fire_targeting
+		name = generic_mio_trait_improved_direct_fire_targeting
+		icon = GFX_generic_mio_department_icon_anti_tank
+
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_tank_destroyers }
+
+		equipment_bonus = {
 			hard_attack = 0.05
-			maximum_speed = 0.05
-			reliability = 0.05
-		}
-
-	}
-
-}
-	
-
-# INFANTRY TANK DESIGNER  - Based on Renault (FRA)
-generic_infantry_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
-
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = { armor }
-	research_categories = { armor }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_infantry_tanks_designer
-		
-		equipment_bonus = {
-			soft_attack = 0.1
-			armor_value = 0.1
-			maximum_speed = -0.05
 		}
 	}
 
-}
+	trait = {
+		token = generic_mio_trait_advanced_anti_air_targeting
+		name = generic_mio_trait_advanced_anti_air_targeting
+		icon = GFX_generic_mio_department_icon_anti_air
 
+		position = { x=6 y=0 }
 
-# MOBILE TANK DESIGNER / FAST TANK DESIGNER - Based on Hotchkiss (FRA)
-generic_mobile_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
+		limit_to_equipment_type = { mio_cat_eq_all_tank_antiairs }
 
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = { armor }
-	research_categories = { armor }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_fast_tanks_designer
-		
 		equipment_bonus = {
-			maximum_speed = 0.20
-			reliability = 0.15
 			air_attack = 0.1
-		}
-	}
-
-}
-
-
-# MEDIUM TANK DESIGNER - Based on Army Ordnance Department (USA)
-generic_medium_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_2
-
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = { armor }
-	research_categories = { armor }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_medium_tank_designer
-
-		equipment_bonus = {
-			soft_attack = 0.10
-			reliability = 0.05
-		}
-	}
-}
-
-
-# HEAVY TANK DESIGNER - Based on KV (SOV)
-generic_heavy_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
-
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = { armor }
-	research_categories = { armor }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_heavy_tank_designer
-		
-		equipment_bonus = {
-			hard_attack = 0.10
-			armor_value = 0.10
-			reliability = 0.05
 		}
 	}
 
@@ -1335,8 +1633,8 @@ generic_armored_car_organization = {
 		equipment_bonus = {
 			soft_attack = 0.05
 			hard_attack = 0.05
-			maximum_speed = 0.05
-			reliability = 0.05
+			maximum_speed = 0.30
+			reliability = 0.10
 		}
 	}
 

@@ -131,7 +131,7 @@ equipments = {
 		fuel_consumption = 0
 		maximum_speed = 4
 		build_cost_ic = 2.0
-		reliability = 0.4
+		reliability = 0.45
 		hardness = 0.85
 		armor_value = 5
 		resources = {
@@ -263,20 +263,20 @@ equipments = {
 				}
 			}
 
-			#special_type_slot_2 = {
-			#	required = no
-			#	allowed_module_categories = {
-			#		tank_special_armor_module
-			#		tank_special_turret_module
-			#		tank_special_ammo_module
-			#		tank_special_module
-			#	}
-			#}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+				}
+			}
 		}
 
-		maximum_speed = 3
+		maximum_speed = 4
 		build_cost_ic = 2.5
-		reliability = 0.5
+		reliability = 0.45
 		armor_value = 10
 	}
 
@@ -344,20 +344,20 @@ equipments = {
 				}
 			}
 
-			#special_type_slot_3 = {
-			#	required = no
-			#	allowed_module_categories = {
-			#		tank_special_armor_module
-			#		tank_special_turret_module
-			#		tank_special_ammo_module
-			#		tank_special_module
-			#	}
-			#}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+				}
+			}
 		}
 
 		build_cost_ic = 3.0
-		maximum_speed = 4.5
-		reliability = 0.55
+		maximum_speed = 5.5
+		reliability = 0.50
 		armor_value = 30
 		resources = {
 			steel = 1
@@ -440,21 +440,21 @@ equipments = {
 				}
 			}
 
-			#special_type_slot_4 = {
-			#	required = no
-			#	allowed_module_categories = {
-			#		tank_special_armor_module
-			#		tank_special_turret_module
-			#		tank_special_ammo_module
-			#		tank_special_module
-			#	}
-			#}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+				}
+			}
 		}
 
 		build_cost_ic = 3.5
-		maximum_speed = 5
-		reliability = 0.65
-		armor_value = 60
+		maximum_speed = 6.0
+		reliability = 0.60
+		armor_value = 40
 		resources = {
 			steel = 2
 		}
@@ -601,7 +601,7 @@ equipments = {
 		fuel_consumption = 0
 		maximum_speed = 4
 		build_cost_ic = 4.0
-		reliability = 0.5
+		reliability = 0.55
 		armor_value = 40
 		hardness = 0.90
 		resources = {
@@ -685,7 +685,7 @@ equipments = {
 		}
 		maximum_speed = 4
 		build_cost_ic = 100
-		reliability = 0.4
+		reliability = 0.55
 		armor_value = 20
 		resources = {
 			steel = 1
@@ -758,20 +758,24 @@ equipments = {
 				}
 			}
 
-			#special_type_slot_3 = {
-			#	required = no
-			#	allowed_module_categories = {
-			#		tank_special_armor_module
-			#		tank_special_turret_module
-			#		tank_special_ammo_module
-			#		tank_special_module
-			#	}
-			#}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+				}
+			}
 		}
-		maximum_speed = 4
+
+		maximum_speed = 5.0
 		build_cost_ic = 4.5
-		reliability = 0.5
+		reliability = 0.55
 		armor_value = 60
+		resources = {
+			steel = 1
+		}
 	}
 
 	medium_tank_chassis_2 = {
@@ -852,20 +856,20 @@ equipments = {
 				}
 			}
 			
-			#special_type_slot_4 = {
-			#	required = no
-			#	allowed_module_categories = {
-			#		tank_special_armor_module
-			#		tank_special_turret_module
-			#		tank_special_ammo_module
-			#		tank_special_module
-			#	}
-			#}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_armor_module
+					tank_special_turret_module
+					tank_special_ammo_module
+					tank_special_module
+				}
+			}
 		}
 
-		maximum_speed = 4
+		maximum_speed = 5.0
 		build_cost_ic = 5.5
-		reliability = 0.65
+		reliability = 0.60
 		armor_value = 80
 		resources = {
 			steel = 1
@@ -962,9 +966,9 @@ equipments = {
 			}
 		}
 
-		maximum_speed = 4.0
+		maximum_speed = 5.0
 		build_cost_ic = 7.0
-		reliability = 0.75
+		reliability = 0.65
 		armor_value = 130
 		resources = {
 			steel = 2
@@ -1136,7 +1140,7 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 0.5
+		maximum_speed = 1.6
 		build_cost_ic = 5.5
 		reliability = 0.5
 		armor_value = 35
@@ -1321,9 +1325,9 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 0.5
+		maximum_speed = 1.6
 		build_cost_ic = 6.5
-		reliability = 0.5
+		reliability = 0.50
 		armor_value = 80
 		hardness = 0.95
 	}
@@ -1417,10 +1421,10 @@ equipments = {
 				}
 			}
 		}
-		maximum_speed = 0.8
+		maximum_speed = 2.0
 		build_cost_ic = 8.0
-		reliability = 0.6
-		armor_value = 130
+		reliability = 0.60
+		armor_value = 135
 		resources = {
 			steel = 1
 			chromium = 1
@@ -1517,10 +1521,10 @@ equipments = {
 				}
 			}
 		}
-		maximum_speed = 0.8
+		maximum_speed = 2.0
 		build_cost_ic = 9.0
 		reliability = 0.65
-		armor_value = 150
+		armor_value = 155
 		resources = {
 			steel = 2
 			chromium = 1
@@ -1689,10 +1693,10 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 4.5
+		maximum_speed = 5.5
 		build_cost_ic = 8.0
 		reliability = 0.8
-		armor_value = 150
+		armor_value = 155
 		hardness = 0.95
 		resources = {
 			steel = 2
@@ -1890,9 +1894,9 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 0.3
+		maximum_speed = 1.5
 		build_cost_ic = 20
-		reliability = 0.65
+		reliability = 0.55
 		armor_value = 200
 		hardness = 1
 		resources = {
@@ -2303,8 +2307,8 @@ equipments = {
 	
 		fuel_consumption = 0
 		build_cost_ic = 2.5
-		maximum_speed = 4.5
-		reliability = 0.55
+		maximum_speed = 5.5
+		reliability = 0.80
 		armor_value = 30
 		hardness = 0.50
 		resources = {
