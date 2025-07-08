@@ -1993,7 +1993,8 @@ equipment_modules = {
 
 		add_stats = {
 			armor_value = 5
-			build_cost_ic = 0.7
+			reliability = 0.05
+			build_cost_ic = 0.5
 		}
 		xp_cost = 0#1
 		multiply_stats = {
