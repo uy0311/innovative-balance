@@ -503,7 +503,7 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 7
+			defense = 9
 			max_strength = 0.6
 		}
 
@@ -534,7 +534,7 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 7
+			defense = 9
 			max_strength = 0.6
 		}
 
