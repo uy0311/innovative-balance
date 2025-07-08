@@ -12,7 +12,7 @@
 mio_cat_eq_all_light_tank = { #Includes (standalone) Amphibious Tank Chassis
 	equipment_type = {
 		light_tank_chassis
-		amphibious_tank_chassis
+		armored_car_tank_chassis
 	}	
 }
 
@@ -30,6 +30,43 @@ mio_cat_eq_all_heavy_tank = { #Includes Super Heavy Tank Chassis
 	}
 }
 
+mio_cat_eq_all_tank_armors = { #Includes Super Heavy Tank Chassis
+	equipment_type = {
+		light_tank_chassis_0
+		light_tank_chassis_1
+		light_tank_chassis_2
+		light_tank_chassis_3
+		medium_tank_chassis_0
+		medium_tank_chassis_1
+		medium_tank_chassis_2
+		medium_tank_chassis_3
+		heavy_tank_chassis_0
+		heavy_tank_chassis_1
+		heavy_tank_chassis_2
+		heavy_tank_chassis_3
+		modern_tank_chassis_1
+		super_heavy_tank_chassis_1
+		armored_car_tank_chassis_1
+		
+		light_tank_flame_chassis
+		medium_tank_flame_chassis
+		heavy_tank_flame_chassis
+		light_tank_amphibious_chassis
+		medium_tank_amphibious_chassis
+		heavy_tank_amphibious_chassis
+	}
+}
+
+mio_cat_eq_all_tank_artillerys = { #Includes Super Heavy Tank Chassis
+	equipment_type = {
+		light_tank_artillery_chassis
+		medium_tank_artillery_chassis
+		heavy_tank_artillery_chassis
+		super_heavy_tank_artillery_chassis
+		modern_tank_artillery_chassis
+	}
+}
+
 mio_cat_eq_all_tank_destroyers = { #Includes Super Heavy Tank Chassis
 	equipment_type = {
 		light_tank_destroyer_chassis 
@@ -37,6 +74,16 @@ mio_cat_eq_all_tank_destroyers = { #Includes Super Heavy Tank Chassis
 		heavy_tank_destroyer_chassis
 		super_heavy_tank_destroyer_chassis
 		modern_tank_destroyer_chassis
+	}
+}
+
+mio_cat_eq_all_tank_antiairs = { #Includes Super Heavy Tank Chassis
+	equipment_type = {
+		light_tank_aa_chassis 
+		medium_tank_aa_chassis
+		heavy_tank_aa_chassis
+		super_heavy_tank_aa_chassis
+		modern_tank_aa_chassis
 	}
 }
 

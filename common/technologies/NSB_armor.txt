@@ -35,7 +35,6 @@ technologies = {
 			tank_riveted_vertical_armor
 			tank_welded_vertical_armor
 			tank_bogie_suspension
-			tank_torsion_bar_suspension
 			tank_light_one_man_tank_turret
 			tank_medium_one_man_tank_turret
 			expanded_fuel_tank
@@ -1203,9 +1202,8 @@ technologies = {
 	engine_tech_2 = {
 
 		enable_equipment_modules = {
-			tank_petrol_electric_engine
-			heavy_tank_petrol_electric_engine
 			tank_christie_suspension
+			tank_torsion_bar_suspension
 		}
 
 
@@ -1265,6 +1263,8 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_interleaved_suspension
+			tank_petrol_electric_engine
+			heavy_tank_petrol_electric_engine
 		}
 
 		path = {

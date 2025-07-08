@@ -1,11 +1,5 @@
 spriteTypes = {
-	##air_doctrine
-	spriteType = {
-		name = "GFX_air_doctrine_bg"
-		textureFile = "gfx//interface//air_doctrine_bg.dds"
-		alwaystransparent = yes		
-	}
-	#tank_modules
+ ###tank_modules ###
 	spriteType = { #module_category_icon
 		name = "GFX_EMI_tank_flamethrower"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/IB_tank_coaxial_machine_gun.dds"
@@ -252,7 +246,30 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-    ### ships ####	
+
+ ### tank_MIO_equipment_group ###
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_tank_armors"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_tank_general_quality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_tank_destroyers"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_anti_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_tank_artillerys"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_artillery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_tank_antiairs"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_anti_air.dds"
+	}
+
+ ### ship_modules ###	
 	
 	SpriteType = {
 		name = "GFX_multialtitude_flying_0_medium"
@@ -344,7 +361,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tankother_3.dds"
 	}
 
-	### air ###
+ ### air_modules ###
 
 	spriteType = {
 		name = "GFX_IB_planes"
@@ -399,7 +416,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_torpedo_2_icon.dds"
 	}
 
-	#concept
+ ### air_concept ###
 
 	spriteType = {
 		name = "GFX_EMI_concept_fighter"
@@ -446,7 +463,92 @@ spriteTypes = {
 		textureFile = "gfx/interface/strategicair/adjuster_naval_patrol.dds"
 	}
 
-	#industry technology
+ #army_technologies#
+	spriteType = {
+		name = "GFX_antiair6_medium"
+		textureFile = "gfx/interface/technologies/antiair3.dds"
+	}
+	spriteType = {
+		name = "GFX_antiair7_medium"
+		textureFile = "gfx/interface/technologies/antiair4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_artillery6_medium"
+		textureFile = "gfx/interface/technologies/artillery6.dds"
+	}
+	spriteType = {
+		name = "GFX_artillery7_medium"
+		textureFile = "gfx/interface/technologies/artillery7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_rocket_artillery5_medium"
+		textureFile = "gfx/interface/technologies/rocket_artillery4.dds"
+	}
+	spriteType = {
+		name = "GFX_rocket_artillery6_medium"
+		textureFile = "gfx/interface/technologies/rocket_artillery3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_antitank6_medium"
+		textureFile = "gfx/interface/technologies/antitank6.dds"
+	}
+	spriteType = {
+		name = "GFX_antitank7_medium"
+		textureFile = "gfx/interface/technologies/antitank7.dds"
+	}
+	
+	spriteType = { #infantry_at3
+		name = "GFX_infantry_at3_medium"
+		textureFile = "gfx/interface/technologies/infantry_at3.dds"
+	}
+
+ #tank_turret_tech#
+
+	spriteType = { #tank_radio_1
+		name = "GFX_tank_radio_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_1.dds"
+	}
+	spriteType = { #tank_radio_2
+		name = "GFX_tank_radio_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_2.dds"
+	}	
+	spriteType = { #tank_radio_3
+		name = "GFX_tank_radio_3_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_3.dds"
+ 	}
+
+	spriteType = {
+		name = "GFX_IB_fixed"
+		textureFile = "gfx/interface/IB_grid_blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_three"
+		textureFile = "gfx/interface/IB_grid_orange.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_transparent"
+		textureFile = "gfx/interface/IB_turret_transparent_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IB_resete_capital"
+		textureFile = "gfx/interface/ib_resete_capital_command_icon.dds"
+		noOfFrames = 2
+	}
+
+ ##air_doctrine#
+	spriteType = {
+		name = "GFX_air_doctrine_bg"
+		textureFile = "gfx//interface//air_doctrine_bg.dds"
+		alwaystransparent = yes		
+	}
+
+ #industry_technology#
 	SpriteType = {
 		name = "GFX_flexible_line2_medium"
 		texturefile = "gfx/interface/technologies/industry/r56_tech_flexible_line_01.dds"
@@ -476,49 +578,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/modern_oil_processing.dds"
 	}
 
-    #technologies
-	spriteType = {
-		name = "GFX_antiair6_medium"
-		textureFile = "gfx/interface/technologies/antiair3.dds"
-	}
-	spriteType = {
-		name = "GFX_antiair7_medium"
-		textureFile = "gfx/interface/technologies/antiair4.dds"
-	}
 
-	spriteType = {
-		name = "GFX_artillery6_medium"
-		textureFile = "gfx/interface/technologies/artillery6.dds"
-	}
-	spriteType = {
-		name = "GFX_artillery7_medium"
-		textureFile = "gfx/interface/technologies/artillery7.dds"
-	}
 
-	spriteType = {
-		name = "GFX_rocket_artillery5_medium"
-		textureFile = "gfx/interface/technologies/rocket_artillery4.dds"
-	}
-	spriteType = {
-		name = "GFX_rocket_artillery6_medium"
-		textureFile = "gfx/interface/technologies/rocket_artillery3.dds"
-	}
-
-	spriteType = {
-		name = "GFX_antitank6_medium"
-		textureFile = "gfx/interface/technologies/antitank6.dds"
-	}
-	spriteType = {
-		name = "GFX_antitank7_medium"
-		textureFile = "gfx/interface/technologies/antitank7.dds"
-	}
-
-	spriteType = { #infantry_at3
-		name = "GFX_infantry_at3_medium"
-		textureFile = "gfx/interface/technologies/infantry_at3.dds"
-	}
-
-	#radar tech
+ #radar_tech#
 
 	SpriteType = {
 		name = "GFX_decimetric_radar_medium"
@@ -540,43 +602,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/advanced_centimetric_radar.dds"
 	}
 
-	#tank_turret_tech
 
-	spriteType = { #tank_radio_1
-		name = "GFX_tank_radio_1_medium"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_1.dds"
-	}
-	spriteType = { #tank_radio_2
-		name = "GFX_tank_radio_2_medium"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_2.dds"
-	}
-	spriteType = { #tank_radio_3
-		name = "GFX_tank_radio_3_medium"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_3.dds"
-	}
-
-	spriteType = {
-		name = "GFX_IB_fixed"
-		textureFile = "gfx/interface/IB_grid_blue.dds"
-	}
-
-	spriteType = {
-		name = "GFX_IB_three"
-		textureFile = "gfx/interface/IB_grid_orange.dds"
-	}
-
-	spriteType = {
-		name = "GFX_IB_transparent"
-		textureFile = "gfx/interface/IB_turret_transparent_bg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_IB_resete_capital"
-		textureFile = "gfx/interface/ib_resete_capital_command_icon.dds"
-		noOfFrames = 2
-	}
-
-		#topbar
+ #topbar#
 	spriteType = {
 		name = "GFX_IB_civ_fac"
 		texturefile = "gfx/texticons/IB_civ_fac_20x20.dds"
@@ -619,7 +646,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	spriteType = { #ib_se_decision_icon
+ #ib_se_decision_icon#
+	spriteType = { 
 		name = "GFX_war_support_texticon"
 		texturefile = "gfx/texticons/war_support_texticon.dds"
 		legacy_lazy_load = no
