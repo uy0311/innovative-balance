@@ -118,7 +118,7 @@ equipments = {
 		naval_speed = 32
 		reliability = 0.80
 		
-		naval_range = 2250
+		naval_range = 1500
 		
 		max_strength = 25
 		
@@ -204,7 +204,7 @@ equipments = {
 
 		naval_speed = 36
 		reliability = 0.85
-		naval_range = 2700
+		naval_range = 2000
 		max_strength = 40
 		surface_visibility = 11
 		build_cost_ic = 500
@@ -279,7 +279,7 @@ equipments = {
 
 		naval_speed = 37
 		reliability = 0.90
-		naval_range = 3000
+		naval_range = 2500
 		max_strength = 50
 		surface_visibility = 12
 		build_cost_ic = 550
@@ -347,7 +347,7 @@ equipments = {
 
 		naval_speed = 38
 		reliability = 0.92
-		naval_range = 3750
+		naval_range = 3000
 		max_strength = 60
 		surface_visibility = 13
 		build_cost_ic = 600

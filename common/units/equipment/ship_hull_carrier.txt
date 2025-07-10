@@ -114,7 +114,7 @@ equipments = {
 		naval_speed = 16
 		reliability = 0.60
 
-		naval_range = 4500
+		naval_range = 3000
 
 		max_strength = 200
 
@@ -211,7 +211,7 @@ equipments = {
 			fixed_ship_engine_slot = carrier_ship_engine_3
 			front_2_custom_slot = ship_deck_space
 		}
-		naval_range = 6000
+		naval_range = 4000
 		reliability = 0.70
 		max_strength = 250
 		naval_speed = 16.5
@@ -284,7 +284,7 @@ equipments = {
 			front_3_custom_slot = ship_deck_space
 		}
 
-		naval_range = 7500
+		naval_range = 5000
 		reliability = 0.8
 		max_strength = 300
 		naval_speed = 17
@@ -556,7 +556,7 @@ equipments = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			front_1_custom_slot = ship_deck_space
 		}
-		naval_range = 6000
+		naval_range = 4000
 		reliability = 0.50
 		max_strength = 300
 		naval_speed = 12.5
@@ -621,7 +621,7 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 		}
-		naval_range = 6000
+		naval_range = 4000
 
 		max_strength = 100
 		surface_visibility = 14.5
