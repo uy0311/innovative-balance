@@ -211,9 +211,9 @@ characters={
 		
 		field_marshal={
 			traits={ offensive_doctrine thorough_planner fast_planner brilliant_strategist aggressive_assaulter trickster }
-			skill=7
-			attack_skill = 4
-	        defense_skill = 4
+			skill=6
+			attack_skill = 5
+	        defense_skill = 5
 	        planning_skill = 9
 	        logistics_skill = 3
 			legacy_id=5
