@@ -1972,6 +1972,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = tcl_tp_tech_tt
 		}
+		
 
 		path = {
 			leads_to_tech = mtg_landing_craft
@@ -2028,7 +2029,12 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = tcl_tp_tech_tt
+		    complete_special_project = {
+                project = sp:sp_naval_underway_replenishment
+         }
 		}
+		
+		
 
 		path = {
 			leads_to_tech = mtg_tank_landing_craft
