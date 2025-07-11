@@ -56,7 +56,7 @@ ability = {
 		}
 		
 		unit_modifiers = {
-			naval_invasion_prep_speed = 0.5
+			naval_invasion_prep_speed = 10.0
 		}
 		
 		cost = 0.1
