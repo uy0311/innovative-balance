@@ -360,26 +360,6 @@ leader_traits = {
 		attack_skill_factor = 1
 		logistics_skill_factor = 1
 	}
-
-	bearer_of_artillery = { # Reserved for Wojtek  
-		type = corps_commander
-		
-		gain_xp = {
-			set_temp_variable = { temp = num_units }
-			multiply_temp_variable = { temp = 0.4 }
-			check_variable = { num_artillery > temp }
-		}
-		cost = 200
-		
-		modifier = {
-			army_artillery_attack_factor = 0.15
-		}
-		
-		new_commander_weight = {
-			factor = 0
-		}
-		gui_row = 3
-	}
 	
 	infantry_officer = { 
 		type = land
@@ -596,8 +576,9 @@ leader_traits = {
 		field_marshal_modifier = {
 			org_loss_when_moving = -0.30
 		}
-		
-		attack_skill = 1
+		trait_xp_factor = {
+			panzer_leader = 0.5     #+100%
+		}
 		
 		slot = army_chief
 		specialist_advisor_trait = army_chief_offensive_1
@@ -622,6 +603,10 @@ leader_traits = {
 		field_marshal_modifier = {
 			max_dig_in_factor = 0.30
 		}
+		trait_xp_factor = {
+			infantry_leader = 0.5     #+100%
+		}
+
 		slot = army_chief
 		specialist_advisor_trait = army_chief_entrenchment_1
 		expert_advisor_trait = army_chief_entrenchment_2
@@ -843,19 +828,46 @@ leader_traits = {
 		gui_row = 0
 	}
 	
+	panzer_leader = {
+ 		type = corps_commander
+		gain_xp = {
+			set_temp_variable = { temp = num_units }
+			multiply_temp_variable = { temp = 0.99 }
+			check_variable = { num_armored > temp }
+		}
+		custom_gain_xp_trigger_tooltip = armored_ratio_over_99
+		cost = 150
+		modifier = {
+			army_armor_speed_factor = 0.05
+			army_armor_attack_factor = 0.10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		attack_skill_factor = 2
+		
+		gui_row = 1
+		
+		slot = high_command
+		specialist_advisor_trait = army_armored_1
+		expert_advisor_trait = army_armored_2
+		genius_advisor_trait = army_armored_3
+	}
+
 	cavalry_leader = { 
 		type = corps_commander
 		gain_xp = {
 			set_temp_variable = { temp = num_units }
-			multiply_temp_variable = { temp = 0.4 }
+			multiply_temp_variable = { temp = 0.99 }
 			set_temp_variable = { cmm = num_cavalry }
 			add_to_temp_variable = { cmm = num_motorized }
 			add_to_temp_variable = { cmm = num_mechanized }
 			check_variable = { cmm > temp }
 		}
-		custom_gain_xp_trigger_tooltip = cavalary_ratio_over_40
+		custom_gain_xp_trigger_tooltip = cavalary_ratio_over_99
 		
-		cost = 1000
+		cost = 100
 		modifier = {
 			cavalry_attack_factor = 0.12
 			motorized_attack_factor = 0.12
@@ -873,17 +885,17 @@ leader_traits = {
 		
 		gui_row = 3
 	}
-	
+
 	infantry_leader = { 
 		type = corps_commander
 		gain_xp = {
 			set_temp_variable = { temp = num_units }
-			multiply_temp_variable = { temp = 0.8 }
+			multiply_temp_variable = { temp = 0.99 }
 			check_variable = { num_infantry > temp }
 		}
-		custom_gain_xp_trigger_tooltip = infantry_ratio_over_80
+		custom_gain_xp_trigger_tooltip = infantry_ratio_over_99
 		
-		cost = 1000
+		cost = 150
 		modifier = {
 			army_infantry_defence_factor = 0.10
 		}
@@ -897,7 +909,134 @@ leader_traits = {
 			factor = 1
 		}
 		
+		gui_row = 4
+	}
+
+	commando = { 
+ 		type = corps_commander
+		gain_xp = {
+			OR = {
+				temperature < -15
+				temperature > 27
+				has_combat_modifier = paradrop
+				has_combat_modifier = amphibious_attack
+			}
+		}
+		cost = 500
+		modifier = {
+			out_of_supply_factor = -0.20
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 		gui_row = 6
+		
+		slot = high_command
+		specialist_advisor_trait = army_commando_1
+		expert_advisor_trait = army_commando_2
+		genius_advisor_trait = army_commando_3
+	}
+
+	naval_invader = {
+		type = corps_commander
+		gain_xp = {
+			is_amphibious_invasion = yes
+		}
+		cost = 50
+		modifier = {
+			amphibious_invasion = 0.3 # 30% faster invasions
+			invasion_preparation = -0.3
+		}
+		
+		slot = high_command
+		specialist_advisor_trait = navy_amphibious_assault_1
+		expert_advisor_trait = navy_amphibious_assault_2
+		genius_advisor_trait = navy_amphibious_assault_3
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		gui_row = 9
+	}
+
+	bearer_of_artillery = {
+		type = corps_commander
+		
+		gain_xp = {
+			set_temp_variable = { temp = num_units }
+			multiply_temp_variable = { temp = 0.99 }
+			check_variable = { num_artillery > temp }
+		}
+		custom_gain_xp_trigger_tooltip = artillery_ratio_over_99
+		cost = 100
+		
+		modifier = {
+			army_artillery_attack_factor = 0.15
+		}
+		
+		slot = high_command
+		specialist_advisor_trait = army_artillery_1
+		expert_advisor_trait = army_artillery_2
+		genius_advisor_trait = army_artillery_3
+
+		new_commander_weight = {
+			factor = 0
+		}
+		gui_row = 11
+	}
+
+	trait_engineer = { 
+		type = corps_commander
+		gain_xp = {
+			OR = {
+				has_combat_modifier = fort_attack
+				has_combat_modifier = river_crossing
+			}
+		}
+		cost = 500
+		modifier = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+                attack = 0.05
+            }
+		}
+		
+		slot = high_command
+		specialist_advisor_trait = army_entrenchment_1
+		expert_advisor_trait = army_entrenchment_2
+		genius_advisor_trait = army_entrenchment_3
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		gui_row = 12
+	}
+
+	trickster = { 
+		type = corps_commander
+		gain_xp = {
+			OR = {
+				has_flanked_opponent = yes
+				opponent = { has_flanked_opponent = yes }
+			}
+		}
+		custom_gain_xp_trigger_tooltip = has_flanked
+		
+		cost = 500
+		modifier = {
+			recon_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		gui_row = 13
 	}
 
 	skilled_staffer = { 
@@ -926,183 +1065,6 @@ leader_traits = {
 		genius_advisor_trait = army_logistics_3
 	}
 
-	trickster = { 
-		type = corps_commander
-		gain_xp = {
-			OR = {
-				has_flanked_opponent = yes
-				opponent = { has_flanked_opponent = yes }
-			}
-		}
-		custom_gain_xp_trigger_tooltip = has_flanked
-		
-		cost = 500
-		modifier = {
-			recon_factor = 0.25
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		
-		gui_row = 13
-	}
-
-	winter_specialist = { 
-		type = corps_commander
-		gain_xp = {
-			temperature < -10
-		}
-		cost = 50
-		modifier = {
-			winter_attrition_factor = -0.5
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		trait_type = basic_terrain_trait
-		gui_row = 7
-	}
-
-	adaptable = { 
-		type = corps_commander
-		gain_xp = {
-			always = no # not gainable
-		}
-		cost = 1000
-		modifier = {
-			terrain_penalty_reduction = 0.15
-			acclimatization_cold_climate_gain_factor = 0.5
-			acclimatization_hot_climate_gain_factor = 0.5
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		trait_type = assignable_terrain_trait
-		gui_row = 3
-				
-		parent = {
-			traits = {
-				desert_fox
-				swamp_fox
-				trait_mountaineer
-				hill_fighter
-				jungle_rat
-				ranger
-				urban_assault_specialist
-				winter_specialist
-			}
-			num_parents_needed = 1
-		} 
-	}
-
-	winter_expert = { 
-		type = corps_commander
-
-		gain_xp = {
-			always = no # not gainable
-		}
-
-		modifier = {
-			acclimatization_cold_climate_gain_factor = 0.40
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		any_parent = { winter_specialist }
-
-		trait_type = assignable_terrain_trait
-		gui_row = 7
-	}
-
-	trait_engineer = { 
-		type = corps_commander
-		gain_xp = {
-			OR = {
-				has_combat_modifier = fort_attack
-				has_combat_modifier = river_crossing
-			}
-		}
-		cost = 700
-		modifier = {
-			river = {
-				attack = 0.05
-			}
-			fort = {
-                attack = 0.05
-            }
-		}
-		
-		slot = high_command
-		specialist_advisor_trait = army_entrenchment_1
-		expert_advisor_trait = army_entrenchment_2
-		genius_advisor_trait = army_entrenchment_3
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		gui_row = 4
-	}
-
-	panzer_leader = {
- 		type = corps_commander
-		gain_xp = {
-			set_temp_variable = { temp = num_units }
-			multiply_temp_variable = { temp = 0.4 }
-			check_variable = { num_armored > temp }
-		}
-		custom_gain_xp_trigger_tooltip = armored_ratio_over_40
-		cost = 700
-		modifier = {
-			army_armor_speed_factor = 0.05 
-			army_armor_attack_factor = 0.10
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		
-		attack_skill_factor = 2
-		
-		gui_row = 1
-		
-		slot = high_command
-		specialist_advisor_trait = army_armored_1
-		expert_advisor_trait = army_armored_2
-		genius_advisor_trait = army_armored_3
-	}
-
-	commando = { 
- 		type = corps_commander
-		gain_xp = {
-			OR = {
-				temperature < -15
-				temperature > 27
-				has_combat_modifier = paradrop
-				has_combat_modifier = amphibious_attack
-			}
-		}
-		cost = 700
-		modifier = {
-			out_of_supply_factor = -0.20
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		gui_row = 10
-		
-		slot = high_command
-		specialist_advisor_trait = army_commando_1
-		expert_advisor_trait = army_commando_2
-		genius_advisor_trait = army_commando_3
-	}
 
 	desert_fox = { 
  		type = corps_commander
@@ -1153,27 +1115,6 @@ leader_traits = {
 		gui_row = 1
 	}
 
-	trait_mountaineer = { 
-		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = mountain
-		}
-		cost = 70
-		modifier = {
-			mountain = {
-				movement = 0.05
-				attack = 0.10
-				defence = 0.10
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		trait_type = basic_terrain_trait
-		gui_row = 3
-	}
-
 	hill_fighter = { 
 		type = corps_commander
 		gain_xp = {
@@ -1195,14 +1136,14 @@ leader_traits = {
 		gui_row = 2
 	}
 
-	jungle_rat = { 
+	trait_mountaineer = { 
 		type = corps_commander
 		gain_xp = {
-			is_fighting_in_terrain = jungle
+			is_fighting_in_terrain = mountain
 		}
 		cost = 70
 		modifier = {
-			jungle = {
+			mountain = {
 				movement = 0.05
 				attack = 0.10
 				defence = 0.10
@@ -1213,28 +1154,7 @@ leader_traits = {
 			factor = 1
 		}
 		trait_type = basic_terrain_trait
-		gui_row = 6
-	}
-
-	ranger = { 
-		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = forest
-		}
-		cost = 70
-		modifier = {
-			forest = {
-				movement = 0.05
-				attack = 0.10
-				defence = 0.10
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		trait_type = basic_terrain_trait
-		gui_row = 5
+		gui_row = 3
 	}
 
 	urban_assault_specialist = { 
@@ -1258,27 +1178,119 @@ leader_traits = {
 		gui_row = 4
 	}
 
-	naval_invader = {
+	ranger = { 
 		type = corps_commander
 		gain_xp = {
-			is_amphibious_invasion = yes
+			is_fighting_in_terrain = forest
 		}
-		cost = 100
+		cost = 70
 		modifier = {
-			amphibious_invasion = 0.3 # 30% faster invasions
-			invasion_preparation = -0.3
+			forest = {
+				movement = 0.05
+				attack = 0.10
+				defence = 0.10
+			}
 		}
 		
-		slot = high_command
-		specialist_advisor_trait = navy_amphibious_assault_1
-		expert_advisor_trait = navy_amphibious_assault_2
-		genius_advisor_trait = navy_amphibious_assault_3
+		ai_will_do = {
+			factor = 1
+		}
+		trait_type = basic_terrain_trait
+		gui_row = 5
+	}
+
+	jungle_rat = { 
+		type = corps_commander
+		gain_xp = {
+			is_fighting_in_terrain = jungle
+		}
+		cost = 70
+		modifier = {
+			jungle = {
+				movement = 0.05
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		trait_type = basic_terrain_trait
+		gui_row = 6
+	}
+
+	winter_specialist = { 
+		type = corps_commander
+		gain_xp = {
+			temperature < -10
+		}
+		cost = 50
+		modifier = {
+			winter_attrition_factor = -0.5
+		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 		
-		gui_row = 8
+		trait_type = basic_terrain_trait
+		gui_row = 7
+	}
+
+	winter_expert = { 
+		type = corps_commander
+
+		gain_xp = {
+			always = no # not gainable
+		}
+
+		modifier = {
+			acclimatization_cold_climate_gain_factor = 0.40
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		any_parent = { winter_specialist }
+
+		trait_type = assignable_terrain_trait
+		gui_row = 7
+	}
+
+	adaptable = { 
+		type = corps_commander
+		gain_xp = {
+			always = no # not gainable
+		}
+		cost = 1000
+		modifier = {
+			terrain_penalty_reduction = 0.15
+			acclimatization_cold_climate_gain_factor = 0.5
+			acclimatization_hot_climate_gain_factor = 0.5
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		trait_type = assignable_terrain_trait
+		gui_row = 3
+				
+		parent = {
+			traits = {
+				desert_fox
+				swamp_fox
+				trait_mountaineer
+				hill_fighter
+				jungle_rat
+				ranger
+				urban_assault_specialist
+				winter_specialist
+			}
+			num_parents_needed = 1
+		} 
 	}
 	
 ##################################
@@ -1366,59 +1378,6 @@ leader_traits = {
 		gui_row = 3
 	}
 	
-	fortress_buster = {
-		type = corps_commander
-		gain_xp = {
-			OR = {
-				has_combat_modifier = fort_attack
-				dig_in > 10
-			}
-		}
-		cost = 700
-		modifier = {
-			fort = {
-				attack = 0.075
-			}
-		}
-		enable_ability = siege_artillery
-		
-		slot = high_command
-		specialist_advisor_trait = army_artillery_1
-		expert_advisor_trait = army_artillery_2
-		genius_advisor_trait = army_artillery_3
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		gui_row = 4
-		
-		trait_type = assignable_trait
-		any_parent = { trait_engineer }
-		mutually_exclusive = scavenger
-	}
-	
-	scavenger = { 
-		type = corps_commander
-		gain_xp = {
-			always = no # not gainable
-		}
-		cost = 500
-		modifier = {
-			equipment_capture = 0.03
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		trait_type = assignable_trait
-		
-		gui_row = 5
-		any_parent = { trait_engineer }
-		mutually_exclusive = fortress_buster
-	}
-	
 	infantry_expert = { 
 		type = corps_commander
 		gain_xp = {
@@ -1437,7 +1396,7 @@ leader_traits = {
 		
 		trait_type = assignable_trait
 		any_parent = { infantry_leader }
-		gui_row = 6
+		gui_row = 4
 	}
 	
 	ambusher = { 
@@ -1460,51 +1419,9 @@ leader_traits = {
 		trait_type = assignable_trait
 		any_parent = { infantry_leader }
 		
-		gui_row = 7
+		gui_row = 5
 	}
 
-	invader_ii = { 
-		type = corps_commander
-		gain_xp = {
-			always = no # not gainable
-		}
-		cost = 500
-		modifier = {
-			extra_marine_supply_grace = 240
-		}
-		
-		enable_ability = faster_naval_invasion_planning
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		trait_type = assignable_trait
-		any_parent = { naval_invader }
-		
-		gui_row = 8
-	}
-
-	naval_liason = { 
-		type = corps_commander
-		gain_xp = {
-			always = no # not gainable
-		}
-		cost = 500
-		modifier = {
-			shore_bombardment_bonus = 0.25
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		trait_type = assignable_trait
-		any_parent = { naval_invader }
-		
-		gui_row = 9
-	}
-	
 	skirmisher = { 
 		type = corps_commander
 		gain_xp = {
@@ -1523,7 +1440,7 @@ leader_traits = {
 		trait_type = assignable_trait
 		any_parent = { commando }
 		
-		gui_row = 10
+		gui_row = 6
 	}
 	
 	paratrooper = { 
@@ -1545,7 +1462,7 @@ leader_traits = {
 		trait_type = assignable_trait
 		any_parent = { commando }
 		
-		gui_row = 11
+		gui_row = 7
 	}
 	
 	camouflage_expert = { 
@@ -1571,7 +1488,97 @@ leader_traits = {
 		trait_type = assignable_trait
 		any_parent = { commando }
 		
+		gui_row = 8
+	}
+
+	invader_ii = { 
+		type = corps_commander
+		gain_xp = {
+			always = no # not gainable
+		}
+		cost = 500
+		modifier = {
+			extra_marine_supply_grace = 240
+		}
+		
+		enable_ability = faster_naval_invasion_planning
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		trait_type = assignable_trait
+		any_parent = { naval_invader }
+		
+		gui_row = 9
+	}
+
+	naval_liason = { 
+		type = corps_commander
+		gain_xp = {
+			always = no # not gainable
+		}
+		cost = 500
+		modifier = {
+			shore_bombardment_bonus = 0.25
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		trait_type = assignable_trait
+		any_parent = { naval_invader }
+		
+		gui_row = 10
+	}
+	
+	fortress_buster = {
+		type = corps_commander
+		gain_xp = {
+			OR = {
+				has_combat_modifier = fort_attack
+				dig_in > 10
+			}
+		}
+		cost = 700
+		modifier = {
+			fort = {
+				attack = 0.075
+			}
+		}
+		enable_ability = siege_artillery
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		gui_row = 11
+		
+		trait_type = assignable_trait
+		any_parent = { trait_engineer bearer_of_artillery }
+		mutually_exclusive = scavenger
+	}
+	
+	scavenger = { 
+		type = corps_commander
+		gain_xp = {
+			always = no # not gainable
+		}
+		cost = 500
+		modifier = {
+			equipment_capture = 0.03
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		trait_type = assignable_trait
+		
 		gui_row = 12
+		any_parent = { trait_engineer }
+		mutually_exclusive = fortress_buster
 	}
 	
 	expert_improviser = { 
