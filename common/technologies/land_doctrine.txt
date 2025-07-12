@@ -3796,7 +3796,6 @@ technologies = {
 		land_reinforce_rate = 0.03
 
 		anti_tank_brigade = {
-			combat_width = -0.4
 			default_morale = 0.10
 		}
 		infantry = {
