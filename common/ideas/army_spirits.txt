@@ -543,7 +543,7 @@ ideas = {
 				support_equipment = {
 					reliability = 0.25 instant = yes	}
 					
-				motorized_rocket_equipment = {
+				motorized_equipment = {
 					reliability = 0.25 instant = yes	}
 				mechanized_equipment = {
 					reliability = 0.25 instant = yes	}
