@@ -508,7 +508,6 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			breakthrough = -0.1
 			armor_value = 0.15
 			reliability = 0.1
 		}
@@ -539,7 +538,6 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			breakthrough = -0.1
 			armor_value = 0.15
 			reliability = 0.1
 		}
@@ -669,13 +667,12 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			reliability = 0.1
 			defense = 10
 			max_strength = 0.57
 		}
 
 		multiply_stats = {
-			breakthrough = -0.1
+			reliability = 0.1
 			armor_value = 0.15
 		}
 
@@ -704,7 +701,6 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			breakthrough = -0.1
 			armor_value = 0.15
 			reliability = 0.1
 		}
@@ -733,7 +729,6 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			breakthrough = -0.1
 			armor_value = 0.15
 			reliability = 0.1
 		}
@@ -844,7 +839,6 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			breakthrough = -0.1
 			armor_value = 0.15
 			reliability = 0.1
 		}
@@ -873,7 +867,6 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			breakthrough = -0.1
 			armor_value = 0.15
 			reliability = 0.1
 		}
@@ -1993,7 +1986,6 @@ equipment_modules = {
 
 		add_stats = {
 			armor_value = 5
-			reliability = 0.05
 			build_cost_ic = 0.5
 		}
 		xp_cost = 0#1
