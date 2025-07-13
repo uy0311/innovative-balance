@@ -646,7 +646,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { navy_career_officer aviation_enthusiast blockade_runner superior_tactician }
+			traits = { navy_career_officer air_controller blockade_runner superior_tactician }
 	        skill = 5
 	        attack_skill = 5
 	        defense_skill = 5
@@ -700,21 +700,6 @@ characters={
 				small="gfx/interface/ideas/idea_USA_william_halsey_jr.dds"
 			}
 		}
-		advisor={
-			slot = navy_chief
-			idea_token = william_halsey_jr
-			ledger = air
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				navy_chief_maneuver_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 		navy_leader={
 			traits={ bold aviation_enthusiast inshore_fighter blue_water_expert blockade_runner superior_tactician spotter }
 			skill=4
@@ -738,7 +723,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { navy_career_officer chief_engineer superior_tactician spotter }
+			traits = { navy_career_officer chief_engineer air_controller superior_tactician spotter }
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 3
@@ -764,7 +749,7 @@ characters={
 				original_tag = USA
 			}
 			traits = {
-				navy_chief_commerce_raiding_2
+				navy_chief_maneuver_2
 			}
 			cost = 150
 			ai_will_do = {
@@ -791,7 +776,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { cuts_corners blockade_runner spotter }
+			traits = { cuts_corners blockade_runner spotter superior_tactician }
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 2
@@ -828,8 +813,23 @@ characters={
 				small="gfx/interface/ideas/idea_USA_charles_m_cooke.dds"
 			}
 		}
+		advisor={
+			slot = navy_chief
+			idea_token = charles_m_cooke_jr
+			ledger = air
+			allowed = {
+				original_tag = USA
+			}
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 		navy_leader={
-			traits={ career_officer seawolf }
+			traits={ career_officer seawolf blockade_runner }
 			skill=2
 			attack_skill=2
 			defense_skill=2
