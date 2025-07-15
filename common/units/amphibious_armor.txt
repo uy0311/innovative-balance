@@ -7,7 +7,6 @@ sub_units = {
 		priority = 2501
 		ai_priority = 2000
 		active = no
-		special_forces = yes
 		marines = yes
 		type = {
 			armor
@@ -74,7 +73,6 @@ sub_units = {
 		priority = 2502
 		ai_priority = 2000
 		active = yes
-		special_forces = yes
 		marines = yes
 		type = {
 			armor
@@ -139,7 +137,6 @@ sub_units = {
 		priority = 2503
 		ai_priority = 2000
 		active = yes
-		special_forces = yes
 		marines = yes
 		type = {
 			armor
@@ -207,7 +204,6 @@ sub_units = {
 		priority = 2504
 		ai_priority = 2000
 		active = no
-		special_forces = yes
 		marines = yes
 		type = {
 			armor

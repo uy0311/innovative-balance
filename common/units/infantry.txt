@@ -333,6 +333,7 @@ sub_units = {
 		abbreviation = "RAN"
 		sprite = infantry
 		map_icon_category = infantry
+		special_forces = yes
 		priority = 1004
 		ai_priority = 0
 		active = no
