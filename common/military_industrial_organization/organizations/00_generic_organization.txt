@@ -26,6 +26,10 @@ generic_mobile_tank_organization = {
 		equipment_bonus = {
 			maximum_speed = 0.15
 			reliability = 0.10
+			breakthrough = 0.05
+			defense = 0.05
+			armor_value = -0.05
+			air_attack = 0.1
 		}
 	}
 
@@ -40,8 +44,7 @@ generic_mobile_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_tank_armors }
 
 		equipment_bonus = {
-			breakthrough = 0.05
-			defense = 0.05
+
 		}
 	}
 
@@ -86,7 +89,7 @@ generic_mobile_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_tank_antiairs }
 
 		equipment_bonus = {
-			air_attack = 0.1
+			
 		}
 	}
 
@@ -108,6 +111,7 @@ generic_medium_tank_organization = {
 		name = generic_mio_initial_trait_medium_tank_designer
 
 		equipment_bonus = {
+			maximum_speed = 0.05
 			soft_attack = 0.10
 		}
 	}
@@ -139,7 +143,7 @@ generic_medium_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_tank_artillerys }
 
 		equipment_bonus = {
-			maximum_speed = 0.10
+			
 		}
 	}
 
@@ -190,6 +194,7 @@ generic_heavy_tank_organization = {
 		name = generic_mio_initial_trait_heavy_tank_designer
 		
 		equipment_bonus = {
+			reliability = 0.05
 			hard_attack = 0.10
 			armor_value = 0.10
 		}
@@ -237,7 +242,7 @@ generic_heavy_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_tank_destroyers }
 
 		equipment_bonus = {
-			reliability = 0.10
+			
 		}
 	}
 
@@ -273,6 +278,7 @@ generic_infantry_tank_organization = {
 		name = generic_mio_initial_trait_infantry_tanks_designer
 		
 		equipment_bonus = {
+			maximum_speed = -0.10
 			soft_attack = 0.10
 			armor_value = 0.10
 		}
@@ -289,7 +295,7 @@ generic_infantry_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_tank_armors }
 
 		equipment_bonus = {
-			maximum_speed = -0.15
+			
 		}
 	}
 
@@ -401,9 +407,11 @@ generic_tank_organization = {
 		name = generic_mio_initial_trait_standardized_production
 
 		equipment_bonus = {
+			maximum_speed = 0.05
+			reliability = 0.05
 			soft_attack = 0.05
 			hard_attack = 0.05
-			reliability = 0.05
+			air_attack = 0.1
 		}
 
 	}
@@ -435,8 +443,7 @@ generic_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_tank_artillerys }
 
 		equipment_bonus = {
-			maximum_speed = 0.05
-			reliability = 0.05
+			
 		}
 	}
 
@@ -451,8 +458,7 @@ generic_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_tank_destroyers }
 
 		equipment_bonus = {
-			maximum_speed = 0.05
-			reliability = 0.05
+
 		}
 	}
 
@@ -466,7 +472,7 @@ generic_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_tank_antiairs }
 
 		equipment_bonus = {
-			air_attack = 0.1
+			
 		}
 	}
 
