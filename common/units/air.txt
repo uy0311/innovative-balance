@@ -230,7 +230,7 @@ sub_units = {
 		type = ballistic_missile
 		need = { ballistic_missile_equipment = 1 }
 		land_air_wing_size = 100
-		carrier_air_wing_size = 10
+		carrier_air_wing_size = 50
 	}
 	
 	nuclear_missile = {

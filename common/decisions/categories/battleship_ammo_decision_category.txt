@@ -1,0 +1,7 @@
+battleship_ammo_decision = {
+	icon = generic_fascism
+	allowed = {
+		NOT = { OR = { tag = MEX tag  = LUX } }
+		always = yes
+	}
+}
