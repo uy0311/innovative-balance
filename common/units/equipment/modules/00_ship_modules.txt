@@ -1260,7 +1260,8 @@ equipment_modules = {
 		category = battery_base_14in
 		gui_category = ship_14in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 1350
@@ -1388,7 +1389,8 @@ equipment_modules = {
 		category = battery_base_14in
 		gui_category = ship_14in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 1800
@@ -1532,7 +1534,8 @@ equipment_modules = {
 		category = battery_base_14in
 		gui_category = ship_14in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 2250
@@ -1680,7 +1683,8 @@ equipment_modules = {
 		category = battery_base_15in
 		gui_category = ship_15in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 1710
@@ -1811,7 +1815,8 @@ equipment_modules = {
 		category = battery_base_15in
 		gui_category = ship_15in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 2340
@@ -1942,7 +1947,8 @@ equipment_modules = {
 		category = battery_base_15in
 		gui_category = ship_15in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 2850
@@ -2074,7 +2080,8 @@ equipment_modules = {
 		category = battery_base_16in
 		gui_category = ship_16in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 2025
@@ -2205,7 +2212,8 @@ equipment_modules = {
 		category = battery_base_16in
 		gui_category = ship_16in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 2700
@@ -2337,7 +2345,8 @@ equipment_modules = {
 		category = battery_base_18in
 		gui_category = ship_18in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 2430
@@ -2468,7 +2477,8 @@ equipment_modules = {
 		category = battery_base_18in
 		gui_category = ship_18in_battery
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 		
 		add_stats = {
 			build_cost_ic = 3240
