@@ -471,8 +471,8 @@ equipment_modules = {
 			build_cost_ic = 1.6
 			breakthrough = 20
 			defense = 10
-			soft_attack = 4
-			hard_attack = 1
+			soft_attack = 5
+			hard_attack = 2
 			air_attack = 2
 			max_strength = 0.9
 		}
@@ -636,8 +636,8 @@ equipment_modules = {
 			build_cost_ic = 2.5
 			breakthrough = 22
 			defense = 11
-			soft_attack = 4
-			hard_attack = 1
+			soft_attack = 5
+			hard_attack = 2
 			air_attack = 2
 			max_strength = 0.855
 		}
@@ -804,8 +804,8 @@ equipment_modules = {
 			build_cost_ic = 4.0
 			breakthrough = 24
 			defense = 12
-			soft_attack = 4
-			hard_attack = 1
+			soft_attack = 5
+			hard_attack = 2
 			air_attack = 2
 			max_strength = 0.8
 		}
@@ -912,8 +912,8 @@ equipment_modules = {
 			build_cost_ic = 6.5
 			breakthrough = 26
 			defense = 13
-			soft_attack = 4
-			hard_attack = 1
+			soft_attack = 5
+			hard_attack = 2
 			air_attack = 2
 			max_strength = 0.8
 		}
@@ -964,8 +964,8 @@ equipment_modules = {
 			build_cost_ic = 7.5
 			breakthrough = 36
 			defense = 18
-			soft_attack = 4
-			hard_attack = 1
+			soft_attack = 5
+			hard_attack = 2
 			air_attack = 2
 			max_strength = 1.06
 		}
@@ -1016,8 +1016,8 @@ equipment_modules = {
 			build_cost_ic = 4.0
 			breakthrough = 26
 			defense = 13
-			soft_attack = 4
-			hard_attack = 1
+			soft_attack = 5
+			hard_attack = 2
 			air_attack = 2
 			max_strength = 0.855
 		}
