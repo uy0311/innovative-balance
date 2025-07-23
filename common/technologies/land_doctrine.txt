@@ -1162,8 +1162,8 @@ technologies = {
 		category_support_artillery = {
 			max_organisation = 60
 			default_morale = 0.3
+			breakthrough = 0.4
 			defense = 0.4
-			initiative = 0.01
 		}
 
 		path = {
@@ -1223,9 +1223,10 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_support_artillery = {
-			soft_attack = 0.50
-			hard_attack = 0.50
-			air_attack = 0.50
+			soft_attack = 0.70
+			hard_attack = 0.70
+			air_attack = 0.40
+			ap_attack = 0.30
 		}
 
 		enable_tactic = tactic_overwhelming_fire
@@ -1284,12 +1285,12 @@ technologies = {
 		category_line_artillery = {
 			max_organisation = 30
 			default_morale = 0.15
+			breakthrough = 0.2
 			defense = 0.2
-			initiative = 0.01
 		}
 
 		path = {
-			leads_to_tech = advanced_firebases
+			leads_to_tech = overwhelming_firepower
 			research_cost_coeff = 1
 		}
 
@@ -1340,390 +1341,14 @@ technologies = {
 		}
 	}
 
-	advanced_firebases = {
+	overwhelming_firepower = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
 		category_line_artillery = {
-			soft_attack = 0.25
-			hard_attack = 0.25
-			air_attack = 0.25
-		}
-
-		artillery_brigade = {
-			forest = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			hills = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			mountain = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			jungle = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			marsh = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			plains = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			farmland = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			urban = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			desert = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			river = {
-				movement = 0.25
-			}
-			amphibious = {
-				movement = 0.25
-			}
-		}
-
-		rocket_artillery_brigade = {
-			forest = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			hills = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			mountain = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			jungle = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			marsh = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			plains = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			farmland = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			urban = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			desert = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			river = {
-				movement = 0.25
-			}
-			amphibious = {
-				movement = 0.25
-			}
-		}
-
-		anti_tank_brigade = {
-			forest = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			hills = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			mountain = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			jungle = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			marsh = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			plains = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			farmland = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			urban = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			desert = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			river = {
-				movement = 0.25
-			}
-			amphibious = {
-				movement = 0.25
-			}
-		}
-
-		anti_air_brigade = {
-			forest = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			hills = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			mountain = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			jungle = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			marsh = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			plains = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			farmland = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			urban = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			desert = {
-				movement = 0.25
-				attack = 0.15
-				defence = 0.15
-			}
-			river = {
-				movement = 0.25
-			}
-			amphibious = {
-				movement = 0.25
-			}
-		}
-
-		mot_artillery_brigade = {
-			maximum_speed = 0.45
-			forest = {
-				attack = 0.15
-				defence = 0.15
-			}
-			hills = {
-				attack = 0.15
-				defence = 0.15
-			}
-			mountain = {
-				attack = 0.15
-				defence = 0.15
-			}
-			jungle = {
-				attack = 0.15
-				defence = 0.15
-			}
-			marsh = {
-				attack = 0.15
-				defence = 0.15
-			}
-			plains = {
-				attack = 0.15
-				defence = 0.15
-			}
-			farmland = {
-				attack = 0.15
-				defence = 0.15
-			}
-			urban = {
-				attack = 0.15
-				defence = 0.15
-			}
-			desert = {
-				attack = 0.15
-				defence = 0.15
-			}
-		}
-
-		mot_rocket_artillery_brigade = {
-			maximum_speed = 0.45
-			forest = {
-				attack = 0.15
-				defence = 0.15
-			}
-			hills = {
-				attack = 0.15
-				defence = 0.15
-			}
-			mountain = {
-				attack = 0.15
-				defence = 0.15
-			}
-			jungle = {
-				attack = 0.15
-				defence = 0.15
-			}
-			marsh = {
-				attack = 0.15
-				defence = 0.15
-			}
-			plains = {
-				attack = 0.15
-				defence = 0.15
-			}
-			farmland = {
-				attack = 0.15
-				defence = 0.15
-			}
-			urban = {
-				attack = 0.15
-				defence = 0.15
-			}
-			desert = {
-				attack = 0.15
-				defence = 0.15
-			}
-		}
-
-		mot_anti_tank_brigade = {
-			maximum_speed = 0.45
-			forest = {
-				attack = 0.15
-				defence = 0.15
-			}
-			hills = {
-				attack = 0.15
-				defence = 0.15
-			}
-			mountain = {
-				attack = 0.15
-				defence = 0.15
-			}
-			jungle = {
-				attack = 0.15
-				defence = 0.15
-			}
-			marsh = {
-				attack = 0.15
-				defence = 0.15
-			}
-			plains = {
-				attack = 0.15
-				defence = 0.15
-			}
-			farmland = {
-				attack = 0.15
-				defence = 0.15
-			}
-			urban = {
-				attack = 0.15
-				defence = 0.15
-			}
-			desert = {
-				attack = 0.15
-				defence = 0.15
-			}
-		}
-
-		mot_anti_air_brigade = {
-			maximum_speed = 0.45
-			forest = {
-				attack = 0.15
-				defence = 0.15
-			}
-			hills = {
-				attack = 0.15
-				defence = 0.15
-			}
-			mountain = {
-				attack = 0.15
-				defence = 0.15
-			}
-			jungle = {
-				attack = 0.15
-				defence = 0.15
-			}
-			marsh = {
-				attack = 0.15
-				defence = 0.15
-			}
-			plains = {
-				attack = 0.15
-				defence = 0.15
-			}
-			farmland = {
-				attack = 0.15
-				defence = 0.15
-			}
-			urban = {
-				attack = 0.15
-				defence = 0.15
-			}
-			desert = {
-				attack = 0.15
-				defence = 0.15
-			}
+			soft_attack = 0.35
+			hard_attack = 0.35
+			air_attack = 0.20
 		}
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -1775,20 +1400,14 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		naval_invasion_planning_bonus_speed = 0.20
-		naval_invasion_capacity = 10
+		air_cas_present_factor = 0.50
+		naval_invasion_planning_bonus_speed = 0.25
 
-		signal_company = {
-			battalion_mult = {
-				category = category_support_artillery
-				initiative = 0.01
-				add = yes
-			}
-			battalion_mult = {
-				category = category_line_artillery
-				initiative = 0.01
-				add = yes
-			}
+		category_support_artillery = {
+			initiative = 0.01
+		}
+		category_line_artillery = {
+			initiative = 0.01
 		}
 
 		category_front_line = {
@@ -1856,28 +1475,16 @@ technologies = {
 		land_reinforce_rate = 0.02
 
 		motorized = {
-			reliability_factor = 0.01
-			equipment_capture_factor = 0.01
-			casualty_trickleback = 0.03
-			experience_loss_factor = -0.025
-			supply_consumption_factor = -0.02
-			fuel_consumption_factor = -0.01
+			soft_attack = 0.25
+			hard_attack = 0.25
 		}
 		mechanized = {
-			reliability_factor = 0.01
-			equipment_capture_factor = 0.01
-			casualty_trickleback = 0.03
-			experience_loss_factor = -0.025
-			supply_consumption_factor = -0.02
-			fuel_consumption_factor = -0.01
+			soft_attack = 0.10
+			hard_attack = 0.10
 		}
 		amphibious_mechanized = {
-			reliability_factor = 0.01
-			equipment_capture_factor = 0.01
-			casualty_trickleback = 0.03
-			experience_loss_factor = -0.025
-			supply_consumption_factor = -0.02
-			fuel_consumption_factor = -0.01
+			soft_attack = 0.10
+			hard_attack = 0.10
 		}
 		
 		path = {
@@ -1931,17 +1538,33 @@ technologies = {
 			soft_attack = 0.10
 			hard_attack = 0.10
 		}
+
 		motorized = {
-			soft_attack = 0.20
-			hard_attack = 0.20
+			reliability_factor = 0.02
+			equipment_capture_factor = 0.02
+			casualty_trickleback = 0.04
+			experience_loss_factor = -0.04
+			supply_consumption_factor = -0.04
+			fuel_consumption_factor = -0.02
+			initiative = 0.02
 		}
 		mechanized = {
-			soft_attack = 0.10
-			hard_attack = 0.10
+			reliability_factor = 0.02
+			equipment_capture_factor = 0.02
+			casualty_trickleback = 0.04
+			experience_loss_factor = -0.04
+			supply_consumption_factor = -0.04
+			fuel_consumption_factor = -0.02
+			initiative = 0.02
 		}
 		amphibious_mechanized = {
-			soft_attack = 0.10
-			hard_attack = 0.10
+			reliability_factor = 0.02
+			equipment_capture_factor = 0.02
+			casualty_trickleback = 0.04
+			experience_loss_factor = -0.04
+			supply_consumption_factor = -0.04
+			fuel_consumption_factor = -0.02
+			initiative = 0.02
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -2001,7 +1624,7 @@ technologies = {
 			max_organisation = 10
 		}
 
-		naval_invasion_capacity = 20
+		naval_invasion_capacity = 100
 	
 		enable_tactic = tactic_tactical_withdrawal
 		
@@ -2059,12 +1682,12 @@ technologies = {
 		category_front_line = {
 			max_organisation = 15
 			default_morale = 0.10
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.10
+			hard_attack = 0.10
 		}
 
-		army_bonus_air_superiority_factor = 1.0
-		air_cas_present_factor = 0.45
+		army_bonus_air_superiority_factor = 0.5
+		air_cas_present_factor = 0.50
 		
 		fighter = {
 			air_ground_attack = 0.1
@@ -2134,6 +1757,7 @@ technologies = {
 		}
 
 		land_reinforce_rate = 0.02
+		naval_invasion_planning_bonus_speed = 2.75
 
 		category_marines = {
 			soft_attack = 0.10
@@ -2145,41 +1769,10 @@ technologies = {
 			hard_attack = 0.10
 		}
 
-		# recon = {
-		# 	battalion_mult = {
-		# 		category = category_marines
-		# 		soft_attack = 0.10
-		# 	}
-		# }
-		# mot_recon = {
-		# 	battalion_mult = {
-		# 		category = ccategory_marines
-		# 		soft_attack = 0.10
-		# 	}
-		# }
-		# armored_car_recon = {
-		# 	battalion_mult = {
-		# 		category = category_marines
-		# 		soft_attack = 0.10
-		# 	}
-		# }
-		# light_tank_recon = {
-		# 	battalion_mult = {
-		# 		category = category_marines
-		# 		soft_attack = 0.10
-		# 	}
-		# }
-		# airborne_light_armor = {
-		# 	battalion_mult = {
-		# 		category = category_marines
-		# 		soft_attack = 0.10
-		# 	}
-		# }
-
 		enable_tactic = tactic_tactical_withdrawal
 		
 		path = {
-			leads_to_tech = overwhelming_firepower
+			leads_to_tech = regimental_combat_teams
 			research_cost_coeff = 1
 		}
 
@@ -2221,25 +1814,23 @@ technologies = {
 		}
 	}
 
-	overwhelming_firepower = {
+	regimental_combat_teams = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		naval_invasion_planning_bonus_speed = 0.80
-
-		category_artillery = {
-			defense = 0.20
-		}
-		pioneer_support = {
-			battalion_mult = {
-				category = category_artillery 
-				breakthrough = 0.40
-			}
+		category_special_forces = {
+			reliability_factor = 0.01
+			equipment_capture_factor = 0.01
+			casualty_trickleback = 0.02
+			experience_loss_factor = -0.02
+			supply_consumption_factor = -0.02
+			fuel_consumption_factor = -0.01
+			initiative = 0.01
 		}
 
 
 		path = {
-			leads_to_tech = regimental_combat_teams
+			leads_to_tech =advanced_firebases
 			research_cost_coeff = 1
 		}
 
@@ -2280,20 +1871,480 @@ technologies = {
 		}
 	}
 
-	regimental_combat_teams = {
+	advanced_firebases = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
 		land_reinforce_rate = 0.02
-		
-		category_support_battalions = {
-			reliability_factor = 0.01
-			equipment_capture_factor = 0.01
-			casualty_trickleback = 0.03
-			experience_loss_factor = -0.025
-			supply_consumption_factor = -0.02
-			fuel_consumption_factor = -0.01
+
+		artillery = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
 		}
+
+		rocket_artillery = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		anti_tank = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		anti_air = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		artillery_brigade = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		rocket_artillery_brigade = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		anti_tank_brigade = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		anti_air_brigade = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		mot_artillery_brigade = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		mot_rocket_artillery_brigade = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		mot_anti_tank_brigade = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		mot_anti_air_brigade = {
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
 		category_front_line = {
 			max_organisation = 10
 		}
@@ -2352,12 +2403,12 @@ technologies = {
 		category_front_line = {
 			max_organisation = 15
 			default_morale = 0.10
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.10
+			hard_attack = 0.10
 		}
 
-		army_bonus_air_superiority_factor = 1.0
-		air_cas_present_factor = 0.45
+		army_bonus_air_superiority_factor = 0.5
+		air_cas_present_factor = 0.50
 
 		cv_fighter = {
 			air_ground_attack = 0.1
@@ -2571,7 +2622,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		naval_invasion_planning_bonus_speed = 5.0
+		naval_invasion_planning_bonus_speed = 1.5
+		invasion_preparation = -0.5
 		land_reinforce_rate = 0.03
 
 		category_light_infantry = {
