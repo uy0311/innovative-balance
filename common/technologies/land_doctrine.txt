@@ -947,7 +947,6 @@ technologies = {
 		resistance_growth_on_our_occupied_states = 0.5
 		resistance_target_on_our_occupied_states = 0.3
 		out_of_supply_factor = -0.1
-		supply_combat_penalties_on_core_factor = -0.34
 		attrition = -0.8
 		
 		land_reinforce_rate = 0.06
@@ -1011,7 +1010,9 @@ technologies = {
 			leads_to_tech = sup_delay 
 			research_cost_coeff = 1
 		}
-		
+
+		no_supply_grace = -48 # more hours before supply penalty changes
+
 		category_front_line = {
 			soft_attack = 0.10
 		}
@@ -1680,7 +1681,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_front_line = {
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.10
 			soft_attack = 0.10
 			hard_attack = 0.10
@@ -2245,7 +2246,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_front_line = {
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.10
 			soft_attack = 0.10
 			hard_attack = 0.10
@@ -3243,6 +3244,7 @@ technologies = {
 		xp_unlock_cost = 100
 		#reduce land night combat penalty
 		land_night_attack = 0.25 # negates half of base penalty
+		out_of_supply_factor = -0.1
 
 		category_light_infantry = {
 			default_morale = 0.1
