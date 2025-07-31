@@ -146,9 +146,6 @@ ideas = {
 				experience_gain_army_unit_factor = 0.15
 				max_command_power = 300
 			}
-			research_bonus = {
-				support_tech = 0.2
-			}
 			ai_will_do = {
 				factor = 1
 			}
@@ -469,8 +466,8 @@ ideas = {
 		flexible_organization_spirit = {
 			ledger = army
 			modifier = {
-				org_loss_when_moving = -0.15
-				army_speed_factor = 0.05
+				org_loss_when_moving = -0.30
+				army_speed_factor = 0.10
 				choose_preferred_tactics_cost = -15
 			}
 			ai_will_do = {
@@ -483,7 +480,7 @@ ideas = {
 			modifier = {
 				tactic_infantry_charge_preferred_weight_factor = 1
 				intel_from_combat_factor = 0.15
-				recon_factor = 0.15
+				recon_factor = 0.25
 			}
 			ai_will_do = {
 				factor = 1
@@ -494,7 +491,7 @@ ideas = {
 			ledger = army
 			modifier = {
 				tactic_delay_preferred_weight_factor = 1
-				training_time_army_factor = -0.10
+				training_time_army_factor = -0.15
 			}
 			ai_will_do = {
 				factor = 1
@@ -505,7 +502,7 @@ ideas = {
 			ledger = army
 			modifier = {
 				tactic_human_wave_tactics_preferred_weight_factor = 1
-				org_loss_at_low_org_factor = -0.15
+				org_loss_at_low_org_factor = -0.25
 			}
 			ai_will_do = {
 				factor = 1
@@ -516,8 +513,11 @@ ideas = {
 			available = { has_tech = mobile_warfare }
 			modifier = {
 				tactic_unexpected_thrust_preferred_weight_factor = 1
+				tactic_breakthrough_preferred_weight_factor = 1
 				army_speed_factor = 0.05
-				army_bonus_air_superiority_factor = 0.25
+				command_abilities_cost_factor = -0.50
+				trait_organizer_xp_gain_factor = 0.2
+				recon_factor = 0.10
 			}
 			ai_will_do = {
 				factor = 1
