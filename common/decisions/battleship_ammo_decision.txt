@@ -20,7 +20,7 @@ battleship_ammo_decision = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = ballistic_missile_equipment_1
-				amount = 100
+				amount = 1000
 			}
 		}
 	}
