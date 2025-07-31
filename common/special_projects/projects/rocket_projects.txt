@@ -399,7 +399,7 @@ sp_rockets_ballistic_missile = {
 			limit = {
 				has_dlc = "Gotterdammerung"
 			}
-		#	ballistic_missile_equipment_1
+			ballistic_missile_equipment_1
 		}
 		enable_equipments = {
 			limit = {
