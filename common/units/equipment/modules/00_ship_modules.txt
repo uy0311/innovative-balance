@@ -677,10 +677,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 200
+			build_cost_ic = 100
 			max_strength = 12.0
 			lg_attack = 1.25
-			naval_light_gun_hit_chance_factor = 0.42
+			naval_light_gun_hit_chance_factor = 0.52
 			surface_visibility = 0.1
 			reliability = -0.02
 		}
@@ -711,10 +711,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 300
+			build_cost_ic = 150
 			max_strength = 13.2
 			lg_attack = 2.5
-			naval_light_gun_hit_chance_factor = 0.44
+			naval_light_gun_hit_chance_factor = 0.54
 			surface_visibility = 0.12
 			reliability = -0.024
 		}
@@ -746,10 +746,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			build_cost_ic = 240
+			build_cost_ic = 180
 			max_strength = 15.0
 			lg_attack = 1.5
-			naval_light_gun_hit_chance_factor = 0.265
+			naval_light_gun_hit_chance_factor = 0.315
 			surface_visibility = 0.125
 			reliability = -0.03
 		}
@@ -783,10 +783,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 360
+			build_cost_ic = 240
 			max_strength = 16.5
 			lg_attack = 3.0
-			naval_light_gun_hit_chance_factor = 0.28
+			naval_light_gun_hit_chance_factor = 0.33
 			surface_visibility = 0.15
 			reliability = -0.036
 		}
@@ -820,10 +820,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 480
+			build_cost_ic = 360
 			max_strength = 18.0
 			lg_attack = 4.5
-			naval_light_gun_hit_chance_factor = 0.295
+			naval_light_gun_hit_chance_factor = 0.345
 			surface_visibility = 0.165
 			reliability = -0.0396
 		}
@@ -858,7 +858,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 200
+			build_cost_ic = 100
 			max_strength = 12.0
 			lg_attack = 1.25
 			naval_light_gun_hit_chance_factor = 0.02
@@ -889,7 +889,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 300
+			build_cost_ic = 150
 			max_strength = 13.2
 			lg_attack = 2.5
 			naval_light_gun_hit_chance_factor = 0.04
@@ -921,7 +921,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			build_cost_ic = 240
+			build_cost_ic = 180
 			max_strength = 15.0
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.015
@@ -952,7 +952,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 360
+			build_cost_ic = 240
 			max_strength = 16.5
 			lg_attack = 3.0
 			naval_light_gun_hit_chance_factor = 0.03
@@ -983,7 +983,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 480
+			build_cost_ic = 360
 			max_strength = 18.0
 			lg_attack = 4.5
 			naval_light_gun_hit_chance_factor = 0.045

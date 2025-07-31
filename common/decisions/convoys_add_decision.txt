@@ -1,29 +1,4 @@
 convoys_add_decision = {
-	gain_1convoys_from_10pp = {
-
-		icon = generic_army_support
-
-		cost = 10
-
-		available = {
-			always = yes
-		}
-	
-		fire_only_once = no
-
-		visible = {
-			always = yes
-		}
-	
-		days_remove = 10
-	
-		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = convoy_1
-				amount = 1
-			}
-		}
-	}
 
 	gain_10convoys_from_100pp = {
 
@@ -38,7 +13,7 @@ convoys_add_decision = {
 		fire_only_once = no
 
 		visible = {
-			always = yes
+			has_political_power > 99
 		}
 	
 		days_remove = 10
@@ -47,6 +22,32 @@ convoys_add_decision = {
 			add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = 10
+			}
+		}
+	}
+
+	gain_50convoys_from_500pp = {
+
+		icon = generic_army_support
+
+		cost = 500
+
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			has_political_power > 499
+		}
+	
+		days_remove = 10
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 50
 			}
 		}
 	}
@@ -64,7 +65,7 @@ convoys_add_decision = {
 		fire_only_once = no
 
 		visible = {
-			always = yes
+			has_political_power > 999
 		}
 	
 		days_remove = 10
@@ -73,39 +74,6 @@ convoys_add_decision = {
 			add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = 100
-			}
-		}
-	}
-
-	gain_1convoys_from_10CP = {
-
-		icon = generic_army_support
-		
-		available = {
-			always = yes
-		}
-	
-		fire_only_once = no
-
-		visible = {
-			always = yes
-		}
-	
-		days_remove = 10
-
-		custom_cost_trigger = {
-			command_power > 9
-		}
-
-		custom_cost_text = decision_cost_CP_10
-	
-		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = convoy_1
-				amount = 1
-			}
-			hidden_effect = {
-				add_command_power = -10
 			}
 		}
 	}
@@ -121,7 +89,7 @@ convoys_add_decision = {
 		fire_only_once = no
 
 		visible = {
-			always = yes
+			command_power > 99
 		}
 	
 		days_remove = 10
@@ -143,6 +111,39 @@ convoys_add_decision = {
 		}
 	}
 
+	gain_30convoys_from_300CP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			command_power > 299
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			command_power > 299
+		}
+
+		custom_cost_text = decision_cost_CP_300
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 30
+			}
+			hidden_effect = {
+				add_command_power = -300
+			}
+		}
+	}
+
 	gain_50convoys_from_500CP = {
 
 		icon = generic_army_support
@@ -154,7 +155,7 @@ convoys_add_decision = {
 		fire_only_once = no
 
 		visible = {
-			always = yes
+			command_power > 499
 		}
 	
 		days_remove = 10
@@ -176,37 +177,6 @@ convoys_add_decision = {
 		}
 	}
 
-	gain_1convoys_from_10NavyXP = {
-
-		icon = generic_army_support
-		
-		available = {
-			always = yes
-		}
-	
-		fire_only_once = no
-
-		visible = {
-			always = yes
-		}
-	
-		days_remove = 10
-
-		custom_cost_trigger = {
-			has_navy_experience > 9
-		}
-	
-		custom_cost_text = decision_cost_navy_experience
-
-		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = convoy_1
-				amount = 1
-			}
-			navy_experience = -10
-		}
-	}
-
 	gain_10convoys_from_100NavyXP = {
 
 		icon = generic_army_support
@@ -218,7 +188,7 @@ convoys_add_decision = {
 		fire_only_once = no
 
 		visible = {
-			always = yes
+			has_navy_experience > 99
 		}
 	
 		days_remove = 10
@@ -238,6 +208,37 @@ convoys_add_decision = {
 		}
 	}
 
+	gain_50convoys_from_500NavyXP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			has_navy_experience > 499
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			has_navy_experience > 499
+		}
+	
+		custom_cost_text = decision_cost_navy_experience
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 50
+			}
+			navy_experience = -500
+		}
+	}
+
 	gain_100convoys_from_1000NavyXP = {
 
 		icon = generic_army_support
@@ -249,7 +250,7 @@ convoys_add_decision = {
 		fire_only_once = no
 
 		visible = {
-			always = yes
+			has_navy_experience > 999
 		}
 	
 		days_remove = 10

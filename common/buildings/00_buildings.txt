@@ -169,6 +169,7 @@ buildings = {
 		value = 1
 		tags = {}
 		infrastructure_construction_effect = no
+		is_buildable = no
 		
 		spawn_point = rocket_site_spawn
 		level_cap = {
