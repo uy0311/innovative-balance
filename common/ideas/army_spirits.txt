@@ -45,13 +45,8 @@ ideas = {
 		}
 		academy_scholarships_spirit = {
 			ledger = army
-			available = { 
-				has_government = communism
-			}
 			modifier = {
-				army_leader_start_level = 1
-				army_leader_cost_factor = -0.3 
-				unit_leader_as_advisor_cp_cost_factor = -0.75
+				army_leader_cost_factor = -0.95
 				custom_modifier_tooltip = academy_scholarships_spirit_tt
 			}
 			ai_will_do = {
