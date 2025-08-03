@@ -129,7 +129,7 @@ technologies = {
 		pioneer_support = {
 			battalion_mult = {
 				category = category_infantry_and_bicycle
-				max_strength = 2.5
+				max_strength = 0.10
 			}
 		}
 	
@@ -607,7 +607,7 @@ technologies = {
 		pioneer_support = {
 			battalion_mult = {
 				category = category_infantry_and_bicycle
-				max_strength = 2.5
+				max_strength = 0.10
 			}
 		}
 
