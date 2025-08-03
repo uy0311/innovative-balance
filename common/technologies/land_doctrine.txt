@@ -127,7 +127,10 @@ technologies = {
 			max_organisation = 10#2
 		}
 		pioneer_support = {
-			max_strength = 20.0
+			battalion_mult = {
+				category = category_infantry_and_bicycle
+				max_strength = 2.5
+			}
 		}
 	
 		enable_tactic = tactic_elastic_defense
@@ -600,7 +603,14 @@ technologies = {
 			default_morale = 0.4
 			max_organisation = 20
 		}
-		
+
+		pioneer_support = {
+			battalion_mult = {
+				category = category_infantry_and_bicycle
+				max_strength = 2.5
+			}
+		}
+
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
@@ -717,11 +727,13 @@ technologies = {
 		xp_unlock_cost = 100
 		enable_tactic = tactic_backhand_blow
 		
+		max_dig_in = -4
+		dig_in_speed_factor = 2.0
+
 		path = {
 			leads_to_tech = modern_blitzkrieg 
 			research_cost_coeff = 1
 		}
-
 		
 		doctrine = yes	
 		research_cost = 5.0
@@ -831,9 +843,8 @@ technologies = {
 		land_reinforce_rate = 0.03
 
 		category_army = {
-			breakthrough = -0.20
+			breakthrough = -0.10
 			defense = 0.10
-			max_organisation = -5
 		}
 
 		
@@ -895,9 +906,8 @@ technologies = {
 		land_reinforce_rate = 0.03
 
 		category_army = {
-			breakthrough = -0.20
+			breakthrough = -0.10
 			defense = 0.10
-			max_organisation = -5
 		}
 
 		path = {
@@ -953,7 +963,6 @@ technologies = {
 
 		category_army = {
 			default_morale = 0.2
-			max_organisation = -10
 		}
 
 		enable_tactic = tactic_guerrilla_tactics
