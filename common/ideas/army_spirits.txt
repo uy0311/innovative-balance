@@ -406,11 +406,11 @@ ideas = {
 
 					unit_engineer_design_cost_factor = -0.33
 
-					unit_artillery_brigade_design_cost_factor = -0.33
+					unit_artillery_brigade_design_cost_factor = -1
 					unit_artillery_design_cost_factor = -0.33
-					unit_anti_tank_brigade_design_cost_factor = -0.33
+					unit_anti_tank_brigade_design_cost_factor = -1
 					unit_anti_tank_design_cost_factor = -0.33
-					unit_anti_air_brigade_design_cost_factor = -0.33
+					unit_anti_air_brigade_design_cost_factor = -1
 					unit_anti_air_design_cost_factor = -0.33
 
 					unit_light_armor_design_cost_factor = -0.66
