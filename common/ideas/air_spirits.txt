@@ -126,7 +126,7 @@ ideas = {
 			ledger = air
 			available = { has_tech = air_skirmish }
 			modifier = {
-				air_home_defence_factor = 0.1
+				air_home_defence_factor = 0.03
 			}
 			ai_will_do = {
 				factor = 1
@@ -136,7 +136,7 @@ ideas = {
 			ledger = air
 			available = { has_tech = air_skirmish }
 			modifier = {
-				air_power_projection_factor = 0.03
+				air_power_projection_factor = 0.01
 			}
 			ai_will_do = {
 				factor = 1
