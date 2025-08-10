@@ -3,7 +3,7 @@ battleship_ammo_decision = {
 
 		icon = generic_army_support
 
-		cost = 10000
+		cost = 1
 
 		available = {
 			always = yes

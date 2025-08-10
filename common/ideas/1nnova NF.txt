@@ -477,7 +477,6 @@ ideas = {
 			
 			modifier = {
 				experience_gain_navy_factor = 0.15
-				refit_speed = 0.5
 				repair_speed_factor = 1.0
 			}
 		}
