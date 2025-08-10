@@ -578,6 +578,14 @@ equipment_modules = {
 			battery_add_5in_x2
 			battery_secondaries_5in
 		}
+		can_convert_from = {
+			module_category = battery_add_5Hin
+			convert_cost_ic = 500
+		}
+		can_convert_from = {
+			module_category = battery_add_6in
+			convert_cost_ic = 500
+		}
 		
 		critical_parts = { damaged_secondaries }
 	}
@@ -604,6 +612,14 @@ equipment_modules = {
 			battery_add_5in_x1
 			battery_add_5in_x2
 			battery_secondaries_5in
+		}
+		can_convert_from = {
+			module_category = battery_add_5Hin
+			convert_cost_ic = 500
+		}
+		can_convert_from = {
+			module_category = battery_add_6in
+			convert_cost_ic = 500
 		}
 		
 		critical_parts = { damaged_secondaries }
@@ -632,6 +648,14 @@ equipment_modules = {
 			battery_add_4in_x2
 			battery_secondaries_4in
 		}
+		can_convert_from = {
+			module_category = battery_add_5Hin
+			convert_cost_ic = 500
+		}
+		can_convert_from = {
+			module_category = battery_add_6in
+			convert_cost_ic = 500
+		}
 		
 		critical_parts = { damaged_secondaries }
 	}
@@ -658,6 +682,14 @@ equipment_modules = {
 			battery_add_4in_x1
 			battery_add_4in_x2
 			battery_secondaries_4in
+		}
+		can_convert_from = {
+			module_category = battery_add_5Hin
+			convert_cost_ic = 500
+		}
+		can_convert_from = {
+			module_category = battery_add_6in
+			convert_cost_ic = 500
 		}
 		
 		critical_parts = { damaged_secondaries }

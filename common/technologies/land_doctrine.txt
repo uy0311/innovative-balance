@@ -1550,31 +1550,31 @@ technologies = {
 		}
 
 		motorized = {
-			reliability_factor = 0.02
-			equipment_capture_factor = 0.02
-			casualty_trickleback = 0.04
-			experience_loss_factor = -0.04
-			supply_consumption_factor = -0.04
-			fuel_consumption_factor = -0.02
-			initiative = 0.02
+			reliability_factor = 0.01
+			equipment_capture_factor = 0.01
+			casualty_trickleback = 0.02
+			experience_loss_factor = -0.02
+			supply_consumption_factor = -0.02
+			fuel_consumption_factor = -0.01
+			initiative = 0.01
 		}
 		mechanized = {
-			reliability_factor = 0.02
-			equipment_capture_factor = 0.02
-			casualty_trickleback = 0.04
-			experience_loss_factor = -0.04
-			supply_consumption_factor = -0.04
-			fuel_consumption_factor = -0.02
-			initiative = 0.02
+			reliability_factor = 0.01
+			equipment_capture_factor = 0.01
+			casualty_trickleback = 0.02
+			experience_loss_factor = -0.02
+			supply_consumption_factor = -0.02
+			fuel_consumption_factor = -0.01
+			initiative = 0.01
 		}
 		amphibious_mechanized = {
-			reliability_factor = 0.02
-			equipment_capture_factor = 0.02
-			casualty_trickleback = 0.04
-			experience_loss_factor = -0.04
-			supply_consumption_factor = -0.04
-			fuel_consumption_factor = -0.02
-			initiative = 0.02
+			reliability_factor = 0.01
+			equipment_capture_factor = 0.01
+			casualty_trickleback = 0.02
+			experience_loss_factor = -0.02
+			supply_consumption_factor = -0.02
+			fuel_consumption_factor = -0.01
+			initiative = 0.01
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -1629,9 +1629,6 @@ technologies = {
 
 		category_light_infantry = {
 			defense = 0.15
-		}
-		category_front_line = {
-			max_organisation = 10
 		}
 
 		naval_invasion_capacity = 100
@@ -2197,10 +2194,6 @@ technologies = {
 				attack = 0.15
 				defence = 0.15
 			}
-		}
-
-		category_front_line = {
-			max_organisation = 10
 		}
 
 		path = {
