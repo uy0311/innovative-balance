@@ -636,11 +636,11 @@ NProduction = {
 	EQUIPMENT_MODULE_REPLACE_XP_COST = 0.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
 	EQUIPMENT_MODULE_CONVERT_XP_COST = 0.0,				-- XP cost for converting one equipment module to a related module when creating an equipment variant.
 	EQUIPMENT_MODULE_REMOVE_XP_COST = 0.0,				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
-	BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.2,       -- Fraction of the hull industry cost which is always included in the refitting cost.
+	BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.05,       -- Fraction of the hull industry cost which is always included in the refitting cost.
 	BASE_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.2,        -- Fraction of the chassis industry cost which is always included in the conversion cost.
 	MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.2,	-- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost.
 	MIN_LAND_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0,		-- Minimum fraction of a land equipment's strategic resource cost that any conversion will cost.
-	SHIP_REFIT_MAX_PROGRESS_TO_CANCEL = 0.2,			-- Maximum refitting progress % that we still allow to cancel wihtout having to scuttle the ship.
+	SHIP_REFIT_MAX_PROGRESS_TO_CANCEL = 1.0,			-- Maximum refitting progress % that we still allow to cancel wihtout having to scuttle the ship.
 	SHIP_REFIT_DAMAGE_TO_PROGRESS_FACTOR = 0.5,			-- When a ship is being damaged (for example port strike) while refitting, the damage is transferred to the production line progress instead. This variable is used to balance it.
 	MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_VALUE = 1,		-- The minimum number of factories we have to put on consumer goods, by value.
 	MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT = 0.0,	-- The minimum number of factories we have to put on consumer goods, in percent.
@@ -1727,18 +1727,18 @@ NNavy = {
 	NAVAL_MINES_ACCIDENT_STRENGTH_LOSS = 0.0,						-- Amount of strength loss when hit by naval mine
 	NAVAL_MINES_ACCIDENT_ORG_LOSS_FACTOR = 0.0,						-- Amount of strength loss when hit by naval mine
 
-	TRAINING_ACCIDENT_CHANCES = 0.02,						-- Chances one ship get damage each hour while on training
+	TRAINING_ACCIDENT_CHANCES = 0.00,						-- Chances one ship get damage each hour while on training
 	TRAINING_ACCIDENT_CRITICAL_HIT_CHANCES = 0.0,					-- If an accident happens, how likely it is to be a critical hit
 	TRAINING_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 0.0,				-- Scale the value below in case of critical hit
-	TRAINING_ACCIDENT_STRENGTH_LOSS = 4.0,							-- Amount of strength loss in a training accident
-	TRAINING_ACCIDENT_STRENGTH_LOSS_FACTOR = 0.05,						-- Amount of strength loss in a training accident, propotional to the maximum strength of the ship
+	TRAINING_ACCIDENT_STRENGTH_LOSS = 0.0,							-- Amount of strength loss in a training accident
+	TRAINING_ACCIDENT_STRENGTH_LOSS_FACTOR = 0.00,						-- Amount of strength loss in a training accident, propotional to the maximum strength of the ship
 	TRAINING_ACCIDENT_ORG_LOSS_FACTOR = 0.3,						-- Amount of current organization the ship lose
 
 	ACCIDENTS_CHANCE_BALANCE_FACTOR = 0.04,							-- General chance for naval accidents for balancing the gameplay.
 
 																	-- The Formula: Min( TRAINING_MAX_DAILY_COUNTRY_EXP * Ratio, TRAINING_DAILY_COUNTRY_EXP_FACTOR * ( TRAINING_DAILY_COUNTRY_EXP_SHIP_RATIO_FACTOR * TrainingShipCount / CountryShipCount
 																	--              + TRAINING_DAILY_COUNTRY_EXP_MANPOWER_FACTOR * Manpower + TRAINING_DAILY_COUNTRY_EXP_MANPOWER_RATIO_FACTOR * Manpower / CountryShipCount ) )
-	TRAINING_EXPERIENCE_FACTOR = 0.3,								-- Amount of exp each ship gain every 24h while training (before modifiers)
+	TRAINING_EXPERIENCE_FACTOR = 0.0,								-- Amount of exp each ship gain every 24h while training (before modifiers)
 	TRAINING_DAILY_COUNTRY_EXP_FACTOR = 0.000,						-- Factor used to scale the Daily Country Navy XP gain
 	TRAINING_DAILY_COUNTRY_EXP_MANPOWER_FACTOR = 0.006,					-- Factor used to scale the sum of the training manpower for the Daily Country Navy XP gain
 	TRAINING_DAILY_COUNTRY_EXP_MANPOWER_RATIO_FACTOR = 0.01,				-- Factor used to scale the sum of the manpower divided by the country's number of ship for the Daily Country Navy XP gain
