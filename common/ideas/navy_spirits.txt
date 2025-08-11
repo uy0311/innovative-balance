@@ -108,6 +108,7 @@ ideas = {
 				cat_ship_light_battery = 0.10
 				cat_torpedoes = 0.10
 				ship_modules_tech = 0.10
+				naval_armor = 0.10
 			}
 			ai_will_do = {
 				factor = 1
@@ -122,6 +123,7 @@ ideas = {
 				dd_tech = 0.10
 				cat_ship_light_battery = 0.10
 				ship_modules_tech = 0.10
+				naval_armor = 0.10
 			}
 			ai_will_do = {
 				factor = 1.5
@@ -147,8 +149,8 @@ ideas = {
 			ledger = navy
 			cost = 600
 			research_bonus = {
-				ss_tech = 0.20
-				cat_torpedoes = 0.20
+				ss_tech = 0.25
+				cat_torpedoes = 0.25
 				ship_modules_tech = 0.10
 			}
 			ai_will_do = {

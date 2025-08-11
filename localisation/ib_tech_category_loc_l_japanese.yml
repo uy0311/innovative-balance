@@ -43,6 +43,7 @@
  tcl_cv_tech_tt: "$tcl$§C海軍§!,§C航空母艦§!"
  tcl_ss_tech_tt: "$tcl$§C海軍§!,§C潜水艦§!"
  tcl_ship_modules_tech_tt: "$tcl$§C海軍§!,§C海軍艤装§!"
+ tcl_naval_armor_tt: "$tcl$§C海軍§!,§C海軍艤装§!,§C船装甲§!"
 #海軍支援
  tcl_cat_ship_battery_tt: "$tcl$§C海軍§!,§C海軍艤装§!,§C小型砲§!,§C中型砲§!,§C大型砲§!"
  tcl_cat_ship_light_battery_tt: "$tcl$§C海軍§!,§C海軍艤装§!,§C小型砲§!"
