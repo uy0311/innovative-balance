@@ -761,7 +761,7 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = cruiser_armor_advice_tt
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_armor_tt
 		}
 
 		path = {
@@ -794,6 +794,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			naval_armor
 		}
 	}
 
@@ -1105,7 +1106,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_armor_advice_tt
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_armor_tt
 		}
 		path = {
 			leads_to_tech = improved_heavy_armor_scheme
@@ -1137,6 +1138,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			naval_armor
 		}
 	}
 
@@ -1149,7 +1151,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_armor_advice_tt
-			custom_effect_tooltip = tcl_ship_modules_tech_tt
+			custom_effect_tooltip = tcl_naval_armor_tt
 		}
 
 		research_cost = 2.0
@@ -1180,6 +1182,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			naval_armor
 		}
 	}
 
