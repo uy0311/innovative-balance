@@ -841,8 +841,16 @@ news_event = {
 	
 	trigger = {
 		285 = { is_controlled_by = JAP }
-		285 = { is_owned_by = AST }
-		JAP = { has_war_with = AST }
+		OR = {
+			AND = {
+				JAP = { has_war_with = AST }
+				285 = { is_owned_by = AST }
+			}
+			AND = {
+				JAP = { has_war_with = USA }
+				285 = { is_owned_by = USA }
+			}
+		}
 		NOT = { has_global_flag = fall_of_sydney }
 	}
 	
@@ -860,6 +868,7 @@ news_event = {
 			NOT = {
 				TAG = JAP
 				TAG = AST
+				TAG = USA
 			}
 		}
 	}
@@ -870,44 +879,6 @@ news_event = {
 	option = {
 		name = news.100.c
 		trigger = { TAG = AST }
-	}
-}
-
-news_event = {
-	id = news.150
-	title = news.150.t
-	desc = news.150.d
-	picture = GFX_news_event_047
-	
-	major = yes
-	
-	trigger = {
-		285 = { is_controlled_by = JAP }
-		285 = { is_owned_by = USA }
-		JAP = { has_war_with = USA }
-		NOT = { has_global_flag = fall_of_sydney }
-	}
-	
-	immediate = {
-		set_global_flag = fall_of_sydney
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		name = news.145.a
-		trigger = {
-			NOT = {
-				TAG = JAP
-				TAG = USA
-			}
-		}
-	}
-	option = {
-		name = news.117.b
-		trigger = { TAG = JAP }
 	}
 	option = {
 		name = news.100.c

@@ -3389,7 +3389,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 0.5
 			fuel_consumption = 12
-			build_cost_ic = 1200
+			build_cost_ic = 2200
 		}
 		
 		multiply_stats = {
@@ -3413,7 +3413,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 1.0
 			fuel_consumption = 16
-			build_cost_ic = 1300
+			build_cost_ic = 2300
 		}
 		
 		multiply_stats = {
@@ -3442,7 +3442,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 1.5
 			fuel_consumption = 20
-			build_cost_ic = 1400
+			build_cost_ic = 2400
 		}
 		
 		multiply_stats = {
@@ -3470,7 +3470,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 2.0
 			fuel_consumption = 24
-			build_cost_ic = 1500
+			build_cost_ic = 2500
 		}
 		
 		multiply_stats = {
@@ -3921,7 +3921,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			surface_visibility = 0.15
-			build_cost_ic = 1750
+			build_cost_ic = 1500
 			reliability = -0.10
 		}
 		manpower = 100#500 #outside the add_stats section for code reasons

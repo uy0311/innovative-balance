@@ -124,7 +124,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 
-		build_cost_ic = 5500
+		build_cost_ic = 5000
 		resources = {
 			steel = 3
 			chromium = 1
@@ -217,7 +217,7 @@ equipments = {
 		naval_speed = 16.5
 		surface_visibility = 21.5
 
-		build_cost_ic = 5750
+		build_cost_ic = 5250
 		resources = {
 			steel = 4
 			chromium = 1
@@ -290,7 +290,7 @@ equipments = {
 		naval_speed = 17
 		surface_visibility = 23
 
-		build_cost_ic = 6000
+		build_cost_ic = 5500
 		resources = {
 			steel = 4
 			chromium = 2
@@ -517,7 +517,7 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { heavy_ship_engine carrier_ship_engine }
+				allowed_module_categories = { carrier_ship_engine }
 			}
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = {
@@ -553,7 +553,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_engine_slot = carrier_ship_engine_1
 			front_1_custom_slot = ship_deck_space
 		}
 		naval_range = 4000
@@ -562,7 +562,7 @@ equipments = {
 		naval_speed = 12.5
 		surface_visibility = 23.5
 
-		build_cost_ic = 6000
+		build_cost_ic = 5500
 		resources = {
 			steel = 4
 			chromium = 1
@@ -582,11 +582,6 @@ equipments = {
 				allowed_module_categories = { ship_deck_space }
 				gfx = ship_deck_space_slot
 			}
-			fixed_ship_deck_slot_2 = {
-				required = yes
-				allowed_module_categories = { ship_deck_space }
-				gfx = ship_deck_space_slot
-			}
 			fixed_ship_anti_air_slot = {
 				required = no
 				allowed_module_categories = { ship_anti_air }
@@ -597,7 +592,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { cruiser_ship_engine carrier_ship_engine }
+				allowed_module_categories = { carrier_ship_engine }
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
@@ -619,7 +614,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_engine_slot = carrier_ship_engine_1
 		}
 		naval_range = 4000
 
@@ -627,7 +622,7 @@ equipments = {
 		surface_visibility = 14.5
 		reliability = 0.50
 		naval_speed = 16.5
-		build_cost_ic = 5250
+		build_cost_ic = 2250
 		resources = {
 			steel = 3
 		}
