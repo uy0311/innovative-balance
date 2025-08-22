@@ -1,5 +1,5 @@
-battleship_ammo_decision = {
-	 battleship_ammo = {
+#battleship_ammo_decision = {
+	 #battleship_ammo = {
 
 		icon = generic_army_support
 
