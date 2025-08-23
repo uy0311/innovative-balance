@@ -4307,7 +4307,8 @@ equipment_modules = {
 	sub_missile_launcher = {
 		abbreviation = "sml"
 		category = ship_rocket
-		add_equipment_type = capital_ship
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
 
 		add_stats = {
 			build_cost_ic = 1500
