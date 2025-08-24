@@ -96,7 +96,7 @@ characters={
 				original_tag = GER
 			}
 			traits = {
-				army_regrouping_2
+				army_chief_moral_2
 			}
 			cost = 150
 			ai_will_do = {
@@ -1009,7 +1009,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = ludwig_beck
 			allowed = {
 				original_tag = GER
@@ -1081,7 +1081,7 @@ characters={
 			}
 		}
 		advisor={	
-			slot = army_chief
+			slot = high_command
 			idea_token = walther_von_brauchitsch
 			allowed = {
 				original_tag = GER

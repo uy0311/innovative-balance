@@ -61,7 +61,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = alan_brooke
 			allowed = {
 				original_tag = ENG
@@ -564,7 +564,7 @@ characters={
 				original_tag = ENG
 			}
 			traits = {
-				army_regrouping_2
+				army_chief_moral_2
 			}
 			cost = 150
 			ai_will_do = {

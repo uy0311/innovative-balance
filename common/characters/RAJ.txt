@@ -533,7 +533,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = RAJ_kodandera_cariappa
 			allowed = {
 				original_tag = RAJ

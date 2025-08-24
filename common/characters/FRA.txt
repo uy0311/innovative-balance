@@ -185,7 +185,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = alphonse_georges
 			allowed = {
 				original_tag = FRA
@@ -981,7 +981,7 @@ characters={
 				original_tag = FRA
 			}
 			traits = {
-				army_cavalry_2
+				army_CombinedArms_2
 			}
 			cost = 150
 			ai_will_do = {
