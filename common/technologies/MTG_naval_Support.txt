@@ -1270,9 +1270,7 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = tcl_naval_equipment_tt
-			complete_special_project = {
-                project = sp:sp_rockets_ballistic_missile
-         }
+			
 		}
 
 		folder = {
