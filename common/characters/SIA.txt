@@ -347,7 +347,7 @@ characters={
 		advisor={
 			
 			
-			slot = army_chief
+			slot = high_command
 			idea_token = SIA_luang_phibunsongkhram
 			allowed = {
 					original_tag = SIA

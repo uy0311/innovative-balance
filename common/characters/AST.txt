@@ -438,7 +438,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = AST_sydney_rowell
 			allowed = {
 				original_tag = AST

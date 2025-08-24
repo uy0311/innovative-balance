@@ -130,7 +130,7 @@ characters={
 	}
 	SWE_ivar_holmquist={
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = SWE_ivar_holmquist
 			allowed = {
 					original_tag = SWE
@@ -269,7 +269,7 @@ characters={
 					original_tag = SWE
 				}
 				traits = {
-					army_entrenchment_3
+					army_chief_entrenchment_3
 				}
 				cost = 200
 				ai_will_do = {
@@ -337,7 +337,7 @@ characters={
 					original_tag = SWE
 				}
 				traits = {
-					army_regrouping_3
+					army_chief_moral_3
 				}
 				cost = 200
 				ai_will_do = {

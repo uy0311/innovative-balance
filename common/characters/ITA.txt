@@ -66,13 +66,13 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = pietro_badoglio
 			allowed = {
 				original_tag = ITA
 			}
 			traits = {
-				army_chief_morale_2
+				army_chief_organizational_2
 			}
 			cost = 150
 			ai_will_do = {
@@ -134,7 +134,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = ugo_cavallero
 			allowed = {
 				original_tag = ITA
@@ -803,7 +803,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_regrouping_2
+				army_chief_moral_2
 			}
 			cost =  150
 			ai_will_do = {
@@ -827,7 +827,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_cavalry_1
+				army_CombinedArms_1
 			}
 			cost = 100
 			ai_will_do = {

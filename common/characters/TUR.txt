@@ -295,7 +295,7 @@ characters={
 				has_dlc = "Battle for the Bosporus"
 			}
 			traits = {
-				army_regrouping_2
+				army_chief_organizational_2
 			}
 			cost = 150
 			ai_will_do = {
@@ -774,7 +774,7 @@ characters={
 				has_dlc = "Battle for the Bosporus"
 			}
 			traits = {
-				army_regrouping_2
+				army_chief_moral_2
 			}
 			cost = 150
 			ai_will_do = {
@@ -945,7 +945,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = TUR_fahrettin_altay
 			allowed = {
 				original_tag = TUR

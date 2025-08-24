@@ -559,6 +559,12 @@ leader_traits = {
 			supply_consumption_factor = -0.15
 		}
 		enable_ability = extra_suplies
+
+		slot = high_command
+		specialist_advisor_trait = army_logistics_1
+		expert_advisor_trait = army_logistics_2
+		genius_advisor_trait = army_logistics_3
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -611,6 +617,7 @@ leader_traits = {
 		specialist_advisor_trait = army_chief_entrenchment_1
 		expert_advisor_trait = army_chief_entrenchment_2
 		genius_advisor_trait = army_chief_entrenchment_3
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -653,11 +660,6 @@ leader_traits = {
 			max_planning = 0.1
 		}
 		
-		slot = army_chief
-		specialist_advisor_trait = army_chief_planning_1
-		expert_advisor_trait = army_chief_planning_2
-		genius_advisor_trait = army_chief_planning_3
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -686,11 +688,6 @@ leader_traits = {
 
 		custom_effect_tooltip = INCREASED_COUNTERATTACK_CHANCE
 		
-		slot = army_chief
-		specialist_advisor_trait = army_chief_defensive_1
-		expert_advisor_trait = army_chief_defensive_2
-		genius_advisor_trait = army_chief_defensive_3
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -718,10 +715,10 @@ leader_traits = {
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 		
 		slot = army_chief
-		specialist_advisor_trait = army_chief_maneuver_1
-		expert_advisor_trait = army_chief_maneuver_2
-		genius_advisor_trait = army_chief_maneuver_3
-		
+		specialist_advisor_trait = army_chief_planning_1
+		expert_advisor_trait = army_chief_planning_2
+		genius_advisor_trait = army_chief_planning_3
+				
 		ai_will_do = {
 			factor = 1
 		}
@@ -742,9 +739,9 @@ leader_traits = {
 		}
 		
 		slot = army_chief
-		specialist_advisor_trait = army_chief_organizational_1
-		expert_advisor_trait = army_chief_organizational_2
-		genius_advisor_trait = army_chief_organizational_3
+		specialist_advisor_trait = army_chief_defensive_1
+		expert_advisor_trait = army_chief_defensive_2
+		genius_advisor_trait = army_chief_defensive_3		
 		
 		ai_will_do = {
 			factor = 1
@@ -763,11 +760,11 @@ leader_traits = {
 		field_marshal_modifier = {
 			army_morale_factor = 0.10
 		}
-		
+
 		slot = army_chief
-		specialist_advisor_trait = army_chief_morale_1
-		expert_advisor_trait = army_chief_morale_2
-		genius_advisor_trait = army_chief_morale_3
+		specialist_advisor_trait = army_chief_drill_1
+		expert_advisor_trait = army_chief_drill_2
+		genius_advisor_trait = army_chief_drill_3		
 		
 		ai_will_do = {
 			factor = 1
@@ -786,11 +783,6 @@ leader_traits = {
 		field_marshal_modifier = {
 			experience_gain_factor = 0.20
 		}
-		
-		slot = army_chief
-		specialist_advisor_trait = army_chief_drill_1
-		expert_advisor_trait = army_chief_drill_2
-		genius_advisor_trait = army_chief_drill_3
 		
 		ai_will_do = {
 			factor = 1
@@ -815,11 +807,11 @@ leader_traits = {
 		modifier = {
 			planning_speed = 0.1
 		}
-		
+
 		slot = high_command
-		specialist_advisor_trait = army_regrouping_1
-		expert_advisor_trait = army_regrouping_2
-		genius_advisor_trait = army_regrouping_3
+		specialist_advisor_trait = army_chief_organizational_1
+		expert_advisor_trait = army_chief_organizational_2
+		genius_advisor_trait = army_chief_organizational_3		
 		
 		ai_will_do = {
 			factor = 1
@@ -873,11 +865,6 @@ leader_traits = {
 			motorized_attack_factor = 0.12
 			mechanized_attack_factor = 0.12
 		}
-		
-		slot = high_command
-		specialist_advisor_trait = army_cavalry_1
-		expert_advisor_trait = army_cavalry_2
-		genius_advisor_trait = army_cavalry_3
 		
 		ai_will_do = {
 			factor = 1
@@ -1005,10 +992,6 @@ leader_traits = {
             }
 		}
 		
-		slot = high_command
-		specialist_advisor_trait = army_entrenchment_1
-		expert_advisor_trait = army_entrenchment_2
-		genius_advisor_trait = army_entrenchment_3
 		
 		ai_will_do = {
 			factor = 1
@@ -1031,6 +1014,11 @@ leader_traits = {
 		modifier = {
 			recon_factor = 0.25
 		}
+
+		slot = high_command
+		specialist_advisor_trait = army_chief_maneuver_1
+		expert_advisor_trait = army_chief_maneuver_2
+		genius_advisor_trait = army_chief_maneuver_3		
 
 		ai_will_do = {
 			factor = 1
@@ -1060,9 +1048,9 @@ leader_traits = {
 		gui_row = 15
 		
 		slot = high_command
-		specialist_advisor_trait = army_logistics_1
-		expert_advisor_trait = army_logistics_2
-		genius_advisor_trait = army_logistics_3
+		specialist_advisor_trait = army_chief_morale_1
+		expert_advisor_trait = army_chief_morale_2
+		genius_advisor_trait = army_chief_morale_3		
 	}
 
 
