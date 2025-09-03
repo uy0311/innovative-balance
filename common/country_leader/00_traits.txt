@@ -6104,6 +6104,7 @@ leader_traits = {
 	army_chief_drill_1 = { # Decreases training time for ground units
 		sprite = 5
 		training_time_army_factor = -0.05
+		experience_gain_army_unit_factor = 0.50
 		experience_gain_army = 0.24
 
 		
@@ -6120,6 +6121,7 @@ leader_traits = {
 	army_chief_drill_2 = { # Decreases training time for ground units
 		sprite = 5
 		training_time_army_factor = -0.1
+		experience_gain_army_unit_factor = 0.70
 		experience_gain_army = 0.24
 
 		
@@ -6136,6 +6138,7 @@ leader_traits = {
 	army_chief_drill_3 = { # Decreases training time for ground units
 		sprite = 5
 		training_time_army_factor = -0.15
+		experience_gain_army_unit_factor = 0.90
 		experience_gain_army = 0.24
 
 		
@@ -6155,7 +6158,7 @@ leader_traits = {
 		#experience_gain_army_factor = 0.05
 		experience_gain_army = 0.24
 		experience_gain_factor = 0.5
-		experience_gain_army_unit_factor = 0.50
+		experience_gain_army_unit_factor = 0.5
 
 		
 
@@ -6173,7 +6176,7 @@ leader_traits = {
 		#experience_gain_army_factor = 0.1
 		experience_gain_army = 0.24
 		experience_gain_factor = 0.7
-		experience_gain_army_unit_factor = 0.7
+		experience_gain_army_unit_factor = 1.0
 		
 		
 
@@ -6191,7 +6194,7 @@ leader_traits = {
 		#experience_gain_army_factor = 0.15
 		experience_gain_army = 0.24
 		experience_gain_factor = 0.9
-		experience_gain_army_unit_factor = 0.9
+		experience_gain_army_unit_factor = 1.5
 
 		
 

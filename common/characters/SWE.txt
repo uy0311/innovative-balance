@@ -337,7 +337,7 @@ characters={
 					original_tag = SWE
 				}
 				traits = {
-					army_chief_moral_3
+					army_chief_morale_3
 				}
 				cost = 200
 				ai_will_do = {
