@@ -1847,10 +1847,10 @@ leader_traits = {
 			}
 			destroyer = {
 		#		naval_torpedo_cooldown_factor = -0.25
-				naval_torpedo_hit_chance_factor = 0.3
+				naval_torpedo_hit_chance_factor = 1.00
 			}
-		#	light_cruiser = {
-		#		naval_torpedo_cooldown_factor = -0.25
+			light_cruiser = {
+			naval_torpedo_cooldown_factor = -1.00
 		#	}
 		#	heavy_cruiser = {
 		#		naval_torpedo_cooldown_factor = -0.20
