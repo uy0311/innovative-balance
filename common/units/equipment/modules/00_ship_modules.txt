@@ -3499,7 +3499,7 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 30
 			build_cost_ic = 45
-			reliability = -0.10
+			reliability = -0.15
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -3520,7 +3520,7 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 40
 			build_cost_ic = 60
-			reliability = -0.11
+			reliability = -0.18
 		}
 		multiply_stats = {
 			naval_speed = -0.011		
@@ -3554,7 +3554,7 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 50
 			build_cost_ic = 75
-			reliability = -0.12
+			reliability = -0.20
 		}
 		multiply_stats = {
 			naval_speed = -0.012			
@@ -3578,7 +3578,7 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 60
 			build_cost_ic = 90
-			reliability = -0.13
+			reliability = -0.23
 		}
 		multiply_stats = {
 			naval_speed = -0.013			

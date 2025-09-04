@@ -1830,15 +1830,15 @@ leader_traits = {
 		cost = 1
 		sub_unit_modifiers = {
 			submarine = {
-				naval_torpedo_cooldown_factor = -0.80
+				naval_torpedo_cooldown_factor = -0.64
 			}
 			destroyer = {
 		#		naval_torpedo_cooldown_factor = -0.25
-				naval_torpedo_hit_chance_factor = 0.2
+				naval_torpedo_hit_chance_factor = 1.00
 			}
-		#	light_cruiser = {
-		#		naval_torpedo_cooldown_factor = -0.25
-		#	}
+			light_cruiser = {
+			    naval_torpedo_hit_chance_factor = 1.00
+			}
 		#	heavy_cruiser = {
 		#		naval_torpedo_cooldown_factor = -0.20
 		#	}
