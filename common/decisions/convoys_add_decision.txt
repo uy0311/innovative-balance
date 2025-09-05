@@ -269,4 +269,39 @@ convoys_add_decision = {
 			navy_experience = -1000
 		}
 	}
+
+	gain_100IC_from_5000convoys = {
+
+		icon = generic_army_support
+		
+		cost = 0
+
+		available = {
+			num_of_naval_factories > 200
+			has_idea = tot_economic_mobilisation
+			has_equipment = {
+   				convoy_1 > 5000
+			}
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 90
+
+		complete_effect = {
+			add_offsite_building = { type = industrial_complex level = 100 }
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = -5000
+			}
+		}
+
+		remove_effect = {
+			add_offsite_building = { type = industrial_complex level = -100 }
+		}
+	}
 }
