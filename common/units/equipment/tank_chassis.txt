@@ -275,7 +275,7 @@ equipments = {
 		}
 
 		maximum_speed = 4
-		build_cost_ic = 2.5
+		build_cost_ic = 2.0
 		reliability = 0.45
 		armor_value = 10
 	}
@@ -355,7 +355,7 @@ equipments = {
 			}
 		}
 
-		build_cost_ic = 3.0
+		build_cost_ic = 2.25
 		maximum_speed = 5.5
 		reliability = 0.55
 		armor_value = 30
@@ -451,7 +451,7 @@ equipments = {
 			}
 		}
 
-		build_cost_ic = 3.5
+		build_cost_ic = 2.5
 		maximum_speed = 6.0
 		reliability = 0.65
 		armor_value = 40
@@ -2306,7 +2306,7 @@ equipments = {
 		}
 	
 		fuel_consumption = 0
-		build_cost_ic = 2.5
+		build_cost_ic = 2.0
 		maximum_speed = 5.5
 		reliability = 0.80
 		armor_value = 30

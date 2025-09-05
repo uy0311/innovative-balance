@@ -1,6 +1,6 @@
 ﻿l_japanese:
  convoys_add_decision:0 "輸送船所持数の更新用＆補充ディシジョン"
- convoys_add_decision_desc:0 "マルチプレイ時の途中参加などでロビーが開いた際に輸送船が0になるバグがある為、又は海域禁止ボタン削除、その対応の為のディシジョンです"
+ convoys_add_decision_desc:0 "HoI4のバグ等の対応の為のディシジョンです"
  gain_10convoys_from_100pp:0 "10隻輸送船を100政治力で追加"
  gain_50convoys_from_500pp:0 "50隻輸送船を500政治力で追加"
  gain_100convoys_from_1000pp:0 "100隻輸送船を1000政治力で追加"
@@ -10,6 +10,7 @@
  gain_10convoys_from_100NavyXP:0 "10隻輸送船を100海軍経験値で追加"
  gain_50convoys_from_500NavyXP:0 "1隻輸送船を500海軍経験値で追加"
  gain_100convoys_from_1000NavyXP:0 "100隻輸送船を1000海軍経験値で追加"
+ gain_100IC_from_5000convoys:0 "5000隻輸送船で民需100を90日間追加"
  decision_cost_CP_100: "£command_power  §Y100§!"
  decision_cost_CP_100_blocked: "£command_power  §R100§!"
  decision_cost_CP_100_tooltip: "このディシジョンを実行するには、£command_power  §Y100§!が必要"
