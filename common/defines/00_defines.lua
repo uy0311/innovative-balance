@@ -1896,7 +1896,7 @@ NNavy = {
 	GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
 		110.0,	-- big guns
 		205.0,	-- torpedoes
-		120.0,	-- small guns
+		130.0,	-- small guns
 	},
 
 	DEPTH_CHARGES_HIT_CHANCE_MULT 									= 1.1, 		-- multiplies hit chance of small guns
