@@ -733,7 +733,7 @@ generic_escort_ship_organization = {
 		}
 		NOT = {
 			AND = {
-				OR = { tag = AST tag = NZL tag = RAJ }
+				OR = { tag = NZL tag = RAJ }
 				has_dlc = "Together for Victory"
 			}
 		}

@@ -19,7 +19,7 @@ continuous_focus_palette = {
 		}
 		
 		modifier = {
-			training_time_army_factor = -0.30
+			training_time_factor = -0.3
 		}
 		
 		supports_ai_strategy = ai_focus_defense

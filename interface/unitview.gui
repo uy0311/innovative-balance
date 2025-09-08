@@ -696,18 +696,11 @@ guiTypes = {
 			position = {x=301 y=77}
 		}
 
-		#vanilla (motorization selectable)
-		#buttonType = {
-		#	name = "army_motorization_priority_button"
-		#	position = {x=305 y=77}
-		#	spriteType = "GFX_motorization_level_toggle_btn"
-		#	clicksound = click_default
-		#}
-		#innova (motorization not selectable)
-		iconType = {
+		buttonType = {
 			name = "army_motorization_priority_button"
-			position = {x=305 y=77}
+			position = {x=305 y=-707}
 			spriteType = "GFX_motorization_level_toggle_btn"
+			#clicksound = click_default
 		}
 		positionType = {
 			name = "army_motorization_priority_button_army_group_position"
