@@ -35,6 +35,8 @@
  government_of_national_unity_desc:0 "戦争による国家の危機に際して、我々はお互いのイデオロギーを超えて、国家の為に団結する。"
  Emergency_mobilization:0 "緊急動員"
  Emergency_mobilization_desc:0 "敵の奇襲的軍事行動に対応する為に、国家に緊急動員を布告する。"
+ continuous_reduce_training_time: "訓練の効率化"
+ continuous_reduce_training_time_desc: "各軍内に先進的訓練を専門とする部隊を創設することで、今まで訓練が完了するまで控置されていた師団すらも前もって指揮系統に配備できるだろう。"
 
 ##政治NFツリー##
  nationalism_focus: "全体主義重視"
