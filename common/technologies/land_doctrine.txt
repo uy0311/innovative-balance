@@ -1410,7 +1410,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		air_cas_present_factor = 0.50
+		army_bonus_air_superiority_factor = 0.5
 		naval_invasion_planning_bonus_speed = 0.25
 
 		category_support_artillery = {
@@ -1545,7 +1545,6 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tanks = {
-			soft_attack = 0.10
 			hard_attack = 0.10
 		}
 
@@ -1690,11 +1689,9 @@ technologies = {
 			max_organisation = 10
 			default_morale = 0.10
 			soft_attack = 0.10
-			hard_attack = 0.10
 		}
 
-		army_bonus_air_superiority_factor = 0.5
-		air_cas_present_factor = 0.50
+		air_cas_present_factor = 1.00
 		
 		fighter = {
 			air_ground_attack = 0.1
@@ -1768,12 +1765,10 @@ technologies = {
 
 		category_marines = {
 			soft_attack = 0.10
-			hard_attack = 0.10
 		}
 
 		category_mountaineers = {
 			soft_attack = 0.10
-			hard_attack = 0.10
 		}
 
 		enable_tactic = tactic_tactical_withdrawal
@@ -2250,12 +2245,10 @@ technologies = {
 		category_front_line = {
 			max_organisation = 10
 			default_morale = 0.10
-			soft_attack = 0.10
 			hard_attack = 0.10
 		}
 
-		army_bonus_air_superiority_factor = 0.5
-		air_cas_present_factor = 0.50
+		air_cas_present_factor = 1.00
 
 		cv_fighter = {
 			air_ground_attack = 0.1
