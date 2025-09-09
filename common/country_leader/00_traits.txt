@@ -6256,7 +6256,7 @@ leader_traits = {
 	army_chief_planning_1 = { #
 		sprite = 5
 		planning_speed = 0.15
-		max_planning_factor = 0.08
+		max_planning_factor = 0.10
 		experience_gain_army = 0.24
 
 		
@@ -6273,7 +6273,7 @@ leader_traits = {
 	army_chief_planning_2 = { #
 		sprite = 5
 		planning_speed = 0.25
-		max_planning_factor = 0.12
+		max_planning_factor = 0.20
 		experience_gain_army = 0.24
 
 		
@@ -6290,7 +6290,7 @@ leader_traits = {
 	army_chief_planning_3 = { #
 		sprite = 5
 		planning_speed = 0.35
-		max_planning_factor = 0.16
+		max_planning_factor = 0.30
 		experience_gain_army = 0.24
 
 		
@@ -6398,8 +6398,8 @@ leader_traits = {
 
 	army_chief_entrenchment_1 = {
 		sprite = 5
-		max_dig_in_factor = 0.08
 		dig_in_speed_factor = 0.15
+		max_dig_in_factor = 0.10
 		experience_gain_army = 0.24
 
 		
@@ -6415,8 +6415,8 @@ leader_traits = {
 
 	army_chief_entrenchment_2 = {
 		sprite = 5
-		max_dig_in_factor = 0.12
 		dig_in_speed_factor = 0.25
+		max_dig_in_factor = 0.20
 		experience_gain_army = 0.24
 
 		
@@ -6432,8 +6432,8 @@ leader_traits = {
 
 	army_chief_entrenchment_3 = {
 		sprite = 5
-		max_dig_in_factor = 0.16
 		dig_in_speed_factor = 0.35
+		max_dig_in_factor = 0.30
 		experience_gain_army = 0.24
 
 		
