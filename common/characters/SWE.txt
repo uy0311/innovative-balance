@@ -172,6 +172,28 @@ characters={
 			}
 		}
 	}
+	SWE_olof_thornell={
+		advisor={
+			slot = army_chief
+			idea_token = SWE_olof_thornell
+			allowed = {
+					original_tag = SWE
+				}
+				traits = {
+					army_chief_entrenchment_3
+				}
+				cost = 200
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		name=SWE_olof_thornell
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_5"
+			}
+		}
+	}
 	SWE_gosta_ehrensvard={
 		advisor={
 			slot = navy_chief
@@ -260,29 +282,8 @@ characters={
 			}
 		}
 	}
-		#high_command
-	SWE_olof_thornell={
-		advisor={
-			slot = high_command
-			idea_token = SWE_olof_thornell
-			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_chief_entrenchment_3
-				}
-				cost = 200
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=SWE_olof_thornell
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_5"
-			}
-		}
-	}
+
+	#high_command
 	SWE_axel_rappe={
 		advisor={
 			slot = high_command

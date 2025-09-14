@@ -6036,7 +6036,6 @@ leader_traits = {
 		}
 	}
 
-
 	army_chief_offensive_1 = { # +5 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.05
@@ -6081,22 +6080,6 @@ leader_traits = {
 			modifier = {
 				factor = 0
 				command_power < 300
-			}
-		}
-	}
-    
-	#IB_removal
-	army_chief_old_guard = { # Rate at which field experience is gained decreases by 10%
-		sprite = 5 # Should not need sprite, should mostly be secondary
-		experience_gain_army = 0.23
-		political_power_factor = 0.1
-		#max_command_power = 20
-
-		ai_will_do = {
-			factor = 0.5
-			modifier = {
-				factor = 0
-				command_power < 100
 			}
 		}
 	}
@@ -6152,7 +6135,6 @@ leader_traits = {
 		}
 	}
 
-
 	army_chief_reform_1 = {
 		sprite = 5
 		#experience_gain_army_factor = 0.05
@@ -6195,52 +6177,6 @@ leader_traits = {
 		experience_gain_army = 0.24
 		experience_gain_factor = 0.9
 		experience_gain_army_unit_factor = 0.40
-
-		
-
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				command_power < 300
-			}
-		}
-	}
-
-    #IB_removal
-	army_chief_organizational_1 = { # Ground units get 4 more Organization
-		sprite = 5
-		army_org_factor = 0.04
-
-		
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				command_power < 100
-			}
-		}
-	}
-
-	army_chief_organizational_2 = { # Ground units get 8 more Organization
-		sprite = 5
-		army_org_factor = 0.08
-
-		
-
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 0
-				command_power < 200
-			}
-		}
-	}
-
-	army_chief_organizational_3 = { # Ground units get 12 more Organization
-		sprite = 5
-		army_org_factor = 0.12
 
 		
 
@@ -6304,98 +6240,6 @@ leader_traits = {
 		}
 	}
 
-    #IB_removal
-	army_chief_morale_1 = { # Ground units get 4 more Morale
-		sprite = 5
-		army_morale_factor = 0.04
-
-		
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				command_power < 100
-			}
-		}
-	}
-
-	army_chief_morale_2 = { # Ground units get 8 more Morale
-		sprite = 5
-		army_morale_factor = 0.08
-
-		
-
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 0
-				command_power < 200
-			}
-		}
-	}
-
-	army_chief_morale_3 = { # Ground units get 12 more Morale
-		sprite = 5
-		army_morale_factor = 0.12
-
-		
-
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				command_power < 300
-			}
-		}
-	}
-
-    #IB_removal
-	army_chief_maneuver_1 = { # Ground units move 5% faster
-		sprite = 5
-		army_speed_factor = 0.05
-
-		
-
-		ai_will_do = {
-			factor = 0.5
-			modifier = {
-				factor = 0
-				command_power < 100
-			}
-		}
-	}
-
-	army_chief_maneuver_2 = { # Ground units move 10% faster
-		sprite = 5
-		army_speed_factor = 0.1
-
-		
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				command_power < 200
-			}
-		}
-	}
-
-	army_chief_maneuver_3 = { # Ground units move 15% faster
-		sprite = 5
-		army_speed_factor = 0.15
-
-		
-
-		ai_will_do = {
-			factor = 1.5
-			modifier = {
-				factor = 0
-				command_power < 300
-			}
-		}
-	}
-
 	army_chief_entrenchment_1 = {
 		sprite = 5
 		dig_in_speed_factor = 0.15
@@ -6447,11 +6291,12 @@ leader_traits = {
 		}
 	}
 
-    #IB_removal
-	army_entrenchment_1 = { # Ground units entrench n% faster
-		sprite = 9
-		dig_in_speed_factor = 0.08
-		#experience_gain_army = @experience_gain_low
+	#high_command
+	
+    #IB_change
+	army_chief_organizational_1 = { # Ground units get 4 more Organization
+		sprite = 5
+		army_org_factor = 0.04
 
 		
 
@@ -6464,10 +6309,9 @@ leader_traits = {
 		}
 	}
 
-	army_entrenchment_2 = { # Ground units entrench 8% faster
-		sprite = 9
-		dig_in_speed_factor = 0.16
-		#experience_gain_army = @experience_gain_medium
+	army_chief_organizational_2 = { # Ground units get 8 more Organization
+		sprite = 5
+		army_org_factor = 0.08
 
 		
 
@@ -6480,10 +6324,9 @@ leader_traits = {
 		}
 	}
 
-	army_entrenchment_3 = { # Ground units entrench 12% faster
-		sprite = 9
-		dig_in_speed_factor = 0.24
-		#experience_gain_army = @experience_gain_high
+	army_chief_organizational_3 = { # Ground units get 12 more Organization
+		sprite = 5
+		army_org_factor = 0.12
 
 		
 
@@ -6496,6 +6339,97 @@ leader_traits = {
 		}
 	}
 
+    #IB_change
+	army_chief_morale_1 = { # Ground units get 4 more Morale
+		sprite = 5
+		army_morale_factor = 0.04
+
+		
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				command_power < 100
+			}
+		}
+	}
+
+	army_chief_morale_2 = { # Ground units get 8 more Morale
+		sprite = 5
+		army_morale_factor = 0.08
+
+		
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				command_power < 200
+			}
+		}
+	}
+
+	army_chief_morale_3 = { # Ground units get 12 more Morale
+		sprite = 5
+		army_morale_factor = 0.12
+
+		
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				command_power < 300
+			}
+		}
+	}
+
+    #IB_change
+	army_chief_maneuver_1 = { # Ground units move 5% faster
+		sprite = 5
+		army_speed_factor = 0.05
+
+		
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				command_power < 100
+			}
+		}
+	}
+
+	army_chief_maneuver_2 = { # Ground units move 10% faster
+		sprite = 5
+		army_speed_factor = 0.1
+
+		
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				command_power < 200
+			}
+		}
+	}
+
+	army_chief_maneuver_3 = { # Ground units move 15% faster
+		sprite = 5
+		army_speed_factor = 0.15
+
+		
+
+		ai_will_do = {
+			factor = 1.5
+			modifier = {
+				factor = 0
+				command_power < 300
+			}
+		}
+	}
 
 	army_armored_1 = { # +4 armor efficiency
 		sprite = 8
@@ -6704,58 +6638,6 @@ leader_traits = {
 		}
 	}
 
-    #IB_removal
-	army_cavalry_1 = { # +4 cavalry/motorized efficiency
-		sprite = 17
-		cavalry_attack_factor = 0.05
-		cavalry_defence_factor = 0.05
-		#experience_gain_army = @experience_gain_low
-
-		
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				command_power < 100
-			}
-		}
-	}
-
-	army_cavalry_2 = { # +8 cavalry/motorized efficiency
-		sprite = 17
-		cavalry_attack_factor = 0.1
-		cavalry_defence_factor = 0.1
-		#experience_gain_army = @experience_gain_medium
-
-		
-
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 0
-				command_power < 200
-			}
-		}
-	}
-
-	army_cavalry_3 = { # +12 cavalry/motorized efficiency
-		sprite = 17
-		cavalry_attack_factor = 0.15
-		cavalry_defence_factor = 0.15
-		#experience_gain_army = @experience_gain_high
-
-		
-
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				command_power < 300
-			}
-		}
-	}
-
 	army_CombinedArms_1 = { # +4 cavalry/motorized efficiency
 		sprite = 8
 		motorized_attack_factor = 0.05
@@ -6818,56 +6700,6 @@ leader_traits = {
 			}
 		}
 	}
-
-    #IB_removal
-	army_regrouping_1 = { # Org regenerates 4% faster
-		sprite = 5
-		army_morale_factor = 0.04
-		#experience_gain_army = @experience_gain_low
-
-		
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				command_power < 100
-			}
-		}
-	}
-
-	army_regrouping_2 = { # Org regenerates 8% faster
-		sprite = 5
-		army_morale_factor = 0.08
-		#experience_gain_army = @experience_gain_medium
-
-		
-
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 0
-				command_power < 200
-			}
-		}
-	}
-
-	army_regrouping_3 = { # Org regenerates 12% faster
-		sprite = 5
-		army_morale_factor = 0.12
-		#experience_gain_army = @experience_gain_high
-
-		
-
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				command_power < 300
-			}
-		}
-	}
-
 
 	army_concealment_1 = { # Ground units take less damage from air attacks
 		sprite = 9
@@ -7053,6 +6885,172 @@ leader_traits = {
 		}
 	}
 
+   #IB_removal
+	army_chief_old_guard = { # Rate at which field experience is gained decreases by 10%
+		sprite = 5 # Should not need sprite, should mostly be secondary
+		experience_gain_army = 0.23
+		political_power_factor = 0.1
+		#max_command_power = 20
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				command_power < 100
+			}
+		}
+	}
+
+    #IB_removal
+	army_regrouping_1 = { # Org regenerates 4% faster
+		sprite = 5
+		army_morale_factor = 0.04
+		#experience_gain_army = @experience_gain_low
+
+		
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				command_power < 100
+			}
+		}
+	}
+
+	army_regrouping_2 = { # Org regenerates 8% faster
+		sprite = 5
+		army_morale_factor = 0.08
+		#experience_gain_army = @experience_gain_medium
+
+		
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				command_power < 200
+			}
+		}
+	}
+
+	army_regrouping_3 = { # Org regenerates 12% faster
+		sprite = 5
+		army_morale_factor = 0.12
+		#experience_gain_army = @experience_gain_high
+
+		
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				command_power < 300
+			}
+		}
+	}
+
+    #IB_removal
+	army_cavalry_1 = { # +4 cavalry/motorized efficiency
+		sprite = 17
+		cavalry_attack_factor = 0.05
+		cavalry_defence_factor = 0.05
+		#experience_gain_army = @experience_gain_low
+
+		
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				command_power < 100
+			}
+		}
+	}
+
+	army_cavalry_2 = { # +8 cavalry/motorized efficiency
+		sprite = 17
+		cavalry_attack_factor = 0.1
+		cavalry_defence_factor = 0.1
+		#experience_gain_army = @experience_gain_medium
+
+		
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				command_power < 200
+			}
+		}
+	}
+
+	army_cavalry_3 = { # +12 cavalry/motorized efficiency
+		sprite = 17
+		cavalry_attack_factor = 0.15
+		cavalry_defence_factor = 0.15
+		#experience_gain_army = @experience_gain_high
+
+		
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				command_power < 300
+			}
+		}
+	}
+
+    #IB_removal
+	army_entrenchment_1 = { # Ground units entrench n% faster
+		sprite = 9
+		dig_in_speed_factor = 0.08
+		#experience_gain_army = @experience_gain_low
+
+		
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				command_power < 100
+			}
+		}
+	}
+
+	army_entrenchment_2 = { # Ground units entrench 8% faster
+		sprite = 9
+		dig_in_speed_factor = 0.16
+		#experience_gain_army = @experience_gain_medium
+
+		
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				command_power < 200
+			}
+		}
+	}
+
+	army_entrenchment_3 = { # Ground units entrench 12% faster
+		sprite = 9
+		dig_in_speed_factor = 0.24
+		#experience_gain_army = @experience_gain_high
+
+		
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				command_power < 300
+			}
+		}
+	}
+   #IB_removal_end
 
 	air_chief_reform_1 = {  # Rate at which air experience is gained increases by 5%
 		sprite = 1
