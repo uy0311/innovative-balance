@@ -2311,9 +2311,22 @@ technologies = {
 		
 		xor = { mobile_warfare superior_firepower mass_assault } 
 	
-		max_dig_in = 10
 		dig_in_speed_factor = 0.25 #25% bonus
-		
+
+		engineer = {
+			battalion_mult = {
+				category = category_army
+				entrenchment = 1.00
+				add = yes
+			}
+		}
+		pioneer_support = {
+			battalion_mult = {
+				category = category_army
+				entrenchment = 1.00
+				add = yes
+			}
+		}
 		
 		path = {
 			leads_to_tech = grand_battle_plan 
@@ -2607,7 +2620,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		max_dig_in = 4
+		dig_in_speed_factor = 0.10
 
 		category_mountaineers = {
 			max_organisation = 10
@@ -3295,7 +3308,7 @@ technologies = {
 
 		attrition = -0.2
 		out_of_supply_factor = -0.10
-		max_dig_in = 6
+		dig_in_speed_factor = 0.15
 
 		category_artillery = {
 			max_organisation = 10

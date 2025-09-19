@@ -76,11 +76,11 @@ ability = {
 		
 		unit_modifiers = {
 			dont_lose_dig_in_on_attack = 1.0
-			offence = -0.2
+			experience_gain_factor = -1.00
 		}
 		
 		cancelable = yes
-		cost = 0.1
+		cost = 0.0
 		duration = -1
 	}
 	
