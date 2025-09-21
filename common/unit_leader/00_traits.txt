@@ -1626,7 +1626,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			dig_in_speed_factor = 0.5
+			dig_in_speed_factor = 0.3
 		}
 		
 		ai_will_do = {
