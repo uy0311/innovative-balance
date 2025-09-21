@@ -2316,14 +2316,14 @@ technologies = {
 		engineer = {
 			battalion_mult = {
 				category = category_army
-				entrenchment = 1.00
+				entrenchment = 0.80
 				add = yes
 			}
 		}
 		pioneer_support = {
 			battalion_mult = {
 				category = category_army
-				entrenchment = 1.00
+				entrenchment = 0.80
 				add = yes
 			}
 		}
@@ -4386,10 +4386,17 @@ technologies = {
 		army_org_regain = 0.25
 
 		armored_car = {
-			combat_width = -0.5
+			combat_width = -1.0
 			max_organisation = 100
 			default_morale = 0.50
 			breakthrough = 0.60
+		}
+
+		light_armor = {
+			combat_width = -0.5
+			max_organisation = 20
+			default_morale = 0.10
+			breakthrough = 0.15
 		}
 
 		enable_tactic = tactic_human_wave_tactics
