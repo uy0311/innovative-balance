@@ -4386,6 +4386,7 @@ technologies = {
 		army_org_regain = 0.25
 
 		armored_car = {
+			initiative = -0.02
 			combat_width = -1.0
 			max_organisation = 100
 			default_morale = 0.50
