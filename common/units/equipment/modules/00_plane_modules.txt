@@ -385,6 +385,7 @@ equipment_modules = {
 		allow_mission_type = {
 			air_superiority
 			interception
+			recon
 		}
 		forbid_equipment_type_exact_match_for_category = {
 			anti_tank_weapon = heavy_fighter
@@ -477,6 +478,9 @@ equipment_modules = {
 		sfx = medium_plane_concept_tactical_bomber
 		add_equipment_type = tactical_bomber
 
+		allow_mission_type = {
+			recon
+		}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -566,6 +570,13 @@ equipment_modules = {
 
 		allow_mission_type = {
 			recon
+		}
+
+		add_stats = {
+			build_cost_ic = -20
+			air_agility = 10
+			air_defence = -6
+			air_range = -500
 		}
 
 		forbid_equipment_type_exact_match_for_category = {
