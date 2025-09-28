@@ -1547,35 +1547,9 @@ technologies = {
 		category_tanks = {
 			hard_attack = 0.10
 		}
-
-		motorized = {
-			reliability_factor = 0.01
-			equipment_capture_factor = 0.01
-			casualty_trickleback = 0.02
-			experience_loss_factor = -0.02
-			supply_consumption_factor = -0.02
-			fuel_consumption_factor = -0.01
-			initiative = 0.01
-		}
-		mechanized = {
-			reliability_factor = 0.01
-			equipment_capture_factor = 0.01
-			casualty_trickleback = 0.02
-			experience_loss_factor = -0.02
-			supply_consumption_factor = -0.02
-			fuel_consumption_factor = -0.01
-			initiative = 0.01
-		}
-		amphibious_mechanized = {
-			reliability_factor = 0.01
-			equipment_capture_factor = 0.01
-			casualty_trickleback = 0.02
-			experience_loss_factor = -0.02
-			supply_consumption_factor = -0.02
-			fuel_consumption_factor = -0.01
-			initiative = 0.01
-		}
 		
+		naval_invasion_capacity = 100
+
 		enable_tactic = tactic_breakthrough
 
 		path = {
@@ -1626,11 +1600,33 @@ technologies = {
 
 		land_reinforce_rate = 0.02
 
-		category_light_infantry = {
-			defense = 0.15
+		motorized = {
+			reliability_factor = 0.01
+			equipment_capture_factor = 0.01
+			casualty_trickleback = 0.02
+			experience_loss_factor = -0.02
+			supply_consumption_factor = -0.02
+			fuel_consumption_factor = -0.01
+			initiative = 0.01
 		}
-
-		naval_invasion_capacity = 100
+		mechanized = {
+			reliability_factor = 0.01
+			equipment_capture_factor = 0.01
+			casualty_trickleback = 0.02
+			experience_loss_factor = -0.02
+			supply_consumption_factor = -0.02
+			fuel_consumption_factor = -0.01
+			initiative = 0.01
+		}
+		amphibious_mechanized = {
+			reliability_factor = 0.01
+			equipment_capture_factor = 0.01
+			casualty_trickleback = 0.02
+			experience_loss_factor = -0.02
+			supply_consumption_factor = -0.02
+			fuel_consumption_factor = -0.01
+			initiative = 0.01
+		}
 	
 		enable_tactic = tactic_tactical_withdrawal
 		
@@ -3900,19 +3896,19 @@ technologies = {
 		supply_consumption_factor = -0.05
 
 		light_armor = {
-			max_strength = -0.66
+			max_strength = -0.44 #-0.66
 			combat_width = -0.25
 			max_organisation = 15
 			default_morale = 0.25
 		}
 		medium_armor = {
-			max_strength = -0.66
+			max_strength = -0.44 #-0.66
 			combat_width = -0.25
 			max_organisation = 15
 			default_morale = 0.25
 		}
 		modern_armor = {
-			max_strength = -0.66
+			max_strength = -0.44 #-0.66
 			combat_width = -0.25
 			max_organisation = 15
 			default_morale = 0.25

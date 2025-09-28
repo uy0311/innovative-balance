@@ -874,7 +874,7 @@ technologies = {
 	air_offense = {
 
 		xp_research_type = air
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes	
 		research_cost = 3
 
@@ -905,7 +905,7 @@ technologies = {
 	home_defence = {
 
 		xp_research_type = air
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes	
 		research_cost = 3
 
@@ -927,7 +927,7 @@ technologies = {
 	forward_interception = {
 
 		xp_research_type = air
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 		research_cost = 3
 
