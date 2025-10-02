@@ -18,13 +18,14 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
-				wing_machine_gun
-				body_air_cannon
+				plane_light_mg_2x
+				plane_light_mg_4x
+				plane_heavy_mg_2x
+				plane_heavy_mg_4x
+				plane_aircraft_cannon_1_2x_body
+				plane_aircraft_cannon_2_2x_body
+				plane_large_aircraft_cannon_2x_body
 			}
-		}
-
-		forbid_equipment_type_exact_match_for_category = {
-			anti_tank_weapon = fighter
 		}
 
 		mission_type_stats = {
@@ -116,8 +117,13 @@ equipment_modules = {
 				plane_rocket_engine_type
 			}
 			special_type_slot_3 = {
-				wing_machine_gun
-				body_air_cannon
+				plane_light_mg_2x
+				plane_light_mg_4x
+				plane_heavy_mg_2x
+				plane_heavy_mg_4x
+				plane_aircraft_cannon_1_2x_body
+				plane_aircraft_cannon_2_2x_body
+				plane_large_aircraft_cannon_2x_body
 			}
 		}
 
@@ -385,16 +391,17 @@ equipment_modules = {
 		allow_mission_type = {
 			air_superiority
 			interception
-			recon
-		}
-		forbid_equipment_type_exact_match_for_category = {
-			anti_tank_weapon = heavy_fighter
 		}
 		
 		allowed_module_categories = {
 			special_type_slot_3 = {
-				wing_machine_gun
-				wing_air_cannon
+				plane_light_mg_2x
+				plane_light_mg_4x
+				plane_heavy_mg_2x
+				plane_heavy_mg_4x
+				plane_aircraft_cannon_1_2x
+				plane_aircraft_cannon_2_2x
+				plane_large_aircraft_cannon_2x
 			}
 		}
 		
@@ -477,10 +484,6 @@ equipment_modules = {
 		category = medium_plane_concept
 		sfx = medium_plane_concept_tactical_bomber
 		add_equipment_type = tactical_bomber
-
-		allow_mission_type = {
-			recon
-		}
 
 		allowed_module_categories = {
 			special_type_slot_3 = {
@@ -570,13 +573,6 @@ equipment_modules = {
 
 		allow_mission_type = {
 			recon
-		}
-
-		add_stats = {
-			build_cost_ic = -20
-			air_agility = 10
-			air_defence = -6
-			air_range = -500
 		}
 
 		forbid_equipment_type_exact_match_for_category = {
@@ -859,13 +855,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 450
+			maximum_speed = 500
 			thrust = 700
 			build_cost_ic = 30
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
-			maximum_speed = 0.25
+			maximum_speed = 0.15
+			air_agility = 0.10
 		}
 	}
 
@@ -876,13 +873,14 @@ equipment_modules = {
 		parent = engine_1_1x
 
 		add_stats = {
-			maximum_speed = 500
+			maximum_speed = 550
 			thrust = 800
 			build_cost_ic = 31
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
-			maximum_speed = 0.30
+			maximum_speed = 0.20
+			air_agility = 0.15
 		}
 
 		can_convert_from = {
@@ -898,13 +896,14 @@ equipment_modules = {
 		parent = engine_2_1x
 
 		add_stats = {
-			maximum_speed = 550
+			maximum_speed = 600
 			thrust = 900
 			build_cost_ic = 32
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
-			maximum_speed = 0.35
+			maximum_speed = 0.25
+			air_agility = 0.20
 		}
 
 		can_convert_from = {
@@ -920,13 +919,14 @@ equipment_modules = {
 		parent = engine_3_1x
 
 		add_stats = {
-			maximum_speed = 600
+			maximum_speed = 650
 			thrust = 1000
 			build_cost_ic = 33
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
-			maximum_speed = 0.40
+			maximum_speed = 0.30
+			air_agility = 0.25
 		}
 
 		can_convert_from = {
@@ -942,13 +942,14 @@ equipment_modules = {
 		parent = engine_4_1x
 
 		add_stats = {
-			maximum_speed = 650
+			maximum_speed = 700
 			thrust = 1100
 			build_cost_ic = 34
 			fuel_consumption = 0.3
 		}
 		multiply_stats = {
-			maximum_speed = 0.55
+			maximum_speed = 0.45
+			air_agility = 0.25
 		}
 
 		build_cost_resources = {
@@ -997,12 +998,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 600
+			maximum_speed = 650
 			thrust = 0
 			build_cost_ic = 20
 		}
 		multiply_stats = {
-			maximum_speed = 0.45
+			maximum_speed = 0.35
+			air_agility = 0.15
 			air_range = -0.75
 		}
 		build_cost_resources = {
@@ -1017,12 +1019,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 600
+			maximum_speed = 650
 			thrust = 0
 			build_cost_ic = 22
 		}
 		multiply_stats = {
-			maximum_speed = 0.50
+			maximum_speed = 0.40
+			air_agility = 0.20
 			air_range = -0.75
 		}
 		build_cost_resources = {
@@ -1037,12 +1040,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 600
+			maximum_speed = 650
 			thrust = 0
 			build_cost_ic = 24
 		}
 		multiply_stats = {
-			maximum_speed = 0.55
+			maximum_speed = 0.45
+			air_agility = 0.25
 			air_range = -0.75
 		}
 		build_cost_resources = {
@@ -1059,13 +1063,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 320
+			maximum_speed = 250
 			thrust = 1300
 			build_cost_ic = 58
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
-			maximum_speed = 0.70
+			maximum_speed = 1.40
+			air_agility = 1.10
 		}
 	}
 
@@ -1076,13 +1081,14 @@ equipment_modules = {
 		parent = engine_1_2x
 
 		add_stats = {
-			maximum_speed = 360
+			maximum_speed = 275
 			thrust = 1400
 			build_cost_ic = 60
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
-			maximum_speed = 0.80
+			maximum_speed = 1.55
+			air_agility = 1.15
 		}
 
 		can_convert_from = {
@@ -1098,13 +1104,14 @@ equipment_modules = {
 		parent = engine_2_2x
 
 		add_stats = {
-			maximum_speed = 400
+			maximum_speed = 300
 			thrust = 1500
 			build_cost_ic = 62
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
-			maximum_speed = 0.90
+			maximum_speed = 1.70
+			air_agility = 1.20
 		}
 
 		can_convert_from = {
@@ -1120,13 +1127,14 @@ equipment_modules = {
 		parent = engine_3_2x
 
 		add_stats = {
-			maximum_speed = 440
+			maximum_speed = 325
 			thrust = 1600
 			build_cost_ic = 64
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
-			maximum_speed = 1.00
+			maximum_speed = 1.85
+			air_agility = 1.25
 		}
 
 		can_convert_from = {
@@ -1142,13 +1150,14 @@ equipment_modules = {
 		parent = engine_4_2x
 
 		add_stats = {
-			maximum_speed = 480
+			maximum_speed = 350
 			thrust = 1700
 			build_cost_ic = 66
 			fuel_consumption = 0.6
 		}
 		multiply_stats = {
-			maximum_speed = 1.25
+			maximum_speed = 2.15
+			air_agility = 1.25
 		}
 
 		build_cost_resources = {
@@ -1197,13 +1206,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 320
+			maximum_speed = 250
 			thrust = 2100
 			build_cost_ic = 84
 			fuel_consumption = 0.48
 		}
 		multiply_stats = {
-			maximum_speed = 0.90
+			maximum_speed = 1.65
+			air_agility = 1.35
 		}
 	}
 
@@ -1214,13 +1224,14 @@ equipment_modules = {
 		parent = engine_1_3x
 
 		add_stats = {
-			maximum_speed = 360
+			maximum_speed = 275
 			thrust = 2200
 			build_cost_ic = 87
 			fuel_consumption = 0.48
 		}
 		multiply_stats = {
-			maximum_speed = 1.00
+			maximum_speed = 1.80
+			air_agility = 1.40
 		}
 
 		can_convert_from = {
@@ -1236,13 +1247,14 @@ equipment_modules = {
 		parent = engine_2_3x
 
 		add_stats = {
-			maximum_speed = 400
+			maximum_speed = 300
 			thrust = 2300
 			build_cost_ic = 90
 			fuel_consumption = 0.48
 		}
 		multiply_stats = {
-			maximum_speed = 1.10
+			maximum_speed = 1.95
+			air_agility = 1.45
 		}
 
 		can_convert_from = {
@@ -1258,13 +1270,14 @@ equipment_modules = {
 		parent = engine_3_3x
 
 		add_stats = {
-			maximum_speed = 440
+			maximum_speed = 325
 			thrust = 2400
 			build_cost_ic = 93
 			fuel_consumption = 0.48
 		}
 		multiply_stats = {
-			maximum_speed = 1.20
+			maximum_speed = 2.10
+			air_agility = 1.50
 		}
 
 		can_convert_from = {
@@ -1280,13 +1293,14 @@ equipment_modules = {
 		parent = engine_4_3x
 
 		add_stats = {
-			maximum_speed = 480
+			maximum_speed = 350
 			thrust = 2500
 			build_cost_ic = 96
 			fuel_consumption = 0.9
 		}
 		multiply_stats = {
-			maximum_speed = 1.30
+			maximum_speed = 2.40
+			air_agility = 1.50
 		}
 
 		build_cost_resources = {
@@ -1335,13 +1349,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 190
+			maximum_speed = 200
 			thrust = 3000
 			build_cost_ic = 112
 			fuel_consumption = 0.64
 		}
 		multiply_stats = {
-			maximum_speed = 1.15
+			maximum_speed = 1.40
+			air_agility = 1.10
 		}
 	}
 
@@ -1352,13 +1367,14 @@ equipment_modules = {
 		parent = engine_1_4x
 
 		add_stats = {
-			maximum_speed = 210
+			maximum_speed = 225
 			thrust = 3250
 			build_cost_ic = 116
 			fuel_consumption = 0.64
 		}
 		multiply_stats = {
-			maximum_speed = 1.30
+			maximum_speed = 1.55
+			air_agility = 1.15
 		}
 
 		can_convert_from = {
@@ -1374,13 +1390,14 @@ equipment_modules = {
 		parent = engine_2_4x
 
 		add_stats = {
-			maximum_speed = 230
+			maximum_speed = 250
 			thrust = 3500
 			build_cost_ic = 120
 			fuel_consumption = 0.64
 		}
 		multiply_stats = {
-			maximum_speed = 1.45
+			maximum_speed = 1.70
+			air_agility = 1.20
 		}
 
 		can_convert_from = {
@@ -1396,13 +1413,14 @@ equipment_modules = {
 		parent = engine_3_4x
 
 		add_stats = {
-			maximum_speed = 250
+			maximum_speed = 275
 			thrust = 3750
 			build_cost_ic = 124
 			fuel_consumption = 0.64
 		}
 		multiply_stats = {
-			maximum_speed = 1.60
+			maximum_speed = 1.85
+			air_agility = 1.25
 		}
 
 		can_convert_from = {
@@ -1418,13 +1436,14 @@ equipment_modules = {
 		parent = engine_4_4x
 
 		add_stats = {
-			maximum_speed = 270
+			maximum_speed = 300
 			thrust = 4000
 			build_cost_ic = 128
 			fuel_consumption = 1.2
 		}
 		multiply_stats = {
-			maximum_speed = 1.90
+			maximum_speed = 2.15
+			air_agility = 1.25
 		}
 
 		build_cost_resources = {
@@ -1472,13 +1491,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 190
+			maximum_speed = 200
 			thrust = 4200
 			build_cost_ic = 168
 			fuel_consumption = 0.8
 		}
 		multiply_stats = {
-			maximum_speed = 1.55
+			maximum_speed = 1.65
+			air_agility = 1.35
 		}
 	}
 
@@ -1489,13 +1509,14 @@ equipment_modules = {
 		parent = engine_1_6x
 
 		add_stats = {
-			maximum_speed = 210
+			maximum_speed = 225
 			thrust = 4450
 			build_cost_ic = 172
 			fuel_consumption = 0.8
 		}
 		multiply_stats = {
-			maximum_speed = 1.70
+			maximum_speed = 1.80
+			air_agility = 1.40
 		}
 
 		can_convert_from = {
@@ -1511,13 +1532,14 @@ equipment_modules = {
 		parent = engine_2_6x
 
 		add_stats = {
-			maximum_speed = 230
+			maximum_speed = 250
 			thrust = 4700
 			build_cost_ic = 176
 			fuel_consumption = 0.8
 		}
 		multiply_stats = {
-			maximum_speed = 1.85
+			maximum_speed = 1.95
+			air_agility = 1.45
 		}
 
 		can_convert_from = {
@@ -1533,13 +1555,14 @@ equipment_modules = {
 		parent = engine_3_6x
 
 		add_stats = {
-			maximum_speed = 250
+			maximum_speed = 275
 			thrust = 4900
 			build_cost_ic = 180
 			fuel_consumption = 0.8
 		}
 		multiply_stats = {
-			maximum_speed = 2.00
+			maximum_speed = 2.10
+			air_agility = 1.50
 		}
 
 		can_convert_from = {
@@ -1555,13 +1578,14 @@ equipment_modules = {
 		parent = engine_4_6x
 
 		add_stats = {
-			maximum_speed = 270
+			maximum_speed = 300
 			thrust = 5200
 			build_cost_ic = 184
 			fuel_consumption = 1.8
 		}
 		multiply_stats = {
-			maximum_speed = 2.30
+			maximum_speed = 2.40
+			air_agility = 1.25
 		}
 
 		build_cost_resources = {
@@ -1611,17 +1635,51 @@ equipment_modules = {
 
 	light_mg_2x = {
 		abbreviation = "lmg2"
-		category = nose_machine_gun
+		category = plane_light_mg_2x
+		gui_category = plane_machine_gun
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_attack = 4
-			air_agility = -1.8
-			build_cost_ic = 3
+			air_attack = 5
+			build_cost_ic = 6
 			weight = 30
 		}
 		multiply_stats = {
-			maximum_speed = -0.04
+			maximum_speed = -0.05
+			air_agility = -0.06
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			add_stats = {
+				air_ground_attack = 0.5
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 1
+			}
+		}
+	}
+
+	light_mg_2x_nose = {
+		abbreviation = "lmg2"
+		category = plane_light_mg_2x_nose
+		gui_category = plane_machine_gun
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			air_attack = 5
+			build_cost_ic = 6
+			weight = 30
+		}
+		multiply_stats = {
+			maximum_speed = -0.05
+			air_agility = -0.06
 		}
 		mission_type_stats = {
 			limit = {
@@ -1643,17 +1701,18 @@ equipment_modules = {
 
 	light_mg_4x = {
 		abbreviation = "lmg4"
-		category = wing_machine_gun
+		category = plane_light_mg_4x
+		gui_category = plane_machine_gun
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_attack = 8
-			air_agility = -3.6
-			build_cost_ic = 6
+			air_attack = 10
+			build_cost_ic = 12
 			weight = 60
 		}
 		multiply_stats = {
-			maximum_speed = -0.08
+			maximum_speed = -0.10
+			air_agility = -0.12
 		}
 		mission_type_stats = {
 			limit = {
@@ -1675,17 +1734,51 @@ equipment_modules = {
 
 	heavy_mg_2x = {
 		abbreviation = "hmg2"
-		category = nose_machine_gun
+		category = plane_heavy_mg_2x
+		gui_category = plane_machine_gun
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_attack = 7
-			air_agility = -2.4
-			build_cost_ic = 5
+			air_attack = 9
+			build_cost_ic = 10
 			weight = 70
 		}
 		multiply_stats = {
-			maximum_speed = -0.08
+			maximum_speed = -0.09
+			air_agility = -0.08
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			add_stats = {
+				air_ground_attack = 1.0
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 3.0
+			}
+		}
+	}
+
+	heavy_mg_2x_nose = {
+		abbreviation = "hmg2"
+		category = plane_heavy_mg_2x_nose
+		gui_category = plane_machine_gun
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			air_attack = 9
+			build_cost_ic = 10
+			weight = 70
+		}
+		multiply_stats = {
+			maximum_speed = -0.09
+			air_agility = -0.08
 		}
 		mission_type_stats = {
 			limit = {
@@ -1707,17 +1800,18 @@ equipment_modules = {
 
 	heavy_mg_4x = {
 		abbreviation = "hmg4"
-		category = wing_machine_gun
+		category = plane_heavy_mg_4x
+		gui_category = plane_machine_gun
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_attack = 14
-			air_agility = -4.8
-			build_cost_ic = 10
+			air_attack = 18
+			build_cost_ic = 20
 			weight = 140
 		}
 		multiply_stats = {
-			maximum_speed = -0.16
+			maximum_speed = -0.18
+			air_agility = -0.16
 		}
 		mission_type_stats = {
 			limit = {
@@ -1739,17 +1833,51 @@ equipment_modules = {
 
 	aircraft_cannon_1_1x = {
 		abbreviation = "ac11"
-		category = nose_air_cannon
+		category = plane_aircraft_cannon_1_1x
+		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_attack = 8
-			air_agility = -3.2
-			build_cost_ic = 6
+			air_attack = 7
+			build_cost_ic = 8
 			weight = 45
 		}
 		multiply_stats = {
-			maximum_speed = -0.05
+			maximum_speed = -0.06
+			air_agility = -0.075
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			add_stats = {
+				air_ground_attack = 0.5
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 2.5
+			}
+		}
+	}
+
+	aircraft_cannon_1_1x_nose = {
+		abbreviation = "ac11"
+		category = plane_aircraft_cannon_1_1x_nose
+		gui_category = plane_cannon
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			air_attack = 7
+			build_cost_ic = 8
+			weight = 45
+		}
+		multiply_stats = {
+			maximum_speed = -0.06
+			air_agility = -0.075
 		}
 		mission_type_stats = {
 			limit = {
@@ -1771,17 +1899,18 @@ equipment_modules = {
 
 	aircraft_cannon_1_2x = {
 		abbreviation = "ac12"
-		category = wing_air_cannon
+		category = plane_aircraft_cannon_1_2x
+		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_attack = 16
-			air_agility = -6.4
-			build_cost_ic = 12
+			air_attack = 14
+			build_cost_ic = 16
 			weight = 90
 		}
 		multiply_stats = {
-			maximum_speed = -0.10
+			maximum_speed = -0.12
+			air_agility = -0.15
 		}
 		mission_type_stats = {
 			limit = {
@@ -1803,20 +1932,23 @@ equipment_modules = {
 
 	aircraft_cannon_1_2x_body = {
 		abbreviation = "ac12"
-		category = body_air_cannon
+		category = plane_aircraft_cannon_1_2x_body
+		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_attack = 16
-			air_agility = -6.4
-			build_cost_ic = 12
+			air_attack = 14
+			build_cost_ic = 16
 			weight = 90
 		}
 		multiply_stats = {
-			maximum_speed = -0.10
+			maximum_speed = -0.12
+			air_agility = -0.15
 		}
 		forbid_module_categories = {
-			nose_air_cannon
+			plane_aircraft_cannon_1_1x_nose
+			plane_aircraft_cannon_2_1x_nose
+			plane_large_aircraft_cannon_1x_nose
 		 }
 		mission_type_stats = {
 			limit = {
@@ -1838,18 +1970,53 @@ equipment_modules = {
 
 	aircraft_cannon_2_1x = {
 		abbreviation = "ac21"
-		category = nose_air_cannon
+		category = plane_aircraft_cannon_2_1x
+		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_1x
 
 		add_stats = {
-			air_attack = 8
-			air_agility = -3.2
-			build_cost_ic = 6.0
+			air_attack = 7
+			build_cost_ic = 7.5
 			weight = 45
 		}
 		multiply_stats = {
-			maximum_speed = -0.045
+			maximum_speed = -0.06
+			air_agility = -0.075
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			add_stats = {
+				air_ground_attack = 0.5
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 2.5
+			}
+		}
+	}
+
+	aircraft_cannon_2_1x_nose = {
+		abbreviation = "ac21"
+		category = plane_aircraft_cannon_2_1x_nose
+		gui_category = plane_cannon
+		sfx = sfx_ui_sd_module_turret
+		parent = aircraft_cannon_1_1x_nose
+
+		add_stats = {
+			air_attack = 7
+			build_cost_ic = 7.5
+			weight = 45
+		}
+		multiply_stats = {
+			maximum_speed = -0.06
+			air_agility = -0.075
 		}
 		mission_type_stats = {
 			limit = {
@@ -1871,18 +2038,19 @@ equipment_modules = {
 
 	aircraft_cannon_2_2x = {
 		abbreviation = "ac22"
-		category = wing_air_cannon
+		category = plane_aircraft_cannon_2_2x
+		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_2x
 
 		add_stats = {
-			air_attack = 16
-			air_agility = -6.4
-			build_cost_ic = 12
+			air_attack = 14
+			build_cost_ic = 15
 			weight = 90
 		}
 		multiply_stats = {
-			maximum_speed = -0.09
+			maximum_speed = -0.12
+			air_agility = -0.15
 		}
 		mission_type_stats = {
 			limit = {
@@ -1904,21 +2072,24 @@ equipment_modules = {
 
 	aircraft_cannon_2_2x_body = {
 		abbreviation = "ac22"
-		category = body_air_cannon
+		category = plane_aircraft_cannon_2_2x_body
+		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_2x_body
 
 		add_stats = {
-			air_attack = 16
-			air_agility = -6.4
-			build_cost_ic = 12
+			air_attack = 14
+			build_cost_ic = 15
 			weight = 90
 		}
 		multiply_stats = {
-			maximum_speed = -0.09
+			maximum_speed = -0.12
+			air_agility = -0.15
 		}
 		forbid_module_categories = {
-			nose_air_cannon
+			plane_aircraft_cannon_1_1x_nose
+			plane_aircraft_cannon_2_1x_nose
+			plane_large_aircraft_cannon_1x_nose
 		 }
 		mission_type_stats = {
 			limit = {
@@ -1940,17 +2111,53 @@ equipment_modules = {
 
 	large_aircraft_cannon_1x = {
 		abbreviation = "ac21"
-		category = nose_air_cannon
+		category = plane_large_aircraft_cannon_1x
+		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_1x
+
 		add_stats = {
-			air_attack = 12
-			air_agility = -5.5
-			build_cost_ic = 9
+			air_attack = 10.5
+			build_cost_ic = 12
 			weight = 60
 		}
 		multiply_stats = {
-			maximum_speed = -0.055
+			maximum_speed = -0.08
+			air_agility = -0.15
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			add_stats = {
+				air_ground_attack = 1.0
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 3.0
+			}
+		}
+	}
+
+	large_aircraft_cannon_1x_nose = {
+		abbreviation = "ac21"
+		category = plane_large_aircraft_cannon_1x_nose
+		gui_category = plane_cannon
+		sfx = sfx_ui_sd_module_turret
+		parent = aircraft_cannon_1_1x_nose
+		
+		add_stats = {
+			air_attack = 10.5
+			build_cost_ic = 12
+			weight = 60
+		}
+		multiply_stats = {
+			maximum_speed = -0.08
+			air_agility = -0.15
 		}
 		mission_type_stats = {
 			limit = {
@@ -1972,21 +2179,60 @@ equipment_modules = {
 
 	large_aircraft_cannon_2x = {
 		abbreviation = "ac22"
-		category = body_air_cannon
+		category = plane_large_aircraft_cannon_2x
+		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
-		parent = aircraft_cannon_1_2x_body
+		parent = aircraft_cannon_1_2x
+
 		add_stats = {
-			air_attack = 24
-			air_agility = -11
-			build_cost_ic = 18
+			air_attack = 21
+			build_cost_ic = 24
 			weight = 120
 		}
 		multiply_stats = {
-			maximum_speed = -0.11
+			maximum_speed = -0.16
+			air_agility = -0.30
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			add_stats = {
+				air_ground_attack = 2.0
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 6.0
+			}
+		}
+	}
+
+	large_aircraft_cannon_2x_body = {
+		abbreviation = "ac22"
+		category = plane_large_aircraft_cannon_2x_body
+		gui_category = plane_cannon
+		sfx = sfx_ui_sd_module_turret
+		parent = aircraft_cannon_1_2x_body
+
+		add_stats = {
+			air_attack = 21
+			build_cost_ic = 24
+			weight = 120
+		}
+		multiply_stats = {
+			maximum_speed = -0.16
+			air_agility = -0.30
 		}
 		forbid_module_categories = {
-		   nose_machine_gun
-		   nose_air_cannon
+			plane_light_mg_2x_nose
+			plane_heavy_mg_2x_nose
+			plane_aircraft_cannon_1_1x_nose
+			plane_aircraft_cannon_2_1x_nose
+			plane_large_aircraft_cannon_1x_nose
 		}
 		mission_type_stats = {
 			limit = {
@@ -2363,12 +2609,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
+			air_attack = 9.0
 			build_cost_ic = 10
 			weight = 400
 		}
 
 		multiply_stats = {
-			maximum_speed = -0.15
+			maximum_speed = -0.20
+			air_agility = -0.15
 		}
 		
 		allow_mission_type = {
@@ -2400,12 +2648,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
+			air_attack = 14
 			build_cost_ic = 16
 			weight = 700
 		}
 
 		multiply_stats = {
-			maximum_speed = -0.30
+			maximum_speed = -0.35
+			air_agility = -0.30
 		}
 		
 		allow_mission_type = {
@@ -2720,7 +2970,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			maximum_speed = -0.05
+			air_agility = -0.05
 			air_defence = 0.25
 		}
 		
@@ -2805,10 +3055,6 @@ equipment_modules = {
 			weight = 40
 		}
 
-		multiply_stats = {
-			maximum_speed = -0.10
-		}
-
 		mission_type_stats = {
 			limit = {
 				cas
@@ -2852,6 +3098,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = -0.15
+			air_agility = -0.15
 		}
 		dismantle_cost_ic = 2.5
 		
@@ -2875,8 +3122,8 @@ equipment_modules = {
 			weight = 300
 		}
 		multiply_stats = {
+			air_agility = -0.10
 			air_defence = 0.25
-			maximum_speed = -0.12
 		}
 		
 		dismantle_cost_ic = 1
@@ -2957,6 +3204,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = -0.25
+			air_agility = -0.25
 		}
 		dismantle_cost_ic = 2
 		
@@ -2980,8 +3228,8 @@ equipment_modules = {
 			weight = 500
 		}
 		multiply_stats = {
+			air_agility = -0.15
 			air_defence = 0.25
-			maximum_speed = -0.16
 		}
 		
 		dismantle_cost_ic = 1
@@ -3061,7 +3309,8 @@ equipment_modules = {
 			weight = 800
 		}
 		multiply_stats = {
-			maximum_speed = -0.4
+			maximum_speed = -0.40
+			air_agility = -0.40
 		}
 		
 		dismantle_cost_ic = 5
@@ -3283,12 +3532,12 @@ equipment_modules = {
 
 		add_stats = {
 			air_defence = 2
-			air_agility = -1
-			build_cost_ic = 2
+			build_cost_ic = 3
 			weight = 80
 		}
 		multiply_stats = {
-			maximum_speed = -0.02
+			maximum_speed = -0.05
+			air_agility = -0.12
 		}
 		dismantle_cost_ic = 1
 		can_convert_from = {
@@ -3313,12 +3562,12 @@ equipment_modules = {
 
 		add_stats = {
 			air_defence = 3
-			air_agility = -2
-			build_cost_ic = 4
+			build_cost_ic = 6
 			weight = 140
 		}
 		multiply_stats = {
-			maximum_speed = -0.04
+			maximum_speed = -0.10
+			air_agility = -0.24
 		}
 		dismantle_cost_ic = 2
 		can_convert_from = {
@@ -3343,12 +3592,12 @@ equipment_modules = {
 
 		add_stats = {
 			air_defence = 3
-			air_agility = -1.5
-			build_cost_ic = 3
+			build_cost_ic = 5
 			weight = 100
 		}
 		multiply_stats = {
-			maximum_speed = -0.03
+			maximum_speed = -0.06
+			air_agility = -0.14
 		}
 		dismantle_cost_ic = 1
 		can_convert_from = {
@@ -3373,12 +3622,12 @@ equipment_modules = {
 
 		add_stats = {
 			air_defence = 4.5
-			air_agility = -3
-			build_cost_ic = 6
+			build_cost_ic = 10
 			weight = 180
 		}
 		multiply_stats = {
-			maximum_speed = -0.06
+			maximum_speed = -0.12
+			air_agility = -0.28
 		}
 		dismantle_cost_ic = 2
 		can_convert_from = {
@@ -3403,12 +3652,12 @@ equipment_modules = {
 
 		add_stats = {
 			air_defence = 4
-			air_agility = -2
-			build_cost_ic = 5
+			build_cost_ic = 8
 			weight = 110
 		}
 		multiply_stats = {
-			maximum_speed = -0.04
+			maximum_speed = -0.07
+			air_agility = -0.15
 		}
 		dismantle_cost_ic = 1
 		can_convert_from = {
@@ -3429,12 +3678,12 @@ equipment_modules = {
 
 		add_stats = {
 			air_defence = 6
-			air_agility = -4
-			build_cost_ic = 7
+			build_cost_ic = 16
 			weight = 200
 		}
 		multiply_stats = {
-			maximum_speed = -0.08
+			maximum_speed = -0.14
+			air_agility = -0.30
 		}
 		dismantle_cost_ic = 2
 		can_convert_from = {

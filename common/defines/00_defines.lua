@@ -1205,8 +1205,8 @@ NAir = {
 	BIGGEST_SPEED_FACTOR_DIFF = 3.5,					-- biggest factor difference in speed for doing damage (caps to this)
 	TOP_SPEED_DAMAGE_BONUS_FACTOR = 0.000,				-- A factor for scaling the top speed of a plane into damage buff. If an attacking wing has a speed advantage of any form their speed value will be converted into a percentage bonus with this modifier
 	COMBAT_DAMAGE_STATS_MULTILPIER = 0.2,
-	COMBAT_BETTER_AGILITY_DAMAGE_REDUCTION = 2.6, 		-- How much the better agility (than opponent's) can reduce their damage to us.
-	COMBAT_BETTER_SPEED_DAMAGE_INCREASE = 2.5, 			-- How much the better Speed (than opponent's) can reduce increase our damage to them.
+	COMBAT_BETTER_AGILITY_DAMAGE_REDUCTION = 0.9, 		-- How much the better agility (than opponent's) can reduce their damage to us.
+	COMBAT_BETTER_SPEED_DAMAGE_INCREASE = 1.8, 			-- How much the better Speed (than opponent's) can reduce increase our damage to them.
 														-- Both of these defines are combined with their sister FACTOR_DIFF defines to create defense or offensive buffs
 														-- In both cases the maximum bonus or reduction is (BIGGEST_X_FACTOR_DIFF - 1) * COMBAT_BETTER_X_DAMAGE_Y * Damage
 	COMBAT_MAX_WINGS_AT_ONCE = 10000, 						-- Max amount of air wings in one combat simulation. The higher value, the quicker countries may loose their wings. It's a gameplay balance value.
@@ -1323,16 +1323,16 @@ NAir = {
 
 	DISRUPTION_FACTOR = 4.0,									-- multiplier on disruption damage to scale its effects on planes
 	DISRUPTION_FACTOR_CARRIER = 4.0,							-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
-	DISRUPTION_SPEED_FACTOR = 4.0,
+	DISRUPTION_SPEED_FACTOR = 5.0,
 	DISRUPTION_AGILITY_FACTOR = 0.0,
-	DISRUPTION_ATTACK_FACTOR = 2.0,
+	DISRUPTION_ATTACK_FACTOR = 3.0,
 	DISRUPTION_DETECTION_FACTOR = 0.0,
-	ESCORT_FACTOR = 3.0,
+	ESCORT_FACTOR = 2.0,
 	ESCORT_SPEED_FACTOR = 0.0,
-	ESCORT_AGILITY_FACTOR = 5.25,
-	ESCORT_ATTACK_FACTOR = 1.5,
+	ESCORT_AGILITY_FACTOR = 8.0,
+	ESCORT_ATTACK_FACTOR = 4.0,
 	DISRUPTION_DEFENCE_DEFENCE_FACTOR = 1.0,
-	DISRUPTION_DEFENCE_SPEED_FACTOR = 0.5,
+	DISRUPTION_DEFENCE_SPEED_FACTOR = 1.0,
 	DISRUPTION_DEFENCE_ATTACK_FACTOR = 0.0,
 
 	CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 70,         -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning

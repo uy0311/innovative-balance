@@ -101,16 +101,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -224,7 +231,7 @@ equipments = {
 
 		air_range = 700
 		thrust = 700
-		air_agility = 40
+		air_agility = 30
 		air_defence = 11
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -241,7 +248,7 @@ equipments = {
 
 		air_range = 850
 		thrust = 800
-		air_agility = 55
+		air_agility = 40
 		air_defence = 14
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -313,16 +320,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -371,7 +385,7 @@ equipments = {
 
 		air_range = 950
 		thrust = 900
-		air_agility = 70
+		air_agility = 50
 		air_defence = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -443,16 +457,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -502,7 +523,7 @@ equipments = {
 
 		air_range = 1100
 		thrust = 1000
-		air_agility = 85
+		air_agility = 60
 		air_defence = 24
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -574,16 +595,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -633,7 +661,7 @@ equipments = {
 
 		air_range = 1200
 		thrust = 1100
-		air_agility = 100
+		air_agility = 70
 		air_defence = 27
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -705,16 +733,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -836,16 +871,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -925,7 +967,7 @@ equipments = {
 		lend_lease_cost = 8
 		manpower = 1
 		fuel_consumption = 0.05
-		build_cost_ic = 53
+		build_cost_ic = 49
 		resources = {
 			aluminium = 2
 			rubber = 1
@@ -993,16 +1035,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -1116,7 +1165,7 @@ equipments = {
 
 		air_range = 900
 		thrust = 700
-		air_agility = 40
+		air_agility = 30
 		air_defence = 11
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
@@ -1135,11 +1184,11 @@ equipments = {
 
 		air_range = 1050
 		thrust = 800
-		air_agility = 55
+		air_agility = 40
 		air_defence = 14
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 55
+		build_cost_ic = 51
 		resources = {
 			aluminium = 3
 			rubber = 1
@@ -1207,16 +1256,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -1265,11 +1321,11 @@ equipments = {
 
 		air_range = 1150
 		thrust = 900
-		air_agility = 70
+		air_agility = 50
 		air_defence = 18
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 58
+		build_cost_ic = 53
 		resources = {
 			aluminium = 3
 			rubber = 1
@@ -1337,16 +1393,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -1396,11 +1459,11 @@ equipments = {
 
 		air_range = 1300
 		thrust = 1000
-		air_agility = 85
+		air_agility = 60
 		air_defence = 24
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 53
+		build_cost_ic = 49
 		resources = {
 			aluminium = 4
 			rubber = 1
@@ -1468,16 +1531,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -1526,11 +1596,11 @@ equipments = {
 
 		air_range = 1400
 		thrust = 1100
-		air_agility = 100
+		air_agility = 70
 		air_defence = 27
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 55
+		build_cost_ic = 51
 		resources = {
 			aluminium = 4
 			rubber = 1
@@ -1598,16 +1668,23 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					nose_machine_gun
-					nose_air_cannon
+					plane_light_mg_2x_nose
+					plane_heavy_mg_2x_nose
+					plane_aircraft_cannon_1_1x_nose
+					plane_aircraft_cannon_2_1x_nose
+					plane_large_aircraft_cannon_1x_nose
 				}
 			}
 
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_2x
 					anti_tank_weapon
 				}
 			}
@@ -1674,7 +1751,7 @@ equipments = {
 		lend_lease_cost = 10
 		manpower = 2
 		fuel_consumption = 0
-		build_cost_ic = 62
+		build_cost_ic = 54
 		resources = {
 			aluminium = 2
 			rubber = 1
@@ -1735,8 +1812,16 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
+					plane_large_aircraft_cannon_1x
+					plane_large_aircraft_cannon_2x
 					anti_tank_weapon
 				}
 			}
@@ -1744,8 +1829,14 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
 				}
 			}
 
@@ -1852,8 +1943,8 @@ equipments = {
 
 		air_range = 1500
 		thrust = 1300
-		air_agility = 30
-		air_defence = 17
+		air_agility = 15
+		air_defence = 20
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 
@@ -1871,11 +1962,11 @@ equipments = {
 
 		air_range = 1650
 		thrust = 1400
-		air_agility = 40
-		air_defence = 20
+		air_agility = 20
+		air_defence = 23
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 64
+		build_cost_ic = 56
 		resources = {
 			aluminium = 3
 			rubber = 1
@@ -1936,8 +2027,16 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
+					plane_large_aircraft_cannon_1x
+					plane_large_aircraft_cannon_2x
 					anti_tank_weapon
 				}
 			}
@@ -1945,8 +2044,14 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
 				}
 			}
 
@@ -2001,11 +2106,11 @@ equipments = {
 
 		air_range = 1800
 		thrust = 1500
-		air_agility = 50
-		air_defence = 23
+		air_agility = 25
+		air_defence = 29
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 62
+		build_cost_ic = 52
 		resources = {
 			aluminium = 4
 			rubber = 1
@@ -2066,8 +2171,16 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
+					plane_large_aircraft_cannon_1x
+					plane_large_aircraft_cannon_2x
 					anti_tank_weapon
 				}
 			}
@@ -2075,8 +2188,14 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
 				}
 			}
 
@@ -2131,11 +2250,11 @@ equipments = {
 
 		air_range = 1950
 		thrust = 1600
-		air_agility = 60
-		air_defence = 26
+		air_agility = 30
+		air_defence = 32
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 64
+		build_cost_ic = 54
 		resources = {
 			aluminium = 5
 			rubber = 1
@@ -2196,8 +2315,16 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
+					plane_large_aircraft_cannon_1x
+					plane_large_aircraft_cannon_2x
 					anti_tank_weapon
 				}
 			}
@@ -2205,8 +2332,14 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
 				}
 			}
 
@@ -2261,11 +2394,11 @@ equipments = {
 
 		air_range = 2100
 		thrust = 1700
-		air_agility = 70
-		air_defence = 29
+		air_agility = 35
+		air_defence = 35
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 66
+		build_cost_ic = 56
 		resources = {
 			aluminium = 5
 			rubber = 1
@@ -2326,8 +2459,16 @@ equipments = {
 			engine_type_slot = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
+					plane_large_aircraft_cannon_1x
+					plane_large_aircraft_cannon_2x
 					anti_tank_weapon
 				}
 			}
@@ -2335,8 +2476,14 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					wing_machine_gun
-					wing_air_cannon
+					plane_light_mg_2x
+					plane_light_mg_4x
+					plane_heavy_mg_2x
+					plane_heavy_mg_4x
+					plane_aircraft_cannon_1_1x
+					plane_aircraft_cannon_1_2x
+					plane_aircraft_cannon_2_1x
+					plane_aircraft_cannon_2_2x
 				}
 			}
 
@@ -2407,7 +2554,7 @@ equipments = {
 		lend_lease_cost = 10
 		manpower = 5
 		fuel_consumption = 0.16
-		build_cost_ic = 74
+		build_cost_ic = 64
 		resources = {
 			aluminium = 3
 			rubber = 2
@@ -2586,8 +2733,8 @@ equipments = {
 
 		air_range = 2000
 		thrust = 3000
-		air_agility = 15
-		air_defence = 23
+		air_agility = 6
+		air_defence = 25
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 	}
@@ -2603,11 +2750,11 @@ equipments = {
 
 		air_range = 2200
 		thrust = 3250
-		air_agility = 20
-		air_defence = 27
+		air_agility = 8
+		air_defence = 31
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 76
+		build_cost_ic = 60
 		resources = {
 			aluminium = 3
 			rubber = 2
@@ -2728,11 +2875,11 @@ equipments = {
 
 		air_range = 2400
 		thrust = 3500
-		air_agility = 25
-		air_defence = 31
+		air_agility = 10
+		air_defence = 34
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 74
+		build_cost_ic = 62
 		resources = {
 			aluminium = 4
 			rubber = 2
@@ -2853,11 +3000,11 @@ equipments = {
 
 		air_range = 3000
 		thrust = 3750
-		air_agility = 30
-		air_defence = 34
+		air_agility = 12
+		air_defence = 37
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 76
+		build_cost_ic = 64
 		resources = {
 			aluminium = 5
 			rubber = 2
@@ -2978,11 +3125,11 @@ equipments = {
 
 		air_range = 4800
 		thrust = 4000
-		air_agility = 35
-		air_defence = 37
+		air_agility = 14
+		air_defence = 40
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
-		build_cost_ic = 78
+		build_cost_ic = 66
 		resources = {
 			aluminium = 6
 			rubber = 2
