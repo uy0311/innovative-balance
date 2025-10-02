@@ -1217,7 +1217,6 @@ generic_light_aircraft_organization = {
 
 		equipment_bonus = {
 			air_agility = 0.10
-			maximum_speed = 0.10
 		}
 	}
 
@@ -1302,7 +1301,6 @@ generic_cas_aircraft_organization = {
 
 		equipment_bonus = {
 			air_ground_attack = 0.1
-			air_agility = -0.05
 		}
 	}
 

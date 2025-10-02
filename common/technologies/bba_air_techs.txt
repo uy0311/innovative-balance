@@ -1138,6 +1138,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			light_mg_2x
+			light_mg_2x_nose
 			light_mg_4x
 			lmg_defense_turret
 			lmg_defense_turret_2x
@@ -1237,6 +1238,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			heavy_mg_2x
+			heavy_mg_2x_nose
 			heavy_mg_4x
 			hmg_defense_turret
 			hmg_defense_turret_2x
@@ -1289,6 +1291,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			aircraft_cannon_1_1x
+			aircraft_cannon_1_1x_nose
 			aircraft_cannon_1_2x
 			aircraft_cannon_1_2x_body
 			cannon_defense_turret
@@ -1347,7 +1350,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			large_aircraft_cannon_1x
+			large_aircraft_cannon_1x_nose
 			large_aircraft_cannon_2x
+			large_aircraft_cannon_2x_body
 		}
 
 		on_research_complete = {
@@ -1393,6 +1398,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			aircraft_cannon_2_1x
+			aircraft_cannon_2_1x_nose
 			aircraft_cannon_2_2x
 			aircraft_cannon_2_2x_body
 		}
