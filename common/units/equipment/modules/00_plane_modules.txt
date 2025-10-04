@@ -1070,7 +1070,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 1.40
-			air_agility = 1.10
+			air_agility = 0.60
 		}
 	}
 
@@ -1088,7 +1088,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 1.55
-			air_agility = 1.15
+			air_agility = 0.65
 		}
 
 		can_convert_from = {
@@ -1111,7 +1111,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 1.70
-			air_agility = 1.20
+			air_agility = 0.70
 		}
 
 		can_convert_from = {
@@ -1134,7 +1134,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 1.85
-			air_agility = 1.25
+			air_agility = 0.75
 		}
 
 		can_convert_from = {
@@ -1157,7 +1157,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 2.15
-			air_agility = 1.25
+			air_agility = 0.80
 		}
 
 		build_cost_resources = {
@@ -1213,7 +1213,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 1.65
-			air_agility = 1.35
+			air_agility = 0.85
 		}
 	}
 
@@ -1231,7 +1231,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 1.80
-			air_agility = 1.40
+			air_agility = 0.90
 		}
 
 		can_convert_from = {
@@ -1254,7 +1254,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 1.95
-			air_agility = 1.45
+			air_agility = 0.95
 		}
 
 		can_convert_from = {
@@ -1277,7 +1277,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 2.10
-			air_agility = 1.50
+			air_agility = 1.00
 		}
 
 		can_convert_from = {
@@ -1300,7 +1300,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			maximum_speed = 2.40
-			air_agility = 1.50
+			air_agility = 1.05
 		}
 
 		build_cost_resources = {
