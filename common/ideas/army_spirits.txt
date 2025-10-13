@@ -274,39 +274,41 @@ ideas = {
 			modifier = {
 				custom_modifier_tooltip = superior_firepower_army_spirit_tt	
 				hidden_modifier = {
-					unit_infantry_design_cost_factor = -0.33
-					unit_marine_design_cost_factor = -0.66
-					unit_mountaineers_design_cost_factor = -0.66
-					unit_paratrooper_design_cost_factor = -0.66
-					unit_rangers_support_design_cost_factor = -0.66
-					unit_marine_commando_design_cost_factor = -0.66
-					unit_motorized_design_cost_factor = -0.33
-					unit_mechanized_design_cost_factor = -0.33
 
 					unit_engineer_design_cost_factor = -1
 					unit_pioneer_support_design_cost_factor = -1
-
-					unit_light_flame_tank_design_cost_factor = -1
-					unit_medium_flame_tank_design_cost_factor = -1
-					unit_heavy_flame_tank_design_cost_factor = -1
-
-					unit_amphibious_mechanized_design_cost_factor = -0.33
-					unit_amphibious_armor_design_cost_factor = -0.33
-					unit_amphibious_light_armor_design_cost_factor = -0.33
-					unit_amphibious_medium_armor_design_cost_factor = -0.33
-					unit_amphibious_heavy_armor_design_cost_factor = -0.33
 
 					unit_recon_design_cost_factor = -1
 					unit_mot_recon_design_cost_factor = -1
 					unit_armored_car_recon_design_cost_factor = -1
 					unit_light_tank_recon_design_cost_factor = -1
 					unit_airborne_light_armor_design_cost_factor = -1
-					unit_rangers_support_design_cost_factor = -1
 
 					unit_maintenance_company_design_cost_factor = -1
 					unit_field_hospital_design_cost_factor = -1
 					unit_logistics_company_design_cost_factor = -1
 					unit_signal_company_design_cost_factor = -1
+
+
+					unit_infantry_design_cost_factor = -0.66
+					unit_marine_design_cost_factor = -0.66
+					unit_mountaineers_design_cost_factor = -0.66
+					unit_paratrooper_design_cost_factor = -0.66
+					unit_rangers_support_design_cost_factor = -0.66
+					unit_marine_commando_design_cost_factor = -0.66
+
+					unit_motorized_design_cost_factor = -0.66
+					unit_mechanized_design_cost_factor = -0.66
+					unit_amphibious_mechanized_design_cost_factor = -0.66
+
+					unit_amphibious_armor_design_cost_factor = -0.66
+					unit_amphibious_light_armor_design_cost_factor = -0.66
+					unit_amphibious_medium_armor_design_cost_factor = -0.66
+					unit_amphibious_heavy_armor_design_cost_factor = -0.66
+
+					unit_light_flame_tank_design_cost_factor = -0.66
+					unit_medium_flame_tank_design_cost_factor = -0.66
+					unit_heavy_flame_tank_design_cost_factor = -0.66
 
 					unit_light_armor_design_cost_factor = -0.33
 					unit_medium_armor_design_cost_factor = -0.33
@@ -359,9 +361,9 @@ ideas = {
 					unit_anti_air_brigade_design_cost_factor = -0.66
 					unit_anti_air_design_cost_factor = -0.66
 
-					unit_light_flame_tank_design_cost_factor = -0.33
-					unit_medium_flame_tank_design_cost_factor = -0.33
-					unit_heavy_flame_tank_design_cost_factor = -0.33
+					unit_light_flame_tank_design_cost_factor = -1
+					unit_medium_flame_tank_design_cost_factor = -1
+					unit_heavy_flame_tank_design_cost_factor = -1
 
 					unit_amphibious_mechanized_design_cost_factor = -1
 					unit_amphibious_armor_design_cost_factor = -1
