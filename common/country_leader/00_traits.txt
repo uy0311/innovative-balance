@@ -5206,7 +5206,8 @@ leader_traits = {
 	
 	naval_theorist = {
 		sprite = 14
-		naval_doctrine_cost_factor = -0.2
+		naval_doctrine_cost_factor = -0.20
+		cat_maritime_operations_cost_factor = -0.20
 		
 		ai_will_do = {
 			factor = 1
@@ -5217,6 +5218,7 @@ leader_traits = {
 		sprite = 14
 		naval_doctrine_cost_factor = -0.20
 		cat_base_strike_cost_factor = -0.05
+		cat_maritime_operations_cost_factor = -0.20
 		ai_will_do = {
 			factor = 1
 		}
@@ -5226,6 +5228,7 @@ leader_traits = {
 		sprite = 14
 		naval_doctrine_cost_factor = -0.20
 		cat_fleet_in_being_cost_factor = -0.05
+		cat_maritime_operations_cost_factor = -0.20
 		ai_will_do = {
 			factor = 1
 		}
@@ -5235,6 +5238,7 @@ leader_traits = {
 		sprite = 14
 		naval_doctrine_cost_factor = -0.20
 		cat_trade_interdiction_cost_factor = -0.05
+		cat_maritime_operations_cost_factor = -0.20
 		ai_will_do = {
 			factor = 1
 		}
@@ -5250,6 +5254,7 @@ leader_traits = {
 		}
 		naval_doctrine_cost_factor = -0.20
 		cat_base_strike_cost_factor = -0.05
+		cat_maritime_operations_cost_factor = -0.20
 		ai_will_do = {
 			factor = 1
 		}

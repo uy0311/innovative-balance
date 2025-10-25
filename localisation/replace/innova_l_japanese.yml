@@ -577,11 +577,20 @@
  ETH_FRA_panhard:0 "パナール" 
 
 ##航空機企業##
- CAS_manufacturer:0 "対地攻撃重視の設計社"
- light_aircraft_manufacturer:0 "機動性重視の設計社"
- medium_aircraft_manufacturer:0 "航続距離重視の設計社"
- heavy_aircraft_manufacturer:0 "戦略爆撃重視の設計社"
- naval_aircraft_manufacturer:0 "海軍力重視の設計社"
+ generic_mio_initial_trait_light_aircraft_designer: "空中戦重視の設計社"
+ generic_mio_initial_trait_multi_role_tactical_aircraft: "広域展開重視の設計者"
+ generic_mio_initial_trait_cas_aircraft_designer: "陸上展開重視の設計者"
+ generic_mio_initial_trait_naval_aircraft_designer: "海上展開重視の設計社" 
+ generic_mio_initial_trait_heavy_aircraft_designer: "戦略爆撃重視の設計社"
+
+##air MIO カテゴリ##
+ mio_cat_eq_all_small_plane: "全ての陸上小型航空機"
+ mio_cat_eq_all_medium_plane: "全ての中型航空機"
+ mio_cat_eq_all_large_plane: "全ての大型航空機"
+ mio_cat_eq_all_cv_aircraft: "全ての空母艦載機"
+ mio_cat_eq_only_cv_light_fighter: "艦上戦闘機"
+ mio_cat_eq_only_light_bomber: "全ての軽爆撃機＆攻撃機"
+ mio_cat_eq_only_heavy_fighter: "重戦闘機"
 
 ##air_modules_replace##
  EQ_MOD_SLOT_fixed_main_weapon_slot_TITLE:0"設計思想"

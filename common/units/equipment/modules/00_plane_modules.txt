@@ -998,12 +998,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 650
-			thrust = 0
-			build_cost_ic = 20
+			maximum_speed = 700
+			thrust = 100
+			build_cost_ic = 10
 		}
 		multiply_stats = {
-			maximum_speed = 0.35
+			maximum_speed = 0.30
 			air_agility = 0.15
 			air_range = -0.75
 		}
@@ -1019,12 +1019,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 650
-			thrust = 0
-			build_cost_ic = 22
+			maximum_speed = 700
+			thrust = 100
+			build_cost_ic = 12
 		}
 		multiply_stats = {
-			maximum_speed = 0.40
+			maximum_speed = 0.35
 			air_agility = 0.20
 			air_range = -0.75
 		}
@@ -1040,12 +1040,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			maximum_speed = 650
-			thrust = 0
-			build_cost_ic = 24
+			maximum_speed = 700
+			thrust = 100
+			build_cost_ic = 14
 		}
 		multiply_stats = {
-			maximum_speed = 0.45
+			maximum_speed = 0.40
 			air_agility = 0.25
 			air_range = -0.75
 		}
@@ -2987,8 +2987,9 @@ equipment_modules = {
 			weight = 400
 		}
 		multiply_stats = {
-			air_range = 0.25
+			air_agility = -0.05
 			air_defence = -0.2
+			air_range = 0.30
 		}
 		
 		dismantle_cost_ic = 0.5
@@ -3139,8 +3140,9 @@ equipment_modules = {
 			weight = 600
 		}
 		multiply_stats = {
+			air_agility = -0.10
 			air_defence = -0.2
-			air_range = 0.25
+			air_range = 0.30
 		}
 		
 		dismantle_cost_ic = 1
@@ -3245,8 +3247,9 @@ equipment_modules = {
 			weight = 1000
 		}
 		multiply_stats = {
+			air_agility = -0.15
 			air_defence = -0.2
-			air_range = 0.25
+			air_range = 0.30
 		}
 		
 		dismantle_cost_ic = 1.5

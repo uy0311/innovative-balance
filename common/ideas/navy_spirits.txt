@@ -104,11 +104,11 @@ ideas = {
 			research_bonus = {
 				cl_tech = 0.20
 				cat_ship_medium_battery = 0.10
-				dd_tech = 0.20
-				cat_ship_light_battery = 0.10
+				dd_tech = 0.10
+				cat_ship_light_battery = 0.05
 				cat_torpedoes = 0.10
-				ship_modules_tech = 0.10
 				naval_armor = 0.10
+				ship_modules_tech = 0.10
 			}
 			ai_will_do = {
 				factor = 1
@@ -120,10 +120,10 @@ ideas = {
 			research_bonus = {
 				bb_tech = 0.20
 				cat_ship_heavy_battery = 0.10
-				dd_tech = 0.10
-				cat_ship_light_battery = 0.10
-				ship_modules_tech = 0.10
+				cl_tech = 0.10
+				cat_ship_medium_battery = 0.05
 				naval_armor = 0.10
+				ship_modules_tech = 0.10
 			}
 			ai_will_do = {
 				factor = 1.5
@@ -134,12 +134,11 @@ ideas = {
 			cost = 600
 			research_bonus = {
 				cv_tech = 0.20
-				bb_tech = 0.20
+				cat_ship_light_battery = 0.10
+				bb_tech = 0.10
+				cat_ship_heavy_battery = 0.05
 				cat_torpedoes = 0.10
 				ship_modules_tech = 0.10
-			}
-			modifier = {
-				cat_maritime_operations_cost_factor = -0.25
 			}
 			ai_will_do = {
 				factor = 1.5

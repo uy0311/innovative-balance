@@ -1,0 +1,222 @@
+convoys_add_decision = {
+
+	gain_100IC_from_5000convoys = {
+
+		icon = generic_army_support
+		
+		cost = 0
+
+		available = {
+			num_of_naval_factories > 200
+			has_idea = tot_economic_mobilisation
+			has_equipment = {
+   				convoy_1 > 4999
+			}
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 90
+
+		complete_effect = {
+			add_offsite_building = { type = industrial_complex level = 100 }
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = -5000
+			}
+		}
+
+		remove_effect = {
+			add_offsite_building = { type = industrial_complex level = -100 }
+		}
+	}
+
+	gain_30convoys_from_300pp = {
+
+		icon = generic_army_support
+
+		cost = 300
+
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			has_political_power > 299
+		}
+	
+		days_remove = 1
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 30
+			}
+		}
+	}
+
+	gain_30convoys_from_300CP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			command_power > 299
+		}
+	
+		days_remove = 1
+
+		custom_cost_trigger = {
+			command_power > 299
+		}
+
+		custom_cost_text = decision_cost_CP_300
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 30
+			}
+			hidden_effect = {
+				add_command_power = -300
+			}
+		}
+	}
+
+	gain_30convoys_from_300NavyXP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			has_navy_experience > 299
+		}
+	
+		days_remove = 1
+
+		custom_cost_trigger = {
+			has_navy_experience > 299
+		}
+	
+		custom_cost_text = decision_cost_navy_experience
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 30
+			}
+			navy_experience = -300
+		}
+	}
+
+}
+
+trains_add_decision = {
+
+	gain_train_gun_from_1000pp = {
+
+		icon = generic_army_support
+
+		cost = 1000
+
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			has_political_power > 999
+		}
+	
+		days_remove = 1
+	
+		complete_effect = {
+			add_equipment_production = {				
+				equipment = {
+					type = railway_gun_equipment_1
+				}
+				requested_factories = 1
+				progress = 0.75
+				amount = 1
+			}
+		}
+	}
+
+	gain_30trains_from_300pp = {
+
+		icon = generic_army_support
+
+		cost = 300
+
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			has_political_power > 299
+		}
+	
+		days_remove = 10
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = train_equipment_1
+				amount = 30
+			}
+		}
+	}
+
+	gain_30trains_from_300CP = {
+
+		icon = generic_army_support
+		
+		available = {
+			always = yes
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			command_power > 299
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			command_power > 299
+		}
+
+		custom_cost_text = decision_cost_CP_300
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = train_equipment_1
+				amount = 30
+			}
+			hidden_effect = {
+				add_command_power = -300
+			}
+		}
+	}
+
+}
+

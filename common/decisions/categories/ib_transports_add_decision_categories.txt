@@ -5,3 +5,11 @@ convoys_add_decision = {
 		always = yes
 	}
 }
+
+trains_add_decision = {
+	icon = generic_fascism
+	allowed = {
+		NOT = { OR = { tag = MEX tag  = LUX } }
+		always = yes
+	}
+}
