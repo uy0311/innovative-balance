@@ -7,7 +7,7 @@
  gain_30convoys_from_300pp:0 "輸送船30隻を300政治力で追加"
  gain_30convoys_from_300CP:0 "輸送船30隻を300指揮力で追加"
  gain_30convoys_from_300NavyXP:0 "30隻輸送船を300海軍経験値で追加"
- gain_train_gun_from_1000pp:0 "列車砲の65%生産ラインを1000政治力で追加"
+ gain_train_gun_from_1000pp:0 "列車砲の75%生産ラインを1000政治力で追加"
  gain_30trains_from_300pp:0 "列車30両を300政治力で追加"
  gain_30trains_from_300CP:0 "列車30両を300政治力で追加"
  decision_cost_CP_300: "£command_power  §Y300§!"
