@@ -1126,6 +1126,415 @@ generic_refurbishment_repair_organization = {
 ##        ######## ##     ## ##    ## ########  ######  
 
 
+#LIGHT AIRCRAFT MANUFACTURER - Based on MESSERSCHMIDT (GER)
+generic_light_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_only_light_fighter
+		mio_cat_eq_only_light_bomber
+		mio_cat_eq_only_heavy_fighter
+		mio_cat_eq_only_tactical_bomber
+	}
+
+	research_categories = {	air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_light_aircraft_designer
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_fighter_specialization
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_only_light_fighter }
+
+		equipment_bonus = {
+			air_agility = 0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_light_airframe
+		name = generic_mio_trait_light_airframe
+		icon = GFX_generic_mio_department_icon_plane_cv_fighter_engine
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_only_light_bomber }
+
+		equipment_bonus = {
+			air_defence = 0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_adaptable_build
+		name = generic_mio_trait_adaptable_build
+		icon = GFX_generic_mio_department_icon_plane_heavy_fighter_engine
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_only_heavy_fighter }
+
+		equipment_bonus = {
+			air_agility = 0.15
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_extended_rear_fuselage
+		name = generic_mio_trait_extended_rear_fuselage
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_engine
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_only_tactical_bomber }
+
+		equipment_bonus = {
+			air_defence = 0.15
+		}
+	}
+
+}
+
+#MEDIUM AIRCRAFT MANUFACTURER - Based on Dornier / Caproni / de Havilland
+generic_medium_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_3
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_small_plane
+		mio_cat_eq_all_medium_plane
+		mio_cat_eq_all_large_plane
+	}
+
+	research_categories = { air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_multi_role_tactical_aircraft
+
+		equipment_bonus = {
+			air_range = 0.15
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_fighter_specialization
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_light_airframe
+		name = generic_mio_trait_light_airframe
+		icon = GFX_generic_mio_department_icon_plane_cv_fighter_engine
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_adaptable_build
+		name = generic_mio_trait_adaptable_build
+		icon = GFX_generic_mio_department_icon_plane_heavy_fighter_engine
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_extended_rear_fuselage
+		name = generic_mio_trait_extended_rear_fuselage
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_engine
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+}
+
+#CAS AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
+generic_cas_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_only_light_bomber
+		mio_cat_eq_only_tactical_bomber
+	}
+
+	research_categories = {	air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_cas_aircraft_designer
+
+		equipment_bonus = {
+			air_ground_attack = 0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_fighter_specialization
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_light_airframe
+		name = generic_mio_trait_light_airframe
+		icon = GFX_generic_mio_department_icon_plane_cv_fighter_engine
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_adaptable_build
+		name = generic_mio_trait_adaptable_build
+		icon = GFX_generic_mio_department_icon_plane_heavy_fighter_engine
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_extended_rear_fuselage
+		name = generic_mio_trait_extended_rear_fuselage
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_engine
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+}
+
+#NAVAL AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
+generic_naval_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_only_light_bomber
+		mio_cat_eq_only_cv_light_fighter
+		mio_cat_eq_only_tactical_bomber
+	}
+
+	research_categories = { air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_naval_aircraft_designer
+
+		equipment_bonus = {
+			air_range = 0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_fighter_specialization
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_only_light_bomber }
+
+		equipment_bonus = {
+			naval_strike_targetting = 0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_light_airframe
+		name = generic_mio_trait_light_airframe
+		icon = GFX_generic_mio_department_icon_plane_cv_fighter_engine
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_only_cv_light_fighter }
+
+		equipment_bonus = {
+			air_attack = 0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_adaptable_build
+		name = generic_mio_trait_adaptable_build
+		icon = GFX_generic_mio_department_icon_plane_heavy_fighter_engine
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_only_tactical_bomber }
+
+		equipment_bonus = {
+			naval_strike_targetting = 0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_extended_rear_fuselage
+		name = generic_mio_trait_extended_rear_fuselage
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_engine
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+}
+
+#HEAVY AIRCRAFT MANUFACTURER - Based on John Brown (ENG)
+generic_heavy_aircraft_organization = {
+	icon = GFX_idea_generic_air_manufacturer_2
+
+	allowed = {
+		always = no # Archetype only - countries using it have their own verisons
+	}
+
+	equipment_type = {
+		mio_cat_eq_only_tactical_bomber
+		mio_cat_eq_only_strategic_bomber
+	}
+
+	research_categories = { air_equipment }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_heavy_aircraft_designer
+
+		equipment_bonus = {
+			air_defence = 0.10
+			air_bombing = 0.10
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_fighter_specialization
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_light_airframe
+		name = generic_mio_trait_light_airframe
+		icon = GFX_generic_mio_department_icon_plane_cv_fighter_engine
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_adaptable_build
+		name = generic_mio_trait_adaptable_build
+		icon = GFX_generic_mio_department_icon_plane_heavy_fighter_engine
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_extended_rear_fuselage
+		name = generic_mio_trait_extended_rear_fuselage
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_engine
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+}
 
 #GENERAL AIRCRAFT MANUFACTURER - Based on Focker (HOL)
 generic_general_aircraft_organization = {
@@ -1186,6 +1595,7 @@ generic_general_aircraft_organization = {
 		mio_cat_eq_all_small_plane
 		mio_cat_eq_all_medium_plane
 		mio_cat_eq_all_large_plane
+		mio_cat_eq_all_cv_aircraft
 	}
 
 	research_categories = { air_equipment }
@@ -1195,149 +1605,63 @@ generic_general_aircraft_organization = {
 
 	}
 
-}
+	trait = {
+		token = generic_mio_trait_fighter_specialization
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
 
-#LIGHT AIRCRAFT MANUFACTURER - Based on MESSERSCHMIDT (GER)
-generic_light_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
+		position = { x=0 y=0 }
 
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = {
-		mio_cat_eq_only_light_fighter
-		medium_plane_fighter_airframe
-	}
-
-	research_categories = {	air_equipment }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_light_aircraft_designer
+		limit_to_equipment_type = {  }
 
 		equipment_bonus = {
-			air_agility = 0.10
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_light_airframe
+		name = generic_mio_trait_light_airframe
+		icon = GFX_generic_mio_department_icon_plane_cv_fighter_engine
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_adaptable_build
+		name = generic_mio_trait_adaptable_build
+		icon = GFX_generic_mio_department_icon_plane_heavy_fighter_engine
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_extended_rear_fuselage
+		name = generic_mio_trait_extended_rear_fuselage
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_engine
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = {  }
+
+		equipment_bonus = {
+			
 		}
 	}
 
 }
-
-
-#MEDIUM AIRCRAFT MANUFACTURER - Based on Dornier / Caproni / de Havilland
-generic_medium_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_3
-
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = {
-		mio_cat_eq_only_light_fighter
-		medium_plane_fighter_airframe
-		medium_plane_scout_plane_airframe
-	}
-
-	research_categories = { air_equipment }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_multi_role_tactical_aircraft
-
-		equipment_bonus = {
-			air_range = 0.2
-		}
-	}
-
-}
-
-
-#HEAVY AIRCRAFT MANUFACTURER - Based on John Brown (ENG)
-generic_heavy_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_2
-
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = {
-		mio_cat_eq_only_tactical_bomber
-		medium_plane_scout_plane_airframe
-		large_plane_airframe
-	}
-
-	research_categories = { air_equipment }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_heavy_aircraft_designer
-
-		equipment_bonus = {
-			air_defence = 0.10
-			air_bombing = 0.10
-		}
-	}
-
-}
-
-
-#CAS AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
-generic_cas_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
-
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = {
-		mio_cat_eq_only_light_fighter
-		small_plane_cas_airframe
-		cv_small_plane_cas_airframe
-		medium_plane_fighter_airframe
-		mio_cat_eq_only_tactical_bomber
-	}
-
-	research_categories = {	air_equipment }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_cas_aircraft_designer
-
-		equipment_bonus = {
-			air_ground_attack = 0.1
-		}
-	}
-
-}
-
-
-#NAVAL AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
-generic_naval_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
-
-	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
-	}
-
-	equipment_type = {
-		small_plane_cas_airframe
-		small_plane_naval_bomber_airframe
-		cv_small_plane_cas_airframe
-		cv_small_plane_naval_bomber_airframe
-		mio_cat_eq_only_tactical_bomber
-	}
-
-	research_categories = { air_equipment }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_naval_aircraft_designer
-
-		equipment_bonus = {
-			air_range = 0.1
-			naval_strike_attack = 0.1
-		}
-
-	}
-
-}
-
-
 
 #MULTI-ROLE AIRCRAFT MANUFACTURER - Based on Savoia Marchetti (ITA) & Republic
 generic_multi_role_aircraft_organization = {
@@ -1357,9 +1681,7 @@ generic_multi_role_aircraft_organization = {
 		name = generic_mio_initial_trait_multi_role_aircraft_designer
 
 	}
-
 }
-
 
 #HIGH AGILITY FIGHTER AIRCRAFT MANUFACTURER - Based on Supermarine (ENG)
 generic_high_agility_fighter_aircraft_organization = {
@@ -1382,7 +1704,6 @@ generic_high_agility_fighter_aircraft_organization = {
 
 }
 
-
 #RANGE FOCUSED AIRCRAFT MANUFACTURER - Based on North American, Lockheed, Fiat Aviazione
 generic_range_focused_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
@@ -1403,7 +1724,6 @@ generic_range_focused_aircraft_organization = {
 	}
 
 }
-
 
 
 

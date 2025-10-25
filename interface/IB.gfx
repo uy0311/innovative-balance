@@ -416,6 +416,24 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_torpedo_2_icon.dds"
 	}
 
+ ### air_MIO_equipment_group ###
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_only_cv_light_fighter"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_plane_cv_fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_only_light_bomber"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_plane_cas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_only_heavy_fighter"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_plane_heavy_fighter.dds"
+	}
+
+
  ### air_concept ###
 
 	spriteType = {

@@ -145,6 +145,9 @@ continuous_focus_palette = {
 		
 		available = {
 		}
+		enable = {
+			has_war_support > 0.65
+		}
 				
 		modifier = {
 			political_power_gain = 1.0

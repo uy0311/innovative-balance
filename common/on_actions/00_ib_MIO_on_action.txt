@@ -39,6 +39,22 @@ on_actions = {
 					complete_mio_trait = generic_mio_trait_improved_direct_fire_targeting
 					complete_mio_trait = generic_mio_trait_advanced_anti_air_targeting
 				}
+
+
+				every_military_industrial_organization = {
+
+					limit = {
+						has_mio_trait = generic_mio_trait_fighter_specialization
+						has_mio_trait = generic_mio_trait_light_airframe
+						has_mio_trait = generic_mio_trait_adaptable_build
+						has_mio_trait = generic_mio_trait_extended_rear_fuselage
+					}
+					
+					complete_mio_trait = generic_mio_trait_fighter_specialization
+					complete_mio_trait = generic_mio_trait_light_airframe
+					complete_mio_trait = generic_mio_trait_adaptable_build
+					complete_mio_trait = generic_mio_trait_extended_rear_fuselage
+				}
             }
 		}
 	}
