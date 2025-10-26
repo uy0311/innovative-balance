@@ -42,13 +42,13 @@ convoys_add_decision = {
 		cost = 300
 
 		available = {
-			always = yes
+			has_political_power > 299
 		}
 	
 		fire_only_once = no
 
 		visible = {
-			has_political_power > 299
+			always = yes
 		}
 	
 		days_remove = 1
@@ -66,13 +66,13 @@ convoys_add_decision = {
 		icon = generic_army_support
 		
 		available = {
-			always = yes
+			command_power > 299
 		}
 	
 		fire_only_once = no
 
 		visible = {
-			command_power > 299
+			always = yes
 		}
 	
 		days_remove = 1
@@ -99,13 +99,14 @@ convoys_add_decision = {
 		icon = generic_army_support
 		
 		available = {
-			always = yes
+			has_navy_experience > 299
+			
 		}
 	
 		fire_only_once = no
 
 		visible = {
-			has_navy_experience > 299
+			always = yes
 		}
 	
 		days_remove = 1
@@ -136,13 +137,14 @@ trains_add_decision = {
 		cost = 1000
 
 		available = {
-			always = yes
+			has_political_power > 999
+			
 		}
 	
 		fire_only_once = no
 
 		visible = {
-			has_political_power > 999
+			always = yes
 		}
 	
 		days_remove = 1
@@ -166,13 +168,13 @@ trains_add_decision = {
 		cost = 300
 
 		available = {
-			always = yes
+			has_political_power > 299
 		}
 	
 		fire_only_once = no
 
 		visible = {
-			has_political_power > 299
+			always = yes
 		}
 	
 		days_remove = 10
@@ -190,13 +192,13 @@ trains_add_decision = {
 		icon = generic_army_support
 		
 		available = {
-			always = yes
+			command_power > 299
 		}
 	
 		fire_only_once = no
 
 		visible = {
-			command_power > 299
+			always = yes
 		}
 	
 		days_remove = 10

@@ -883,7 +883,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_escort_efficiency = 0.15
+		air_escort_efficiency = 0.20
 		###########
 		
 		path = {
