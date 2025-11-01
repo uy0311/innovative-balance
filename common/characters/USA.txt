@@ -682,7 +682,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { gentlemanly blue_water_expert naval_lineage air_controller superior_tactician spotter }
+			traits = { navy_career_officer gentlemanly bold blue_water_expert air_controller superior_tactician spotter }
 	        skill = 5
 	        attack_skill = 5
 	        defense_skill = 5
@@ -701,7 +701,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ bold aviation_enthusiast inshore_fighter blue_water_expert blockade_runner superior_tactician spotter }
+			traits={ navy_career_officer bold navy_media_personality aviation_enthusiast inshore_fighter blue_water_expert blockade_runner superior_tactician spotter fighter_director dive_bomber torpedo_bomber }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -723,12 +723,12 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { navy_career_officer chief_engineer air_controller superior_tactician spotter }
-	        skill = 3
-	        attack_skill = 3
-	        defense_skill = 3
-	        maneuvering_skill = 3
-	        coordination_skill = 3
+			traits = { navy_career_officer bold chief_engineer air_controller superior_tactician spotter marksman crisis_magician }
+	        skill = 4
+	        attack_skill = 4
+	        defense_skill = 4
+	        maneuvering_skill = 4
+	        coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -749,7 +749,7 @@ characters={
 				original_tag = USA
 			}
 			traits = {
-				navy_chief_maneuver_2
+				navy_chief_decisive_battle_2
 			}
 			cost = 150
 			ai_will_do = {
@@ -757,7 +757,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { gunnery_expert navy_career_officer gentlemanly superior_tactician fly_swatter }
+			traits = { navy_career_officer ironside gentlemanly fleet_protector superior_tactician fly_swatter }
 	        skill = 4
 	        attack_skill = 4
 	        defense_skill = 4
@@ -777,11 +777,11 @@ characters={
 		}
 		navy_leader={
 			traits = { cuts_corners blockade_runner spotter superior_tactician }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 2
-	        maneuvering_skill = 2
-	        coordination_skill = 2
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 3
+	        maneuvering_skill = 3
+	        coordination_skill = 3
 			legacy_id=0
 		}
 	}
@@ -795,7 +795,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { bold fleet_protector superior_tactician }
+			traits = { navy_career_officer bold fleet_protector superior_tactician }
 	        skill = 4
 	        attack_skill = 4
 	        defense_skill = 4
