@@ -509,7 +509,7 @@ characters={
 		}
 		field_marshal={
 			traits = { desert_fox trickster media_personality skilled_staffer panzer_leader}
-	        skill = 6 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+	        skill = 6 attack_skill = 6 defense_skill = 6 planning_skill = 6 logistics_skill = 6
 			legacy_id=0
 		}
 	}
@@ -539,7 +539,7 @@ characters={
 		}
 		corps_commander={
 			traits = { commando naval_invader urban_assault_specialist media_personality trickster }
-	        skill = 5 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
 	}

@@ -1090,6 +1090,10 @@ equipments = {
 		}
 
 		module_count_limit = {
+			module = concept_interception
+			count < 1
+		}
+		module_count_limit = {
 			module = tank_buster_2
 			count < 1
 		}
