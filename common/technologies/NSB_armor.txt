@@ -64,7 +64,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2.4
 		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
@@ -125,7 +125,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2.3
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
@@ -195,7 +195,7 @@ technologies = {
 		}
 
 
-		research_cost = 2.5
+		research_cost = 2.3
 		start_year = 1936
 
 		folder = {
@@ -270,7 +270,7 @@ technologies = {
 			improved_light_tank_chassis = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2.3
 		start_year = 1940
 
 		folder = {
@@ -340,7 +340,7 @@ technologies = {
 			gwtank_chassis = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2.4
 		start_year = 1936
 
 		folder = {
@@ -428,7 +428,7 @@ technologies = {
 			basic_medium_tank_chassis = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2.4
 		start_year = 1940
 
 		folder = {
@@ -510,7 +510,7 @@ technologies = {
 			improved_medium_tank_chassis = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2.4
 		start_year = 1943
 
 		folder = {
