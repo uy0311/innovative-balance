@@ -10,6 +10,8 @@
  gain_train_gun_from_1000pp:0 "列車砲の75%生産ラインを1000政治力で追加"
  gain_30trains_from_300pp:0 "列車30両を300政治力で追加"
  gain_30trains_from_300CP:0 "列車30両を300政治力で追加"
+ gain_840tracks_from_300pp:0 "トラック840両を300政治力で追加"
+ gain_840tracks_from_300CP:0 "トラック840両を300政治力で追加"
  decision_cost_CP_300: "£command_power  §Y300§!"
  decision_cost_CP_300_blocked: "£command_power  §R300§!"
  decision_cost_CP_300_tooltip: "このディシジョンを実行するには、£command_power  §Y300§!が必要"

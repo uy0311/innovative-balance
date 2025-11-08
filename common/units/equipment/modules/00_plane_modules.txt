@@ -861,8 +861,8 @@ equipment_modules = {
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
-			maximum_speed = 0.15
-			air_agility = 0.10
+			maximum_speed = 0.10
+			air_agility = 0.15
 		}
 	}
 
@@ -879,8 +879,8 @@ equipment_modules = {
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
-			maximum_speed = 0.20
-			air_agility = 0.15
+			maximum_speed = 0.15
+			air_agility = 0.20
 		}
 
 		can_convert_from = {
@@ -902,8 +902,8 @@ equipment_modules = {
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
-			maximum_speed = 0.25
-			air_agility = 0.20
+			maximum_speed = 0.20
+			air_agility = 0.25
 		}
 
 		can_convert_from = {
@@ -925,8 +925,8 @@ equipment_modules = {
 			fuel_consumption = 0.16
 		}
 		multiply_stats = {
-			maximum_speed = 0.30
-			air_agility = 0.25
+			maximum_speed = 0.25
+			air_agility = 0.30
 		}
 
 		can_convert_from = {
@@ -948,8 +948,8 @@ equipment_modules = {
 			fuel_consumption = 0.3
 		}
 		multiply_stats = {
-			maximum_speed = 0.45
-			air_agility = 0.25
+			maximum_speed = 0.40
+			air_agility = 0.30
 		}
 
 		build_cost_resources = {
@@ -1003,8 +1003,8 @@ equipment_modules = {
 			build_cost_ic = 10
 		}
 		multiply_stats = {
-			maximum_speed = 0.30
-			air_agility = 0.15
+			maximum_speed = 0.25
+			air_agility = 0.20
 			air_range = -0.75
 		}
 		build_cost_resources = {
@@ -1024,8 +1024,8 @@ equipment_modules = {
 			build_cost_ic = 12
 		}
 		multiply_stats = {
-			maximum_speed = 0.35
-			air_agility = 0.20
+			maximum_speed = 0.30
+			air_agility = 0.25
 			air_range = -0.75
 		}
 		build_cost_resources = {
@@ -1045,8 +1045,8 @@ equipment_modules = {
 			build_cost_ic = 14
 		}
 		multiply_stats = {
-			maximum_speed = 0.40
-			air_agility = 0.25
+			maximum_speed = 0.35
+			air_agility = 0.30
 			air_range = -0.75
 		}
 		build_cost_resources = {
@@ -1069,8 +1069,8 @@ equipment_modules = {
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
-			maximum_speed = 1.40
-			air_agility = 0.60
+			maximum_speed = 1.35
+			air_agility = 0.65
 		}
 	}
 
@@ -1087,8 +1087,8 @@ equipment_modules = {
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
-			maximum_speed = 1.55
-			air_agility = 0.65
+			maximum_speed = 1.50
+			air_agility = 0.70
 		}
 
 		can_convert_from = {
@@ -1110,8 +1110,8 @@ equipment_modules = {
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
-			maximum_speed = 1.70
-			air_agility = 0.70
+			maximum_speed = 1.65
+			air_agility = 0.75
 		}
 
 		can_convert_from = {
@@ -1133,8 +1133,8 @@ equipment_modules = {
 			fuel_consumption = 0.32
 		}
 		multiply_stats = {
-			maximum_speed = 1.85
-			air_agility = 0.75
+			maximum_speed = 1.80
+			air_agility = 0.80
 		}
 
 		can_convert_from = {
@@ -1156,8 +1156,8 @@ equipment_modules = {
 			fuel_consumption = 0.6
 		}
 		multiply_stats = {
-			maximum_speed = 2.15
-			air_agility = 0.80
+			maximum_speed = 2.10
+			air_agility = 0.85
 		}
 
 		build_cost_resources = {
@@ -1212,8 +1212,8 @@ equipment_modules = {
 			fuel_consumption = 0.48
 		}
 		multiply_stats = {
-			maximum_speed = 1.65
-			air_agility = 0.85
+			maximum_speed = 1.60
+			air_agility = 0.90
 		}
 	}
 
@@ -1230,8 +1230,8 @@ equipment_modules = {
 			fuel_consumption = 0.48
 		}
 		multiply_stats = {
-			maximum_speed = 1.80
-			air_agility = 0.90
+			maximum_speed = 1.75
+			air_agility = 0.95
 		}
 
 		can_convert_from = {
@@ -1253,8 +1253,8 @@ equipment_modules = {
 			fuel_consumption = 0.48
 		}
 		multiply_stats = {
-			maximum_speed = 1.95
-			air_agility = 0.95
+			maximum_speed = 1.90
+			air_agility = 1.00
 		}
 
 		can_convert_from = {
@@ -1276,8 +1276,8 @@ equipment_modules = {
 			fuel_consumption = 0.48
 		}
 		multiply_stats = {
-			maximum_speed = 2.10
-			air_agility = 1.00
+			maximum_speed = 2.05
+			air_agility = 1.05
 		}
 
 		can_convert_from = {
@@ -1299,8 +1299,8 @@ equipment_modules = {
 			fuel_consumption = 0.9
 		}
 		multiply_stats = {
-			maximum_speed = 2.40
-			air_agility = 1.05
+			maximum_speed = 2.35
+			air_agility = 1.10
 		}
 
 		build_cost_resources = {

@@ -1559,7 +1559,7 @@ NNavy = {
 
 	NAVAL_TRANSFER_DAMAGE_REDUCTION = 0.25,							-- its hard to specifically balance 1-tick naval strikes vs unit transports so here is a factor for it
 	CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 0,							-- hours from start of combat when carriers get to fight
-	CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 2,                          -- hours from start of combat when only carriers, capitals and subs get to attack
+	CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 4,                          -- hours from start of combat when only carriers, capitals and subs get to attack
 	ALL_SHIPS_ACTIVATE_TIME = 8,                                    -- hours where all get to attack
 
 	MINIMUM_SHIP_SPEED = 1.0,										-- slowest speed a ship can have

@@ -1169,8 +1169,8 @@ equipments = {
 
 		air_range = 900
 		thrust = 700
-		air_agility = 30
-		air_defence = 12
+		air_agility = 27
+		air_defence = 14
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 
@@ -1188,8 +1188,8 @@ equipments = {
 
 		air_range = 1050
 		thrust = 800
-		air_agility = 40
-		air_defence = 15
+		air_agility = 36
+		air_defence = 17
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 51
@@ -1325,8 +1325,8 @@ equipments = {
 
 		air_range = 1150
 		thrust = 900
-		air_agility = 50
-		air_defence = 18
+		air_agility = 45
+		air_defence = 20
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 53
@@ -1463,8 +1463,8 @@ equipments = {
 
 		air_range = 1300
 		thrust = 1000
-		air_agility = 60
-		air_defence = 24
+		air_agility = 54
+		air_defence = 26
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 49
@@ -1600,8 +1600,8 @@ equipments = {
 
 		air_range = 1400
 		thrust = 1100
-		air_agility = 70
-		air_defence = 27
+		air_agility = 63
+		air_defence = 29
 		naval_strike_attack = 1
 		naval_strike_targetting = 1
 		build_cost_ic = 51
