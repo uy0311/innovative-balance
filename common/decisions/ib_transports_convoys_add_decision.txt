@@ -220,5 +220,64 @@ trains_add_decision = {
 		}
 	}
 
+	gain_840tracks_from_300pp = {
+
+		icon = generic_army_support
+
+		cost = 300
+
+		available = {
+			has_political_power > 299
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 840
+			}
+		}
+	}
+
+	gain_840tracks_from_300CP = {
+
+		icon = generic_army_support
+		
+		available = {
+			command_power > 299
+		}
+	
+		fire_only_once = no
+
+		visible = {
+			always = yes
+		}
+	
+		days_remove = 10
+
+		custom_cost_trigger = {
+			command_power > 299
+		}
+
+		custom_cost_text = decision_cost_CP_300
+	
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 840
+			}
+			hidden_effect = {
+				add_command_power = -300
+			}
+		}
+	}
+
 }
 

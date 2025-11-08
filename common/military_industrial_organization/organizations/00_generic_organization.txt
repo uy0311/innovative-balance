@@ -1161,7 +1161,8 @@ generic_light_aircraft_organization = {
 		limit_to_equipment_type = { mio_cat_eq_only_light_fighter }
 
 		equipment_bonus = {
-			air_agility = 0.10
+			air_agility = 0.05
+			maximum_speed = 0.05
 		}
 	}
 
@@ -1189,7 +1190,8 @@ generic_light_aircraft_organization = {
 		limit_to_equipment_type = { mio_cat_eq_only_heavy_fighter }
 
 		equipment_bonus = {
-			air_agility = 0.15
+			air_agility = 0.10
+			maximum_speed = 0.05
 		}
 	}
 
@@ -1420,7 +1422,7 @@ generic_naval_aircraft_organization = {
 		limit_to_equipment_type = { mio_cat_eq_only_cv_light_fighter }
 
 		equipment_bonus = {
-			air_attack = 0.10
+			maximum_speed = 0.05
 		}
 	}
 
