@@ -2312,14 +2312,14 @@ technologies = {
 		engineer = {
 			battalion_mult = {
 				category = category_army
-				entrenchment = 0.80
+				entrenchment = 0.50
 				add = yes
 			}
 		}
 		pioneer_support = {
 			battalion_mult = {
 				category = category_army
-				entrenchment = 0.80
+				entrenchment = 0.50
 				add = yes
 			}
 		}
@@ -2535,31 +2535,7 @@ technologies = {
 			infantry_offensive
 		}
 
-		infantry = {
-			max_organisation = 20
-			default_morale = 0.1
-			initiative = 0.01
-		}
-
-		mountaineers = {
-			max_organisation = 20
-			default_morale = 0.1
-			initiative = 0.01
-		}
-
-		rangers_support = {
-			max_organisation = 20
-			default_morale = 0.1
-			initiative = 0.01
-		}
-
-		paratrooper = {
-			max_organisation = 20
-			default_morale = 0.1
-			initiative = 0.01
-		}
-
-		armored_car = {
+		category_all_infantry = {
 			max_organisation = 20
 			default_morale = 0.1
 			initiative = 0.01
@@ -2616,13 +2592,31 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		dig_in_speed_factor = 0.10
+		dig_in_speed_factor = 0.30
 
-		category_mountaineers = {
+		category_light_infantry = {
+			max_organisation = 10
+			default_morale = 0.10
+		}
+
+		category_self_propelled_artillery = {
 			max_organisation = 10
 			default_morale = 0.1
 			defense = 0.2
 		}
+
+		category_tank_destroyers = {
+			max_organisation = 10
+			default_morale = 0.1
+			defense = 0.2
+		}
+
+		category_self_propelled_anti_air = {
+			max_organisation = 10
+			default_morale = 0.1
+			defense = 0.2
+		}
+
 		category_artillery = {
 			max_organisation = 10
 			default_morale = 0.1
@@ -2683,16 +2677,33 @@ technologies = {
 	
 		land_reinforce_rate = 0.02
 
-		category_all_armor = {
-			max_organisation = 10
-			default_morale = 0.1
-			breakthrough = 0.20
+		category_tanks = {
+			breakthrough = 0.10
+			defense = 0.10
 		}
 
 		armored_car = {
 			max_organisation = 20
 			default_morale = 0.2
 			breakthrough = 0.40
+		}
+
+		category_self_propelled_artillery = {
+			max_organisation = 10
+			default_morale = 0.2
+			initiative = 0.02
+		}
+
+		category_tank_destroyers = {
+			max_organisation = 10
+			default_morale = 0.2
+			initiative = 0.02
+		}
+
+		category_self_propelled_anti_air = {
+			max_organisation = 10
+			default_morale = 0.2
+			initiative = 0.02
 		}
 		
 		enable_tactic = tactic_blitz
@@ -2747,21 +2758,46 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		category_mountaineers = {
-			breakthrough = 0.2
-			initiative = 0.01
-		}
-
 		category_light_infantry = {
 			max_organisation = 10
 			default_morale = 0.1
 		}
 
-		category_all_armor = {
+		medium_armor = {
+			breakthrough = 0.2
 			max_organisation = 10
 			default_morale = 0.1
 		}
 
+		amphibious_medium_armor = {
+			breakthrough = 0.2
+			max_organisation = 10
+			default_morale = 0.1
+		}
+
+		medium_flame_tank = {
+			breakthrough = 0.2
+			max_organisation = 10
+			default_morale = 0.1
+		}
+
+		heavy_armor = {
+			breakthrough = 0.2
+			max_organisation = 10
+			default_morale = 0.1
+		}
+
+		heavy_flame_tank = {
+			breakthrough = 0.2
+			max_organisation = 10
+			default_morale = 0.1
+		}
+
+		modern_armor = {
+			breakthrough = 0.2
+			max_organisation = 10
+			default_morale = 0.1
+		}
 
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -2813,9 +2849,15 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		max_planning = 0.2
+		planning_speed = 0.35
 
 		shore_bombardment_bonus = 1.0
+
+		pioneer_support = {
+			amphibious = {
+				attack = 1.00
+			}
+		}
 
 		path = {
 			leads_to_tech = c3i_theory 
@@ -2866,15 +2908,44 @@ technologies = {
 
 		air_cas_present_factor = 0.30
 
+		recon = {
+			battalion_mult = {
+				category = category_army
+				breakthrough = 0.1
+			}
+		}
+
+		mot_recon = {
+			battalion_mult = {
+				category = category_army
+				breakthrough = 0.1
+			}
+		}
+
+		armored_car_recon = {
+			battalion_mult = {
+				category = category_army
+				breakthrough = 0.1
+			}
+		}
+
+		light_tank_recon = {
+			battalion_mult = {
+				category = category_army
+				breakthrough = 0.1
+			}
+		}
+
+		airborne_light_armor = {
+			battalion_mult = {
+				category = category_army
+				breakthrough = 0.1
+			}
+		}
+
 		category_army = {
 			max_organisation = 10
 			default_morale = 0.10
-		}
-
-		pioneer_support = {
-			amphibious = {
-				attack = 1.00
-			}
 		}
 		
 		doctrine = yes	
@@ -2931,25 +3002,7 @@ technologies = {
 			assault_breakthrough
 		}
 
-		infantry = {
-			breakthrough = 0.20
-			max_organisation = 20
-			initiative = 0.01
-		}
-
-		marine = {
-			breakthrough = 0.20
-			max_organisation = 20
-			initiative = 0.01
-		}
-
-		marine_commando = {
-			breakthrough = 0.20
-			max_organisation = 20
-			initiative = 0.01
-		}
-
-		bicycle_battalion = {
+		category_light_infantry = {
 			breakthrough = 0.20
 			max_organisation = 20
 			initiative = 0.01
@@ -3016,16 +3069,16 @@ technologies = {
 			breakthrough = 0.4
 		}
 
-		amphibious_medium_armor = {
+		light_flame_tank = {
 			max_organisation = 20
 			default_morale = 0.2
-			breakthrough = 0.3
+			breakthrough = 0.4
 		}
 
 		armored_car = {
 			max_organisation = 20
 			default_morale = 0.2
-			breakthrough = 0.3
+			breakthrough = 0.4
 		}
 
 		light_sp_artillery_brigade = {
@@ -3043,19 +3096,22 @@ technologies = {
 			default_morale = 0.2
 		}
 
-		medium_sp_artillery_brigade = {
-			max_organisation = 10
-			default_morale = 0.1
+		armored_car_recon = {
+			max_organisation = 40
+			default_morale = 0.4
+			breakthrough = 0.8
 		}
 
-		medium_tank_destroyer_brigade = {
-			max_organisation = 10
-			default_morale = 0.2
+		light_tank_recon = {
+			max_organisation = 40
+			default_morale = 0.4
+			breakthrough = 0.8
 		}
 
-		medium_sp_anti_air_brigade = {
-			max_organisation = 10
-			default_morale = 0.2
+		airborne_light_armor = {
+			max_organisation = 40
+			default_morale = 0.4
+			breakthrough = 0.8
 		}
 
 		enable_tactic = tactic_blitz
@@ -3119,13 +3175,88 @@ technologies = {
 		org_loss_when_moving = -0.15
 
 		category_light_infantry = {
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.1
 		}
-		armored_car = {
-			max_organisation = 20
-			default_morale = 0.2
-			breakthrough = 0.2
+
+		armored_car_recon = {
+			battalion_mult = {
+				category = category_light_infantry
+				initiative = 0.02
+				add = yes
+			}
+		}
+
+		light_tank_recon = {
+			battalion_mult = {
+				category = category_light_infantry
+				initiative = 0.02
+				add = yes
+			}
+		}
+
+		airborne_light_armor = {
+			battalion_mult = {
+				category = category_light_infantry
+				initiative = 0.02
+				add = yes
+			}
+		}
+		
+		path = {
+			leads_to_tech = night_assault_tactics 
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes	
+		research_cost = 5.0
+		
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.25
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.55
+			}
+		}
+		
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1.0
+		}
+	}
+	
+	night_assault_tactics = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		#reduce land night combat penalty
+		land_night_attack = 0.25 # negates half of base penalty
+		out_of_supply_factor = -0.1
+
+		category_special_forces = {
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.20
 		}
 
 		engineer = {
@@ -3199,61 +3330,6 @@ technologies = {
 			}
 		}
 
-		
-		path = {
-			leads_to_tech = night_assault_tactics 
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 5.0
-		
-		categories = {
-			land_doctrine
-			cat_grand_battle_plan
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 2 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.25
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.55
-			}
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
-	}
-	
-	night_assault_tactics = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		#reduce land night combat penalty
-		land_night_attack = 0.25 # negates half of base penalty
-		out_of_supply_factor = -0.1
-
-		category_light_infantry = {
-			default_morale = 0.1
-		}
-
 		path = {
 			leads_to_tech = attritional_containment 
 			research_cost_coeff = 1
@@ -3304,7 +3380,7 @@ technologies = {
 
 		attrition = -0.2
 		out_of_supply_factor = -0.10
-		dig_in_speed_factor = 0.15
+		dig_in_speed_factor = 0.45
 
 		category_artillery = {
 			max_organisation = 10
@@ -3362,6 +3438,12 @@ technologies = {
 		category_army = {
 			max_organisation = 10
 			default_morale = 0.10
+		}
+
+		category_special_forces = {
+			max_organisation = 10
+			default_morale = 0.1
+			defense = 0.1
 		}
 
 		doctrine = yes	
@@ -3698,6 +3780,7 @@ technologies = {
 		land_reinforce_rate = 0.03
 
 		anti_tank_brigade = {
+			combat_width = -0.4
 			default_morale = 0.10
 		}
 		infantry = {

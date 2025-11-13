@@ -68,6 +68,7 @@ sub_units = {
 		}
 		marsh = {
 			attack = 0.3
+			defence = 0.15
 		}
 		river = {
 			attack = 0.3

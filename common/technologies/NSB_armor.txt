@@ -187,7 +187,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = basic_medium_tank_chassis	}
+			ahead_reduction = 1 technology = basic_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
 		dependencies = {
@@ -263,7 +263,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_medium_tank_chassis	}
+			ahead_reduction = 1 technology = improved_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
 		dependencies = {
@@ -333,7 +333,7 @@ technologies = {
 
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_light_tank_chassis	}
+			ahead_reduction = 1 technology = improved_light_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
@@ -418,10 +418,10 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_light_tank_chassis	}
+			ahead_reduction = 1 technology = advanced_light_tank_chassis	}
 
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_heavy_tank_chassis	}
+			ahead_reduction = 1 technology = improved_heavy_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
@@ -503,7 +503,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_heavy_tank_chassis	}
+			ahead_reduction = 1 technology = advanced_heavy_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
@@ -624,7 +624,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 3.0
 		start_year = 1938
 
 		folder = {
@@ -677,6 +677,8 @@ technologies = {
 		}
 
 		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = improved_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 
@@ -699,8 +701,8 @@ technologies = {
 			basic_heavy_tank_chassis = 1
 		}
 
-		research_cost = 2.5
-		start_year = 1940
+		research_cost = 3.0
+		start_year = 1941
 
 		folder = {
 			name = nsb_armour_folder
@@ -757,14 +759,14 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_medium_tank_chassis	}
+			ahead_reduction = 1 technology = advanced_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 		dependencies = {
 			improved_heavy_tank_chassis = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 3.0
 		start_year = 1943
 
 		folder = {
