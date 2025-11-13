@@ -26,11 +26,6 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = smoke_generator
-			research_cost_coeff = 1
-		}
-
-		path = {
 			leads_to_tech = basic_depth_charges
 			research_cost_coeff = 1
 		}
@@ -76,6 +71,10 @@ technologies = {
 		enable_equipment_modules = {
 			light_ship_engine_2
 		}
+
+		dependencies = {
+			early_ship_hull_light = 1
+		}
 		path = {
 			leads_to_tech = improved_ship_hull_light
 			research_cost_coeff = 1
@@ -85,22 +84,20 @@ technologies = {
 			leads_to_tech = basic_ship_hull_cruiser
 			research_cost_coeff = 0.5
 		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = basic_ship_hull_cruiser	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = basic_ship_hull_heavy	}
-
-			custom_effect_tooltip = tcl_dd_tech_tt
-		}
 		path = {
 			leads_to_tech = basic_ship_hull_heavy
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = basic_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			early_ship_hull_light = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = basic_ship_hull_cruiser }
+
+			custom_effect_tooltip = tcl_dd_tech_tt
 		}
 
 		research_cost = 2.0
@@ -143,6 +140,9 @@ technologies = {
 			light_ship_engine_3
 		}
 
+		dependencies = {
+			basic_ship_hull_light = 1
+		}
 		path = {
 			leads_to_tech = advanced_ship_hull_light
 			research_cost_coeff = 1
@@ -152,22 +152,20 @@ technologies = {
 			leads_to_tech = improved_ship_hull_cruiser
 			research_cost_coeff = 0.5
 		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_ship_hull_cruiser	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_ship_hull_heavy	}
-			
-			custom_effect_tooltip = tcl_dd_tech_tt
-		}
 		path = {
 			leads_to_tech = improved_ship_hull_heavy
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = improved_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			basic_ship_hull_light = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = improved_ship_hull_cruiser	}
+			
+			custom_effect_tooltip = tcl_dd_tech_tt
 		}
 
 		research_cost = 2.0
@@ -207,26 +205,28 @@ technologies = {
 			light_ship_engine_4
 		}
 
+		dependencies = {
+			improved_ship_hull_light = 1
+		}
+
 		path = {
 			leads_to_tech = advanced_ship_hull_cruiser
 			research_cost_coeff = 0.5
-		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_ship_hull_cruiser	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_ship_hull_heavy	}
-			
-			custom_effect_tooltip = tcl_dd_tech_tt
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = advanced_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			improved_ship_hull_light = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = advanced_ship_hull_cruiser	}
+			
+			custom_effect_tooltip = tcl_dd_tech_tt
 		}
 
 		research_cost = 2.0
@@ -493,6 +493,11 @@ technologies = {
 			research_cost_coeff = 0.5
 		}
 
+		path = {
+			leads_to_tech = improved_airplane_launcher
+			research_cost_coeff = 1
+		}
+
 		allow_branch = {
 			has_dlc = "Man the Guns"
 		}
@@ -535,6 +540,9 @@ technologies = {
 			cruiser_ship_engine_2
 		}
 
+		dependencies = {
+			early_ship_hull_cruiser = 1
+		}
 		path = {
 			leads_to_tech = improved_ship_hull_cruiser
 			research_cost_coeff = 1
@@ -544,22 +552,23 @@ technologies = {
 			leads_to_tech = basic_ship_hull_light
 			research_cost_coeff = 0.5
 		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = basic_ship_hull_light	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = basic_ship_hull_heavy	}
-			
-			custom_effect_tooltip = tcl_cruiser_tt
-		}
 		path = {
 			leads_to_tech = basic_ship_hull_heavy
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = basic_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			early_ship_hull_cruiser = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = basic_ship_hull_light	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = basic_ship_hull_heavy	}
+			
+			custom_effect_tooltip = tcl_cruiser_tt
 		}
 
 		research_cost = 2.0
@@ -599,6 +608,10 @@ technologies = {
 		enable_equipment_modules = {
 			cruiser_ship_engine_3
 		}
+
+		dependencies = {
+			basic_ship_hull_cruiser = 1
+		}
 		path = {
 			leads_to_tech = advanced_ship_hull_cruiser
 			research_cost_coeff = 1
@@ -608,22 +621,23 @@ technologies = {
 			leads_to_tech = improved_ship_hull_light
 			research_cost_coeff = 0.5
 		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_ship_hull_light	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_ship_hull_heavy	}
-			
-			custom_effect_tooltip = tcl_cruiser_tt
-		}
 		path = {
 			leads_to_tech = improved_ship_hull_heavy
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = improved_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			basic_ship_hull_cruiser = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = improved_ship_hull_light	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = improved_ship_hull_heavy	}
+			
+			custom_effect_tooltip = tcl_cruiser_tt
 		}
 
 		research_cost = 2.0
@@ -664,26 +678,31 @@ technologies = {
 			cruiser_ship_engine_4
 		}
 
+		dependencies = {
+			improved_ship_hull_cruiser = 1
+		}
+
 		path = {
 			leads_to_tech = advanced_ship_hull_light
 			research_cost_coeff = 0.5
-		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_ship_hull_light	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_ship_hull_heavy	}
-			
-			custom_effect_tooltip = tcl_cruiser_tt
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = advanced_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			improved_ship_hull_cruiser = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = advanced_ship_hull_light	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = advanced_ship_hull_heavy	}
+			
+			custom_effect_tooltip = tcl_cruiser_tt
 		}
 
 		research_cost = 2.0
@@ -732,7 +751,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 7 y = 2 }
+			position = {  x = 5 y = 1 }
 		}
 
 		ai_will_do = {
@@ -775,7 +794,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 1 y = 8 }
+			position = {  x = -1 y = 7 }
 		}
 
 		ai_will_do = {
@@ -829,7 +848,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = improved_airplane_launcher
+			leads_to_tech = early_ship_hull_carrier
 			research_cost_coeff = 1
 		}
 
@@ -839,7 +858,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 6 y = 2 }
+			position = {  x = 7 y = 2 }
 		}
 
 		ai_will_do = {
@@ -878,6 +897,10 @@ technologies = {
 		enable_equipment_modules = {
 			heavy_ship_engine_2
 		}
+
+		dependencies = {
+			early_ship_hull_heavy = 1
+		}
 		path = {
 			leads_to_tech = improved_ship_hull_heavy
 			research_cost_coeff = 1
@@ -887,22 +910,23 @@ technologies = {
 			leads_to_tech = basic_ship_hull_light
 			research_cost_coeff = 0.5
 		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = basic_ship_hull_light	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = basic_ship_hull_cruiser	}
-			
-			custom_effect_tooltip = tcl_battle_ship_tt
-		}
 		path = {
 			leads_to_tech = basic_ship_hull_cruiser
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = basic_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			early_ship_hull_heavy = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = basic_ship_hull_cruiser }
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = basic_ship_hull_carrier }
+			
+			custom_effect_tooltip = tcl_battle_ship_tt
 		}
 		
 		research_cost = 2.0
@@ -911,7 +935,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 6 y = 8 }
+			position = {  x = 7 y = 8 }
 		}
 
 		ai_will_do = {
@@ -980,6 +1004,10 @@ technologies = {
 		enable_equipment_modules = {
 			heavy_ship_engine_3
 		}
+
+		dependencies = {
+			basic_ship_hull_heavy = 1
+		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
 			research_cost_coeff = 1
@@ -989,22 +1017,23 @@ technologies = {
 			leads_to_tech = improved_ship_hull_light
 			research_cost_coeff = 0.5
 		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_ship_hull_light	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = improved_ship_hull_cruiser	}
-			
-			custom_effect_tooltip = tcl_battle_ship_tt
-		}
 		path = {
 			leads_to_tech = improved_ship_hull_cruiser
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = improved_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			basic_ship_hull_heavy = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = improved_ship_hull_cruiser	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = improved_ship_hull_carrier	}
+			
+			custom_effect_tooltip = tcl_battle_ship_tt
 		}
 
 		research_cost = 2.0
@@ -1013,7 +1042,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 6 y = 14 }
+			position = {  x = 7 y = 14 }
 		}
 
 		ai_will_do = {
@@ -1045,26 +1074,31 @@ technologies = {
 			heavy_ship_engine_4
 		}
 
+		dependencies = {
+			improved_ship_hull_heavy = 1
+		}
+
 		path = {
 			leads_to_tech = advanced_ship_hull_light
 			research_cost_coeff = 0.5
-		}
-		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_ship_hull_light	}
-
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5	technology = advanced_ship_hull_cruiser	}
-			
-			custom_effect_tooltip = tcl_battle_ship_tt
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_cruiser
 			research_cost_coeff = 0.5
 		}
+		path = {
+			leads_to_tech = advanced_ship_hull_carrier
+			research_cost_coeff = 0.5
+		}
 
-		dependencies = {
-			improved_ship_hull_heavy = 1
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = advanced_ship_hull_cruiser	}
+
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = advanced_ship_hull_carrier	}
+			
+			custom_effect_tooltip = tcl_battle_ship_tt
 		}
 
 		research_cost = 2.0
@@ -1073,7 +1107,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 6 y = 20 }
+			position = {  x = 7 y = 20 }
 		}
 
 		ai_will_do = {
@@ -1119,7 +1153,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 1 y = 14 }
+			position = {  x = -1 y = 13 }
 		}
 
 		ai_will_do = {
@@ -1160,7 +1194,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 1 y = 20 }
+			position = {  x = -1 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1220,7 +1254,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 2 }
+			position = {  x = 9 y = 2 }
 		}
 
 		ai_will_do = {
@@ -1251,13 +1285,32 @@ early_ship_hull_carrier = {
 			carrier_ship_engine_2
 		}
 
-		on_research_complete = {
-			custom_effect_tooltip = tcl_cv_tech_tt
+		dependencies = {
+			early_ship_hull_carrier = 1
 		}
-
 		path = {
 			leads_to_tech = improved_ship_hull_carrier
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = basic_ship_hull_light
+			research_cost_coeff = 0.5
+		}
+		path = {
+			leads_to_tech = basic_ship_hull_cruiser
+			research_cost_coeff = 0.5
+		}
+		path = {
+			leads_to_tech = basic_ship_hull_heavy
+			research_cost_coeff = 0.5
+		}
+
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = basic_ship_hull_heavy	}
+
+			custom_effect_tooltip = tcl_cv_tech_tt
 		}
 
 		research_cost = 2.0
@@ -1266,7 +1319,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 8 }
+			position = {  x = 9 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1297,13 +1350,32 @@ early_ship_hull_carrier = {
 			carrier_ship_engine_3
 		}
 
-		on_research_complete = {
-			custom_effect_tooltip = tcl_cv_tech_tt
+		dependencies = {
+			basic_ship_hull_carrier = 1
 		}
-
 		path = {
 			leads_to_tech = advanced_ship_hull_carrier
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = improved_ship_hull_light
+			research_cost_coeff = 0.5
+		}
+		path = {
+			leads_to_tech = improved_ship_hull_cruiser
+			research_cost_coeff = 0.5
+		}
+		path = {
+			leads_to_tech = improved_ship_hull_heavy
+			research_cost_coeff = 0.5
+		}
+
+		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = improved_ship_hull_heavy	}
+
+			custom_effect_tooltip = tcl_cv_tech_tt
 		}
 
 		research_cost = 2.0
@@ -1312,7 +1384,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 14 }
+			position = {  x = 9 y = 14 }
 		}
 
 		ai_will_do = {
@@ -1343,7 +1415,27 @@ early_ship_hull_carrier = {
 			carrier_ship_engine_4
 		}
 
+		dependencies = {
+			improved_ship_hull_carrier = 1
+		}
+
+		path = {
+			leads_to_tech = advanced_ship_hull_light
+			research_cost_coeff = 0.5
+		}
+		path = {
+			leads_to_tech = advanced_ship_hull_cruiser
+			research_cost_coeff = 0.5
+		}
+		path = {
+			leads_to_tech = advanced_ship_hull_heavy
+			research_cost_coeff = 0.5
+		}
+
 		on_research_complete = {
+			add_tech_bonus = {	name = ib_tech_bonus
+			ahead_reduction = 1 technology = advanced_ship_hull_heavy	}
+
 			custom_effect_tooltip = tcl_cv_tech_tt
 		}
 
@@ -1353,7 +1445,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 20 }
+			position = {  x = 9 y = 20 }
 		}
 
 		ai_will_do = {

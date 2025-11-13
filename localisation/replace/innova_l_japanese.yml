@@ -322,6 +322,8 @@
  additional_machine_guns:0 "車体用機関銃"
  additional_machine_guns_desc:0 "車体前面に通常の歩兵部隊が使用する機関銃を搭載する事により、周囲への掃射や簡易的な対歩兵戦闘への力を得る事が出来る。"
 
+ advanced_light_tank_chassis_short:0 "1940年型軽戦車"
+ improved_heavy_tank_chassis_short:0 "1941年型重戦車"
  basic_heavy_tank_chassis_short:0 "1938年型重戦車"
  basic_medium_tank_chassis_short:0 "1936年型中戦車"
  tank_small_cannon:0 "基本型小口径砲"
