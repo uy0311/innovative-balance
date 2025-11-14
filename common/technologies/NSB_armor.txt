@@ -412,16 +412,14 @@ technologies = {
 			leads_to_tech = advanced_light_tank_chassis
 			research_cost_coeff = 0.5
 		}
-		path = {
-			leads_to_tech = improved_heavy_tank_chassis
-			research_cost_coeff = 0.5
-		}
+		# path = {
+		# 	leads_to_tech = improved_heavy_tank_chassis
+		# 	research_cost_coeff = 0.5
+		# }
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
 			ahead_reduction = 1 technology = advanced_light_tank_chassis	}
 
-			add_tech_bonus = {	name = ib_tech_bonus
-			ahead_reduction = 1 technology = improved_heavy_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
@@ -497,13 +495,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = advanced_heavy_tank_chassis
-			research_cost_coeff = 0.5
-		}
+		# path = {
+		# 	leads_to_tech = advanced_heavy_tank_chassis
+		# 	research_cost_coeff = 0.5
+		# }
 		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			ahead_reduction = 1 technology = advanced_heavy_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
@@ -677,8 +673,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			ahead_reduction = 1 technology = improved_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 
@@ -692,10 +686,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = improved_medium_tank_chassis
-			research_cost_coeff = 0.5
-		}
+		# path = {
+		# 	leads_to_tech = improved_medium_tank_chassis
+		# 	research_cost_coeff = 0.5
+		# }
 
 		dependencies = {
 			basic_heavy_tank_chassis = 1
@@ -753,13 +747,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = advanced_medium_tank_chassis
-			research_cost_coeff = 0.5
-		}
+		# path = {
+		# 	leads_to_tech = advanced_medium_tank_chassis
+		# 	research_cost_coeff = 0.5
+		# }
 		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			ahead_reduction = 1 technology = advanced_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 		dependencies = {
