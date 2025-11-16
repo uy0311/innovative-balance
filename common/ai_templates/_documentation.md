@@ -168,16 +168,16 @@ armor_ENG = {
 		modifier = {
 			factor = 7
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -222,16 +222,16 @@ armor_ENG = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					has_tech = basic_light_tank
-					has_tech = basic_light_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 
 			modifier = {
 				factor = 1.5
 				OR = {
-					has_tech = improved_light_tank
-					has_tech = improved_light_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -266,8 +266,8 @@ armor_ENG = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -304,8 +304,8 @@ armor_ENG = {
 			modifier = {
 				factor = 3.5
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 
@@ -346,8 +346,8 @@ armor_ENG = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = main_battle_tank
-					has_tech = main_battle_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 

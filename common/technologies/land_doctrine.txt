@@ -2682,6 +2682,16 @@ technologies = {
 			defense = 0.10
 		}
 
+		category_marines = {
+			breakthrough = 0.10
+			defense = 0.10
+		}
+
+		category_mountaineers = {
+			breakthrough = 0.10
+			defense = 0.10
+		}
+
 		armored_car = {
 			max_organisation = 20
 			default_morale = 0.2

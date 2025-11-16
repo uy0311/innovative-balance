@@ -21,8 +21,8 @@ armor_USA = {
 			NOT = {
 				# Researching basic medium tank gives a free template, we want to start from there
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -30,8 +30,8 @@ armor_USA = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -39,8 +39,8 @@ armor_USA = {
 			factor = 10
 			NOT = { ai_has_role_template = armor }
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -75,8 +75,8 @@ armor_USA = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_tech = improved_light_tank
-					has_tech = improved_light_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -132,8 +132,8 @@ armor_USA = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -166,10 +166,10 @@ armor_USA = {
 			modifier = {
 				factor = 5
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
-				has_tech = mechanised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -202,10 +202,10 @@ armor_USA = {
 			modifier = {
 				factor = 6
 				OR = {
-					has_tech = advanced_medium_tank
-					has_tech = advanced_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
-				has_tech = mechanised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -236,8 +236,8 @@ armor_USA = {
 			modifier = {
 				factor = 7
 				OR = {
-					has_tech = main_battle_tank
-					has_tech = main_battle_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -417,7 +417,7 @@ mobile_USA = {
 
 			modifier = {
 				factor = 3
-				has_tech = motorised_infantry
+				has_tech = advanced_infantry_weapons2
 				date > 1937.1.1
 			}
 		}
@@ -478,7 +478,7 @@ mobile_USA = {
 			modifier = {
 				factor = 5
 				date > 1941.10.1
-				has_tech = mechanised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -511,7 +511,7 @@ mobile_USA = {
 			modifier = {
 				factor = 6
 				date > 1943.1.1
-				has_tech = mechanised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -551,7 +551,7 @@ mountaineers_USA = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = tech_mountaineers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -594,7 +594,7 @@ marines_USA = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = marines
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -665,8 +665,8 @@ marines_USA = {
 
 				# Only if we have amphibious tanks
 				OR = {
-					has_tech = amphibious_tank
-					has_tech = amphibious_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -706,7 +706,7 @@ paratroopers_USA = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = paratroopers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}

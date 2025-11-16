@@ -12,16 +12,16 @@ armor_JAP = {
 		modifier = {
 			factor = 7
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 		
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -309,7 +309,7 @@ mountaineers_JAP = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = tech_mountaineers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -355,7 +355,7 @@ marines_JAP = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = marines
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -393,7 +393,7 @@ marines_JAP = {
 				has_war_with = USA
 			}
 			modifier = {
-				not = { has_tech = amphibious_tank }
+				not = { has_tech = advanced_infantry_weapons2 }
 				factor = 0
 			}
 		}
@@ -428,7 +428,7 @@ paratrooper_JAP = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = paratroopers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}

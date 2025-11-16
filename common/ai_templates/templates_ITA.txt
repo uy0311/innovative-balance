@@ -12,16 +12,16 @@ armored_ITA = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 		
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -156,8 +156,8 @@ armored_ITA = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -186,8 +186,8 @@ armored_ITA = {
 			modifier = {
 				factor = 5
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -218,10 +218,10 @@ armored_ITA = {
 			modifier = {
 				factor = 6
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
-				has_tech = mechanised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -252,10 +252,10 @@ armored_ITA = {
 			modifier = {
 				factor = 7
 				OR = {
-					has_tech = main_battle_tank
-					has_tech = main_battle_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
-				has_tech = mechanised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -407,7 +407,7 @@ mountaineers_ITA = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = tech_mountaineers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -452,7 +452,7 @@ marines_ITA = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = marines
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -496,7 +496,7 @@ paratroopers_ITA = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = paratroopers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
