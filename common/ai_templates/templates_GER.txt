@@ -12,16 +12,16 @@ armored_GER = {
 		modifier = {
 			factor = 4
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 		
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -59,8 +59,8 @@ armored_GER = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -95,8 +95,8 @@ armored_GER = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 				date > 1939.10.1
 			}
@@ -129,8 +129,8 @@ armored_GER = {
 			modifier = {
 				factor = 5
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -162,8 +162,8 @@ armored_GER = {
 			modifier = {
 				factor = 7
 				OR = {
-					has_tech = main_battle_tank
-					has_tech = main_battle_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -208,8 +208,8 @@ panzergrenadier_GER = {
 		modifier = {
 			factor = 4
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 		
@@ -251,8 +251,8 @@ panzergrenadier_GER = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 				date > 1940.1.1
 			}
@@ -289,8 +289,8 @@ panzergrenadier_GER = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 				date > 1943.1.1
 			}
@@ -321,8 +321,8 @@ panzergrenadier_GER = {
 			modifier = {
 				factor = 5
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 				date > 1944.6.1
 			}
@@ -355,8 +355,8 @@ panzergrenadier_GER = {
 			modifier = {
 				factor = 7
 				OR = {
-					has_tech = main_battle_tank
-					has_tech = main_battle_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 				date > 1945.6.1
 			}
@@ -446,10 +446,10 @@ infantry_GER = {
 		modifier = {
 			factor = 4
 			NOT = {
-				has_tech = basic_medium_tank
+				has_tech = advanced_infantry_weapons2
 			}
 			NOT = {
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -602,7 +602,7 @@ mountaineers_GER = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = tech_mountaineers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -645,7 +645,7 @@ marines_GER = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = marines
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -690,7 +690,7 @@ paratroopers_GER = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = paratroopers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -793,7 +793,7 @@ anti_armor_GER = {
 
 		modifier = {
 			factor = 0
-			NOT = { has_tech = interwar_antitank }
+			NOT = { has_tech = advanced_infantry_weapons2 }
 		}
 	}
 	
@@ -806,7 +806,7 @@ anti_armor_GER = {
 
 			modifier = {
 				factor = 2
-				has_tech = interwar_antitank
+				has_tech = advanced_infantry_weapons2
 
 				#has_war_with = SOV
 				#any_enemy_country = {
@@ -852,16 +852,16 @@ anti_armor_GER = {
 			modifier = {
 				factor = 3
 
-				has_tech = antitank1
+				has_tech = advanced_infantry_weapons2
 				OR = {
-					has_tech = basic_light_td
+					has_tech = advanced_infantry_weapons2
 					has_design_based_on = light_tank_destroyer_chassis
 				}
 				#if = {
 				#	limit = {
 				#		NOT = { has_dlc = "No Step Back" }
 				#	}
-				#	has_tech = basic_light_td
+				#	has_tech = advanced_infantry_weapons2
 				#}
 				#has_war_with = SOV
 				#any_enemy_country = {
@@ -905,9 +905,9 @@ anti_armor_GER = {
 			modifier = {
 				factor = 4
 
-				has_tech = antitank2
+				has_tech = advanced_infantry_weapons2
 				OR = {
-					has_tech = basic_medium_td
+					has_tech = advanced_infantry_weapons2
 					has_design_based_on = medium_tank_destroyer_chassis
 				}
 
@@ -915,7 +915,7 @@ anti_armor_GER = {
 				#	limit = {
 				#		NOT = { has_dlc = "No Step Back" }
 				#	}
-				#	has_tech = basic_medium_td
+				#	has_tech = advanced_infantry_weapons2
 				#}
 				#has_war_with = SOV
 				any_enemy_country = {
@@ -962,7 +962,7 @@ motorized_GER = {
 
 		modifier = {
 			factor = 0
-			NOT = { has_tech = interwar_antitank }
+			NOT = { has_tech = advanced_infantry_weapons2 }
 		}
 	}
 	
@@ -997,8 +997,8 @@ motorized_GER = {
 			modifier = {
 				factor = 2 
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -1033,8 +1033,8 @@ motorized_GER = {
 			modifier = {
 				factor = 3 
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 				date > 1941.1.1
 			}

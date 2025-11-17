@@ -12,16 +12,16 @@ armored_SOV = {
 		modifier = {
 			factor = 3
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -163,8 +163,8 @@ armored_SOV = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -195,8 +195,8 @@ armored_SOV = {
 			modifier = {
 				factor = 5
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 				date > 1940.7.1
 			}
@@ -228,8 +228,8 @@ armored_SOV = {
 			modifier = {
 				factor = 6
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -259,8 +259,8 @@ armored_SOV = {
 			modifier = {
 				factor = 7
 				OR = {
-					has_tech = main_battle_tank
-					has_tech = main_battle_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -461,7 +461,7 @@ mountaineers_SOV = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = tech_mountaineers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -508,7 +508,7 @@ marines_SOV = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = marines
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -551,7 +551,7 @@ paratroopers_SOV = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = paratroopers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -609,7 +609,7 @@ anti_armor_SOV = {
 
 		modifier = {
 			factor = 0
-			NOT = { has_tech = interwar_antitank }
+			NOT = { has_tech = advanced_infantry_weapons2 }
 		}
 	}
 
@@ -621,7 +621,7 @@ anti_armor_SOV = {
 
 			modifier = {
 				factor = 2
-				has_tech = interwar_antitank
+				has_tech = advanced_infantry_weapons2
 
 				# has_war_with = GER
 				#any_enemy_country = {
@@ -661,14 +661,14 @@ anti_armor_SOV = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_tech = basic_light_td
+					has_tech = advanced_infantry_weapons2
 					has_design_based_on = light_tank_destroyer_chassis
 				}
 				#if = {
 				#	limit = {
 				#		NOT = { has_dlc = "No Step Back" }
 				#	}
-				#	has_tech = basic_light_td
+				#	has_tech = advanced_infantry_weapons2
 				#}
 				#has_war_with = GER
 				#any_enemy_country = {
@@ -706,13 +706,13 @@ anti_armor_SOV = {
 
 			modifier = {
 				factor = 4
-				has_tech = antitank2
+				has_tech = advanced_infantry_weapons2
 
 				#if = {
 				#	limit = {
 				#		NOT = { has_dlc = "No Step Back" }
 				#	}
-				#	has_tech = basic_medium_td
+				#	has_tech = advanced_infantry_weapons2
 				#}
 				#has_war_with = GER
 				any_enemy_country = {

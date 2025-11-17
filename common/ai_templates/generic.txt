@@ -19,16 +19,16 @@ armor_generic = {
 		modifier = {
 			factor = 3
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 		
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -149,8 +149,8 @@ armor_generic = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -184,14 +184,14 @@ armor_generic = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 
 			modifier = {
 				factor = 0
-				NOT = { has_tech = armored_car1 }
+				NOT = { has_tech = advanced_infantry_weapons2 }
 			}
 		}
 
@@ -223,8 +223,8 @@ armor_generic = {
 			modifier = {
 				factor = 5
 				OR = {
-					has_tech = main_battle_tank
-					has_tech = main_battle_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -460,7 +460,7 @@ mountaineers_generic = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = tech_mountaineers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -511,7 +511,7 @@ marines_generic = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = marines
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -553,8 +553,8 @@ marines_generic = {
 					}
 					NOT = {
 						OR = {
-							has_tech = amphibious_tank
-							has_tech = amphibious_tank_chassis
+							has_tech = advanced_infantry_weapons2
+							has_tech = advanced_infantry_weapons2
 						}
 					}
 				}
@@ -602,7 +602,7 @@ paratrooper_generic = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = paratroopers
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 	}
@@ -686,7 +686,7 @@ super_heavy_generic = {
 			is_major = yes
 			num_of_military_factories > 150 # nly if we have loads of factories
 			date > 1943.6.1 # Lets wait until late war
-			NOT = { has_tech = main_battle_tank_chassis } # Abandon Super heavy projects if we start doing modern tanks instead
+			NOT = { has_tech = advanced_infantry_weapons2 } # Abandon Super heavy projects if we start doing modern tanks instead
 			NOT = { has_government = democratic } # Let the authoritarian regimes spend money on this 
 		}
 

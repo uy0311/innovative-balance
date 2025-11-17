@@ -12,16 +12,16 @@ armor_HUN = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
 		modifier = {
 			factor = 2
 			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
+				has_tech = advanced_infantry_weapons2
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -68,8 +68,8 @@ armor_HUN = {
 				factor = 3
 				date < 1941.1.1
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -99,8 +99,8 @@ armor_HUN = {
 				factor = 3
 				date > 1941.1.1
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -130,8 +130,8 @@ armor_HUN = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = improved_medium_tank
-					has_tech = improved_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -162,8 +162,8 @@ armor_HUN = {
 			modifier = {
 				factor = 5
 				OR = {
-					has_tech = advanced_medium_tank
-					has_tech = advanced_medium_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -195,8 +195,8 @@ armor_HUN = {
 			modifier = {
 				factor = 6
 				OR = {
-					has_tech = main_battle_tank
-					has_tech = main_battle_tank_chassis
+					has_tech = advanced_infantry_weapons2
+					has_tech = advanced_infantry_weapons2
 				}
 			}
 		}
@@ -374,7 +374,7 @@ mobile_HUN = {
 
 		modifier = {
 			factor = 0  # Wait until research motorized infantry and start from that free template
-			NOT = { has_tech = motorised_infantry }
+			NOT = { has_tech = advanced_infantry_weapons2 }
 		}
 	}
 
@@ -405,7 +405,7 @@ mobile_HUN = {
 
 			modifier = {
 				factor = 3
-				has_tech = motorised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -464,7 +464,7 @@ mobile_HUN = {
 			modifier = {
 				factor = 5
 				date > 1941.10.1
-				has_tech = mechanised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
@@ -497,7 +497,7 @@ mobile_HUN = {
 			modifier = {
 				factor = 6
 				date > 1943.1.1
-				has_tech = mechanised_infantry
+				has_tech = advanced_infantry_weapons2
 			}
 		}
 
