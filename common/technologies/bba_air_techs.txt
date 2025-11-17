@@ -80,7 +80,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = basic_medium_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = basic_medium_airframe	}
 
 			custom_effect_tooltip = tcl_light_air_tt
 		}
@@ -159,7 +159,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = improved_medium_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = improved_medium_airframe	}
 			
 			custom_effect_tooltip = tcl_light_air_tt
 		}
@@ -239,7 +239,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = advanced_medium_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = advanced_medium_airframe	}
 			
 			custom_effect_tooltip = tcl_light_air_tt
 		}
@@ -309,7 +309,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = modern_medium_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = modern_medium_airframe	}
 			
 			custom_effect_tooltip = tcl_light_air_tt
 		}
@@ -418,10 +418,10 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = basic_small_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = basic_small_airframe	}
 
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = basic_large_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = basic_large_airframe	}
 
 			custom_effect_tooltip = tcl_medium_air_tt
 		}
@@ -495,10 +495,10 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = improved_small_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = improved_small_airframe	}
 
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = improved_large_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = improved_large_airframe	}
 			
 			custom_effect_tooltip = tcl_medium_air_tt
 		}
@@ -571,10 +571,10 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = advanced_small_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = advanced_small_airframe	}
 
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = advanced_large_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = advanced_large_airframe	}
 			
 			custom_effect_tooltip = tcl_medium_air_tt
 		}
@@ -636,10 +636,10 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = modern_small_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = modern_small_airframe	}
 
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = modern_large_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = modern_large_airframe	}
 			
 			custom_effect_tooltip = tcl_medium_air_tt
 		}
@@ -738,7 +738,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = basic_medium_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = basic_medium_airframe	}
 			
 			custom_effect_tooltip = tcl_heavy_air_tt
 		}
@@ -791,7 +791,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = improved_medium_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = improved_medium_airframe	}
 			
 			custom_effect_tooltip = tcl_heavy_air_tt
 		}
@@ -844,7 +844,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = advanced_medium_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = advanced_medium_airframe	}
 			
 			custom_effect_tooltip = tcl_heavy_air_tt
 		}
@@ -895,7 +895,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = modern_medium_airframe	}
+			bonus = 0.5 ahead_reduction = 1 technology = modern_medium_airframe	}
 			
 			custom_effect_tooltip = tcl_heavy_air_tt
 		}

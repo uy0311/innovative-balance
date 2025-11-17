@@ -109,7 +109,6 @@ technologies = {
 			light_tank_destroyer_chassis_1
 			light_tank_artillery_chassis_1
 			light_tank_aa_chassis_1
-			
 		}
 
 		enable_subunits = {
@@ -169,7 +168,6 @@ technologies = {
 			light_tank_destroyer_chassis_2
 			light_tank_artillery_chassis_2
 			light_tank_aa_chassis_2
-			
 		}
 
 		enable_equipment_modules = {
@@ -187,7 +185,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = basic_medium_tank_chassis	}
+			bonus = 0.5 ahead_reduction = 1 technology = basic_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
 		dependencies = {
@@ -254,7 +252,6 @@ technologies = {
 			light_tank_destroyer_chassis_3
 			light_tank_artillery_chassis_3
 			light_tank_aa_chassis_3
-			
 		}
 
 		path = {
@@ -263,7 +260,7 @@ technologies = {
 		}
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = improved_medium_tank_chassis	}
+			bonus = 0.5 ahead_reduction = 1 technology = improved_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
 		dependencies = {
@@ -314,7 +311,6 @@ technologies = {
 			medium_tank_destroyer_chassis_1
 			medium_tank_artillery_chassis_1
 			medium_tank_aa_chassis_1
-			
 		}
 
 		enable_equipment_modules = {
@@ -333,7 +329,7 @@ technologies = {
 
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = improved_light_tank_chassis	}
+			bonus = 0.5 ahead_reduction = 1 technology = improved_light_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
 		dependencies = {
@@ -412,13 +408,10 @@ technologies = {
 			leads_to_tech = advanced_light_tank_chassis
 			research_cost_coeff = 0.5
 		}
-		# path = {
-		# 	leads_to_tech = improved_heavy_tank_chassis
-		# 	research_cost_coeff = 0.5
-		# }
+
 		on_research_complete = {
 			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 technology = advanced_light_tank_chassis	}
+			bonus = 0.5 ahead_reduction = 1 technology = advanced_light_tank_chassis	}
 
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
@@ -495,10 +488,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		# path = {
-		# 	leads_to_tech = advanced_heavy_tank_chassis
-		# 	research_cost_coeff = 0.5
-		# }
 		on_research_complete = {
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
@@ -546,8 +535,8 @@ technologies = {
 			modern_tank_destroyer_chassis_1
 			modern_tank_artillery_chassis_1
 			modern_tank_aa_chassis_1
-			
 		}
+
 		enable_equipment_modules = {
 			tank_modern_tank_turret
 			tank_modern_tank_turret_mg
@@ -620,7 +609,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.8
 		start_year = 1938
 
 		folder = {
@@ -669,7 +658,6 @@ technologies = {
 			heavy_tank_destroyer_chassis_2
 			heavy_tank_artillery_chassis_2
 			heavy_tank_aa_chassis_2
-			
 		}
 
 		on_research_complete = {
@@ -686,16 +674,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		# path = {
-		# 	leads_to_tech = improved_medium_tank_chassis
-		# 	research_cost_coeff = 0.5
-		# }
-
 		dependencies = {
 			basic_heavy_tank_chassis = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.8
 		start_year = 1941
 
 		folder = {
@@ -747,10 +730,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		# path = {
-		# 	leads_to_tech = advanced_medium_tank_chassis
-		# 	research_cost_coeff = 0.5
-		# }
 		on_research_complete = {
 			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
@@ -758,7 +737,7 @@ technologies = {
 			improved_heavy_tank_chassis = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.8
 		start_year = 1943
 
 		folder = {
@@ -798,7 +777,6 @@ technologies = {
 			super_heavy_tank_destroyer_chassis_1
 			super_heavy_tank_artillery_chassis_1
 			super_heavy_tank_aa_chassis_1
-			
 		}
 
 		enable_subunits = {
