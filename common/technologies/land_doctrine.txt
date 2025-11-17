@@ -1485,16 +1485,118 @@ technologies = {
 		land_reinforce_rate = 0.02
 
 		motorized = {
-			soft_attack = 0.25
-			hard_attack = 0.25
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
 		}
 		mechanized = {
-			soft_attack = 0.10
-			hard_attack = 0.10
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
 		}
 		amphibious_mechanized = {
-			soft_attack = 0.10
-			hard_attack = 0.10
+			forest = {
+				attack = 0.15
+				defence = 0.15
+			}
+			hills = {
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+			}
+			jungle = {
+				attack = 0.15
+				defence = 0.15
+			}
+			marsh = {
+				attack = 0.15
+				defence = 0.15
+			}
+			plains = {
+				attack = 0.15
+				defence = 0.15
+			}
+			farmland = {
+				attack = 0.15
+				defence = 0.15
+			}
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			desert = {
+				attack = 0.15
+				defence = 0.15
+			}
 		}
 		
 		path = {
@@ -2682,12 +2784,7 @@ technologies = {
 			defense = 0.10
 		}
 
-		category_marines = {
-			breakthrough = 0.10
-			defense = 0.10
-		}
-
-		category_mountaineers = {
+		category_amphibious_tanks = {
 			breakthrough = 0.10
 			defense = 0.10
 		}
