@@ -3024,11 +3024,11 @@ equipment_modules = {
 			build_cost_ic = -0.03
 		}
 		build_cost_resources = {
-			aluminium = -2
+			rubber = -1
 		}
 		dismantle_cost_ic = 7
 		dismantle_cost_resources = {
-			aluminium = 2
+			rubber = 1
 		}
 		
 	}
@@ -3177,12 +3177,12 @@ equipment_modules = {
 			build_cost_ic = -0.075
 		}
 		build_cost_resources = {
-			aluminium = -2
+			rubber = -1
 		}
 		
 		dismantle_cost_ic = 12
 		dismantle_cost_resources = {
-			aluminium = 2
+			rubber = 1
 		}
 	}
 
@@ -3284,11 +3284,11 @@ equipment_modules = {
 			build_cost_ic = -0.075
 		}
 		build_cost_resources = {
-			aluminium = -3
+			rubber = -2
 		}
 		dismantle_cost_ic = 22
 		dismantle_cost_resources = {
-			aluminium = 3
+			rubber = 2
 		}
 		
 	}
