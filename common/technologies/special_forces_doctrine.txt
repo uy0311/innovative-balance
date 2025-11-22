@@ -125,55 +125,10 @@ technologies = {
 			default_morale = 0.1
 		}
 
-		path = {
-			leads_to_tech = tech_mountaineers3
-			research_cost_coeff = 1
-		}
-
 		start_year = 1939
 				folder = {
 			name = special_forces_doctrine_folder
 			position = { x = 1 y = 7 }
-		}
-		
-		force_use_small_tech_layout = yes
-		doctrine = yes	
-		research_cost = 4.5
-
-		categories = {
-			special_forces_doctrine
-			mountaineers_tech
-			cat_mountaineers_doctrine
-		}
-	}
-	
-	tech_mountaineers3 = {	
-
-		xp_research_type = army
-		xp_unlock_cost = 30
-
-		rangers_support = {
-			hills = {
-				attack = 0.05
-			}
-			mountain = {
-				attack = 0.1
-			}
-			marsh = {
-				attack = 0.1
-			}
-			river = {
-				attack = 0.1
-			}
-			amphibious = {
-				attack = 0.3
-			}
-		}
-		
-
-		folder = {
-			name = special_forces_doctrine_folder
-			position = { x = 1 y = 9 }
 		}
 		
 		force_use_small_tech_layout = yes
@@ -317,11 +272,6 @@ technologies = {
 			default_morale = 0.1
 		}
 
-		path = {
-			leads_to_tech = marines3 
-			research_cost_coeff = 1
-		}
-
 		folder = {
 			name = special_forces_doctrine_folder
 			position = { x = 1 y = 7 }
@@ -337,42 +287,6 @@ technologies = {
 			cat_marines_doctrine
 		}
 	}
-	
-	marines3 = {
-
-		xp_research_type = army
-		xp_unlock_cost = 30
-
-		marine_commando = {
-			forest = {
-				attack = 0.05
-			}
-			jungle = {
-				attack = 0.1
-			}
-			hills = {
-				attack = 0.05
-			}
-			mountain = {
-				attack = 0.1
-			}
-		}
-		folder = {
-			name = special_forces_doctrine_folder
-			position = { x = 1 y = 9 }
-		}
-
-		force_use_small_tech_layout = yes
-		doctrine = yes	
-		research_cost = 2.25
-		
-		categories = {
-			special_forces_doctrine
-			marine_tech
-			cat_marines_doctrine
-		}
-	}	
-	
 
 	###Paratroopers
 	
