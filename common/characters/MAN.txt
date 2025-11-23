@@ -198,7 +198,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = MAN_deng_linge
 			ledger = air
@@ -207,7 +207,7 @@ characters={
 			}
 			
 			traits = {
-				air_warfare_theorist
+				assault_avaition
 			}
 		}
 	}
@@ -355,12 +355,12 @@ characters={
 		advisor={
 			slot = high_command
 			idea_token = MAN_hesehn_tiemei
-			ledger = army
+			ledger = air
 			allowed = {
 				original_tag = MAN
 			}
 			traits = {
-				army_logistics_2
+				air_air_combat_training_2
 			}
 			cost = 150
 			ai_will_do = {
