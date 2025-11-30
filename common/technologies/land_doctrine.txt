@@ -2414,14 +2414,14 @@ technologies = {
 		engineer = {
 			battalion_mult = {
 				category = category_army
-				entrenchment = 0.50
+				entrenchment = 0.8
 				add = yes
 			}
 		}
 		pioneer_support = {
 			battalion_mult = {
 				category = category_army
-				entrenchment = 0.50
+				entrenchment = 0.8
 				add = yes
 			}
 		}
