@@ -349,7 +349,6 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_all_armor
-			category_paratroopers
 		}
 
 	
