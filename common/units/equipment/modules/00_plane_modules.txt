@@ -2114,7 +2114,6 @@ equipment_modules = {
 		category = plane_large_aircraft_cannon_1x
 		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
-		parent = aircraft_cannon_1_1x
 
 		add_stats = {
 			air_attack = 10.5
@@ -2148,7 +2147,6 @@ equipment_modules = {
 		category = plane_large_aircraft_cannon_1x_nose
 		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
-		parent = aircraft_cannon_1_1x_nose
 		
 		add_stats = {
 			air_attack = 10.5
@@ -2182,7 +2180,6 @@ equipment_modules = {
 		category = plane_large_aircraft_cannon_2x
 		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
-		parent = aircraft_cannon_1_2x
 
 		add_stats = {
 			air_attack = 21
@@ -2216,7 +2213,6 @@ equipment_modules = {
 		category = plane_large_aircraft_cannon_2x_body
 		gui_category = plane_cannon
 		sfx = sfx_ui_sd_module_turret
-		parent = aircraft_cannon_1_2x_body
 
 		add_stats = {
 			air_attack = 21
