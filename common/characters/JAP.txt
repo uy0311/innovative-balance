@@ -50,22 +50,10 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Tomoyuki_Yamashita.dds"
 			}
 		}
-		advisor={
-			cost = 150
-			slot = theorist
-			idea_token = tomoyuki_yamashita
-			ledger = army
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				grand_battle_plan_expert
-			}
-		}
 
 		corps_commander={
-			traits={ brilliant_strategist politically_connected trickster trait_engineer }
-	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
+			traits={ brilliant_strategist skilled_staffer commando naval_invader bearer_of_artillery fortress_buster scavenger urban_assault_specialist }
+	        skill = 6 attack_skill = 7 defense_skill = 6 planning_skill = 7 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -92,8 +80,8 @@ characters={
 		}
 		
 		field_marshal={
-			traits = { offensive_doctrine }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			traits = { thorough_planner aggressive_assaulter infantry_leader commando naval_invader bearer_of_artillery adaptable }
+	        skill = 4 attack_skill = 5 defense_skill = 5 planning_skill = 4 logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -107,24 +95,24 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			cost = 150
+			slot = theorist
 			idea_token = shunroku_hata
 			ledger = army
 			allowed = {
 				original_tag = JAP
 			}
 			traits = {
-				army_concealment_2
+				grand_battle_plan_expert
 			}
-			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
 		
 		field_marshal={
-			traits = { offensive_doctrine }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			traits = { logistics_wizard unyielding_defender commando trait_engineer infantry_expert ambusher camouflage_expert }
+	        skill = 4 attack_skill = 3 defense_skill = 3 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
 	}
@@ -176,7 +164,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { trickster }
+			traits = { trickster hill_fighter trait_mountaineer commando }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
@@ -204,8 +192,8 @@ characters={
 		}
 		
 		corps_commander={
-			traits = {  }
-	        skill = 1 attack_skill = 1 defense_skill = 1 planning_skill = 1 logistics_skill = 1
+			traits = { skilled_staffer bearer_of_artillery brilliant_strategist }
+	        skill = 1 attack_skill = 3 defense_skill = 2 planning_skill = 1 logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -320,9 +308,9 @@ characters={
 				original_tag = JAP
 			}
 			traits = {
-				air_chief_all_weather_1
+				air_chief_all_weather_3
 			}
-			cost = 100
+			cost = 200
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -348,7 +336,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={  }
+			traits={ trait_engineer trickster swamp_fox }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -585,21 +573,21 @@ characters={
 				original_tag = JAP
 			}
 			traits = {
-				army_logistics_2
+				army_concealment_3
 			}
-			cost = 150
+			cost = 200
 			ai_will_do = {
 				factor = 3.000
 			}
 		}
 		
 		corps_commander={
-			traits={ commando }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			traits={ commando naval_invader trait_engineer skilled_staffer jungle_rat }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=7
 			legacy_id=0
 		}
 	}
@@ -1044,7 +1032,7 @@ characters={
 				original_tag = JAP
 			}
 			traits = {
-				army_chief_drill_3
+				army_chief_planning_3
 			}
 			cost = 200
 			ai_will_do = {
