@@ -723,7 +723,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { navy_career_officer bold chief_engineer air_controller superior_tactician spotter marksman crisis_magician }
+			traits = { navy_career_officer chief_engineer air_controller superior_tactician spotter marksman crisis_magician }
 	        skill = 4
 	        attack_skill = 4
 	        defense_skill = 4
