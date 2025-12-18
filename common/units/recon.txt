@@ -207,10 +207,11 @@ sub_units = {
 		can_be_parachuted = yes
 
 		# Support nerfs to combat abilities
-		breakthrough 	= -0.2
+		breakthrough 	= -0.5
 		defense 		= -0.5		
 		soft_attack 	= -0.5
 		hard_attack 	= -0.5
+		air_attack      = -0.5
 		
 		essential = {
 			armored_car_tank_chassis
@@ -293,6 +294,7 @@ sub_units = {
 		soft_attack = -0.6
 		hard_attack = -0.6
 		armor_value = -0.6
+		air_attack  = -0.6
 
 		essential = {
 			light_tank_chassis

@@ -6715,7 +6715,20 @@ leader_traits = {
 		sprite = 9
 		enemy_army_bonus_air_superiority_factor = -0.05
 		#experience_gain_army = @experience_gain_low
-
+		equipment_bonus = {
+			anti_air_equipment= {
+				instant = yes
+				air_attack = 0.10
+			}
+			armored_car_tank_chassis = {
+				instant = yes
+				air_attack = 0.10
+			}
+			mio_cat_eq_all_tank_antiairs = {
+				instant = yes
+				air_attack = 0.05
+			}
+		}
 		
 
 		ai_will_do = {
@@ -6731,7 +6744,20 @@ leader_traits = {
 		sprite = 9
 		enemy_army_bonus_air_superiority_factor = -0.10
 		#experience_gain_army = @experience_gain_medium
-
+		equipment_bonus = {
+			anti_air_equipment= {
+				instant = yes
+				air_attack = 0.20
+			}
+			armored_car_tank_chassis = {
+				instant = yes
+				air_attack = 0.20
+			}
+			mio_cat_eq_all_tank_antiairs = {
+				instant = yes
+				air_attack = 0.20
+			}
+		}
 		
 
 		ai_will_do = {
@@ -6747,6 +6773,20 @@ leader_traits = {
 		sprite = 9
 		enemy_army_bonus_air_superiority_factor = -0.15
 		#experience_gain_army = @experience_gain_high
+		equipment_bonus = {
+			anti_air_equipment= {
+				instant = yes
+				air_attack = 0.30
+			}
+			armored_car_tank_chassis = {
+				instant = yes
+				air_attack = 0.30
+			}
+			mio_cat_eq_all_tank_antiairs = {
+				instant = yes
+				air_attack = 0.30
+			}
+		}
 
 		
 

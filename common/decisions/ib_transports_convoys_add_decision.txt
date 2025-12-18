@@ -7,7 +7,10 @@ convoys_add_decision = {
 		cost = 0
 
 		available = {
-			num_of_naval_factories > 200
+			OR = {
+				num_of_naval_factories > 200
+				any_allied_country = { num_of_naval_factories > 200 }
+			}
 			has_idea = tot_economic_mobilisation
 			has_equipment = {
    				convoy_1 > 4999
