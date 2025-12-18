@@ -1651,6 +1651,7 @@ technologies = {
 		}
 		
 		naval_invasion_capacity = 100
+		shore_bombardment_bonus = 2.0
 
 		enable_tactic = tactic_breakthrough
 
@@ -2573,7 +2574,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		naval_invasion_planning_bonus_speed = 1.5
+		naval_invasion_planning_bonus_speed = 3.0
 		invasion_preparation = -0.5
 		land_reinforce_rate = 0.03
 

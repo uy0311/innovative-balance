@@ -889,6 +889,12 @@ technologies = {
 		category_self_propelled_anti_air = {
 			air_attack = 0.20
 		}
+		armored_car_recon = {
+			air_attack = 0.20
+		}
+		armored_car = {
+			air_attack = 0.20
+		}
 
 		tech_air_damage_factor = -0.02
 
@@ -1000,6 +1006,12 @@ technologies = {
 		category_self_propelled_anti_air = {
 			air_attack = 0.15
 		}
+		armored_car_recon = {
+			air_attack = 0.15
+		}
+		armored_car = {
+			air_attack = 0.15
+		}
 
 		tech_air_damage_factor = -0.02
 
@@ -1056,6 +1068,12 @@ technologies = {
 			air_attack = 0.15
 		}
 		category_self_propelled_anti_air = {
+			air_attack = 0.15
+		}
+		armored_car_recon = {
+			air_attack = 0.15
+		}
+		armored_car = {
 			air_attack = 0.15
 		}
 
@@ -1169,6 +1187,12 @@ technologies = {
 		category_self_propelled_anti_air = {
 			air_attack = 0.10
 		}
+		armored_car_recon = {
+			air_attack = 0.10
+		}
+		armored_car = {
+			air_attack = 0.10
+		}
 
 		tech_air_damage_factor = -0.01
 
@@ -1225,6 +1249,12 @@ technologies = {
 			air_attack = 0.10
 		}
 		category_self_propelled_anti_air = {
+			air_attack = 0.10
+		}
+		armored_car_recon = {
+			air_attack = 0.10
+		}
+		armored_car = {
 			air_attack = 0.10
 		}
 
