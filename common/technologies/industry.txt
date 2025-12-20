@@ -11,6 +11,11 @@ technologies = {
 #		}
 		air_cas_present_factor = -1.00
 
+		enable_building = {
+			building = industrial_complex
+			level = 15
+		}
+
 		on_research_complete = {
 			custom_effect_tooltip = tcl_cat_production_tt
 		}
