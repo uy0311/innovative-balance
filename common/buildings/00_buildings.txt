@@ -40,7 +40,7 @@ buildings = {
 		value = 5
 		infrastructure_construction_effect = no
 		level_cap = {
-			state_max = 15
+			state_max = 40
 		}
 	}
 
