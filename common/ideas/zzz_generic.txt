@@ -318,7 +318,6 @@ ideas = {
 			modifier = {
 				army_morale_factor = 0.12
 				license_production_speed = 0.25 #speed  increase for being a license
-				license_tech_difference_speed = -0.05 #less cost increase for each tech level between the license and own tech level 
 				mobilization_speed = 1.00
 				conscription = 0.025
 			}
