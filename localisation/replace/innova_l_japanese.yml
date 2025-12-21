@@ -498,6 +498,7 @@
  category_support_artillery:0 "全ての支援砲兵中隊"
  category_artillery:0 "牽引式野砲＆ロケット砲"
  category_anti_air:0 "牽引式対空砲"
+ category_infantry_and_bicycle:0 "歩兵と自転車大隊"
  modifier_unit_amphibious_light_armor_design_cost_factor: "水陸両用軽戦車ユニット設計コスト"
  modifier_unit_amphibious_medium_armor_design_cost_factor: "水陸両用中戦車ユニット設計コスト"
  modifier_unit_amphibious_heavy_armor_design_cost_factor: "水陸両用重戦車ユニット設計コスト"

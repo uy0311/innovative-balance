@@ -1169,7 +1169,7 @@ technologies = {
 		}
 		
 		rocket_artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		rocket_artillery_brigade = {
 			soft_attack = 0.10
@@ -1218,7 +1218,7 @@ technologies = {
 		}
 		
 		rocket_artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		rocket_artillery_brigade = {
 			soft_attack = 0.10
@@ -1273,7 +1273,7 @@ technologies = {
 		}
 		
 		rocket_artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		rocket_artillery_brigade = {
 			soft_attack = 0.10

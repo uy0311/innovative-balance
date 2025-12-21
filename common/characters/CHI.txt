@@ -249,7 +249,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { commando ambusher infantry_expert }
+			traits = { commando infantry_leader guerilla_fighter }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
@@ -263,7 +263,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { commando ambusher infantry_expert }
+			traits = { commando infantry_leader guerilla_fighter }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
@@ -277,7 +277,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { commando ambusher infantry_expert }
+			traits = { commando infantry_leader guerilla_fighter }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
@@ -641,6 +641,29 @@ characters={
 		}
 	}
 
+	CHI_chen_shaokuan={
+		name=CHI_chen_shaokuan
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_3"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = CHI_chen_shaokuan
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_entrenchment_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 0.200
+			}
+		}
+	}
+
 	
 	### NAVY CHIEFS ###
 
@@ -682,29 +705,6 @@ characters={
 			}
 			traits = {
 				navy_chief_reform_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 0.200
-			}
-		}
-	}
-
-	CHI_chen_shaokuan={
-		name=CHI_chen_shaokuan
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_asia_3"
-			}
-		}
-		advisor={
-			slot = navy_chief
-			idea_token = CHI_chen_shaokuan
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				navy_chief_decisive_battle_2
 			}
 			cost = 150
 			ai_will_do = {

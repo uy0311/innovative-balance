@@ -229,6 +229,7 @@ ideas = {
 				custom_modifier_tooltip = mobile_warfare_army_spirit_tt
 				hidden_modifier = {
 					unit_infantry_design_cost_factor = -0.66
+					unit_bicycle_battalion_design_cost_factor = -0.66
 					unit_motorized_design_cost_factor = -0.66
 					unit_mechanized_design_cost_factor = -0.66
 
