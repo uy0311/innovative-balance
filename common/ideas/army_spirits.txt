@@ -344,6 +344,7 @@ ideas = {
 				custom_modifier_tooltip = grand_battleplan_army_spirit_tt
 				hidden_modifier = {
 					unit_infantry_design_cost_factor = -0.66
+					unit_bicycle_battalion_design_cost_factor = -0.66
 					unit_marine_design_cost_factor = -1
 					unit_mountaineers_design_cost_factor = -1
 					unit_paratrooper_design_cost_factor = -1
