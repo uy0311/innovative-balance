@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		ib_no_attrition = {
+			allowed = { always = no }
+			cancel = {
+				ROOT = {
+					has_war = yes
+					any_enemy_country = {
+						is_ai = no
+						has_war_with = ROOT
+					}
+				}
+			}
+			picture = generic_supply_depot
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -1
+				experience_gain_army_unit_factor = -1.1
+				custom_modifier_tooltip = war_remove_tt
+			}
+		}
+	}
+}
