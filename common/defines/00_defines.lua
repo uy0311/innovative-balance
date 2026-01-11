@@ -1192,7 +1192,7 @@ NMilitary = {
 
 
 NAir = {
-	AIR_WING_FLIGHT_SPEED_MULT = 0.02,					-- Global speed multiplier for airplanes (affects fe.transferring to another base)
+	AIR_WING_FLIGHT_SPEED_MULT = 200.00,					-- Global speed multiplier for airplanes (affects fe.transferring to another base)
 	AIR_WING_MAX_STATS_ATTACK = 100,					-- Max stats
 	AIR_WING_MAX_STATS_DEFENCE = 100,
 	AIR_WING_MAX_STATS_AGILITY = 100,
