@@ -174,6 +174,12 @@ technologies = {
 			tank_light_two_man_tank_turret
 		}
 
+		enable_subunits = {
+			light_sp_anti_air_brigade
+			light_sp_artillery_brigade
+			light_tank_destroyer_brigade
+		}
+
 		path = {
 			leads_to_tech = advanced_light_tank_chassis
 			research_cost_coeff = 1
@@ -311,6 +317,11 @@ technologies = {
 			medium_tank_destroyer_chassis_1
 			medium_tank_artillery_chassis_1
 			medium_tank_aa_chassis_1
+		}
+		enable_subunits = {
+			medium_sp_anti_air_brigade
+			medium_sp_artillery_brigade
+			medium_tank_destroyer_brigade
 		}
 
 		enable_equipment_modules = {
@@ -543,6 +554,9 @@ technologies = {
 		}
 		enable_subunits = {
 			modern_armor
+			modern_sp_anti_air_brigade
+			modern_sp_artillery_brigade
+			modern_tank_destroyer_brigade
 		}
 
 		on_research_complete = {
@@ -597,7 +611,9 @@ technologies = {
 		}
 
 		enable_subunits = {
-			heavy_armor
+			heavy_sp_anti_air_brigade
+			heavy_sp_artillery_brigade
+			heavy_tank_destroyer_brigade
 		}
 
 		on_research_complete = {
@@ -781,6 +797,9 @@ technologies = {
 
 		enable_subunits = {
 			super_heavy_armor
+			super_heavy_sp_anti_air_brigade
+			super_heavy_sp_artillery_brigade
+			super_heavy_tank_destroyer_brigade
 		}
 
 		enable_equipment_modules = {
