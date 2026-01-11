@@ -667,16 +667,6 @@ equipments = {
 					tank_special_module
 				}
 			}
-			
-			special_type_slot_2 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_turret_module
-					tank_special_ammo_module
-					tank_special_module
-				}
-			}
 		}
 
 		upgrades = {
@@ -684,8 +674,8 @@ equipments = {
 			tank_reliability_upgrade
 		}
 		maximum_speed = 4
-		build_cost_ic = 100
-		reliability = 0.55
+		build_cost_ic = 4.5
+		reliability = 0.00
 		armor_value = 20
 		resources = {
 			steel = 1
@@ -1218,16 +1208,6 @@ equipments = {
 					tank_special_module
 				}
 			}
-
-			#special_type_slot_3 = {
-			#	required = no
-			#	allowed_module_categories = {
-			#		tank_special_armor_module
-			#		tank_special_turret_module
-			#		tank_special_ammo_module
-			#		tank_special_module
-			#	}
-			#}
 		}
 
 		upgrades = {

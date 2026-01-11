@@ -93,7 +93,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 0
 		start_year = 1936
 		folder = {
 			name = support_folder
@@ -309,7 +309,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 0
 		start_year = 1936
 		folder = {
 			name = support_folder
@@ -546,7 +546,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 0
 		start_year = 1936
 		folder = {
 			name = support_folder
@@ -705,7 +705,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 0
 		start_year = 1936
 		folder = {
 			name = support_folder
@@ -878,7 +878,7 @@ technologies = {
 			motorised_infantry = 1
 		}
 
-		research_cost = 2
+		research_cost = 0
 		start_year = 1936
 		folder = {
 			name = support_folder
@@ -1054,7 +1054,7 @@ technologies = {
 			motorised_infantry = 1
 		}
 
-		research_cost = 2
+		research_cost = 0
 		start_year = 1936
 		folder = {
 			name = support_folder
@@ -1242,7 +1242,7 @@ technologies = {
 			motorised_infantry = 1
 		}
 
-		research_cost = 2
+		research_cost = 0
 		start_year = 1936
 		folder = {
 			name = support_folder

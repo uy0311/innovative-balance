@@ -120,13 +120,15 @@ sub_units = {
 			defence = -0.1
 		}
 		marsh = {
-			attack = 0.3
+			attack = -0.1
+			movement = -0.1
 		}
 		river = {
-			attack = 0.3
+			attack = -0.2
+			movement = -0.2
 		}
 		amphibious = {
-			attack = 16.5
+			attack = -0.4
 		}	
 	}
 
@@ -187,14 +189,16 @@ sub_units = {
 			defence = -0.1
 		}
 		marsh = {
-			attack = 0.3
+			attack = -0.1
+			movement = -0.1
 		}
 		river = {
-			attack = 0.3
+			attack = -0.2
+			movement = -0.2
 		}
 		amphibious = {
-			attack = 16.5
-		}	
+			attack = -0.7
+		}
 	}
 
 	amphibious_heavy_armor = {

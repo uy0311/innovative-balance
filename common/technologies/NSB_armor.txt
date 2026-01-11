@@ -38,6 +38,8 @@ technologies = {
 			tank_light_one_man_tank_turret
 			tank_medium_one_man_tank_turret
 			expanded_fuel_tank
+			flamethrower
+			amphibious_drive
 		}
 		enable_subunits = {
 			light_armor
@@ -112,7 +114,9 @@ technologies = {
 		}
 
 		enable_subunits = {
-			light_armor
+			light_sp_anti_air_brigade
+			light_sp_artillery_brigade
+			light_tank_destroyer_brigade
 		}
 
 		on_research_complete = {
@@ -172,12 +176,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_light_two_man_tank_turret
-		}
-
-		enable_subunits = {
-			light_sp_anti_air_brigade
-			light_sp_artillery_brigade
-			light_tank_destroyer_brigade
 		}
 
 		path = {
