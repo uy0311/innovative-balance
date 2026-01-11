@@ -20,6 +20,8 @@ on_actions = {
                     NOT = { tag = MEX tag = LUX }
                 }
                 add_ideas = ib_no_attrition
+
+                load_oob = "IB_general_1936"
             }
         }
     }

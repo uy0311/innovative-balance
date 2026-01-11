@@ -28,10 +28,10 @@ technologies = {
 			infantry
 			bicycle_battalion
 			marine
-		#	marine_commando
+			marine_commando
 			paratrooper
 			mountaineers
-		#	rangers_support
+			rangers_support
 		}
 
 		on_research_complete = {
@@ -1376,7 +1376,7 @@ technologies = {
 			custom_effect_tooltip = tcl_cat_armored_cars_tt
 		}
 
-		research_cost = 2
+		research_cost = 0
 		start_year = 1914
 		folder = {
 			name = infantry_folder

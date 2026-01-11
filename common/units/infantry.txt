@@ -202,33 +202,7 @@ sub_units = {
 		need = {
 			infantry_equipment = 200
 		}
-
-		forest = {
-			attack = 0.10
-			defence = 0.05
-		}
-		jungle = {
-			attack = 0.70
-			defence = 0.35
-		}
-		hills = {
-			attack = 0.40
-			defence = 0.20
-		}
-		mountain = {
-			attack = 0.70
-			defence = 0.35
-		}
-		marsh = {
-			attack = 0.3
-			defence = 0.15
-		}
-		river = {
-			attack = 0.3
-		}
-		amphibious = {
-			attack = 1.5
-		}
+		
 	}
 	
 	mountaineers = {
@@ -387,22 +361,6 @@ sub_units = {
 
 		need = {
 			infantry_equipment = 160
-		}
-
-		forest = {
-			attack = 0.20
-			defence = 0.10
-			movement = 0.1
-		}
-		jungle = {
-			attack = 0.7
-			defence = 0.35
-			movement = 0.2
-		}
-		urban = {
-			attack = 0.2
-			defence = 0.10
-			movement = 0.05
 		}
 
 	}
