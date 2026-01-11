@@ -222,6 +222,7 @@ ideas = {
 		}
 
 		mobile_warfare_army_spirit = {
+			visible = { always = no }
 			available = { has_tech = mobile_warfare }
 			ledger = army
 			cost = 0
@@ -269,6 +270,7 @@ ideas = {
 		}
 
 		superior_firepower_army_spirit = {
+			visible = { always = no }
 			available = { has_tech = superior_firepower  }
 			ledger = army
 			cost = 0
@@ -337,6 +339,7 @@ ideas = {
 		}
 
 		grand_battleplan_army_spirit = {
+			visible = { always = no }
 			available = { has_tech = trench_warfare }
 			ledger = army
 			cost = 0
@@ -404,8 +407,9 @@ ideas = {
 		}
 
 		mass_assault_army_spirit = {
-			ledger = army
+			visible = { always = no }
 			available = { has_tech = mass_assault }
+			ledger = army
 			cost = 0
 			modifier = {
 				custom_modifier_tooltip = mass_assault_army_spirit_tt

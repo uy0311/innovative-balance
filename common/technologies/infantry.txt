@@ -28,8 +28,10 @@ technologies = {
 			infantry
 			bicycle_battalion
 			marine
+		#	marine_commando
 			paratrooper
 			mountaineers
+		#	rangers_support
 		}
 
 		on_research_complete = {
@@ -1065,6 +1067,9 @@ technologies = {
 
 		enable_subunits = {
 			motorized
+			mechanized
+			amphibious_mechanized
+			armored_car
 		}
 
 		enable_equipments = {
@@ -1161,10 +1166,6 @@ technologies = {
 	}
 
 	mechanised_infantry = {
-
-		enable_subunits = {
-			mechanized
-		}
 
 		enable_equipments = {
 			mechanized_equipment_1
@@ -1299,10 +1300,6 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 
-		enable_subunits = {
-			amphibious_mechanized
-		}
-
 		on_research_complete = {
 			custom_effect_tooltip = tcl_mechanised_equipment_tt
 		}
@@ -1370,10 +1367,6 @@ technologies = {
 	}
 	
 	armored_car1 = {
-
-		enable_subunits = {
-			armored_car
-		}
 
 		enable_equipments = {
 			armored_car_tank_chassis_1

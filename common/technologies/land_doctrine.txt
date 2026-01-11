@@ -1425,6 +1425,71 @@ technologies = {
 		category_front_line = {
 			hard_attack = 0.10
 		}
+
+		recon = {
+			battalion_mult = {
+				category = category_support_artillery
+				initiative = 0.02
+				add = yes
+			}
+			battalion_mult = {
+				category = category_line_artillery
+				initiative = 0.01
+				add = yes
+			}
+		}
+
+		mot_recon = {
+			battalion_mult = {
+				category = category_support_artillery
+				initiative = 0.02
+				add = yes
+			}
+			battalion_mult = {
+				category = category_line_artillery
+				initiative = 0.01
+				add = yes
+			}
+		}
+
+		armored_car_recon = {
+			battalion_mult = {
+				category = category_support_artillery
+				initiative = 0.02
+				add = yes
+			}
+			battalion_mult = {
+				category = category_line_artillery
+				initiative = 0.01
+				add = yes
+			}
+		}
+
+		light_tank_recon = {
+			battalion_mult = {
+				category = category_support_artillery
+				initiative = 0.02
+				add = yes
+			}
+			battalion_mult = {
+				category = category_line_artillery
+				initiative = 0.01
+				add = yes
+			}
+		}
+
+		airborne_light_armor = {
+			battalion_mult = {
+				category = category_support_artillery
+				initiative = 0.02
+				add = yes
+			}
+			battalion_mult = {
+				category = category_line_artillery
+				initiative = 0.01
+				add = yes
+			}
+		}
 		
 		enable_tactic = tactic_blitz
 
@@ -3292,7 +3357,7 @@ technologies = {
 		armored_car_recon = {
 			battalion_mult = {
 				category = category_light_infantry
-				initiative = 0.02
+				initiative = 0.01
 				add = yes
 			}
 		}
@@ -3300,7 +3365,7 @@ technologies = {
 		light_tank_recon = {
 			battalion_mult = {
 				category = category_light_infantry
-				initiative = 0.02
+				initiative = 0.01
 				add = yes
 			}
 		}
@@ -3308,7 +3373,7 @@ technologies = {
 		airborne_light_armor = {
 			battalion_mult = {
 				category = category_light_infantry
-				initiative = 0.02
+				initiative = 0.01
 				add = yes
 			}
 		}
