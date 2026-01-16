@@ -1159,24 +1159,8 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "tankammo_tech_1_tree"
-				position = { x = 36% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
 				name = "cannon_tech_1_tree"
 				position = { x = 43% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "tankother_tree"
-				position = { x = 22% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"

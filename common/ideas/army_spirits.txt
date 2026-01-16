@@ -558,6 +558,13 @@ ideas = {
 				amphibious_mechanized_equipment = {
 					reliability = 0.20 instant = yes	}
 
+				mio_cat_eq_all_tank_artillerys = {
+					reliability = 0.20 instant = yes	}
+				mio_cat_eq_all_tank_destroyers = {
+					reliability = 0.20 instant = yes	}
+				mio_cat_eq_all_tank_antiairs = {
+					reliability = 0.20 instant = yes	}
+
 			}
 			modifier = {
 				tactic_barrage_preferred_weight_factor = 1
