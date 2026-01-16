@@ -317,28 +317,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_tankammo_tech_1_medium"
-		textureFile = "gfx/interface/technologies/tankammo_2.dds"
-	}
-
-	spriteType = {
-		name = "GFX_tankammo_tech_2_medium"
-		textureFile = "gfx/interface/technologies/tankammo_1.dds"
-	}
-
-	spriteType = {
-		name = "GFX_tankammo_tech_3_medium"
-		textureFile = "gfx/interface/technologies/tankammo_3.dds"
-	}
-
-	spriteType = {
 		name = "GFX_cannon_tech_1_medium"
 		textureFile = "gfx/interface/technologies/cannon_tech_1.dds"
-	}
-
-	spriteType = {
-		name = "GFX_cannon_tech_2_medium"
-		textureFile = "gfx/interface/technologies/cannon_tech_2.dds"
 	}
 
 	spriteType = {
@@ -346,20 +326,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/cannon_tech_3.dds"
 	}
 
-	spriteType = {
-		name = "GFX_tankother_medium"
-		textureFile = "gfx/interface/technologies/tankother.dds"
-	}
 
-	spriteType = {
-		name = "GFX_tankother_2_medium"
-		textureFile = "gfx/interface/technologies/tankother_2.dds"
-	}
-
-	spriteType = {
-		name = "GFX_tankother_3_medium"
-		textureFile = "gfx/interface/technologies/tankother_3.dds"
-	}
 
  ### air_modules ###
 

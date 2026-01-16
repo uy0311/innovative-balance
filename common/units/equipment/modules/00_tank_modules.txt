@@ -10,8 +10,8 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.5
 			fuel_consumption = 2
-			breakthrough = 2
-			defense = 1
+			breakthrough = 4
+			defense = 4
 		}
 		multiply_stats = {
 			maximum_speed = 0.60
@@ -27,8 +27,8 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.5
 			fuel_consumption = 2
-			breakthrough = 2
-			defense = 1
+			breakthrough = 4
+			defense = 4
 		}
 		multiply_stats = {
 			maximum_speed = 1.60
@@ -44,8 +44,8 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.5
 			fuel_consumption = 2
-			breakthrough = 1
-			defense = 0.5
+			breakthrough = 2
+			defense = 2
 		}
 		multiply_stats = {
 			maximum_speed = 0.20
@@ -61,8 +61,8 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.5
 			fuel_consumption = 2
-			breakthrough = 1
-			defense = 0.5
+			breakthrough = 2
+			defense = 2
 		}
 		multiply_stats = {
 			maximum_speed = 1.20
@@ -78,8 +78,8 @@ equipment_modules = {
 		add_stats = {
 			fuel_consumption = 1.5
 			build_cost_ic = 0.75
-			breakthrough = 4
-			defense = 2
+			breakthrough = 8
+			defense = 8
 		}
 		multiply_stats = {
 			reliability = -0.30
@@ -94,8 +94,8 @@ equipment_modules = {
 		add_stats = {
 			fuel_consumption = 1.5
 			build_cost_ic = 0.75
-			breakthrough = 4
-			defense = 2
+			breakthrough = 8
+			defense = 8
 		}
 		multiply_stats = {
 			maximum_speed = 1.00
@@ -111,8 +111,8 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.75
 			fuel_consumption = 4
-			breakthrough = 3
-			defense = 1.5
+			breakthrough = 6
+			defense = 6
 		}
 
 		multiply_stats = {
@@ -129,8 +129,8 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.75
 			fuel_consumption = 4
-			breakthrough = 3
-			defense = 1.5
+			breakthrough = 6
+			defense = 6
 		}
 
 		multiply_stats = {
@@ -306,8 +306,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.5
-			breakthrough = 1
-			defense = 0.5
+			breakthrough = 2
+			defense = 2
 		}
 		multiply_stats = {
 			maximum_speed = 0.20
@@ -335,8 +335,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.5
-			breakthrough = 2
-			defense = 1
+			breakthrough = 4
+			defense = 4
 		}
 		multiply_stats =  {
 			maximum_speed = 0.00
@@ -391,8 +391,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.7
-			breakthrough = 10
-			defense = 5
+			breakthrough = 12
+			defense = 6
 			soft_attack = 1.5
 			max_strength = 0.3
 		}
@@ -417,8 +417,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.0
-			breakthrough = 16
-			defense = 8
+			breakthrough = 18
+			defense = 9
 			soft_attack = 1.5
 			max_strength = 0.6
 		}
@@ -443,8 +443,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.3
-			breakthrough = 20
-			defense = 10
+			breakthrough = 22
+			defense = 11
 			soft_attack = 1.5
 			max_strength = 0.9
 		}
@@ -469,8 +469,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.6
-			breakthrough = 22
-			defense = 11
+			breakthrough = 24
+			defense = 12
 			soft_attack = 5
 			hard_attack = 2
 			air_attack = 2
@@ -503,13 +503,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 10
-			max_strength = 0.6
+			defense = 11
+			max_strength = 0.625
 		}
 
 		multiply_stats = {
 			armor_value = 0.15
-			reliability = 0.1
+			reliability = 0.20
 		}
 
 	}
@@ -533,13 +533,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 10
-			max_strength = 0.6
+			defense = 11
+			max_strength = 0.625
 		}
 
 		multiply_stats = {
 			armor_value = 0.15
-			reliability = 0.1
+			reliability = 0.20
 		}
 
 	}
@@ -557,8 +557,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.4
-			breakthrough = 14
-			defense = 7
+			breakthrough = 18
+			defense = 9
 			soft_attack = 1.5
 			max_strength = 0.285
 		}
@@ -583,8 +583,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.8
-			breakthrough = 18
-			defense = 9
+			breakthrough = 22
+			defense = 11
 			soft_attack = 1.5
 			max_strength = 0.57
 		}
@@ -608,8 +608,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 2.2
-			breakthrough = 22
-			defense = 11
+			breakthrough = 26
+			defense = 13
 			soft_attack = 1.5
 			max_strength = 0.855
 		}
@@ -634,8 +634,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 2.5
-			breakthrough = 24
-			defense = 12
+			breakthrough = 28
+			defense = 14
 			soft_attack = 5
 			hard_attack = 2
 			air_attack = 2
@@ -667,13 +667,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 11
-			max_strength = 0.57
+			defense = 13
+			max_strength = 0.60
 		}
 
 		multiply_stats = {
-			reliability = 0.1
 			armor_value = 0.15
+			reliability = 0.20
 		}
 
 	}
@@ -696,13 +696,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 11
-			max_strength = 0.57
+			defense = 13
+			max_strength = 0.60
 		}
 
 		multiply_stats = {
 			armor_value = 0.15
-			reliability = 0.1
+			reliability = 0.20
 		}
 
 	}
@@ -724,13 +724,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 11
-			max_strength = 0.57
+			defense = 13
+			max_strength = 0.60
 		}
 
 		multiply_stats = {
 			armor_value = 0.15
-			reliability = 0.1
+			reliability = 0.20
 		}
 
 	}
@@ -749,8 +749,8 @@ equipment_modules = {
 		xp_cost = 0#2
 		add_stats = {
 			build_cost_ic = 3.2
-			breakthrough = 18
-			defense = 9
+			breakthrough = 22
+			defense = 11
 			soft_attack = 1.5
 			max_strength = 0.53
 		}
@@ -775,8 +775,8 @@ equipment_modules = {
 		xp_cost = 0#2
 		add_stats = {
 			build_cost_ic = 3.7
-			breakthrough = 22
-			defense = 11
+			breakthrough = 26
+			defense = 13
 			soft_attack = 1.5
 			max_strength = 0.8
 		}
@@ -802,8 +802,8 @@ equipment_modules = {
 		xp_cost = 0#2
 		add_stats = {
 			build_cost_ic = 4.0
-			breakthrough = 24
-			defense = 12
+			breakthrough = 28
+			defense = 14
 			soft_attack = 5
 			hard_attack = 2
 			air_attack = 2
@@ -834,13 +834,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 11
-			max_strength = 0.53
+			defense = 13
+			max_strength = 0.57
 		}
 
 		multiply_stats = {
 			armor_value = 0.15
-			reliability = 0.1
+			reliability = 0.20
 		}
 
 	}
@@ -862,13 +862,13 @@ equipment_modules = {
 
 		xp_cost = 0#2
 		add_stats = {
-			defense = 11
-			max_strength = 0.53
+			defense = 13
+			max_strength = 0.57
 		}
 
 		multiply_stats = {
 			armor_value = 0.15
-			reliability = 0.1
+			reliability = 0.20
 		}
 
 	}
@@ -885,8 +885,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 6.2
-			breakthrough = 24
-			defense = 12
+			breakthrough = 28
+			defense = 14
 			soft_attack = 1.5
 			max_strength = 0.8
 		}
@@ -910,8 +910,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 6.5
-			breakthrough = 26
-			defense = 13
+			breakthrough = 30
+			defense = 15
 			soft_attack = 5
 			hard_attack = 2
 			air_attack = 2
@@ -937,8 +937,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 7.2
-			breakthrough = 35
-			defense = 17.5
+			breakthrough = 38
+			defense = 19
 			soft_attack = 1.5
 			max_strength = 1.06
 		}
@@ -962,8 +962,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 7.5
-			breakthrough = 36
-			defense = 18
+			breakthrough = 40
+			defense = 20
 			soft_attack = 5
 			hard_attack = 2
 			air_attack = 2
@@ -989,8 +989,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 3.7
-			breakthrough = 24
-			defense = 12
+			breakthrough = 28
+			defense = 14
 			soft_attack = 1.5
 			max_strength = 0.855
 		}
@@ -1014,8 +1014,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 4.0
-			breakthrough = 26
-			defense = 13
+			breakthrough = 30
+			defense = 15
 			soft_attack = 5
 			hard_attack = 2
 			air_attack = 2
@@ -1974,9 +1974,9 @@ equipment_modules = {
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			hardness = 0.10
+			breakthrough = 0.075
+			hardness = 0.075
 			maximum_speed = -0.04
-			breakthrough = 0.1
 			defense = 0.1
 		}
 	}
@@ -2014,7 +2014,7 @@ equipment_modules = {
 
 	squeezebore_adaptor = {
 		abbreviation = "sque"
-		category = tank_special_turret_module
+		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = flame
 		forbid_equipment_type = anti_air
@@ -2036,7 +2036,7 @@ equipment_modules = {
 
 	auto_loader = {
 		abbreviation = "auto"
-		category = tank_special_turret_module
+		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2055,7 +2055,7 @@ equipment_modules = {
 
 	extra_ammo_storage = {
 		abbreviation = "extra"
-		category = tank_special_ammo_module
+		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2144,7 +2144,7 @@ equipment_modules = {
 		}
 		xp_cost = 0#1
 		multiply_stats = {
-			reliability = -0.10
+			defense = -0.20
 		}
 	}
 
