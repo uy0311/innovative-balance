@@ -312,7 +312,7 @@ tactic_tw_defend = {
 	picture = tw_defend
 	display_phase = tactical_withdrawal
 	
-	combat_width = -0.25		
+	combat_width = -0.25
 	attacker = -0.3
 	defender = -0.05
 }

@@ -1,3 +1,6 @@
+#cat_old_naval_doctrine_cost_factor as modifier
+#cat_old_naval_doctrine as technology tag for category for add_doctrine_cost_reduction
+#Check technology tags
 technologies = {
 
 	fleet_in_being = {
@@ -48,13 +51,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
 		
@@ -94,13 +97,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -1 y = 2 }
 		}
 		
@@ -148,13 +151,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -1 y = 4 }
 		}
 		
@@ -171,14 +174,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -217,13 +212,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -1 y = 6 }
 		}
 		
@@ -236,14 +231,6 @@ technologies = {
 			modifier = {
 				tag = ENG
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -277,26 +264,18 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -1 y = 8 }
 		}
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -331,13 +310,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -1 y = 10 }
 		}
 		
@@ -350,14 +329,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -389,14 +360,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			convoy_defense_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 1 y = 2 }
 		}
 		
@@ -446,14 +417,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			convoy_defense_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 1 y = 4 }
 		}
 		
@@ -471,14 +442,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -506,14 +469,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			fleet_in_being_tree
 			convoy_defense_tree
 			cat_fleet_in_being
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 1 y = 6 }
 		}
 		
@@ -531,14 +494,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -596,14 +551,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
 		
@@ -652,14 +607,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 2 }
 		}
 		
@@ -677,14 +632,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -718,14 +665,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 4 }
 		}
 		
@@ -743,14 +690,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -781,14 +720,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 6 }
 		}
 		
@@ -806,14 +745,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -856,14 +787,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
 		}
 
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 8 }
 		}
 		
@@ -881,14 +812,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -928,13 +851,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -2 y = 2 }
 		}
 		
@@ -979,26 +902,18 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -2 y = 4 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -1031,13 +946,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 0 y = 2 }
 		}
 		
@@ -1082,13 +997,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 0 y = 4 }
 		}
 		
@@ -1138,12 +1053,12 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			cat_base_strike
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
 		
@@ -1197,13 +1112,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 2 }
 		}
 		
@@ -1266,13 +1181,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 4 }
 		}
 		
@@ -1296,10 +1211,6 @@ technologies = {
 					has_war_with = USA
 				}
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
 			}
 			modifier = {
 				has_navy_experience > 120
@@ -1336,13 +1247,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 6 }
 		}
 		
@@ -1370,14 +1281,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 4
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -1413,14 +1316,14 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
 
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 8 }
 		}
 		
@@ -1437,14 +1340,6 @@ technologies = {
 					tag = JAP
 				}
 				factor = 2.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 			modifier = {
 				OR = {
@@ -1487,13 +1382,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
 
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 2 y = 10 }
 		}
 		
@@ -1517,14 +1412,6 @@ technologies = {
 					has_war_with = USA
 				}
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 			modifier = {
 				has_navy_experience > 120
@@ -1563,12 +1450,12 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			cat_base_strike
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = 0 y = 2 }
 		}
 		
@@ -1585,14 +1472,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -1629,13 +1508,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			convoy_defense_tree
 			cat_base_strike
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -2 y = 2 }
 		}
 		
@@ -1652,14 +1531,6 @@ technologies = {
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
 			}
 		}
 		
@@ -1694,13 +1565,13 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			naval_doctrine
+			cat_old_naval_doctrine
 			convoy_defense_tree
 			cat_base_strike
 		}
 		
 		folder = {
-			name = naval_doctrine_folder
+			name = old_naval_doctrine_folder
 			position = { x = -2 y = 4 }
 		}
 		

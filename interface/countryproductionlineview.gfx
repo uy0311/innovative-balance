@@ -245,6 +245,7 @@ spriteTypes = {
 		name = "GFX_naval_deploy_button"
 		textureFile = "gfx//interface//naval_deploy_button.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_naval_name_list_button"
 		textureFile = "gfx//interface//naval_name_list_button.dds"
