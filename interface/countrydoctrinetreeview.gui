@@ -13,6 +13,80 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "land_doctrine_folder"
+		}
+		
+		containerWindowType = {
+			name = "special_forces_doctrine_folder_no_aat"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 40
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "special_forces_rangers_background_window"
+				position = { x = -225 y = 33 }
+				orientation = center_up
+
+				iconType = {
+					name ="rangers_bg"
+					spriteType = "GFX_rangers_bg"
+					position = { x=0 y=0 }
+					orientation = UPPER_LEFT
+				}
+
+				instantTextBoxType = {
+					name = "rangers_title"
+					position = { x = 30 y = 2 }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "RANGERS_DOCTRINE_LABEL"
+					maxWidth = 400
+					maxHeight = 122
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "rangers_desc"
+					position = { x = 50 y = 57 }
+					textureFile = ""
+					font = "hoi_20b"
+					borderSize = {x = 0 y = 4}
+					text = "RANGERS_DOCTRINE_DESC"
+					maxWidth = 350
+					maxHeight = 122
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+			}
+
+			gridboxtype = {
+				name = "special_forces_rangers_tree"
+				position = { x=-235 y=172 }
+				orientation = center_up
+				size = { width = 478 height = 1000 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }
+				}
+			}
+		}
+		
+		containerWindowType = {
+			name = "old_land_doctrine_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
@@ -37,18 +111,21 @@ guiTypes = {
 				name ="mob_warfare_bg"
 				spriteType = "GFX_mob_warfare_bg"
 				position = { x=85 y=33 }
+				orientation = UPPER_LEFT
 			}			
 				
 			iconType = {
 				name ="sup_firepower_bg"
 				spriteType = "GFX_sup_firepower_bg"
 				position = { x=575 y=33 }
+				orientation = UPPER_LEFT
 			}	
 	
 			iconType = {
 				name ="grand_battleplan_bg"
 				spriteType = "GFX_grand_battleplan_bg"
 				position = { x=1050 y=33 }
+				orientation = UPPER_LEFT
 			}
 
 			iconType = {
@@ -63,6 +140,7 @@ guiTypes = {
 				name ="mass_assault_bg"
 				spriteType = "GFX_mass_assault_bg"
 				position = { x=1535 y=33 }
+				orientation = UPPER_LEFT
 			}		
 			
 			instantTextBoxType = {
@@ -515,6 +593,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "naval_doctrine_folder"
+		}
+		containerWindowType = {
+			name = "old_naval_doctrine_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
@@ -538,18 +619,21 @@ guiTypes = {
 				name ="fleet_in_being_bg"
 				spriteType = "GFX_fleet_in_being_bg"
 				position = { x=85 y=33 }
+				orientation = UPPER_LEFT
 			}			
 				
 			iconType = {
 				name ="trade_interdiction_bg"
 				spriteType = "GFX_trade_interdiction_bg"
 				position = { x=575 y=33 }
+				orientation = UPPER_LEFT
 			}	
 	
 			iconType = {
 				name ="base_strike_bg"
 				spriteType = "GFX_base_strike_bg"
 				position = { x=1052 y=33 }
+				orientation = UPPER_LEFT
 			}			
 			
 			instantTextBoxType = {
@@ -676,6 +760,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air_doctrine_folder"
+		}
+		containerWindowType = {
+			name = "old_air_doctrine_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
@@ -695,7 +782,7 @@ guiTypes = {
 				size = { width = 1440 height = 1482 }	
 			}
 
-			iconType = {
+			iconType = { ###空軍ドクトリン背景###
 				name ="air_doctrine_bg"
 				spriteType = "GFX_air_doctrine_bg"
 				position = { x=85 y=33 }
@@ -962,6 +1049,13 @@ guiTypes = {
 	
 			buttonType = {
 				name = "land_doctrine_folder_tab"
+				position = { x = -10000 y = 0 }
+				quadTextureSprite = "GFX_landdoctrine_tab_large"
+				frame = 1
+				clicksound = ui_doctrine_tab_land
+			}
+			buttonType = {
+				name = "old_land_doctrine_folder_tab"
 				position = { x = -250 y = 0 }
 				quadTextureSprite = "GFX_landdoctrine_tab_large"
 				frame = 1
@@ -986,6 +1080,13 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "naval_doctrine_folder_tab"
+				position = { x = -10000 y = 0 }
+				quadTextureSprite = "GFX_navaldoctrine_tab_large"
+				frame = 1
+				clicksound = ui_doctrine_tab_naval
+			}
+			buttonType = {
+				name = "old_naval_doctrine_folder_tab"
 				position = { x = 0 y = 0 }
 				quadTextureSprite = "GFX_navaldoctrine_tab_large"
 				frame = 1
@@ -1003,6 +1104,13 @@ guiTypes = {
 			}			
 			buttonType = {
 				name = "air_doctrine_folder_tab"
+				position = { x = -10000 y = 0 }
+				quadTextureSprite = "GFX_airdoctrine_tab_large"
+				frame = 1
+				clicksound = ui_doctrine_tab_air
+			}
+			buttonType = {
+				name = "old_air_doctrine_folder_tab"
 				position = { x = 250 y = 0 }
 				quadTextureSprite = "GFX_airdoctrine_tab_large"
 				frame = 1
@@ -1050,7 +1158,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "techtree_land_doctrine_folder_item"
+		name = "techtree_old_land_doctrine_folder_item"
 		position = { x=0 y=5 }
 		size = { width = 72 height = 72 }
 		clipping = no
@@ -1086,7 +1194,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "techtree_naval_doctrine_folder_item"
+		name = "techtree_old_naval_doctrine_folder_item"
 		position = { x=0 y=5 }
 		size = { width = 72 height = 72 }
 		clipping = no
@@ -1122,7 +1230,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "techtree_air_doctrine_folder_item"
+		name = "techtree_old_air_doctrine_folder_item"
 		position = { x=0 y=5 }
 		size = { width = 72 height = 72 }
 		clipping = no

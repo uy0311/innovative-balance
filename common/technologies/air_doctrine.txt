@@ -1,3 +1,6 @@
+#cat_old_air_doctrine_cost_factor as modifier
+#cat_old_air_doctrine as technology tag for category for add_doctrine_cost_reduction
+#Check technology tags
 technologies = {
 
 	air_superiority = {
@@ -43,7 +46,7 @@ technologies = {
 		}
 	
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_battlefield_support
 			cat_strategic_destruction
 			cat_operational_integrity
@@ -51,7 +54,7 @@ technologies = {
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
 	}
@@ -73,13 +76,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -8 y = 2 }
 		}
 	}
@@ -103,13 +106,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -8 y = 4 }
 		}
 	}	
@@ -133,13 +136,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -8 y = 6 }
 		}
 	}
@@ -163,13 +166,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -8 y = 8 }
 		}
 	}
@@ -193,13 +196,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -8 y = 10 }
 		}
 	}
@@ -221,13 +224,13 @@ technologies = {
 		}
 
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -4 y = 2 }
 		}
 	}
@@ -249,13 +252,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -4 y = 4 }
 		}
 	}
@@ -281,13 +284,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -4 y = 6 }
 		}
 	}
@@ -313,13 +316,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -6 y = 8 }
 		}
 	}
@@ -345,13 +348,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -2 y = 8 }
 		}
 	}
@@ -373,13 +376,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -4 y = 10 }
 		}
 	}
@@ -401,12 +404,12 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_coordinated_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -2 y = 3 }
 		}
 	}
@@ -423,12 +426,12 @@ technologies = {
 		###########
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_coordinated_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -2 y = 5 }
 		}
 		
@@ -451,12 +454,12 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_coordinated_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 2 y = 3 }
 		}
 	}	
@@ -473,12 +476,12 @@ technologies = {
 		###########
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_coordinated_support
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 2 y = 5 }
 		}
 	}
@@ -500,13 +503,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 4 y = 2 }
 		}
 	}
@@ -529,13 +532,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 4 y = 4 }
 		}
 	}
@@ -569,13 +572,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 4 y = 6 }
 		}
 	}
@@ -609,13 +612,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 2 y = 8 }
 		}
 	}
@@ -649,13 +652,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 6 y = 8 }
 		}
 	}
@@ -685,13 +688,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 4 y = 10 }
 		}
 	}
@@ -721,13 +724,13 @@ technologies = {
 		}
 
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 8 y = 2 }
 		}
 	}
@@ -749,13 +752,13 @@ technologies = {
 		}
 
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 8 y = 4 }
 		}
 	}
@@ -785,13 +788,13 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 8 y = 6 }
 		}
 	}
@@ -821,13 +824,13 @@ technologies = {
 		}
 
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 8 y = 8 }
 		}
 	}
@@ -864,13 +867,13 @@ technologies = {
 		}
 
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 8 y = 10 }
 		}
 	}
@@ -896,12 +899,12 @@ technologies = {
 		}
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_escort_combat
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 0 y = 12 }
 		}
 	}
@@ -918,12 +921,12 @@ technologies = {
 		###########
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_escort_combat
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = 2 y = 14 }
 		}
 	}
@@ -940,12 +943,12 @@ technologies = {
 		###########		
 		
 		categories = {
-			air_doctrine
+			cat_old_air_doctrine
 			cat_escort_combat
 		}
 		
 		folder = {
-			name = air_doctrine_folder
+			name = old_air_doctrine_folder
 			position = { x = -2 y = 14 }
 		}
 	}

@@ -696,7 +696,7 @@ guiTypes = {
 			position = {x=301 y=77}
 		}
 
-		buttonType = {
+		buttonType = { ###補給ハブ自動車化ボタン###
 			name = "army_motorization_priority_button"
 			position = {x=305 y=-707}
 			spriteType = "GFX_motorization_level_toggle_btn"
@@ -2682,6 +2682,43 @@ guiTypes = {
 			name = "unit_level"
 			spriteType = "GFX_unit_level"
 			position = { x = 496 y = 38 }
+		}
+		
+		iconType = {
+			name = "dominance_icon"
+			position = {x=20 y=330}
+			spriteType = "GFX_naval_dominance_texticon"
+		}
+
+		instantTextboxType = {
+			name = "dominance_value"
+			position = { x = 50 y = 332 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "0"
+			maxWidth = 300
+			maxHeight = 20
+			format = left
+		}
+		
+		iconType = {
+			name = "support_icon"
+			position = {x=20 y=300}
+			spriteType = "GFX_naval_dominance_support_strip"
+			frame = 2
+		}
+
+		instantTextboxType = {
+			name = "support_value"
+			position = { x = 50 y = 298 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "0"
+			maxWidth = 300
+			maxHeight = 20
+			format = left
 		}
 
 		iconType = {
