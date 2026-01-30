@@ -112,7 +112,7 @@ generic_medium_tank_organization = {
 
 		equipment_bonus = {
 			maximum_speed = 0.05
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 	}
 
@@ -195,7 +195,7 @@ generic_heavy_tank_organization = {
 		
 		equipment_bonus = {
 			reliability = 0.05
-			hard_attack = 0.10
+			hard_attack = 0.05
 			armor_value = 0.10
 		}
 	}
@@ -279,7 +279,7 @@ generic_infantry_tank_organization = {
 		
 		equipment_bonus = {
 			maximum_speed = -0.10
-			soft_attack = 0.10
+			soft_attack = 0.05
 			armor_value = 0.10
 		}
 	}
@@ -409,8 +409,8 @@ generic_tank_organization = {
 		equipment_bonus = {
 			maximum_speed = 0.05
 			reliability = 0.05
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.025
+			hard_attack = 0.025
 			air_attack = 0.1
 		}
 
@@ -2036,8 +2036,8 @@ generic_armored_car_organization = {
 	initial_trait = {
 		name = generic_mio_initial_trait_standardized_production
 		equipment_bonus = {
-			soft_attack = 0.05
-			hard_attack = 0.05
+			breakthrough = 0.10
+			defense = 0.10
 			maximum_speed = 0.30
 			reliability = 0.10
 		}

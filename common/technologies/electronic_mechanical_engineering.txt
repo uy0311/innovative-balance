@@ -407,6 +407,10 @@ technologies = {
 			initiative = 0.01
 		}
 
+		armored_car = {
+			initiative = 0.01
+		}
+
 		on_research_complete = {
 			custom_effect_tooltip = tcl_electronics_tt
 		}
@@ -447,6 +451,11 @@ technologies = {
 			defense = 0.10
 		}
 
+		armored_car = {
+			breakthrough = 0.10
+			defense = 0.10
+		}
+
 		on_research_complete = {
 			custom_effect_tooltip = tcl_electronics_tt
 		}
@@ -483,6 +492,11 @@ technologies = {
 	tank_radio_3 = {
 		
 		category_all_armor = {
+			breakthrough = 0.10
+			defense = 0.10
+		}
+
+		armored_car = {
 			breakthrough = 0.10
 			defense = 0.10
 		}

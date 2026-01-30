@@ -79,7 +79,7 @@ sub_units = {
 			amphibious
 		}
 		
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_all_armor
@@ -145,7 +145,7 @@ sub_units = {
 			amphibious
 		}
 		
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_all_armor
