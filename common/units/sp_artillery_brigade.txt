@@ -13,7 +13,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = armor
 
 		categories = {
 			category_self_propelled_artillery
@@ -82,7 +82,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = armor
 
 		categories = {
 			category_self_propelled_artillery
@@ -154,7 +154,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_self_propelled_artillery
@@ -228,7 +228,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_self_propelled_artillery
@@ -301,7 +301,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_self_propelled_artillery
