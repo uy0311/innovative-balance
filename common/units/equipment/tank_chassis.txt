@@ -1109,14 +1109,6 @@ equipments = {
 				}
 			}
 
-			special_type_slot_3 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_module
-				}
-			}
-
 		}
 
 		default_modules = {
@@ -1126,7 +1118,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 1.6
-		build_cost_ic = 9.5
+		build_cost_ic = 10.0
 		reliability = 0.55
 		armor_value = 80
 		hardness = 0.95
@@ -1197,14 +1189,6 @@ equipments = {
 				}
 			}
 
-			special_type_slot_3 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_armor_module
-					tank_special_module
-				}
-			}
-
 		}
 
 		default_modules = {
@@ -1213,7 +1197,7 @@ equipments = {
 		}
 
 		maximum_speed = 2.0
-		build_cost_ic = 11.0
+		build_cost_ic = 12.0
 		reliability = 0.65
 		armor_value = 135
 		resources = {
@@ -1304,7 +1288,7 @@ equipments = {
 		}
 
 		maximum_speed = 2.0
-		build_cost_ic = 12.0
+		build_cost_ic = 13.0
 		reliability = 0.70
 		armor_value = 155
 		resources = {
