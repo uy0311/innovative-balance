@@ -587,6 +587,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/advanced_centimetric_radar.dds"
 	}
 
+ #nukes_tech#
+	SpriteType = {
+		name = "GFX_thermonuclear_bombs_medium"
+		texturefile = "gfx/interface/technologies/nukes.dds"
+	}
+
 
  #topbar#
 	spriteType = {

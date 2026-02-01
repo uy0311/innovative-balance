@@ -1,56 +1,26 @@
 types = {
 
 	nuclear_strike = {
-		days_to_prepare = 30
+		days_to_prepare = 1
 
 		category = nuclear_raids
 
 		command_power = 20 # command power allocation cost
-		ai_will_do = {
-			base = 1
-			modifier = {
-				# Don't target anyone who is not a potential enemy
-				factor = 0
-				NOT = {
-					is_in_array = {
-						array = potential_and_current_enemies
-						value = FROM  # Target country
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				FROM = {
-					is_major = yes
-				}
-			}
-			modifier = {
-				factor = 5 # Historical bombing of Japan
-				FROM = {
-					original_tag = JAP
-				}
-				original_tag = USA
-				has_war_with = FROM
-			}
-			modifier = {
-				factor = 0.25 # If possible, during peacetime, prepare strikes against the main enemies
-				NOT = { has_war_with = FROM }
-				FROM = { is_major = no }
-			}
-		}
 
 		allowed = {
 			
 		}
 		# Raid Type is visible
 		visible = {
-			is_special_project_completed = sp:sp_nuclear_bomb
+			OR = {
+				is_special_project_completed = sp:sp_nuclear_bomb
+				has_tech = nukes
+			}
 		}
 		# Specific Target is visible
 		show_target = {
-			NOT = {
-				is_in_faction_with = FROM
-			}
+			tag = ROOT
+			is_in_faction_with = ROOT
 		}
 
 		# Can prepare
@@ -58,7 +28,9 @@ types = {
 			#has_war_with = FROM
 		}
 		launchable = {
-			has_war_with = FROM
+			has_war_with = ROOT
+			tag = ROOT
+			is_in_faction_with = ROOT
 		}
 
 		launch_sound = raid_launch_nuclear_strike
@@ -234,39 +206,8 @@ types = {
 	nuclear_missile_strike = {
 		category = nuclear_raids
 
-		days_to_prepare = 14
+		days_to_prepare = 1
 		speed_multiplier = 0.08
-		ai_will_do = {
-			base = 1
-			modifier = {
-				# Don't target anyone who is not a potential enemy
-				factor = 0
-				NOT = {
-					is_in_array = {
-						array = potential_and_current_enemies
-						value = FROM  # Target country
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					original_tag = USA
-					original_tag = SOV
-				}
-			}
-			modifier = {
-				factor = 2
-				FROM = {
-					is_major = yes
-				}
-			}
-			modifier = {
-				factor = 0.25 # If possible, during peacetime, prepare strikes against the main enemies
-				NOT = { has_war_with = FROM }
-				FROM = { is_major = no }
-			}
-		}
 
 		command_power = 5 # command power allocation cost
 
@@ -424,41 +365,9 @@ types = {
 	}
 
 	thermonuclear_strike = {
-		days_to_prepare = 30
+		days_to_prepare = 1
 
 		category = nuclear_raids
-
-		ai_will_do = {
-			base = 1
-			modifier = {
-				# Don't target anyone who is not a potential enemy
-				factor = 0
-				NOT = {
-					is_in_array = {
-						array = potential_and_current_enemies
-						value = FROM  # Target country
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					original_tag = USA
-					original_tag = SOV
-				}
-			}
-			modifier = {
-				factor = 2
-				FROM = {
-					is_major = yes
-				}
-			}
-			modifier = {
-				factor = 0.25 # If possible, during peacetime, prepare strikes against the main enemies
-				NOT = { has_war_with = FROM }
-				FROM = { is_major = no }
-			}
-		}
 
 		command_power = 20 # command power allocation cost
 
@@ -467,13 +376,15 @@ types = {
 		}
 		# Raid Type is visible
 		visible = {
-			is_special_project_completed = sp:sp_thermo_nuclear_bomb
+			OR = {
+				is_special_project_completed = sp:sp_thermo_nuclear_bomb
+				has_tech = thermonuclear_bombs
+			}
 		}
 		# Specific Target is visible
 		show_target = {
-			NOT = {
-				is_in_faction_with = FROM
-			}
+			tag = ROOT
+			is_in_faction_with = ROOT
 		}
 
 		# Can prepare
@@ -481,7 +392,9 @@ types = {
 			#has_war_with = FROM
 		}
 		launchable = {
-			has_war_with = FROM
+			has_war_with = ROOT
+			tag = ROOT
+			is_in_faction_with = ROOT
 		}
 
 		launch_sound = raid_launch_nuclear_strike
@@ -696,7 +609,6 @@ types = {
 			}
 		}
 	}
-
 
 	thermonuclear_missile_strike = {
 		category = nuclear_raids

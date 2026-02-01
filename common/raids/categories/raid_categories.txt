@@ -21,7 +21,7 @@ categories = {
 	    intel_source = air
 	    free_targeting = yes
 		visible = { 
-			has_idea = research_bonus_idea
+			has_tech = atomic_research
 		 }
 	}
 

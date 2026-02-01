@@ -626,7 +626,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.8
+		research_cost = 2.7
 		start_year = 1938
 
 		folder = {
@@ -695,7 +695,7 @@ technologies = {
 			basic_heavy_tank_chassis = 1
 		}
 
-		research_cost = 2.8
+		research_cost = 2.7
 		start_year = 1941
 
 		folder = {
@@ -754,7 +754,7 @@ technologies = {
 			improved_heavy_tank_chassis = 1
 		}
 
-		research_cost = 2.8
+		research_cost = 2.7
 		start_year = 1943
 
 		folder = {
@@ -814,7 +814,7 @@ technologies = {
 			custom_effect_tooltip = tcl_cat_heavy_armor_tt
 		}
 
-		research_cost = 2.5
+		research_cost = 3.0
 		start_year = 1943
 		folder = {
 			name = nsb_armour_folder

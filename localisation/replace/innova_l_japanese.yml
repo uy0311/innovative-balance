@@ -508,6 +508,14 @@
  modifier_unit_marine_commando_design_cost_factor: "海兵隊特殊部隊ユニット設計コスト"
  modifier_unit_airborne_light_armor_design_cost_factor: "海兵隊特殊部隊ユニット設計コスト"
 
+##表示有効桁数変更###
+ UNIT_COMBAT_WIDTH: "戦闘正面幅:  $VALUE|2$"
+ DESIGNER_COMBATWIDTH: "戦闘正面幅:  $VALUE|2$"
+ STAT_ARMY_COMBAT_WIDTH: "戦闘正面幅: "
+ STAT_ARMY_COMBAT_WIDTH_DIFF: " $VALUE|=-2$"
+ COMBAT_WIDTH: "戦闘正面幅: "
+ COMBAT_WIDTH_DIFF: " $VALUE|=-2$"
+
 ##海軍##
  ship_hull_light_1: "1933年型駆逐艦船体"
  ship_hull_light_2: "1938年型駆逐艦船体"

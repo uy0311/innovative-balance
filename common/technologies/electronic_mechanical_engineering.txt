@@ -1260,7 +1260,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -1305,7 +1305,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -1321,7 +1321,7 @@ technologies = {
 	
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 9 }
 		}
 		
 		start_year = 1945
@@ -1467,7 +1467,12 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 7 }
+		}
+
+		path = {
+			leads_to_tech = thermonuclear_bombs 
+			research_cost_coeff = 1
 		}
 		
 		ai_will_do = {
@@ -1479,6 +1484,32 @@ technologies = {
 			nuclear
 		}
 	}
+
+	thermonuclear_bombs = {
+	
+		on_research_complete = {
+			custom_effect_tooltip = tcl_nuclear_tt
+		}
+
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		# TODO_ASD: Enable when code implemented
+		#THERMONUCLEAR_BOMB_PRODUCTION_SCALE = 1
+		thermonuclear_production = 1
+
+		categories = {
+			nuclear
+		}
+	}	
 
 	lar_decryption_bonus_tech = {
 				
