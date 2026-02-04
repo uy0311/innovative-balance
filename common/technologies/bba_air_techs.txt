@@ -319,7 +319,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 1947
 
 		folder = {
 			name = bba_air_techs_folder
@@ -649,7 +649,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1947
 		
 		folder = {
 			name = bba_air_techs_folder
@@ -887,7 +887,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1947
 
 		path = {
 			leads_to_tech = modern_medium_airframe
@@ -906,7 +906,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 6 y = 12 }
+			position = { x = 6 y = 10 }
 		}
 		
 		categories = {
