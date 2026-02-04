@@ -1,0 +1,51 @@
+faction_template_generic = {
+	icon = GFX_faction_logo_generic
+	manifest = faction_manifest_strength_in_unity
+	can_leader_join_other_factions = yes
+	visible = { always = no }# Fallback template, should not be selectable
+	available = { always = yes }
+
+	goals = { }
+
+	default_rules = { government_in_exile_allowed }
+}
+
+faction_template_axis = {
+	name = Axis
+	icon = GFX_faction_logo_axis
+	manifest = faction_manifest_strength_in_unity
+
+	goals = { }
+
+	default_rules = { government_in_exile_allowed }
+}
+
+faction_template_allies = {
+	name = Allies
+	icon = GFX_faction_icon_allies
+	manifest = faction_manifest_strength_in_unity
+
+	goals = { }
+
+	default_rules = { government_in_exile_allowed }
+}
+
+faction_template_comintern = {
+	name = Comintern
+	icon = GFX_faction_logo_comintern
+	manifest = faction_manifest_strength_in_unity
+
+	goals = { }
+
+	default_rules = { government_in_exile_allowed }
+}
+
+faction_template_geacps_faction = {
+	name = JAP_greater_east_asian_co_prosperity_sphere
+	icon = GFX_faction_logo_japanese_co_prosperity_sphere
+	manifest = faction_manifest_strength_in_unity
+
+	goals = { }
+
+	default_rules = { government_in_exile_allowed }
+}

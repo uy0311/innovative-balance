@@ -1,0 +1,8 @@
+change_leader_rule_influence = {
+	type = change_leader_rules
+	trigger = {
+		has_industry_to_become_leader = yes
+		has_manpower_to_become_leader = yes
+	#	has_enough_influence_for_leadership = yes
+	}
+}

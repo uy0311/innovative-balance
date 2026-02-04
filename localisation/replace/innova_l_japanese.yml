@@ -803,3 +803,11 @@
  modifier_production_cost_rocket_site_factor_desc: "ロケット発射場建設コストを補正する。"
  modifier_production_cost_nuclear_reactor_factor: "§Y原子炉§!建設コスト"
  modifier_production_cost_nuclear_reactor_factor_desc: "原子炉建設コストを補正する。"
+
+
+##陣営ローカライズ修正## #localisation/japanese/factions_l_japanese.yml
+ change_leader_rule_influence: "候補者が盟主の工業力及び陸軍力を超過"
+ FACTION_ACCESS_TO_RESEARCH_TAB: "このカテゴリーはロックされています"
+ FACTION_ACCESS_TO_MILITARY_TAB: "このカテゴリーはロックされています" 
+ faction_goal_unlock_research_name: " "
+ faction_goal_unlock_military_name: " "

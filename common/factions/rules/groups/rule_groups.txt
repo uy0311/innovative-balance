@@ -1,0 +1,14 @@
+# LEADER RULES
+
+INFLUENCE_SORT = {
+	rules = {
+		change_leader_rule_influence
+	}
+}
+
+# GIE RULES
+rule_group_gie_rules = {
+	rules = {
+		government_in_exile_allowed
+	}
+}

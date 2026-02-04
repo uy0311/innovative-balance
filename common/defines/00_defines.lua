@@ -255,14 +255,14 @@ NDiplomacy = {
 	FACTION_LEADERSHIP_CHANGE_MANPOWER_WEIGHT = 2,			-- Importance of manpower in field when determining how close a faction member is to being able to assume leadership.
 	FACTION_LEADERSHIP_CHANGE_FACTORY_WEIGHT = 2,			-- Importance of factory count when determining how close a faction member is to being able to assume leadership.
 
-	FACTION_POWER_RESOURCE_WEIGHT = 0.05 ,			--The weight of the country resources on the faction's power projection
+	FACTION_POWER_RESOURCE_WEIGHT = 0 ,			--The weight of the country resources on the faction's power projection
 	FACTION_POWER_INDUSTRY_WEIGHT = 0.1,			--The weight of the industry on the faction's power projection
-	FACTION_POWER_ARMY_WEIGHT = 0.25,				--The weight of the army on the faction's power projection
-	FACTION_POWER_AIR_BOMBER_WEIGHT = 0.25,			--The weight of the bombers on the faction's power projection
-	FACTION_POWER_AIR_WEIGHT = 0.02,				--The weight of the air equipment except bombers on the faction's power projection
-	FACTION_POWER_NAVAL_CAPITAL_SHIP_WEIGHT = 5,	--The weight of the capital ships on the faction's power projection
-	FACTION_POWER_NAVAL_WEIGHT = 0.25,				--The weight of the naval equipment except capital ships on the faction's power projection
-	FACTION_POWER_EFFECTS_WEIGHT = 1,			--The weight of the faction's goal status on the faction's power projection
+	FACTION_POWER_ARMY_WEIGHT = 0,				--The weight of the army on the faction's power projection
+	FACTION_POWER_AIR_BOMBER_WEIGHT = 0,			--The weight of the bombers on the faction's power projection
+	FACTION_POWER_AIR_WEIGHT = 0,				--The weight of the air equipment except bombers on the faction's power projection
+	FACTION_POWER_NAVAL_CAPITAL_SHIP_WEIGHT = 0,	--The weight of the capital ships on the faction's power projection
+	FACTION_POWER_NAVAL_WEIGHT = 0,				--The weight of the naval equipment except capital ships on the faction's power projection
+	FACTION_POWER_EFFECTS_WEIGHT = 0,			--The weight of the faction's goal status on the faction's power projection
 
 	EMBARGO_COST = 100,									-- One-time cost
 	REVOKE_EMBARGO_COST = 0,							-- Cost to remove an existing embargo
@@ -4462,7 +4462,7 @@ NFactions = {
 	MAX_PROJECT_COUNT=3,									--The maximum number of projects a faction can have
 	AI_THEATER_CREATION_PENALTY = 2.5, -- Penalty defines how much each theater reduces the chance linearly. (The higher, the worse the penalty is)
 	BECOME_FACTION_LEADER_INFLUENCE_WEIGHT = 1,		-- Importance of faction influence when determining how close a faction member is to being able to assume leadership.
-	FACTION_INFLUENCE_LEADER_BONUS = 200,			-- How much influence we are giving a faction member for being the leader
+	FACTION_INFLUENCE_LEADER_BONUS = 0,			-- How much influence we are giving a faction member for being the leader
 	FACTION_TAKE_OVER_RELUCTANCE_VERSUS_HUMAN_INFLUENCE = 1.5,	-- Multiplier penalty for how much more influence is required an AI country compared to a human To assume leadership of faction.
 
 	AI_PICK_FROM_TOP_AMOUNT = 3,							-- AI Will spend choose from the top X to decide what to spent their initiative on, based on a weighted random
@@ -4481,11 +4481,11 @@ NFactions = {
 	
 	PEACE_CONFERENCE_MINIMAL_REQUIREMENT = 0.5,			-- How much more faction power projection you need to have compared to the second biggest contesting faction / country to start recieving the PEACE_CONFERENCE_MAX_DISCOUNT e.g. 0.5 means you need to be 50% bigger
 	PEACE_CONFERENCE_MAX_DISCOUNT = 0.25, 				-- How much % disount you get for being the bigger faction. Scales between the PEACE_CONFERENCE_MINIMAL_REQUIREMENT and 100% where at PEACE_CONFERENCE_MINIMAL_REQUIREMENT you get 0% and at 100% you will get PEACE_CONFERENCE_MAX_DISCOUNT
-	MAX_NUM_SHORT_TERM_GOALS = 1,						-- Maximum number of short term goals a faction can have at any one time	
-	MAX_NUM_MEDIUM_TERM_GOALS = 1,						-- Maximum number of medium term goals a faction can have at any one time
-	MAX_NUM_LONG_TERM_GOALS = 1,						-- Maximum number of long term goals a faction can have at any one time
+	MAX_NUM_SHORT_TERM_GOALS = 0,						-- Maximum number of short term goals a faction can have at any one time	
+	MAX_NUM_MEDIUM_TERM_GOALS = 0,						-- Maximum number of medium term goals a faction can have at any one time
+	MAX_NUM_LONG_TERM_GOALS = 0,						-- Maximum number of long term goals a faction can have at any one time
 	REPLACING_UNFINISHED_FACTION_GOAL_COST = 1,			-- The cost of replacing a goal if it is not finished
-	PASSIVE_INITIATIVE_GENERATION = 0.01,				-- How much initiative we are generating per day, scaled by manifest progress and influence%
+	PASSIVE_INITIATIVE_GENERATION = 0,				-- How much initiative we are generating per day, scaled by manifest progress and influence%
 	MAX_FACTION_THEATERS = 4,							-- The maximum number of faction theaters that can be created
 	
 	AI_FACTION_THEATER_TEMPLATE_SELECTION_RANDOMNESS = 1,	-- AI will pick a weighted random template from the top of the list
