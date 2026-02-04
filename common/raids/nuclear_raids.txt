@@ -6,7 +6,6 @@ types = {
 		category = nuclear_raids
 
 		command_power = 20 # command power allocation cost
-		#kuzuyanadesu
 
 		allowed = {
 			
