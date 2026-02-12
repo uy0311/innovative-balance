@@ -932,7 +932,6 @@ leader_traits = {
 		cost = 50
 		modifier = {
 			amphibious_invasion = 0.3 # 30% faster invasions
-			#invasion_preparation = -0.3
 		}
 		
 		slot = high_command

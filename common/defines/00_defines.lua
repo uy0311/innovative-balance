@@ -863,9 +863,9 @@ NMilitary = {
 	BASE_DIVISION_BRIGADE_CHANGE_COST = 0,	--Base cost to change a regiment column.
 	BASE_DIVISION_SUPPORT_SLOT_COST = 0, 	--Base cost to unlock a support slot
 
-	MAX_ARMY_EXPERIENCE = 1500,			--Max army experience a country can store
-	MAX_NAVY_EXPERIENCE = 1500,			--Max navy experience a country can store
-	MAX_AIR_EXPERIENCE = 1500,				--Max air experience a country can store
+	MAX_ARMY_EXPERIENCE = 3000,			--Max army experience a country can store
+	MAX_NAVY_EXPERIENCE = 3000,			--Max navy experience a country can store
+	MAX_AIR_EXPERIENCE = 3000,				--Max air experience a country can store
 
 	COMBAT_MINIMUM_TIME = 4,			-- Shortest time possible for a combat in hours
 	SPOTTING_QUALITY_DROP_HOURS = 4, 	-- Each X hours the intel quality drops after unit was spotted.
@@ -1146,7 +1146,7 @@ NMilitary = {
 
 	UNIT_LEADER_USE_NONLINEAR_XP_GAIN = true,       -- Whether unit leader XP gain is scaled by 1/<nr_of_traits>
 
-	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = 336, -- minimum hours required for units to rejoin border wars
+	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = -1, -- minimum hours required for units to rejoin border wars, values below zero will make units never return
 
 	NEW_COMMANDER_RANDOM_PERSONALITY_TRAIT_CHANCES = {  -- chances to gain a personality trait for new generals
 		0.5, -- 50% for first trait
@@ -1591,7 +1591,7 @@ NNavy = {
 	FIELD_EXPERIENCE_SCALE = 0.10,
 	FIELD_EXPERIENCE_MAX_PER_DAY = 100,								-- Most xp you can gain per day
 	LEADER_EXPERIENCE_SCALE = 0.75,
-	NAVAL_HEADQUARTERS_EXPERIENCE_SCALE = 0.125,					-- Characters assigned to a naval HQ will gain 15% of all experience from taskforces in their regions
+	NAVAL_HEADQUARTERS_EXPERIENCE_SCALE = 0.00,					-- Characters assigned to a naval HQ will gain 15% of all experience from taskforces in their regions
 	BATTLE_NAME_VP_FACTOR = 100,									-- Name is given by ((VP value) * BATTLE_NAME_VP_FACTOR) / (Distance VP -> battle)
 	BATTLE_NAME_VP_CUTOFF = 1.0,									-- If best score of above calculation is below this, name will be that of region.
 	AMPHIBIOUS_LANDING_PENALTY = -1.0,								-- amphibious landing penalty
@@ -1606,12 +1606,12 @@ NNavy = {
 	CONVOY_ATTACK_BASE_FACTOR = 0.15,                               -- base % of convoys that get intercepted
 	NAVAL_SPEED_MODIFIER = 0.1,	                    				-- basic speed control
 	NAVAL_RANGE_TO_INGAME_DISTANCE = 0.12,							-- Scale the ship stats "naval_range" to the ingame distance
-	NAVAL_INVASION_PREPARE_HOURS = 28,								-- base hours needed to prepare an invasion
-	NAVAL_INVASION_PLAN_CAP = 1000,									-- base cap of naval invasions can be planned at the same time
-	BASE_NAVAL_INVASION_DIVISION_CAP = 1000,							-- base cap of divisions that can be assigned in a naval invasion
+	NAVAL_INVASION_PREPARE_DAYS = 28,								-- base days needed to prepare a naval invasion
+	NAVAL_INVASION_PLAN_CAP = 100,									-- base cap of naval invasions can be planned at the same time
+	BASE_NAVAL_INVASION_DIVISION_CAP = 100,							-- base cap of divisions that can be assigned in a naval invasion
 	NAVAL_COMBAT_RESULT_TIMEOUT_YEARS = 0.25,							-- after that many years, we clear the naval combat results, so they don't get stuck forever in the memory.
 	CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 3,						-- after this many months remove the history of lost convoys to not bloat savegames and memory since there is no way to see them anyway
-	NAVAL_TRANSFER_BASE_SPEED = 6,                                  -- base speed of units on water being transported
+	NAVAL_TRANSFER_BASE_SPEED = 16,                                  -- base speed of units on water being transported
 	NAVAL_TRANSFER_BASE_NAVAL_DIST_ADD = 100,						-- Extra cost for naval movement ( compared to land movement ) when deciding what ports to use for a naval transfer
 	NAVAL_TRANSFER_BASE_NAVAL_DIST_MULT = 20,						-- Multiplier for the cost of naval movement ( compared to land movement ) when deciding what ports to use for naval transfer
 	
@@ -1652,8 +1652,8 @@ NNavy = {
 	NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SHIP_WAITING_EXTRA_SHIP = 5,  -- if a naval base has more ships than it can repair, it will get penalties
 	NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 1.0,					-- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have
 	NAVY_REPAIR_BASE_SEARCH_BOOST_FOR_SAME_COUNTRY = 5,				-- while searching for a naval base for repairs, your own bases gets a bonus
-	NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_LOW = 2,					-- bases with a level above this value will be set to low prio	(bases between these levels will get medium prio)
-	NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_HIGH = 7,					-- bases with a level above this value will be set to high prio (bases between these levels will get medium prio)
+	NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_LOW = 4,					-- bases with a level above this value will be set to low prio	(bases between these levels will get medium prio)
+	NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_HIGH = 8,					-- bases with a level above this value will be set to high prio (bases between these levels will get medium prio)
 
 	CONVOY_SPOTTING_COOLDOWN = 0.25,  -- % of travel time
 	CONVOY_SPOTTING_COOLDOWN_MIN = 24, -- minimum cooldown time
@@ -1692,7 +1692,7 @@ NNavy = {
 
 	HOLD_MISSION_MOVEMENT_COST = 1.0,								-- ships on hold cost this much fuel while moving
 	ON_BASE_FUEL_COST = 0.0,										-- ships that waits at naval bases cost this ratio
-	STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.25,					-- fuel cost for naval strike mission in port
+	STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.00,					-- fuel cost for naval strike mission in port
 	IN_COMBAT_FUEL_COST = 2.0,										-- ships in combat will get this ratio for fuel cost
 	TRAINING_FUEL_COST_FOR_ESCORT_SHIPS = 0.15,						-- ships that are on training mission but not training (ie they are at max xp and training will cancel at max xp) will consume this ratio of fuel
 
@@ -2130,8 +2130,8 @@ NNavy = {
 
 	NAVAL_BASE_DOMINANCE_FACTOR = 0.00,									-- base naval dominance buff based on naval bases in the region
 
-	NAVAL_HEADQUARTERS_FIRST_ADJACENT_FACTOR = 0.5,						-- naval dominance from naval headquarters is multiplied by this value for the first adjacent region
-	NAVAL_HEADQUARTERS_SECOND_ADJACENT_FACTOR = 0.25,					-- naval dominance from naval headquarters is multiplied by this value for the second adjacent region
+	NAVAL_HEADQUARTERS_FIRST_ADJACENT_FACTOR = 0.00,						-- naval dominance from naval headquarters is multiplied by this value for the first adjacent region
+	NAVAL_HEADQUARTERS_SECOND_ADJACENT_FACTOR = 0.00,					-- naval dominance from naval headquarters is multiplied by this value for the second adjacent region
 
 	NEW_NAVY_LEADER_LEVEL_CHANCES = {									-- chances for new navy leaders to start at a given level
 		0.95, -- 95% for level one

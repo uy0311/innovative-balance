@@ -8,7 +8,7 @@ new_mobile_warfare = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = army
 
     ai_will_do = {
@@ -110,7 +110,7 @@ superior_firepower = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = army
 
     ai_will_do = {
@@ -216,7 +216,7 @@ grand_battleplan = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = army
 
     ai_will_do = {
@@ -314,7 +314,7 @@ mass_assault = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = army
 
     ai_will_do = {

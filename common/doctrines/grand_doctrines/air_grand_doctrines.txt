@@ -8,7 +8,7 @@ new_strategic_destruction = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = air
 
     ai_will_do = { 
@@ -106,7 +106,7 @@ new_battlefield_support = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = air
 
     ai_will_do = {
@@ -208,7 +208,7 @@ new_operational_integrity = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = air
 
     ai_will_do = {
