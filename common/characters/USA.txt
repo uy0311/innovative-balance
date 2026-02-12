@@ -14,6 +14,21 @@ characters={
 		}
 	}
 
+	USA_Harry_S_Truman = {
+		name = "ハリー・S・トルーマン"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Harry_Truman.dds"
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits = {
+				}
+			expire = "1965.1.1"
+		}
+	}
+
 	USA_william_dudley_pelley={
 		name=USA_william_dudley_pelley
 		portraits={

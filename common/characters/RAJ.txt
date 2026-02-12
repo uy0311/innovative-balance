@@ -28,10 +28,10 @@ characters={
 	}
 
 	RAJ_p_krishna_pillai={
-		name=RAJ_p_krishna_pillai
+		name = "ヨシップ・ブロズ・チトー"
 		portraits={
 			civilian={
-				large="GFX_RAJ_krishna_pillai"
+				large="gfx/leaders/YUG/Portrait_Yugoslavia_Josip_Broz_Tito.dds"
 			}
 		}
 		country_leader={
