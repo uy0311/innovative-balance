@@ -82,6 +82,46 @@ characters={
 		}
 	}
 
+	TUR_sefik_husnu = {
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=TUR_sefik_husnu
+			portraits={
+				civilian={
+					large=GFX_portrait_TUR_sefik_husnu
+				}
+				army={
+					small="GFX_idea_tur_sefik_husnu"
+				}
+			}
+
+			country_leader={
+				ideology=stalinism
+				traits={  }
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			name=TUR_sefik_husnu
+			portraits={
+				civilian={
+					large=GFX_portrait_TUR_sefik_husnu
+				}
+			}
+			country_leader={
+				ideology=stalinism
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+	}
+
 	TUR_durrushehvar_i = {
 		name=TUR_durrushehvar_i
 		portraits={
