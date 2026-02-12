@@ -588,8 +588,8 @@ ideas = {
 				navy_fuel_consumption_factor = -0.10
 				extra_paratrooper_supply_grace = 24
 				extra_marine_supply_grace = 24
-				naval_invasion_capacity = 50
-				invasion_preparation = -0.3
+				#naval_invasion_capacity = 50
+				#invasion_preparation = -0.3
 			}
 			ai_will_do = {
 				factor = 1

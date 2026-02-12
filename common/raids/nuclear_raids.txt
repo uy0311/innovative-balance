@@ -5,7 +5,7 @@ types = {
 
 		category = nuclear_raids
 
-		command_power = 20 # command power allocation cost
+		command_power = 10 # command power allocation cost
 
 		allowed = {
 			
@@ -19,8 +19,10 @@ types = {
 		}
 		# Specific Target is visible
 		show_target = {
-			tag = ROOT
-			is_in_faction_with = ROOT
+			OR = {
+				is_in_faction_with = FROM
+				has_war_with = FROM
+			}
 		}
 
 		# Can prepare
@@ -28,9 +30,7 @@ types = {
 			#has_war_with = FROM
 		}
 		launchable = {
-			has_war_with = ROOT
-			tag = ROOT
-			is_in_faction_with = ROOT
+			has_war_with = FROM
 		}
 
 		launch_sound = raid_launch_nuclear_strike
@@ -383,8 +383,7 @@ types = {
 		}
 		# Specific Target is visible
 		show_target = {
-			tag = ROOT
-			is_in_faction_with = ROOT
+			has_war_with = FROM
 		}
 
 		# Can prepare
@@ -392,9 +391,7 @@ types = {
 			#has_war_with = FROM
 		}
 		launchable = {
-			has_war_with = ROOT
-			tag = ROOT
-			is_in_faction_with = ROOT
+			has_war_with = FROM
 		}
 
 		launch_sound = raid_launch_nuclear_strike
