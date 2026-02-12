@@ -556,11 +556,6 @@ ideas = {
 			
 			modifier = {
 				research_speed_factor = 0.25
-			#	invasion_preparation = -0.25
-			#	special_forces_attack_factor = 0.05
-			#	special_forces_defence_factor = 0.05
-			#	amphibious_invasion_defence = 0.50
-			#	naval_invasion_capacity = 20
 			}
 		}
 

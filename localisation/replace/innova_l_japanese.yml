@@ -14,6 +14,7 @@
 
 ##地形##
  farmland: "農地"
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H海上支配§!\nある地域が完全に味方に支配されたとみなすには、支配率§Y40%§!以上が必要。"
 
 ##パルチザン##
  resistance_20: "組織立った抵抗"

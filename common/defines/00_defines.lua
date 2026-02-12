@@ -1501,11 +1501,11 @@ NNavy = {
 	CONVOY_BLOCKED_BY_ENEMY_CONTROLLED_REGION = true,				-- If an enemy control a sea region, consider that region as blocked
 	NAVAL_DOMINANCE_STRIKE_FORCE_FRACTION = 0.0006,					-- How much dominance points goes into one percent of the multiplier from strike force missions. ( e.g. a taskforce of 1000 dominance generates a 60% multiplier ) 
 	NAVAL_DOMINANCE_STRIKE_FORCE_MULTIREGION_DECAY = 0.05,			-- Percentage that the strike force mission's naval dominance multiplier decreases with for each additional assigned region
-	NAVAL_DOMINANCE_SPOTTING_BONUS = 0.05,
-    NAVAL_DOMINANCE_ORG_RECOVERY = 0.1,
-    NAVAL_DOMINANCE_SHIP_RECOVERY_CHANCE = 0.1,
-	NAVAL_DOMINANCE_MINES_PLANTING_BONUS = 0.2,						-- Naval planting bonus when having naval dominance in the region
-	NAVAL_DOMINANCE_MINES_SWEEPING_BONUS = 0.2,						-- Naval sweeping bonus when having naval dominance in the region
+	NAVAL_DOMINANCE_SPOTTING_BONUS = 0.00,
+    NAVAL_DOMINANCE_ORG_RECOVERY = 0.0,
+    NAVAL_DOMINANCE_SHIP_RECOVERY_CHANCE = 0.0,
+	NAVAL_DOMINANCE_MINES_PLANTING_BONUS = 0.0,						-- Naval planting bonus when having naval dominance in the region
+	NAVAL_DOMINANCE_MINES_SWEEPING_BONUS = 0.0,						-- Naval sweeping bonus when having naval dominance in the region
 	NAVAL_DOMINANCE_CHANCE_OF_ACCIDENT_REDUCTION = 0.25,			-- The chance to encounter an accident during naval training would be reduced when having naval dominance in the region
 
 	-- Convoy Priorities START
@@ -1607,8 +1607,8 @@ NNavy = {
 	NAVAL_SPEED_MODIFIER = 0.1,	                    				-- basic speed control
 	NAVAL_RANGE_TO_INGAME_DISTANCE = 0.12,							-- Scale the ship stats "naval_range" to the ingame distance
 	NAVAL_INVASION_PREPARE_HOURS = 28,								-- base hours needed to prepare an invasion
-	NAVAL_INVASION_PLAN_CAP = 1,									-- base cap of naval invasions can be planned at the same time
-	BASE_NAVAL_INVASION_DIVISION_CAP = 4,							-- base cap of divisions that can be assigned in a naval invasion
+	NAVAL_INVASION_PLAN_CAP = 1000,									-- base cap of naval invasions can be planned at the same time
+	BASE_NAVAL_INVASION_DIVISION_CAP = 1000,							-- base cap of divisions that can be assigned in a naval invasion
 	NAVAL_COMBAT_RESULT_TIMEOUT_YEARS = 0.25,							-- after that many years, we clear the naval combat results, so they don't get stuck forever in the memory.
 	CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 3,						-- after this many months remove the history of lost convoys to not bloat savegames and memory since there is no way to see them anyway
 	NAVAL_TRANSFER_BASE_SPEED = 6,                                  -- base speed of units on water being transported
@@ -1660,9 +1660,9 @@ NNavy = {
 	CONVOY_SPOTTING_COOLDOWN_MAX = 120, -- maximum cooldown time
 	CONVOY_SPOTTING_COOLDOWN_MIN_FROM_EFFICIENCY = 10, -- clamped min value after screening efficiency has been applied
 	
-	AIR_BASE_DOMINANCE_FACTOR = 0.02, -- Percentage factor per air base level in region towards naval dominance target value
-	RADAR_DOMINANCE_FACTOR = 0.05, -- Percentage factor per radar level in region towards naval dominance target value
-	DOMINANCE_CONTROLLED_THRESHOLD_RATIO = 0.60, -- Percentage of needed dominance control over enemies for you and friendlies to control a strategic sea region
+	AIR_BASE_DOMINANCE_FACTOR = 0.0, -- Percentage factor per air base level in region towards naval dominance target value
+	RADAR_DOMINANCE_FACTOR = 0.0, -- Percentage factor per radar level in region towards naval dominance target value
+	DOMINANCE_CONTROLLED_THRESHOLD_RATIO = 0.40, -- Percentage of needed dominance control over enemies for you and friendlies to control a strategic sea region
 
 	MISSION_FUEL_COSTS = {  -- fuel cost for each mission
 		0.0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
@@ -1824,10 +1824,10 @@ NNavy = {
 		0.75, -- NAVAL_INVASION_SUPPORT
 	},
 
-	DOMINANCE_PER_SHIP_PER_RANGE_NEUTRAL = 2000,					-- ship range where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0
-	DOMINANCE_PER_SHIP_PER_SPEED_NEUTRAL = 20,						-- ship speed where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0
-	DOMINANCE_PER_SHIP_PER_CARRIER_SIZE = 0.1,						-- bonus to dominance based on the carrier size - e.g. regular carrier hangar has carrier_size of 2, so it would be a bonus of 2 * DOMINANCE_PER_SHIP_PER_CARRIER_SIZE, min value is 0
-	DOMINANCE_PER_SHIP_PER_HEAVY_GUN_ATTACK = 0.01,					-- bonus to dominance based on the heavy attack, min value is 0
+	DOMINANCE_PER_SHIP_PER_RANGE_NEUTRAL = 0,					-- ship range where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0
+	DOMINANCE_PER_SHIP_PER_SPEED_NEUTRAL = 0,						-- ship speed where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0
+	DOMINANCE_PER_SHIP_PER_CARRIER_SIZE = 0.0,						-- bonus to dominance based on the carrier size - e.g. regular carrier hangar has carrier_size of 2, so it would be a bonus of 2 * DOMINANCE_PER_SHIP_PER_CARRIER_SIZE, min value is 0
+	DOMINANCE_PER_SHIP_PER_HEAVY_GUN_ATTACK = 0.00,					-- bonus to dominance based on the heavy attack, min value is 0
 	NAVAL_MINES_IN_REGION_MAX = 1.0,								-- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
 	NAVAL_MINES_PLANTING_SPEED_MULT = 0.01,						-- Value used to overall balance of the speed of planting naval mines
 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.09,						-- Value used to overall balance of the speed of sweeping naval mines
@@ -1960,8 +1960,8 @@ NNavy = {
 
 	BASE_POSITIONING												= 0.8,	-- base value for positioning
 
-	DOMINANCE_DAILY_GAIN_FACTOR = 0.02, 							-- Daily dominance gain, as a fraction of target value 
-	DOMINANCE_DAILY_LOSS_FACTOR = 0.04, 							-- Daily dominance loss, as a fraction of previous target value 
+	DOMINANCE_DAILY_GAIN_FACTOR = 0.4, 							-- Daily dominance gain, as a fraction of target value 
+	DOMINANCE_DAILY_LOSS_FACTOR = 0.2, 							-- Daily dominance loss, as a fraction of previous target value 
 
 	SUPPORT_SHIP_RECOVERY_BASE_STRENGTH_FACTOR = 0.01,				-- Percentage of strength of max strength a recovered ship gets on recovery.
 
@@ -1969,7 +1969,7 @@ NNavy = {
 	MAX_POSITIONING_BONUS_FROM_SURFACE_DETECTION					= 0.0,  -- will clamp the bonus that you get from detection
 
 	HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR					= 0.5, -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has
-	MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO					= 0.65,  -- maximum penalty to get from larger fleets
+	MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO					= 1.0,  -- maximum penalty to get from larger fleets
 	MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY                         = 5,    -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them
 
 	HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR					= 0.4;  -- penalty if other side has stronger carrier air force
@@ -2128,7 +2128,7 @@ NNavy = {
 	NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE = 5.0,                         -- how much score factor from low health (scales between 0->this number)
 	NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 12.5,                           -- how much score factor from low AA guns (scales between 0->this number)
 
-	NAVAL_BASE_DOMINANCE_FACTOR = 0.01,									-- base naval dominance buff based on naval bases in the region
+	NAVAL_BASE_DOMINANCE_FACTOR = 0.00,									-- base naval dominance buff based on naval bases in the region
 
 	NAVAL_HEADQUARTERS_FIRST_ADJACENT_FACTOR = 0.5,						-- naval dominance from naval headquarters is multiplied by this value for the first adjacent region
 	NAVAL_HEADQUARTERS_SECOND_ADJACENT_FACTOR = 0.25,					-- naval dominance from naval headquarters is multiplied by this value for the second adjacent region
