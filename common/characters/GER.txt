@@ -247,7 +247,7 @@ characters={
 			attack_skill = 6
 	        defense_skill = 5
 	        planning_skill = 7
-	        logistics_skill = 3
+	        logistics_skill = 4
 			legacy_id=6
 		}
 	}
