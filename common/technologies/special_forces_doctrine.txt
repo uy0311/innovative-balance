@@ -41,8 +41,8 @@ technologies = {
 		research_cost = 2.25
 		
 		categories = {
+			cat_land_doctrine
 			special_forces_doctrine
-			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -107,8 +107,8 @@ technologies = {
 		research_cost = 4.5
 
 		categories = {
+			cat_land_doctrine
 			special_forces_doctrine
-			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -151,8 +151,8 @@ technologies = {
 		research_cost = 4.5
 
 		categories = {
+			cat_land_doctrine
 			special_forces_doctrine
-			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 	}
@@ -178,8 +178,8 @@ technologies = {
 		research_cost = 4.5
 
 		categories = {
+			cat_land_doctrine
 			special_forces_doctrine
-			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 	}
@@ -236,8 +236,8 @@ technologies = {
 		research_cost = 2.25
 		
 		categories = {
+			cat_naval_doctrine
 			special_forces_doctrine
-			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -293,8 +293,8 @@ technologies = {
 		research_cost = 2.25
 		
 		categories = {
+			cat_naval_doctrine
 			special_forces_doctrine
-			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -338,8 +338,8 @@ technologies = {
 		research_cost = 2.25
 		
 		categories = {
+			cat_land_doctrine
 			special_forces_doctrine
-			marine_tech
 			cat_marines_doctrine
 		}
 	}
@@ -364,8 +364,8 @@ technologies = {
 		research_cost = 2.25
 		
 		categories = {
+			cat_land_doctrine
 			special_forces_doctrine
-			marine_tech
 			cat_marines_doctrine
 		}
 	}
@@ -392,8 +392,8 @@ technologies = {
 		research_cost = 2.25
 		
 		categories = {
+			cat_air_doctrine
 			special_forces_doctrine
-			para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -427,8 +427,8 @@ technologies = {
 		research_cost = 4.5
 		
 		categories = {
+			cat_air_doctrine
 			special_forces_doctrine
-			para_tech
 			cat_paratroopers_doctrine
 		}
 		

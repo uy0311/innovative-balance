@@ -26,6 +26,9 @@ technology_categories = {
 	land_doctrine
 	air_doctrine
 	naval_doctrine
+	cat_land_doctrine
+	cat_air_doctrine
+	cat_naval_doctrine
 	strategic_destruction_tree
 	battlefield_support_tree
 	operational_integrity_tree
