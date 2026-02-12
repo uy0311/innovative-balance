@@ -1372,7 +1372,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		army_bonus_air_superiority_factor = 0.5
-		naval_invasion_planning_bonus_speed = 0.25
+		naval_invasion_planning_bonus_speed = 0.5
 
 		category_support_artillery = {
 			initiative = 0.01
@@ -1665,7 +1665,6 @@ technologies = {
 			hard_attack = 0.10
 		}
 		
-		#naval_invasion_capacity = 100
 		shore_bombardment_bonus = 2.0
 
 		on_research_complete = {
@@ -1866,7 +1865,8 @@ technologies = {
 		}
 
 		land_reinforce_rate = 0.02
-		naval_invasion_planning_bonus_speed = 2.75
+		naval_invasion_prep_days = -7
+		naval_invasion_planning_bonus_speed = 2.00
 
 		category_marines = {
 			soft_attack = 0.10
@@ -2468,7 +2468,7 @@ technologies = {
 		
 		#planning max bonus increase
 		max_planning = 0.3
-		#command_power_gain = 0.25
+		naval_invasion_planning_bonus_speed = 0.5
 
 		on_research_complete = {
 			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
@@ -2558,8 +2558,6 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		naval_invasion_planning_bonus_speed = 3.0
-		#invasion_preparation = -0.5
 		land_reinforce_rate = 0.03
 
 		category_light_infantry = {
@@ -3062,6 +3060,8 @@ technologies = {
 		xor = {
 			assault_breakthrough
 		}
+
+		naval_invasion_planning_bonus_speed = 4.5
 
 		category_light_infantry = {
 			breakthrough = 0.20

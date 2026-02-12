@@ -8,7 +8,7 @@ new_fleet_in_being = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = navy
 
     ai_will_do = {
@@ -105,7 +105,7 @@ new_convoy_raiding = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = navy
 
     ai_will_do = {
@@ -210,7 +210,7 @@ new_base_strike = {
         always = yes
     }
 
-    xp_cost = 1500
+    xp_cost = 5000
     xp_type = navy
 
     ai_will_do = {
