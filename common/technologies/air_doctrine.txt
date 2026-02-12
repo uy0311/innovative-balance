@@ -46,7 +46,7 @@ technologies = {
 		}
 	
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_battlefield_support
 			cat_strategic_destruction
 			cat_operational_integrity
@@ -76,7 +76,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
@@ -106,7 +106,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
@@ -136,7 +136,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
@@ -166,7 +166,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
@@ -196,7 +196,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			battlefield_support_tree
 			cat_battlefield_support
 		}
@@ -224,7 +224,7 @@ technologies = {
 		}
 
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
@@ -252,7 +252,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
@@ -284,7 +284,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
@@ -316,7 +316,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
@@ -348,7 +348,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
@@ -376,7 +376,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			strategic_destruction_tree
 			cat_strategic_destruction
 		}
@@ -404,7 +404,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_coordinated_support
 		}
 		
@@ -426,7 +426,7 @@ technologies = {
 		###########
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_coordinated_support
 		}
 		
@@ -454,7 +454,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_coordinated_support
 		}
 		
@@ -476,7 +476,7 @@ technologies = {
 		###########
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_coordinated_support
 		}
 		
@@ -503,7 +503,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
@@ -532,7 +532,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
@@ -572,7 +572,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
@@ -612,7 +612,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
@@ -652,7 +652,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
@@ -688,7 +688,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			operational_integrity_tree
 			cat_operational_integrity
 		}
@@ -724,7 +724,7 @@ technologies = {
 		}
 
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
@@ -752,7 +752,7 @@ technologies = {
 		}
 
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
@@ -788,7 +788,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
@@ -824,7 +824,7 @@ technologies = {
 		}
 
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
@@ -867,7 +867,7 @@ technologies = {
 		}
 
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_maritime_operations
 			cat_base_strike
 		}
@@ -899,7 +899,7 @@ technologies = {
 		}
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_escort_combat
 		}
 		
@@ -921,7 +921,7 @@ technologies = {
 		###########
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_escort_combat
 		}
 		
@@ -943,7 +943,7 @@ technologies = {
 		###########		
 		
 		categories = {
-			cat_old_air_doctrine
+			cat_air_doctrine
 			cat_escort_combat
 		}
 		

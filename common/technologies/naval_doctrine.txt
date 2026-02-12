@@ -51,7 +51,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
@@ -97,7 +97,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
@@ -151,7 +151,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
@@ -212,7 +212,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
@@ -264,7 +264,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
@@ -310,7 +310,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
 		}
@@ -360,7 +360,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			convoy_defense_tree
 			cat_fleet_in_being
@@ -417,7 +417,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			convoy_defense_tree
 			cat_fleet_in_being
@@ -469,7 +469,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			fleet_in_being_tree
 			convoy_defense_tree
 			cat_fleet_in_being
@@ -551,7 +551,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
@@ -607,7 +607,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
@@ -665,7 +665,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
@@ -720,7 +720,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
@@ -787,7 +787,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			submarine_doctrine
 			cat_trade_interdiction
@@ -851,7 +851,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
 		}
@@ -902,7 +902,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
 		}
@@ -946,7 +946,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
 		}
@@ -997,7 +997,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
 		}
@@ -1053,7 +1053,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			cat_base_strike
 		}
 		
@@ -1112,7 +1112,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
@@ -1181,7 +1181,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
@@ -1247,7 +1247,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
@@ -1316,7 +1316,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
@@ -1382,7 +1382,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			base_strike_main
 			cat_base_strike
 		}
@@ -1450,7 +1450,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			cat_base_strike
 		}
 		
@@ -1508,7 +1508,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			convoy_defense_tree
 			cat_base_strike
 		}
@@ -1565,7 +1565,7 @@ technologies = {
 		research_cost = 3
 		
 		categories = {
-			cat_old_naval_doctrine
+			cat_naval_doctrine
 			convoy_defense_tree
 			cat_base_strike
 		}
