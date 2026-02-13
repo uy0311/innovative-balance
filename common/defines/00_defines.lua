@@ -1489,7 +1489,7 @@ NNavy = {
 	WAR_SCORE_GAIN_FOR_SUNK_CONVOY = 0.10,							-- war score gained for every sunk convoy
 	PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.25,			-- % of experience to retain after being transferred in a peace conference
 
-	CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.0, 0.25, 0.50, 0.75, 1.0},	-- The defensive stance sortie is 1.0 - value in index so their sum equals 1
+	CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {1.0, 1.0, 1.0, 1.0, 1.0},	-- The defensive stance sortie is 1.0 - value in index so their sum equals 1
 	CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 2,						-- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO
 	SELECTED_SORTIE_INITIAL_TIME = 24,								-- Amount of hours from combat start where the selected sortie will override the default one
 	
@@ -1966,9 +1966,9 @@ NNavy = {
 	SUPPORT_SHIP_RECOVERY_BASE_STRENGTH_FACTOR = 0.01,				-- Percentage of strength of max strength a recovered ship gets on recovery.
 
 	RELATIVE_SURFACE_DETECTION_TO_POSITIONING_FACTOR				= 0.01,	-- multiples the surface detection difference between two sides. the side with higher detection will get a bonus of this value
-	MAX_POSITIONING_BONUS_FROM_SURFACE_DETECTION					= 0.0,  -- will clamp the bonus that you get from detection
+	MAX_POSITIONING_BONUS_FROM_SURFACE_DETECTION					= 0.05,  -- will clamp the bonus that you get from detection
 
-	HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR					= 0.5, -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has
+	HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR					= 0.34, -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has
 	MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO					= 1.0,  -- maximum penalty to get from larger fleets
 	MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY                         = 5,    -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them
 
