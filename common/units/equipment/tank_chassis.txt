@@ -1610,7 +1610,7 @@ equipments = {
 			turret_type_slot = tank_super_heavy_three_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = empty
-			engine_type_slot = tank_gasoline_engine
+			engine_type_slot = heavy_tank_gasoline_engine
 			special_type_slot_1 = additional_machine_guns
 			special_type_slot_2 = equipment_for_engineers
 		}

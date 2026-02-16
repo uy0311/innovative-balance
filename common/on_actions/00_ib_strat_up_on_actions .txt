@@ -23,6 +23,229 @@ on_actions = {
 
                 load_oob = "IB_general_1936"
             }
+
+            every_country = {
+
+            ##
+                if = {
+					limit = {
+						has_tech = mobile_warfare
+					}
+				    unlock_tactic = tactic_unexpected_thrust
+				}
+                if = {
+					limit = {
+						has_tech = delay
+					}
+				    unlock_tactic = tactic_delay
+				}
+                if = {
+					limit = {
+						has_tech = elastic_defence
+					}
+				    unlock_tactic = tactic_elastic_defense
+				}
+                if = {
+					limit = {
+                        OR = {
+					        has_tech = mechanised_offensive
+                            has_tech = armored_spearhead
+                        }
+					}
+				    unlock_tactic = tactic_blitz
+				}
+                if = {
+					limit = {
+					    has_tech = blitzkrieg
+					}
+				    unlock_tactic = tactic_breakthrough
+				}
+                if = {
+					limit = {
+					    has_tech = blitzkrieg
+					}
+				    unlock_tactic = tactic_breakthrough
+				}
+                if = {
+					limit = {
+					    has_tech = kampfgruppe
+					}
+				    unlock_tactic = tactic_overwhelming_fire
+				}
+                if = {
+					limit = {
+					    has_tech = backhand_blow
+					}
+			    	unlock_tactic = tactic_backhand_blow
+				}
+                if = {
+					limit = {
+					    has_tech = werwolf_guerillas
+					}
+				    unlock_tactic = tactic_guerrilla_tactics
+				}
+
+            ##
+                if = {
+					limit = {
+					    has_tech = superior_firepower
+					}
+				    unlock_tactic = tactic_barrage
+				}
+                if = {
+					limit = {
+					    has_tech = sup_delay
+					}
+				    unlock_tactic = tactic_delay
+				}
+                if = {
+					limit = {
+					    has_tech = mobile_defence
+					}
+				    unlock_tactic = tactic_elastic_defense
+				}
+                if = {
+					limit = {
+                        OR = {
+					        has_tech = centralized_fire_control
+                            has_tech = overwhelming_firepower
+                        }
+					}
+				    unlock_tactic = tactic_overwhelming_fire
+				}
+                if = {
+					limit = {
+					    has_tech = concentrated_fire_plans
+					}
+				    unlock_tactic = tactic_blitz
+				}
+                if = {
+					limit = {
+					    has_tech = combined_arms
+					}
+				    unlock_tactic = tactic_breakthrough
+				}
+                if = {
+					limit = {
+					    has_tech = tactical_control
+					}
+				    unlock_tactic = tactic_tactical_withdrawal
+				}
+                if = {
+					limit = {
+					    has_tech = air_land_battle
+					}
+				    unlock_tactic = tactic_backhand_blow
+				}
+                if = {
+					limit = {
+					    has_tech = forward_observers
+					}
+				    unlock_tactic = tactic_tactical_withdrawal
+				}
+                if = {
+					limit = {
+					    has_tech = shock_and_awe
+					}
+				    unlock_tactic = tactic_breakthrough
+				}
+
+            ##
+                if = {
+					limit = {
+					    has_tech = grand_assault
+					}
+				    unlock_tactic = tactic_planned_attack
+				}
+                if = {
+					limit = {
+					    has_tech = assault_breakthrough
+					}
+				    unlock_tactic = tactic_breakthrough
+				}
+                if = {
+					limit = {
+                        OR = {
+					        has_tech = grand_mechanized_offensive
+                            has_tech = armored_operations
+                        }
+					}
+				    unlock_tactic = tactic_blitz
+				}
+                if = {
+					limit = {
+                        OR = {
+					        has_tech = grand_mechanized_offensive
+                            has_tech = armored_operations
+                        }
+					}
+				    unlock_tactic = tactic_elastic_defense
+				}
+                if = {
+					limit = {
+					    has_tech = assault_concentration
+					}
+				    unlock_tactic = tactic_overwhelming_fire
+				}
+                if = {
+					limit = {
+					    has_tech = infantry_offensive
+					}
+				    unlock_tactic = tactic_infantry_charge
+				}
+
+            ##
+                if = {
+					limit = {
+					    has_tech = large_front_operations
+					}
+				    unlock_tactic = tactic_relentless_assault
+				}
+                if = {
+					limit = {
+					    has_tech = deep_operations
+					}
+				    unlock_tactic = tactic_blitz
+				}
+                if = {
+					limit = {
+					    has_tech = operational_concentration
+					}
+				    unlock_tactic = tactic_elastic_defense
+				}
+                if = {
+					limit = {
+					    has_tech = vast_offensives
+					}
+				    unlock_tactic = tactic_overwhelming_fire
+				}
+                if = {
+					limit = {
+					    has_tech = breakthrough_priority
+					}
+				    unlock_tactic = tactic_breakthrough
+				}
+                if = {
+					limit = {
+					    has_tech = continuous_offensive
+					}
+				    unlock_tactic = tactic_backhand_blow
+				}
+                if = {
+					limit = {
+					    has_tech = guerilla_warfare
+					}
+				    unlock_tactic = tactic_guerrilla_tactics
+				}
+                if = {
+					limit = {
+					    has_tech = human_wave_offensive
+					}
+				    unlock_tactic = tactic_human_wave_tactics
+				}
+
+            }
+
         }
     }
 }
