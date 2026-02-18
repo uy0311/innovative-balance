@@ -14,7 +14,7 @@
 
 ##地形##
  farmland: "農地"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H海上支配§!\nある地域が完全に味方に支配されたとみなすには、支配率§Y40%§!以上が必要。"
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H海上支配§!\nある地域が完全に味方に支配されたとみなすには、支配率§Y50%§!以上が必要。"
 
 ##パルチザン##
  resistance_20: "組織立った抵抗"
@@ -26,6 +26,11 @@
  ib_international_market_rule: "国際市場"
  ib_international_market_limited_desc: "国際市場は傀儡国と宗主国の関係でない限り、利用できません"
  ib_international_market_free_desc: "国際市場が参入交渉を経て独立国家間で利用できるようになります"
+
+##旧ドクトリン減少効果翻訳##
+ cat_land_doctrine_cost_factor: "陸軍ドクトリンコスト"
+ cat_naval_doctrine_cost_factor: "海軍ドクトリンコスト"
+ cat_air_doctrine_cost_factor: "空軍ドクトリンコスト"
 
 ##継続方針##
  Industrial_development:0 "技術の共有"
@@ -272,8 +277,9 @@
  infantry_at3:0 "歩兵用対戦車装備 III"
  infantry_at3_desc:0 "改良を加えられた新型の歩兵用対戦車装備は、兵士として未熟な者でも容易に取り扱う事ができ、主力級中戦車の正面装甲を破壊する事も可能であるとされている。"
 
-##戦車企業##
+##陸軍企業##
  SWE_valtion_panssaritehdas_organization:0 "州立装甲車工場"
+ JAP_tokyo_arsenal_organization:0 "東京陸軍兵器廠"
 
 ##IB_additional_cost_factor##
  IB_tank_cost_modifier_tt:0 "全種類の戦車改造コスト：§G-33%§!"
@@ -500,6 +506,7 @@
  category_artillery:0 "牽引式野砲＆ロケット砲"
  category_anti_air:0 "牽引式対空砲"
  category_infantry_and_bicycle:0 "歩兵と自転車大隊"
+ rangers_support: "レンジャー"
  modifier_unit_amphibious_light_armor_design_cost_factor: "水陸両用軽戦車ユニット設計コスト"
  modifier_unit_amphibious_medium_armor_design_cost_factor: "水陸両用中戦車ユニット設計コスト"
  modifier_unit_amphibious_heavy_armor_design_cost_factor: "水陸両用重戦車ユニット設計コスト"

@@ -190,6 +190,7 @@ equipments = {
 		}
 
 		manpower = 4000
+		naval_dominance_factor = 16000
 
 		#naval_supremacy_factor = 2.6
 		#naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -494,6 +495,7 @@ equipments = {
 		}
 
 		manpower = 5200
+		naval_dominance_factor = 18000
 	}
 	ship_hull_heavy_3 = {
 		abbreviation = "hce"
@@ -643,6 +645,7 @@ equipments = {
 		}
 
 		manpower = 6000
+		naval_dominance_factor = 20000
 	}
 	ship_hull_heavy_4 = {
 		abbreviation = "hcf"
@@ -792,6 +795,7 @@ equipments = {
 		}
 
 		manpower = 6000
+		naval_dominance_factor = 22000
 	}
 
 	###Special snowflake hull
