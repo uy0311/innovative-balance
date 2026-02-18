@@ -101,6 +101,7 @@ equipments = {
 		}
 		
 		manpower = 200
+		naval_dominance_factor = 200
 
 		#naval_supremacy_factor = 0.8
 		#naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -161,7 +162,7 @@ equipments = {
 		naval_range = 4000
 		reliability = 0.70
 		max_strength = 20
-		
+		naval_dominance_factor = 300
 
 		
 		build_cost_ic = 250
@@ -219,7 +220,7 @@ equipments = {
 		naval_range = 5000
 		
 		max_strength = 30
-
+		naval_dominance_factor = 400
 
 		
 		build_cost_ic = 320
@@ -276,7 +277,7 @@ equipments = {
 		naval_range = 6000
 		
 		max_strength = 35
-		
+		naval_dominance_factor = 500
 
 		
 		build_cost_ic = 450
@@ -352,7 +353,7 @@ equipments = {
 		naval_range = 5000
 		
 		max_strength = 40
-
+		naval_dominance_factor = 500
 
 		
 		build_cost_ic = 600

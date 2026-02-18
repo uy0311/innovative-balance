@@ -1499,8 +1499,8 @@ NNavy = {
 
 	-- Having Naval Dominance will provide the following benefits:
 	CONVOY_BLOCKED_BY_ENEMY_CONTROLLED_REGION = true,				-- If an enemy control a sea region, consider that region as blocked
-	NAVAL_DOMINANCE_STRIKE_FORCE_FRACTION = 0.0006,					-- How much dominance points goes into one percent of the multiplier from strike force missions. ( e.g. a taskforce of 1000 dominance generates a 60% multiplier ) 
-	NAVAL_DOMINANCE_STRIKE_FORCE_MULTIREGION_DECAY = 0.05,			-- Percentage that the strike force mission's naval dominance multiplier decreases with for each additional assigned region
+	NAVAL_DOMINANCE_STRIKE_FORCE_FRACTION = 0.0000,					-- How much dominance points goes into one percent of the multiplier from strike force missions. ( e.g. a taskforce of 1000 dominance generates a 60% multiplier ) 
+	NAVAL_DOMINANCE_STRIKE_FORCE_MULTIREGION_DECAY = 0.00,			-- Percentage that the strike force mission's naval dominance multiplier decreases with for each additional assigned region
 	NAVAL_DOMINANCE_SPOTTING_BONUS = 0.00,
     NAVAL_DOMINANCE_ORG_RECOVERY = 0.0,
     NAVAL_DOMINANCE_SHIP_RECOVERY_CHANCE = 0.0,
@@ -1611,11 +1611,11 @@ NNavy = {
 	BASE_NAVAL_INVASION_DIVISION_CAP = 100,							-- base cap of divisions that can be assigned in a naval invasion
 	NAVAL_COMBAT_RESULT_TIMEOUT_YEARS = 0.25,							-- after that many years, we clear the naval combat results, so they don't get stuck forever in the memory.
 	CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 3,						-- after this many months remove the history of lost convoys to not bloat savegames and memory since there is no way to see them anyway
-	NAVAL_TRANSFER_BASE_SPEED = 16,                                  -- base speed of units on water being transported
+	NAVAL_TRANSFER_BASE_SPEED = 12,                                  -- base speed of units on water being transported
 	NAVAL_TRANSFER_BASE_NAVAL_DIST_ADD = 100,						-- Extra cost for naval movement ( compared to land movement ) when deciding what ports to use for a naval transfer
 	NAVAL_TRANSFER_BASE_NAVAL_DIST_MULT = 20,						-- Multiplier for the cost of naval movement ( compared to land movement ) when deciding what ports to use for naval transfer
 	
-	NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 80,						-- How many planes flying in a naval combat before penalties are introduced
+	NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 10000,						-- How many planes flying in a naval combat before penalties are introduced
 	NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.005,					-- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns
 	
 	SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL = 10,						-- For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract)
@@ -1662,7 +1662,7 @@ NNavy = {
 	
 	AIR_BASE_DOMINANCE_FACTOR = 0.0, -- Percentage factor per air base level in region towards naval dominance target value
 	RADAR_DOMINANCE_FACTOR = 0.0, -- Percentage factor per radar level in region towards naval dominance target value
-	DOMINANCE_CONTROLLED_THRESHOLD_RATIO = 0.40, -- Percentage of needed dominance control over enemies for you and friendlies to control a strategic sea region
+	DOMINANCE_CONTROLLED_THRESHOLD_RATIO = 0.50, -- Percentage of needed dominance control over enemies for you and friendlies to control a strategic sea region
 
 	MISSION_FUEL_COSTS = {  -- fuel cost for each mission
 		0.0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
@@ -1814,14 +1814,14 @@ NNavy = {
 	MISSION_DOMINANCE_RATIOS = { -- dominance multipliers for different mission types
 		0.0, -- HOLD
 		1.0, -- PATROL
-		0.75, -- STRIKE FORCE
-		0.5, -- CONVOY RAIDING
-		0.5, -- CONVOY ESCORT
-		0.3, -- MINES PLANTING
-		0.3, -- MINES SWEEPING
+		1.0, -- STRIKE FORCE
+		1.0, -- CONVOY RAIDING
+		1.0, -- CONVOY ESCORT
+		0.0, -- MINES PLANTING
+		0.0, -- MINES SWEEPING
 		0.0, -- TRAIN
 		0.0, -- RESERVE_FLEET
-		0.75, -- NAVAL_INVASION_SUPPORT
+		1.0, -- NAVAL_INVASION_SUPPORT
 	},
 
 	DOMINANCE_PER_SHIP_PER_RANGE_NEUTRAL = 0,					-- ship range where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0
@@ -1960,8 +1960,8 @@ NNavy = {
 
 	BASE_POSITIONING												= 0.8,	-- base value for positioning
 
-	DOMINANCE_DAILY_GAIN_FACTOR = 0.4, 							-- Daily dominance gain, as a fraction of target value 
-	DOMINANCE_DAILY_LOSS_FACTOR = 0.2, 							-- Daily dominance loss, as a fraction of previous target value 
+	DOMINANCE_DAILY_GAIN_FACTOR = 0.0666, 							-- Daily dominance gain, as a fraction of target value 
+	DOMINANCE_DAILY_LOSS_FACTOR = 0.0444, 							-- Daily dominance loss, as a fraction of previous target value 
 
 	SUPPORT_SHIP_RECOVERY_BASE_STRENGTH_FACTOR = 0.01,				-- Percentage of strength of max strength a recovered ship gets on recovery.
 

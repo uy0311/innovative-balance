@@ -282,7 +282,7 @@ guiTypes = {
 			iconType = {
 				name = "dominance_marker"
 				spriteType = "GFX_vertical_marker"
-				position = {x=72 y=3}
+				position = {x=90 y=3}
 				scale = 1.0
 				pdx_tooltip = "NAVAL_CONTROL_RATIO_MARKER_TOOLTIP"
 			}

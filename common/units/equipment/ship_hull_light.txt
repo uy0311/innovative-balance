@@ -131,6 +131,7 @@ equipments = {
 		}
 		
 		manpower = 250
+		naval_dominance_factor = 500
 		
 		#naval_supremacy_factor = 1.0
 		#naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -212,6 +213,7 @@ equipments = {
 			steel = 2
 		}
 		manpower = 325
+		naval_dominance_factor = 600
 	}
 	ship_hull_light_3 = {
 		abbreviation = "hdd"
@@ -284,6 +286,7 @@ equipments = {
 		surface_visibility = 12
 		build_cost_ic = 450
 		manpower = 400
+		naval_dominance_factor = 700
 
 	}
 	ship_hull_light_4 = {
@@ -356,6 +359,7 @@ equipments = {
 			chromium = 1
 		}
 		manpower = 500
+		naval_dominance_factor = 800
 	}
 
 }
