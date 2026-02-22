@@ -51,7 +51,7 @@ armor_USA = {
 			base = 2
 		}
 
-		division_names_group = USA_ARM_01
+		#division_names_group = USA_ARM_01
 
 		target_template = {
 
@@ -81,7 +81,7 @@ armor_USA = {
 			}
 		}
 
-		division_names_group = USA_ARM_01
+		#division_names_group = USA_ARM_01
 
 		target_template = {
 			support = {
@@ -138,7 +138,7 @@ armor_USA = {
 			}
 		}
 
-		division_names_group = USA_ARM_01
+		#division_names_group = USA_ARM_01
 
 		target_template = {
 			support = {
@@ -173,7 +173,7 @@ armor_USA = {
 			}
 		}
 
-		division_names_group = USA_ARM_01
+		#division_names_group = USA_ARM_01
 
 		target_template = {
 			support = {
@@ -209,7 +209,7 @@ armor_USA = {
 			}
 		}
 
-		division_names_group = USA_ARM_01
+		#division_names_group = USA_ARM_01
 
 		target_template = {
 			support = {
@@ -242,7 +242,7 @@ armor_USA = {
 			}
 		}
 
-		division_names_group = USA_ARM_01
+		#division_names_group = USA_ARM_01
 
 		target_template = {
 			support = {
@@ -293,7 +293,7 @@ garrison_USA = {
 			base = 2
 		}
 
-		division_names_group = USA_GAR_01
+		#division_names_group = USA_GAR_01
 
 		reinforce_prio = 0
 		custom_icon = 7
@@ -328,7 +328,7 @@ infantry_USA = {
 			base = 2
 		}
 
-		division_names_group = USA_INF_01
+		#division_names_group = USA_INF_01
 
 		target_template = {
 			support = {
@@ -357,7 +357,7 @@ infantry_USA = {
 			}
 		}
 
-		division_names_group = USA_INF_01
+		#division_names_group = USA_INF_01
 
 		target_template = {
 			support = {
@@ -395,7 +395,7 @@ mobile_USA = {
 			base = 2
 		}
 
-		division_names_group = USA_CAV_01
+		#division_names_group = USA_CAV_01
 
 		target_template = {
 
@@ -422,7 +422,7 @@ mobile_USA = {
 			}
 		}
 
-		division_names_group = USA_MOT_01
+		#division_names_group = USA_MOT_01
 
 		target_template = {
 
@@ -450,7 +450,7 @@ mobile_USA = {
 			}
 		}
 
-		division_names_group = USA_MOT_01
+		#division_names_group = USA_MOT_01
 
 		target_template = {
 
@@ -482,7 +482,7 @@ mobile_USA = {
 			}
 		}
 
-		division_names_group = USA_MEC_01
+		#division_names_group = USA_MEC_01
 
 		target_template = {
 
@@ -515,7 +515,7 @@ mobile_USA = {
 			}
 		}
 
-		division_names_group = USA_MEC_01
+		#division_names_group = USA_MEC_01
 
 		target_template = {
 
@@ -562,7 +562,7 @@ mountaineers_USA = {
 			factor = 2
 		}
 
-		division_names_group = USA_MNT_01
+		#division_names_group = USA_MNT_01
 
 		target_template = {
 			support = {
@@ -610,7 +610,7 @@ marines_USA = {
 			base = 2
 		}
 
-		division_names_group = USA_MAR_01
+		#division_names_group = USA_MAR_01
 
 		target_template = {
 
@@ -637,7 +637,7 @@ marines_USA = {
 			}
 		}
 
-		division_names_group = USA_MAR_01
+		#division_names_group = USA_MAR_01
 
 		target_template = {
 
@@ -671,7 +671,7 @@ marines_USA = {
 			}
 		}
 
-		division_names_group = USA_MAR_01
+		#division_names_group = USA_MAR_01
 
 		target_template = {
 			support = {
@@ -718,7 +718,7 @@ paratroopers_USA = {
 		}
 		reinforce_prio = 2
 
-		division_names_group = USA_PAR_01
+		#division_names_group = USA_PAR_01
 
 		target_template = {
 			support = {

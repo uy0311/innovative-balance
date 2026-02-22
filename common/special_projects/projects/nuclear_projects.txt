@@ -147,10 +147,10 @@ sp_nuclear_reactor = {
 							}
 						}
 						#custom_effect_tooltip = sp_nuclear_isotope_separation_choice_reward_tt
-						add_timed_idea = {
-							idea = special_project_consumer_costs_high
-							days = 365
-						}
+						# add_timed_idea = {
+						# 	idea = special_project_consumer_costs_high
+						# 	days = 365
+						# }
 						FROM = { add_project_progress_ratio = constant:sp_progress.gain.high }
 					}
 				}
@@ -298,47 +298,47 @@ sp_commercial_nuclear_reactor = {
 		}
 
 		facility_state_effects = {
-			hidden_effect = {
-				IF = {
-					limit = {
-						nuclear_reactor_heavy_water > 0
-					}
-					remove_building = {
-						type = nuclear_reactor_heavy_water
-						level = 1
-					}
-					set_building_level = {
-						type = commercial_nuclear_reactor
-						level = 1
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						nuclear_reactor > 0
-					}
-					remove_building = {
-						type = nuclear_reactor
-						level = 1
-					}
-					set_building_level = {
-						type = commercial_nuclear_reactor
-						level = 1
-					}	
-				}
-				ELSE_IF = {
-					limit = { 
-						free_building_slots = {
-							building = industrial_complex
-							size > 0
-							include_locked = yes 
-						}
-					}
-					set_building_level = {
-						type = commercial_nuclear_reactor
-						level = 1
-					}
-				}
-			}
+			# hidden_effect = {
+			# 	IF = {
+			# 		limit = {
+			# 			nuclear_reactor_heavy_water > 0
+			# 		}
+			# 		remove_building = {
+			# 			type = nuclear_reactor_heavy_water
+			# 			level = 1
+			# 		}
+			# 		set_building_level = {
+			# 			type = commercial_nuclear_reactor
+			# 			level = 1
+			# 		}
+			# 	}
+			# 	ELSE_IF = {
+			# 		limit = {
+			# 			nuclear_reactor > 0
+			# 		}
+			# 		remove_building = {
+			# 			type = nuclear_reactor
+			# 			level = 1
+			# 		}
+			# 		set_building_level = {
+			# 			type = commercial_nuclear_reactor
+			# 			level = 1
+			# 		}	
+			# 	}
+			# 	ELSE_IF = {
+			# 		limit = { 
+			# 			free_building_slots = {
+			# 				building = industrial_complex
+			# 				size > 0
+			# 				include_locked = yes 
+			# 			}
+			# 		}
+			# 		set_building_level = {
+			# 			type = commercial_nuclear_reactor
+			# 			level = 1
+			# 		}
+			# 	}
+			# }
 		}
 	}
 	

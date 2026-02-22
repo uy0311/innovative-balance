@@ -42,7 +42,7 @@ armor_HUN = {
 			base = 2
 		}
 
-		division_names_group = HUN_ARM_01
+		#division_names_group = HUN_ARM_01
 
 		target_template = {
 
@@ -74,7 +74,7 @@ armor_HUN = {
 			}
 		}
 
-		division_names_group = HUN_ARM_01
+		#division_names_group = HUN_ARM_01
 
 		target_template = {
 
@@ -105,7 +105,7 @@ armor_HUN = {
 			}
 		}
 
-		division_names_group = HUN_ARM_01
+		#division_names_group = HUN_ARM_01
 
 		target_template = {
 
@@ -136,7 +136,7 @@ armor_HUN = {
 			}
 		}
 
-		division_names_group = HUN_ARM_01
+		#division_names_group = HUN_ARM_01
 
 		target_template = {
 
@@ -168,7 +168,7 @@ armor_HUN = {
 			}
 		}
 
-		division_names_group = HUN_ARM_01
+		#division_names_group = HUN_ARM_01
 
 		target_template = {
 
@@ -201,7 +201,7 @@ armor_HUN = {
 			}
 		}
 
-		division_names_group = HUN_ARM_01
+		#division_names_group = HUN_ARM_01
 
 		target_template = {
 
@@ -253,7 +253,7 @@ garrison_HUN = {
 			base = 2
 		}
 
-		division_names_group = HUN_GAR_01
+		#division_names_group = HUN_GAR_01
 
 		target_template = {
 
@@ -286,7 +286,7 @@ infantry_HUN = {
 			base = 2
 		}
 
-		division_names_group = HUN_INF_02
+		#division_names_group = HUN_INF_02
 
 		target_template = {
 
@@ -313,7 +313,7 @@ infantry_HUN = {
 			}
 		}
 
-		division_names_group = HUN_INF_01
+		#division_names_group = HUN_INF_01
 
 		target_template = {
 
@@ -341,7 +341,7 @@ infantry_HUN = {
 			}
 		}
 
-		division_names_group = HUN_INF_01
+		#division_names_group = HUN_INF_01
 
 		target_template = {
 
@@ -384,7 +384,7 @@ mobile_HUN = {
 			base = 2
 		}
 
-		division_names_group = HUN_CAV_01
+		#division_names_group = HUN_CAV_01
 
 		target_template = {
 
@@ -409,7 +409,7 @@ mobile_HUN = {
 			}
 		}
 
-		division_names_group = HUN_MOT_01
+		#division_names_group = HUN_MOT_01
 
 		target_template = {
 
@@ -436,7 +436,7 @@ mobile_HUN = {
 			}
 		}
 
-		division_names_group = HUN_MOT_01
+		#division_names_group = HUN_MOT_01
 
 		target_template = {
 
@@ -468,7 +468,7 @@ mobile_HUN = {
 			}
 		}
 
-		division_names_group = HUN_MEC_01
+		#division_names_group = HUN_MEC_01
 
 		target_template = {
 
@@ -501,7 +501,7 @@ mobile_HUN = {
 			}
 		}
 
-		division_names_group = HUN_MEC_01
+		#division_names_group = HUN_MEC_01
 
 		target_template = {
 
