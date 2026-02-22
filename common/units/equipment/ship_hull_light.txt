@@ -131,7 +131,6 @@ equipments = {
 		}
 		
 		manpower = 250
-		naval_dominance_factor = 500
 		
 		#naval_supremacy_factor = 1.0
 		#naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -147,6 +146,7 @@ equipments = {
 		archetype = ship_hull_light
 		priority = 2000
 		#alias = destroyer_1
+		naval_dominance_factor = 500
 		
 		module_slots = inherit
 	}

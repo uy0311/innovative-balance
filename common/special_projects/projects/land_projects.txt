@@ -44,7 +44,7 @@ sp_land_flamethrower_tank = {
 						has_dlc = "No Step Back"
 						original_tag = ITA
 					}
-					ITA_add_basic_light_flamethrower_template = yes
+					#ITA_add_basic_light_flamethrower_template = yes
 				}
 			}
 
@@ -150,7 +150,7 @@ sp_land_military_engineering_vehicles = {
 				limit = {
 					has_dlc = "Gotterdammerung"
 				}
-				SP_create_variant_based_on_country_assault_engineer = yes
+				#SP_create_variant_based_on_country_assault_engineer = yes
 			}
 
 			custom_effect_tooltip = {
@@ -2027,10 +2027,10 @@ sp_land_stronghold_network = {
 						injure_scientist_for_days = 60
 					}
 					facility_state_effects = {
-						add_dynamic_modifier = {
-							modifier = sp_land_stronghold_network_collapse_workers_drafted
-							days = 60
-						}
+						# add_dynamic_modifier = {
+						# 	modifier = sp_land_stronghold_network_collapse_workers_drafted
+						# 	days = 60
+						# }
 					}
 				}
 			}
@@ -2078,10 +2078,10 @@ sp_land_stronghold_network = {
 						}
 					}
 					facility_state_effects = {
-						add_dynamic_modifier = {
-							modifier = sp_land_stronghold_network_collapse_workers_drafted
-							days = 60
-						}
+						# add_dynamic_modifier = {
+						# 	modifier = sp_land_stronghold_network_collapse_workers_drafted
+						# 	days = 60
+						# }
 					}
 				}
 			}

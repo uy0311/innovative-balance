@@ -539,7 +539,7 @@ militia_ITA = {
 		factor = 2
 		modifier = {
 			factor = 0
-			has_completed_focus = ITA_disband_the_blackshirts
+			#has_completed_focus = ITA_disband_the_blackshirts
 		}
 	}
 
