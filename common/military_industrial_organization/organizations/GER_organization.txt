@@ -144,7 +144,6 @@ GER_heinkel_organization = {
 				tag = BUL
 				has_dlc = "Battle for the Bosporus"
 			}
-			NOR_AAT = yes
 		}
 	}
 }

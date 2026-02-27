@@ -47,21 +47,17 @@ ideas = {
 			}
 		}
 
-		koc_ticaret_as_armor = {
-			
-			picture = tur_koc_ticaret_as
+		renault_bel_no_wuw = {
 
+			picture = renault
 			
 			allowed = {
 				original_tag = SWE
-				has_dlc = "Battle for the Bosporus"
 			}
 			
 			research_bonus = {
 				armor = 0.2
 			}
-
-		#	cost = 75
 			
 			traits = { infantry_tank_manufacturer }
 		}
