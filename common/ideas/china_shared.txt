@@ -215,10 +215,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				fighter_equipment = {
-					air_agility = 0.05
-					air_attack = 0.1
-				}
+
 			}
 			
 			traits = { medium_aircraft_manufacturer }
@@ -245,18 +242,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				fighter_equipment = {
-					air_agility = 0.05
-					air_attack = 0.1
-				}
-				tac_bomber_equipment = {
-					air_range = 0.1
-					air_ground_attack = 0.1
-				}
-				CAS_equipment = {
-					air_range = 0.1
-					air_ground_attack = 0.1
-				}
+
 			}
 			
 			research_bonus = {

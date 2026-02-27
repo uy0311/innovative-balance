@@ -708,7 +708,7 @@ buildings = {
 		is_buildable = no
 		show_modifier = yes
 
-		infrastructure_construction_effect = mo
+		infrastructure_construction_effect = no
 		level_cap = {
 			state_max = 1
 			shares_slots = yes
