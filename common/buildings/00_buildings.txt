@@ -158,7 +158,7 @@ buildings = {
 		infrastructure_construction_effect = no
 		level_cap = {
 			shares_slots = yes
-			state_max = 25
+			state_max = 10
 		}
 	}
 
