@@ -4,7 +4,7 @@ scripted_gui = {
  		window_name = "IB_civ_ui_window"
  
  		visible = {
- 			NOT = { has_country_flag = IB_IC_UI_switching_flag }
+ 			has_country_flag = IB_IC_UI_switching_flag
  		}
  	}
  
@@ -12,7 +12,7 @@ scripted_gui = {
  		window_name = "IB_mil_ui_window"
  
  		visible = {
- 			NOT = { has_country_flag = IB_IC_UI_switching_flag }
+ 			has_country_flag = IB_IC_UI_switching_flag
  		}
  	}
  
@@ -20,7 +20,7 @@ scripted_gui = {
  		window_name = "IB_dockyard_ui_window"
  
  		visible = {
- 			NOT = { has_country_flag = IB_IC_UI_switching_flag }
+ 			has_country_flag = IB_IC_UI_switching_flag
  		}
  	}
  
@@ -28,7 +28,7 @@ scripted_gui = {
  		window_name = "IB_divison_ui_window"
  
  		visible = {
- 			NOT = { has_country_flag = IB_other_UI_switching_flag }
+ 			has_country_flag = IB_other_UI_switching_flag
  		}
  	}
  
@@ -36,7 +36,7 @@ scripted_gui = {
  		window_name = "IB_planes_ui_window"
  
  		visible = {
- 			NOT = { has_country_flag = IB_other_UI_switching_flag }
+ 			has_country_flag = IB_other_UI_switching_flag
  		}
  	}
  
@@ -44,7 +44,7 @@ scripted_gui = {
  		window_name = "IB_ships_ui_window"
  
  		visible = {
- 			NOT = { has_country_flag = IB_other_UI_switching_flag }
+ 			has_country_flag = IB_other_UI_switching_flag
  		}
  	}
  
