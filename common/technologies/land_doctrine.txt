@@ -1865,7 +1865,7 @@ technologies = {
 		}
 
 		land_reinforce_rate = 0.02
-		naval_invasion_planning_bonus_speed = 2.00
+		naval_invasion_planning_bonus_speed = 1.00
 
 		category_marines = {
 			soft_attack = 0.10
@@ -3060,7 +3060,7 @@ technologies = {
 			assault_breakthrough
 		}
 
-		naval_invasion_planning_bonus_speed = 4.5
+		naval_invasion_planning_bonus_speed = 1.0
 
 		category_light_infantry = {
 			breakthrough = 0.20
@@ -3117,25 +3117,25 @@ technologies = {
 		light_armor = {
 			max_organisation = 20
 			default_morale = 0.2
-			breakthrough = 0.4
+			breakthrough = 0.2
 		}
 		
 		amphibious_light_armor = {
 			max_organisation = 20
 			default_morale = 0.2
-			breakthrough = 0.4
+			breakthrough = 0.2
 		}
 
 		light_flame_tank = {
 			max_organisation = 20
 			default_morale = 0.2
-			breakthrough = 0.4
+			breakthrough = 0.2
 		}
 
 		armored_car = {
 			max_organisation = 20
 			default_morale = 0.2
-			breakthrough = 0.4
+			breakthrough = 0.2
 		}
 
 		light_sp_artillery_brigade = {
@@ -3308,6 +3308,22 @@ technologies = {
 			max_organisation = 10
 			default_morale = 0.1
 			breakthrough = 0.20
+		}
+
+		light_armor = {
+			breakthrough = 0.2
+		}
+		
+		amphibious_light_armor = {
+			breakthrough = 0.2
+		}
+
+		light_flame_tank = {
+			breakthrough = 0.2
+		}
+
+		armored_car = {
+			breakthrough = 0.2
 		}
 
 		engineer = {
@@ -3682,7 +3698,12 @@ technologies = {
 			}
 		}
 		enable_tactic = tactic_relentless_assault
+
 		category_all_infantry = {
+			default_morale = 0.10
+		}
+		category_vehicle_infantry = {
+			max_organisation = 10
 			default_morale = 0.10
 		}
 		
@@ -3752,11 +3773,14 @@ technologies = {
 		}
 		enable_tactic = tactic_blitz
 
+		category_vehicle_infantry = {
+			max_organisation = 10
+		}
 		category_tanks = {
-			default_morale = 0.1
+			default_morale = 0.2
 		}
 		armored_car = {
-			default_morale = 0.1
+			default_morale = 0.2
 		}
 
 		path = {
@@ -3864,6 +3888,10 @@ technologies = {
 		infantry = {
 			default_morale = 0.10
 		}
+		category_vehicle_infantry = {
+			max_organisation = 10
+			default_morale = 0.10
+		}
 
 		category_tanks = {
 			breakthrough = 0.10
@@ -3924,17 +3952,12 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 10
 		}
-		motorized = {
-			max_organisation = 5
-			default_morale = 0.2
-		}	
-		mechanized = {
-			max_organisation = 5
-			default_morale = 0.2
+		category_vehicle_infantry = {
+			max_organisation = 10
+			default_morale = 0.10
 		}
-		amphibious_mechanized = {
-			max_organisation = 5
-			default_morale = 0.2
+		motorized = {
+			combat_width = -0.4
 		}
 		
 		on_research_complete = {
@@ -3991,23 +4014,60 @@ technologies = {
 		supply_consumption_factor = -0.05
 
 		light_armor = {
-			max_strength = -0.25
-			combat_width = -0.25
-			max_organisation = 15
+			combat_width = -0.125
+			max_organisation = 10
 			default_morale = 0.25
 		}
 		medium_armor = {
-			max_strength = -0.25
-			combat_width = -0.25
-			max_organisation = 15
+			combat_width = -0.125
+			max_organisation = 10
 			default_morale = 0.25
 		}
+
 		modern_armor = {
-			max_strength = -0.25
 			combat_width = -0.25
-			max_organisation = 15
-			default_morale = 0.25
+			max_organisation = 10
+			default_morale = 0.2
 		}
+
+		light_tank_destroyer_brigade = {
+			combat_width = -0.25
+			max_organisation = 10
+			default_morale = 0.2
+		}
+		medium_tank_destroyer_brigade = {
+			combat_width = -0.25
+			max_organisation = 10
+			default_morale = 0.2
+		}
+
+       light_sp_artillery_brigade = {
+			combat_width = -0.25
+			max_organisation = 10
+			default_morale = 0.2
+		}
+		medium_sp_artillery_brigade = {
+			combat_width = -0.25
+			max_organisation = 10
+			default_morale = 0.2
+		}
+
+		light_sp_anti_air_brigade = {
+			combat_width = -1.0
+			max_organisation = 10
+			default_morale = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			combat_width = -1.0
+			max_organisation = 10
+			default_morale = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			combat_width = -1.0
+			max_organisation = 10
+			default_morale = 0.1
+		}
+
 
 		on_research_complete = {
 				if = {
@@ -4016,45 +4076,6 @@ technologies = {
 					}
 				add_ideas = { mechanized_wave_idea }
 			}
-		}
-
-		light_tank_destroyer_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		medium_tank_destroyer_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		modern_tank_destroyer_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
-		}
-
-       light_sp_artillery_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		medium_sp_artillery_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		modern_sp_artillery_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
-		}
-
-		light_sp_anti_air_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		medium_sp_anti_air_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
-		}
-		modern_sp_anti_air_brigade = {
-			max_organisation = 10
-			default_morale = 0.25
 		}
 
 		path = {
@@ -4099,7 +4120,6 @@ technologies = {
 
 		category_army = {
 			default_morale = 0.10
-			max_organisation = 5
 			breakthrough = 0.05
 		}
 		category_all_armor = {
@@ -4111,8 +4131,8 @@ technologies = {
 		mechanized = {
 			maximum_speed = 0.05
 		}
-		amphibious_mechanized = {
-			maximum_speed = 0.05
+		category_vehicle_infantry = {
+			max_organisation = 15
 		}
 
 		on_research_complete = {

@@ -522,7 +522,7 @@
  STAT_ARMY_COMBAT_WIDTH: "戦闘正面幅: "
  STAT_ARMY_COMBAT_WIDTH_DIFF: " $VALUE|=-2$"
  COMBAT_WIDTH: "戦闘正面幅: "
- COMBAT_WIDTH_DIFF: " $VALUE|=-2$"
+ COMBAT_WIDTH_DIFF: " $VALUE|=-3$"
 
 ##海軍##
  ship_hull_light_1: "1933年型駆逐艦船体"
