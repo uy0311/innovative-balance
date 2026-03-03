@@ -4024,48 +4024,43 @@ technologies = {
 			default_morale = 0.25
 		}
 
-		modern_armor = {
-			combat_width = -0.25
-			max_organisation = 10
-			default_morale = 0.2
-		}
-
 		light_tank_destroyer_brigade = {
-			combat_width = -0.25
+			combat_width = -0.125
 			max_organisation = 10
-			default_morale = 0.2
+			default_morale = 0.25
 		}
 		medium_tank_destroyer_brigade = {
-			combat_width = -0.25
+			combat_width = -0.125
 			max_organisation = 10
-			default_morale = 0.2
+			default_morale = 0.25
 		}
 
        light_sp_artillery_brigade = {
-			combat_width = -0.25
+			combat_width = -0.125
 			max_organisation = 10
-			default_morale = 0.2
+			default_morale = 0.25
 		}
 		medium_sp_artillery_brigade = {
-			combat_width = -0.25
+			combat_width = -0.125
 			max_organisation = 10
-			default_morale = 0.2
+			default_morale = 0.25
 		}
 
 		light_sp_anti_air_brigade = {
-			combat_width = -1.0
+			combat_width = -1.5
 			max_organisation = 10
 			default_morale = 0.1
 		}
 		medium_sp_anti_air_brigade = {
-			combat_width = -1.0
+			combat_width = -1.5
 			max_organisation = 10
 			default_morale = 0.1
 		}
-		modern_sp_anti_air_brigade = {
-			combat_width = -1.0
-			max_organisation = 10
-			default_morale = 0.1
+
+		modern_armor = {
+			combat_width = -0.15
+			max_organisation = 15
+			default_morale = 0.3
 		}
 
 
