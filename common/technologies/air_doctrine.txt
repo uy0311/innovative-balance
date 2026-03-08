@@ -917,7 +917,7 @@ technologies = {
 		research_cost = 3
 
 		# EFFECT ########
-		air_intercept_efficiency = 0.25
+		air_intercept_efficiency = 0.175
 		###########
 		
 		categories = {
