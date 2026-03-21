@@ -117,7 +117,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 4
-		build_cost_ic = 2.25
+		build_cost_ic = 3.00
 		reliability = 0.45
 		hardness = 0.85
 		armor_value = 5
@@ -249,7 +249,7 @@ equipments = {
 		}
 
 		maximum_speed = 4
-		build_cost_ic = 2.25
+		build_cost_ic = 3.00
 		reliability = 0.45
 		armor_value = 10
 	}
@@ -320,7 +320,7 @@ equipments = {
 			special_type_slot_2 = equipment_for_engineers
 		}
 
-		build_cost_ic = 2.5
+		build_cost_ic = 3.25
 		maximum_speed = 5.5
 		reliability = 0.55
 		armor_value = 30
@@ -397,7 +397,7 @@ equipments = {
 			special_type_slot_2 = equipment_for_engineers
 		}
 
-		build_cost_ic = 2.75
+		build_cost_ic = 3.50
 		maximum_speed = 6.0
 		reliability = 0.65
 		armor_value = 40

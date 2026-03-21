@@ -6202,7 +6202,7 @@ leader_traits = {
 	army_chief_planning_1 = { #
 		sprite = 5
 		planning_speed = 0.15
-		max_planning_factor = 0.10
+		max_planning_factor = 0.075
 		experience_gain_army = 0.24
 
 		
@@ -6218,8 +6218,8 @@ leader_traits = {
 
 	army_chief_planning_2 = { #
 		sprite = 5
-		planning_speed = 0.25
-		max_planning_factor = 0.20
+		planning_speed = 0.30
+		max_planning_factor = 0.15
 		experience_gain_army = 0.24
 
 		
@@ -6235,8 +6235,8 @@ leader_traits = {
 
 	army_chief_planning_3 = { #
 		sprite = 5
-		planning_speed = 0.35
-		max_planning_factor = 0.30
+		planning_speed = 0.40
+		max_planning_factor = 0.20
 		experience_gain_army = 0.24
 
 		

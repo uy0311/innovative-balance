@@ -1530,10 +1530,9 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			fort = {
-				attack = 0.075
+				attack = 0.10
 			}
 		}
-		enable_ability = siege_artillery
 		
 		ai_will_do = {
 			factor = 1
