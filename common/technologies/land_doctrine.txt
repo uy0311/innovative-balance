@@ -2560,7 +2560,7 @@ technologies = {
 		land_reinforce_rate = 0.03
 
 		category_light_infantry = {
-			breakthrough = 1.0
+			breakthrough = 0.5
 		}
 		
 		on_research_complete = {
@@ -3063,7 +3063,7 @@ technologies = {
 		naval_invasion_planning_bonus_speed = 1.0
 
 		category_light_infantry = {
-			breakthrough = 0.20
+			breakthrough = 0.30
 			max_organisation = 20
 			initiative = 0.01
 		}
@@ -3116,56 +3116,41 @@ technologies = {
 
 		light_armor = {
 			max_organisation = 20
-			breakthrough = 0.2
+			breakthrough = 0.3
 		}
 		
 		amphibious_light_armor = {
 			max_organisation = 20
-			breakthrough = 0.2
+			breakthrough = 0.3
 		}
 
 		light_flame_tank = {
 			max_organisation = 20
-			breakthrough = 0.2
+			breakthrough = 0.3
 		}
 
 		armored_car = {
 			max_organisation = 20
-			breakthrough = 0.2
+			breakthrough = 0.3
 		}
 
-		light_sp_artillery_brigade = {
-			max_organisation = 20
-			default_morale = 0.2
-		}
+		# armored_car_recon = {
+		# 	max_organisation = 40
+		# 	default_morale = 0.4
+		# 	breakthrough = 0.8
+		# }
 
-		light_tank_destroyer_brigade = {
-			max_organisation = 20
-			default_morale = 0.2
-		}
+		# light_tank_recon = {
+		# 	max_organisation = 40
+		# 	default_morale = 0.4
+		# 	breakthrough = 0.8
+		# }
 
-		light_sp_anti_air_brigade = {
-			max_organisation = 20
-			default_morale = 0.2
-		}
-
-		armored_car_recon = {
-			max_organisation = 40
-			default_morale = 0.4
-			breakthrough = 0.8
-		}
-
-		light_tank_recon = {
-			max_organisation = 40
-			default_morale = 0.4
-			breakthrough = 0.8
-		}
-
-		airborne_light_armor = {
-			max_organisation = 40
-			default_morale = 0.4
-			breakthrough = 0.8
-		}
+		# airborne_light_armor = {
+		# 	max_organisation = 40
+		# 	default_morale = 0.4
+		# 	breakthrough = 0.8
+		# }
 
 		on_research_complete = {
 			hidden_effect = {
@@ -3257,74 +3242,6 @@ technologies = {
 				add = yes
 			}
 		}
-		
-		path = {
-			leads_to_tech = night_assault_tactics 
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 5.0
-		
-		categories = {
-			cat_land_doctrine
-			cat_grand_battle_plan
-		}
-
-		
-		folder = {
-			name = old_land_doctrine_folder
-			position = { x = 2 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
-	}
-	
-	night_assault_tactics = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		#reduce land night combat penalty
-		land_night_attack = 0.25 # negates half of base penalty
-		out_of_supply_factor = -0.1
-
-		category_special_forces = {
-			max_organisation = 10
-			default_morale = 0.1
-			breakthrough = 0.20
-		}
-
-		light_armor = {
-			breakthrough = 0.1
-			default_morale = 0.2
-		}
-		
-		amphibious_light_armor = {
-			breakthrough = 0.1
-			default_morale = 0.2
-		}
-
-		light_flame_tank = {
-			breakthrough = 0.1
-			default_morale = 0.2
-		}
-
-		armored_car = {
-			breakthrough = 0.1
-			default_morale = 0.2
-		}
 
 		engineer = {
 			forest = {
@@ -3395,6 +3312,69 @@ technologies = {
 			amphibious = {
 				movement = 0.10
 			}
+		}
+		
+		path = {
+			leads_to_tech = night_assault_tactics 
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes	
+		research_cost = 5.0
+		
+		categories = {
+			cat_land_doctrine
+			cat_grand_battle_plan
+		}
+
+		
+		folder = {
+			name = old_land_doctrine_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+		
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1.0
+		}
+	}
+	
+	night_assault_tactics = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		#reduce land night combat penalty
+		land_night_attack = 0.25 # negates half of base penalty
+		out_of_supply_factor = -0.1
+
+		category_special_forces = {
+			max_organisation = 10
+			default_morale = 0.1
+			breakthrough = 0.20
+		}
+
+		light_sp_artillery_brigade = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+
+		light_tank_destroyer_brigade = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+
+		light_sp_anti_air_brigade = {
+			max_organisation = 10
+			default_morale = 0.2
 		}
 
 		path = {
