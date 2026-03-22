@@ -78,8 +78,8 @@ equipment_modules = {
 		add_stats = {
 			fuel_consumption = 1.5
 			build_cost_ic = 0.75
-			breakthrough = 8
-			defense = 8
+			breakthrough = 6
+			defense = 6
 		}
 		multiply_stats = {
 			reliability = -0.30
@@ -94,8 +94,8 @@ equipment_modules = {
 		add_stats = {
 			fuel_consumption = 1.5
 			build_cost_ic = 0.75
-			breakthrough = 8
-			defense = 8
+			breakthrough = 6
+			defense = 6
 		}
 		multiply_stats = {
 			maximum_speed = 1.00
@@ -111,6 +111,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.75
 			fuel_consumption = 4
+			fuel_capacity = -10
 			breakthrough = 6
 			defense = 6
 		}
@@ -129,6 +130,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.75
 			fuel_consumption = 4
+			fuel_capacity = -10
 			breakthrough = 6
 			defense = 6
 		}

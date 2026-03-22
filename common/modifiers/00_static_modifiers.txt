@@ -400,7 +400,7 @@ screening_bonus = {
 }
 
 capital_screening_bonus = {
-  sortie_efficiency = 0.8
+  naval_retreat_speed = 0.1
 }
 
 country_is_at_peace = {
