@@ -6,7 +6,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.06
-			naval_morale_factor = 0.06
+			naval_morale_factor = 0.12
 		}
 	}
 
@@ -15,7 +15,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.07
-			naval_morale_factor = 0.07
+			naval_morale_factor = 0.14
 		}
 	}
 
@@ -24,7 +24,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.08
-			naval_morale_factor = 0.08
+			naval_morale_factor = 0.16
 		}
 	}
 
@@ -33,7 +33,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.09
-			naval_morale_factor = 0.09
+			naval_morale_factor = 0.18
 		}
 	}
 
@@ -42,7 +42,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.10
-			naval_morale_factor = 0.10
+			naval_morale_factor = 0.20
 		}
 	}
 
@@ -51,7 +51,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.11
-			naval_morale_factor = 0.11
+			naval_morale_factor = 0.22
 		}
 	}
 
@@ -60,7 +60,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.12
-			naval_morale_factor = 0.12
+			naval_morale_factor = 0.24
 		}
 	}
 
@@ -69,7 +69,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.13
-			naval_morale_factor = 0.13
+			naval_morale_factor = 0.26
 		}
 	}
 
@@ -78,7 +78,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.14
-			naval_morale_factor = 0.14
+			naval_morale_factor = 0.28
 		}
 	}
 	
@@ -87,7 +87,7 @@ leader_defense_skills = {
 		type = navy
 		modifier = {
 			navy_org_factor = 0.15
-			naval_morale_factor = 0.15
+			naval_morale_factor = 0.30
 		}
 	}
 
