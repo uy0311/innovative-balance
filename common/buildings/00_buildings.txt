@@ -336,6 +336,7 @@ buildings = {
 		icon_frame = 13
 		nuclear_reactor = yes
 		value = 10
+		allied_build = yes
 		tags = { specialization_nuclear }
 		infrastructure_construction_effect = no
 
