@@ -222,32 +222,8 @@ technologies = {
 		xor={
 			armored_spearhead
 		}
-		motorized = {
-			initiative = 0.03
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
+
 		armored_car = {
-			initiative = 0.03
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mot_artillery_brigade = {
-			initiative = 0.03
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mot_anti_tank_brigade = {
-			initiative = 0.03
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mot_anti_air_brigade = {
-			initiative = 0.03
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mechanized = {
 			initiative = 0.03
 			maximum_speed = 0.1
 			default_morale = 0.2
@@ -257,7 +233,11 @@ technologies = {
 			maximum_speed = 0.1
 			default_morale = 0.2
 		}
-		
+		category_mobile_and_mobile_combat_sup = {
+			initiative = 0.03
+			maximum_speed = 0.1
+			default_morale = 0.2
+		}
 		
 		path = {
 			leads_to_tech = mass_motorization 
@@ -2841,39 +2821,33 @@ technologies = {
 		}
 
 		medium_armor = {
-			breakthrough = 0.2
+			breakthrough = 0.1
 			max_organisation = 10
-			default_morale = 0.1
 		}
 
 		amphibious_medium_armor = {
-			breakthrough = 0.2
+			breakthrough = 0.1
 			max_organisation = 10
-			default_morale = 0.1
 		}
 
 		medium_flame_tank = {
-			breakthrough = 0.2
+			breakthrough = 0.1
 			max_organisation = 10
-			default_morale = 0.1
 		}
 
 		heavy_armor = {
-			breakthrough = 0.2
+			breakthrough = 0.1
 			max_organisation = 10
-			default_morale = 0.1
 		}
 
 		heavy_flame_tank = {
-			breakthrough = 0.2
+			breakthrough = 0.1
 			max_organisation = 10
-			default_morale = 0.1
 		}
 
 		modern_armor = {
-			breakthrough = 0.2
+			breakthrough = 0.1
 			max_organisation = 10
-			default_morale = 0.1
 		}
 
 		on_research_complete = {
@@ -2922,8 +2896,6 @@ technologies = {
 	central_planning = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-
-		planning_speed = 0.35
 
 		shore_bombardment_bonus = 1.0
 
@@ -2974,6 +2946,11 @@ technologies = {
 
 		air_cas_present_factor = 0.30
 
+		category_army = {
+			max_organisation = 10
+			default_morale = 0.10
+		}
+
 		recon = {
 			battalion_mult = {
 				category = category_army
@@ -3007,11 +2984,6 @@ technologies = {
 				category = category_army
 				breakthrough = 0.1
 			}
-		}
-
-		category_army = {
-			max_organisation = 10
-			default_morale = 0.10
 		}
 		
 		doctrine = yes	
@@ -3116,22 +3088,22 @@ technologies = {
 
 		light_armor = {
 			max_organisation = 20
-			breakthrough = 0.3
+			breakthrough = 0.2
 		}
 		
 		amphibious_light_armor = {
 			max_organisation = 20
-			breakthrough = 0.3
+			breakthrough = 0.2
 		}
 
 		light_flame_tank = {
 			max_organisation = 20
-			breakthrough = 0.3
+			breakthrough = 0.2
 		}
 
 		armored_car = {
 			max_organisation = 20
-			breakthrough = 0.3
+			breakthrough = 0.2
 		}
 
 		# armored_car_recon = {
