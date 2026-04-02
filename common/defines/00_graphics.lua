@@ -669,7 +669,7 @@ NMapIcons = {
 NAirGfx = {
 	AIRPLANES_ANIMATION_GLOBAL_SPEED_PER_GAMESPEED = { 0.22, 0.28, 0.32, 0.38, 0.44, 0.50 }, -- Speed factor for each game speed (begin with paused). Larger value = faster animation.
 	ROCKET_SPEED = 15.0,							-- Speed of rockets launched from rocket sites
-	AIRPLANES_CURVE_POINT_DENSITY = 2.0, 			-- LOWER value = more midpoints in the flight path.
+	AIRPLANES_CURVE_POINT_DENSITY = 0.5, 			-- LOWER value = more midpoints in the flight path.
 	AIRPLANES_CURVE_MAX_EXTRAPOLATION = 20.0, 		-- It's the limit value that avoid making gigantic curves that may happen when flight path is very long.
 	AIRPLANES_CURVE_MIN_ELEVATION = 4.0, 			-- Minimum height above the ground that the curve will generate it's points. Excludes first and last point (takeoff/landing).
 	AIRPLANES_SCALE_TAKEOFF_DIST = 0.1, 				-- Until first x% of the flight path, the airplane will scale up.
@@ -738,14 +738,14 @@ NGraphics = {
 	SHIP_POPUP_SCALE_DOWN_SPEED = 4.1,
 	PORT_SHIP_OFFSET = 2.0,
 	SHIP_IN_PORT_SCALE = 0.25,
-	MAP_BUILDINGS_SHRINK_DISTANCE = 180,
+	MAP_BUILDINGS_SHRINK_DISTANCE = 120,
 	MAP_BUILDINGS_DESTROYED_STATUS = 60,			-- If health of last building level goes below this, the building entity will use the "destroyed" mesh (if it exists)
 	MAP_BUILDINGS_DESTROYED_DEAD_ZONE = 80,			-- After becoming "destroyed" (see MAP_BUILDINGS_DESTROYED_STATUS), the 3d building will stay destroyed until the health goes above this. (This is essentially a hysteresis zone to prevent rapid switching of 3d meshes if the building is damaged and repaired at the same time)
 	MAP_BUILDINGS_DAMAGED_THRESHOLD = 0.80,			-- If average health goes below this, the building entity enters the "damaged" state (generally used to show burning/smoking buildings)
 	CITY_DAMAGED_THRESHOLD = 0.80,					-- If average health of any type of civilian building (infrastructure + civilian factories) goes below this, the city entity enters the "damaged" state (generally used to show fire/smoke pillars)
 	CITY_DESTROYED_THRESHOLD = 0.30,				-- If average health of any type of civilian building (infrastructure + civilian factories) goes below this, the city entity enters the "burning" state (generally used to show fire/smoke pillars)
 	CITY_SPRAWL_SHRINK_DISTANCE = 220.0, 			-- Start shrinking at this distance
-	DRAW_MAP_OBJECTS_CUTOFF = 1100.0,				-- Remove map objects at this distance
+	DRAW_MAP_OBJECTS_CUTOFF = 700.0,				-- Remove map objects at this distance
 	PROVINCE_NAME_DRAW_DISTANCE = 500.0, 			-- Remove province names beyond this distance
 	DIRECTION_POINTER_DRAW_DISTANCE = 1200.0,		-- Direction pointer arrow will not be drawn beyond this distance
 	DIRECTION_POINTER_INTERPOLATION_SPEED = 0.275,	-- How fast the arrow is interpolating
@@ -783,8 +783,8 @@ NGraphics = {
 	ROOT_FRONT_MAX_INTERSECTION_TESTS_ORDER = 25,		-- How many points before the current one to check for intersections against (optimization)
 	ORDER_FRONT_MAX_OFFSETS = 4,						-- Max amount, the overlapping defensive lines can offset from the border.
 	ORDER_FRONT_SMOOTHNESS = 0.5,
-	ORDER_FRONT_SMOOTHEN_PASSES = 2,
-	ORDER_MOVE_SMOOTHNESS = 0.99,
+	ORDER_FRONT_SMOOTHEN_PASSES = 1,
+	ORDER_MOVE_SMOOTHNESS = 0.92,
 	ORDER_MOVE_SMOOTHEN_PASSES = 2,
 	UNIT_TURN_SPEED = 3,
 	BORDER_COLOR_SELECTION_STATE_R = 1.0,
@@ -847,9 +847,9 @@ NGraphics = {
 	BORDER_COLOR_BORDER_CONFLICT_NON_EDGE_G = 1.0,
 	BORDER_COLOR_BORDER_CONFLICT_NON_EDGE_B = 0.0,
 	BORDER_COLOR_BORDER_CONFLICT_NON_EDGE_A = 0.9,
-	DRAW_REFRACTIONS_CUTOFF = 250,
-	DRAW_SHADOWS_CUTOFF = 400,
-	DRAW_SHADOWS_FADE_LENGTH = 50,
+	DRAW_REFRACTIONS_CUTOFF = 180,
+	DRAW_SHADOWS_CUTOFF = 150,
+	DRAW_SHADOWS_FADE_LENGTH = 20,
 	DRAW_FOW_CUTOFF = 400,
 	DRAW_FOW_FADE_LENGTH = 350,
 	GRADIENT_BORDERS_FIELD_COUNTRY_REFRESH = 10, -- When country changes it's size by X provinces, then it refresh it's thickness and rebuilds all provinces
@@ -893,7 +893,7 @@ NGraphics = {
 	GRADIENT_BORDERS_ONE_COLOR_FOR_PEACE_CONFERENCE = { -1.0, -1.0, -1.0, -1.0 }, -- all gradient will have this color. if { -1.0, -1.0, -1.0, -1.0 } then use Negotiator MapColor
 
 	GRADIENT_BORDERS_OPTIMIZATION_RANGE = 30.0, -- smaller value = faster gradient borders but may have artifacts on large provinces (value to balance)
-	GRADIENT_BORDERS_REFRESH_FREQ = 0.12, -- how frequent is gradient borders repainting (optimization for high-speed gameplay)
+	GRADIENT_BORDERS_REFRESH_FREQ = 0.05, -- how frequent is gradient borders repainting (optimization for high-speed gameplay)
 	STRATEGIC_AIR_COLOR_BAD = {0.8, 0, 0, 1}, -- rgb
 	STRATEGIC_AIR_COLOR_GOOD = {0, 0.8, 0, 1},
 	STRATEGIC_AIR_COLOR_AVERAGE = {0.8, 0.8, 0, 1},
@@ -954,9 +954,9 @@ NGraphics = {
 	CAPITAL_ICON_CUTOFF = 1100,	-- At what camera distance capital icons disappears
 	UNITS_DISTANCE_CUTOFF = 120,
 	SHIPS_DISTANCE_CUTOFF = 240,
-	UNIT_ARROW_DISTANCE_CUTOFF = 875,
+	UNIT_ARROW_DISTANCE_CUTOFF = 700,
 	UNITS_ICONS_DISTANCE_CUTOFF = 900,
-	NAVAL_COMBAT_DISTANCE_CUTOFF = 1500,
+	NAVAL_COMBAT_DISTANCE_CUTOFF = 900,
 	FACILITY_DISTANCE_CUTOFF = 900, -- At what camera distance facility buildings disappears
 	ADJACENCY_RULE_DISTANCE_CUTOFF = 1700,
 	LAND_COMBAT_DISTANCE_CUTOFF = 1500,
@@ -965,21 +965,21 @@ NGraphics = {
 	DECISION_MAP_ICON_DISTANCE_CUTOFF = 1000,
 	DECISION_MAP_ICON_DEPTH_PRIORITY = 50,
 	NAVAL_MISSION_TASK_FORCES_GROUP_BY_ALLEGIANCE_CUTOFF = 500,
-	NAVAL_MISSION_ICONS_DISTANCE_CUTOFF = 1600, --1300,
+	NAVAL_MISSION_ICONS_DISTANCE_CUTOFF = 1000, --1300,
 	NAVAL_MINES_DISTANCE_CUTOFF = 800,
 	CRYPTOLOGY_MAP_ICON_DISTANCE_CUTOFF = 1000,
 	PEACE_CONFERENCE_MAP_ICON_DISTANCE_CUTOFF = 500,
 	NAVAL_MINES_CLUMPING = 58, -- The higher value, the more likely the 3d naval mines will clamp together
 	NAVAL_MINES_CLUMP_NEAR_TERRITORY = 25, -- Higher chance to spawn 3d naval mine near our territory
 	NAVAL_MINES_COUNT_TO_VISUAL_ASPECT = 0.1, -- How many in-game-naval-mines is one visual 3d naval mine?
-	MAP_ICONS_GROUP_CAM_DISTANCE = 90.0, -- camera distance at which the icons begin to group up
-	MAP_ICONS_STATE_GROUP_CAM_DISTANCE = 180.0, -- Camera distance at which the icons begin to group up on state level
-	MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE = 350, -- second camera distance at which the icons begin to group up
+	MAP_ICONS_GROUP_CAM_DISTANCE = 50.0, -- camera distance at which the icons begin to group up
+	MAP_ICONS_STATE_GROUP_CAM_DISTANCE = 150.0, -- Camera distance at which the icons begin to group up on state level
+	MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE = 280, -- second camera distance at which the icons begin to group up
 	MAP_ICONS_STRATEGIC_AREA_HUGE = 220,
 	MAP_ICONS_STATE_HUGE = 100,
-	MAPICON_GROUP_PASSES = 20, -- how many mapicons get processed per frame for grouping. more = quicker response, fewer = better performance
+	MAPICON_GROUP_PASSES = 4, -- how many mapicons get processed per frame for grouping. more = quicker response, fewer = better performance
 	MAP_ICONS_GROUP_SPLIT_SELECTED_LIMIT = 12,   -- Maximum number of units selected that will cause icon stacks to split
-	MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE = 350, -- Distance at which icon grouping becomes very coarse and merges different types of units
+	MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE = 280, -- Distance at which icon grouping becomes very coarse and merges different types of units
 	MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE_STRATEGIC = 350, -- Distance at which icon grouping becomes very coarse and merges different types of units for strategic mapmodes
 	RIVER_FADE_FROM = 20.0, -- the last river endings got faded out, X distance from the ending...
 	RIVER_FADE_TO = 3.0,
@@ -996,14 +996,14 @@ NGraphics = {
 	DIVISION_NAMES_GROUP_MAX_TOOLTIP_ENTRIES = 15,	-- Max entries to display the names in the tooltip, when mouse over the division-names-group in the division template designer.
 	NAMES_GROUP_MAX_NAME_LIST_ENTRIES = 25,	-- Max example name entries in ship and railway gun name list in production menu
 
-	WEATHER_DISTANCE_CUTOFF = 1500, -- At what distance weather effects are hidden
+	WEATHER_DISTANCE_CUTOFF = 400, -- At what distance weather effects are hidden
 	WEATHER_DISTANCE_FADE_LENGTH = 400, -- How far the fade out distance should be
 	WEATHER_ZOOM_IN_CUTOFF = 358, -- At what distance weather effects are faded out the most when zooming in
 	WEATHER_ZOOM_IN_FADE_LENGTH = 220, -- How far the zoom in fade out distance should be
 	WEATHER_ZOOM_IN_FADE_FACTOR = 0.0, -- How much the weather effects should fade out when maximum zoomed in
-	WEATHER_PLAYBACK_RATE = 0.15, -- Playback rate at maximum distance
-	WEATHER_PLAYBACK_RATE_CUTOFF = 500, -- Playback rate maximum distance
-	WEATHER_PLAYBACK_RATE_LENGTH = 200, -- For how long to fade between normal playback rate and maximum distance playback rate
+	WEATHER_PLAYBACK_RATE = 0.08, -- Playback rate at maximum distance
+	WEATHER_PLAYBACK_RATE_CUTOFF = 400, -- Playback rate maximum distance
+	WEATHER_PLAYBACK_RATE_LENGTH = 150, -- For how long to fade between normal playback rate and maximum distance playback rate
 
 	POSTEFFECT_PER_PROVINCE_MIN_SNOW = 0.1,
 	POSTEFFECT_PER_PROVINCE_MAX_SNOW = 0.2,
@@ -1056,8 +1056,8 @@ NGraphics = {
 
 	CUBEMAP_INTENSITY = 1.0,
 
-	TREE_FADE_NEAR = 250.0,
-	TREE_FADE_FAR = 350.0,
+	TREE_FADE_NEAR = 180.0,
+	TREE_FADE_FAR = 220.0,
 
 	TRADE_ROUTE_NUM_CONVOYS_SCALE_FACTOR = 0.3,
 	TRADE_ROUTE_MAX_NUM_CONVOYS = 4,
@@ -1277,7 +1277,7 @@ NGraphics = {
 	RAID_ARROW_BALLISTIC_SHAPE = 0.02,              -- Higher value = curved trajectories, lower value = flat trajectories
 	RAID_ARROW_BALLISTIC_MAX_HEIGHT = 30,			-- Maximum altitude reached by ballistic trajectories
 	RAID_ARROW_BALLISTIC_MAX_SEGMENT_LENGTH = 1,	-- Maximum length of arrow segment (less = smoother curve)
-	RAID_ARROW_BALLISTIC_MAX_SEGMENTS = 100,		-- Max segments per arrow (overrides max segment length)
+	RAID_ARROW_BALLISTIC_MAX_SEGMENTS = 40,		-- Max segments per arrow (overrides max segment length)
 
 	RAID_ARROW_AIR_HEIGHT = 10.0,                   -- Highest altitude above max(source, target)
 	RAID_ARROW_AIR_SLOPE_SOURCE_STEEPNESS = 0.2,    -- Higher value = steeper angle [0,1]
@@ -1285,13 +1285,13 @@ NGraphics = {
 	RAID_ARROW_AIR_SLOPE_TARGET_STEEPNESS = 0.2,    -- Same as above but for the target
 	RAID_ARROW_AIR_SLOPE_TARGET_LENGTH = 0.0,       -- Same as above but for the target (a value of zero means it ends above the target)
 	RAID_ARROW_AIR_MAX_SEGMENT_LENGTH = 1,			-- Maximum length of arrow segment (less = smoother curve)
-	RAID_ARROW_AIR_MAX_SEGMENTS = 100,				-- Max segments per arrow (overrides max segment length)
+	RAID_ARROW_AIR_MAX_SEGMENTS = 40,				-- Max segments per arrow (overrides max segment length)
 
-	RAID_ARROW_NAVAL_SUBDIVISIONS = 20,             -- Number of subdivisions for the path spline (more = smoother, but slower to render)
+	RAID_ARROW_NAVAL_SUBDIVISIONS = 6,             -- Number of subdivisions for the path spline (more = smoother, but slower to render)
 	RAID_ARROW_NAVAL_SHARP_TURN_SMOOTHNESS = 0.10,  -- Amount of smoothness that is applied to smooth out sharp turns (0 = off)
 	RAID_ARROW_NAVAL_USE_MIDPOINTS = true,          -- Whether to use midpoints between provinces to build the path
 
-	RAID_ARROW_LAND_SUBDIVISIONS = 20,             	-- Number of subdivisions for the path spline (more = smoother, but slower to render)
+	RAID_ARROW_LAND_SUBDIVISIONS = 6,             	-- Number of subdivisions for the path spline (more = smoother, but slower to render)
 	RAID_ARROW_LAND_SHARP_TURN_SMOOTHNESS = 0.10,  	-- Amount of smoothness that is applied to smooth out sharp turns (0 = off)
 	RAID_ARROW_LAND_USE_MIDPOINTS = true,          	-- Whether to use midpoints between provinces to build the path
 
