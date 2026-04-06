@@ -233,6 +233,18 @@ technologies = {
 			maximum_speed = 0.1
 			default_morale = 0.2
 		}
+		mot_rocket_artillery_brigade = {
+			maximum_speed = 0.45
+		}
+		mot_artillery_brigade = {
+			maximum_speed = 0.45
+		}
+		mot_anti_air_brigade = {
+			maximum_speed = 0.45
+		}
+		mot_anti_tank_brigade = {
+			maximum_speed = 0.45
+		}
 		category_mobile_and_mobile_combat_sup = {
 			initiative = 0.03
 			maximum_speed = 0.1
