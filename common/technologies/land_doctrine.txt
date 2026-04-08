@@ -54,7 +54,6 @@ technologies = {
 			}
 		}
 		enable_tactic = tactic_unexpected_thrust
-		org_loss_when_moving = -0.1
 
 		doctrine = yes	
 		research_cost = 2.5
@@ -3196,7 +3195,6 @@ technologies = {
 		xp_unlock_cost = 100
 
 		land_reinforce_rate = 0.02
-		org_loss_when_moving = -0.15
 
 		category_light_infantry = {
 			max_organisation = 10
@@ -3727,7 +3725,6 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		org_loss_when_moving = -0.3
 		land_reinforce_rate = 0.05
 
 		on_research_complete = {
@@ -4075,7 +4072,8 @@ technologies = {
 	continuous_offensive = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		org_loss_when_moving = -0.25
+
+		planning_decay_rate_factor = -0.10
 
 		category_army = {
 			default_morale = 0.10

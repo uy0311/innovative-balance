@@ -6201,8 +6201,8 @@ leader_traits = {
 
 	army_chief_planning_1 = { #
 		sprite = 5
-		planning_speed = 0.15
-		max_planning_factor = 0.075
+		planning_speed = 0.16
+		max_planning = 0.08
 		experience_gain_army = 0.24
 
 		
@@ -6218,8 +6218,8 @@ leader_traits = {
 
 	army_chief_planning_2 = { #
 		sprite = 5
-		planning_speed = 0.30
-		max_planning_factor = 0.15
+		planning_speed = 0.24
+		max_planning = 0.12
 		experience_gain_army = 0.24
 
 		
@@ -6235,8 +6235,8 @@ leader_traits = {
 
 	army_chief_planning_3 = { #
 		sprite = 5
-		planning_speed = 0.40
-		max_planning_factor = 0.20
+		planning_speed = 0.32
+		max_planning = 0.16
 		experience_gain_army = 0.24
 
 		
@@ -6718,15 +6718,15 @@ leader_traits = {
 		equipment_bonus = {
 			anti_air_equipment= {
 				instant = yes
-				air_attack = 0.10
+				air_attack = 0.05
 			}
 			armored_car_tank_chassis = {
 				instant = yes
-				air_attack = 0.10
+				air_attack = 0.075
 			}
 			mio_cat_eq_all_tank_antiairs = {
 				instant = yes
-				air_attack = 0.05
+				air_attack = 0.10
 			}
 		}
 		
@@ -6747,11 +6747,11 @@ leader_traits = {
 		equipment_bonus = {
 			anti_air_equipment= {
 				instant = yes
-				air_attack = 0.20
+				air_attack = 0.10
 			}
 			armored_car_tank_chassis = {
 				instant = yes
-				air_attack = 0.20
+				air_attack = 0.15
 			}
 			mio_cat_eq_all_tank_antiairs = {
 				instant = yes
@@ -6776,11 +6776,11 @@ leader_traits = {
 		equipment_bonus = {
 			anti_air_equipment= {
 				instant = yes
-				air_attack = 0.30
+				air_attack = 0.15
 			}
 			armored_car_tank_chassis = {
 				instant = yes
-				air_attack = 0.30
+				air_attack = 0.225
 			}
 			mio_cat_eq_all_tank_antiairs = {
 				instant = yes
