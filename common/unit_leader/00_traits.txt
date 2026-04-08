@@ -580,7 +580,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			org_loss_when_moving = -0.30
+			planning_decay_rate_factor = -0.10
 		}
 		trait_xp_factor = {
 			panzer_leader = 0.5     #+100%
