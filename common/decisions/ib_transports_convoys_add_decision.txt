@@ -133,14 +133,14 @@ convoys_add_decision = {
 
 trains_add_decision = {
 
-	gain_train_gun_from_1000pp = {
+	gain_train_gun_from_850pp = {
 
 		icon = generic_army_support
 
-		cost = 1000
+		cost = 850
 
 		available = {
-			has_political_power > 999
+			has_political_power > 849
 			
 		}
 	
@@ -158,7 +158,7 @@ trains_add_decision = {
 					type = railway_gun_equipment_1
 				}
 				requested_factories = 1
-				progress = 0.75
+				progress = 1.00
 				amount = 1
 			}
 		}
