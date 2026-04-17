@@ -181,7 +181,7 @@ equipments = {
 		sub_detection = 1
 		surface_visibility = 15.5
 		naval_speed = 16.5
-		reliability = 0.80
+		reliability = 0.50
 		
 		naval_range = 2500
 		
@@ -224,7 +224,7 @@ equipments = {
 		naval_dominance_factor = 2400
 		surface_visibility = 16
 		naval_speed = 16.5
-		reliability = 0.85
+		reliability = 0.55
 		build_cost_ic = 1900
 		naval_range = 3000
 		max_strength = 135
@@ -358,7 +358,7 @@ equipments = {
 		naval_speed = 17.0
 		surface_visibility = 17
 		build_cost_ic = 2000
-		reliability = 0.90
+		reliability = 0.60
 		max_strength = 150
 		naval_range = 4000
 		manpower = 1200
@@ -505,7 +505,7 @@ equipments = {
 		parent = ship_hull_cruiser_3
 		naval_speed = 17.0
 		surface_visibility = 18
-		reliability = 0.95
+		reliability = 0.65
 		manpower = 1400
 		naval_dominance_factor = 3000
 		build_cost_ic = 2100
@@ -812,7 +812,7 @@ equipments = {
 		sub_detection = 1
 		surface_visibility = 15
 		naval_speed = 30
-		reliability = 0.9
+		reliability = 0.70
 		
 		naval_range = 4000
 		

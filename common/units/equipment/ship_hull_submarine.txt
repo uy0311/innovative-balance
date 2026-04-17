@@ -85,7 +85,7 @@ equipments = {
 		surface_visibility = 4.5
 		sub_visibility = 25
 		naval_speed = 16
-		reliability = 0.60
+		reliability = 0.35
 		
 		naval_range = 2500
 		
@@ -158,10 +158,9 @@ equipments = {
 		}
 		sub_visibility = 25
 		naval_speed = 17
-		reliability = 0.70
+		reliability = 0.40
 
 		naval_range = 4000
-		reliability = 0.70
 		max_strength = 20
 		naval_dominance_factor = 300
 
@@ -216,7 +215,7 @@ equipments = {
 		
 		sub_visibility = 25
 		naval_speed = 18
-		reliability = 0.75
+		reliability = 0.45
 		
 		naval_range = 5000
 		
@@ -273,7 +272,7 @@ equipments = {
 		
 		sub_visibility = 25
 		naval_speed = 20
-		reliability = 0.80
+		reliability = 0.50
 
 		naval_range = 6000
 		
@@ -349,7 +348,7 @@ equipments = {
 		surface_visibility = 5.0
 		sub_visibility = 30
 		naval_speed = 17
-		reliability = 0.75
+		reliability = 0.40
 		
 		naval_range = 5000
 		

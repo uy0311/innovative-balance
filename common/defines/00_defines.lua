@@ -1713,7 +1713,7 @@ NNavy = {
 	OUT_OF_FUEL_TORPEDO_FACTOR = -0.50,
 
 	UNDERWAY_REPLENISHMENT_RANGE_FACTOR = 0.37,			-- bonus factor applied to task force's range when underway replenishment is activated (e.g. 0.2 means +20%)
-	UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.01,	-- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up)
+	UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.002,	-- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up)
 
 	MISSION_SPREADS = {  -- mission spreads in the case a ship join combat, which is calculated for number of ships that will be in combat. 1 means no ship will be at start
 		0.0, -- HOLD

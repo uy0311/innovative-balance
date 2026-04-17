@@ -21,10 +21,10 @@ equipment_modules = {
 			lg_attack = 0.75
 			naval_light_gun_hit_chance_factor = 0.94
 			anti_air_attack = 1.0
-			reliability = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.01
+			reliability = -0.01
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
@@ -63,10 +63,10 @@ equipment_modules = {
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.98
 			anti_air_attack = 2.0
-			reliability = -0.012
 		}
 		multiply_stats = {
 			naval_speed = -0.015
+			reliability = -0.012
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
@@ -100,10 +100,10 @@ equipment_modules = {
 			lg_attack = 1.0
 			naval_light_gun_hit_chance_factor = 0.73
 			anti_air_attack = 1.0
-			reliability = -0.015
 		}
 		multiply_stats = {
 			naval_speed = -0.012
+			reliability = -0.015
 		}
 		add_average_stats = {
 			lg_armor_piercing = 30
@@ -145,10 +145,10 @@ equipment_modules = {
 			lg_attack = 2.0
 			naval_light_gun_hit_chance_factor = 0.76
 			anti_air_attack = 2.0
-			reliability = -0.018
 		}
 		multiply_stats = {
 			naval_speed = -0.018
+			reliability = -0.018
 		}
 		add_average_stats = {
 			lg_armor_piercing = 30
@@ -186,10 +186,10 @@ equipment_modules = {
 			lg_attack = 0.75
 			naval_light_gun_hit_chance_factor = 0.94
 			anti_air_attack = 2.5
-			reliability = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.012
+			reliability = -0.01
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
@@ -228,10 +228,10 @@ equipment_modules = {
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.98
 			anti_air_attack = 5.0
-			reliability = -0.012
 		}
 		multiply_stats = {
 			naval_speed = -0.018
+			reliability = -0.012
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
@@ -265,10 +265,10 @@ equipment_modules = {
 			lg_attack = 1.0
 			naval_light_gun_hit_chance_factor = 0.73
 			anti_air_attack = 2.5
-			reliability = -0.015
 		}
 		multiply_stats = {
 			naval_speed = -0.0144
+			reliability = -0.015
 		}
 		add_average_stats = {
 			lg_armor_piercing = 30
@@ -310,10 +310,10 @@ equipment_modules = {
 			lg_attack = 2.0
 			naval_light_gun_hit_chance_factor = 0.76
 			anti_air_attack = 5.0
-			reliability = -0.018
 		}
 		multiply_stats = {
 			naval_speed = -0.0208
+			reliability = -0.018
 		}
 		add_average_stats = {
 			lg_armor_piercing = 30
@@ -351,10 +351,10 @@ equipment_modules = {
 			lg_attack = 0.75
 			naval_light_gun_hit_chance_factor = 0.04
 			anti_air_attack = 1.0
-			reliability = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.01
+			reliability = -0.01
 		}
 		forbid_module_categories = {
 		    battery_base_5in
@@ -377,10 +377,10 @@ equipment_modules = {
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.08
 			anti_air_attack = 2.0
-			reliability = -0.012
 		}
 		multiply_stats = {
 			naval_speed = -0.015
+			reliability = -0.012
 		}
 		forbid_module_categories = {
 		    battery_base_5in
@@ -403,10 +403,10 @@ equipment_modules = {
 			lg_attack = 1.0
 			naval_light_gun_hit_chance_factor = 0.03
 			anti_air_attack = 1.0
-			reliability = -0.015
 		}
 		multiply_stats = {
 			naval_speed = -0.012
+			reliability = -0.015
 		}
 		forbid_module_categories = {
 		    battery_base_4in
@@ -429,10 +429,10 @@ equipment_modules = {
 			lg_attack = 2.0
 			naval_light_gun_hit_chance_factor = 0.06
 			anti_air_attack = 2.0
-			reliability = -0.018
 		}
 		multiply_stats = {
 			naval_speed = -0.018
+			reliability = -0.018
 		}
 		forbid_module_categories = {
 		    battery_base_4in
@@ -456,10 +456,10 @@ equipment_modules = {
 			lg_attack = 0.75
 			naval_light_gun_hit_chance_factor = 0.04
 			anti_air_attack = 2.5
-			reliability = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.012
+			reliability = -0.01
 		}
 		forbid_module_categories = {
 		    battery_base_5in
@@ -482,10 +482,10 @@ equipment_modules = {
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.08
 			anti_air_attack = 5.0
-			reliability = -0.012
 		}
 		multiply_stats = {
 			naval_speed = -0.018
+			reliability = -0.012
 		}
 		forbid_module_categories = {
 		    battery_base_5in
@@ -508,10 +508,10 @@ equipment_modules = {
 			lg_attack = 1.0
 			naval_light_gun_hit_chance_factor = 0.03
 			anti_air_attack = 2.5
-			reliability = -0.015
 		}
 		multiply_stats = {
 			naval_speed = -0.0144
+			reliability = -0.015
 		}
 		forbid_module_categories = {
 		    battery_base_4in
@@ -534,10 +534,10 @@ equipment_modules = {
 			lg_attack = 2.0
 			naval_light_gun_hit_chance_factor = 0.06
 			anti_air_attack = 5.0
-			reliability = -0.018
 		}
 		multiply_stats = {
 			naval_speed = -0.0208
+			reliability = -0.018
 		}
 		forbid_module_categories = {
 		    battery_base_4in
@@ -563,14 +563,14 @@ equipment_modules = {
 	
 		add_stats = {
 			build_cost_ic = 225
-			max_strength = 7.2
-			lg_attack = 3.0
-			naval_light_gun_hit_chance_factor = 0.16
+			max_strength = 8.25
+			lg_attack = 4.5
+			naval_light_gun_hit_chance_factor = 0.24
 			anti_air_attack = 6.0
-			reliability = -0.036
 		}
 		multiply_stats = {
 			naval_speed = -0.045
+			reliability = -0.012
 		}
 		forbid_module_categories = {
 			battery_base_5in
@@ -598,14 +598,14 @@ equipment_modules = {
 	
 		add_stats = {
 			build_cost_ic = 270
-			max_strength = 7.2
-			lg_attack = 3.0
-			naval_light_gun_hit_chance_factor = 0.16
+			max_strength = 8.25
+			lg_attack = 4.5
+			naval_light_gun_hit_chance_factor = 0.24
 			anti_air_attack = 15.0
-			reliability = -0.036
 		}
 		multiply_stats = {
 			naval_speed = -0.054
+			reliability = -0.012
 		}
 		forbid_module_categories = {
 			battery_base_5in
@@ -633,14 +633,14 @@ equipment_modules = {
 	
 		add_stats = {
 			build_cost_ic = 270
-			max_strength = 9.0
-			lg_attack = 4.0
-			naval_light_gun_hit_chance_factor = 0.12
+			max_strength = 8.8
+			lg_attack = 6.0
+			naval_light_gun_hit_chance_factor = 0.18
 			anti_air_attack = 6.0
-			reliability = -0.054
 		}
 		multiply_stats = {
 			naval_speed = -0.054
+			reliability = -0.018
 		}
 		forbid_module_categories = {
 			battery_base_4in
@@ -668,14 +668,14 @@ equipment_modules = {
 	
 		add_stats = {
 			build_cost_ic = 324
-			max_strength = 9.0
-			lg_attack = 4.0
-			naval_light_gun_hit_chance_factor = 0.12
+			max_strength = 8.8
+			lg_attack = 6.0
+			naval_light_gun_hit_chance_factor = 0.18
 			anti_air_attack = 15.0
-			reliability = -0.054
 		}
 		multiply_stats = {
-			naval_speed = -0.0648
+			naval_speed = -0.0624
+			reliability = -0.018
 		}
 		forbid_module_categories = {
 			battery_base_4in
@@ -714,10 +714,10 @@ equipment_modules = {
 			lg_attack = 1.75
 			naval_light_gun_hit_chance_factor = 0.52
 			surface_visibility = 0.1
-			reliability = -0.02
 		}
 		multiply_stats = {
 			naval_speed = -0.02
+			reliability = -0.02
 		}
 		add_average_stats = {
 			lg_armor_piercing = 70
@@ -748,10 +748,10 @@ equipment_modules = {
 			lg_attack = 3.5
 			naval_light_gun_hit_chance_factor = 0.54
 			surface_visibility = 0.12
-			reliability = -0.024
 		}
 		multiply_stats = {
 			naval_speed = -0.03
+			reliability = -0.024
 		}
 		add_average_stats = {
 			lg_armor_piercing = 70
@@ -783,10 +783,10 @@ equipment_modules = {
 			lg_attack = 2.0
 			naval_light_gun_hit_chance_factor = 0.315
 			surface_visibility = 0.125
-			reliability = -0.03
 		}
 		multiply_stats = {
 			naval_speed = -0.024
+			reliability = -0.03
 		}
 		add_average_stats = {
 			lg_armor_piercing = 110
@@ -820,10 +820,10 @@ equipment_modules = {
 			lg_attack = 4.0
 			naval_light_gun_hit_chance_factor = 0.33
 			surface_visibility = 0.15
-			reliability = -0.036
 		}
 		multiply_stats = {
 			naval_speed = -0.036
+			reliability = -0.036
 		}
 		add_average_stats = {
 			lg_armor_piercing = 110
@@ -857,10 +857,10 @@ equipment_modules = {
 			lg_attack = 6.0
 			naval_light_gun_hit_chance_factor = 0.345
 			surface_visibility = 0.165
-			reliability = -0.0396
 		}
 		multiply_stats = {
 			naval_speed = -0.048
+			reliability = -0.0396
 		}
 		add_average_stats = {
 			lg_armor_piercing = 110
@@ -895,10 +895,10 @@ equipment_modules = {
 			lg_attack = 1.75
 			naval_light_gun_hit_chance_factor = 0.02
 			surface_visibility = 0.1
-			reliability = -0.02
 		}
 		multiply_stats = {
 			naval_speed = -0.02
+			reliability = -0.02
 		}
 		forbid_module_categories = {
 		    battery_base_6in
@@ -926,10 +926,10 @@ equipment_modules = {
 			lg_attack = 3.5
 			naval_light_gun_hit_chance_factor = 0.04
 			surface_visibility = 0.12
-			reliability = -0.024
 		}
 		multiply_stats = {
 			naval_speed = -0.03
+			reliability = -0.024
 		}
 		forbid_module_categories = {
 		    battery_base_6in
@@ -958,10 +958,10 @@ equipment_modules = {
 			lg_attack = 2.0
 			naval_light_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.125
-			reliability = -0.03
 		}
 		multiply_stats = {
 			naval_speed = -0.024
+			reliability = -0.03
 		}
 		forbid_module_categories = {
 		    battery_base_5Hin
@@ -989,10 +989,10 @@ equipment_modules = {
 			lg_attack = 4.0
 			naval_light_gun_hit_chance_factor = 0.03
 			surface_visibility = 0.15
-			reliability = -0.036
 		}
 		multiply_stats = {
 			naval_speed = -0.036
+			reliability = -0.036
 		}
 		forbid_module_categories = {
 		    battery_base_5Hin
@@ -1020,10 +1020,10 @@ equipment_modules = {
 			lg_attack = 6.0
 			naval_light_gun_hit_chance_factor = 0.045
 			surface_visibility = 0.165
-			reliability = -0.0396
 		}
 		multiply_stats = {
 			naval_speed = -0.048
+			reliability = -0.0396
 		}
 		forbid_module_categories = {
 		    battery_base_5Hin
@@ -1053,10 +1053,10 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.12
 			surface_detection = 0.5
 			surface_visibility = 0.2
-			reliability = -0.04
 		}
 		multiply_stats = {
 			naval_speed = -0.054
+			reliability = -0.04
 		}
 		add_average_stats = {
 			lg_armor_piercing = 200
@@ -1086,10 +1086,10 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.13
 			surface_detection = 0.5
 			surface_visibility = 0.22
-			reliability = -0.044
 		}
 		multiply_stats = {
 			naval_speed = -0.072
+			reliability = -0.044
 		}
 		add_average_stats = {
 			lg_armor_piercing = 200
@@ -1121,10 +1121,10 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.02
 			surface_detection = 0.5
 			surface_visibility = 0.2
-			reliability = -0.04
 		}
 		multiply_stats = {
 			naval_speed = -0.054
+			reliability = -0.04
 		}
 		forbid_module_categories = {
 		    battery_base_5Hin
@@ -1148,10 +1148,10 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.02
 			surface_detection = 0.5
 			surface_visibility = 0.2
-			reliability = -0.04
 		}
 		multiply_stats = {
 			naval_speed = -0.054
+			reliability = -0.04
 		}
 		forbid_module_categories = {
 		    battery_base_5Hin
@@ -1177,10 +1177,10 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.02
 			surface_detection = 0.5
 			surface_visibility = 0.2
-			reliability = -0.04
 		}
 		multiply_stats = {
 			naval_speed = -0.054
+			reliability = -0.04
 		}
 		forbid_module_categories = {
 		    battery_base_5Hin
@@ -1204,10 +1204,10 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.03
 			surface_detection = 0.5
 			surface_visibility = 0.22
-			reliability = -0.044
 		}
 		multiply_stats = {
 			naval_speed = -0.072
+			reliability = -0.044
 		}
 		allowed_module_categories = {
 			rear_1_custom_slot = {
@@ -1237,10 +1237,10 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.03
 			surface_detection = 0.5
 			surface_visibility = 0.22
-			reliability = -0.044
 		}
 		multiply_stats = {
 			naval_speed = -0.072
+			reliability = -0.044
 		}
 		forbid_module_categories = {
 		    battery_base_5Hin
@@ -1265,10 +1265,10 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.03
 			surface_detection = 0.5
 			surface_visibility = 0.22
-			reliability = -0.044
 		}
 		multiply_stats = {
 			naval_speed = -0.072
+			reliability = -0.044
 		}
 		forbid_module_categories = {
 		    battery_base_5Hin
@@ -1300,10 +1300,10 @@ equipment_modules = {
 			hg_attack = 10.0
 			naval_heavy_gun_hit_chance_factor = 0.025
 			surface_visibility = 0.3
-			reliability = -0.05
 		}
 		multiply_stats = {
 			naval_speed = -0.15
+			reliability = -0.05
 		}
 		add_average_stats = {
 			hg_armor_piercing = 320
@@ -1360,10 +1360,10 @@ equipment_modules = {
 			hg_attack = 10.0
 			naval_heavy_gun_hit_chance_factor = 0.025
 			surface_visibility = 0.3
-			reliability = -0.05
 		}
 		multiply_stats = {
 			naval_speed = -0.15
+			reliability = -0.05
 		}
 		
 		critical_parts = { damaged_heavy_guns }
@@ -1381,10 +1381,10 @@ equipment_modules = {
 			hg_attack = 10.0
 			naval_heavy_gun_hit_chance_factor = 0.025
 			surface_visibility = 0.3
-			reliability = -0.05
 		}
 		multiply_stats = {
 			naval_speed = -0.15
+			reliability = -0.05
 		}
 		forbid_module_categories = {
 			rear_battery_14in_x3
@@ -1406,10 +1406,10 @@ equipment_modules = {
 			hg_attack = 10.0
 			naval_heavy_gun_hit_chance_factor = 0.025
 			surface_visibility = 0.3
-			reliability = -0.05
 		}
 		multiply_stats = {
 			naval_speed = -0.15
+			reliability = -0.05
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -1428,10 +1428,10 @@ equipment_modules = {
 			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = 0.0375
 			surface_visibility = 0.33
-			reliability = -0.055
 		}
 		multiply_stats = {
 			naval_speed = -0.165
+			reliability = -0.055
 		}
 		add_average_stats = {
 			hg_armor_piercing = 320
@@ -1488,10 +1488,10 @@ equipment_modules = {
 			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = 0.0375
 			surface_visibility = 0.33
-			reliability = -0.055
 		}
 		multiply_stats = {
 			naval_speed = -0.165
+			reliability = -0.055
 		}
 		forbid_module_categories = {
 			front_battery_14in_x4
@@ -1516,10 +1516,10 @@ equipment_modules = {
 			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = 0.0375
 			surface_visibility = 0.33
-			reliability = -0.055
 		}
 		multiply_stats = {
 			naval_speed = -0.165
+			reliability = -0.055
 		}
 		forbid_module_categories = {
 			front_battery_14in_x4
@@ -1545,10 +1545,10 @@ equipment_modules = {
 			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = 0.0375
 			surface_visibility = 0.33
-			reliability = -0.055
 		}
 		multiply_stats = {
 			naval_speed = -0.165
+			reliability = -0.055
 		}
 		forbid_module_categories = {
 			front_battery_14in_x4
@@ -1572,10 +1572,10 @@ equipment_modules = {
 			hg_attack = 20.0
 			naval_heavy_gun_hit_chance_factor = 0.05
 			surface_visibility = 0.36
-			reliability = -0.06
 		}
 		multiply_stats = {
 			naval_speed = -0.18
+			reliability = -0.06
 		}
 		add_average_stats = {
 			hg_armor_piercing = 320
@@ -1632,10 +1632,10 @@ equipment_modules = {
 			hg_attack = 20.0
 			naval_heavy_gun_hit_chance_factor = 0.05
 			surface_visibility = 0.36
-			reliability = -0.06
 		}
 		multiply_stats = {
 			naval_speed = -0.18
+			reliability = -0.06
 		}
 		forbid_module_categories = {
 			front_battery_14in_x3
@@ -1660,10 +1660,10 @@ equipment_modules = {
 			hg_attack = 20.0
 			naval_heavy_gun_hit_chance_factor = 0.05
 			surface_visibility = 0.36
-			reliability = -0.06
 		}
 		multiply_stats = {
 			naval_speed = -0.18
+			reliability = -0.06
 		}
 		forbid_module_categories = {
 			front_battery_14in_x3
@@ -1690,10 +1690,10 @@ equipment_modules = {
 			hg_attack = 20.0
 			naval_heavy_gun_hit_chance_factor = 0.05
 			surface_visibility = 0.36
-			reliability = -0.06
 		}
 		multiply_stats = {
 			naval_speed = -0.18
+			reliability = -0.06
 		}
 		forbid_module_categories = {
 			front_battery_14in_x3
@@ -1720,10 +1720,10 @@ equipment_modules = {
 			hg_attack = 12.5
 			naval_heavy_gun_hit_chance_factor = -0.03
 			surface_visibility = 0.35
-			reliability = -0.055
 		}
 		multiply_stats = {
 			naval_speed = -0.175
+			reliability = -0.055
 		}
 		add_average_stats = {
 			hg_armor_piercing = 380
@@ -1784,10 +1784,10 @@ equipment_modules = {
 			hg_attack = 12.5
 			naval_heavy_gun_hit_chance_factor = 0.02
 			surface_visibility = 0.35
-			reliability = -0.055
 		}
 		multiply_stats = {
 			naval_speed = -0.175
+			reliability = -0.055
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -1805,10 +1805,10 @@ equipment_modules = {
 			hg_attack = 12.5
 			naval_heavy_gun_hit_chance_factor = 0.02
 			surface_visibility = 0.35
-			reliability = -0.055
 		}
 		multiply_stats = {
 			naval_speed = -0.175
+			reliability = -0.055
 		}
 		forbid_module_categories = {
 			rear_battery_15in_x2
@@ -1829,10 +1829,10 @@ equipment_modules = {
 			hg_attack = 12.5
 			naval_heavy_gun_hit_chance_factor = 0.02
 			surface_visibility = 0.35
-			reliability = -0.055
 		}
 		multiply_stats = {
 			naval_speed = -0.175
+			reliability = -0.055
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -1851,10 +1851,10 @@ equipment_modules = {
 			hg_attack = 18.75
 			naval_heavy_gun_hit_chance_factor = -0.02
 			surface_visibility = 0.385
-			reliability = -0.0605
 		}
 		multiply_stats = {
 			naval_speed = -0.1925
+			reliability = -0.0605
 		}
 		add_average_stats = {
 			hg_armor_piercing = 380
@@ -1915,10 +1915,10 @@ equipment_modules = {
 			hg_attack = 18.75
 			naval_heavy_gun_hit_chance_factor = 0.03
 			surface_visibility = 0.385
-			reliability = -0.0605
 		}
 		multiply_stats = {
 			naval_speed = -0.1925
+			reliability = -0.0605
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -1936,10 +1936,10 @@ equipment_modules = {
 			hg_attack = 18.75
 			naval_heavy_gun_hit_chance_factor = 0.03
 			surface_visibility = 0.385
-			reliability = -0.0605
 		}
 		multiply_stats = {
 			naval_speed = -0.1925
+			reliability = -0.0605
 		}
 		forbid_module_categories = {
 			rear_battery_15in_x3
@@ -1960,10 +1960,10 @@ equipment_modules = {
 			hg_attack = 18.75
 			naval_heavy_gun_hit_chance_factor = 0.03
 			surface_visibility = 0.385
-			reliability = -0.0605
 		}
 		multiply_stats = {
 			naval_speed = -0.1925
+			reliability = -0.0605
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -1982,10 +1982,10 @@ equipment_modules = {
 			hg_attack = 25.0
 			naval_heavy_gun_hit_chance_factor = -0.01
 			surface_visibility = 0.42
-			reliability = -0.071
 		}
 		multiply_stats = {
 			naval_speed = -0.21
+			reliability = -0.071
 		}
 		add_average_stats = {
 			hg_armor_piercing = 380
@@ -2046,10 +2046,10 @@ equipment_modules = {
 			hg_attack = 25.0
 			naval_heavy_gun_hit_chance_factor = 0.04
 			surface_visibility = 0.42
-			reliability = -0.071
 		}
 		multiply_stats = {
 			naval_speed = -0.21
+			reliability = -0.071
 		}
 		forbid_module_categories = {
 			rear_battery_15in_x4
@@ -2070,10 +2070,10 @@ equipment_modules = {
 			hg_attack = 25.0
 			naval_heavy_gun_hit_chance_factor = 0.04
 			surface_visibility = 0.42
-			reliability = -0.071
 		}
 		multiply_stats = {
 			naval_speed = -0.21
+			reliability = -0.071
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2091,10 +2091,10 @@ equipment_modules = {
 			hg_attack = 25.0
 			naval_heavy_gun_hit_chance_factor = 0.04
 			surface_visibility = 0.42
-			reliability = -0.071
 		}
 		multiply_stats = {
 			naval_speed = -0.21
+			reliability = -0.071
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2114,10 +2114,10 @@ equipment_modules = {
 			hg_attack = 14.0
 			naval_heavy_gun_hit_chance_factor = -0.085
 			surface_visibility = 0.4
-			reliability = -0.06
 		}
 		multiply_stats = {
 			naval_speed = -0.20
+			reliability = -0.06
 		}
 		add_average_stats = {
 			hg_armor_piercing = 370
@@ -2178,10 +2178,10 @@ equipment_modules = {
 			hg_attack = 14.0
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.4
-			reliability = -0.06
 		}
 		multiply_stats = {
 			naval_speed = -0.20
+			reliability = -0.06
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2199,10 +2199,10 @@ equipment_modules = {
 			hg_attack = 14.0
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.4
-			reliability = -0.06
 		}
 		multiply_stats = {
 			naval_speed = -0.20
+			reliability = -0.06
 		}
 		forbid_module_categories = {
 			rear_battery_16in_x2
@@ -2223,10 +2223,10 @@ equipment_modules = {
 			hg_attack = 14.0
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.4
-			reliability = -0.06
 		}
 		multiply_stats = {
 			naval_speed = -0.20
+			reliability = -0.06
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2245,10 +2245,10 @@ equipment_modules = {
 			hg_attack = 21.0
 			naval_heavy_gun_hit_chance_factor = -0.0775
 			surface_visibility = 0.44
-			reliability = -0.066
 		}
 		multiply_stats = {
 			naval_speed = -0.22
+			reliability = -0.066
 		}
 		add_average_stats = {
 			hg_armor_piercing = 370
@@ -2309,10 +2309,10 @@ equipment_modules = {
 			hg_attack = 21.0
 			naval_heavy_gun_hit_chance_factor = 0.0225
 			surface_visibility = 0.44
-			reliability = -0.066
 		}
 		multiply_stats = {
 			naval_speed = -0.22
+			reliability = -0.066
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2330,10 +2330,10 @@ equipment_modules = {
 			hg_attack = 21.0
 			naval_heavy_gun_hit_chance_factor = 0.0225
 			surface_visibility = 0.44
-			reliability = -0.066
 		}
 		multiply_stats = {
 			naval_speed = -0.22
+			reliability = -0.066
 		}
 		forbid_module_categories = {
 			rear_battery_16in_x3
@@ -2354,10 +2354,10 @@ equipment_modules = {
 			hg_attack = 21.0
 			naval_heavy_gun_hit_chance_factor = 0.0225
 			surface_visibility = 0.44
-			reliability = -0.066
 		}
 		multiply_stats = {
 			naval_speed = -0.22
+			reliability = -0.066
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2377,10 +2377,10 @@ equipment_modules = {
 			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = -0.14
 			surface_visibility = 0.45
-			reliability = -0.065
 		}
 		multiply_stats = {
 			naval_speed = -0.225
+			reliability = -0.065
 		}
 		add_average_stats = {
 			hg_armor_piercing = 400
@@ -2441,10 +2441,10 @@ equipment_modules = {
 			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = 0.01
 			surface_visibility = 0.45
-			reliability = -0.065
 		}
 		multiply_stats = {
 			naval_speed = -0.225
+			reliability = -0.065
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2462,10 +2462,10 @@ equipment_modules = {
 			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = 0.01
 			surface_visibility = 0.45
-			reliability = -0.065
 		}
 		multiply_stats = {
 			naval_speed = -0.225
+			reliability = -0.065
 		}
 		forbid_module_categories = {
 			rear_battery_18in_x2
@@ -2486,10 +2486,10 @@ equipment_modules = {
 			hg_attack = 15.0
 			naval_heavy_gun_hit_chance_factor = 0.01
 			surface_visibility = 0.45
-			reliability = -0.065
 		}
 		multiply_stats = {
 			naval_speed = -0.225
+			reliability = -0.065
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2508,10 +2508,10 @@ equipment_modules = {
 			hg_attack = 22.5
 			naval_heavy_gun_hit_chance_factor = -0.135
 			surface_visibility = 0.495
-			reliability = -0.0715
 		}
 		multiply_stats = {
 			naval_speed = -0.2475
+			reliability = -0.0715
 		}
 		add_average_stats = {
 			hg_armor_piercing = 400
@@ -2572,10 +2572,10 @@ equipment_modules = {
 			hg_attack = 22.5
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.495
-			reliability = -0.0715
 		}
 		multiply_stats = {
 			naval_speed = -0.2475
+			reliability = -0.0715
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2593,10 +2593,10 @@ equipment_modules = {
 			hg_attack = 22.5
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.495
-			reliability = -0.0715
 		}
 		multiply_stats = {
 			naval_speed = -0.2475
+			reliability = -0.0715
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2614,10 +2614,10 @@ equipment_modules = {
 			hg_attack = 22.5
 			naval_heavy_gun_hit_chance_factor = 0.015
 			surface_visibility = 0.495
-			reliability = -0.0715
 		}
 		multiply_stats = {
 			naval_speed = -0.2475
+			reliability = -0.0715
 		}
 
 		critical_parts = { damaged_heavy_guns }
@@ -2640,13 +2640,13 @@ equipment_modules = {
 		
 		add_stats = {
 			anti_air_attack = 1.5
-			reliability = -0.01
 		}
 		
 		multiply_stats = {
 			build_cost_ic = 0.025
 			anti_air_attack = 0.3
 			naval_speed = -0.01
+			reliability = -0.01
 		}
 
 		can_convert_from = {
@@ -2663,13 +2663,13 @@ equipment_modules = {
 		
 		add_stats = {
 			anti_air_attack = 2
-			reliability = -0.011
 		}
 		
 		multiply_stats = {
 			naval_speed = -0.011
 			build_cost_ic = 0.025
 			anti_air_attack = 0.4
+			reliability = -0.011
 		}
 
 		can_convert_from = {
@@ -2690,13 +2690,13 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			anti_air_attack = 3
-			reliability = -0.012
 		}
 		
 		multiply_stats = {
 			naval_speed = -0.012
 			build_cost_ic = 0.025
 			anti_air_attack = 0.5
+			reliability = -0.012
 		}
 
 		can_convert_from = {
@@ -2718,13 +2718,13 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			anti_air_attack = 4
-			reliability = -0.013
 		}
 		
 		multiply_stats = {
 			naval_speed = -0.013
 			build_cost_ic = 0.025
 			anti_air_attack = 0.6
+			reliability = -0.013
 		}
 
 		can_convert_from = {
@@ -2944,7 +2944,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.00
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -2969,7 +2968,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.05
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -2998,7 +2996,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.10
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3026,7 +3023,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.15
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3053,7 +3049,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.00
-			reliability = -0.2
 
 		}
 
@@ -3079,7 +3074,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.05
-			reliability = -0.2
 			sub_visibility = -0.20
 		}
 		
@@ -3109,7 +3103,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.10
-			reliability = -0.15
 			sub_visibility = -0.40
 		}
 		
@@ -3138,7 +3131,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.15
-			reliability = -0.2
 			sub_visibility = -0.50
 		}
 		
@@ -3166,7 +3158,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.35
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3190,7 +3181,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.40
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3219,7 +3209,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.45
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3247,7 +3236,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.50
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3274,7 +3262,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.85
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3298,7 +3285,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.95
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3327,7 +3313,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 2.05
-			reliability = -0.2
 			
 		}
 		
@@ -3356,7 +3341,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 2.15
-			reliability = -0.2
 			
 		}
 		
@@ -3384,7 +3368,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.65
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3408,7 +3391,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.75
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3437,7 +3419,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.85
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3465,7 +3446,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 1.95
-			reliability = -0.2
 		}
 		
 		can_convert_from = {
@@ -3499,10 +3479,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 30
 			build_cost_ic = 45
-			reliability = -0.15
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
+			reliability = -0.08
 		}
 		build_cost_resources = {
 			steel = 0
@@ -3520,10 +3500,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 40
 			build_cost_ic = 60
-			reliability = -0.18
 		}
 		multiply_stats = {
 			naval_speed = -0.011		
+			reliability = -0.09
 		}
 		build_cost_resources = {
 			steel = 0
@@ -3554,10 +3534,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 50
 			build_cost_ic = 75
-			reliability = -0.20
 		}
 		multiply_stats = {
 			naval_speed = -0.012			
+			reliability = -0.10
 		}
 		dismantle_cost_ic = 60
 
@@ -3578,10 +3558,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 60
 			build_cost_ic = 90
-			reliability = -0.23
 		}
 		multiply_stats = {
 			naval_speed = -0.013			
+			reliability = -0.11
 		}
 		dismantle_cost_ic = 60
 
@@ -3957,12 +3937,13 @@ equipment_modules = {
 			surface_visibility = 0.15
 			#carrier_surface_detection = 5
 			#carrier_sub_detection = 2
-			build_cost_ic = 1500
-			reliability = -0.10
+			build_cost_ic = 1750
 		}
 		manpower = 100#500 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.175
+			reliability = -0.10
+			build_cost_ic = -0.04
 		}
 		build_cost_resources = {
 			steel = 1
@@ -4088,12 +4069,12 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.075
 			max_strength = 0.10
+			reliability = 0.10
 		}
 		build_cost_resources = {
 			steel = 1
 		}
 		add_stats = {
-			reliability = 0.10
 			naval_speed = -3
 			armor_value = 335
 		}
@@ -4124,12 +4105,12 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.125
 			max_strength = 0.2
+			reliability = 0.20
 		}
 		build_cost_resources = {
 			steel = 1
 		}
 		add_stats = {
-			reliability = 0.20
 			naval_speed = -3.5
 			armor_value = 360
 		}
@@ -4162,13 +4143,13 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.15
 			max_strength = 0.30
+			reliability = 0.30
 		}
 		build_cost_resources = {
 			steel = 1
 			chromium = 1
 		}
 		add_stats = {
-			reliability = 0.30
 			naval_speed = -4
 			armor_value = 385
 		}
@@ -4202,13 +4183,13 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.175
 			max_strength = 0.40
+			reliability = 0.40
 		}
 		build_cost_resources = {
 			steel = 1
 			chromium = 1
 		}
 		add_stats = {
-			reliability = 0.40
 			naval_speed = -4.5
 			armor_value = 405
 		}
@@ -4244,11 +4225,11 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.05
 			max_strength = 0.10
+			reliability = 0.10
 		}
 		dismantle_cost_ic = 2500
 		
 		add_stats = {
-			reliability = 0.10
 			naval_speed = -1
 			armor_value = 110
 		}
@@ -4261,11 +4242,11 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.10
 			max_strength = 0.15
+			reliability = 0.15
 		}
 		dismantle_cost_ic = 3000
 		
 		add_stats = {
-			reliability = 0.15
 			naval_speed = -1.5
 			armor_value = 125
 		}
@@ -4281,11 +4262,11 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.15
 			max_strength = 0.20
+			reliability = 0.20
 		}
 		dismantle_cost_ic = 3500
 		
 		add_stats = {
-			reliability = 0.20
 			naval_speed = -2
 			armor_value = 140
 		}
@@ -4302,11 +4283,11 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.20
 			max_strength = 0.25
+			reliability = 0.25
 		}
 		dismantle_cost_ic = 4000
 		
 		add_stats = {
-			reliability = 0.25
 			naval_speed = -2.5
 			armor_value = 155
 		}
@@ -4323,9 +4304,9 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.02
 			max_strength = 0.05
+			reliability = 0.10
 		}
 		add_stats = {
-			reliability = 0.10
 			naval_speed = -0.5
 		}
 		dismantle_cost_ic = 2500
@@ -4358,10 +4339,10 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1500
-			reliability = -0.1 
 		}
 		multiply_stats = {
 			sub_visibility = 0.15
+			reliability = -0.1
 		}
 		dismantle_cost_ic = 700 
 	}
@@ -4374,10 +4355,10 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 2000
-			reliability = -0.15 
 		}
 		multiply_stats = {
 			sub_visibility = 0.2 
+			reliability = -0.15
 		}
 		dismantle_cost_ic = 1000 
 	}
@@ -4393,11 +4374,11 @@ equipment_modules = {
 			torpedo_attack = 44
 			build_cost_ic = 520
 			naval_torpedo_hit_chance_factor = 0.05
-			reliability = -0.15
 		}
 
 		multiply_stats = {
 			naval_speed = -0.05	
+			reliability = -0.15
 		}
 
 		can_convert_from = {
