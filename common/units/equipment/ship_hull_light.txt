@@ -116,7 +116,7 @@ equipments = {
 		sub_detection = 1
 		surface_visibility = 10
 		naval_speed = 32
-		reliability = 0.80
+		reliability = 0.45
 		
 		naval_range = 1500
 		
@@ -204,7 +204,7 @@ equipments = {
 		}
 
 		naval_speed = 36
-		reliability = 0.85
+		reliability = 0.50
 		naval_range = 2000
 		max_strength = 35
 		surface_visibility = 11
@@ -280,7 +280,7 @@ equipments = {
 		}
 
 		naval_speed = 37
-		reliability = 0.90
+		reliability = 0.55
 		naval_range = 2500
 		max_strength = 45
 		surface_visibility = 12
@@ -349,7 +349,7 @@ equipments = {
 		}
 
 		naval_speed = 38
-		reliability = 0.92
+		reliability = 0.60
 		naval_range = 3000
 		max_strength = 55
 		surface_visibility = 13

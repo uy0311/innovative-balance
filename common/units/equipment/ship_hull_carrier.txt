@@ -112,7 +112,7 @@ equipments = {
 		sub_detection = 5
 		surface_visibility = 21
 		naval_speed = 16
-		reliability = 0.60
+		reliability = 0.45
 
 		naval_range = 3000
 
@@ -214,7 +214,7 @@ equipments = {
 			front_2_custom_slot = ship_deck_space
 		}
 		naval_range = 4000
-		reliability = 0.70
+		reliability = 0.50
 		max_strength = 250
 		naval_speed = 16.5
 		surface_visibility = 21.5
@@ -288,7 +288,7 @@ equipments = {
 		}
 
 		naval_range = 5000
-		reliability = 0.8
+		reliability = 0.55
 		max_strength = 300
 		naval_speed = 17
 		surface_visibility = 23
@@ -388,7 +388,7 @@ equipments = {
 		}
 
 		naval_range = 7500
-		reliability = 0.85
+		reliability = 0.60
 		max_strength = 400
 		naval_speed = 30
 		fuel_consumption = 90
@@ -564,7 +564,7 @@ equipments = {
 			front_1_custom_slot = ship_deck_space
 		}
 		naval_range = 4000
-		reliability = 0.50
+		reliability = 0.40
 		max_strength = 300
 		naval_speed = 12.5
 		surface_visibility = 23.5
@@ -628,7 +628,7 @@ equipments = {
 
 		max_strength = 100
 		surface_visibility = 14.5
-		reliability = 0.50
+		reliability = 0.35
 		naval_speed = 16.5
 		build_cost_ic = 2250
 		resources = {

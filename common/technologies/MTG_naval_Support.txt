@@ -185,7 +185,7 @@ technologies = {
 
 	dp_light_battery_4in_x2 = {
 
-		research_cost = 1
+		research_cost = 0
 
 		start_year = 1940
 
@@ -196,7 +196,8 @@ technologies = {
 		}
 
 		dependencies = {
-			ib_shell_tech2 = 1
+			light_battery_4in_x2 = 1
+			dp_light_battery_4in_x1 = 1
 		}
 
 		on_research_complete = {
@@ -322,7 +323,7 @@ technologies = {
 
 	dp_light_battery_5in_x2 = {
 
-		research_cost = 1
+		research_cost = 0
 
 		start_year = 1942
 
@@ -333,7 +334,8 @@ technologies = {
 		}
 
 		dependencies = {
-			ib_shell_tech2 = 1
+			light_battery_5in_x2 = 1
+			dp_light_battery_5in_x1 = 1
 		}
 
 		on_research_complete = {
