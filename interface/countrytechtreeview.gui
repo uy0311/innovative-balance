@@ -2105,7 +2105,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_4in"
-					position = { x = 380 y = 135 }
+					position = { x = 380 y = 205 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2118,7 +2118,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments_5in"
-					position = { x = 520 y = 345 }
+					position = { x = 520 y = 380 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
