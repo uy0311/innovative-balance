@@ -100,11 +100,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = dp_light_battery_4in_x2
-			research_cost_coeff = 1
-		}
-
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
 			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
@@ -112,7 +107,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -21 y = 5 }
+			position = { x = -19 y = 5 }
 		}
 
 		categories = {
@@ -134,6 +129,11 @@ technologies = {
 			ship_add_secondaries_4in_x2x3
 		}
 
+		path = {
+			leads_to_tech = dp_light_battery_4in_x2
+			research_cost_coeff = 1
+		}
+
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
 			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
@@ -141,7 +141,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -21 y = 7 }
+			position = { x = -17 y = 7 }
 		}
 
 		categories = {
@@ -160,6 +160,11 @@ technologies = {
 		enable_equipment_modules = {
 			dp_base_battery_4in_x1
 			dp_add_battery_4in_x1
+		}
+
+		path = {
+			leads_to_tech = dp_light_battery_4in_x2
+			research_cost_coeff = 1
 		}
 
 		dependencies = {
@@ -238,11 +243,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = dp_light_battery_5in_x2
-			research_cost_coeff = 1
-		}
-
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
 			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
@@ -250,7 +250,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -15 y = 7 }
+			position = { x = -14 y = 7 }
 		}
 
 		categories = {
@@ -272,6 +272,11 @@ technologies = {
 			ship_add_secondaries_5in_x2x3
 		}
 
+		path = {
+			leads_to_tech = dp_light_battery_5in_x2
+			research_cost_coeff = 1
+		}
+
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
 			custom_effect_tooltip = tcl_cat_ship_light_battery_tt
@@ -279,7 +284,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -15 y = 10 }
+			position = { x = -12 y = 10 }
 		}
 
 		categories = {
@@ -300,6 +305,11 @@ technologies = {
 			dp_add_battery_5in_x1
 		}
 
+		path = {
+			leads_to_tech = dp_light_battery_5in_x2
+			research_cost_coeff = 1
+		}
+
 		dependencies = {
 			ib_shell_tech2 = 1
 		}
@@ -311,7 +321,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -13 y = 13 }
+			position = { x = -14 y = 13 }
 		}
 
 		categories = {
@@ -345,7 +355,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -11 y = 16 }
+			position = { x = -12 y = 16 }
 		}
 
 		categories = {
