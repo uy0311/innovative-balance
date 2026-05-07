@@ -3261,7 +3261,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 1.85
+			naval_speed = 1.90
 		}
 		
 		can_convert_from = {
@@ -3284,7 +3284,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 1.95
+			naval_speed = 2.00
 		}
 		
 		can_convert_from = {
@@ -3312,7 +3312,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 2.05
+			naval_speed = 2.10
 			
 		}
 		
@@ -3340,7 +3340,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 2.15
+			naval_speed = 2.20
 			
 		}
 		
@@ -3367,7 +3367,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 1.65
+			naval_speed = 1.70
 		}
 		
 		can_convert_from = {
@@ -3390,7 +3390,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 1.75
+			naval_speed = 1.80
 		}
 		
 		can_convert_from = {
@@ -3418,7 +3418,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 1.85
+			naval_speed = 1.90
 		}
 		
 		can_convert_from = {
@@ -3445,7 +3445,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 1.95
+			naval_speed = 2.00
 		}
 		
 		can_convert_from = {
