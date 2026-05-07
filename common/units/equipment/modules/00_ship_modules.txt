@@ -181,15 +181,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 60
+			build_cost_ic = 70
 			max_strength = 7.5
 			lg_attack = 0.75
 			naval_light_gun_hit_chance_factor = 0.94
 			anti_air_attack = 2.5
 		}
 		multiply_stats = {
-			naval_speed = -0.012
-			reliability = -0.01
+			naval_speed = -0.014
+			reliability = -0.014
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
@@ -223,15 +223,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 90
+			build_cost_ic = 105
 			max_strength = 8.25
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.98
 			anti_air_attack = 5.0
 		}
 		multiply_stats = {
-			naval_speed = -0.018
-			reliability = -0.012
+			naval_speed = -0.02025
+			reliability = -0.02025
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
@@ -260,15 +260,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 72
+			build_cost_ic = 86
 			max_strength = 8.0
 			lg_attack = 1.0
 			naval_light_gun_hit_chance_factor = 0.73
 			anti_air_attack = 2.5
 		}
 		multiply_stats = {
-			naval_speed = -0.0144
-			reliability = -0.015
+			naval_speed = -0.0168
+			reliability = -0.0168
 		}
 		add_average_stats = {
 			lg_armor_piercing = 30
@@ -305,15 +305,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 108
+			build_cost_ic = 126
 			max_strength = 8.8
 			lg_attack = 2.0
 			naval_light_gun_hit_chance_factor = 0.76
 			anti_air_attack = 5.0
 		}
 		multiply_stats = {
-			naval_speed = -0.0208
-			reliability = -0.018
+			naval_speed = -0.0252
+			reliability = -0.0252
 		}
 		add_average_stats = {
 			lg_armor_piercing = 30
@@ -451,15 +451,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 60
+			build_cost_ic = 70
 			max_strength = 7.5
 			lg_attack = 0.75
 			naval_light_gun_hit_chance_factor = 0.04
 			anti_air_attack = 2.5
 		}
 		multiply_stats = {
-			naval_speed = -0.012
-			reliability = -0.01
+			naval_speed = -0.014
+			reliability = -0.014
 		}
 		forbid_module_categories = {
 		    battery_base_5in
@@ -477,15 +477,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 90
+			build_cost_ic = 105
 			max_strength = 8.25
 			lg_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.08
 			anti_air_attack = 5.0
 		}
 		multiply_stats = {
-			naval_speed = -0.018
-			reliability = -0.012
+			naval_speed = -0.02025
+			reliability = -0.02025
 		}
 		forbid_module_categories = {
 		    battery_base_5in
@@ -503,15 +503,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 72
+			build_cost_ic = 84
 			max_strength = 8.0
 			lg_attack = 1.0
 			naval_light_gun_hit_chance_factor = 0.03
 			anti_air_attack = 2.5
 		}
 		multiply_stats = {
-			naval_speed = -0.0144
-			reliability = -0.015
+			naval_speed = -0.0168
+			reliability = -0.0168
 		}
 		forbid_module_categories = {
 		    battery_base_4in
@@ -529,15 +529,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 108
+			build_cost_ic = 126
 			max_strength = 8.8
 			lg_attack = 2.0
 			naval_light_gun_hit_chance_factor = 0.06
 			anti_air_attack = 5.0
 		}
 		multiply_stats = {
-			naval_speed = -0.0208
-			reliability = -0.018
+			naval_speed = -0.0252
+			reliability = -0.0252
 		}
 		forbid_module_categories = {
 		    battery_base_4in
@@ -597,15 +597,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 270
+			build_cost_ic = 315
 			max_strength = 8.25
 			lg_attack = 4.5
 			naval_light_gun_hit_chance_factor = 0.24
 			anti_air_attack = 15.0
 		}
 		multiply_stats = {
-			naval_speed = -0.054
-			reliability = -0.012
+			naval_speed = -0.063
+			reliability = -0.02025
 		}
 		forbid_module_categories = {
 			battery_base_5in
@@ -667,15 +667,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			build_cost_ic = 324
+			build_cost_ic = 378
 			max_strength = 8.8
 			lg_attack = 6.0
 			naval_light_gun_hit_chance_factor = 0.18
 			anti_air_attack = 15.0
 		}
 		multiply_stats = {
-			naval_speed = -0.0624
-			reliability = -0.018
+			naval_speed = -0.0756
+			reliability = -0.0252
 		}
 		forbid_module_categories = {
 			battery_base_4in
@@ -3482,7 +3482,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
-			reliability = -0.08
+			reliability = -0.12
 		}
 		build_cost_resources = {
 			steel = 0
@@ -3503,7 +3503,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.011		
-			reliability = -0.09
+			reliability = -0.14
 		}
 		build_cost_resources = {
 			steel = 0
@@ -3537,7 +3537,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.012			
-			reliability = -0.10
+			reliability = -0.16
 		}
 		dismantle_cost_ic = 60
 
@@ -3561,7 +3561,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.013			
-			reliability = -0.11
+			reliability = -0.18
 		}
 		dismantle_cost_ic = 60
 
