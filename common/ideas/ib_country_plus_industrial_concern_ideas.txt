@@ -1,0 +1,131 @@
+ideas = {
+	industrial_concern = {
+
+		BEL_cockerill_industrial = {
+
+			picture = BEL_cockerill_industrial
+			
+			allowed = {
+				original_tag = BEL
+			}
+
+			cost = 150
+		
+			research_bonus = {
+				industry = 0.2
+			}
+			
+			traits = { industrial_concern } 
+		}
+
+		BEL_distrigaz = {
+
+			picture = BEL_distrigaz
+			
+			allowed = {
+				original_tag = BEL
+			}
+
+			cost = 150
+	
+			research_bonus = {
+				electronics = 0.2
+			}
+
+			traits = { electronics_concern } 
+			
+		}
+
+		ARG_yacimientos_petroliferos_fiscales_idea = { 
+			name = ARG_yacimientos_petroliferos_fiscales
+
+			picture = ARG_yacimientos_petroliferos_fiscales
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			cost = 150
+
+			research_bonus = {
+				industry = 0.1
+				synth_resources = 0.2
+			}
+		
+			traits = { refinery_concern }
+		}
+
+		ARG_siam_di_tella_idea = { 
+			name = ARG_siam_di_tella
+
+			picture = ARG_siam_di_tella
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			cost = 150
+
+			research_bonus = {
+				industry = 0.2
+			}
+		
+			traits = { industrial_concern }
+		}
+
+		ARG_chade_cade_idea = { 
+			name = ARG_chade_cade
+
+			picture = ARG_chade_cade
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			cost = 150
+
+			research_bonus = {
+				electronics = 0.2
+			}
+		
+			traits = { electronics_concern } 
+
+		}
+
+		BRA_cprm_idea = { 
+			name = BRA_cprm_idea
+			picture = generic_radio_concern
+
+			allowed = {
+				original_tag = BRA
+			}
+
+			cost = 150
+			research_bonus = {
+				electronics = 0.2
+			}
+
+			traits = { electronics_concern } 
+
+		}
+
+		BRA_departamento_nacional_do_cafe_idea = { 
+			name = BRA_departamento_nacional_do_cafe_idea
+			picture = BRA_departamento_nacional_do_cafe
+
+			allowed = {
+				original_tag = BRA
+			}
+			cost = 150
+
+			research_bonus = {
+				industry = 0.2
+			}
+
+			traits = { industrial_concern } 
+			
+		}
+
+	}
+	
+} 

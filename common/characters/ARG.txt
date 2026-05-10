@@ -1,0 +1,903 @@
+characters={
+
+	ARG_agustin_pedro_justo = {
+		name = ARG_agustin_pedro_justo
+		portraits={
+			civilian = { large = GFX_portrait_ARG_augustin_pedro_justo }
+			army ={ small="GFX_portrait_ARG_augustin_pedro_justo_military_small" }
+		}
+		country_leader = {
+			ideology = moderatism expire = "1965.1.1.1" id = -1
+		}
+		field_marshal = {
+			traits = { politically_connected old_guard }
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ARG_agustin_pedro_justo
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				army_chief_old_guard
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ARG_pedro_pablo_ramirez = {
+		name = ARG_pedro_pablo_ramirez
+		portraits = {
+			civilian = { large=GFX_portrait_ARG_pedro_pablo_ramirez_unaligned }
+			army = { small="GFX_portrait_ARG_pedro_pablo_ramirez_unaligned_military_small" }
+		}
+		field_marshal = {
+			traits = { career_officer brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1 
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ARG_pedro_pablo_ramirez
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ARG_edelmiro_julian_farrell = {
+		portraits = {
+			civilian = { large=GFX_portrait_ARG_edelmiro_julian_farrell }
+			army = { small="GFX_portrait_ARG_edelmiro_julian_farrell_military_small" }
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ARG_edelmiro_julian_farrell
+			allowed  = {
+				original_tag  = ARG
+			}
+			traits  = {
+				quartermaster_general 
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1 
+		}
+	}
+
+	ARG_nimio_de_anquin = {
+		portraits = {
+			civilian = { large = GFX_portrait_ARG_nimio_de_anquin }
+			army = { small="GFX_portrait_ARG_nimio_de_anquin_small" }
+		}
+		country_leader = {
+			ideology = fascism_ideology expire = "1965.1.1.1" id = -1
+		}
+	}
+
+	ARG_enrique_mosca = {
+		portraits = {
+			civilian = { large=GFX_portrait_ARG_enrique_mosca }
+			army = { small="GFX_portrait_ARG_enrique_mosca_small" }
+		}
+		country_leader = {
+			ideology = socialism expire = "1965.1.1.1" id = -1
+		}
+	}
+
+	ARG_victorio_codovilla = {
+		portraits = {
+			civilian = { large = GFX_portrait_argentina_victorio_codovilla }
+			army = { small="GFX_portrait_ARG_victorio_codovilla_small" }
+		}
+		country_leader = {
+			ideology = marxism expire = "1965.1.1.1" id = -1
+		}
+	}
+
+	################
+	### MILITARY ###
+	################
+
+	ARG_arturo_rawson = {
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_arturo_rawson
+				small=GFX_portrait_ARG_arturo_rawson_small
+			}
+		}
+		field_marshal = {
+			traits = { defensive_doctrine unyielding_defender }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	ARG_carlos_marquez = {
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_carlos_marquez
+				small=GFX_portrait_ARG_carlos_marquez_small
+			}
+		}
+		corps_commander = {
+			traits = { trait_engineer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ARG_carlos_marquez
+			ledger = army
+
+			allowed = {
+				original_tag = ARG
+			}
+				
+			traits = {
+				military_theorist
+			}
+
+			cost = 100
+		}
+	}
+
+	ARG_juan_pistarini = {
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_juan_pistarini
+			}
+		}
+		corps_commander = {
+			traits = { urban_assault_specialist fortress_buster }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+
+	}
+
+	ARG_eduardo_avalos = {
+		
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_eduardo_avalos
+				small=GFX_portrait_ARG_eduardo_avalos_small
+			}
+		}
+
+		advisor = {
+			slot = high_command
+			idea_token = ARG_eduardo_avalos
+			ledger = army
+				allowed = {
+					original_tag = ARG
+				}
+				traits = {
+					army_logistics_2
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+
+		corps_commander = {
+			traits = { politically_connected organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	ARG_juan_tonazzi = {
+		
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_juan_tonazzi
+				small=GFX_portrait_ARG_juan_tonazzi_small
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	ARG_juan_peron = {
+		
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_juan_peron
+				small=GFX_portrait_ARG_juan_peron_small
+			}
+		}
+
+		advisor = {
+			slot = high_command
+			idea_token = ARG_juan_peron
+			ledger = army
+				allowed = {
+					original_tag = ARG
+				}
+				traits = {
+					army_regrouping_2
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+
+		corps_commander = {
+			traits = { career_officer harsh_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	ARG_alberto_gilbert = {
+		
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_alberto_gilbert
+				small=GFX_portrait_ARG_alberto_gilbert_small
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			cost = 150
+			
+			slot = theorist
+			idea_token = ARG_alberto_gilbert
+			ledger = army
+				allowed = {
+					original_tag = ARG
+				}
+				
+				traits = {
+					grand_battle_plan_expert
+				}
+			}
+	}
+
+	ARG_diego_mason = {
+		
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_diego_mason
+				small=GFX_portrait_ARG_diego_mason_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			cost = 150
+			
+			slot = theorist
+			idea_token = ARG_diego_mason
+			ledger = army 
+				allowed = {
+					original_tag = ARG
+				}
+				
+				traits = {
+					superior_firepower_expert
+				}
+			}
+		}
+
+	ARG_alberto_teisaire = {
+		
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_alberto_teisaire
+				small=GFX_portrait_ARG_alberto_teisaire_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	ARG_eleazar_videla = {
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_eleazar_videla
+				small=GFX_portrait_ARG_eleazar_videla_small
+			}
+		}
+
+		advisor = {
+			slot = high_command
+			idea_token = ARG_eleazar_videla
+			ledger = navy
+				allowed = {
+					original_tag = ARG
+				}
+				traits = {
+					navy_capital_ship_2
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+
+		navy_leader = {
+			traits = { cuts_corners }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	ARG_benito_sueyro = {
+		
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_benito_sueyro
+				small=GFX_portrait_ARG_benito_sueyro_small
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ARG_benito_sueyro
+			allowed = {
+					original_tag = ARG
+				}
+				traits = {
+					navy_chief_commerce_raiding_2
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+				}
+			}	
+		}
+
+	ARG_leon_scasso = {
+		
+		portraits = {
+			army = {
+				large=GFX_portrait_ARG_leon_scasso
+				small=GFX_portrait_ARG_leon_scasso_small
+			}
+		}
+		navy_leader = {
+			traits = { gunnery_expert }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = -1
+		}
+
+		advisor = {
+			slot = theorist
+			idea_token = ARG_leon_scasso
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			traits = { naval_theorist }
+
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	######################
+	### OTHER ADVISORS ###
+	######################
+
+	ARG_uribaldi_diaz_brittenberg = {
+		advisor = {
+			slot = high_command
+			idea_token = ARG_uribaldi_diaz_brittenberg
+			ledger = air
+				allowed = {
+					original_tag = ARG
+				}
+				traits = {
+					air_close_air_support_2
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+		portraits = {
+			army = {
+				small="GFX_idea_generic_air_south_america_1"
+			}
+		}
+	}
+
+	ARG_oscar_muratorio = {
+		
+		advisor = {
+			slot = high_command
+			idea_token = ARG_oscar_muratorio
+			ledger = air
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				air_tactical_bombing_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_oscar_muratorio_small"
+			}
+		}
+	}
+
+	ARG_francisco_m_velez = {
+		advisor = {
+			slot = high_command
+			idea_token = ARG_francisco_m_velez
+			ledger = army
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				army_commando_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		portraits = {
+			army = {
+				small="GFX_idea_generic_army_south_america_1"
+			}
+		}
+	}
+
+	ARG_jose_tamborni = {
+		advisor = {
+			slot = air_chief
+			idea_token = ARG_jose_tamborni
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		portraits = {
+			army = {
+				small="GFX_idea_generic_air_south_america_2"
+			}
+		}
+	}
+
+	ARG_manuel_a_rodriguez = {
+		advisor = {
+			slot = army_chief
+			idea_token = ARG_manuel_a_rodriguez
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_manuel_rodriguez_small"
+			}
+		}	
+	}
+
+
+	ARG_bartolome_de_la_colina = {
+		
+		advisor = {
+			cost = 100
+			
+			slot = theorist
+			idea_token = ARG_bartolome_de_la_colina
+			ledger = air
+			allowed = {
+				original_tag = ARG
+			}
+				
+			traits = {
+				air_warfare_theorist
+			}
+		}
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_bartolome_de_la_colina_small"
+			}
+		}
+	}
+
+	ARG_segundo_storni = {
+		
+		advisor = {
+			cost = 150
+			
+			slot = theorist
+			idea_token = ARG_segundo_storni
+			ledger = navy
+			allowed = {
+				original_tag = ARG
+			}
+				
+			traits = {
+				grand_fleet_proponent
+			}
+		}
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_segundo_storni_small"
+			}
+		}
+	}
+
+	ARG_pedro_s_casal = {
+		
+		advisor = {
+			slot = navy_chief
+			idea_token = ARG_pedro_s_casal
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_pedro_casal_small"
+			}
+		}
+	}
+
+	ARG_antonio_parodi = {
+		
+		advisor = {
+			slot = air_chief
+			idea_token = ARG_antonio_parodi
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		portraits = {
+			army = {
+				small = "GFX_portrait_ARG_antonio_parodi_small"
+			}
+		}
+	}
+
+	ARG_edmundo_sustaita = {
+		
+		advisor = {
+			slot = air_chief
+			idea_token = ARG_edmundo_sustaita
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits = {
+			army = {
+				small = "GFX_portrait_ARG_edmundo_sustaita_small"
+			}
+		}
+	}
+
+	ARG_basilio_pertine = {
+		
+		advisor = {
+			slot = army_chief
+			idea_token = ARG_basilio_pertine
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits = {
+			army = {
+				small = "GFX_portrait_ARG_basilio_pertine_small"
+			}
+		}
+	}
+
+	ARG_heriberto_la_galine = {
+		advisor = {
+			slot = navy_chief
+			idea_token = ARG_heriberto_la_galine
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				navy_chief_naval_aviation_1
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits = {
+			army = {
+				small="GFX_idea_generic_navy_south_america_1"
+			}
+		}
+	}
+
+	ARG_thomas_martinez = {
+		advisor = { 
+			slot = high_command
+			idea_token = ARG_thomas_martinez
+			ledger = army
+			allowed = {
+				original_tag = ARG
+			}
+			traits = {
+				army_chief_maneuver_1
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits = {
+			army = {
+				small="GFX_idea_generic_army_south_america_4"
+			}
+		}
+	}
+
+	ARG_manuel_maria_de_iriondo = {
+	
+		advisor = {
+			slot = political_advisor
+			idea_token = ARG_manuel_maria_de_iriondo
+			allowed  = {
+				original_tag  = ARG
+			}
+			traits  = {
+				prince_of_terror 
+			}
+		}
+
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_manuel_iriondo_small"
+			}
+		}
+	}
+
+	ARG_raul_prebisch = {
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = ARG_raul_prebisch
+			allowed  = {
+				original_tag  = ARG
+			}
+			traits  = {
+				captain_of_industry
+			}
+		}
+
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_raul_prebisch_small"
+			}
+		}
+	}
+
+
+	ARG_julio_roca = {
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = ARG_julio_roca
+			allowed  = {
+				original_tag  = ARG
+			}
+			traits  = {
+				silent_workhorse
+			}
+		}
+
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_julio_roca_small"
+			}
+		}
+	}
+
+	ARG_honorio_pueyrredon = {
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = ARG_honorio_pueyrredon
+			allowed  = {
+				original_tag  = ARG
+			}
+			traits  = {
+				compassionate_gentleman
+			}
+		}
+
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_honorio_pueyrredon_small"
+			}
+		}
+	}
+
+	ARG_diogenes_taboada = {
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = ARG_diogenes_taboada
+			allowed  = {
+				original_tag  = ARG
+			}
+			traits  = {
+				war_industrialist
+			}
+		}
+
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_diogenes_taboada_small"
+			}
+		}
+	}
+
+
+	ARG_enrique_ruiz_guinazu = {
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = ARG_enrique_ruiz_guinazu
+			allowed  = {
+					original_tag  = ARG
+				}
+				traits  = {
+					tenacious_negotiator
+				}
+		}
+
+		portraits = {
+			army = {
+				small="GFX_portrait_ARG_enrique_guinazu_small"
+			}
+		}
+	}
+
+}

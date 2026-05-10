@@ -1,0 +1,125 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+
+BEL_vickers_armstrong_bel_organization = {
+	name = BEL_vickers_armstrong_bel_organization
+	include = generic_mobile_tank_organization
+	icon = GFX_idea_vickers_armstrong_eng
+	allowed = {
+		tag = BEL
+	}
+}
+
+BEL_renault_organization = {
+	name = BEL_renault_organization
+	include = generic_infantry_tank_organization
+	icon = GFX_idea_renault
+	allowed = {
+		tag = BEL
+	}
+}
+
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+BEL_cockerill_shipyards_organization = {
+	name = cockerill_shipyards
+	include = generic_escort_ship_organization
+	icon = GFX_idea_BEL_cockerill_shipyards_organization
+	allowed = {
+		tag = BEL
+	}
+}
+
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+BEL_renard_organization = {
+	name = renard
+	include = generic_range_focused_aircraft_organization
+	icon = GFX_idea_BEL_renard_organization
+	allowed = {
+		tag = BEL
+	}
+}
+
+
+BEL_avions_fairey = {
+	name = avions_fairey
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_generic_air_manufacturer_1
+	allowed = {
+		tag = BEL
+	}
+}
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+BEL_fn_herstal_organization = {
+	name =  BEL_fn_herstal_organization
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_BEL_fn_herstal_organization
+	allowed = {
+		tag = BEL
+	}
+}
+
+BEL_fonderie_royale_de_canons_liege_organization = {
+	name = BEL_fonderie_royale_de_canons_liege_organization
+	include = generic_artillery_organization
+	icon = GFX_idea_BEL_fonderie_royale_de_canons_liege_organization
+	allowed = {
+		tag = BEL
+	}
+}		
+
+BEL_minerva_imperia_armored_car_organization = {
+	name = BEL_minerva_imperia_armored_car_organization
+	include = generic_armored_car_organization
+	icon = GFX_idea_BEL_minerva_imperia_armored_car_organization
+	allowed = {
+		tag = BEL
+	}
+}
+
+BEL_minerva_imperia_motorized_organization = {
+	name = BEL_minerva_imperia_motorized_organization
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_BEL_minerva_imperia_motorized_organization
+	allowed = {
+		tag = BEL
+	}
+}
