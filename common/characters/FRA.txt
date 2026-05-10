@@ -267,21 +267,6 @@ characters={
 				large="gfx/leaders/FRA/portrait_france_philippe_leclerc.dds"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = philippe_leclerc
-			ledger = army
-			allowed = {
-				original_tag = FRA
-			}
-			traits = {
-				army_commando_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 		
 		corps_commander={
 			traits={ career_officer trait_reckless armor_officer }
@@ -966,29 +951,6 @@ characters={
 		}
 	}
 
-	FRA_rene_prioux={
-		name=FRA_rene_prioux
-		portraits={
-			army={
-				small="GFX_idea_rene_prioux"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = rene_prioux
-			ledger = army
-			allowed = {
-				original_tag = FRA
-			}
-			traits = {
-				army_CombinedArms_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
 
 
 	### POLITICAL ADVISORS ###

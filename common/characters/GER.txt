@@ -161,21 +161,6 @@ characters={
 				small="GFX_idea_erwin_rommel"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = erwin_rommel
-			ledger = army
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				army_armored_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 8.000
-			}
-		}
 		
 		corps_commander={
 			traits= { brilliant_strategist trickster panzer_leader commando desert_fox }
@@ -1168,29 +1153,7 @@ characters={
 
 	# Lütjens up there
 
-	GER_ferdinand_schorner={
-		name=GER_ferdinand_schorner
-		portraits={
-			army={
-				small="GFX_idea_ferdinand_schorner"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = ferdinand_schorner
-			ledger = army
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 2.000
-			}
-		}
-	}
+
 
 	GER_werner_von_fritsch={
 		name=GER_werner_von_fritsch

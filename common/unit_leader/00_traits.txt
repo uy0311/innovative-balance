@@ -830,7 +830,7 @@ leader_traits = {
 		cost = 150
 		modifier = {
 			army_armor_speed_factor = 0.05
-			army_armor_attack_factor = 0.10
+			army_armor_attack_factor = 0.15
 		}
 		ai_will_do = {
 			factor = 1
@@ -840,10 +840,6 @@ leader_traits = {
 		
 		gui_row = 1
 		
-		slot = high_command
-		specialist_advisor_trait = army_armored_1
-		expert_advisor_trait = army_armored_2
-		genius_advisor_trait = army_armored_3
 	}
 
 	cavalry_leader = { 
@@ -860,9 +856,9 @@ leader_traits = {
 		
 		cost = 100
 		modifier = {
-			cavalry_attack_factor = 0.12
-			motorized_attack_factor = 0.12
-			mechanized_attack_factor = 0.12
+			cavalry_attack_factor = 0.25
+			motorized_attack_factor = 0.25
+			mechanized_attack_factor = 0.25
 		}
 		
 		ai_will_do = {
@@ -883,13 +879,9 @@ leader_traits = {
 		
 		cost = 150
 		modifier = {
-			army_infantry_defence_factor = 0.10
+			army_infantry_defence_factor = 0.20
 		}
 		
-		slot = high_command
-		specialist_advisor_trait = army_infantry_1
-		expert_advisor_trait = army_infantry_2
-		genius_advisor_trait = army_infantry_3
 		
 		ai_will_do = {
 			factor = 1
@@ -910,18 +902,14 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			out_of_supply_factor = -0.20
+			out_of_supply_factor = -0.20		
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 		gui_row = 6
-		
-		slot = high_command
-		specialist_advisor_trait = army_commando_1
-		expert_advisor_trait = army_commando_2
-		genius_advisor_trait = army_commando_3
+
 	}
 
 	naval_invader = {
@@ -958,13 +946,9 @@ leader_traits = {
 		cost = 100
 		
 		modifier = {
-			army_artillery_attack_factor = 0.15
+			army_artillery_attack_factor = 0.25
 		}
-		
-		slot = high_command
-		specialist_advisor_trait = army_artillery_1
-		expert_advisor_trait = army_artillery_2
-		genius_advisor_trait = army_artillery_3
+
 
 		new_commander_weight = {
 			factor = 0
@@ -1290,7 +1274,7 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			army_armor_defence_factor = 0.10
+			army_armor_defence_factor = 0.15
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -1315,16 +1299,12 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			motorized_defence_factor = 0.15
-			mechanized_defence_factor = 0.15
+			motorized_defence_factor = 0.25
+			mechanized_defence_factor = 0.25
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
 		
-		slot = high_command
-		specialist_advisor_trait = army_CombinedArms_1
-		expert_advisor_trait = army_CombinedArms_2
-		genius_advisor_trait = army_CombinedArms_3
 		
 		ai_will_do = {
 			factor = 1
@@ -1347,8 +1327,8 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			cavalry_attack_factor = 0.10
-			cavalry_defence_factor = 0.10
+			cavalry_attack_factor = 0.25
+			cavalry_defence_factor = 0.25
 		}
 		
 		ai_will_do = {
@@ -1371,7 +1351,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			army_infantry_attack_factor = 0.10
+			army_infantry_attack_factor = 0.15
 		}
 		
 		ai_will_do = {

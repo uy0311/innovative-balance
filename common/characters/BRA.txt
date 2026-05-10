@@ -391,21 +391,7 @@ characters={
 				small="GFX_idea_generic_army_south_america_4"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = BRA_artur_da_costa_e_silva
-			ledger = army
-			allowed = {
-				original_tag = BRA
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}		
+
 	}
 
 	BRA_moreira_lima={
@@ -744,20 +730,7 @@ characters={
 				small=GFX_portrait_BRA_olympio_falconiere_da_cunha_small
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = BRA_olympio_falconiere_da_cunha
-			allowed = {
-				original_tag = BRA
-			}
-			traits = {
-				army_commando_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
+
 		field_marshal={
 			traits={ career_officer offensive_doctrine jungle_rat }
 			skill=4

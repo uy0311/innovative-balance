@@ -202,29 +202,7 @@ characters={
 			}
 		}
 	}
-	ETH_haile_abba_mersa={
-		advisor={
-			slot = high_command
-			idea_token = ETH_haile_abba_mersa
-			ledger = army
-			allowed = {
-				original_tag = ETH
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		name=ETH_haile_abba_mersa
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_3"
-			}
-		}
-	}
+
 	ETH_ras_seyum={
 		advisor={
 			slot = navy_chief
@@ -266,29 +244,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_air_arab_3"
-			}
-		}
-	}
-	ETH_lij_abiye_abebe={
-		advisor={
-			slot = high_command
-			idea_token = ETH_lij_abiye_abebe
-			ledger = army
-			allowed = {
-				original_tag = ETH
-			}
-			traits = {
-				army_armored_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		name=ETH_lij_abiye_abebe
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
 			}
 		}
 	}

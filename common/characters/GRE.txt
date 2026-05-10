@@ -189,37 +189,6 @@ characters={
 		}
 	}
 
-	GRE_napoleon_zervas={
-		instance = {
-			allowed = {
-				 
-			}
-			name=GRE_napoleon_zervas
-			portraits={
-				army={
-					small="GFX_idea_gre_napoleon_zervas"
-					large="GFX_portrait_GRE_napoleon_zervas" #Can become unit leader later
-				}
-			}
-			advisor={
-				slot = high_command
-				idea_token = GRE_napoleon_zervas
-				ledger = army
-				name = GRE_napoleon_zervas
-				allowed = {
-					original_tag = GRE
-					 
-				}
-				traits = {
-					army_infantry_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
-			}
-		}
-	}
 
 	GRE_dimitrios_oikonomou={
 		name=GRE_dimitrios_oikonomou
@@ -601,31 +570,6 @@ characters={
 			}
 			traits = {
 				victory_through_airpower
-			}
-		}
-	}
-
-	GRE_georgios_kosmas={
-		name=GRE_georgios_kosmas
-		portraits={
-			army={
-				small="GFX_idea_gre_giorgios_kosmas"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = GRE_georgios_kosmas
-			ledger = navy
-			allowed = {
-				original_tag = GRE
-				 
-			}
-			traits = {
-				army_artillery_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 	}
