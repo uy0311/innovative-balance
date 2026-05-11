@@ -398,6 +398,35 @@ generic_tank_organization = {
 				has_dlc = "Arms Against Tyranny"
 			}
 		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = BRA 
+					original_tag = CHL
+					original_tag = ARG
+				}
+				has_dlc = "Trial of Allegiance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AUS
+				}
+				has_dlc = "Gotterdammerung"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { 
+					original_tag = AFG 
+					original_tag = PER
+					original_tag = IRQ
+					original_tag = RAJ
+				}
+				has_dlc = "Graveyard of Empires"
+			}
+		}
 	}
 
 	equipment_type = { armor }
@@ -771,6 +800,36 @@ generic_escort_ship_organization = {
 			AND = {
 				OR = { original_tag = FIN tag = NOR tag = DEN tag = SWE tag = ICE }
 				has_dlc = "Arms Against Tyranny"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = BRA 
+					original_tag = CHL
+					original_tag = ARG
+				}
+				has_dlc = "Trial of Allegiance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AUS
+					original_tag = COG
+				}
+				has_dlc = "Gotterdammerung"
+				
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { 
+					original_tag = AFG
+					original_tag = PER 
+					original_tag = IRQ
+				}
+				has_dlc = "Graveyard of Empires"
 			}
 		}
 	}
@@ -1591,6 +1650,35 @@ generic_general_aircraft_organization = {
 				has_dlc = "Arms Against Tyranny"
 			}
 		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = BRA 
+					original_tag = CHL
+					original_tag = ARG
+				} 
+				has_dlc = "Trial of Allegiance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AUS
+					original_tag = COG
+				}
+				has_dlc = "Gotterdammerung"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = { 
+					original_tag = AFG 
+					original_tag = PER
+					original_tag = IRQ
+				}
+				has_dlc = "Graveyard of Empires"
+			}
+		}
 	}
 
 	equipment_type = {
@@ -1805,6 +1893,39 @@ generic_artillery_organization = {
 				has_dlc = "Arms Against Tyranny"
 			}
 		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = BRA 
+					original_tag = CHL
+					original_tag = ARG
+				}
+				has_dlc = "Trial of Allegiance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AUS
+					original_tag = HUN
+					original_tag = BEL
+					original_tag = COG
+				}
+				has_dlc = "Gotterdammerung"
+				
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AFG
+					original_tag = PER
+					original_tag = IRQ					
+				}
+				has_dlc = "Graveyard of Empires"
+				
+			}
+		}
 	}
 
 	equipment_type = {
@@ -1890,6 +2011,38 @@ generic_infantry_equipment_organization = {
 			AND = {
 				OR = { original_tag = FIN tag = NOR tag = DEN tag = SWE }
 				has_dlc = "Arms Against Tyranny"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = BRA 
+					original_tag = CHL
+					original_tag = ARG
+				}
+				has_dlc = "Trial of Allegiance"
+			}
+		}
+
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AUS
+					original_tag = COG
+				}
+				has_dlc = "Gotterdammerung"
+				
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AFG
+					original_tag = PER	
+					original_tag = IRQ				
+				}
+				has_dlc = "Graveyard of Empires"
+				
 			}
 		}
 	}
@@ -1994,6 +2147,40 @@ generic_motorized_mechanized_organization = {
 			AND = {
 				OR = { original_tag = FIN tag = NOR tag = DEN tag = SWE }
 				has_dlc = "Arms Against Tyranny"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = BRA 
+					original_tag = CHL
+					original_tag = ARG
+				}
+				has_dlc = "Trial of Allegiance"
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AUS
+					original_tag = HUN
+					original_tag = BEL					
+					original_tag = COG					
+				}
+				has_dlc = "Gotterdammerung"
+				
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					original_tag = AFG
+					original_tag = PER
+					original_tag = RAJ			
+					original_tag = IRQ		
+				}
+				has_dlc = "Graveyard of Empires"
+				
 			}
 		}
 	}
