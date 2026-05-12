@@ -360,10 +360,6 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_army
-			category_line_artillery
-			category_artillery
-			category_mobile_and_mobile_combat_sup
 		}		
 
 		combat_width = 3

@@ -15,11 +15,7 @@ sub_units = {
 		group = support
 
 		categories = {
-			category_tanks
-			category_support_battalions
-			category_front_line
-			category_all_armor
-			category_army
+			
 		}
 
 		combat_width = 0
