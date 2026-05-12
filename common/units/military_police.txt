@@ -51,6 +51,7 @@ sub_units = {
 	}
 
 	motorized_military_police = {
+		
 		abbreviation = "MMP"
 		sprite = motorized_military_police
 		map_icon_category = infantry
@@ -67,8 +68,7 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_support_battalions
-			category_army
+			
 		}
 		
 		battalion_mult = {

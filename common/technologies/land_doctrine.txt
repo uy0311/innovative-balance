@@ -157,9 +157,6 @@ technologies = {
 		category_tanks = {
 			max_organisation = 5#1
 		}
-		armored_car = {
-			max_organisation = 10#2
-		}
 		pioneer_support = {
 			battalion_mult = {
 				category = category_infantry_and_bicycle
@@ -407,6 +404,7 @@ technologies = {
 	armored_spearhead = { #Branch focused on Tanks 
 		xp_research_type = army
 		xp_unlock_cost = 100
+
 		category_tanks = {
 			max_organisation = 15#3
 			breakthrough = 0.20
@@ -535,10 +533,6 @@ technologies = {
 		}
 
 		category_all_armor = {
-			default_morale = 0.1
-		}
-		armored_car = {
-			max_organisation = 35#7
 			default_morale = 0.1
 		}
 		
@@ -670,10 +664,10 @@ technologies = {
 		category_tanks = {
 			max_organisation = 10#2
 		}
+
 		armored_car = {
 			max_organisation = 10#2
 		}
-
 		
 		path = {
 			leads_to_tech = backhand_blow 
@@ -755,14 +749,15 @@ technologies = {
 	modern_blitzkrieg = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+
 		category_tanks = {
 			max_organisation = 15#3
 			breakthrough = 0.20
 		}
-
 		category_all_armor = {
 			default_morale = 0.2
 		}
+
 		armored_car = {
 			max_organisation = 15#3
 			default_morale = 0.2
@@ -2748,12 +2743,6 @@ technologies = {
 			defense = 0.10
 		}
 
-		armored_car = {
-			max_organisation = 20
-			default_morale = 0.2
-			breakthrough = 0.40
-		}
-
 		category_self_propelled_artillery = {
 			max_organisation = 10
 			default_morale = 0.2
@@ -3050,6 +3039,77 @@ technologies = {
 			max_organisation = 20
 			initiative = 0.01
 		}
+
+		engineer = {
+			forest = {
+				movement = 0.10
+			}
+			hills = {
+				movement = 0.10
+			}
+			mountain = {
+				movement = 0.10
+			}
+			jungle = {
+				movement = 0.10
+			}
+			marsh = {
+				movement = 0.10
+			}
+			plains = {
+				movement = 0.10
+			}
+			farmland = {
+				movement = 0.10
+			}
+			urban = {
+				movement = 0.10
+			}
+			desert = {
+				movement = 0.10
+			}
+			river = {
+				movement = 0.10
+			}
+			amphibious = {
+				movement = 0.10
+			}
+		}
+		pioneer_support = {
+			forest = {
+				movement = 0.10
+			}
+			hills = {
+				movement = 0.10
+			}
+			mountain = {
+				movement = 0.10
+			}
+			jungle = {
+				movement = 0.10
+			}
+			marsh = {
+				movement = 0.10
+			}
+			plains = {
+				movement = 0.10
+			}
+			farmland = {
+				movement = 0.10
+			}
+			urban = {
+				movement = 0.10
+			}
+			desert = {
+				movement = 0.10
+			}
+			river = {
+				movement = 0.10
+			}
+			amphibious = {
+				movement = 0.10
+			}
+		}
 		
 		on_research_complete = {
 			hidden_effect = {
@@ -3116,24 +3176,6 @@ technologies = {
 			max_organisation = 20
 			breakthrough = 0.2
 		}
-
-		# armored_car_recon = {
-		# 	max_organisation = 40
-		# 	default_morale = 0.4
-		# 	breakthrough = 0.8
-		# }
-
-		# light_tank_recon = {
-		# 	max_organisation = 40
-		# 	default_morale = 0.4
-		# 	breakthrough = 0.8
-		# }
-
-		# airborne_light_armor = {
-		# 	max_organisation = 40
-		# 	default_morale = 0.4
-		# 	breakthrough = 0.8
-		# }
 
 		on_research_complete = {
 			hidden_effect = {
@@ -3222,77 +3264,6 @@ technologies = {
 				category = category_light_infantry
 				initiative = 0.01
 				add = yes
-			}
-		}
-
-		engineer = {
-			forest = {
-				movement = 0.10
-			}
-			hills = {
-				movement = 0.10
-			}
-			mountain = {
-				movement = 0.10
-			}
-			jungle = {
-				movement = 0.10
-			}
-			marsh = {
-				movement = 0.10
-			}
-			plains = {
-				movement = 0.10
-			}
-			farmland = {
-				movement = 0.10
-			}
-			urban = {
-				movement = 0.10
-			}
-			desert = {
-				movement = 0.10
-			}
-			river = {
-				movement = 0.10
-			}
-			amphibious = {
-				movement = 0.10
-			}
-		}
-		pioneer_support = {
-			forest = {
-				movement = 0.10
-			}
-			hills = {
-				movement = 0.10
-			}
-			mountain = {
-				movement = 0.10
-			}
-			jungle = {
-				movement = 0.10
-			}
-			marsh = {
-				movement = 0.10
-			}
-			plains = {
-				movement = 0.10
-			}
-			farmland = {
-				movement = 0.10
-			}
-			urban = {
-				movement = 0.10
-			}
-			desert = {
-				movement = 0.10
-			}
-			river = {
-				movement = 0.10
-			}
-			amphibious = {
-				movement = 0.10
 			}
 		}
 		
@@ -3739,9 +3710,6 @@ technologies = {
 		category_all_armor = {
 			default_morale = 0.2
 		}
-		armored_car = {
-			default_morale = 0.2
-		}
 
 		path = {
 			leads_to_tech = operational_concentration
@@ -3859,10 +3827,6 @@ technologies = {
 		}
 		category_all_armor = {
 			default_morale = 0.2
-		}
-		armored_car = {
-			default_morale = 0.2
-			breakthrough = 0.10
 		}
 
 		on_research_complete = {

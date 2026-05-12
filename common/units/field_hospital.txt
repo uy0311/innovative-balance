@@ -76,9 +76,7 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_support_battalions
-			category_army
-			category_helicopter_support_companies
+			
 		}
 
 	
