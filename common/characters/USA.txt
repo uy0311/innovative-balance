@@ -213,21 +213,6 @@ characters={
 				large="gfx/leaders/USA/Portrait_USA_Mark_W_Clark.dds"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = mark_clark
-			ledger = army
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 		
 		corps_commander={
 			traits={ trait_reckless infantry_officer }
@@ -512,21 +497,6 @@ characters={
 			}
 			army={
 				large="gfx/leaders/USA/Portrait_USA_Cortney_Hodges.dds"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = courtney_hodges
-			ledger = army
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				army_commando_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 		

@@ -718,29 +718,6 @@ characters={
 
 	### MILITARY HIGH COMMAND ###
 
-	RAJ_ram_singh_thakur={
-		name=RAJ_ram_singh_thakur
-		portraits={
-			army={
-				small="GFX_idea_RAJ_ram_singh_thakur" #small="GFX_idea_generic_army_arab_1"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = RAJ_ram_singh_thakur
-			ledger = army
-			allowed = {
-				original_tag = RAJ
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
 
 	RAJ_arjan_singh_vibhusan={
 		name=RAJ_arjan_singh_vibhusan

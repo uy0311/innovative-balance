@@ -715,39 +715,6 @@ characters={
 		}
 	}
 
-	TUR_kazim_orbay={
-		instance = {
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			name=TUR_kazim_orbay
-			portraits={
-				army={
-					small="gfx/interface/ideas/idea_TUR_kazim_orbay.dds"
-				}
-				civilian = {
-					large = "GFX_portrait_tur_kazim_orbay"
-				}
-			}
-			advisor={
-				slot = high_command
-				idea_token = TUR_kazim_orbay
-				ledger = army
-				name = TUR_kazim_orbay
-				allowed = {
-					original_tag = TUR
-					has_dlc = "Battle for the Bosporus"
-				}
-				traits = {
-					army_infantry_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
-			}			
-		}
-	}
 
 	TUR_erkan_gataly={
 		name=TUR_erkan_gataly

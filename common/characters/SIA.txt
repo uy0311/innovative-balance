@@ -558,4 +558,58 @@ characters={
 			legacy_id=0
 		}
 	}
+
+	SIA_Pol_Pot={
+		name="Pol Pot"
+		portraits={
+			army={
+				large="gfx/leaders/SIA/po.dds"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+	        skill = 3 attack_skill = 1 defense_skill = 1 planning_skill = 1 logistics_skill = 1
+			legacy_id=0
+		}
+	}	
+
+	SIA_ramu={
+		name="ramu"
+		portraits={
+			army={
+				large="gfx/leaders/BRA/ramu.dds"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader ranger hill_fighter skilled_staffer }
+			skill= 2
+			attack_skill = 3
+	        defense_skill = 1
+	        planning_skill = 3
+	        logistics_skill = 2
+			legacy_id=25
+		}
+	}
+	
+	SIA_remu={
+		name="remu"
+		portraits={
+			army={
+				large="gfx/leaders/BRA/remu.dds"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		corps_commander = {
+			traits = { skilled_staffer winter_specialist  trait_engineer  infantry_expert }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+			 
+		}
+	}
 }

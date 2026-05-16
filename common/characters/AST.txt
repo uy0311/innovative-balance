@@ -577,30 +577,6 @@ characters={
 
 	### MILITARY HIGH COMMAND ###
 
-	AST_arthur_allen={
-		name=AST_arthur_allen
-		portraits={
-			army={
-				small="GFX_idea_AST_arthur_allen" #small="GFX_idea_generic_army_europe_2"
-			}
-		}
-		advisor={		
-			slot = high_command
-			idea_token = AST_arthur_allen
-			ledger = army
-			allowed = {
-				original_tag = AST
-			}
-			traits = {
-				army_infantry_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-	
 	AST_clive_caldwell={
 		name=AST_clive_caldwell
 		portraits={
@@ -650,29 +626,6 @@ characters={
 		}		
 	}
 
-	AST_edmund_herring={
-		name=AST_edmund_herring
-		portraits={
-			army={
-				small="GFX_idea_AST_edmund_herring" #small="GFX_idea_generic_army_europe_1"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = AST_edmund_herring
-			ledger = army
-			allowed = {
-				original_tag = AST
-			}
-			traits = {
-				army_artillery_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}		
-	}
 
 	AST_arthur_drakeford={
 		name=AST_arthur_drakeford

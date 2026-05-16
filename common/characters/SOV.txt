@@ -84,21 +84,6 @@ characters = {
 			legacy_id = 402
 		}
 
-		advisor = {
-			slot = high_command
-			idea_token = konstantin_rokossovsky
-			ledger = army
-			allowed = {
-				original_tag = SOV
-			}
-			traits = {
-				army_armored_3
-			}
-				cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
-		}		
 	}
 
 	SOV_aleksandr_vasilevsky = {

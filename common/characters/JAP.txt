@@ -178,18 +178,6 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Yasuji_Okamura.dds"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = yasuji_okamura
-			ledger = army
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-		}
 		
 		corps_commander={
 			traits = { skilled_staffer bearer_of_artillery brilliant_strategist }

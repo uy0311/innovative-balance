@@ -227,21 +227,6 @@ characters={
 				small="GFX_portrait_MEX_abelardo_rodriguez_small"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = MEX_abelardo_rodriguez
-			ledger = army
-			allowed = {
-				original_tag = MEX
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 
 		corps_commander={
 			traits={ politically_connected }
@@ -704,34 +689,6 @@ characters={
 		}
 	}
 
-	MEX_jose_gonzalo_escobar={
-		name=MEX_jose_gonzalo_escobar
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_MEX_jose_gonzalo_escobar.dds"
-				large = "GFX_portrait_MEX_jose_gonzalo_escobar" #Can become unit leader
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = MEX_jose_gonzalo_escobar
-			ledger = army
-			allowed = {
-				original_tag = MEX
-				has_dlc = "Man the Guns"
-			}
-			available = {
-				
-			}
-			traits = {
-				army_CombinedArms_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
 		
 	MEX_hector_meixueiro={
 		name=MEX_hector_meixueiro
