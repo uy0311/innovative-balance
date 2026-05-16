@@ -60,7 +60,7 @@ BEL_cockerill_shipyards_organization = {
 
 BEL_renard_organization = {
 	name = renard
-	include = generic_range_focused_aircraft_organization
+	include = generic_medium_aircraft_organization
 	icon = GFX_idea_BEL_renard_organization
 	allowed = {
 		tag = BEL
