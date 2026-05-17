@@ -129,6 +129,33 @@ characters={
 
 ####### GENERALS ######
 
+	BEL_jean_offenburg = {
+		name = BEL_jean_offenburg
+		portraits = {
+			army ={
+				small = GFX_portrait_BEL_jean_offenburg_small
+			}
+		}
+
+		advisor = {
+			slot = theorist
+			idea_token = BEL_jean_offenburg
+			allowed = {
+				original_tag = BEL
+			}
+				
+			traits = {
+				superior_firepower_expert
+			}
+				
+			cost = 150
+
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+
 	BEL_raoul_van_overstraeten = {
 		name = BEL_raoul_van_overstraeten
 
@@ -154,9 +181,6 @@ characters={
 			allowed = {
 				original_tag = BEL
 			}
-			available = {
-				not_already_hired_except_as = army_chief
-			}
 				
 			traits = {
 				army_chief_offensive_3
@@ -169,29 +193,6 @@ characters={
 			}
 		}
 
-		advisor = {
-			slot = theorist
-			idea_token = BEL_raoul_van_overstraeten_theorist
-			allowed = {
-				OR = { 
-					original_tag = BEL
-					original_tag = COG
-				}
-			}
-			available = {
-				not_already_hired_except_as = theorist
-			}
-				
-			traits = {
-				superior_firepower_expert
-			}
-				
-			cost = 200
-
-			ai_will_do = {
-				base = 1.000
-			}
-		}
 	}
 
 	BEL_oscar_michiels = {
@@ -568,30 +569,6 @@ characters={
 				air_warfare_theorist
 			}
 			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-	BEL_jean_offenburg = {
-		name = BEL_jean_offenburg
-		portraits = {
-			army ={
-				small = GFX_portrait_BEL_jean_offenburg_small
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = BEL_jean_offenburg
-			ledger = air
-			allowed = {
-				original_tag = BEL
-			}
-			traits = {
-				air_air_superiority_1
-			}
-			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
