@@ -64,7 +64,6 @@ leader_maneuvering_skills = {
 		}
 	}
 
-
 	8 = {
 		cost = 78125
 		type = navy

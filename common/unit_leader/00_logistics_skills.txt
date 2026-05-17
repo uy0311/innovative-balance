@@ -64,7 +64,6 @@ leader_logistics_skills = {
 		}
 	}
 
-
 	8 = {
 		cost = 78125
 		type = navy
@@ -150,7 +149,6 @@ leader_logistics_skills = {
 		}
 	}
 
-
 	8 = {
 		cost = 78125
 		type = corps_commander
@@ -232,7 +230,6 @@ leader_logistics_skills = {
 			supply_consumption_factor = -0.175
 		}
 	}
-
 
 	8 = {
 		cost = 78125

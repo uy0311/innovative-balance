@@ -64,7 +64,6 @@ leader_skills = {
 		}
 	}
 
-
 	8 = {
 		cost = 78125
 		type = navy
@@ -119,7 +118,6 @@ leader_skills = {
 		type = corps_commander
 	}
 
-
 	8 = {
 		cost = 78125
 		type = corps_commander
@@ -166,7 +164,6 @@ leader_skills = {
 		cost = 15625
 		type = field_marshal
 	}
-
 
 	8 = {
 		cost = 78125

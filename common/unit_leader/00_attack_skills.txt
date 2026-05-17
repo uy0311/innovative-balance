@@ -56,7 +56,6 @@ leader_attack_skills = {
 			positioning = 0.12
 		}
 	}
-
 	8 = {
 		cost = 78125
 		type = navy
@@ -138,7 +137,6 @@ leader_attack_skills = {
 			offence = 0.155
 		}
 	}
-
 
 	8 = {
 		cost = 78125
@@ -223,7 +221,6 @@ leader_attack_skills = {
 			offence = 0.155
 		}
 	}	
-
 
 	8 = {
 		cost = 78125

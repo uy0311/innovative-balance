@@ -64,7 +64,6 @@ leader_defense_skills = {
 		}
 	}
 
-
 	8 = {
 		cost = 78125
 		type = navy
@@ -150,7 +149,6 @@ leader_defense_skills = {
 		}
 	}
 
-
 	8 = {
 		cost = 78125
 		type = corps_commander
@@ -233,7 +231,6 @@ leader_defense_skills = {
 			defence = 0.155
 		}
 	}	
-
 
 	8 = {
 		cost = 78125

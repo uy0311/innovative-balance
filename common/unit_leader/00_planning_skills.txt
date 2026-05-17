@@ -64,7 +64,6 @@ leader_planning_skills = {
 		}
 	}
 
-
 	8 = {
 		cost = 78125
 		type = navy
@@ -156,7 +155,6 @@ leader_planning_skills = {
 			max_planning = 0.14
 		}
 	}
-
 
 	8 = {
 		cost = 78125
@@ -250,7 +248,6 @@ leader_planning_skills = {
 			max_planning = 0.14
 		}
 	}	
-
 
 	8 = {
 		cost = 78125
