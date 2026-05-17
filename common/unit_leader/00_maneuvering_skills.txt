@@ -2,7 +2,7 @@ leader_maneuvering_skills = {
 
 	### NAVY ###
 	1 = {
-		cost = 5
+		cost = 1
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.16
@@ -11,7 +11,7 @@ leader_maneuvering_skills = {
 	}
 
 	2 = {
-		cost = 25
+		cost = 5
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.17
@@ -20,7 +20,7 @@ leader_maneuvering_skills = {
 	}
 
 	3 = {
-		cost = 125
+		cost = 25
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.18
@@ -29,7 +29,7 @@ leader_maneuvering_skills = {
 	}
 
 	4 = {
-		cost = 625
+		cost = 125
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.19
@@ -38,7 +38,7 @@ leader_maneuvering_skills = {
 	}
 
 	5 = {
-		cost = 3125
+		cost = 625
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.20
@@ -47,7 +47,7 @@ leader_maneuvering_skills = {
 	}
 
 	6 = {
-		cost = 15625
+		cost = 3125
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.21
@@ -56,7 +56,7 @@ leader_maneuvering_skills = {
 	}
 
 	7 = {
-		cost = 78125
+		cost = 15625
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.22
@@ -64,8 +64,9 @@ leader_maneuvering_skills = {
 		}
 	}
 
+
 	8 = {
-		cost = 390625
+		cost = 78125
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.23
@@ -74,7 +75,7 @@ leader_maneuvering_skills = {
 	}
 
 	9 = {
-		cost = 1953125
+		cost = 390625
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.24
@@ -83,7 +84,7 @@ leader_maneuvering_skills = {
 	}
 
 	10 = {
-		cost = 9765625
+		cost = 1953125
 		type = navy
 		modifier = {
 			naval_retreat_speed = 0.25

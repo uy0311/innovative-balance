@@ -2,7 +2,7 @@ leader_planning_skills = {
 
 	### NAVY ###
 	1 = {
-		cost = 5
+		cost = 1
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.05
@@ -11,7 +11,7 @@ leader_planning_skills = {
 	}
 
 	2 = {
-		cost = 25
+		cost = 5
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.1
@@ -20,7 +20,7 @@ leader_planning_skills = {
 	}
 
 	3 = {
-		cost = 125
+		cost = 25
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.15
@@ -29,7 +29,7 @@ leader_planning_skills = {
 	}
 
 	4 = {
-		cost = 625
+		cost = 125
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.2
@@ -38,7 +38,7 @@ leader_planning_skills = {
 	}
 
 	5 = {
-		cost = 3125
+		cost = 625
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.25
@@ -47,7 +47,7 @@ leader_planning_skills = {
 	}
 
 	6 = {
-		cost = 15625
+		cost = 3125
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.3
@@ -56,7 +56,7 @@ leader_planning_skills = {
 	}
 
 	7 = {
-		cost = 78125
+		cost = 15625
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.35
@@ -64,8 +64,9 @@ leader_planning_skills = {
 		}
 	}
 
+
 	8 = {
-		cost = 390625
+		cost = 78125
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.40
@@ -74,7 +75,7 @@ leader_planning_skills = {
 	}
 
 	9 = {
-		cost = 1953125
+		cost = 390625
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.45
@@ -83,7 +84,7 @@ leader_planning_skills = {
 	}
 
 	10 = {
-		cost = 9765625
+		cost = 1953125
 		type = navy
 		modifier = {
 			#naval_hit_chance = 0.50
@@ -93,7 +94,7 @@ leader_planning_skills = {
 
 	### Corps Commander ###
 	1 = {
-		cost = 5
+		cost = 1
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.05
@@ -102,7 +103,7 @@ leader_planning_skills = {
 	}
 		
 	2 = {
-		cost = 25
+		cost = 5
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.1
@@ -112,7 +113,7 @@ leader_planning_skills = {
 	
 	
 	3 = {
-		cost = 125
+		cost = 25
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.15
@@ -121,7 +122,7 @@ leader_planning_skills = {
 	}
 	
 	4 = {
-		cost = 625
+		cost = 125
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.2
@@ -130,7 +131,7 @@ leader_planning_skills = {
 	}
 	
 	5 = {
-		cost = 3125
+		cost = 625
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.25
@@ -139,7 +140,7 @@ leader_planning_skills = {
 	}
 
 	6 = {
-		cost = 15625
+		cost = 3125
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.3
@@ -148,7 +149,7 @@ leader_planning_skills = {
 	}
 
 	7 = {
-		cost = 78125
+		cost = 15625
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.35
@@ -156,8 +157,9 @@ leader_planning_skills = {
 		}
 	}
 
+
 	8 = {
-		cost = 390625
+		cost = 78125
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.4
@@ -166,7 +168,7 @@ leader_planning_skills = {
 	}
 
 	9 = {
-		cost = 1953125
+		cost = 390625
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.45
@@ -175,7 +177,7 @@ leader_planning_skills = {
 	}
 	
 	10 = {
-		cost = 9765625
+		cost = 1953125
 		type = corps_commander
 		modifier = {
 			planning_speed = 0.5
@@ -185,7 +187,7 @@ leader_planning_skills = {
 	
 	### Field Marshal ###
 	1 = {
-		cost = 5
+		cost = 1
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.05
@@ -195,7 +197,7 @@ leader_planning_skills = {
 	
 	
 	2 = {
-		cost = 25
+		cost = 5
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.1
@@ -205,7 +207,7 @@ leader_planning_skills = {
 	
 	
 	3 = {
-		cost = 125
+		cost = 25
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.15
@@ -214,7 +216,7 @@ leader_planning_skills = {
 	}
 	
 	4 = {
-		cost = 625
+		cost = 125
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.2
@@ -223,7 +225,7 @@ leader_planning_skills = {
 	}
 	
 	5 = {
-		cost = 3125
+		cost = 625
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.25
@@ -232,7 +234,7 @@ leader_planning_skills = {
 	}
 
 	6 = {
-		cost = 15625
+		cost = 3125
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.3
@@ -241,7 +243,7 @@ leader_planning_skills = {
 	}	
 
 	7 = {
-		cost = 78125
+		cost = 15625
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.35
@@ -249,8 +251,9 @@ leader_planning_skills = {
 		}
 	}	
 
+
 	8 = {
-		cost = 390625
+		cost = 78125
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.4
@@ -259,7 +262,7 @@ leader_planning_skills = {
 	}	
 
 	9 = {
-		cost = 1953125
+		cost = 390625
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.45
@@ -268,7 +271,7 @@ leader_planning_skills = {
 	}
 	
 	10 = {
-		cost = 9765625
+		cost = 1953125
 		type = field_marshal
 		modifier = {
 			planning_speed = 0.5

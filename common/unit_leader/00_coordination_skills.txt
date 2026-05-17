@@ -2,7 +2,7 @@ leader_coordination_skills = {
 
 	### NAVY ###
 	1 = {
-		cost = 5
+		cost = 1
 		type = navy
 		modifier = {
 			naval_coordination = 0.1
@@ -10,7 +10,7 @@ leader_coordination_skills = {
 	}
 
 	2 = {
-		cost = 25
+		cost = 5
 		type = navy
 		modifier = {
 			naval_coordination = 0.2
@@ -18,7 +18,7 @@ leader_coordination_skills = {
 	}
 
 	3 = {
-		cost = 125
+		cost = 25
 		type = navy
 		modifier = {
 			naval_coordination = 0.3
@@ -26,7 +26,7 @@ leader_coordination_skills = {
 	}
 
 	4 = {
-		cost = 625
+		cost = 125
 		type = navy
 		modifier = {
 			naval_coordination = 0.4
@@ -34,7 +34,7 @@ leader_coordination_skills = {
 	}
 
 	5 = {
-		cost = 3125
+		cost = 625
 		type = navy
 		modifier = {
 			naval_coordination = 0.5
@@ -42,7 +42,7 @@ leader_coordination_skills = {
 	}
 
 	6 = {
-		cost = 15625
+		cost = 3125
 		type = navy
 		modifier = {
 			naval_coordination = 0.6
@@ -50,15 +50,16 @@ leader_coordination_skills = {
 	}
 
 	7 = {
-		cost = 78125
+		cost = 15625
 		type = navy
 		modifier = {
 			naval_coordination = 0.7
 		}
 	}
 
+
 	8 = {
-		cost = 390625
+		cost = 78125
 		type = navy
 		modifier = {
 			naval_coordination = 0.8
@@ -66,7 +67,7 @@ leader_coordination_skills = {
 	}
 
 	9 = {
-		cost = 1953125
+		cost = 390625
 		type = navy
 		modifier = {
 			naval_coordination = 0.9
@@ -74,7 +75,7 @@ leader_coordination_skills = {
 	}
 	
 	10 = {
-		cost = 9765625
+		cost = 1953125
 		type = navy
 		modifier = {
 			naval_coordination = 1.0
