@@ -97,3 +97,11 @@ RAJ_ordnance_factories_board_organization = {
 		has_dlc = "Together for Victory"
 	}
 }
+RAJ_ordnance_factory_medak_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_raj_ordnance_factory_medak
+	allowed = {
+		original_TAG = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+}

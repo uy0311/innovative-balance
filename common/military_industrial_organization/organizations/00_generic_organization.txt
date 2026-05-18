@@ -1907,6 +1907,7 @@ generic_artillery_organization = {
 			AND = {
 				OR = {
 					original_tag = AUS
+					original_tag = HUN
 					original_tag = BEL
 					original_tag = COG
 				}
