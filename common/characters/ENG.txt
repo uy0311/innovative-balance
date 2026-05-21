@@ -113,10 +113,10 @@ characters={
 		field_marshal={
 			traits={ inflexible_strategist trait_cautious media_personality organizer logistics_wizard offensive_doctrine }
 			skill=4
-			attack_skill=2
+			attack_skill=3
 			defense_skill=4
-			planning_skill=3
-			logistics_skill=4
+			planning_skill=5
+			logistics_skill=6
 			legacy_id=996
 		}
 	}
@@ -148,7 +148,7 @@ characters={
 		}
 		
 		corps_commander={
-			traits={  }
+			traits={ inflexible_strategist career_officer }
 			skill=5
 			attack_skill=5
 			defense_skill=5
@@ -167,7 +167,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ armor_officer panzer_leader }
+			traits={ inflexible_strategist panzer_leader }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -460,7 +460,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ panzer_leader armor_officer war_hero }
+			traits={ inflexible_strategist panzer_leader war_hero }
 			skill=3
 			attack_skill=2
 			defense_skill=3
@@ -479,7 +479,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ armor_officer  panzer_leader }
+			traits={ panzer_leader }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -498,7 +498,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ harsh_leader armor_officer politically_connected panzer_leader }
+			traits={ harsh_leader politically_connected panzer_leader }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -517,7 +517,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={    }
+			traits={ brilliant_strategist career_officer infantry_officer }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -536,7 +536,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer armor_officer war_hero panzer_leader }
+			traits={ career_officer war_hero panzer_leader }
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -610,7 +610,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ navy_career_officer aviation_enthusiast superior_tactician air_controller blue_water_expert }
+			traits={ navy_career_officer superior_tactician air_controller blue_water_expert }
 			skill=5
 			attack_skill=5
 			defense_skill=5
@@ -632,7 +632,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ blockade_runner  }
+			traits={ blockade_runner bold }
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -659,7 +659,7 @@ characters={
 				original_tag = ENG
 			}
 			traits = {
-				navy_chief_naval_aviation_2
+				navy_chief_decisive_battle_2
 			}
 			cost = 150
 			ai_will_do = {
@@ -668,7 +668,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ blockade_runner superior_tactician air_controller }
+			traits={ ironside bold navy_career_officer blockade_runner superior_tactician }
 			skill=5
 			attack_skill=5
 			defense_skill=5
@@ -687,7 +687,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ naval_lineage blockade_runner ironside superior_tactician }
+			traits={ naval_lineage blockade_runner air_controller superior_tactician }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -706,7 +706,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ superior_tactician }
+			traits={ gentlemanly superior_tactician }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -799,7 +799,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ battleship_adherent spotter }
+			traits={ ironside battleship_adherent spotter }
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -818,7 +818,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ gunnery_expert }
+			traits={ ironside navy_career_officer green_water_expert }
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -827,7 +827,6 @@ characters={
 			legacy_id=992
 		}
 	}
-
 
 	### THEORISTS ###
 
@@ -1085,7 +1084,7 @@ characters={
 				original_tag = ENG
 			}
 			traits = {
-				navy_chief_decisive_battle_1
+				navy_chief_naval_aviation_1
 			}
 			cost = 100
 			ai_will_do = {

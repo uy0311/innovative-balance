@@ -288,7 +288,27 @@ characters={
 		}
 	}
 
-	#IB_add_general
+	ITA_amedeo_guillet = {
+		name = ITA_amedeo_guillet
+		portraits = {
+			army = {
+				small = GFX_portrait_ITA_amedeo_guillet_small
+				large = GFX_portrait_ITA_amedeo_guillet
+			}
+		}
+		
+		corps_commander = {
+			traits = { trickster bearer_of_artillery desert_fox hill_fighter skirmisher } 
+			skill = 3
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+#IB_add_general
 	Josip_Broz_Tito = {
 		name = "Josip Broz Tito"
 		portraits = {
@@ -422,16 +442,16 @@ characters={
 
 
 	#Military
-	ITA_inigo_campioni={
-		name=ITA_inigo_campioni
-		portraits={
-			navy={
-				small="GFX_idea_inigo_campioni"
-			}
-			army={
-				large="gfx/leaders/ITA/Portrait_Italy_Inigo_Campioni.dds"
+
+	ITA_inigo_campioni = {
+		name = ITA_inigo_campioni
+		portraits = {
+			navy = {
+				small = GFX_idea_inigo_campioni
+				large = GFX_portrait_ITA_inigo_campioni
 			}
 		}
+
 		advisor={
 			slot = navy_chief
 			idea_token = inigo_campioni
@@ -447,10 +467,14 @@ characters={
 			}
 		}
 		
-		navy_leader={
-			traits = { superior_tactician spotter }
-	        skill = 2 attack_skill = 2 defense_skill = 2 maneuvering_skill = 2 coordination_skill = 2
-			legacy_id=0
+		navy_leader = {
+			traits = { battleship_adherent superior_tactician spotter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = 0
 		}
 	}
 
@@ -487,20 +511,36 @@ characters={
 		}
 	}
 
-	ITA_giuseppe_fioravanzo={
-		name=ITA_giuseppe_fioravanzo
-		portraits={
-			army={
-				large="gfx/leaders/ITA/Portrait_Italy_Giuseppe_Fioravanzo.dds"
-				small="gfx/interface/ideas/idea_ITA_giuseppe_fioravanzo.dds"
+	ITA_giuseppe_fioravanzo = {
+		name = ITA_giuseppe_fioravanzo
+		portraits = {
+			army = {
+				large = GFX_portrait_ITA_giuseppe_fioravanzo
+				small = GFX_portrait_ITA_giuseppe_fioravanzo_small
 			}
 		}
-		navy_leader={
-			traits = { air_controller }
-	        skill = 4 attack_skill = 4 defense_skill = 4
-			maneuvering_skill=4
-			coordination_skill=4
-			legacy_id=0
+
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = guiseppe_fioravanzo
+			ledger = navy
+			allowed = {
+				original_tag = ITA
+			}
+			traits = {
+				grand_fleet_proponent
+			}
+		}
+
+		navy_leader = {
+			traits = { air_controller blockade_runner }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
+			legacy_id = 0
 		}
 	}
 
@@ -531,8 +571,10 @@ characters={
 		}
 		
 		navy_leader={
-			traits = { battleship_adherent gunnery_expert blockade_runner }
-	        skill = 3 attack_skill = 3 defense_skill = 3
+			traits = { battleship_adherent blockade_runner ironside }
+	        skill = 2 
+			attack_skill = 3 
+			defense_skill = 3
 			maneuvering_skill=2
 			coordination_skill=1
 			legacy_id=0
@@ -549,28 +591,80 @@ characters={
 				large="gfx/leaders/ITA/Portrait_Italy_Angelo_Iachino.dds"
 			}
 		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = angelo_iachino
-			ledger = navy
-				allowed = {
-					original_tag = ITA
-				}
-				traits = { naval_theorist }
-		}
 
 		navy_leader={
 			traits={ bold navy_career_officer superior_tactician spotter }
-			skill=3
+			skill=2
 			attack_skill=3
-			defense_skill=3
+			defense_skill=1
 			maneuvering_skill=3
 			coordination_skill=3
 			legacy_id=0
 		}
 	}
 
+	ITA_giuseppe_di_bartolo = {
+		name = ITA_giuseppe_di_bartolo
+		portraits = {
+			navy = {
+				small = GFX_portrait_ITA_giuseppe_di_bartolo_small
+				large = GFX_portrait_ITA_giuseppe_di_bartolo
+			}
+		}
+
+		navy_leader = {
+			traits = { old_guard_navy bold fleet_protector }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	ITA_junio_valerio_borghese = {
+		name = ITA_junio_valerio_borghese
+		portraits = {
+			navy = {
+				small = GFX_portrait_ITA_junio_valerio_borghese_small
+				large = GFX_portrait_ITA_junio_valerio_borghese
+			}
+		}
+
+		navy_leader = {
+			traits = { cuts_corners seawolf silent_hunter } #Submarines, Human torpedos, Torpedo boats, etc.
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	ITA_prince_aimone = {
+		name = ITA_prince_aimone
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_prince_aimone
+			}
+			navy = {
+				small = GFX_idea_prince_aimone
+				large = GFX_portrait_ITA_prince_aimone
+			}
+		}
+		 
+		navy_leader = {
+			traits = { gentlemanly inshore_fighter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id = 0
+		}
+	}
 
 	### THEORISTS ###
 
