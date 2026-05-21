@@ -964,12 +964,12 @@ characters={
 		}
 		
 		navy_leader = {
-			traits = { old_guard_navy superior_tactician lancer }
+			traits = { old_guard_navy superior_tactician loading_drill_master torpedo_expert }
 			skill = 3
-			attack_skill = 2
+			attack_skill = 3
 			defense_skill = 3
 			maneuvering_skill = 3
-			coordination_skill = 2
+			coordination_skill = 3
 			legacy_id = -1
 		}
 
@@ -990,8 +990,8 @@ characters={
 		navy_leader = {
 			traits = { bold air_controller cuts_corners }
 			skill = 4
-			attack_skill = 5
-			defense_skill = 2
+			attack_skill = 4
+			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
 			legacy_id = -1
