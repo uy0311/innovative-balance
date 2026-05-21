@@ -670,7 +670,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { superior_tactician spotter ironside bold }
+			traits = { bold battleship_adherent superior_tactician spotter }
 	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
@@ -685,7 +685,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ }
+			traits={ gentlemanly }
 			skill=2
 			attack_skill=2
 			defense_skill=2
@@ -704,7 +704,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ air_controller }
+			traits={ navy_career_officer air_controller }
 			skill=1
 			attack_skill=1
 			defense_skill=1
@@ -723,7 +723,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { fly_swatter }
+			traits = { battleship_adherent naval_lineage fly_swatter }
 	        skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
 			legacy_id=0
 		}
@@ -738,7 +738,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ }
+			traits={ spotter }
 			skill=2
 			attack_skill=2
 			defense_skill=2
@@ -794,8 +794,8 @@ characters={
 			}
 		}
 		navy_leader={
-			traits = { blockade_runner superior_tactician air_controller bold navy_career_officer craven }
-	        skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
+			traits = { bold navy_career_officer air_controller blockade_runner superior_tactician }
+	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -828,7 +828,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={  }
+			traits={ battleship_adherent }
 			skill=2
 			attack_skill=2
 			defense_skill=2
@@ -847,7 +847,7 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ seawolf }
+			traits={ navy_career_officer seawolf }
 			skill=1
 			attack_skill=1
 			defense_skill=1
@@ -876,6 +876,128 @@ characters={
 		}
 	}
 
+	# Yuzuru Hiraga
+	JAP_yuzuru_hiraga = {
+
+		name = JAP_yuzuru_hiraga
+
+		portraits = {
+			navy = {
+				large = GFX_portrait_JAP_yuzuru_hiraga_civilian
+				small = GFX_portrait_JAP_yuzuru_hiraga_small
+			}
+			civilian = {
+				large = GFX_portrait_JAP_yuzuru_hiraga_scientist
+			}
+		}
+		
+		navy_leader = {
+			traits = { bold navy_career_officer gunnery_expert naval_lineage }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = -1
+		}
+
+	}
+
+	# Masafumi Arima
+	JAP_masafumi_arima = {
+
+		name = JAP_masafumi_arima
+
+		portraits = {
+			navy = {
+				large = GFX_portrait_JAP_masafumi_arima
+				small = GFX_portrait_JAP_masafumi_arima_small
+			}
+		}
+		
+		navy_leader = {
+			traits = { bold navy_career_officer air_controller }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = -1
+		}
+
+	}
+
+	# Teijirō Toyoda
+	JAP_teijiro_toyoda = {
+
+		name = JAP_teijiro_toyoda
+
+		portraits = {
+			navy = {
+				large = GFX_portrait_JAP_teijiro_toyoda
+				small = GFX_portrait_JAP_teijiro_toyoda_small
+			}
+		}
+		
+		navy_leader = {
+			traits = { navy_career_officer naval_lineage }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id = -1
+		}
+
+	}
+
+	# Chūichi Nagumo
+	JAP_chuuichi_nagumo = {
+
+		name = JAP_chuuichi_nagumo
+
+		portraits = {
+			navy = {
+				large = GFX_portrait_JAP_chuichi_nagumo
+				small = GFX_portrait_JAP_chuichi_nagumo_small
+			}
+		}
+		
+		navy_leader = {
+			traits = { old_guard_navy superior_tactician lancer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = -1
+		}
+
+	}
+
+	# Tamon Yamaguchi
+	JAP_tamon_yamaguchi = {
+
+		name = JAP_tamon_yamaguchi
+
+		portraits = {
+			navy = {
+				large = GFX_portrait_JAP_tamon_yamaguchi
+				small = GFX_portrait_JAP_tamon_yamaguchi_small
+			}
+		}
+		
+		navy_leader = {
+			traits = { bold air_controller cuts_corners }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+
+	}
 
 	### THEORISTS ###
 
