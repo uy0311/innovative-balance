@@ -23,9 +23,11 @@ on_actions = {
 
                 load_oob = "IB_general_1936"
 
-				create_unit = {
-					division = "name = \"沿岸用歩兵師団\" division_template = \"沿岸用歩兵師団\" start_experience_factor = 0.3"
-					owner = PREV count = 5 allow_spawning_on_enemy_provs = yes
+				capital_scope = {
+					create_unit = {
+						division = "name = \"沿岸用歩兵師団\" division_template = \"沿岸用歩兵師団\" start_experience_factor = 0.3"
+						owner = PREV count = 5 allow_spawning_on_enemy_provs = yes
+					}
 				}
             }
 
