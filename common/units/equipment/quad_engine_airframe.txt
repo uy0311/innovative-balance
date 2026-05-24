@@ -212,7 +212,7 @@ equipments = {
 		naval_strike_attack = 0.0
 		naval_strike_targetting = 0.0
 		
-		build_cost_ic = 80
+		build_cost_ic = 60
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -236,7 +236,7 @@ equipments = {
 		air_range = 800
 		maximum_speed = 300
 		air_agility = 10
-		air_defence = 20
+		air_defence = 10
 	}
 
 	transport_plane_equipment_2 = {
@@ -251,7 +251,7 @@ equipments = {
 		air_range = 1300
 		maximum_speed = 450
 		air_agility = 10
-		air_defence = 20
+		air_defence = 10
 	}
 
 	transport_plane_equipment_3 = {
@@ -266,6 +266,6 @@ equipments = {
 		air_range = 1800
 		maximum_speed = 480
 		air_agility = 10
-		air_defence = 20
+		air_defence = 10
 	}
 }
