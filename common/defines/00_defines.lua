@@ -1254,7 +1254,7 @@ NAir = {
 	BIGGEST_SPEED_FACTOR_DIFF = 3.5,					-- biggest factor difference in speed for doing damage (caps to this)
 	TOP_SPEED_DAMAGE_BONUS_FACTOR = 0.000,				-- A factor for scaling the top speed of a plane into damage buff. If an attacking wing has a speed advantage of any form their speed value will be converted into a percentage bonus with this modifier
 	COMBAT_DAMAGE_STATS_MULTILPIER = 0.2,
-	CARRIER_COMBAT_DAMAGE_STATS_MULTIPLIER = 0.35,
+	CARRIER_COMBAT_DAMAGE_STATS_MULTIPLIER = 0.3,
 	COMBAT_BETTER_AGILITY_DAMAGE_REDUCTION = 0.9, 		-- How much the better agility (than opponent's) can reduce their damage to us.
 	COMBAT_BETTER_SPEED_DAMAGE_INCREASE = 1.8, 			-- How much the better Speed (than opponent's) can reduce increase our damage to them.
 														-- Both of these defines are combined with their sister FACTOR_DIFF defines to create defense or offensive buffs
@@ -1265,7 +1265,7 @@ NAir = {
 	AIR_REGION_SUPERIORITY_PIXEL_SCALE = 0.04,           -- air superiority scale = superiority/(pixels*this)
 	COMBAT_MULTIPLANE_CAP = 1.0,						-- How many planes can shoot at each plane on other side ( if there are 100 planes we are atttacking COMBAT_MULTIPLANE_CAP * 100 of our planes can shoot )
 	COMBAT_DAMAGE_SCALE = 1.00,							-- Higher value = more shot down planes
-	COMBAT_DAMAGE_SCALE_CARRIER = 4.50,					-- same as above but used inside naval combat for carrier battles
+	COMBAT_DAMAGE_SCALE_CARRIER = 3.00,					-- same as above but used inside naval combat for carrier battles
 	CARRIER_PERCENTAGE_DEFEND = 0.35,					-- Percentage of planes able to defend a carrier from air attacks (historically 15% - 35%)
 	DETECT_CHANCE_FROM_OCCUPATION = 0.10, 				-- How much the controlled provinces in area affects the air detection base value.
 	DETECT_CHANCE_FROM_RADARS = 0.5, 					-- How much the radars in area affects detection chance.
@@ -4177,7 +4177,7 @@ NSupply = {
 
 	--defines to calculate the capitals supply. This will be also used for max supply of other nodes depending on how well they are connected to capital. Using the formula:
 	--CapitalSupply = CAPITAL_SUPPLY_BASE + (NumberOfCivilianFactories * CAPITAL_SUPPLY_CIVILIAN_FACTORIES) + (NumberOfMilitaryFactories * CAPITAL_SUPPLY_MILITARY_FACTORIES) + (NumberOfDockyards * CAPITAL_SUPPLY_DOCKYARDS)
-	CAPITAL_SUPPLY_BASE = 200.0, -- base supply for capital
+	CAPITAL_SUPPLY_BASE = 250.0, -- base supply for capital
 	CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.2, -- supply from one civilian factory
 	CAPITAL_SUPPLY_MILITARY_FACTORIES = 0.2, -- supply from one military factory
 	CAPITAL_SUPPLY_DOCKYARDS = 0.2, --supply from one naval factory
@@ -4240,10 +4240,10 @@ NSupply = {
 
 
 	-- used for calculating "flow" for railways.
-	RAILWAY_BASE_FLOW = 50.0, 		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
-	RAILWAY_FLOW_PER_LEVEL = 10.0, 	-- how much additional flow a railway level gives
-	RAILWAY_FLOW_PENALTY_PER_DAMAGED = 10.0, -- penalty to flow per damaged railway
-	RAILWAY_MIN_FLOW = 0.0, 		-- minimum railway flow can be reduced to
+	RAILWAY_BASE_FLOW = 25.0, 		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
+	RAILWAY_FLOW_PER_LEVEL = 15.0, 	-- how much additional flow a railway level gives
+	RAILWAY_FLOW_PENALTY_PER_DAMAGED = 15.0, -- penalty to flow per damaged railway
+	RAILWAY_MIN_FLOW = 1.0, 		-- minimum railway flow can be reduced to
 
 	-- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
 	-- NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9, -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)
