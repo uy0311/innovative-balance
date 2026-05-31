@@ -111,7 +111,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits = { logistics_wizard unyielding_defender commando trait_engineer infantry_expert ambusher camouflage_expert }
+			traits = { logistics_wizard unyielding_defender commando trait_engineer ambusher camouflage_expert }
 	        skill = 4 attack_skill = 3 defense_skill = 3 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}

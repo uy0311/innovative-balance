@@ -903,7 +903,7 @@ characters={
 			}
 		}	
 		corps_commander={
-			traits={ infantry_expert ambusher trickster ranger }
+			traits={ ambusher trickster ranger }
 			skill=3
 			attack_skill=3
 			defense_skill=3

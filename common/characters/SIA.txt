@@ -602,7 +602,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { skilled_staffer winter_specialist  trait_engineer  infantry_expert }
+			traits = { skilled_staffer winter_specialist  trait_engineer }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3

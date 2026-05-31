@@ -105,7 +105,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits = { old_guard defensive_doctrine offensive_doctrine ambusher infantry_expert }
+			traits = { old_guard defensive_doctrine offensive_doctrine ambusher }
 			skill=6
 			attack_skill = 4
 	        defense_skill = 5
@@ -124,7 +124,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits = { organizer defensive_doctrine offensive_doctrine ambusher infantry_expert }
+			traits = { organizer defensive_doctrine offensive_doctrine ambusher }
 			skill=6
 			attack_skill = 4
 	        defense_skill = 5
@@ -414,7 +414,7 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ commando hill_fighter ambusher infantry_expert }
+			traits={ commando hill_fighter ambusher }
 			skill=4
 			attack_skill = 4
 	        defense_skill = 4
