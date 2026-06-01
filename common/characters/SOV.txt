@@ -84,21 +84,6 @@ characters = {
 			legacy_id = 402
 		}
 
-		advisor = {
-			slot = high_command
-			idea_token = konstantin_rokossovsky
-			ledger = army
-			allowed = {
-				original_tag = SOV
-			}
-			traits = {
-				army_armored_3
-			}
-				cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
-		}		
 	}
 
 	SOV_aleksandr_vasilevsky = {
@@ -218,7 +203,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { skilled_staffer winter_specialist commando trait_engineer ambusher infantry_expert }
+			traits = { skilled_staffer winter_specialist commando trait_engineer ambusher }
 	        skill = 3
         
 	        attack_skill = 3
@@ -1537,7 +1522,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { cavalry_officer armor_officer panzer_leader panzer_expert }
+			traits = { cavalry_officer armor_officer panzer_leader }
 			skill = 3
 			attack_skill = 4
 			defense_skill = 1

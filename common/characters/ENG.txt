@@ -1173,29 +1173,6 @@ characters={
 
 	# Harwood up there
 
-	ENG_kenneth_anderson={
-		name=ENG_kenneth_anderson
-		portraits={
-			army={
-				small="GFX_idea_kenneth_anderson"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = kenneth_anderson
-			ledger = army
-			allowed = {
-				original_tag = ENG
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 2.000
-			}
-		}
-	}
 
 	ENG_sholto_douglas={
 		name=ENG_sholto_douglas
@@ -1311,30 +1288,6 @@ characters={
 				navy_submarine_2
 			}
 			cost = 150
-			ai_will_do = {
-				factor = 0.200
-			}
-		}
-	}
-
-	ENG_david_stirling={
-		name=ENG_david_stirling
-		portraits={
-			army={
-				small="GFX_idea_ENG_david_stirling"
-			}
-		}
-		advisor={	
-			slot = high_command
-			idea_token = ENG_david_stirling
-			ledger = army
-			allowed = {
-				original_tag = ENG
-			}
-			traits = {
-				army_commando_3
-			}
-			cost = 200
 			ai_will_do = {
 				factor = 0.200
 			}

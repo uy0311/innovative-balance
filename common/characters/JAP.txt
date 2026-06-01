@@ -111,7 +111,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits = { logistics_wizard unyielding_defender commando trait_engineer infantry_expert ambusher camouflage_expert }
+			traits = { logistics_wizard unyielding_defender commando trait_engineer ambusher camouflage_expert }
 	        skill = 4 attack_skill = 3 defense_skill = 3 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
@@ -177,18 +177,6 @@ characters={
 				small="GFX_idea_yasuji_okamura"
 				large="gfx/leaders/JAP/Portrait_Japan_Yasuji_Okamura.dds"
 			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = yasuji_okamura
-			ledger = army
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
 		}
 		
 		corps_commander={

@@ -245,21 +245,6 @@ characters={
 			planning_skill = 3
 			logistics_skill = 3
 		}
-		advisor = {
-			slot = high_command
-			idea_token = BEL_victor_van_strydonck_de_burkel
-			ledger = army
-			allowed = {
-				original_tag = BEL
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 	}
 
 	BEL_jules_pire = {
@@ -419,21 +404,7 @@ characters={
 			planning_skill = 3
 			logistics_skill = 3
 		}
-		advisor={
-			slot = high_command
-			idea_token = BEL_lambert_chardome
-			ledger = army
-			allowed = {
-				original_tag = BEL
-			}
-			traits = {
-				army_commando_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
+
 	}
 
 	BEL_eddy_blondeel = {
@@ -470,21 +441,7 @@ characters={
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		advisor={
-			slot = high_command
-			idea_token = BEL_fernand_verstraete
-			ledger = army
-			allowed = {
-				original_tag = BEL
-			}
-			traits = {
-				army_artillery_2
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
+
 	}
 
 ########### Admirals ###########

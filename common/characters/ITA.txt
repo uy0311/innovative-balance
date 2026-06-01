@@ -906,53 +906,8 @@ characters={
 		}
 	}
 
-	ITA_vittorio_ambrosio={
-		name=ITA_vittorio_ambrosio
-		portraits={
-			army={
-				small="GFX_idea_vittorio_ambrosio"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = vittorio_ambrosio
-			ledger = army
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				army_CombinedArms_1
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}		
-	}
 
-	ITA_alfredo_guzzoni={
-		name=ITA_alfredo_guzzoni
-		portraits={
-			army={
-				small="GFX_idea_alfredo_guzzoni"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = alfredo_guzzoni
-			ledger = army
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				army_infantry_1
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 2.000
-			}
-		}
-	}
+
 	
 	ITA_ettore_muti={
 		name=ITA_ettore_muti

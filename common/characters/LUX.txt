@@ -279,58 +279,7 @@ characters={
 			}
 		}
 	}
-	LUX_francois_schammel={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = LUX_francois_schammel
-			ledger = army
-				allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					army_infantry_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Francois Schammel"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_1"
-			}
-		}
-	}
-	LUX_aloyse_glodt={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = LUX_aloyse_glodt
-			ledger = army
-				allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					army_armored_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Aloyse Glodt"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_3"
-			}
-		}
-	}
+
 	LUX_nicolas_de_dixmude={
 		advisor={
 			cost = 100
