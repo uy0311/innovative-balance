@@ -2687,7 +2687,7 @@ equipment_modules = {
 			weight = 800
 		}
 		multiply_stats = {
-			maximum_speed = -0.15
+			maximum_speed = -0.35
 		}
 
 		allow_mission_type = {
@@ -2722,7 +2722,7 @@ equipment_modules = {
 			weight = 800
 		}
 		multiply_stats = {
-			maximum_speed = -0.10
+			maximum_speed = -0.30
 		}
 
 		allow_mission_type = {
@@ -2779,7 +2779,7 @@ equipment_modules = {
 			weight = 850
 		}
 		multiply_stats = {
-			maximum_speed = -0.03
+			maximum_speed = -0.05
 		}
 
 		allow_mission_type = {

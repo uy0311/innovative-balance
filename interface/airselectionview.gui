@@ -574,7 +574,7 @@ guiTypes = {
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
 				animation_time = 150
-				size = { width=220 height=120 }
+				size = { width=1 height=1 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 15 bottom = 0 left = 0 }
 
@@ -1689,7 +1689,7 @@ guiTypes = {
 					show_animation_type = decelerated
 					hide_animation_type = accelerated
 					animation_time = 150
-					size = { width=220 height=120 }
+					size = { width=1 height=1 }
 					verticalScrollbar = "right_vertical_slider"
 					margin = { top = 15 bottom = 0 left = 0 }
 
