@@ -1358,7 +1358,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		army_bonus_air_superiority_factor = 0.5
-		naval_invasion_planning_bonus_speed = 0.5
+		naval_invasion_planning_bonus_speed = 1.0
 
 		category_support_artillery = {
 			initiative = 0.01
@@ -1851,7 +1851,7 @@ technologies = {
 		}
 
 		land_reinforce_rate = 0.02
-		naval_invasion_planning_bonus_speed = 1.00
+		naval_invasion_planning_bonus_speed = 1.0
 
 		category_marines = {
 			soft_attack = 0.10
@@ -2453,7 +2453,7 @@ technologies = {
 		
 		#planning max bonus increase
 		max_planning = 0.3
-		naval_invasion_planning_bonus_speed = 0.5
+		naval_invasion_planning_bonus_speed = 1.0
 
 		on_research_complete = {
 			hidden_effect = { set_technology = { IB_fixed_turret_tech = 1 popup = no } }
@@ -2659,32 +2659,32 @@ technologies = {
 		dig_in_speed_factor = 0.30
 
 		category_light_infantry = {
-			max_organisation = 10
-			default_morale = 0.10
+			max_organisation = 20
+			default_morale = 0.05
+		}
+
+		category_artillery = {
+			max_organisation = 20
+			default_morale = 0.1
+			defense = 0.2
 		}
 
 		category_self_propelled_artillery = {
 			max_organisation = 10
 			default_morale = 0.1
-			defense = 0.2
+			defense = 0.4
 		}
 
 		category_tank_destroyers = {
 			max_organisation = 10
 			default_morale = 0.1
-			defense = 0.2
+			defense = 0.4
 		}
 
 		category_self_propelled_anti_air = {
 			max_organisation = 10
 			default_morale = 0.1
-			defense = 0.2
-		}
-
-		category_artillery = {
-			max_organisation = 10
-			default_morale = 0.1
-			defense = 0.2
+			defense = 0.4
 		}
 
 		path = {
@@ -2897,6 +2897,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
+		max_planning = 0.15
 		shore_bombardment_bonus = 1.0
 
 		pioneer_support = {
@@ -2947,43 +2948,9 @@ technologies = {
 		air_cas_present_factor = 0.30
 
 		category_army = {
+			breakthrough = 0.1
 			max_organisation = 10
 			default_morale = 0.10
-		}
-
-		recon = {
-			battalion_mult = {
-				category = category_army
-				breakthrough = 0.1
-			}
-		}
-
-		mot_recon = {
-			battalion_mult = {
-				category = category_army
-				breakthrough = 0.1
-			}
-		}
-
-		armored_car_recon = {
-			battalion_mult = {
-				category = category_army
-				breakthrough = 0.1
-			}
-		}
-
-		light_tank_recon = {
-			battalion_mult = {
-				category = category_army
-				breakthrough = 0.1
-			}
-		}
-
-		airborne_light_armor = {
-			battalion_mult = {
-				category = category_army
-				breakthrough = 0.1
-			}
 		}
 		
 		doctrine = yes	
@@ -3239,8 +3206,8 @@ technologies = {
 		land_reinforce_rate = 0.02
 
 		category_light_infantry = {
-			max_organisation = 10
-			default_morale = 0.1
+			max_organisation = 20
+			default_morale = 0.05
 		}
 
 		armored_car_recon = {
@@ -3375,7 +3342,7 @@ technologies = {
 		dig_in_speed_factor = 0.45
 
 		category_artillery = {
-			max_organisation = 10
+			max_organisation = 20
 			default_morale = 0.10
 			defense = 0.2
 		}
