@@ -968,7 +968,7 @@ NMilitary = {
 	PARACHUTE_COMPLETE_ORG = 0.4,				   -- Organisation value (in %) after unit being dropped, regardless if failed, disrupted, or successful.
 	PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 120,   -- penalty in org regain after being parachuted. Value is in hours.
 	PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.8,	   -- penalty to org regain after being parachuted.
-	SHIP_MORALE_TO_ORG_REGAIN_BASE = 0.2,			   -- Base org regain per hour
+	SHIP_MORALE_TO_ORG_REGAIN_BASE = 0.25,			   -- Base org regain per hour
 	BASE_NIGHT_ATTACK_PENALTY = -0.5,
 	EXILE_EQUIPMENT = 1.0,						   -- Amount of equipment to keep
 	EXILE_ORG = 0.0,							   -- Amount of org to keep
@@ -1137,16 +1137,16 @@ NMilitary = {
 	NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS = {5, 5, 5, 5}, -- level up stat random base weights attack, defense, maneuvering, coordination
 
 	UNIT_LEADER_INITIAL_TRAIT_SLOT = { 				-- trait slot for 0 level leader
-		0.0, -- field marshal
-		0.0, -- corps commander
-		2.0, -- navy general
+		4.0, -- field marshal
+		4.0, -- corps commander
+		4.0, -- navy general
 		0.0, -- operative
 	},
 
 	UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- num extra traits on each level
-		1.5, -- field marshal
+		1.0, -- field marshal
 		1.0, -- corps commander
-		1.5, -- navy general
+		2.0, -- navy general
 		0.0, -- operative
 	},
 
@@ -1804,15 +1804,15 @@ NNavy = {
 	},
 
 	ORG_COST_WHILE_MOVING = { -- org cost while the ships are moving
-		0.3, -- HOLD
+		0.2, -- HOLD
 		0.2, -- PATROL
-		0.25, -- STRIKE FORCE
+		0.2, -- STRIKE FORCE
 		0.2, -- CONVOY RAIDING
-		0.2, -- CONVOY ESCORT
+		0.0, -- CONVOY ESCORT
 		0.2, -- MINES PLANTING
 		0.2, -- MINES SWEEPING
 		0.2, -- TRAIN
-		0.3, -- RESERVE_FLEET
+		0.2, -- RESERVE_FLEET
 		0.2, -- NAVAL_INVASION_SUPPORT
 	},
 

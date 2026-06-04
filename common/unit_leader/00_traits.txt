@@ -2396,13 +2396,12 @@ leader_traits = {
 		}
 	}
 
-	gentlemanly = { 
+	caustic_personality = { 
 		type = navy
 		trait_type = personality_trait
 		
 		modifier = {
-			naval_enemy_retreat_chance = 0.2
-			navy_org = 5
+			ships_at_battle_start = -0.25
 		}
 		new_commander_weight = {
 			factor = 1  
@@ -2454,13 +2453,15 @@ leader_traits = {
 		}
 	}
 
-	cuts_corners = { 
+	aviation_enthusiast = { 
 		type = navy
 		trait_type = personality_trait
-		
+	
 		modifier = {
-			naval_damage_factor = 0.1
-			navy_org = -10
+			
+		}
+		trait_xp_factor = {
+			air_controller = 0.5     #+100%
 		}
 		new_commander_weight = {
 			factor = 1  
@@ -2482,39 +2483,12 @@ leader_traits = {
 		}
 	}
 
-	chief_engineer = { 
+	navy_career_officer = { 
 		type = navy
 		trait_type = personality_trait
 		
 		modifier = {
-			critical_receive_chance = -0.05	
-		}
-		new_commander_weight = {
-			factor = 1  
-			modifier = {
-				FROM = { has_idea = best_of_the_best_naval_academy_spirit }
-				factor = 0
-			}
-			modifier = {
-				FROM = { has_idea = naval_academy_scholarships_spirit }
-				factor = 0
-			}
-			modifier = { #Purged Junior Navy Officers
-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
-				factor = 0
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	navy_media_personality = { 
-		type = navy
-		trait_type = personality_trait
-		
-		modifier = {
-			naval_has_potf_in_combat_attack = 0.05
+			experience_gain_factor = 0.1	
 		}
 		new_commander_weight = {
 			factor = 1  
@@ -2564,12 +2538,40 @@ leader_traits = {
 		}
 	}
 
-	navy_career_officer = { 
+	navy_media_personality = { 
 		type = navy
 		trait_type = personality_trait
 		
 		modifier = {
-			experience_gain_factor = 0.1	
+			naval_has_potf_in_combat_attack = 0.05
+		}
+		new_commander_weight = {
+			factor = 1  
+			modifier = {
+				FROM = { has_idea = best_of_the_best_naval_academy_spirit }
+				factor = 0
+			}
+			modifier = {
+				FROM = { has_idea = naval_academy_scholarships_spirit }
+				factor = 0
+			}
+			modifier = { #Purged Junior Navy Officers
+				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
+				factor = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cuts_corners = { 
+		type = navy
+		trait_type = personality_trait
+		
+		modifier = {
+			naval_damage_factor = 0.05
+			navy_org_factor = -0.1
 		}
 		new_commander_weight = {
 			factor = 1  
@@ -2618,16 +2620,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
-	aviation_enthusiast = { 
+	
+	naval_lineage = { 
 		type = navy
 		trait_type = personality_trait
-	
+		
 		modifier = {
-			
-		}
-		trait_xp_factor = {
-			air_controller = 0.5     #+100%
+			naval_morale_factor = 0.05
+			naval_retreat_chance = -0.25
 		}
 		new_commander_weight = {
 			factor = 1  
@@ -2649,12 +2649,13 @@ leader_traits = {
 		}
 	}
 
-	caustic_personality = { 
+	gentlemanly = { 
 		type = navy
 		trait_type = personality_trait
 		
 		modifier = {
-			ships_at_battle_start = -0.25
+			navy_org_factor = 0.05
+			naval_enemy_retreat_chance = 0.2
 		}
 		new_commander_weight = {
 			factor = 1  
@@ -2682,7 +2683,7 @@ leader_traits = {
 	
 		modifier = {
 			naval_retreat_chance = 0.25
-			naval_damage_factor = -0.025
+			naval_morale_factor = -0.05
 		}
 		new_commander_weight = {
 			factor = 1  
@@ -2703,14 +2704,13 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	
-	naval_lineage = { 
+
+	chief_engineer = { 
 		type = navy
 		trait_type = personality_trait
 		
 		modifier = {
-			naval_retreat_chance = -0.25
-			ships_at_battle_start = 0.25
+			critical_receive_chance = -0.05	
 		}
 		new_commander_weight = {
 			factor = 1  
