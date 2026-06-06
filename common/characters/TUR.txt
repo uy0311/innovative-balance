@@ -967,8 +967,8 @@ characters={
 			}
 		}
 
-		corps_commander={
-			traits={ brilliant_strategist cavalry_officer war_hero hill_fighter }
+		field_marshal={
+			traits={organizer brilliant_strategist cavalry_officer war_hero hill_fighter }
 			skill=4
 			attack_skill=4
 			defense_skill=4

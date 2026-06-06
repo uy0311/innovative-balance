@@ -64,7 +64,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ armor_officer  trickster panzer_leader }
+			traits={ brilliant_strategist armor_officer  trickster panzer_leader organizer }
 			skill=5
 			attack_skill=5
 			defense_skill=5
@@ -83,7 +83,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ logistics_wizard organizer }
+			traits={ unyielding_defender logistics_wizard organizer trickster }
 			skill=5
 			attack_skill=5
 			defense_skill=5
@@ -102,12 +102,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			traits={inflexible_strategist desert_fox trickster ranger infantry_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
