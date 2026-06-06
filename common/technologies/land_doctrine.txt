@@ -1361,13 +1361,13 @@ technologies = {
 		naval_invasion_planning_bonus_speed = 1.0
 
 		category_support_artillery = {
-			reliability_factor = 0.03
-			equipment_capture_factor = 0.03
-			casualty_trickleback = 0.06
-			experience_loss_factor = -0.06
-			supply_consumption_factor = -0.06
-			fuel_consumption_factor = -0.03
-			initiative = 0.06
+			reliability_factor = 0.02
+			equipment_capture_factor = 0.02
+			casualty_trickleback = 0.04
+			experience_loss_factor = -0.04
+			supply_consumption_factor = -0.04
+			fuel_consumption_factor = -0.02
+			initiative = 0.02
 		}
 		category_line_artillery = {
 			reliability_factor = 0.01
@@ -1376,7 +1376,7 @@ technologies = {
 			experience_loss_factor = -0.02
 			supply_consumption_factor = -0.02
 			fuel_consumption_factor = -0.01
-			initiative = 0.03
+			initiative = 0.01
 		}
 
 		category_front_line = {
