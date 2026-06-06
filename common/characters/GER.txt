@@ -195,7 +195,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ offensive_doctrine thorough_planner fast_planner brilliant_strategist aggressive_assaulter trickster }
+			traits={ offensive_doctrine thorough_planner brilliant_strategist aggressive_assaulter trickster }
 			skill=6
 			attack_skill = 5
 	        defense_skill = 5

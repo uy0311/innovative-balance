@@ -221,7 +221,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits = {  panzer_leader trickster urban_assault_specialist }
+			traits = {brilliant_strategist thorough_planner panzer_leader urban_assault_specialist }
 	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 			legacy_id=-1
 		}
@@ -236,7 +236,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits = {  panzer_leader trickster urban_assault_specialist }
+			traits = {trickster panzer_leader trickster urban_assault_specialist }
 	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 			legacy_id=-1
 		}
@@ -296,7 +296,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits = {  }
+			traits = {inflexible_strategist trickster infantry_leader }
 	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=-1
 		}
