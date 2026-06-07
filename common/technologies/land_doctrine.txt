@@ -3649,17 +3649,19 @@ technologies = {
 		xp_unlock_cost = 100
 		max_planning = 0.15
 
-		land_reinforce_rate = 0.03
+		land_reinforce_rate = 0.05
 
 		anti_tank_brigade = {
 			combat_width = -0.4
 			default_morale = 0.20
-			initiative = 0.01
 		}
 		infantry = {
 			combat_width = -0.4
 			default_morale = 0.20
-			initiative = 0.01
+		}
+
+		military_police = {
+			initiative = 0.06
 		}
 
 		on_research_complete = {
@@ -3711,8 +3713,9 @@ technologies = {
 	vast_offensives = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		supply_consumption_factor = -0.10
+
 		land_reinforce_rate = 0.03
+		supply_consumption_factor = -0.10
 
 		infantry = {
 			default_morale = 0.20
@@ -3772,6 +3775,8 @@ technologies = {
 	breakthrough_priority = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+
+		land_reinforce_rate = 0.02
 
 		category_all_infantry = {
 			max_organisation = 10
@@ -3942,6 +3947,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
+		land_reinforce_rate = 0.03
 		planning_decay_rate_factor = -0.10
 
 		category_army = {

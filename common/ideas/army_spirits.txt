@@ -515,7 +515,7 @@ ideas = {
 				tactic_breakthrough_preferred_weight_factor = 1
 				planning_decay_rate_factor = -0.225
 				command_abilities_cost_factor = -0.50
-				trait_organizer_xp_gain_factor = 0.2
+				air_cas_present_factor = 0.3
 			}
 			ai_will_do = {
 				factor = 1
@@ -544,6 +544,7 @@ ideas = {
 			}
 			modifier = {
 				tactic_barrage_preferred_weight_factor = 1
+				cat_coordinated_support_cost_factor = -0.40
 			}
 		ai_will_do = {
 				factor = 1
