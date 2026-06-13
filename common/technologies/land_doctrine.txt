@@ -3661,7 +3661,7 @@ technologies = {
 		}
 
 		military_police = {
-			initiative = 0.06
+			initiative = 0.12
 		}
 
 		on_research_complete = {
