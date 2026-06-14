@@ -873,8 +873,9 @@ tactic_unexpected_thrust = { #Mobile warfare attacker tactic
 	}
 	picture = tactic_unexpected_thrust
 	
-	attacker_movement_speed = 0.15
-	attacker = 0.15 
+	attacker_movement_speed = 1.0
+	attacker = 0.15
+	defender = -0.2
 }
 
 tactic_overwhelming_fire = { # Counters Banzai charge

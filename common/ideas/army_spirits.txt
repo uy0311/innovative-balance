@@ -513,9 +513,9 @@ ideas = {
 			modifier = {
 				tactic_unexpected_thrust_preferred_weight_factor = 1
 				tactic_breakthrough_preferred_weight_factor = 1
-				planning_decay_rate_factor = -0.225
+				planning_decay_rate_factor = -0.4
 				command_abilities_cost_factor = -0.50
-				air_cas_present_factor = 0.3
+				air_cas_present_factor = 0.5
 			}
 			ai_will_do = {
 				factor = 1
