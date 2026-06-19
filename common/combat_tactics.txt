@@ -298,7 +298,7 @@ tactic_tw_attack = {
 	display_phase = tactical_withdrawal
 	
 	#combat_width = -0.25	
-	attacker = -0.25
+	attacker = -0.50
 	defender = -0.1
 }
 tactic_tw_defend = { 
@@ -329,7 +329,7 @@ tactic_tw_chase = {
 	
 	
 	#combat_width = -0.25		
-	attacker = -0.15
+	attacker = -0.45
 	defender = -0.05
 }
 tactic_tw_evade = { 
@@ -360,7 +360,7 @@ tactic_tw_intercept = {
 	
 	phase = no
 		
-	attacker = -0.05
+	attacker = -0.30
 	defender = -0.1
 }
 
