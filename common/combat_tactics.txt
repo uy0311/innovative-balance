@@ -311,6 +311,7 @@ tactic_tw_defend = {
 	base =  { factor = 4 }
 	picture = tw_defend
 	display_phase = tactical_withdrawal
+	countered_by = tactic_tw_intercept
 	
 	#combat_width = -0.25
 	attacker = -0.55
@@ -326,8 +327,7 @@ tactic_tw_chase = {
 	base =  { factor = 4 }
 	picture = tw_chase
 	display_phase = tactical_withdrawal
-	
-	
+
 	#combat_width = -0.25		
 	attacker = -0.45
 	defender = -0.05
@@ -342,6 +342,7 @@ tactic_tw_evade = {
 	base =  { factor = 4 }
 	picture = tw_evade
 	display_phase = tactical_withdrawal
+	countered_by = tactic_tw_chase
 	
 	#combat_width = -0.25		
 	attacker = -0.65
