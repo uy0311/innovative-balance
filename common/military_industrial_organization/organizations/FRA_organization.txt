@@ -15,11 +15,8 @@ FRA_renault_organization = {
 	allowed = {	
 		OR = {
 			tag = FRA 
-			tag = BEL
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+	#		tag = BEL
+			tag = ETH 
 		}
 	}
 }
@@ -28,8 +25,7 @@ FRA_hotchkiss_organization = {
 	include = generic_mobile_tank_organization
 	icon = GFX_idea_generic_tank_manufacturer_3
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -37,8 +33,7 @@ FRA_apx_organization = {
 	include = generic_medium_tank_organization
 	icon = GFX_idea_FRA_atelier_puteaux
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -64,8 +59,7 @@ FRA_fcm_organization = {
 	include = generic_escort_ship_organization
 	icon = GFX_idea_fcm
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -73,8 +67,7 @@ FRA_aeb_organization = {
 	include = generic_black_sea_fleet_organization
 	icon = GFX_idea_FRA_aeb
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -82,8 +75,7 @@ FRA_acl_organization = {
 	include = generic_battle_line_ship_organization
 	icon = GFX_idea_FRA_acl
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -91,8 +83,7 @@ FRA_acf_organization = {
 	include = generic_raider_ship_organization
 	icon = GFX_idea_FRA_acf
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -110,8 +101,7 @@ FRA_morane_saulnier_organization = {
 	include = generic_light_aircraft_organization
 	icon = GFX_idea_morane_saulnier
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -121,10 +111,7 @@ FRA_bloch_organization = {
 	allowed = {	
 		OR = {
 			tag = FRA 
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+			tag = ETH
 		}
 	}
 }
@@ -133,8 +120,7 @@ FRA_amiot_organization = {
 	include = generic_heavy_aircraft_organization
 	icon = GFX_idea_amiot
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -142,8 +128,7 @@ FRA_levasseur_organization = {
 	include = generic_naval_aircraft_organization
 	icon = GFX_idea_levasseur
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -152,8 +137,7 @@ FRA_SNCAC_organization = {
 	include = generic_cas_aircraft_organization
 	icon = GFX_idea_FRA_sncac
 	allowed = {	
-		tag = FRA 
-		has_dlc = "Arms Against Tyranny"
+		tag = FRA
 	}
 }
 
@@ -174,8 +158,7 @@ FRA_panhard_organization = {
 	include = generic_armored_car_organization
 	icon = GFX_idea_FRA_panhard
 	allowed = {	
-		tag = FRA 
-		has_dlc = "La Resistance"
+		tag = FRA
 	}
 }
 
@@ -185,14 +168,8 @@ FRA_somua_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = FRA 
-			AND = {
-				tag = POL # If Poland sets up a local one
-				OR = {
-					has_dlc = "Poland: United and Ready"
-					has_dlc = "No Step Back"
-				}
-			}
+			tag = FRA
+			tag = POL
 		}
 	}
 }

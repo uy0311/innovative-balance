@@ -14,15 +14,9 @@ ENG_vickers_armstrong_eng_organization = {
 	allowed = {	
 		OR = {
 			tag = ENG
-			tag = BEL
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+	#		tag = BEL
+			tag = BUL
+			tag = ETH
 		}
 	}
 
@@ -35,21 +29,9 @@ ENG_vauxhall_organization = {
 	allowed = {	
 		OR = {
 			tag = ENG
-			AND = {
-				tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = POL # If Poland sets up a local one
-				OR = {
-					has_dlc = "Poland: United and Ready"
-					has_dlc = "No Step Back"
-				}
-			}
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
+			tag = GRE
+			tag = POL
+			tag = BUL
 		}
 	}
 }
@@ -71,7 +53,6 @@ ENG_harland_wolff_organization = {
 	
 	allowed = {	
 		tag = ENG
-		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -82,7 +63,6 @@ ENG_cammell_laird_organization = {
 	
 	allowed = {	
 		tag = ENG
-		has_dlc = "Arms Against Tyranny"
 	}
 
 }
@@ -94,10 +74,7 @@ ENG_yarrow_shipbuilders_organization = {
 	allowed = {	
 		OR = {
 			tag = ENG 
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
+			tag = BUL
 		}
 	}
 }
@@ -109,15 +86,8 @@ ENG_john_brown_organization = {
 	allowed = {	
 		OR = {
 			tag = ENG
-			AND = {
-				tag = BUL #This one is an additional option for Bulgaria with AAT 
-				has_dlc = "Battle for the Bosporus"
-			}
-
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+			tag = BUL
+			tag = ETH
 		}
 	}
 }
@@ -139,7 +109,6 @@ ENG_supermarine_organization = {
 	
 	allowed = {	
 		tag = ENG
-		has_dlc = "Arms Against Tyranny"
 	}
 
 }
@@ -149,7 +118,6 @@ ENG_hawker_organization = {
 	icon = GFX_idea_hawker
 	allowed = {	
 		tag = ENG
-		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -157,9 +125,9 @@ ENG_de_havilland_organization = {
 	include = generic_medium_aircraft_organization
 	icon = GFX_idea_de_havilland
 	allowed = {	
-		has_dlc = "Arms Against Tyranny"
 		OR = {
-			tag = ENG tag = AST
+			tag = ENG
+			tag = AST
 			tag = NOR 		
 		}
 	}
@@ -171,15 +139,10 @@ ENG_fairey_aviation_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = ENG tag = AST
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
+			tag = ENG
+			tag = AST
+			tag = BUL
+			tag = ETH
 		}
 	}
 }
@@ -210,14 +173,9 @@ ENG_rsaf_enfield_organization = {
 	allowed = {	
 		OR = {
 			tag = ENG 
-			AND = {
-				OR = {
-					original_TAG = LAT
-					original_TAG = LIT
-					original_TAG = EST
-				}
-				has_dlc = "No Step Back"
-			}
+			tag = LAT
+			tag = LIT
+			tag = EST
 		}
 	}
 }
@@ -230,19 +188,9 @@ ENG_vauxhall_automotive_organization = {
 	allowed = {	
 		OR = {
 			tag = ENG
-			tag = POL # If Poland sets up a local one
-			AND = {
-				tag = ROM
-				has_dlc = "Death or Dishonor"
-			}
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
-#			AND = {
-#				tag = ETH 
-#				has_dlc = "By Blood Alone"
-#			}
+			tag = POL
+			tag = ROM
+			tag = BUL
 		}
 	}
 }
@@ -253,14 +201,9 @@ ENG_royal_arsenal_organization = {
 	allowed = {
 		OR = {
 			tag = ENG
-			AND = {
-				OR = {
-					original_TAG = LAT
-					original_TAG = LIT
-					original_TAG = EST
-				}
-				has_dlc = "No Step Back"
-			}
+			tag = LAT
+			tag = LIT
+			tag = EST
 		}
 	}
 }
