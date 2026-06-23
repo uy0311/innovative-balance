@@ -16,18 +16,9 @@ ITA_fiat_organization = {
 	allowed = {	
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = GRE 
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = BUL 
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+			tag = GRE 
+			tag = BUL 
+			tag = ETH 
 		}
 	}
 }
@@ -49,11 +40,8 @@ ITA_crda_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = ITA 
-			AND = {
-				tag = BUL 
-				has_dlc = "Battle for the Bosporus"
-			}
+			tag = ITA
+			tag = BUL
 		}
 	}
 }
@@ -105,11 +93,8 @@ ITA_macchi_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = ITA 
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+			tag = ITA
+			tag = ETH 
 		}
 	}
 }
@@ -129,11 +114,8 @@ ITA_caproni_organization = {
 	
 	allowed = {	 
 		OR = {
-			tag = ITA 
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+			tag = ITA
+			tag = ETH
 		}
 	}
 }
@@ -204,10 +186,7 @@ ITA_lancia_organization = {
 	allowed = {	 
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = BUL 
-				has_dlc = "Battle for the Bosporus"
-			}
+			tag = BUL
 		}
 	}
 
@@ -219,10 +198,7 @@ ITA_breda_organization = {
 	allowed = {	 
 		OR = {
 			tag = ITA 
-#			AND = {
-#				tag = ETH
-#				has_dlc = "By Blood Alone"
-#			}
+#			tag = ETH
 		}
 	}
 }
@@ -242,6 +218,5 @@ ITA_officine_meccaniche_organization = {
 	
 	allowed = {
 #		original_tag = ITA
-#		has_dlc = "By Blood Alone"
 	}
 }
