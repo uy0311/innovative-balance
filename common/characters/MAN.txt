@@ -243,7 +243,7 @@ characters={
 
 	### NAVY CHIEFS ###
 
-		MAN_yin_zuoqian={
+	MAN_yin_zuoqian={
 		name=MAN_yin_zuoqian
 		portraits={
 			army={
@@ -321,6 +321,31 @@ characters={
 		}
 	}
 
+	MAN_kyoiji_tomonaga = {
+		name = MAN_kyoiji_tomonaga
+
+		portraits = {
+			army = {
+				small = GFX_idea_generic_air_asia_2
+			}
+		}
+
+		advisor = {
+			slot = high_command
+			idea_token = MAN_kyoiji_tomonaga
+			ledger = air
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				air_pilot_training_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
 
 	MAN_hesehn_tiemei={
 		name=MAN_hesehn_tiemei
@@ -344,6 +369,33 @@ characters={
 				factor = 1.000
 			}
 		}
+	}
+
+	MAN_chu_kudo = {
+		name = MAN_chu_kudo
+
+		portraits = {
+			army = {
+				small = GFX_portrait_MAN_chu_kudo_small
+			}
+		}	
+
+		advisor = {
+			slot = high_command
+			idea_token = MAN_chu_kudo
+			ledger = air
+			allowed = {
+				original_tag = MAN
+			}
+			cost = 100
+			traits = {
+				air_bomber_interception_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
 	}
 
 	#IB_add_general
