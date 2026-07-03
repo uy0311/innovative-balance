@@ -1601,7 +1601,7 @@ equipment_modules = {
 			soft_attack = 43
 			hard_attack = 37
 			ap_attack = 172
-			build_cost_ic = 5.0
+			build_cost_ic = 4.75
 			breakthrough = 6
 			defense = 3
 		}
@@ -1672,7 +1672,7 @@ equipment_modules = {
 			soft_attack = 43
 			hard_attack = 33
 			ap_attack = 154
-			build_cost_ic = 4.75
+			build_cost_ic = 4.5
 			breakthrough = 6
 			defense = 3
 		}
@@ -1774,7 +1774,7 @@ equipment_modules = {
 			soft_attack = 47
 			hard_attack = 37
 			ap_attack = 169
-			build_cost_ic = 6.0
+			build_cost_ic = 5.0
 			breakthrough = 8
 			defense = 4
 		}
@@ -1810,7 +1810,7 @@ equipment_modules = {
 			soft_attack = 51
 			hard_attack = 41
 			ap_attack = 200
-			build_cost_ic = 6.5
+			build_cost_ic = 5.5
 			breakthrough = 8
 			defense = 4
 		}

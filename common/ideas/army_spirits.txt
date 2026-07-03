@@ -211,9 +211,9 @@ ideas = {
 			cost = 50
 			modifier = {
 				mobilization_laws_cost_factor = -0.50
-				army_chief_cost_factor = -0.50
-				navy_chief_cost_factor = -0.50
-				air_chief_cost_factor = -0.50
+				army_chief_cost_factor = -0.75
+				navy_chief_cost_factor = -0.75
+				air_chief_cost_factor = -0.75
 			}
 			ai_will_do = {
 				factor = 1
