@@ -3643,10 +3643,8 @@ technologies = {
 		}
 		enable_tactic = tactic_blitz
 
-		category_vehicle_infantry = {
-			max_organisation = 10
-		}
 		category_all_armor = {
+			max_organisation = 5
 			default_morale = 0.2
 		}
 
@@ -3890,51 +3888,51 @@ technologies = {
 
 		light_armor = {
 			combat_width = -0.125
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.20
 		}
 		medium_armor = {
 			combat_width = -0.125
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.20
 		}
 
 		light_tank_destroyer_brigade = {
 			combat_width = -0.125
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.40
 		}
 		medium_tank_destroyer_brigade = {
 			combat_width = -0.125
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.40
 		}
 
        light_sp_artillery_brigade = {
 			combat_width = -0.125
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.40
 		}
 		medium_sp_artillery_brigade = {
 			combat_width = -0.125
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.40
 		}
 
 		light_sp_anti_air_brigade = {
 			combat_width = -1.5
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.1
 		}
 		medium_sp_anti_air_brigade = {
 			combat_width = -1.5
-			max_organisation = 15
+			max_organisation = 10
 			default_morale = 0.1
 		}
 
 		modern_armor = {
 			combat_width = -0.15
-			max_organisation = 20
+			max_organisation = 15
 			default_morale = 0.30
 		}
 
