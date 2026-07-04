@@ -6001,7 +6001,7 @@ leader_traits = {
 	army_chief_defensive_1 = { # +5 Defensive efficiency
 		sprite = 9
 		army_defence_factor = 0.05
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6017,7 +6017,7 @@ leader_traits = {
 	army_chief_defensive_2 = { # +10 Defensive efficiency
 		sprite = 9
 		army_defence_factor = 0.1
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6033,7 +6033,7 @@ leader_traits = {
 	army_chief_defensive_3 = { # +15 Defensive efficiency
 		sprite = 9
 		army_defence_factor = 0.15
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6049,7 +6049,7 @@ leader_traits = {
 	army_chief_offensive_1 = { # +5 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.05
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6065,7 +6065,7 @@ leader_traits = {
 	army_chief_offensive_2 = { # +10 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.1
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6081,7 +6081,7 @@ leader_traits = {
 	army_chief_offensive_3 = { # +15 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.15
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6098,7 +6098,7 @@ leader_traits = {
 		sprite = 5
 		training_time_army_factor = -0.20
 		experience_loss_factor = -0.10
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6115,7 +6115,7 @@ leader_traits = {
 		sprite = 5
 		training_time_army_factor = -0.25
 		experience_loss_factor = -0.15
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6132,7 +6132,7 @@ leader_traits = {
 		sprite = 5
 		training_time_army_factor = -0.30
 		experience_loss_factor = -0.20
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6148,7 +6148,7 @@ leader_traits = {
 	army_chief_reform_1 = {
 		sprite = 5
 		#experience_gain_army_factor = 0.05
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 		experience_gain_factor = 0.25
 		experience_gain_army_unit_factor = 0.20
 
@@ -6166,7 +6166,7 @@ leader_traits = {
 	army_chief_reform_2 = {
 		sprite = 5
 		#experience_gain_army_factor = 0.1
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 		experience_gain_factor = 0.35
 		experience_gain_army_unit_factor = 0.30
 		
@@ -6184,7 +6184,7 @@ leader_traits = {
 	army_chief_reform_3 = {
 		sprite = 5
 		#experience_gain_army_factor = 0.15
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 		experience_gain_factor = 0.45
 		experience_gain_army_unit_factor = 0.40
 
@@ -6203,7 +6203,7 @@ leader_traits = {
 		sprite = 5
 		planning_speed = 0.16
 		max_planning = 0.08
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6220,7 +6220,7 @@ leader_traits = {
 		sprite = 5
 		planning_speed = 0.24
 		max_planning = 0.12
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6237,7 +6237,7 @@ leader_traits = {
 		sprite = 5
 		planning_speed = 0.32
 		max_planning = 0.16
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6254,7 +6254,7 @@ leader_traits = {
 		sprite = 5
 		dig_in_speed_factor = 0.15
 		max_dig_in_factor = 0.10
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6271,7 +6271,7 @@ leader_traits = {
 		sprite = 5
 		dig_in_speed_factor = 0.25
 		max_dig_in_factor = 0.20
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
@@ -6288,7 +6288,7 @@ leader_traits = {
 		sprite = 5
 		dig_in_speed_factor = 0.35
 		max_dig_in_factor = 0.30
-		experience_gain_army = 0.24
+		experience_gain_army = 0.25
 
 		
 
