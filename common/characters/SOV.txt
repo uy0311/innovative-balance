@@ -83,7 +83,20 @@ characters = {
 	        logistics_skill = 4
 			legacy_id = 402
 		}
-
+		advisor={
+			slot = army_chief
+			idea_token = konstantin_rokossovsky
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 
 	SOV_aleksandr_vasilevsky = {
