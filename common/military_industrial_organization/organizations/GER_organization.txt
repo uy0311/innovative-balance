@@ -15,11 +15,8 @@ GER_porsche_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = GER 
-			AND = {
-				tag = MEX 
-				has_dlc = "Man the Guns"
-			}
+			tag = GER
+			tag = MEX 
 		}
 	}
 }
@@ -30,15 +27,9 @@ GER_henschel_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = GER 
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
+			tag = GER
+			tag = BUL
+			tag = ETH
 		}
 	}
 }
@@ -50,10 +41,7 @@ GER_man_organization = {
 	allowed = {	
 		OR = {
 			tag = GER 
-			AND = {
-				tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
+			tag = GRE
 		}
 	}
 }
@@ -139,11 +127,8 @@ GER_heinkel_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = GER 
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
+			tag = GER
+			tag = BUL
 		}
 	}
 }
@@ -195,14 +180,8 @@ GER_opel_organization = {
 	allowed = {	
 		OR = {
 			tag = GER
-			AND = {
-				tag = ROM
-				has_dlc = "Death or Dishonor"
-			}
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
+			tag = ROM
+			tag = BUL
 		}
 	}
 }

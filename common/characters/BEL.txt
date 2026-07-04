@@ -642,7 +642,7 @@ characters={
 				original_tag = BEL
 			}
 			traits = {
-				army_entrenchment_2
+				army_logistics_2
 			}
 			cost = 150
 			ai_will_do = {

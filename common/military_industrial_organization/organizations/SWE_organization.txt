@@ -95,11 +95,8 @@ SWE_volvo_organization = {
 	
 	allowed = { 
 		OR = {
-			tag = SWE 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
+			tag = SWE
+			tag = ETH
 		}
 	}
 }
@@ -109,7 +106,6 @@ SWE_scania_vabis_organization = {
 	icon = GFX_idea_scania
 	allowed = { 
 		tag = SWE
-		has_dlc = "La Resistance"
 	}	
 }
 
@@ -121,10 +117,7 @@ SWE_bofors_organization = {
 	allowed = { 
 		OR = {
 			tag = SWE 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
+			tag = ETH
 		}
 	}
 	initial_trait = {

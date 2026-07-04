@@ -36,8 +36,7 @@ MAN_mamc_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 	
 	allowed = {	
-		original_tag = MAN
-		NOT = { has_dlc = "Waking the Tiger" }
+#		original_tag = MAN
 	}
 }
 
@@ -46,7 +45,6 @@ MAN_mamc_light_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 	allowed = {	
 		original_tag = MAN
-		has_dlc = "Waking the Tiger"
 	}
 }
 
@@ -55,7 +53,6 @@ MAN_mamc_medium_organization = {
 	icon = GFX_idea_generic_air_manufacturer_2
 	allowed = {	
 		original_tag = MAN
-		has_dlc = "Waking the Tiger"
 	}
 }
 
@@ -64,7 +61,6 @@ MAN_mamc_heavy_organization = {
 	icon = GFX_idea_generic_air_manufacturer_3
 	allowed = {	
 		original_tag = MAN
-		has_dlc = "Waking the Tiger"
 	}
 }
 

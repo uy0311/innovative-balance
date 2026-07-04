@@ -13,7 +13,6 @@ JAP_osaka_army_arsenal_organization = {
 	icon = GFX_idea_osaka_army_arsenal
 	allowed = {	
 		tag = JAP
-		has_dlc = "Arms Against Tyranny"
 	}
 } 
 
@@ -34,7 +33,6 @@ JAP_kure_naval_arsenal_organization = {
 	icon = GFX_idea_kure_naval_arsenal
 	allowed = {	
 		tag = JAP
-		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -43,7 +41,6 @@ JAP_yokosuka_naval_arsenal_organization = {
 	icon = GFX_idea_yokosuka_naval_arsenal
 	allowed = {	
 		tag = JAP
-		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -53,11 +50,8 @@ JAP_maizuru_naval_arsenal_organization = {
 	
 	allowed = {	 
 		OR = {
-			tag = JAP 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
+			tag = JAP
+			tag = ETH
 		}
 	}
 }
@@ -67,7 +61,6 @@ JAP_sasebo_naval_arsenal_organization = {
 	icon = GFX_idea_sasebo_naval_arsenal
 	allowed = {	 
 		tag = JAP
-		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -110,10 +103,7 @@ JAP_nakajima_organization = {
 	icon = GFX_idea_nakajima
 	allowed = {	
 		OR = {
-			AND = {
-				tag = JAP
-				has_dlc = "Arms Against Tyranny"
-			}
+			tag = JAP
 			tag = SIA
 		}
 	}
@@ -124,10 +114,7 @@ JAP_yokosuka_organization = {
 	icon = GFX_idea_yokosuka
 	allowed = {	
 		OR = {
-			AND = {
-				tag = JAP
-				has_dlc = "Arms Against Tyranny"
-			}
+			tag = JAP
 			tag = SIA
 		}
 	}
@@ -151,7 +138,6 @@ JAP_tokyo_arsenal_organization = {
 	icon = GFX_idea_tokyo_arsenal
 	allowed = {	
 		tag = JAP
-		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -160,7 +146,6 @@ JAP_osaka_army_arsenal_artillery_organization = {
 	icon = GFX_idea_osaka_army_arsenal
 	allowed = {	
 		tag = JAP
-		has_dlc = "Arms Against Tyranny"
 	}
 } 
 

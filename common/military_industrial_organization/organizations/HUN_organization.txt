@@ -71,8 +71,6 @@ HUN_digep_artillery = {
 	
 	allowed = {	
 		original_tag = HUN
-		has_dlc = "Arms Against Tyranny"
-		has_dlc = "Gotterdammerung"
 	}
 
 }
@@ -82,7 +80,5 @@ HUN_mwg_raba_organization = {
 	icon = GFX_idea_HUN_mwg_raba
 	allowed = {	 
 		original_tag = HUN
-		has_dlc = "Arms Against Tyranny"
-		has_dlc = "Gotterdammerung"
 	}
 }

@@ -51,7 +51,6 @@ ETH_ncgf_organization = {
 	icon = GFX_idea_ETH_ncgf
 	allowed = {	
 		tag = ETH
-		has_dlc = "By Blood Alone"
 	}
 }
 ETH_hmmbi_organization = {
@@ -60,7 +59,6 @@ ETH_hmmbi_organization = {
 	icon = GFX_idea_ETH_hmmbi
 	allowed = {	
 		tag = ETH
-		has_dlc = "By Blood Alone"
 	}
 }
 

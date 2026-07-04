@@ -211,9 +211,9 @@ ideas = {
 			cost = 50
 			modifier = {
 				mobilization_laws_cost_factor = -0.50
-				army_chief_cost_factor = -0.50
-				navy_chief_cost_factor = -0.50
-				air_chief_cost_factor = -0.50
+				army_chief_cost_factor = -0.75
+				navy_chief_cost_factor = -0.75
+				air_chief_cost_factor = -0.75
 			}
 			ai_will_do = {
 				factor = 1
@@ -513,9 +513,9 @@ ideas = {
 			modifier = {
 				tactic_unexpected_thrust_preferred_weight_factor = 1
 				tactic_breakthrough_preferred_weight_factor = 1
-				planning_decay_rate_factor = -0.225
 				command_abilities_cost_factor = -0.50
-				trait_organizer_xp_gain_factor = 0.2
+				planning_decay_rate_factor = -0.15
+				air_cas_present_factor = 0.3
 			}
 			ai_will_do = {
 				factor = 1
@@ -527,13 +527,13 @@ ideas = {
 			available = { has_tech = superior_firepower }
 			equipment_bonus = {
 				anti_air_equipment = {
-					build_cost_ic = -0.20 instant = yes	}		
+					build_cost_ic = -0.10 instant = yes	}		
 				anti_tank_equipment = {
-					build_cost_ic = -0.20 instant = yes	}	
+					build_cost_ic = -0.10 instant = yes	}	
 				artillery_equipment = {
-					build_cost_ic = -0.20 instant = yes	}
+					build_cost_ic = -0.10 instant = yes	}
 				rocket_artillery_equipment = {
-					build_cost_ic = -0.20 instant = yes	}
+					build_cost_ic = -0.10 instant = yes	}
 
 				mio_cat_eq_all_tank_artillerys = {
 					reliability = 0.20 instant = yes	}
@@ -544,6 +544,7 @@ ideas = {
 			}
 			modifier = {
 				tactic_barrage_preferred_weight_factor = 1
+				cat_coordinated_support_cost_factor = -1.00
 			}
 		ai_will_do = {
 				factor = 1

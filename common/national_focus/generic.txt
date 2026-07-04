@@ -896,6 +896,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_ideas = foreign_expeditions_focus
+			add_research_slot = 1
 		}
 		available_if_capitulated = yes
 	}

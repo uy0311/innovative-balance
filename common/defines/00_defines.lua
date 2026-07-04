@@ -946,10 +946,10 @@ NMilitary = {
 	TRAINING_ORG = 0.2,
 	ARMY_EXP_BASE_LEVEL = 1,
 	UNIT_EXP_LEVELS = { 0.1, 0.25, 0.49, 0.81 },		-- Experience needed to progress to the next level
-	FIELD_EXPERIENCE_SCALE = 0.0015,				-- (Country) Army experience gain factor
-	FIELD_EXPERIENCE_MAX_PER_DAY = 0.50,				-- Most xp you can gain per day
-	EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0.3,		-- reduction factor in Xp from expeditionary forces
-	LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0.0005,		-- Experience scale for lend leased equipment used in combat.
+	FIELD_EXPERIENCE_SCALE = 0.00,				-- (Country) Army experience gain factor
+	FIELD_EXPERIENCE_MAX_PER_DAY = 0.3,				-- Most xp you can gain per day
+	EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0.0,		-- reduction factor in Xp from expeditionary forces
+	LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0.0,		-- Experience scale for lend leased equipment used in combat.
 	LEADER_EXPERIENCE_SCALE = 0.75,
 	SLOWEST_SPEED = 3,
 	REINFORCEMENT_REQUEST_MAX_WAITING_DAYS = 14,   -- Every X days the equipment will be sent, regardless if still didn't produced all that has been requested.
@@ -1226,7 +1226,7 @@ NMilitary = {
 	FUEL_CAPACITY_DEFAULT_HOURS = 96,				-- default capacity if not specified
 
 	MAX_ESTIMATED_PLAN_UNITS_NOT_IN_PLACE_FACTOR = -0.6, 	--Scaled by % of units not in place. Used to be a flat -50%
-	DAMAGE_SPLIT_ON_FIRST_TARGET = 0.35,			--% of damage dealt to the first target in a combat. The rest will be split amongst subsequent targets. Modifiers can affect this up to a maximum of 0.9. That value must not be exposed as a define.
+	DAMAGE_SPLIT_ON_FIRST_TARGET = 0.30,			--% of damage dealt to the first target in a combat. The rest will be split amongst subsequent targets. Modifiers can affect this up to a maximum of 0.9. That value must not be exposed as a define.
 
 
 	NEW_ARMY_LEADER_LEVEL_CHANCES = {				-- chances for new army leaders to start at a given level
@@ -2024,7 +2024,7 @@ NNavy = {
 
 	DAMAGE_PENALTY_ON_MINIMUM_POSITIONING 							= 0.75,	-- damage penalty at 0% positioning
 	SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING				= 0.0,  -- screening efficiency (screen to capital ratio) at 0% positioning
-	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 1.00,  -- AA penalty at 0% positioning
+	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.75,  -- AA penalty at 0% positioning
 	SUBMARINE_REVEAL_ON_MINIMUM_POSITIONING                         = 0.5,  -- submarine reveal change on 0% positioning
 
 	SHIP_TO_FLEET_ANTI_AIR_RATIO									= 0.40,	-- total sum of fleet's anti air will be multiplied with this ratio and added to calculations anti-air of individual ships while air damage reduction
@@ -2110,7 +2110,7 @@ NNavy = {
 	NAVAL_COMBAT_SUB_DETECTION_FACTOR                               = 1.0,      -- balance value for sub detection in combat by ships
 	SUBMARINE_HIDE_TIMEOUT 											= 20,		-- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide.
 	SUBMARINE_REVEALED_TIMEOUT 										= 16,		-- Amount of in-game-hours that makes the submarine visible if it is on the defender side.
-	SUBMARINE_REVEAL_BASE_CHANCE 									= 22,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
+	SUBMARINE_REVEAL_BASE_CHANCE 									= 18,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
 	SUBMARINE_REVEAL_POW 											= 3.0,		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
 	SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE 							= 0.35,		-- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection
 

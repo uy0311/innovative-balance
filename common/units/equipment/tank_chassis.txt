@@ -831,7 +831,7 @@ equipments = {
 		}
 
 		maximum_speed = 5.0
-		build_cost_ic = 7.0
+		build_cost_ic = 6.5
 		reliability = 0.70
 		armor_value = 135
 		resources = {

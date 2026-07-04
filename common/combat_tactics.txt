@@ -275,14 +275,14 @@ tactic_tactical_withdrawal = { #counters encirclement
 	active = no
 	
 	base =  {
-		factor = 4
+		factor = 1
 	}
 	picture = withdraw
 	
 	phase = tactical_withdrawal
 	
-	combat_width = -0.25
-	attacker = -0.25
+	#combat_width = -0.25
+	attacker = -0.50
 	defender = -0.05
 }
 ###tactical withdrawal tactics
@@ -297,9 +297,9 @@ tactic_tw_attack = {
 	picture = tw_attack
 	display_phase = tactical_withdrawal
 	
-	combat_width = -0.25	
+	#combat_width = -0.25	
 	attacker = -0.25
-	defender = -0.1
+	defender = -0.35
 }
 tactic_tw_defend = { 
 	is_attacker = no
@@ -311,9 +311,10 @@ tactic_tw_defend = {
 	base =  { factor = 4 }
 	picture = tw_defend
 	display_phase = tactical_withdrawal
+	countered_by = tactic_tw_intercept
 	
-	combat_width = -0.25
-	attacker = -0.3
+	#combat_width = -0.25
+	attacker = -0.55
 	defender = -0.05
 }
 tactic_tw_chase = { 
@@ -326,11 +327,10 @@ tactic_tw_chase = {
 	base =  { factor = 4 }
 	picture = tw_chase
 	display_phase = tactical_withdrawal
-	
-	
-	combat_width = -0.25		
+
+	#combat_width = -0.25		
 	attacker = -0.15
-	defender = -0.05
+	defender = -0.30
 }
 tactic_tw_evade = { 
 	is_attacker = no
@@ -342,10 +342,10 @@ tactic_tw_evade = {
 	base =  { factor = 4 }
 	picture = tw_evade
 	display_phase = tactical_withdrawal
+	countered_by = tactic_tw_chase
 	
-	
-	combat_width = -0.25		
-	attacker = -0.4
+	#combat_width = -0.25		
+	attacker = -0.65
 	defender = -0.1
 }
 tactic_tw_intercept = { 
@@ -362,7 +362,7 @@ tactic_tw_intercept = {
 	phase = no
 		
 	attacker = -0.05
-	defender = -0.1
+	defender = -0.35
 }
 
 
@@ -873,8 +873,9 @@ tactic_unexpected_thrust = { #Mobile warfare attacker tactic
 	}
 	picture = tactic_unexpected_thrust
 	
-	attacker_movement_speed = 0.15
-	attacker = 0.15 
+	attacker_movement_speed = 1.0
+	attacker = 0.15
+	defender = -0.2
 }
 
 tactic_overwhelming_fire = { # Counters Banzai charge
@@ -945,7 +946,7 @@ tactic_masterful_blitz = { #Improved version of Blitz for Soviets
 	countered_by = tactic_elastic_defense
 	
 	attacker_movement_speed = 0.5
-	combat_width = 0.1
+	#combat_width = 0.1
 	attacker = 0.2
 	defender = -0.2
 }
