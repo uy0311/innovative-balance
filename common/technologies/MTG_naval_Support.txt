@@ -1359,6 +1359,9 @@ technologies = {
 			ship_torpedo_1
 			ship_torpedo_sub_1
 			torpedo_mounting
+			ship_torpedo_for
+			ship_torpedo_for_ele
+			ship_torpedo_for_oxy
 		}
 
 		on_research_complete = {

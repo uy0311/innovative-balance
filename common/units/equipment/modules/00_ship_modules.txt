@@ -3498,7 +3498,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 40
+			torpedo_attack = 45
 			build_cost_ic = 60
 		}
 		multiply_stats = {
@@ -3532,7 +3532,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 50
+			torpedo_attack = 60
 			build_cost_ic = 75
 		}
 		multiply_stats = {
@@ -3556,12 +3556,74 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 60
+			torpedo_attack = 75
 			build_cost_ic = 90
 		}
 		multiply_stats = {
 			naval_speed = -0.013			
+			reliability = -0.10
+		}
+		dismantle_cost_ic = 60
+
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	ship_torpedo_for = {
+		abbreviation = "sckf"
+		category = ship_torpedo_for
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		}
+		multiply_stats = {		
 			reliability = -0.11
+		}
+		dismantle_cost_ic = 60
+
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+	ship_torpedo_for_oxy = {
+		abbreviation = "scko"
+		category = ship_torpedo_for
+		
+		sfx = sfx_ui_sd_module_turret
+
+		
+		multiply_stats = {			
+			reliability = -0.25
+			torpedo_attack = 0.2
+		    build_cost_ic = 0.2
+			naval_torpedo_hit_chance_factor = 0.50
+		}
+		dismantle_cost_ic = 60
+
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+	ship_torpedo_for_ele = {
+		abbreviation = "scke"
+		category = ship_torpedo_for
+		
+		sfx = sfx_ui_sd_module_turret
+
+		
+		multiply_stats = {			
+			reliability = -0.11
+			build_cost_ic = 0.1
+			naval_torpedo_hit_chance_factor =0.25
+		
 		}
 		dismantle_cost_ic = 60
 

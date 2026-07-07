@@ -33,7 +33,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { battery_add_4in_x1 battery_add_4in_x2 battery_add_5in_x1 battery_add_5in_x2 ship_torpedo }
+				allowed_module_categories = { battery_add_4in_x1 battery_add_4in_x2 battery_add_5in_x1 battery_add_5in_x2 ship_torpedo_for }
 			}
 			fixed_ship_armor_slot = {
 				required = yes

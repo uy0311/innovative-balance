@@ -315,3 +315,10 @@
  EQ_MOD_CAT_ship_15in_battery_TITLE:0 "15インチ艦砲"
  EQ_MOD_CAT_ship_16in_battery_TITLE:0 "16インチ艦砲"
  EQ_MOD_CAT_ship_18in_battery_TITLE:0 "18インチ艦砲"
+
+
+  ### torpedo ###
+
+  ship_torpedo_for: "推進方式空気"
+  ship_torpedo_for_oxy:"推進方式酸素"
+  ship_torpedo_for_ele:"推進方式電気"
