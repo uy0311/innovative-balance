@@ -11,6 +11,17 @@ sub_units = {
 		land_air_wing_size = 100
 		mega_carrier_air_wing_size = 10
 	}
+	
+	fighter_interceptor = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = interceptor
+		need = { small_plane_interceptor_airframe = 1 }
+		categories = { category_fighter category_fighter_interceptor }
+		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 10
+	}
 	cv_fighter = {
 		sprite = light_plane
 		priority = 1
