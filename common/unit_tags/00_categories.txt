@@ -10,6 +10,7 @@ sub_unit_categories = {
 	category_line_artillery
 	category_artillery
 	category_fighter
+	category_fighter_interceptor
 	category_heavy_fighter
 	category_cas
 	category_special_forces

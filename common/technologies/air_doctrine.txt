@@ -71,7 +71,7 @@ technologies = {
 		###########
 		
 		path = {
-			leads_to_tech = infrastructure_destruction
+			leads_to_tech = combat_unit_destruction
 			research_cost_coeff = 1
 		}
 		
@@ -87,36 +87,6 @@ technologies = {
 		}
 	}
 
-	infrastructure_destruction = {
-
-		xp_research_type = air
-		xp_unlock_cost = 100
-		doctrine = yes	
-		research_cost = 3
-
-		# EFFECT ########
-		tac_bomber = {
-			air_ground_attack = 0.1
-		}
-		###########
-		
-		path = {
-			leads_to_tech = combat_unit_destruction
-			research_cost_coeff = 1
-		}
-		
-		categories = {
-			cat_air_doctrine
-			battlefield_support_tree
-			cat_battlefield_support
-		}
-		
-		folder = {
-			name = old_air_doctrine_folder
-			position = { x = -8 y = 4 }
-		}
-	}	
-
 	combat_unit_destruction = {
 
 		xp_research_type = air
@@ -126,37 +96,8 @@ technologies = {
 
 		# EFFECT ########
 		cas = {
-			air_ground_attack = 0.1
-		}
-		###########
-
-		path = {
-			leads_to_tech = battlefield_support
-			research_cost_coeff = 1
-		}
-		
-		categories = {
-			cat_air_doctrine
-			battlefield_support_tree
-			cat_battlefield_support
-		}
-		
-		folder = {
-			name = old_air_doctrine_folder
-			position = { x = -8 y = 6 }
-		}
-	}
-
-	battlefield_support = {
-
-		xp_research_type = air
-		xp_unlock_cost = 100
-		doctrine = yes	
-		research_cost = 3
-
-		# EFFECT ########
-		tac_bomber = {
-			air_defence = 0.1
+			maximum_speed = 0.05
+			air_agility = 0.05
 		}
 		###########
 		
@@ -173,7 +114,7 @@ technologies = {
 		
 		folder = {
 			name = old_air_doctrine_folder
-			position = { x = -8 y = 8 }
+			position = { x = -8 y = 4 }
 		}
 	}
 
@@ -186,7 +127,67 @@ technologies = {
 
 		# EFFECT ########
 		cas = {
-			air_defence = 0.1
+			air_ground_attack = 0.05
+		}
+		###########
+
+		path = {
+			leads_to_tech = infrastructure_destruction
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			cat_air_doctrine
+			battlefield_support_tree
+			cat_battlefield_support
+		}
+		
+		folder = {
+			name = old_air_doctrine_folder
+			position = { x = -8 y = 6 }
+		}
+	}
+
+	infrastructure_destruction = {
+
+		xp_research_type = air
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+
+		# EFFECT ########
+		tac_bomber = {
+			air_defence = 0.05
+		}
+		###########
+		
+		path = {
+			leads_to_tech = battlefield_support
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			cat_air_doctrine
+			battlefield_support_tree
+			cat_battlefield_support
+		}
+		
+		folder = {
+			name = old_air_doctrine_folder
+			position = { x = -8 y = 8 }
+		}
+	}
+
+	battlefield_support = {
+
+		xp_research_type = air
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+
+		# EFFECT ########
+		tac_bomber = {
+			air_ground_attack = 0.05
 		}
 		###########
 
@@ -554,6 +555,9 @@ technologies = {
 		fighter = {
 			maximum_speed = 0.05
 		}
+		fighter_interceptor = {
+			maximum_speed = 0.05
+		}
 		jet_fighter = {
 			maximum_speed = 0.05
 		}
@@ -592,6 +596,9 @@ technologies = {
 
 		# EFFECT ########
 		fighter = {
+			air_attack = 0.1
+		}
+		fighter_interceptor = {
 			air_attack = 0.1
 		}
 		jet_fighter = {
@@ -634,6 +641,9 @@ technologies = {
 		fighter = {
 			air_defence = 0.1
 		}
+		fighter_interceptor = {
+			air_defence = 0.1
+		}
 		jet_fighter = {
 			air_defence = 0.1
 		}
@@ -672,6 +682,9 @@ technologies = {
 
 		# EFFECT ########
 		fighter = {
+			air_agility = 0.05
+		}
+		fighter_interceptor = {
 			air_agility = 0.05
 		}
 		jet_fighter = {
