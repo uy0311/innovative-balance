@@ -788,7 +788,7 @@ technologies = {
 			air_attack = 0.1
 		}
 		cv_cas = {
-			air_ground_attack = 0.1
+			air_ground_attack = 0.05
 		}
 		cv_nav_bomber = {
 			naval_strike_targetting = 0.1
@@ -824,7 +824,7 @@ technologies = {
 			maximum_speed = 0.05
 		}
 		cv_cas = {
-			air_defence = 0.1
+			maximum_speed = 0.05
 		}
 		cv_nav_bomber = {
 			air_defence = 0.1

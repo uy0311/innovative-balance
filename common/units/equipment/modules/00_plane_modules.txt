@@ -1017,14 +1017,15 @@ equipment_modules = {
 		abbreviation = "re2"
 		category = plane_rocket_engine_type
 		sfx = sfx_ui_sd_module_engine
+		parent = rocket_engine_1
 
 		add_stats = {
-			maximum_speed = 700
+			maximum_speed = 725
 			thrust = 100
 			build_cost_ic = 6
 		}
 		multiply_stats = {
-			maximum_speed = 0.30
+			maximum_speed = 0.25
 			air_agility = 0.25
 			air_range = -0.75
 		}
@@ -1038,14 +1039,15 @@ equipment_modules = {
 		abbreviation = "re3"
 		category = plane_rocket_engine_type
 		sfx = sfx_ui_sd_module_engine
+		parent = rocket_engine_2
 
 		add_stats = {
-			maximum_speed = 700
+			maximum_speed = 750
 			thrust = 100
 			build_cost_ic = 7
 		}
 		multiply_stats = {
-			maximum_speed = 0.35
+			maximum_speed = 0.25
 			air_agility = 0.30
 			air_range = -0.75
 		}
