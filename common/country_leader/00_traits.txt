@@ -7464,7 +7464,7 @@ leader_traits = {
 
 	air_bomber_interception_1 = {
 		sprite = 1
-		air_intercept_efficiency = 0.01
+		air_intercept_efficiency = 0.02
 		#experience_gain_air = @experience_gain_low
 
 		
@@ -7480,7 +7480,7 @@ leader_traits = {
 
 	air_bomber_interception_2 = {
 		sprite = 1
-		air_intercept_efficiency = 0.02
+		air_intercept_efficiency = 0.04
 		#experience_gain_air = @experience_gain_medium
 
 		
@@ -7496,7 +7496,7 @@ leader_traits = {
 
 	air_bomber_interception_3 = {
 		sprite = 1
-		air_intercept_efficiency = 0.03
+		air_intercept_efficiency = 0.06
 		#experience_gain_air = @experience_gain_high
 
 		
@@ -7513,7 +7513,7 @@ leader_traits = {
 
 	air_air_superiority_1 = {
 		sprite = 1
-		air_escort_efficiency = 0.01
+		air_escort_efficiency = 0.02
 		#experience_gain_air = @experience_gain_low
 
 		
@@ -7529,7 +7529,7 @@ leader_traits = {
 
 	air_air_superiority_2 = {
 		sprite = 1
-		air_escort_efficiency = 0.02
+		air_escort_efficiency = 0.04
 		#experience_gain_air = @experience_gain_medium
 
 		
@@ -7545,7 +7545,7 @@ leader_traits = {
 
 	air_air_superiority_3 = {
 		sprite = 1
-		air_escort_efficiency = 0.03
+		air_escort_efficiency = 0.06
 		#experience_gain_air = @experience_gain_high
 
 		
@@ -7765,7 +7765,7 @@ leader_traits = {
 
 	air_pilot_training_1 = {
 		sprite = 1
-		air_ace_bonuses_factor = 0.05
+		air_ace_bonuses_factor = 0.01
 		#experience_gain_air = @experience_gain_low
 
 		
@@ -7780,7 +7780,7 @@ leader_traits = {
 	}
 	air_pilot_training_2 = {
 		sprite = 1
-		air_ace_bonuses_factor = 0.1
+		air_ace_bonuses_factor = 0.02
 		#experience_gain_air = @experience_gain_medium
 
 		
@@ -7795,7 +7795,7 @@ leader_traits = {
 	}
 	air_pilot_training_3 = {
 		sprite = 1
-		air_ace_bonuses_factor = 0.15
+		air_ace_bonuses_factor = 0.03
 		#experience_gain_air = @experience_gain_high
 
 		
