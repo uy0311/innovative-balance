@@ -186,15 +186,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = basic_medium_tank_chassis
-			research_cost_coeff = 0.5
-		}
 		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 ahead_reduction = 1 technology = basic_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
+
 		dependencies = {
 			basic_light_tank_chassis = 1
 		}
@@ -261,15 +256,10 @@ technologies = {
 			light_tank_aa_chassis_3
 		}
 
-		path = {
-			leads_to_tech = improved_medium_tank_chassis
-			research_cost_coeff = 0.5
-		}
 		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 ahead_reduction = 1 technology = improved_medium_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_light_armor_tt
 		}
+
 		dependencies = {
 			improved_light_tank_chassis = 1
 		}
@@ -334,16 +324,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = improved_light_tank_chassis
-			research_cost_coeff = 0.5
-		}
-
 		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 ahead_reduction = 1 technology = improved_light_tank_chassis	}
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
+
 		dependencies = {
 			gwtank_chassis = 1
 		}
@@ -416,17 +400,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = advanced_light_tank_chassis
-			research_cost_coeff = 0.5
-		}
-
 		on_research_complete = {
-			add_tech_bonus = {	name = ib_tech_bonus
-			bonus = 0.5 ahead_reduction = 1 technology = advanced_light_tank_chassis	}
-
 			custom_effect_tooltip = tcl_cat_medium_armor_tt
 		}
+
 		dependencies = {
 			basic_medium_tank_chassis = 1
 		}
