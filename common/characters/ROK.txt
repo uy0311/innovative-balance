@@ -13,7 +13,7 @@ characters = {
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=2
-			visible = { has_completed_focus = UN }
+			
 		}
 	}
 
@@ -31,7 +31,7 @@ characters = {
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=2
-			visible = { has_completed_focus = UN }
+			
 		}
 	}
 
