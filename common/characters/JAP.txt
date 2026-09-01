@@ -53,7 +53,7 @@ characters={
 
 		corps_commander={
 			traits={ brilliant_strategist skilled_staffer commando naval_invader bearer_of_artillery fortress_buster scavenger urban_assault_specialist }
-	        skill = 6 attack_skill = 6 defense_skill = 6 planning_skill = 6 logistics_skill = 4
+			skill = 6 attack_skill = 6 defense_skill = 6 planning_skill = 6 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -78,10 +78,10 @@ characters={
 				military_theorist
 			}
 		}
-		
+
 		field_marshal={
 			traits = { thorough_planner aggressive_assaulter infantry_leader commando naval_invader bearer_of_artillery adaptable }
-	        skill = 4 attack_skill = 5 defense_skill = 5 planning_skill = 4 logistics_skill = 2
+			skill = 4 attack_skill = 5 defense_skill = 5 planning_skill = 4 logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -109,10 +109,10 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		field_marshal={
 			traits = { logistics_wizard unyielding_defender commando trait_engineer ambusher camouflage_expert }
-	        skill = 4 attack_skill = 3 defense_skill = 3 planning_skill = 5 logistics_skill = 5
+			skill = 4 attack_skill = 3 defense_skill = 3 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
 	}
@@ -165,7 +165,7 @@ characters={
 		}
 		corps_commander={
 			traits = { trickster hill_fighter trait_mountaineer commando }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -178,10 +178,10 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Yasuji_Okamura.dds"
 			}
 		}
-		
+
 		corps_commander={
 			traits = { skilled_staffer bearer_of_artillery brilliant_strategist }
-	        skill = 1 attack_skill = 3 defense_skill = 2 planning_skill = 1 logistics_skill = 2
+			skill = 1 attack_skill = 3 defense_skill = 2 planning_skill = 1 logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -303,7 +303,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		corps_commander={
 			traits={  }
 			skill=1
@@ -568,7 +568,7 @@ characters={
 				factor = 3.000
 			}
 		}
-		
+
 		corps_commander={
 			traits={ commando naval_invader trait_engineer skilled_staffer jungle_rat }
 			skill=3
@@ -636,15 +636,15 @@ characters={
 			allowed = {
 				original_tag = JAP
 			}
-			
+
 			traits = {
 				base_strike_theorist
 			}
 		}
-		
+
 		navy_leader={
 			traits = { superior_tactician spotter air_controller blockade_runner blue_water_expert navy_media_personality bold }
-            skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
 			legacy_id=0
 		}
 	}
@@ -659,7 +659,7 @@ characters={
 		}
 		navy_leader={
 			traits = { bold battleship_adherent superior_tactician spotter }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -712,7 +712,7 @@ characters={
 		}
 		navy_leader={
 			traits = { battleship_adherent naval_lineage fly_swatter }
-	        skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
 			legacy_id=0
 		}
 	}
@@ -761,7 +761,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		navy_leader={
 			traits={ old_guard_navy bold ironside }
 			skill=4
@@ -783,7 +783,7 @@ characters={
 		}
 		navy_leader={
 			traits = { bold navy_career_officer air_controller blockade_runner superior_tactician }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -878,7 +878,7 @@ characters={
 				large = GFX_portrait_JAP_yuzuru_hiraga_scientist
 			}
 		}
-		
+
 		navy_leader = {
 			traits = { bold navy_career_officer gunnery_expert naval_lineage }
 			skill = 3
@@ -902,7 +902,7 @@ characters={
 				small = GFX_portrait_JAP_masafumi_arima_small
 			}
 		}
-		
+
 		navy_leader = {
 			traits = { bold navy_career_officer air_controller }
 			skill = 3
@@ -926,7 +926,7 @@ characters={
 				small = GFX_portrait_JAP_teijiro_toyoda_small
 			}
 		}
-		
+
 		navy_leader = {
 			traits = { navy_career_officer naval_lineage }
 			skill = 2
@@ -950,7 +950,7 @@ characters={
 				small = GFX_portrait_JAP_chuichi_nagumo_small
 			}
 		}
-		
+
 		navy_leader = {
 			traits = { old_guard_navy superior_tactician loading_drill_master torpedo_expert }
 			skill = 3
@@ -974,7 +974,7 @@ characters={
 				small = GFX_portrait_JAP_tamon_yamaguchi_small
 			}
 		}
-		
+
 		navy_leader = {
 			traits = { bold air_controller cuts_corners }
 			skill = 4
@@ -1003,10 +1003,10 @@ characters={
 			}
 		}
 		advisor={
-		cost = 100
-		slot = theorist
-		idea_token = minoru_genda
-		ledger = navy
+			cost = 100
+			slot = theorist
+			idea_token = minoru_genda
+			ledger = navy
 			allowed = {
 				original_tag = JAP
 			}
@@ -1354,7 +1354,7 @@ characters={
 			}
 		}
 	}
-	
+
 	JAP_tateo_kato={
 		name=JAP_tateo_kato
 		portraits={
@@ -1378,7 +1378,7 @@ characters={
 			}
 		}
 	}
-	
+
 	JAP_matome_ugaki={
 		name=JAP_matome_ugaki
 		portraits={
@@ -1402,7 +1402,7 @@ characters={
 			}
 		}
 	}
-	
+
 	JAP_chuichi_nagumo={
 		name=JAP_chuichi_nagumo
 		portraits={

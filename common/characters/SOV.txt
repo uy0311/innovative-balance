@@ -4,13 +4,13 @@
 characters = {
 
 
-  ####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
- #    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
- #       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  
- #       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
- #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
-  ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
-                                                                                                                  
+	####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
+	#    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
+	#       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  
+	#       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
+	#    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
+	####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
+
 
 	SOV_iosif_stalin = {
 		name = SOV_iosif_stalin
@@ -32,13 +32,13 @@ characters = {
 	}
 
 
-   # #    #####   #    #  #   #      #        ######    ##    #####   ######  #####    ####  
-  #   #   #    #  ##  ##   # #       #        #        #  #   #    #  #       #    #  #      
- #     #  #    #  # ## #    #        #        #####   #    #  #    #  #####   #    #   ####  
- #######  #####   #    #    #        #        #       ######  #    #  #       #####        # 
- #     #  #   #   #    #    #        #        #       #    #  #    #  #       #   #   #    # 
- #     #  #    #  #    #    #        #######  ######  #    #  #####   ######  #    #   ####  
-                                                                                             
+	# #    #####   #    #  #   #      #        ######    ##    #####   ######  #####    ####  
+	#   #   #    #  ##  ##   # #       #        #        #  #   #    #  #       #    #  #      
+	#     #  #    #  # ## #    #        #        #####   #    #  #    #  #####   #    #   ####  
+	#######  #####   #    #    #        #        #       ######  #    #  #       #####        # 
+	#     #  #   #   #    #    #        #        #       #    #  #    #  #       #   #   #    # 
+	#     #  #    #  #    #    #        #######  ######  #    #  #####   ######  #    #   ####  
+
 
 	SOV_georgy_zhukov = {
 		name = SOV_georgy_zhukov
@@ -52,15 +52,15 @@ characters = {
 
 		corps_commander = {
 			traits = { inflexible_strategist skilled_staffer organizer logistics_wizard unyielding_defender }
-	        skill = 3
-        
-	        attack_skill = 4
-	        defense_skill = 5
-	        planning_skill = 4
-	        logistics_skill = 6
+			skill = 3
+
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 6
 			legacy_id = 410
 		}
-		
+
 	}
 
 	SOV_konstantin_rokossovsky = {
@@ -75,12 +75,12 @@ characters = {
 
 		corps_commander = {
 			traits = { skilled_staffer panzer_leader cavalry_leader hill_fighter ranger }
-	        skill = 3
-	        
-	        attack_skill = 5
-	        defense_skill = 3
-	        planning_skill = 4
-	        logistics_skill = 4
+			skill = 3
+
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = 402
 		}
 		advisor={
@@ -109,12 +109,12 @@ characters = {
 		}
 		corps_commander = {
 			traits = { skilled_staffer panzer_leader trickster trait_engineer commando winter_specialist }
-	        skill = 3
-        
-	        attack_skill = 5
-	        defense_skill = 4
-	        planning_skill = 3
-	        logistics_skill = 3
+			skill = 3
+
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id = 407
 		}
 
@@ -167,7 +167,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 3
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -181,12 +181,12 @@ characters = {
 		}
 		corps_commander = {
 			traits = { panzer_leader fortress_buster }
-	        skill = 3
-	        
-	        attack_skill = 3
-	        defense_skill = 3
-	        planning_skill = 3
-	        logistics_skill = 3
+			skill = 3
+
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id = 0
 		}
 	}
@@ -217,12 +217,12 @@ characters = {
 
 		corps_commander = {
 			traits = { skilled_staffer winter_specialist commando trait_engineer ambusher }
-	        skill = 3
-        
-	        attack_skill = 3
-	        defense_skill = 5
-	        planning_skill = 3
-	        logistics_skill = 4
+			skill = 3
+
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
 			legacy_id = 408
 		}
 	}
@@ -252,12 +252,12 @@ characters = {
 
 		corps_commander = {
 			traits = { offensive_doctrine }
-	        skill = 2
-        
-	        attack_skill = 3
-	        defense_skill = 2
-	        planning_skill = 2
-	        logistics_skill = 3	
+			skill = 2
+
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3	
 			legacy_id = 404
 		}
 	}
@@ -288,12 +288,12 @@ characters = {
 
 		field_marshal = {
 			traits = { old_guard  }
-	        skill = 1
-        
-	        attack_skill = 1
-	        defense_skill = 1
-	        planning_skill = 1
-	        logistics_skill = 1	
+			skill = 1
+
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1	
 			legacy_id = 405
 		}
 	}
@@ -321,12 +321,12 @@ characters = {
 
 		field_marshal = {
 			traits = { offensive_doctrine brilliant_strategist organizer panzer_leader cavalry_leader bearer_of_artillery}
-	        skill = 6
-        
-	        attack_skill = 3
-	        defense_skill = 3
-	        planning_skill = 6
-	        logistics_skill = 2
+			skill = 6
+
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 6
+			logistics_skill = 2
 			legacy_id = 401
 		}
 	}
@@ -341,14 +341,14 @@ characters = {
 		}
 		field_marshal = {
 			traits = { old_guard }
-	        skill = 1
-        
-	        attack_skill = 1
-	        defense_skill = 1
-	        planning_skill = 1
-	        logistics_skill = 1
+			skill = 1
+
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -362,14 +362,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = {  }
-	        skill = 3
-        
-	        attack_skill = 1
-	        defense_skill = 1
-	        planning_skill = 1
-	        logistics_skill = 1
+			skill = 3
+
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = 413
-			 
+
 		}
 	}
 
@@ -383,14 +383,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = { panzer_leader trickster }
-	        skill = 1
-        
-	        attack_skill = 2
-	        defense_skill = 1
-	        planning_skill = 1
-	        logistics_skill = 1
+			skill = 1
+
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -404,14 +404,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = { logistics_wizard }
-	        skill = 2
-        
-	        attack_skill = 3
-	        defense_skill = 2
-	        planning_skill = 3
-	        logistics_skill = 2	
+			skill = 2
+
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2	
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -425,13 +425,13 @@ characters = {
 		}
 		corps_commander = {
 			traits = { old_guard }
-	        skill = 1	
-	        attack_skill = 1
-	        defense_skill = 1
-	        planning_skill = 1
-	        logistics_skill = 1	
+			skill = 1	
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1	
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -445,13 +445,13 @@ characters = {
 		}
 		corps_commander = {
 			traits = { ranger }
-	        skill = 1
-        
-	        attack_skill = 2
-	        defense_skill = 2
-	        planning_skill = 3
-	        logistics_skill = 3	
-	        legacy_id = 0
+			skill = 1
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3	
+			legacy_id = 0
 		}
 	}
 
@@ -465,14 +465,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_leader }
-	        skill = 3
-        
-	        attack_skill = 3
-	        defense_skill = 3
-	        planning_skill = 3
-	        logistics_skill = 1	
+			skill = 3
+
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1	
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -486,14 +486,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = { winter_specialist }
-	        skill = 1
-        
-	        attack_skill = 1
-	        defense_skill = 2
-	        planning_skill = 1
-	        logistics_skill = 1
+			skill = 1
+
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = 412
-			 
+
 		}
 	}
 
@@ -513,7 +513,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -533,7 +533,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -553,7 +553,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -573,7 +573,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -587,14 +587,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = { commando }
-	        skill = 2
-        
-	        attack_skill = 3
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2	
+			skill = 2
+
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2	
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -633,7 +633,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -653,7 +653,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 3
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -673,7 +673,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -693,7 +693,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -713,7 +713,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -733,7 +733,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 3
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -753,7 +753,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -773,7 +773,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -793,7 +793,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -813,7 +813,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 2
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -833,13 +833,13 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 1
 			legacy_id = 0
-			 
+
 		}
 	}
 
-######################
-#### NAVY LEADRES ####
-######################
+	######################
+	#### NAVY LEADRES ####
+	######################
 
 	SOV_filipp_oktyabrsky = {
 		name = SOV_filipp_oktyabrsky
@@ -853,7 +853,7 @@ characters = {
 			traits = { ironside ground_pounder }
 			skill = 2 attack_skill = 2 defense_skill = 2 maneuvering_skill = 2 coordination_skill = 2
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -880,9 +880,9 @@ characters = {
 
 		navy_leader = {
 			traits = { air_controller }
-	        skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
 			legacy_id = 411
-			 
+
 		}
 	}
 
@@ -916,7 +916,7 @@ characters = {
 			traits = { green_water_expert }
 			skill = 2 attack_skill = 2 defense_skill = 2 maneuvering_skill = 2 coordination_skill = 2
 			legacy_id = 406
-			 
+
 		}
 	}
 
@@ -950,7 +950,7 @@ characters = {
 			traits = { spotter arctic_water_expert }
 			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id = 409
-			 
+
 		}
 	}
 
@@ -982,9 +982,9 @@ characters = {
 
 		navy_leader = {
 			traits = { seawolf }
-	        skill = 2 attack_skill = 2 defense_skill = 2 maneuvering_skill = 2 coordination_skill = 2
+			skill = 2 attack_skill = 2 defense_skill = 2 maneuvering_skill = 2 coordination_skill = 2
 			legacy_id = 403
-			 
+
 		}
 	}
 
@@ -1006,7 +1006,7 @@ characters = {
 			traits = {
 				air_air_combat_training_2
 			}
-				cost = 150
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1094,14 +1094,14 @@ characters = {
 
 		advisor = {
 			cost = 150
-			
+
 			slot = theorist
 			idea_token = sergei_rudenko
 			ledger = air
 			allowed = {
 				original_tag = SOV
 			}
-			
+
 			traits = {
 				close_air_support_proponent
 			}
@@ -1378,7 +1378,7 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 2
 			legacy_id = 0
-			 
+
 		}	
 	}
 
@@ -1413,7 +1413,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 4
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -1461,7 +1461,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 3
 			legacy_id = 0
-			 
+
 		}
 	}
 
@@ -1573,7 +1573,7 @@ characters = {
 		#		factor = 1.000
 		#	}
 		#}
-		
+
 		field_marshal = {
 			traits = { old_guard inflexible_strategist }
 			skill = 1
@@ -1581,7 +1581,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			 
+
 		}
 	}
 
@@ -1602,7 +1602,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			 
+
 		}
 	}
 
@@ -1621,7 +1621,7 @@ characters = {
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 3
-			 
+
 		}
 	}
 
@@ -1640,7 +1640,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			 
+
 		}
 	}
 
@@ -1659,7 +1659,7 @@ characters = {
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 2
-			 
+
 		}
 	}
 
@@ -1678,7 +1678,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 1
-			 
+
 		}
 	}
 
@@ -1704,7 +1704,7 @@ characters = {
 			allowed = {
 				original_tag = SOV
 			}
-			
+
 			visible = {
 				NOT = {
 					has_character_flag = SOV_character_purged_flag 
@@ -1715,7 +1715,7 @@ characters = {
 			}
 		}
 	}
-	
+
 	SOV_nikita_khrushchyov = {
 		name = SOV_nikita_khrushchyov
 		portraits = {
@@ -1780,15 +1780,15 @@ characters = {
 	}
 
 
- #######                                         #     #                                                     #                                                       
- #        #    #  #  #       ######   ####       ##   ##  #  #       #  #####    ##    #####   #   #        # #    #####   #    #  #   ####    ####   #####    ####  
- #         #  #   #  #       #       #           # # # #  #  #       #    #     #  #   #    #   # #        #   #   #    #  #    #  #  #       #    #  #    #  #      
- #####      ##    #  #       #####    ####       #  #  #  #  #       #    #    #    #  #    #    #        #     #  #    #  #    #  #   ####   #    #  #    #   ####  
- #          ##    #  #       #            #      #     #  #  #       #    #    ######  #####     #        #######  #    #  #    #  #       #  #    #  #####        # 
- #         #  #   #  #       #       #    #      #     #  #  #       #    #    #    #  #   #     #        #     #  #    #   #  #   #  #    #  #    #  #   #   #    # 
- #######  #    #  #  ######  ######   ####       #     #  #  ######  #    #    #    #  #    #    #        #     #  #####     ##    #   ####    ####   #    #   ####  
-                                                                                                                                                                     
- 	#THEORIST - AIR
+	#######                                         #     #                                                     #                                                       
+	#        #    #  #  #       ######   ####       ##   ##  #  #       #  #####    ##    #####   #   #        # #    #####   #    #  #   ####    ####   #####    ####  
+	#         #  #   #  #       #       #           # # # #  #  #       #    #     #  #   #    #   # #        #   #   #    #  #    #  #  #       #    #  #    #  #      
+	#####      ##    #  #       #####    ####       #  #  #  #  #       #    #    #    #  #    #    #        #     #  #    #  #    #  #   ####   #    #  #    #   ####  
+	#          ##    #  #       #            #      #     #  #  #       #    #    ######  #####     #        #######  #    #  #    #  #       #  #    #  #####        # 
+	#         #  #   #  #       #       #    #      #     #  #  #       #    #    #    #  #   #     #        #     #  #    #   #  #   #  #    #  #    #  #   #   #    # 
+	#######  #    #  #  ######  ######   ####       #     #  #  ######  #    #    #    #  #    #    #        #     #  #####     ##    #   ####    ####   #    #   ####  
+
+	#THEORIST - AIR
 	SOV_aleksandr_prokofyev_seversky = {
 		name = SOV_aleksandr_prokofyev_seversky
 		portraits = {
@@ -1838,7 +1838,7 @@ characters = {
 				small = "GFX_idea_SOV_yan_nagursky"
 			}
 		}
-		
+
 		advisor = {
 			cost = 150
 			slot = air_chief
@@ -1859,7 +1859,7 @@ characters = {
 				small = "GFX_idea_SOV_vasily_yanchenko"
 			}
 		}
-		
+
 		advisor = {
 			cost = 150
 			slot = high_command
@@ -1873,14 +1873,14 @@ characters = {
 	}	
 
 
-  ####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
- #    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
- #       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  
- #       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
- #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
-  ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
+	####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
+	#    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
+	#       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  
+	#       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
+	#    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
+	####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
 
-    SOV_konstantin_rodzayevsky = {
+	SOV_konstantin_rodzayevsky = {
 		portraits = {
 			army = {
 				small = "GFX_idea_konstantin_rodzaevsky"
@@ -1900,8 +1900,8 @@ characters = {
 			}
 		}
 
-    }
-    SOV_aleksandr_kerensky = {
+	}
+	SOV_aleksandr_kerensky = {
 		name = SOV_aleksandr_kerensky
 
 		portraits = {
@@ -1923,7 +1923,7 @@ characters = {
 			slot = political_advisor
 			idea_token = SOV_aleksandr_kerensky
 			allowed = {
-					original_tag = SOV
+				original_tag = SOV
 			}
 			traits = {
 				quartermaster_general 

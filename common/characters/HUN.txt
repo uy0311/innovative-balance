@@ -222,7 +222,7 @@ characters={
 		}
 		field_marshal={
 			traits = {brilliant_strategist thorough_planner panzer_leader urban_assault_specialist }
-	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 			legacy_id=-1
 		}
 	}
@@ -237,7 +237,7 @@ characters={
 		}
 		field_marshal={
 			traits = {trickster panzer_leader trickster urban_assault_specialist }
-	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 			legacy_id=-1
 		}
 	}
@@ -252,7 +252,7 @@ characters={
 		}
 		field_marshal={
 			traits = { panzer_leader  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -267,7 +267,7 @@ characters={
 		}
 		field_marshal={
 			traits = { panzer_leader  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -282,7 +282,7 @@ characters={
 		}
 		field_marshal={
 			traits = { winter_specialist  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -297,7 +297,7 @@ characters={
 		}
 		field_marshal={
 			traits = {inflexible_strategist trickster infantry_leader }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -312,7 +312,7 @@ characters={
 		}
 		field_marshal={
 			traits = { commando  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -327,7 +327,7 @@ characters={
 		}
 		field_marshal={
 			traits = { trickster  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -350,7 +350,7 @@ characters={
 			allowed = {
 				original_tag = HUN
 			}
-			
+
 			traits = {
 				military_theorist
 			}
@@ -611,7 +611,7 @@ characters={
 
 
 	### POLITICAL ADVISORS ###
-	
+
 	HUN_kalman_kanya={
 		name=HUN_kalman_kanya
 		portraits={
@@ -745,7 +745,7 @@ characters={
 			}
 		}
 	}
-	
+
 	HUN_gyula_gombos_de_jakfa={
 		name=HUN_gyula_gombos_de_jakfa
 		portraits={

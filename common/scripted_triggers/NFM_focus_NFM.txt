@@ -1,0 +1,127 @@
+# GPT-5.6 Terraで作成
+NFM_set101={always=yes}
+NFM_set102={has_completed_focus=army_effort}
+NFM_set103={has_completed_focus=army_effort}
+NFM_set104={has_completed_focus=army_effort}
+NFM_set105={has_completed_focus=equipment_effort
+has_completed_focus=doctrine_effort}
+NFM_set106={has_completed_focus=armor_effort
+has_completed_focus=doctrine_effort}
+NFM_set107={has_completed_focus=doctrine_effort}
+NFM_set108={has_completed_focus=equipment_effort_2
+has_completed_focus=doctrine_effort_2}
+NFM_set109={has_completed_focus=tank_module_effort
+has_completed_focus=doctrine_effort_2}
+NFM_set110={has_completed_focus=equipment_effort_3
+has_completed_focus=doctrine_effort_2
+has_completed_focus=mechanization_effort}
+NFM_set111={always=yes}
+NFM_set112={has_completed_focus=aviation_effort}
+NFM_set113={has_completed_focus=aviation_effort_2
+has_completed_focus=equipment_effort
+has_completed_focus=light_guns_effort}
+NFM_set114={has_completed_focus=aviation_effort_2
+has_completed_focus=equipment_effort
+has_completed_focus=light_guns_effort}
+NFM_set115={has_completed_focus=equipment_effort_2
+has_completed_focus=AC_eng_effort
+has_completed_focus=AC_gun_effort
+has_completed_focus=capital_ship_effort
+has_completed_focus=screen_ship_effort}
+NFM_set116={has_completed_focus=equipment_effort_2
+has_completed_focus=AC_eng_effort
+has_completed_focus=AC_gun_effort
+has_completed_focus=capital_ship_effort
+has_completed_focus=screen_ship_effort}
+NFM_set117={has_completed_focus=aviation_effort_2
+has_completed_focus=AC_eng_effort
+has_completed_focus=AC_gun_effort
+has_completed_focus=fighter_focus
+has_completed_focus=bomber_focus}
+NFM_set118={has_completed_focus=rocket_effort}
+NFM_set119={always=yes}
+NFM_set120={has_completed_focus=naval_effort}
+NFM_set121={has_completed_focus=naval_effort}
+NFM_set122={has_completed_focus=light_guns_effort
+has_completed_focus=heavy_guns_effort}
+NFM_set123={has_completed_focus=light_guns_effort
+has_completed_focus=heavy_guns_effort}
+NFM_set124={always=yes}
+NFM_set125={has_completed_focus=industrial_effort}
+NFM_set126={has_completed_focus=industrial_effort}
+NFM_set127={has_completed_focus=infrastructure_effort}
+NFM_set128={has_completed_focus=infrastructure_effort_2}
+NFM_set129={has_completed_focus=industrial_effort}
+NFM_set130={has_completed_focus=production_effort
+has_completed_focus=capital_ship_effort
+has_completed_focus=screen_ship_effort}
+NFM_set131={has_completed_focus=production_effort_2
+has_completed_focus=capital_ship_effort
+has_completed_focus=screen_ship_effort}
+NFM_set132={has_completed_focus=production_effort_2
+has_completed_focus=capital_ship_effort
+has_completed_focus=screen_ship_effort}
+NFM_set133={has_completed_focus=production_effort_2
+has_completed_focus=construction_effort_3
+has_completed_focus=wartime_industry_focus}
+NFM_set134={has_completed_focus=extra_tech_slot}
+NFM_set135={has_completed_focus=extra_tech_slot
+has_completed_focus=construction_effort_3}
+NFM_set136={has_completed_focus=extra_tech_slot
+has_completed_focus=wartime_industry_focus}
+NFM_set137={always=yes}
+NFM_set138={has_completed_focus=political_effort
+not={has_completed_focus=liberty_ethos}
+OR = {
+				has_government = democratic
+				has_government = neutrality
+				has_government = fascism
+				has_government = communism
+			}}
+NFM_set139={has_completed_focus=collectivist_ethos
+not={has_completed_focus=internationalism_focus}
+OR = {
+				has_government = democratic
+				has_government = neutrality
+				has_government = fascism
+				has_government = communism
+			}}
+NFM_set140={has_completed_focus=collectivist_ethos
+not={has_completed_focus=nationalism_focus}
+OR = {
+				has_government = democratic
+				has_government = neutrality
+				has_government = fascism
+				has_government = communism
+			}}
+NFM_set141={has_completed_focus=political_effort
+not={has_completed_focus=collectivist_ethos}
+OR = {
+				has_government = democratic
+				has_government = neutrality
+				has_government = fascism
+				has_government = communism
+			}}
+NFM_set142={has_completed_focus=nationalism_focus}
+NFM_set143={has_completed_focus=internationalism_focus}
+NFM_set144={has_completed_focus=liberty_ethos
+not={has_completed_focus=interventionism_focus}}
+NFM_set145={has_completed_focus=liberty_ethos
+not={has_completed_focus=neutrality_focus}}
+NFM_set146={has_completed_focus=militarism}
+NFM_set147={has_completed_focus=neutrality_focus}
+NFM_set148={has_completed_focus=interventionism_focus}
+NFM_set149={has_completed_focus=military_youth}
+NFM_set150={has_completed_focus=political_correctness}
+NFM_set151={has_completed_focus=volunteer_corps}
+NFM_set152={has_completed_focus=foreign_expeditions
+has_completed_focus=deterrence
+OR = {
+			has_idea = ib_workers_culture_3
+			has_idea = ib_wartime_industry_focus_3
+			}}
+NFM_set153={has_completed_focus=indoctrination_focus}
+NFM_set154={has_completed_focus=paramilitarism
+has_completed_focus=political_commissars}
+NFM_set155={has_completed_focus=ideological_fanaticism
+has_completed_focus=why_we_fight}

@@ -24,7 +24,7 @@ characters={
 		country_leader={
 			ideology = liberalism
 			traits = {
-				}
+			}
 			expire = "1965.1.1"
 		}
 	}
@@ -70,14 +70,14 @@ characters={
 		}
 		advisor={
 			cost = 100
-			
+
 			slot = theorist
 			idea_token = george_patton
 			ledger = army
 			allowed = {
 				original_tag = USA
 			}
-			
+
 			traits = {
 				military_theorist
 			}
@@ -112,7 +112,7 @@ characters={
 			allowed = {
 				original_tag = USA
 			}
-			
+
 			traits = {
 				superior_firepower_expert
 			}
@@ -153,7 +153,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		field_marshal={
 			traits={ trait_cautious armor_officer politically_connected organizer logistics_wizard offensive_doctrine }
 			skill=5
@@ -213,7 +213,7 @@ characters={
 				large="gfx/leaders/USA/Portrait_USA_Mark_W_Clark.dds"
 			}
 		}
-		
+
 		corps_commander={
 			traits={ trait_reckless infantry_officer }
 			skill=4
@@ -249,7 +249,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		field_marshal={
 			traits={ brilliant_strategist career_officer media_personality politically_connected defensive_doctrine offensive_doctrine }
 			skill=4
@@ -278,7 +278,7 @@ characters={
 				original_tag = USA
 			}
 			available = {
-				
+
 			}
 			traits = {
 				army_chief_planning_2
@@ -499,7 +499,7 @@ characters={
 				large="gfx/leaders/USA/Portrait_USA_Cortney_Hodges.dds"
 			}
 		}
-		
+
 		corps_commander={
 			traits={ career_officer infantry_officer panzer_leader }
 			skill=4
@@ -536,7 +536,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		corps_commander={
 			traits={ career_officer harsh_leader infantry_officer politically_connected }
 			skill=1
@@ -601,7 +601,7 @@ characters={
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
-			
+
 		}
 	}
 
@@ -629,14 +629,14 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		navy_leader={
 			traits = { navy_career_officer air_controller blockade_runner superior_tactician }
-	        skill = 5
-	        attack_skill = 5
-	        defense_skill = 5
-	        maneuvering_skill = 5
-	        coordination_skill = 5
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
 			legacy_id=0
 		}
 	}
@@ -665,14 +665,14 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		navy_leader={
 			traits = { navy_career_officer gentlemanly bold blue_water_expert air_controller superior_tactician spotter }
-	        skill = 5
-	        attack_skill = 5
-	        defense_skill = 5
-	        maneuvering_skill = 5
-	        coordination_skill = 5
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
 			legacy_id=0
 		}
 	}
@@ -706,14 +706,14 @@ characters={
 				large="gfx/leaders/USA/Portrait_USA_Frank_Jack_Fletcher.dds"
 			}
 		}
-		
+
 		navy_leader={
 			traits = { navy_career_officer chief_engineer air_controller superior_tactician spotter marksman crisis_magician }
-	        skill = 4
-	        attack_skill = 4
-	        defense_skill = 4
-	        maneuvering_skill = 4
-	        coordination_skill = 4
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -743,11 +743,11 @@ characters={
 		}
 		navy_leader={
 			traits = { navy_career_officer ironside gentlemanly fleet_protector superior_tactician fly_swatter }
-	        skill = 4
-	        attack_skill = 4
-	        defense_skill = 4
-	        maneuvering_skill = 4
-	        coordination_skill = 4
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -762,11 +762,11 @@ characters={
 		}
 		navy_leader={
 			traits = { cuts_corners blockade_runner spotter superior_tactician }
-	        skill = 3
-	        attack_skill = 3
-	        defense_skill = 3
-	        maneuvering_skill = 3
-	        coordination_skill = 3
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
 			legacy_id=0
 		}
 	}
@@ -781,11 +781,11 @@ characters={
 		}
 		navy_leader={
 			traits = { navy_career_officer bold fleet_protector superior_tactician }
-	        skill = 4
-	        attack_skill = 4
-	        defense_skill = 4
-	        maneuvering_skill = 4
-	        coordination_skill = 4
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -831,7 +831,7 @@ characters={
 
 	# Bradley up there
 
-	
+
 	USA_dewitt_clinton_ramsey={
 		name=USA_dewitt_clinton_ramsey
 		portraits={
@@ -992,7 +992,7 @@ characters={
 		}
 	}
 
-	
+
 	### NAVY CHIEFS ###
 
 	# King up there
@@ -1072,7 +1072,7 @@ characters={
 			}
 		}
 	}
-	
+
 	USA_charles_lindbergh={
 		name=USA_charles_lindbergh
 		portraits={
@@ -1203,7 +1203,7 @@ characters={
 			}
 		}
 	}
-	
+
 	USA_thomas_kinkaid={
 		name=USA_thomas_kinkaid
 		portraits={
@@ -1230,7 +1230,7 @@ characters={
 
 
 	### POLITICAL ADVISORS ###
-		
+
 	#Earl Bowder up there
 
 	USA_harry_white={

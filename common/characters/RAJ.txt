@@ -306,7 +306,7 @@ characters={
 			}
 		}
 	}
-	
+
 	RAJ_kodandera_madappa_cariappa = {
 		name=RAJ_kodandera_madappa_cariappa
 		portraits={
@@ -326,7 +326,7 @@ characters={
 			}
 		}
 	}
-	
+
 	RAJ_jayanto_nath_chaudhuri = {
 		name=RAJ_jayanto_nath_chaudhuri
 		portraits={
@@ -355,7 +355,7 @@ characters={
 			allowed = {
 				original_tag = RAJ
 			}
-			
+
 			traits = {
 				military_theorist
 			}
@@ -377,7 +377,7 @@ characters={
 			allowed = {
 				original_tag = RAJ
 			}
-			
+
 			traits = {
 				air_warfare_theorist
 			}
@@ -399,7 +399,7 @@ characters={
 			allowed = {
 				original_tag = RAJ
 			}
-			
+
 			traits = {
 				naval_theorist
 			}
@@ -642,7 +642,7 @@ characters={
 			}
 		}
 	}
-	
+
 
 	### AIR CHIEFS ###
 
@@ -886,7 +886,7 @@ characters={
 			}
 		}		
 	}
-	
+
 	RAJ_john_edward_golightly={
 		name=RAJ_john_edward_golightly
 		portraits={
@@ -905,7 +905,7 @@ characters={
 			}
 		}
 	}
-	
+
 	RAJ_chakravarti_rajagopalachari={
 		name=RAJ_chakravarti_rajagopalachari
 		portraits={
@@ -984,7 +984,7 @@ characters={
 			}
 		}
 	}
-	
+
 	RAJ_agha_khan_iii={
 		name=RAJ_agha_khan_iii
 		portraits={
@@ -1003,6 +1003,6 @@ characters={
 			}
 		}
 	}
-	
+
 	#Illusive Gentleman auto-generated
 }

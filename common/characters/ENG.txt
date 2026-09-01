@@ -13,7 +13,7 @@ characters={
 		country_leader={
 			ideology=conservatism
 			traits = {
-				
+
 			}
 			expire="1965.1.1.1"
 			id=-1
@@ -74,7 +74,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		field_marshal={
 			traits={ career_officer trait_cautious defensive_doctrine organizer }
 			skill=5
@@ -104,12 +104,12 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			
+
 			traits = {
 				grand_battle_plan_expert
 			}
 		}
-		
+
 		field_marshal={
 			traits={ inflexible_strategist trait_cautious media_personality organizer logistics_wizard offensive_doctrine }
 			skill=4
@@ -146,7 +146,7 @@ characters={
 				factor = 2.000
 			}
 		}
-		
+
 		corps_commander={
 			traits={ inflexible_strategist career_officer }
 			skill=5
@@ -291,7 +291,7 @@ characters={
 				military_theorist
 			}
 		}
-		
+
 		corps_commander={
 			traits={ politically_connected }
 			skill=5
@@ -571,7 +571,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		corps_commander={
 			traits={ career_officer }
 			skill=4
@@ -630,7 +630,7 @@ characters={
 				large="gfx/leaders/ENG/Portrait_Britain_Henry_Harwood.dds"
 			}
 		}
-		
+
 		navy_leader={
 			traits={ blockade_runner bold }
 			skill=3
@@ -666,7 +666,7 @@ characters={
 				factor = 0.500
 			}
 		}
-		
+
 		navy_leader={
 			traits={ ironside bold navy_career_officer blockade_runner superior_tactician }
 			skill=5
@@ -870,7 +870,7 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			
+
 			traits = {
 				grand_fleet_proponent
 			}
@@ -932,7 +932,7 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			
+
 			traits = {
 				victory_through_airpower
 			}
@@ -1002,7 +1002,7 @@ characters={
 			allowed = {
 				always = no
 			}
-			
+
 			traits = {
 				blitzkrieg_theorist
 			}

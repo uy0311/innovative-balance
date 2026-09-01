@@ -55,7 +55,7 @@ characters={
 					large="gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
 				}
 			}
-			
+
 			country_leader={
 				ideology=despotism
 				traits={ milli_sef }
@@ -177,7 +177,7 @@ characters={
 				original_tag = TUR
 				has_dlc = "Battle for the Bosporus"
 			}
-			
+
 			traits = {
 				grand_battle_plan_expert
 			}
@@ -235,12 +235,12 @@ characters={
 				traits = {
 					army_chief_drill_2
 				}
-			cost = 150
+				cost = 150
 				ai_will_do = {
 					factor = 1.000
 				}
 			}
-			
+
 			corps_commander={
 				traits={ harsh_leader infantry_officer politically_connected }
 				skill=2
@@ -360,16 +360,16 @@ characters={
 				slot = navy_chief
 				idea_token = TUR_mehmet_ali_ulgen
 				allowed = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					traits = {
-						navy_chief_decisive_battle_2
-					}
+					original_tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				traits = {
+					navy_chief_decisive_battle_2
+				}
 				cost = 150
-					ai_will_do = {
-						factor = 1.000
-					}
+				ai_will_do = {
+					factor = 1.000
+				}
 			}
 
 			navy_leader={
@@ -418,7 +418,7 @@ characters={
 			legacy_id=907
 		}
 	}
-	
+
 	TUR_fevzi_cakmak={
 		instance = {
 			allowed = {
@@ -511,7 +511,7 @@ characters={
 			}
 		}
 	}
-	
+
 	TUR_vecihi_hurkus={
 		name=TUR_vecihi_hurkus
 		portraits={
@@ -528,7 +528,7 @@ characters={
 				original_tag = TUR
 				has_dlc = "Battle for the Bosporus"
 			}
-			
+
 			traits = {
 				air_warfare_theorist
 			}
@@ -806,7 +806,7 @@ characters={
 				original_tag = TUR
 				has_dlc = "Battle for the Bosporus"
 			}
-			
+
 			traits = {
 				naval_aviation_pioneer
 			}

@@ -1,0 +1,37 @@
+# GPT-5.6 Terraで作成
+NFM_del_all={
+	for_each_loop={
+		array=NFM_focus_queue
+		value=v
+		meta_effect={
+			text={set_variable={f[nfid]=1} set_variable={t[nfid]=0}}
+			nfid="[?v]"
+		}
+	}
+	clear_array=NFM_focus_queue
+	clr_country_flag=NFM_error
+	NFM_dirty=yes
+}
+NFM_list_swap_in_queue={
+	set_temp_variable={tmpindex=i}
+	add_to_temp_variable={tmpindex=ti}
+	set_temp_variable={tmpvar=NFM_focus_queue^tmpindex}
+	set_variable={NFM_focus_queue^tmpindex=v}
+	set_variable={NFM_focus_queue^i=tmpvar}
+	meta_effect={
+		text={
+			add_to_temp_variable={tmpindex=1}
+			add_to_temp_variable={i=1}
+			set_variable={t[v1]=tmpindex}
+			set_variable={t[v2]=i}
+		}
+		v1="[?v]"
+		v2="[?tmpvar]"
+	}
+	clr_country_flag=NFM_error
+	NFM_dirty=yes
+}
+NFM_get_lastindex={
+	set_temp_variable={li=NFM_focus_queue^num}
+	subtract_from_temp_variable={li=1}
+}

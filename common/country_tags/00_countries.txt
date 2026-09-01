@@ -111,3 +111,9 @@ KEN = "countries/Kenya.txt"
 PAK = "countries/Pakistan.txt"
 BOT = "countries/Botswana.txt"
 MAN = "countries/Manchukou.txt"
+
+###KR
+CHN	= "countries/China Modern.txt"
+JPN	= "countries/Japan Modern.txt"
+WPK = "countries/North Korea.txt"
+ROK = "countries/South Korea.txt"

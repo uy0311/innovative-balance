@@ -59,13 +59,13 @@ characters={
 			slot = political_advisor
 			idea_token = LUX_pierre_dupong
 			allowed  = {
-					original_tag  = LUX
-				}
-				traits  = {
-					silent_workhorse 
-				}
+				original_tag  = LUX
+			}
+			traits  = {
+				silent_workhorse 
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Pierre Dupong"
 		portraits={
 			civilian={
@@ -83,23 +83,23 @@ characters={
 	}
 	LUX_damien_roeser={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = LUX_damien_roeser
 			ledger = air
-				allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					air_air_superiority_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = LUX
+			}
+			traits = {
+				air_air_superiority_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Damien Roeser"
 		portraits={
 			army={
@@ -110,19 +110,19 @@ characters={
 	LUX_florent_destriveaux={
 		advisor={
 			cost = 100
-			
+
 			slot = theorist
 			idea_token = LUX_florent_destriveaux
 			ledger = navy
-				allowed = {
-					original_tag = LUX
-				}
-				
-				traits = {
-					naval_theorist
-				}
+			allowed = {
+				original_tag = LUX
+			}
+
+			traits = {
+				naval_theorist
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Florent Destriveaux"
 		portraits={
 			army={
@@ -132,22 +132,22 @@ characters={
 	}
 	LUX_alexander_von_falkenhausen={
 		advisor={
-			
-			
+
+
 			slot = army_chief
 			idea_token = LUX_alexander_von_falkenhausen
 			allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = LUX
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="LUX_alexander_von_falkenhausen"
 		portraits={
 			army={
@@ -157,23 +157,23 @@ characters={
 	}
 	LUX_pierre_fischbach={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = LUX_pierre_fischbach
 			ledger = navy
-				allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					navy_fleet_logistics_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = LUX
+			}
+			traits = {
+				navy_fleet_logistics_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Pierre Fischbach"
 		portraits={
 			army={
@@ -183,22 +183,22 @@ characters={
 	}
 	LUX_guillaume_soisson={
 		advisor={
-			
-			
+
+
 			slot = air_chief
 			idea_token = LUX_guillaume_soisson
 			allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					air_air_combat_training_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = LUX
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Guillaume Soisson"
 		portraits={
 			army={
@@ -209,19 +209,19 @@ characters={
 	LUX_alex_federspiel={
 		advisor={
 			cost = 100
-			
+
 			slot = theorist
 			idea_token = LUX_alex_federspiel
 			ledger = army
-				allowed = {
-					original_tag = LUX
-				}
-				
-				traits = {
-					military_theorist
-				}
+			allowed = {
+				original_tag = LUX
+			}
+
+			traits = {
+				military_theorist
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Alex Federspiel"
 		portraits={
 			army={
@@ -231,22 +231,22 @@ characters={
 	}
 	LUX_henri_ahnen={
 		advisor={
-			
-			
+
+
 			slot = navy_chief
 			idea_token = LUX_henri_ahnen
 			allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					navy_chief_maneuver_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = LUX
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Henri Ahnen"
 		portraits={
 			army={
@@ -256,22 +256,22 @@ characters={
 	}
 	LUX_emile_speller={
 		advisor={
-			
-			
+
+
 			slot = army_chief
 			idea_token = LUX_emile_speller
 			allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = LUX
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Emile Speller"
 		portraits={
 			army={
@@ -283,19 +283,19 @@ characters={
 	LUX_nicolas_de_dixmude={
 		advisor={
 			cost = 100
-			
+
 			slot = theorist
 			idea_token = LUX_nicolas_de_dixmude
 			ledger = air
-				allowed = {
-					original_tag = LUX
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
+			allowed = {
+				original_tag = LUX
+			}
+
+			traits = {
+				air_warfare_theorist
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Nicolas de Dixmude"
 		portraits={
 			army={
@@ -305,22 +305,22 @@ characters={
 	}
 	LUX_paul_medinger={
 		advisor={
-			
-			
+
+
 			slot = navy_chief
 			idea_token = LUX_paul_medinger
 			allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = LUX
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Paul Medinger"
 		portraits={
 			army={
@@ -330,22 +330,22 @@ characters={
 	}
 	LUX_nicholas_diedrich={
 		advisor={
-			
-			
+
+
 			slot = air_chief
 			idea_token = LUX_nicholas_diedrich
 			allowed = {
-					original_tag = LUX
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = LUX
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Nicholas Diedrich"
 		portraits={
 			army={
@@ -358,13 +358,13 @@ characters={
 			slot = political_advisor
 			idea_token = LUX_pierre_krier
 			allowed  = {
-					original_tag  = LUX
-				}
-				traits  = {
-					captain_of_industry 
-				}
+				original_tag  = LUX
+			}
+			traits  = {
+				captain_of_industry 
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Pierre Krier"
 		portraits={
 			army={
@@ -377,13 +377,13 @@ characters={
 			slot = political_advisor
 			idea_token = LUX_martin_karp
 			allowed  = {
-					original_tag  = LUX
-				}
-				traits  = {
-					war_industrialist 
-				}
+				original_tag  = LUX
+			}
+			traits  = {
+				war_industrialist 
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Martin Karp"
 		portraits={
 			army={

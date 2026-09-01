@@ -60,14 +60,14 @@ characters={
 				ideology = despotism
 				expire="1965.1.1.1"
 				traits = { 
-					
+
 				}
 			}
 			country_leader = {
 				expire = "1965.1.1"
 				ideology = fascism_ideology
 				traits = {
-					
+
 				}
 			}
 		}
@@ -91,7 +91,7 @@ characters={
 				idea_token = GRE_markos_vafiadis
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					captain_of_industry 
@@ -136,7 +136,7 @@ characters={
 	GRE_markos_drakos={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_markos_drakos
 			portraits={
@@ -160,7 +160,7 @@ characters={
 	GRE_nikolaos_plastiras={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_nikolaos_plastiras
 			portraits={
@@ -176,7 +176,7 @@ characters={
 				name = GRE_nikolaos_plastiras
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					army_chief_maneuver_3
@@ -203,7 +203,7 @@ characters={
 			ledger = navy
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				air_naval_strike_2
@@ -218,7 +218,7 @@ characters={
 	GRE_konstantinos_ventiris={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_konstantinos_ventiris
 			portraits={
@@ -234,9 +234,9 @@ characters={
 				ledger = army
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
-				
+
 				traits = {
 					grand_battle_plan_expert
 				}
@@ -247,7 +247,7 @@ characters={
 	GRE_nikos_beloyannis={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_nikos_beloyannis
 			portraits={
@@ -262,7 +262,7 @@ characters={
 				name = "GRE_nikos_beloyannis"
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					army_chief_morale_2
@@ -278,7 +278,7 @@ characters={
 	GRE_alexandros_sakellariou={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_alexandros_sakellariou
 			portraits={
@@ -293,7 +293,7 @@ characters={
 				name = GRE_alexandros_sakellariou
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					navy_chief_decisive_battle_2
@@ -330,7 +330,7 @@ characters={
 			ledger = navy
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				naval_theorist
@@ -341,7 +341,7 @@ characters={
 	GRE_panagiotis_gazis={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_panagiotis_gazis
 			portraits={
@@ -355,7 +355,7 @@ characters={
 				name = "GRE_panagiotis_gazis"
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					air_chief_reform_2
@@ -381,7 +381,7 @@ characters={
 			idea_token = GRE_alexandros_papagos
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				army_chief_defensive_2
@@ -399,7 +399,7 @@ characters={
 			ledger = army
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				military_theorist
@@ -423,7 +423,7 @@ characters={
 	GRE_petros_voulgaris={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_petros_voulgaris
 			portraits={
@@ -437,7 +437,7 @@ characters={
 				name = "GRE_petros_voulgaris"
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					navy_chief_maneuver_2
@@ -486,7 +486,7 @@ characters={
 			idea_token = GRE_georgios_tsolakoglou
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				army_chief_offensive_1
@@ -501,7 +501,7 @@ characters={
 	GRE_vasilios_tsarpalis={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_vasilios_tsarpalis
 			portraits={
@@ -515,7 +515,7 @@ characters={
 				name = "GRE_vasilios_tsarpalis"
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					air_chief_safety_2
@@ -540,7 +540,7 @@ characters={
 			ledger = air
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				navy_screen_2
@@ -566,7 +566,7 @@ characters={
 			ledger = air
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				victory_through_airpower
@@ -591,7 +591,7 @@ characters={
 			traits = {
 				air_bomber_interception_2
 			}
-				cost = 150
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -601,7 +601,7 @@ characters={
 	GRE_aris_velouchiotis={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_aris_velouchiotis
 			portraits={
@@ -616,7 +616,7 @@ characters={
 				name = "GRE_aris_velouchiotis"
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					army_chief_defensive_2
@@ -641,7 +641,7 @@ characters={
 			idea_token = GRE_aristeidis_dimitratos
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				war_industrialist 
@@ -661,7 +661,7 @@ characters={
 			idea_token = GRE_xenophon_giosmas
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				fortification_engineer 
@@ -672,7 +672,7 @@ characters={
 	GRE_georgios_papandreou={
 		instance = {
 			allowed = {
-				 
+
 			}
 			name=GRE_georgios_papandreou
 			portraits={
@@ -686,7 +686,7 @@ characters={
 				name = GRE_georgios_papandreou
 				allowed = {
 					original_tag = GRE
-					 
+
 				}
 				traits = {
 					quartermaster_general 
@@ -707,7 +707,7 @@ characters={
 			idea_token = GRE_sophoklis_venizelos
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				silent_workhorse
@@ -746,7 +746,7 @@ characters={
 			idea_token = GRE_konstantinos_maniadakis
 			allowed = {
 				original_tag = GRE
-				 
+
 			}
 			traits = {
 				prince_of_terror 
@@ -765,7 +765,7 @@ characters={
 		}
 		field_marshal={
 			traits = { desert_fox trickster media_personality skilled_staffer panzer_leader}
-	        skill = 6 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 6 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -780,7 +780,7 @@ characters={
 		}
 		corps_commander={
 			traits = { desert_fox trait_cautious trait_engineer organizer skilled_staffer }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -795,7 +795,7 @@ characters={
 		}
 		corps_commander={
 			traits = { commando naval_invader urban_assault_specialist media_personality trickster }
-	        skill = 5 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 5 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -810,7 +810,7 @@ characters={
 		}
 		corps_commander={
 			traits = { hill_fighter trait_mountaineer trait_reckless infantry_officer }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -825,7 +825,7 @@ characters={
 		}
 		field_marshal={
 			traits = { logistics_wizard organizer }
-	        skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 3 logistics_skill = 5
+			skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 3 logistics_skill = 5
 			legacy_id=0
 		}
 	}
@@ -840,7 +840,7 @@ characters={
 		}
 		corps_commander={
 			traits = { hill_fighter }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -855,7 +855,7 @@ characters={
 		}
 		corps_commander={
 			traits = { hill_fighter trait_mountaineer trait_reckless infantry_officer }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -870,7 +870,7 @@ characters={
 		}
 		corps_commander={
 			traits = { desert_fox }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -885,7 +885,7 @@ characters={
 		}
 		corps_commander={
 			traits = { panzer_leader }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -900,7 +900,7 @@ characters={
 		}
 		corps_commander={
 			traits = { panzer_leader }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -915,7 +915,7 @@ characters={
 		}
 		navy_leader={
 			traits = { superior_tactician }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -930,8 +930,8 @@ characters={
 		}
 		navy_leader={
 			traits = { air_controller }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
-	 		legacy_id=0
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			legacy_id=0
 		}
 	}
 
@@ -945,8 +945,8 @@ characters={
 		}
 		navy_leader={
 			traits = { superior_tactician }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
-	 		legacy_id=0
+			skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			legacy_id=0
 		}
 	}
 }
