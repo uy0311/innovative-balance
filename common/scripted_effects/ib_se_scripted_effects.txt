@@ -154,4 +154,44 @@ ib_se_air_base_effect = {
 		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_10 } }
 		damage_building = { type = air_base damage = 10 }
 	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_11 } }
+		damage_building = { type = air_base damage = 11 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_12 } }
+		damage_building = { type = air_base damage = 12 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_13 } }
+		damage_building = { type = air_base damage = 13 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_14 } }
+		damage_building = { type = air_base damage = 14 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_15 } }
+		damage_building = { type = air_base damage = 15 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_16 } }
+		damage_building = { type = air_base damage = 16 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_17 } }
+		damage_building = { type = air_base damage = 17 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_18 } }
+		damage_building = { type = air_base damage = 18 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_19 } }
+		damage_building = { type = air_base damage = 19 }
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = ib_se_air_base_rule option = ib_se_level_20 } }
+		damage_building = { type = air_base damage = 20 }
+	}
 }

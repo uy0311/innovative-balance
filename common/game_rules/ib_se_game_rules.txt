@@ -127,7 +127,7 @@ ib_se_air_base_rule = {
 		desc = ""
 		allow_achievements = yes
 	}
-	default = {
+	option = {
 		name = "ib_se_level_5"
 		text = "rule_option_ib_se_level_5"
 		desc = ""
@@ -160,6 +160,66 @@ ib_se_air_base_rule = {
 	option = {
 		name = "ib_se_level_10"
 		text = "rule_option_ib_se_level_10"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_11"
+		text = "rule_option_ib_se_level_11"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_12"
+		text = "rule_option_ib_se_level_12"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_13"
+		text = "rule_option_ib_se_level_13"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_14"
+		text = "rule_option_ib_se_level_14"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_15"
+		text = "rule_option_ib_se_level_15"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_16"
+		text = "rule_option_ib_se_level_16"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_17"
+		text = "rule_option_ib_se_level_17"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_18"
+		text = "rule_option_ib_se_level_18"
+		desc = ""
+		allow_achievements = yes
+	}
+	option = {
+		name = "ib_se_level_19"
+		text = "rule_option_ib_se_level_19"
+		desc = ""
+		allow_achievements = yes
+	}
+	default = {
+		name = "ib_se_level_20"
+		text = "rule_option_ib_se_level_20"
 		desc = ""
 		allow_achievements = yes
 	}
