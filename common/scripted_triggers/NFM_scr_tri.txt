@@ -1,0 +1,15 @@
+# GPT-5.6 Terraで作成
+NFM_IsFocusSelected={
+set_temp_variable={NFM_polcost=modifier@female_random_country_leader_chance}
+check_variable={NFM_polcost > 1.99}
+}
+NFM_allowed={
+	or={
+		has_focus_tree=generic_focus
+	}
+}
+NFM_allowed_sha={
+	or={
+		always=no
+	}
+}

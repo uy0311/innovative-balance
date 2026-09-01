@@ -30,7 +30,7 @@ characters={
 			id=-1
 		}
 	}
-	
+
 	BRA_plinio_salgado={
 		name=BRA_plinio_salgado	
 		portraits={
@@ -156,7 +156,7 @@ characters={
 			allowed = {
 				original_tag = BRA
 			}
-			
+
 			traits = {
 				military_theorist
 			}
@@ -179,7 +179,7 @@ characters={
 			allowed = {
 				original_tag = BRA
 			}
-				
+
 			traits = {
 				air_warfare_theorist
 			}
@@ -214,7 +214,7 @@ characters={
 
 
 	### NAVY CHIEFS ###
-#
+	#
 	BRA_aristides_guilhem={
 		name=BRA_aristides_guilhem
 		portraits={
@@ -383,7 +383,7 @@ characters={
 			}
 		}		
 	}
-	
+
 	BRA_artur_da_costa_e_silva={
 		name=BRA_artur_da_costa_e_silva
 		portraits={
@@ -440,7 +440,7 @@ characters={
 			}
 		}
 	}
-	
+
 	BRA_afranio_de_mello_franco={
 		name=BRA_afranio_de_mello_franco
 		portraits={

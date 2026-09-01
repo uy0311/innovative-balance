@@ -1,0 +1,306 @@
+characters = {
+	ROK_Walton_Walker={
+		name=ROK_Walton_H_Walker
+		portraits={
+			army={
+				large="gfx/leaders/ROK/Walker.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_engineer  }
+			skill=2
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			visible = { has_completed_focus = UN }
+		}
+	}
+
+	ROK_Samuel_Garrett={
+		name=ROK_Samuel_Garrett
+		portraits={
+			army={
+				large="gfx/leaders/ROK/Garrett.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_engineer  }
+			skill=2
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			visible = { has_completed_focus = UN }
+		}
+	}
+
+	ROK_Syngman_Rhee={
+		name=ROK_Syngman_Rhee
+		portraits={
+			army={
+				large="gfx/leaders/ROK/Rhee.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={  }
+			expire="1955.1.1.1"
+			id=-1
+			desc=POLITICS_RHEE_DESC
+		}
+	}
+
+	ROK_MacArthur={
+		name=ROK_MacArthur
+		portraits={
+			army={
+				large="gfx/leaders/ROK/MacArthur.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={  }
+			expire="1955.1.1.1"
+			id=-1
+			desc=POLITICS_MacArthur_DESC
+		}
+		field_marshal={
+			traits={  }
+			skill=5
+			attack_skill=5
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+
+	ROK_Chung_Il_Kwona={
+		name=ROK_Chung_Il_Kwona
+		portraits={
+			army={
+				large="gfx/leaders/ROK/Kwon.dds"
+			}
+		}
+		field_marshal={
+			traits={ media_personality }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+		advisor={
+			slot = army_chief
+			idea_token = Chung_Il_Kwona
+			ledger = army
+			allowed = {
+				original_tag = ROK
+			}
+			ideology = liberalism
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 75
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
+	ROK_Lee_Hyung-geun={
+		name=ROK_Lee_Hyung-geun
+		portraits={
+			army={
+				large="gfx/leaders/ROK/250px-Lee_Hyung_Keun.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+		}
+		advisor={
+			slot = army_chief
+			idea_token = Lee_Hyung-geun
+			ledger = army
+			allowed = {
+				original_tag = ROK
+			}
+			ideology = liberalism
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 75
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
+	ROK_Baek_Sun-Yeop={
+		name=ROK_Baek_Sun-Yeop
+		portraits={
+			army={
+				large="gfx/leaders/ROK/Baek_Sun-yeop.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+
+	ROK_Sohn_Won_Yil={
+		name=ROK_Sohn_Won_Yil
+		portraits={
+			army={
+				large="gfx/leaders/ROK/Sohn_Won_Yil_1948.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=5
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+
+	ROK_paik_sun_up={
+		name=ROK_paik_sun_up
+		portraits={
+			army={
+				large="gfx/leaders/ROK/sun-yup.dds"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=4
+		}
+	}
+
+	ROK_Kim_Seong-su={
+		name=ROK_Kim_Seong-su
+		portraits={
+		}
+		general={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Kim_Seong-su
+			allowed = {
+				original_tag = ROK
+			}
+			ideology = liberalism
+			cost = 75
+			traits = {
+				educator
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
+	ROK_Yu_Jae-hung={
+		name=ROK_Yu_Jae-hung
+		portraits={
+		}
+		general={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+		advisor={
+			slot = high_command
+			idea_token = ROK_Yu_Jae-hung
+			ledger = army
+			traits = {
+				Entrenchment_2
+			}
+			cost = 75
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ROK_Park_Chung_Hee={
+		name=ROK_Park_Chung_Hee
+		portraits={
+			army={
+				large="gfx/leaders/ROK/ParkCH.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={  }
+			expire="1955.1.1.1"
+			id=-1
+			desc=POLITICS_RHEE_DESC
+		}
+	}
+
+	ROK_Woo_Jang-choon={
+		name=ROK_Woo_Jang-choon
+		portraits={
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Woo_Jang-Choon
+			allowed = {
+				original_tag = ROK
+			}
+			ideology = liberalism
+			traits = {
+				agircultural_genius
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
+	ROK_Ham_Tae-young={
+		name=ROK_Ham_Tae-young
+		portraits={
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Ham_Tae-Young
+			allowed = {
+				original_tag = ROK
+			}
+			ideology = liberalism
+			cost = 75
+			traits = {
+				devout_christian
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+}

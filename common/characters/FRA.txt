@@ -137,7 +137,7 @@ characters={
 
 		field_marshal={
 			traits = { panzer_leader }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -166,10 +166,10 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		field_marshal={
 			traits = { defensive_doctrine }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -198,10 +198,10 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		field_marshal={
 			traits = { defensive_doctrine }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -244,15 +244,15 @@ characters={
 				original_tag = FRA
 			}
 			cost = 100
-			
+
 			traits = {
 				grand_battle_plan_expert
 			}
 		}
-		
+
 		field_marshal={
 			traits = { thorough_planner organization_first fast_planner offensive_doctrine panzer_leader }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4 
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4 
 			legacy_id=101
 		}
 	}
@@ -267,7 +267,7 @@ characters={
 				large="gfx/leaders/FRA/portrait_france_philippe_leclerc.dds"
 			}
 		}
-		
+
 		corps_commander={
 			traits={ career_officer trait_reckless armor_officer }
 			skill=3
@@ -311,7 +311,7 @@ characters={
 				military_theorist
 			}
 		}
-		
+
 		corps_commander={
 			traits={ career_officer trait_cautious infantry_officer trickster }
 			skill=4
@@ -348,7 +348,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		corps_commander={
 			traits={ old_guard infantry_officer }
 			skill=3
@@ -442,7 +442,7 @@ characters={
 
 		navy_leader={
 			traits = { superior_tactician }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
 			legacy_id=102
 		}
 	}
@@ -511,10 +511,10 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		navy_leader={
 			traits = { spotter }
-	        skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2
+			skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -544,10 +544,10 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		navy_leader={
 			traits = {  }
-	        skill = 1 attack_skill = 1 defense_skill = 1 planning_skill = 1 logistics_skill = 1
+			skill = 1 attack_skill = 1 defense_skill = 1 planning_skill = 1 logistics_skill = 1
 			legacy_id=0
 		}
 	}
@@ -568,14 +568,14 @@ characters={
 		}
 		advisor={
 			cost = 150
-			
+
 			slot = theorist
 			idea_token = victor_denain
 			ledger = air
 			allowed = {
 				original_tag = FRA
 			}
-			
+
 			traits = {
 				assault_avaition
 			}
@@ -635,7 +635,7 @@ characters={
 			allowed = {
 				original_tag = FRA
 			}
-			
+
 			traits = {
 				grand_fleet_proponent
 			}
@@ -748,7 +748,7 @@ characters={
 			}
 		}
 	}
-	
+
 	FRA_jean_marie_abrial={
 		name=FRA_jean_marie_abrial
 		portraits={
@@ -878,7 +878,7 @@ characters={
 			}
 		}		
 	}
-	
+
 	FRA_jean_francois_jannekeyn={
 		name=FRA_jean_francois_jannekeyn
 		portraits={
@@ -926,7 +926,7 @@ characters={
 			}
 		}
 	}
-	
+
 	FRA_alfred_heurtaux={
 		name=FRA_alfred_heurtaux
 		portraits={
@@ -1001,7 +1001,7 @@ characters={
 			}
 		}
 	}
-	
+
 	FRA_gaston_henry_haye={
 		name=FRA_gaston_henry_haye
 		portraits={

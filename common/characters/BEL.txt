@@ -1,7 +1,7 @@
 characters={
 
 
-####### Country Leaders #######
+	####### Country Leaders #######
 
 
 	BEL_hubert_pierlot = {
@@ -127,7 +127,7 @@ characters={
 	}
 
 
-####### GENERALS ######
+	####### GENERALS ######
 
 	BEL_jean_offenburg = {
 		name = BEL_jean_offenburg
@@ -143,11 +143,11 @@ characters={
 			allowed = {
 				original_tag = BEL
 			}
-				
+
 			traits = {
 				superior_firepower_expert
 			}
-				
+
 			cost = 150
 
 			ai_will_do = {
@@ -181,11 +181,11 @@ characters={
 			allowed = {
 				original_tag = BEL
 			}
-				
+
 			traits = {
 				army_chief_offensive_3
 			}
-				
+
 			cost = 200
 
 			ai_will_do = {
@@ -217,11 +217,11 @@ characters={
 			allowed = {
 				original_tag = BEL
 			}
-				
+
 			traits = {
 				army_chief_defensive_2
 			}
-				
+
 			cost = 150
 			ai_will_do = {
 				base = 1.000
@@ -444,7 +444,7 @@ characters={
 
 	}
 
-########### Admirals ###########
+	########### Admirals ###########
 
 	BEL_georges_timmermans = {
 		name = BEL_georges_timmermans
@@ -481,7 +481,7 @@ characters={
 	}
 
 
-########### Air ###########
+	########### Air ###########
 
 
 	BEL_willy_coppens = {
@@ -581,7 +581,7 @@ characters={
 	}
 
 
-########### Advisors #########
+	########### Advisors #########
 
 
 	BEL_dieudonne_salve = {

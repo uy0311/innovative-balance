@@ -13,7 +13,7 @@ characters={
 			id=-1
 		}
 	}
-	
+
 	CHI_zhang_guotao={
 		name=CHI_zhang_guotao
 		portraits={
@@ -28,7 +28,7 @@ characters={
 			id=-1
 		}
 	}
-	
+
 	CHI_wang_jingwei={
 		name=CHI_wang_jingwei
 		portraits={
@@ -42,7 +42,7 @@ characters={
 			id=-1
 		}
 	}
-	
+
 	CHI_weng_wenhao={
 		name=CHI_weng_wenhao
 		portraits={
@@ -56,7 +56,7 @@ characters={
 			id=-1
 		}
 	}
-	
+
 	CHI_tu_yuming={
 		name=CHI_tu_yuming
 		portraits={
@@ -75,7 +75,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
+
 	CHI_hsueh_yueh={
 		name=CHI_hsueh_yueh
 		portraits={
@@ -94,7 +94,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
+
 	CHI_tai_anlan={
 		name=CHI_tai_anlan
 		portraits={
@@ -113,7 +113,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
+
 	CHI_wang_yaowu={
 		name=CHI_wang_yaowu
 		portraits={
@@ -132,7 +132,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
+
 	CHI_sun_li_jen={
 		name=CHI_sun_li_jen
 		portraits={
@@ -151,7 +151,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
+
 	CHI_hu_zongnan={
 		name=CHI_hu_zongnan
 		portraits={
@@ -170,7 +170,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
+
 	CHI_gu_zhutong={
 		name=CHI_gu_zhutong
 		portraits={
@@ -189,7 +189,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
+
 	CHI_wei_lihuang={
 		name=CHI_wei_lihuang
 		portraits={
@@ -250,7 +250,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { commando infantry_leader guerilla_fighter }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -264,7 +264,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { commando infantry_leader guerilla_fighter }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -278,7 +278,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { commando infantry_leader guerilla_fighter }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -292,7 +292,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { panzer_leader }
-	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 		}
 	}
 
@@ -306,7 +306,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { trait_engineer }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -320,7 +320,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { trait_engineer }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -334,7 +334,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { winter_specialist panzer_leader }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -348,7 +348,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { panzer_leader }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -362,7 +362,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { hill_fighter jungle_rat }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -376,7 +376,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { ranger jungle_rat }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -390,7 +390,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { bearer_of_artillery trait_engineer }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -404,7 +404,7 @@ characters={
 		}
 		field_marshal = {
 			traits = { logistics_wizard defensive_doctrine }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 		}
 	}
 
@@ -418,7 +418,7 @@ characters={
 		}
 		field_marshal = {
 			traits = { logistics_wizard defensive_doctrine  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -433,10 +433,10 @@ characters={
 				small="gfx/interface/ideas/idea_generic_fascist_africa.dds"
 			}
 		}
-		
+
 		navy_leader={
 			traits = { ironside }
-	        skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
 			legacy_id=0
 		}
 	}
@@ -449,10 +449,10 @@ characters={
 				small="gfx/interface/ideas/idea_generic_fascist_africa.dds"
 			}
 		}
-		
+
 		navy_leader={
 			traits = { superior_tactician }
-	        skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
 			legacy_id=0
 		}
 	}
@@ -465,10 +465,10 @@ characters={
 				small="gfx/interface/ideas/idea_generic_fascist_africa.dds"
 			}
 		}
-		
+
 		navy_leader={
 			traits = { air_controller }
-	        skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
 			legacy_id=0
 		}
 	}
@@ -492,7 +492,7 @@ characters={
 			allowed = {
 				original_tag = CHI
 			}
-			
+
 			traits = {
 				military_theorist
 			}
@@ -514,7 +514,7 @@ characters={
 			allowed = {
 				original_tag = CHI
 			}
-			
+
 			traits = {
 				air_warfare_theorist
 			}
@@ -536,7 +536,7 @@ characters={
 			allowed = {
 				original_tag = CHI
 			}
-			
+
 			traits = {
 				naval_theorist
 			}
@@ -664,7 +664,7 @@ characters={
 		}
 	}
 
-	
+
 	### NAVY CHIEFS ###
 
 	CHI_xiao_jinguang={
@@ -815,7 +815,7 @@ characters={
 			}
 		}
 	}
-	
+
 	CHI_yu_hanmou={
 		name=CHI_yu_hanmou
 		portraits={
@@ -848,7 +848,7 @@ characters={
 	# Dai Li in shared file
 
 	# T.V. Soong in shared file
-	
+
 	CHI_chiang_ching_kuo={
 		name=CHI_chiang_ching_kuo
 		portraits={
@@ -961,7 +961,7 @@ characters={
 			}
 		}
 	}
-	
+
 	CHI_soong_mei_ling={
 		name=CHI_soong_mei_ling
 		portraits={

@@ -82,7 +82,7 @@ characters={
 
 		field_marshal={
 			traits = { defensive_doctrine }
-	        skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2
+			skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -111,7 +111,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		field_marshal={
 			traits={ old_guard trait_cautious politically_connected defensive_doctrine }
 			skill=1
@@ -147,7 +147,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		corps_commander={
 			traits={ old_guard career_officer trait_cautious }
 			skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2
@@ -177,10 +177,10 @@ characters={
 				military_theorist
 			}
 		}
-		
+
 		corps_commander={
 			traits = {  urban_assault_specialist panzer_leader }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -195,7 +195,7 @@ characters={
 		}
 		corps_commander={
 			traits = { panzer_leader }
-	        skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2
+			skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -243,10 +243,10 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		corps_commander={
 			traits = { bearer_of_artillery trait_engineer panzer_leader }
-	        skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
+			skill = 3 attack_skill = 3 defense_skill = 3 planning_skill = 3 logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -296,7 +296,7 @@ characters={
 				large = GFX_portrait_ITA_amedeo_guillet
 			}
 		}
-		
+
 		corps_commander = {
 			traits = { trickster bearer_of_artillery desert_fox hill_fighter skirmisher } 
 			skill = 3
@@ -308,7 +308,7 @@ characters={
 		}
 	}
 
-#IB_add_general
+	#IB_add_general
 	Josip_Broz_Tito = {
 		name = "Josip Broz Tito"
 		portraits = {
@@ -319,7 +319,7 @@ characters={
 		}
 		field_marshal = {
 			traits = { thorough_planner organizer logistics_wizard offensive_doctrine  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -332,11 +332,11 @@ characters={
 				large = "gfx/leaders/ITA/Lazare Ponticelli.dds"
 			}
 		}
-		
+
 
 		field_marshal = {
 			traits = { urban_assault_specialist }
-	        skill = 1 attack_skill = 1 defense_skill = 1 planning_skill = 1 logistics_skill = 1
+			skill = 1 attack_skill = 1 defense_skill = 1 planning_skill = 1 logistics_skill = 1
 			legacy_id=0
 		}
 	}
@@ -349,11 +349,11 @@ characters={
 				large = "gfx/leaders/ITA/Italo Gariboldi.dds"
 			}
 		}
-		
+
 
 		corps_commander = {
 			traits = { urban_assault_specialist panzer_leader }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -366,11 +366,11 @@ characters={
 				large = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 			}
 		}
-		
+
 
 		corps_commander = {
 			traits = { trait_mountaineer hill_fighter }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -383,10 +383,10 @@ characters={
 				large = "gfx/leaders/ITA/miho.dds"
 			}
 		}
-		
+
 		corps_commander = {
 			traits = {  panzer_leader trickster urban_assault_specialist }
-	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
 	}
@@ -399,11 +399,11 @@ characters={
 				large = "gfx/leaders/ITA/maho.dds"
 			}
 		}
-		
+
 
 		corps_commander = {
 			traits = { panzer_leader  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -416,10 +416,10 @@ characters={
 				large = "gfx/leaders/ITA/Kay.dds"
 			}
 		}
-		
+
 		corps_commander = {
 			traits = { panzer_leader  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -435,7 +435,7 @@ characters={
 
 		corps_commander = {
 			traits = { panzer_leader  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -466,7 +466,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		navy_leader = {
 			traits = { battleship_adherent superior_tactician spotter }
 			skill = 2
@@ -503,10 +503,10 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		navy_leader={
 			traits = { superior_tactician spotter air_controller }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -569,10 +569,10 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		navy_leader={
 			traits = { battleship_adherent blockade_runner ironside }
-	        skill = 2 
+			skill = 2 
 			attack_skill = 3 
 			defense_skill = 3
 			maneuvering_skill=2
@@ -654,7 +654,7 @@ characters={
 				large = GFX_portrait_ITA_prince_aimone
 			}
 		}
-		 
+
 		navy_leader = {
 			traits = { gentlemanly inshore_fighter }
 			skill = 2
@@ -758,7 +758,7 @@ characters={
 			}
 		}
 	}
-	
+
 
 	### ARMY CHIEFS ###
 
@@ -880,8 +880,8 @@ characters={
 	ITA_mario_roatta={
 		name=ITA_mario_roatta
 		portraits={
-		#TODO_Manu: In the past we were not able to make this work. I hope that you, people from the future who are seeing this, will be able to use your knowledge and sci-fi technology to make this work. Good luck comrades. 
-		#Edit: But don't duplicate this character or my cursed spirit will come to haunt you.
+			#TODO_Manu: In the past we were not able to make this work. I hope that you, people from the future who are seeing this, will be able to use your knowledge and sci-fi technology to make this work. Good luck comrades. 
+			#Edit: But don't duplicate this character or my cursed spirit will come to haunt you.
 			#civilian = {
 			#	small = "gfx/interface/ideas/idea_ita_mario_roatta_political_advisor.dds"
 			#}
@@ -908,7 +908,7 @@ characters={
 
 
 
-	
+
 	ITA_ettore_muti={
 		name=ITA_ettore_muti
 		portraits={
@@ -956,7 +956,7 @@ characters={
 			}
 		}		
 	}
-	
+
 	ITA_silvio_scaroni={
 		name=ITA_silvio_scaroni
 		portraits={
@@ -1215,7 +1215,7 @@ characters={
 			}
 		}
 	}
-	
+
 	ITA_junio_valerio_borghese={
 		name=ITA_junio_valerio_borghese
 		portraits={
@@ -1261,7 +1261,7 @@ characters={
 			}
 		}
 	}
-	
+
 	ITA_paolo_thaon_di_revel={
 		name=ITA_paolo_thaon_di_revel
 		portraits={

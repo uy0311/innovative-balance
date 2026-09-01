@@ -245,11 +245,11 @@ characters={
 		}
 		corps_commander={
 			traits = { fast_planner trait_engineer trait_mountaineer }
-            skill = 3
-            attack_skill = 3
-            defense_skill = 3
-            planning_skill = 3
-            logistics_skill = 3
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -264,7 +264,7 @@ characters={
 		}
 		navy_leader={
 			traits = { seawolf }
-            skill = 4 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
+			skill = 4 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -279,7 +279,7 @@ characters={
 		}
 		navy_leader={
 			traits = { spotter fly_swatter fleet_protector }
-            skill = 4 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
+			skill = 4 attack_skill = 3 defense_skill = 3 maneuvering_skill = 3 coordination_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -294,7 +294,7 @@ characters={
 		}
 		navy_leader={
 			traits = { superior_tactician air_controller }
-	        skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 maneuvering_skill = 5 coordination_skill = 5
 			legacy_id=-1
 		}
 	}
@@ -376,7 +376,7 @@ characters={
 			allowed = {
 				original_tag = AST
 			}
-			
+
 			traits = {
 				naval_theorist
 			}
@@ -398,7 +398,7 @@ characters={
 			allowed = {
 				original_tag = AST
 			}
-			
+
 			traits = {
 				air_warfare_theorist
 			}
@@ -600,8 +600,8 @@ characters={
 			}
 		}
 	}
-	
-	
+
+
 	AST_john_collins={
 		name=AST_john_collins
 		portraits={
@@ -648,7 +648,7 @@ characters={
 			cost = 150
 		}		
 	}
-	
+
 	AST_cederic_hicks={
 		name=AST_cederic_hicks
 		portraits={
@@ -695,7 +695,7 @@ characters={
 			}
 		}		
 	}
-	
+
 	AST_robert_g_menzies={
 		name=AST_robert_g_menzies
 		portraits={

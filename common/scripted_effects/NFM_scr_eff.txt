@@ -1,0 +1,308 @@
+# GPT-5.6 Terraで作成
+NFM_dirty={
+	if={limit={check_variable={NFM_d=1000}}set_variable={NFM_d=0}}else={add_to_variable={NFM_d=1}}
+}
+NFM_on_startup={
+	set_variable={NFM_d=0}
+	set_variable={NFM_nfnum=0}
+	clear_array=NFM_focus_queue
+	clear_array=NFM_templates
+	clear_array=NFM_seleffs
+	#NFM_reset_fvals=yes
+	meta_effect={
+		text={
+			NFM_on_startup_[tag]=yes
+			NFM_reset_fvals=yes
+		}
+		tag="[NFM_TAG_with_shared]"
+	}
+	if={
+		limit={NFM_allowed_sha=yes}
+		add_to_variable={NFM_nfnum=10001}
+		meta_effect={
+			text={
+				NFM_on_startup_[shatag]=yes
+				NFM_reset_fvals_sha=yes
+				NFM_set_select_effect_[shatag]=yes
+			}
+			shatag="[NFM_TAG_with_shared]"
+		}
+	}
+	set_variable={NFM_nfnum=0}
+	meta_effect={
+		text={
+			NFM_focus_tree_layout_dirty_[tag]=yes
+			NFM_add_tempaltes_[tag]=yes
+			NFM_set_select_effect_[tag]=yes
+		}
+		tag="[NFM_TAG_with_shared]"
+	}
+	# meta_effect={
+	# 	#debug=yes
+	# 	text={
+	# 		NFM_on_startup_[tag]=yes
+	# 		NFM_reset_fvals=yes
+	# 		set_variable={NFM_nfnum=0}
+	# 		NFM_focus_tree_layout_dirty_[tag]=yes
+	# 		NFM_add_tempaltes_[tag]=yes
+	# 		NFM_set_select_effect_[tag]=yes
+	# 	}
+	# 	#tag="[this.GetTag]"
+	# 	tag="[NFM_TAG]"
+	# }
+
+}
+NFM_try_load_oob={
+	if={limit={has_country_flag=NFM_NFMactivated}
+		meta_effect = {
+			text={set_variable={f[nfid]=1} set_variable={t[nfid]=0}}
+			nfid="[?NFM_nfnum]"
+		}
+		set_variable={NFM_nfnum=0}
+		set_country_flag=NFM_error
+		clr_country_flag=NFM_NFMactivated
+		NFM_dirty=yes
+	}
+	else={
+		if={
+			limit={has_variable=NFM_focus_queue^0}
+			NFM_load_oob=yes
+		}
+	}
+}
+NFM_set={
+	meta_effect={
+		text={
+			if={limit={check_variable={f[nfid]=1}}
+				add_to_array={NFM_focus_queue=[nfid]}
+				set_variable={f[nfid]=2}
+				set_variable={t[nfid]=NFM_focus_queue^num}
+			}
+			else_if ={
+				limit={check_variable={f[nfid]=2}}
+				remove_from_array={NFM_focus_queue=[nfid]}
+				set_variable={f[nfid]=1}
+				set_variable={t[nfid]=0}
+			}
+		}
+		nfid="[?n]"
+	}
+	clr_country_flag=NFM_error
+	NFM_set_text_variables=yes
+}
+NFM_set_text_variables={
+	for_each_loop={
+		array=NFM_focus_queue value=vv index=ii
+		meta_effect={
+			text={
+				add_to_temp_variable={ii=1}
+				set_variable={t[nfid]=ii}
+			}
+			nfid="[?vv]"
+		}
+	}
+	NFM_dirty=yes
+}
+NFM_sync_tree_to_queue={
+	for_each_loop={
+		array=NFM_focus_queue value=vv index=ii
+		meta_effect={
+			text={
+				add_to_temp_variable={ii=1}
+				set_variable={t[nfid]=ii}
+				set_variable={f[nfid]=2}
+			}
+			nfid="[?vv]"
+		}
+	}
+	NFM_dirty=yes
+}
+NFM_load_oob={
+	set_variable={NFM_nfnum=NFM_focus_queue^0}
+	meta_effect={
+		text={
+			if={limit={[tag]_set[nfid]=yes}
+			remove_from_array={array=NFM_focus_queue index=0}
+			set_country_flag=NFM_NFMactivated
+			clr_country_flag=NFM_error
+			load_oob=[tag]/[tag]_[nfid]
+			if={limit={is_in_array={NFM_seleffs=[nfid]}}
+				NFM_load_seleff=yes
+			}
+			set_variable={f[nfid]=4}
+			set_variable={t[nfid]=0}
+			}
+			else={set_variable={NFM_nfnum=0} set_country_flag=NFM_error}
+		}
+		nfid="[?NFM_nfnum]"
+		#tag="[root.GetTag]"
+		tag="[NFM_TAG_with_shared]"
+	}
+	set_variable={v=NFM_nfnum} #queue loc
+	NFM_set_text_variables=yes
+}
+NFM_load_seleff={
+	meta_effect={
+		text={[tag]_seleff[nfid]=yes}
+		nfid="[?NFM_nfnum]"
+		tag="[NFM_TAG_with_shared]"
+	}
+}
+NFM_complete_focus={
+	#if={limit={not={check_variable={NFM_nfnum=0}}}
+		meta_effect={
+			text={set_variable={f[nfid]=5} set_variable={t[nfid]=0}}
+			nfid="[?NFM_c]"
+		}
+	#}
+	if={limit={is_in_array={NFM_focus_queue=NFM_c}}
+		remove_from_array={NFM_focus_queue=NFM_c}
+		NFM_set_text_variables=yes
+	}
+	if={limit={check_variable={NFM_nfnum=NFM_c}}
+	clr_country_flag=NFM_error
+	clr_country_flag=NFM_NFMactivated
+	}
+	NFM_dirty=yes
+}
+NFM_get_lastindex={
+	set_temp_variable={li=NFM_focus_queue^num}
+	subtract_from_temp_variable={li=1}
+}
+NFM_reset_fvals={
+	for_loop_effect={
+		start=101 end=i_end value=i
+		meta_effect={
+			text={
+				set_variable={f[nfid]=1}
+			}
+			nfid="[?i]"
+		}
+	}
+	for_loop_effect={
+		start=i_end end=549 value=i
+		meta_effect={
+			text={
+				set_variable={f[nfid]=7}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFM_reset_fvals_sha={
+	for_loop_effect={
+		start=10001 end=i_end value=i
+		meta_effect={
+			text={
+				set_variable={f[nfid]=1}
+			}
+			nfid="[?i]"
+		}
+	}
+	for_loop_effect={
+		start=i_end end=10126 value=i
+		meta_effect={
+			text={
+				set_variable={f[nfid]=7}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFM_set_fvals={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				if={limit={check_variable={f[nfid]=6}}
+					set_variable={f[nfid]=1}
+				}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFM_allow_branch_before={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				if={limit={check_variable={f[nfid]<4}}
+					set_variable={f[nfid]=6}
+				}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFM_allow_branch_after={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				if={
+					limit={check_variable={f[nfid]=6}}
+					if={limit={is_in_array={NFM_focus_queue=i}}
+					remove_from_array={NFM_focus_queue=i}
+					set_variable={t[nfid]=0}
+					}
+				}
+			}
+			nfid="[?i]"
+		}
+	}
+	NFM_sync_tree_to_queue=yes
+}
+NFM_sub_xpositions={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				subtract_from_variable={x[nfid]=val}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFM_sub_ypositions={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				subtract_from_variable={y[nfid]=val}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFM_slide_xpos={
+	#find_lowest_in_array={array = x value=lowestx}
+	#set_temp_variable={lowestx=0}
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				if={
+					limit={check_variable={x[nfid]<lowestx}check_variable={f[nfid]<5}}
+					set_temp_variable={lowestx=x[nfid]}
+				}
+			}
+			nfid="[?i]"
+		}
+	}
+	if={
+		limit={check_variable={lowestx<0}}
+		set_temp_variable={val=lowestx}
+		NFM_sub_xpositions=yes
+	}
+}
+NFM_load_template_queue={
+	NFM_del_all=yes
+	meta_effect={
+		text={NFM_[tag]_[tv]=yes}
+		#tag="[root.GetTag]"
+		tag="[NFM_TAG_with_shared]"
+		tv="[?tv]"
+	}
+	NFM_sync_tree_to_queue=yes
+}

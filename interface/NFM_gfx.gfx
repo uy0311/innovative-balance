@@ -1,0 +1,20 @@
+# GPT-5.6 Terraで作成
+spriteTypes={
+	spriteType={
+		name="GFX_icon"
+		textureFile="interface/NFM_icon.png"
+		noOfFrames=4
+	}
+	spriteType={
+		name="GFX_queue_bg"
+		textureFile="interface/NFM_queue_item.png"
+	}
+	spriteType={
+		name="GFX_startmenu_bg"
+		textureFile="interface/NFM_startmenu.png"
+	}
+	spriteType={
+		name="GFX_template_bg"
+		textureFile="interface/NFM_template_item.png"
+	}
+}

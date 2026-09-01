@@ -1,0 +1,18 @@
+# GPT-5.6 Terraで作成
+defined_text={
+	name=NFM_queue_num
+	text={
+		trigger={has_variable=i set_temp_variable={ii=i} add_to_temp_variable={ii=1}}
+		localization_key="[?ii]"
+	}
+}
+defined_text={
+	name=NFM_queue_state
+	text={trigger={has_country_flag=NFM_error}localization_key="NFM_queue_state_error"}
+	text={trigger={has_country_flag=NFM_NFMactivated}localization_key="NFM_queue_state_active"}
+	text={localization_key=""}
+}
+defined_text={name=NFM_startmenu_text_scr
+text={trigger={NFM_allowed=yes}localization_key="NFM_start_text"}
+text={localization_key="NFM_start_text_error"}
+}

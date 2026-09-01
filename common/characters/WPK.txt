@@ -1,0 +1,71 @@
+characters = {
+	WPK_Kim_Il_Sung={
+		name=WPK_Kim_Il_Sung
+		portraits={
+			army={
+				large="gfx/leaders/WPK/Kim Il-Sung.dds"
+
+			}
+		}
+		field_marshal={
+			traits={ trickster trait_engineer  }
+			skill= 3
+			attack_skill=6
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+		}
+	}
+
+	WPK_Cheo_Yong_Gong={
+		name=WPK_Cheo_Yong_Gong
+		portraits={
+			army={
+				large="gfx/leaders/WPK/Cheo Yong Gong.dds"
+
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_engineer  }
+			skill= 2
+			attack_skill=3
+			defense_skill=4
+			planning_skill= 1
+			logistics_skill=2
+		}
+	}
+
+	WPK_Song={
+		name=WPK_Song
+		portraits={
+			army={
+				large="gfx/leaders/WPK/Song.dds"
+
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_engineer  }
+			skill= 2
+			attack_skill=2
+			defense_skill=1
+			planning_skill= 3
+			logistics_skill=2
+		}
+	}
+	WPK_Kim_Chaek={
+		name=WPK_Kim_Chaek
+		portraits={
+			army={
+				large="gfx/leaders/WPK/Kim_Chaek_2.dds"
+
+			}
+		}
+		corps_commander={
+			skill= 2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+}

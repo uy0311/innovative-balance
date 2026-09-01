@@ -105,7 +105,7 @@ characters={
 			legacy_id=0
 		}
 	}
-		#chief
+	#chief
 	SWE_per_sylvan={
 		advisor={
 			slot = army_chief
@@ -133,15 +133,15 @@ characters={
 			slot = high_command
 			idea_token = SWE_ivar_holmquist
 			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_chief_organizational_3
-				}
-				cost = 200
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SWE
+			}
+			traits = {
+				army_chief_organizational_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		name=SWE_ivar_holmquist
 		portraits={
@@ -155,15 +155,15 @@ characters={
 			slot = army_chief
 			idea_token = SWE_oscar_nygren
 			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_chief_drill_3
-				}
-				cost = 200
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SWE
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		name=SWE_oscar_nygren
 		portraits={
@@ -177,15 +177,15 @@ characters={
 			slot = army_chief
 			idea_token = SWE_olof_thornell
 			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_chief_entrenchment_3
-				}
-				cost = 200
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SWE
+			}
+			traits = {
+				army_chief_entrenchment_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		name=SWE_olof_thornell
 		portraits={
@@ -221,15 +221,15 @@ characters={
 			slot = navy_chief
 			idea_token = SWE_charles_de_champs
 			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SWE
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		name=SWE_charles_de_champs
 		portraits={
@@ -265,15 +265,15 @@ characters={
 			slot = air_chief
 			idea_token = SWE_bengt_nordenskiold
 			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SWE
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		name=SWE_bengt_nordenskiold
 		portraits={
@@ -289,16 +289,16 @@ characters={
 			slot = high_command
 			idea_token = SWE_axel_rappe
 			ledger = army
-				allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_logistics_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = SWE
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		name=SWE_axel_rappe
 		portraits={
@@ -335,15 +335,15 @@ characters={
 			slot = high_command
 			idea_token = SWE_fabian_tamm
 			allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					army_chief_morale_3
-				}
-				cost = 200
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SWE
+			}
+			traits = {
+				army_chief_morale_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		name=SWE_fabian_tamm
 		portraits={
@@ -357,16 +357,16 @@ characters={
 			slot = high_command
 			idea_token = SWE_helge_stromback
 			ledger = navy
-				allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					navy_fleet_logistics_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = SWE
+			}
+			traits = {
+				navy_fleet_logistics_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		name=SWE_helge_stromback
 		portraits={
@@ -398,19 +398,19 @@ characters={
 			}
 		}
 	}
-		#theorist
+	#theorist
 	SWE_helge_jung={
 		advisor={
 			cost = 100
 			slot = theorist
 			idea_token = SWE_helge_jung
 			ledger = army
-				allowed = {
-					original_tag = SWE
-				}
-				traits = {
-					military_theorist
-				}
+			allowed = {
+				original_tag = SWE
+			}
+			traits = {
+				military_theorist
+			}
 		}
 		name=SWE_helge_jung
 		portraits={
@@ -425,10 +425,10 @@ characters={
 			slot = theorist
 			idea_token = SWE_erik_palmstierna
 			ledger = navy
-				allowed = {
-					original_tag = SWE
-				}
-				traits = { naval_theorist }
+			allowed = {
+				original_tag = SWE
+			}
+			traits = { naval_theorist }
 		}
 		name=SWE_erik_palmstierna
 		portraits={
@@ -457,7 +457,7 @@ characters={
 			}
 		}
 	}
-		#political_advisor
+	#political_advisor
 	SWE_ernst_wigforss={
 		advisor={
 			slot = political_advisor
@@ -561,7 +561,7 @@ characters={
 		}
 		field_marshal={
 			traits = { thorough_planner bearer_of_artillery organizer organization_first fast_planner unyielding_defender winter_specialist }
-	        skill = 5 attack_skill = 4 defense_skill = 6 planning_skill = 5 logistics_skill = 5
+			skill = 5 attack_skill = 4 defense_skill = 6 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
 	}
@@ -576,7 +576,7 @@ characters={
 		}
 		field_marshal={
 			traits = { logistics_wizard offensive_doctrine organizer winter_specialist }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -591,7 +591,7 @@ characters={
 		}
 		corps_commander={
 			traits = { bearer_of_artillery commando trait_engineer winter_specialist }
-	        skill = 4 attack_skill = 6 defense_skill = 3 planning_skill = 4 logistics_skill = 5
+			skill = 4 attack_skill = 6 defense_skill = 3 planning_skill = 4 logistics_skill = 5
 			legacy_id=0
 		}
 	}
@@ -606,7 +606,7 @@ characters={
 		}
 		corps_commander={
 			traits = { trickster ranger urban_assault_specialist winter_specialist }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -621,7 +621,7 @@ characters={
 		}
 		corps_commander={
 			traits = { panzer_leader engineer winter_specialist }
-	        skill = 3 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 3 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -636,7 +636,7 @@ characters={
 		}
 		corps_commander={
 			traits = { ranger engineer trickster winter_specialist }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -651,7 +651,7 @@ characters={
 		}
 		corps_commander={
 			traits = { trickster panzer_leader winter_specialist  }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -666,7 +666,7 @@ characters={
 		}
 		corps_commander={
 			traits = { panzer_leader ranger winter_specialist }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -681,7 +681,7 @@ characters={
 		}
 		corps_commander={
 			traits = { engineer panzer_leader winter_specialist  }
-	        skill = 3 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 3 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -696,7 +696,7 @@ characters={
 		}
 		navy_leader={
 			traits = { superior_tactician }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -711,7 +711,7 @@ characters={
 		}
 		navy_leader={
 			traits = { air_controller }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -726,7 +726,7 @@ characters={
 		}
 		navy_leader={
 			traits = { superior_tactician }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -741,7 +741,7 @@ characters={
 		}
 		navy_leader={
 			traits = { fly_swatter }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -756,7 +756,7 @@ characters={
 		}
 		navy_leader={
 			traits = { superior_tactician spotter ironside }
-	        skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 maneuvering_skill = 4 coordination_skill = 4
 			legacy_id=0
 		}
 	}

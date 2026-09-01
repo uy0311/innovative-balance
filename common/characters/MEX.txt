@@ -426,7 +426,7 @@ characters={
 			allowed = {
 				original_tag = MEX
 			}
-			
+
 			traits = {
 				air_warfare_theorist
 			}
@@ -624,7 +624,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		
+
 		corps_commander={
 			traits={ war_hero }
 			skill=3
@@ -689,7 +689,7 @@ characters={
 		}
 	}
 
-		
+
 	MEX_hector_meixueiro={
 		name=MEX_hector_meixueiro
 		portraits={
@@ -716,7 +716,7 @@ characters={
 
 
 	### POLITICAL ADVISORS ###	
-	
+
 	# Ávila Camacho up there
 
 	MEX_vicente_lombardo={
@@ -959,6 +959,6 @@ characters={
 			}
 		}
 	}
-	
+
 	# Illusive Gentleman auto-generated
 }

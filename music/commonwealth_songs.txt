@@ -18,7 +18,6 @@ music = {
 					tag = ENG
 				}
 			}
-			126 = { is_controlled_by = ENG }
 		}
 		modifier = {
 			factor = 5

@@ -68,23 +68,23 @@ characters={
 	}
 	SIA_tianliang_huntrakool={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = SIA_tianliang_huntrakool
 			ledger = army
-				allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					army_concealment_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				army_concealment_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Tianliang Huntrakool"
 		portraits={
 			army={
@@ -95,19 +95,19 @@ characters={
 	SIA_phra_silpasakrakorn={
 		advisor={
 			cost = 100
-			
+
 			slot = theorist
 			idea_token = SIA_phra_silpasakrakorn
 			ledger = air
-				allowed = {
-					original_tag = SIA
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
+			allowed = {
+				original_tag = SIA
+			}
+
+			traits = {
+				air_warfare_theorist
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Phra Silpasakrakorn"
 		portraits={
 			army={
@@ -117,23 +117,23 @@ characters={
 	}
 	SIA_luang_sinthusongkhramchai={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = SIA_luang_sinthusongkhramchai
 			ledger = navy
-				allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					air_naval_strike_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				air_naval_strike_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Luang Sinthusongkhramchai"
 		portraits={
 			army={
@@ -143,22 +143,22 @@ characters={
 	}
 	SIA_thawon_thamrongnawasawat={
 		advisor={
-			
-			
+
+
 			slot = navy_chief
 			idea_token = SIA_thawon_thamrongnawasawat
 			allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					navy_chief_maneuver_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SIA
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Thawon Thamrongnawasawat"
 		portraits={
 			army={
@@ -168,23 +168,23 @@ characters={
 	}
 	SIA_phraya_preechacholayudha={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = SIA_phraya_preechacholayudha
 			ledger = navy
-				allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					navy_submarine_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				navy_submarine_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Phraya Preechacholayudha"
 		portraits={
 			army={
@@ -194,23 +194,23 @@ characters={
 	}
 	SIA_pridi_phanomyong={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = SIA_pridi_phanomyong
 			ledger = navy
-				allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					navy_screen_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				navy_screen_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Pridi Phanomyong"
 		portraits={
 			army={
@@ -220,23 +220,23 @@ characters={
 	}
 	SIA_sindhu_kamalanavin={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = SIA_sindhu_kamalanavin
 			ledger = army
-				allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					army_logistics_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Sindhu Kamalanavin"
 		portraits={
 			army={
@@ -246,22 +246,22 @@ characters={
 	}
 	SIA_phraya_chitnasongkhla={
 		advisor={
-			
-			
+
+
 			slot = army_chief
 			idea_token = SIA_phraya_chitnasongkhla
 			allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SIA
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Phraya Chitnasongkhla"
 		portraits={
 			army={
@@ -271,23 +271,23 @@ characters={
 	}
 	SIA_phraya_thayarnpikart={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = SIA_phraya_thayarnpikart
 			ledger = air
-				allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					air_close_air_support_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				air_close_air_support_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Phraya Thayarnpikart"
 		portraits={
 			army={
@@ -297,22 +297,22 @@ characters={
 	}
 	SIA_phra_vechayanrangsarit={
 		advisor={
-			
-			
+
+
 			slot = air_chief
 			idea_token = SIA_phra_vechayanrangsarit
 			allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SIA
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Phra Vechayanrangsarit"
 		portraits={
 			army={
@@ -323,19 +323,19 @@ characters={
 	SIA_manphya_khanphialong={
 		advisor={
 			cost = 100
-			
+
 			slot = theorist
 			idea_token = SIA_manphya_khanphialong
 			ledger = army
-				allowed = {
-					original_tag = SIA
-				}
-				
-				traits = {
-					military_theorist
-				}
+			allowed = {
+				original_tag = SIA
+			}
+
+			traits = {
+				military_theorist
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Manphya Khanphialong"
 		portraits={
 			army={
@@ -345,22 +345,22 @@ characters={
 	}
 	SIA_luang_phibunsongkhram={
 		advisor={
-			
-			
+
+
 			slot = high_command
 			idea_token = SIA_luang_phibunsongkhram
 			allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					army_chief_morale_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SIA
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Luang Phibunsongkhram"
 		portraits={
 			army={
@@ -370,22 +370,22 @@ characters={
 	}
 	SIA_phraya_wichcitcholathai={
 		advisor={
-			
-			
+
+
 			slot = navy_chief
 			idea_token = SIA_phraya_wichcitcholathai
 			allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SIA
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Phraya Wichcitcholathai"
 		portraits={
 			army={
@@ -396,19 +396,19 @@ characters={
 	SIA_sawat_phutianands={
 		advisor={
 			cost = 100
-			
+
 			slot = theorist
 			idea_token = SIA_sawat_phutianands
 			ledger = navy
-				allowed = {
-					original_tag = SIA
-				}
-				
-				traits = {
-					naval_theorist
-				}
+			allowed = {
+				original_tag = SIA
+			}
+
+			traits = {
+				naval_theorist
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Sawat Phutianands"
 		portraits={
 			army={
@@ -418,22 +418,22 @@ characters={
 	}
 	SIA_phraya_chalermarkiart={
 		advisor={
-			
-			
+
+
 			slot = air_chief
 			idea_token = SIA_phraya_chalermarkiart
 			allowed = {
-					original_tag = SIA
-				}
-				traits = {
-					air_chief_night_operations_2
-				}
-				cost = 150
-				ai_will_do = {
-					factor = 1.000
-				}
+				original_tag = SIA
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Phraya Chalermarkiart"
 		portraits={
 			army={
@@ -446,13 +446,13 @@ characters={
 			slot = political_advisor
 			idea_token = SIA_kuang_abhayavongsa
 			allowed  = {
-					original_tag  = SIA
-				}
-				traits  = {
-					silent_workhorse 
-				}
+				original_tag  = SIA
+			}
+			traits  = {
+				silent_workhorse 
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Kuang Abhayavongsa"
 		portraits={
 			army={
@@ -465,13 +465,13 @@ characters={
 			slot = political_advisor
 			idea_token = SIA_thawee_punyaketu
 			allowed  = {
-					original_tag  = SIA
-				}
-				traits  = {
-					captain_of_industry 
-				}
+				original_tag  = SIA
+			}
+			traits  = {
+				captain_of_industry 
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Thawee Punyaketu"
 		portraits={
 			army={
@@ -484,13 +484,13 @@ characters={
 			slot = political_advisor
 			idea_token = SIA_phot_bhahalyodin
 			allowed  = {
-					original_tag  = SIA
-				}
-				traits  = {
-					war_industrialist 
-				}
+				original_tag  = SIA
+			}
+			traits  = {
+				war_industrialist 
+			}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Phot Bhahalyodin"
 		portraits={
 			army={
@@ -498,7 +498,7 @@ characters={
 			}
 		}
 	}
-		#IB_add_general
+	#IB_add_general
 	SIA_Hanna_Justina_Marseille={
 		name="Hanna-Justina Marseille"
 		portraits={
@@ -509,7 +509,7 @@ characters={
 		}
 		field_marshal={
 			traits = { desert_fox trickster media_personality skilled_staffer panzer_leader}
-	        skill = 6 attack_skill = 6 defense_skill = 6 planning_skill = 6 logistics_skill = 6
+			skill = 6 attack_skill = 6 defense_skill = 6 planning_skill = 6 logistics_skill = 6
 			legacy_id=0
 		}
 	}
@@ -524,7 +524,7 @@ characters={
 		}
 		corps_commander={
 			traits = { desert_fox trait_cautious trait_engineer organizer skilled_staffer }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -539,7 +539,7 @@ characters={
 		}
 		corps_commander={
 			traits = { commando naval_invader urban_assault_specialist media_personality trickster }
-	        skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
+			skill = 5 attack_skill = 5 defense_skill = 5 planning_skill = 5 logistics_skill = 5
 			legacy_id=0
 		}
 	}
@@ -554,7 +554,7 @@ characters={
 		}
 		corps_commander={
 			traits = { hill_fighter trait_mountaineer trait_reckless infantry_officer }
-	        skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
+			skill = 4 attack_skill = 4 defense_skill = 4 planning_skill = 4 logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -569,7 +569,7 @@ characters={
 		}
 		corps_commander={
 			traits = {  }
-	        skill = 3 attack_skill = 1 defense_skill = 1 planning_skill = 1 logistics_skill = 1
+			skill = 3 attack_skill = 1 defense_skill = 1 planning_skill = 1 logistics_skill = 1
 			legacy_id=0
 		}
 	}	
@@ -586,13 +586,13 @@ characters={
 			traits={ panzer_leader ranger hill_fighter skilled_staffer }
 			skill= 2
 			attack_skill = 3
-	        defense_skill = 1
-	        planning_skill = 3
-	        logistics_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
 			legacy_id=25
 		}
 	}
-	
+
 	SIA_remu={
 		name="remu"
 		portraits={
@@ -609,7 +609,7 @@ characters={
 			planning_skill = 2
 			logistics_skill = 3
 			legacy_id = 0
-			 
+
 		}
 	}
 }

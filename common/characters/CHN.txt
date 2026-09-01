@@ -1,0 +1,78 @@
+characters = {
+
+	CHN_Peng_Dehuai ={
+		name=CHN_Peng_Dehuai
+		portraits={ 
+			army={
+				large="gfx/leaders/CHN/Peng_Dehuai.dds"
+
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+		}
+		advisor={
+			slot = army_chief
+			idea_token = Lee_Hyung-geun
+			ledger = army
+			allowed = {
+				original_tag = CHN
+			}
+			ideology = communism
+			traits = {
+				army_chief_defensive_2
+
+			}
+			cost = 75
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
+	CHN_Chen_Geng ={
+		name=CHN_Chen_Geng
+		portraits={ 
+			army={
+				large="gfx/leaders/CHN/Chengeng.dds"
+
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+		}
+
+	}
+
+	CHN_Den_Hua ={
+		name=CHN_Den_Hua
+		portraits={ 
+			army={
+				large="gfx/leaders/CHN/den_hua.dds"
+
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+
+	}
+
+
+
+
+
+}
