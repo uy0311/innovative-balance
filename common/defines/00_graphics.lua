@@ -120,6 +120,16 @@ NMapMode = {
 	CONSTRUCTION_SECONDARY_FOREIGN_BUILD_TARGET_PROVINCE_COLOR_INDEX = 12,
 	FACTION_THEATER_COLOR_INDEX = 13, -- Border color when editing a faction theater (index in BORDER_COLOR_CUSTOM_HIGHLIGHTS)
 	FACTION_THEATER_HIGHLIGHT_COLOR_INDEX = 14, -- Border color when hovering a faction theater map icon (index in BORDER_COLOR_CUSTOM_HIGHLIGHTS)
+
+	DEPLOYED_GENERAL_UNIT_LINE_COLOR = { 1.0, 1.0, 1.0, 0.3 },  -- NEW: Colour of the line drawn between a deployed General and their divisions when no commander ability is active.
+	DEPLOYED_GENERAL_UNIT_LINE_COLOR_ABILITY_ACTIVE = { 1.0, 0.55, 0.1, 1.0 },  -- NEW: Colour of the line drawn between a deployed General and their divisions when at least one commander ability is active on the General.
+	SHOW_DEPLOYED_GENERAL_COMMUNICATION_LINES = true,  -- NEW: If true, show lines between deployed generals and their divisions when in range
+	SHOW_DEPLOYED_GENERAL_NO_COMMUNICATION_LINES = true,  -- NEW: If true, show lines between deployed generals and their divisions when outside range
+	SHOW_DEPLOYED_GENERAL_FRONT_LINES = true,  -- NEW: If true, show the always-on line from each deployed General to the nearest point of their frontline.
+	DEPLOYED_GENERAL_FRONT_LINE_MAX_CAMERA_HEIGHT = 350.0,  -- NEW: Camera height above which the always-on General->frontline lines are culled (hidden).
+	SHOW_DEPLOYED_GENERAL_BASE_PLATES = true,  -- NEW: If true, draw a flat circular decal under each deployed General as a visual anchor for the comms lines.
+	DEPLOYED_GENERAL_BASE_PLATE_RADIUS = 2.5,  -- NEW: Radius of the deployed General base plate in map units. Passed as the vRange to CRangeIndicator (which doubles it to get diameter).
+	DEPLOYED_GENERAL_BASE_PLATE_COLOR = { 1.0, 1.0, 1.0, 0.9 },  -- NEW: Multiplicative tint applied to the white base-plate texture. Alpha here scales the whole decal's opacity (the texture itself already has a soft radial alpha).
 },
 
 NMapIcons = {
@@ -1305,8 +1315,6 @@ NGraphics = {
 	--  "idle2"			- idle animation of the second stage (looped)
 	--  "idle3_intro"	- intro animation of the third stage (not looped, goes to "idle3" when done)
 	--  "idle3"			- idle animation of the third stage (looped)
-	RAID_UNIT_SECOND_STAGE_PROGRESS = 0.33,			-- Specifies raid progress value on [0,1] where second stage is activated
-	RAID_UNIT_THIRD_STAGE_PROGRESS = 0.66,			-- Specifies raid progress value on [0,1] where third stage is activated
 
 	DEFAULT_NUDGE_FLOATING_HARBOR_DIST = 7.0,       -- Default distance of floating harbors from the coast in pixels, for nudger
 
@@ -1325,6 +1333,8 @@ NGraphics = {
 	FACTION_PING_MAP_ALREADY_ASSIGNED_COLOR = { 0.5, 0.5, 0.75, 0.15 },	-- Already assigned to another theater color
 	
 	FACTION_PING_MAP_GRADIENT = 150,								-- Selected region distance gradient
+
+	RAID_UNIT_ZOOM_HEIGHT = 150.0,  -- NEW: The height for the map camera to zoom in to a raid unit
 },
 
 NInterface = {
@@ -1536,6 +1546,8 @@ NSound = {
 
 	VOICE_OVER_CATEGORY  = "Voices",
 	VOICE_OVER_COOL_DOWN = 2.8, -- Wait for this many seconds before playing another vo
+
+	ABILITY_GENERIC_SOUND_NAME = "ability_generic",  -- NEW- Sound played in addition to an ability's own sound effect when the player activates an ability
 },
 
 NFriendGUI = {

@@ -1,5 +1,409 @@
-# GPT-5.6 Terraで作成
+
 on_actions={
-on_startup={effect={every_country={limit={NFM_allowed=yes}NFM_on_startup=yes}}}
-on_daily={effect={if={limit={is_ai=no NFM_allowed=yes NFM_IsFocusSelected=no}NFM_try_load_oob=yes}}}
+	on_startup={
+		effect={
+			every_country={
+				limit={
+					NFM_allowed=yes
+				}
+				NFM_on_startup=yes
+			}
+
+			every_country={
+				limit={
+					has_idea = army_effort_idea
+				}
+				set_temp_variable = { NFM_c = 101 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = artillery_research_bonus
+				}
+				set_temp_variable = { NFM_c = 102 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = tank_research_bonus
+				}
+				set_temp_variable = { NFM_c = 103 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = land_doctrine_research_bonus1
+				}
+				set_temp_variable = { NFM_c = 104 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = infantry_weapons_research_bonus
+				}
+				set_temp_variable = { NFM_c = 105 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = tank_module_research_bonus
+				}
+				set_temp_variable = { NFM_c = 106 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = land_doctrine_research_bonus2
+				}
+				set_temp_variable = { NFM_c = 107 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = support_tech_bonus
+				}
+				set_temp_variable = { NFM_c = 108 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = mechanization_equipment_research_bonus
+				}
+				set_temp_variable = { NFM_c = 109 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = special_forces_research_bonus
+				}
+				set_temp_variable = { NFM_c = 110 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = aviation_effort_idea
+				}
+				set_temp_variable = { NFM_c = 111 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = air_doctrine_research_bonus1
+				}
+				set_temp_variable = { NFM_c = 112 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = aircraft_engine_research_bonus
+				}
+				set_temp_variable = { NFM_c = 113 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = aircraft_gun_research_bonus
+				}
+				set_temp_variable = { NFM_c = 114 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = fighter_research_bonus
+				}
+				set_temp_variable = { NFM_c = 115 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = heavy_fighter_research_bonus
+				}
+				set_temp_variable = { NFM_c = 116 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = rocketry_research_bonus
+				}
+				set_temp_variable = { NFM_c = 117 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = jet_research_bonus
+				}
+				set_temp_variable = { NFM_c = 118 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = naval_reform_spirit
+				}
+				set_temp_variable = { NFM_c = 119 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = light_guns_research_bonus
+				}
+				set_temp_variable = { NFM_c = 120 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = heavy_guns_research_bonus
+				}
+				set_temp_variable = { NFM_c = 121 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = capital_ship_research_bonus
+				}
+				set_temp_variable = { NFM_c = 122 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = screen_ship_research_bonus
+				}
+				set_temp_variable = { NFM_c = 123 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = industry_research_bonus
+				}
+				set_temp_variable = { NFM_c = 124 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ib_new_deal
+				}
+				set_temp_variable = { NFM_c = 125 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ib_new_deal2
+				}
+				set_temp_variable = { NFM_c = 126 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ib_workers_culture_1
+				}
+				set_temp_variable = { NFM_c = 127 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ib_workers_culture_2
+				}
+				set_temp_variable = { NFM_c = 128 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ib_wartime_industry_focus_1
+				}
+				set_temp_variable = { NFM_c = 129 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ib_wartime_industry_focus_2
+				}
+				set_temp_variable = { NFM_c = 130 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ib_workers_culture_3
+				}
+				set_temp_variable = { NFM_c = 131 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ib_wartime_industry_focus_3
+				}
+				set_temp_variable = { NFM_c = 132 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = extra_tech_slot_idea
+				}
+				set_temp_variable = { NFM_c = 133 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = extra_tech_slot_2_idea
+				}
+				set_temp_variable = { NFM_c = 134 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = electronics_research_bonus
+				}
+				set_temp_variable = { NFM_c = 135 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = nukes_research_bonus
+				}
+				set_temp_variable = { NFM_c = 136 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = state_serves_the_military_spirit
+				}
+				set_temp_variable = { NFM_c = 137 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = collectivist_ethos_focus
+				}
+				set_temp_variable = { NFM_c = 138 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = nationalism
+				}
+				set_temp_variable = { NFM_c = 139 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = internationalism
+				}
+				set_temp_variable = { NFM_c = 140 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = liberty_ethos_focus
+				}
+				set_temp_variable = { NFM_c = 141 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = militarism_focus
+				}
+				set_temp_variable = { NFM_c = 142 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = idea_political_correctness
+				}
+				set_temp_variable = { NFM_c = 143 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = neutrality_idea
+				}
+				set_temp_variable = { NFM_c = 144 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = interventionism_idea
+				}
+				set_temp_variable = { NFM_c = 145 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = military_youth_focus
+				}
+				set_temp_variable = { NFM_c = 146 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = deterrence
+				}
+				set_temp_variable = { NFM_c = 147 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = volunteer_corps_focus
+				}
+				set_temp_variable = { NFM_c = 148 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = paramilitarism_focus
+				}
+				set_temp_variable = { NFM_c = 149 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = indoctrination_focus
+				}
+				set_temp_variable = { NFM_c = 150 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = foreign_expeditions_focus
+				}
+				set_temp_variable = { NFM_c = 151 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = why_we_fight_focus
+				}
+				set_temp_variable = { NFM_c = 152 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = political_commissars_focus
+				}
+				set_temp_variable = { NFM_c = 153 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = ideological_fanaticism_focus
+				}
+				set_temp_variable = { NFM_c = 154 }
+				NFM_complete_focus = yes
+			}
+			every_country={
+				limit={
+					has_idea = technology_sharing_idea
+				}
+				set_temp_variable = { NFM_c = 155 }
+				NFM_complete_focus = yes
+			}
+		}
+	}
+	on_daily={
+		effect={
+			if={
+				limit={
+					is_ai=no NFM_allowed=yes NFM_IsFocusSelected=no
+				}
+				NFM_try_load_oob=yes
+			}
+		}
+	}
 }

@@ -97,7 +97,6 @@ characters = {
 			allowed = {
 				original_tag = ROK
 			}
-			ideology = liberalism
 			traits = {
 				army_chief_organizational_2
 			}
@@ -130,7 +129,6 @@ characters = {
 			allowed = {
 				original_tag = ROK
 			}
-			ideology = liberalism
 			traits = {
 				army_chief_defensive_2
 			}
@@ -196,7 +194,7 @@ characters = {
 		name=ROK_Kim_Seong-su
 		portraits={
 		}
-		general={
+		corps_commander={
 			traits={  }
 			skill=3
 			attack_skill=2
@@ -210,7 +208,6 @@ characters = {
 			allowed = {
 				original_tag = ROK
 			}
-			ideology = liberalism
 			cost = 75
 			traits = {
 				educator
@@ -225,7 +222,7 @@ characters = {
 		name=ROK_Yu_Jae-hung
 		portraits={
 		}
-		general={
+		corps_commander={
 			traits={  }
 			skill=2
 			attack_skill=2
@@ -273,7 +270,6 @@ characters = {
 			allowed = {
 				original_tag = ROK
 			}
-			ideology = liberalism
 			traits = {
 				agircultural_genius
 			}
@@ -293,7 +289,6 @@ characters = {
 			allowed = {
 				original_tag = ROK
 			}
-			ideology = liberalism
 			cost = 75
 			traits = {
 				devout_christian

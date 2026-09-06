@@ -1,0 +1,81 @@
+# 1.19.2 compat: techs referenced by common/special_projects but missing from Innova's stripped tech tree.
+# basic_fortification_tech: minimal hidden (Innova has no fortification techs). Others: verbatim vanilla hidden/reward techs.
+technologies = {
+
+	basic_fortification_tech = {
+		research_cost = 1
+		start_year = 1936
+		allow = { always = no }
+	}
+
+	
+	sp_naval_underway_replenishment_pick_a = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		underway_replenishment_range = 0.2
+		underway_replenishment_convoy_cost = 0.1
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
+		}
+	}
+
+		sp_naval_underway_replenishment_pick_b = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		underway_replenishment_range = -0.1
+		underway_replenishment_convoy_cost = -0.2
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
+		}
+	}
+
+	
+	sp_naval_proximity_fuze_tech = {
+		#HIDDEN EFFECT FOR THE PROXIMITY FUZE 
+		navy_anti_air_attack_factor = 0.25
+		research_cost = 1
+		start_year = 1940
+		
+		allow = {
+			always = no
+		}
+	}
+
+	
+	nuclear_reactor_heavy_water = {
+
+		# can build reactors
+		
+		start_year = 1943
+		research_cost = 5
+		
+		#folder = {
+		#	name = electronics_folder
+		#	position = { x = 0 y = 2 }
+		#}
+
+		#path = {
+		#	leads_to_tech = nukes 
+		#	research_cost_coeff = 1
+		#}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			nuclear
+		}
+
+		special_project_specialization = { specialization_nuclear }
+		
+		enable_building = {
+			building = nuclear_reactor_heavy_water
+			level = 1
+		}
+	}
+}

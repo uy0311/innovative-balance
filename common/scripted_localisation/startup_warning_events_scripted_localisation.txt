@@ -95,7 +95,7 @@ defined_text = {
 	name = Getdlc_name_GOEName
 	text = {
 		trigger = {
-			NOT = { has_dlc = "Graveyard of Empire" }
+			NOT = { has_dlc = "Graveyard of Empires" }
 		}
 		localization_key = Getdlc_name_GOEName
 	}

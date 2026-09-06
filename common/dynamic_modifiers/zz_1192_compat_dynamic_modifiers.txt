@@ -1,0 +1,16 @@
+# 1.19.2 compat: dynamic modifiers referenced by peace_conference cost/ai_peace but missing
+# (common/dynamic_modifiers is replace_path'd, so vanilla defs don't load). Generic icons used.
+
+
+ETH_arranged_expansion_modifier = {
+	enable = { always = yes  }
+	icon = GFX_modifiers_generic_military_plans
+	custom_modifier_tooltip = ETH_arranged_expansion_modifier_tt
+}
+
+
+AFG_arranged_expansion_modifier = {
+	enable = { always = yes  }
+	icon = GFX_modifiers_generic_fascist_corporatism
+	custom_modifier_tooltip = AFG_arranged_expansion_modifier_tt
+}

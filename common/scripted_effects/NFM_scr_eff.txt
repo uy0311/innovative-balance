@@ -1,4 +1,4 @@
-# GPT-5.6 Terraで作成
+
 NFM_dirty={
 	if={limit={check_variable={NFM_d=1000}}set_variable={NFM_d=0}}else={add_to_variable={NFM_d=1}}
 }

@@ -23,7 +23,6 @@ characters = {
 			allowed = {
 				original_tag = CHN
 			}
-			ideology = communism
 			traits = {
 				army_chief_defensive_2
 

@@ -93,6 +93,9 @@ script_enum_equipment_stat = {
 	night_penalty				#Cannot be used with MIOS
 	build_cost_ic
 	naval_weather_penalty_factor
+	carrier_sub_detection
+	carrier_surface_detection
+	submarine_carrier_size
 }
 
 script_enum_production_stat = {
@@ -309,27 +312,12 @@ script_enum_equipment_bonus_type = {
 	ship_hull_carrier_modern
 	ship_hull_carrier_conversion_bb
 	ship_hull_carrier_conversion_ca
-	carrier_1
-	carrier_2
-	carrier_3
-	carrier_4
-	modern_carrier
-	mega_carrier
 	ship_hull_cruiser
 	light_cruiser
 	ship_hull_cruiser_1
 	ship_hull_cruiser_2
 	ship_hull_cruiser_3
 	ship_hull_cruiser_4
-	light_cruiser_1
-	light_cruiser_2
-	light_cruiser_3
-	light_cruiser_4
-	heavy_cruiser_1
-	heavy_cruiser_2
-	heavy_cruiser_3
-	heavy_cruiser_4
-	torpedo_cruiser
 	ship_hull_cruiser_modern_aa
 	ship_hull_torpedo_cruiser
 	ship_hull_cruiser_panzerschiff
@@ -342,43 +330,20 @@ script_enum_equipment_bonus_type = {
 	ship_hull_heavy_4
 	ship_hull_super_heavy_1
 	ship_hull_heavy_modern
-	battleship_1
-	battleship_2
-	battleship_3
-	battleship_4
-	SH_battleship_1
-	SH_battleship_2
-	modern_battleship
-	battle_cruiser_1
-	battle_cruiser_2
 	ship_hull_light
 	ship_hull_light_1
 	ship_hull_light_2
 	ship_hull_light_3
 	ship_hull_light_4
-	destroyer_1
-	destroyer_2
-	destroyer_3
-	destroyer_4
 	ship_hull_submarine
 	ship_hull_submarine_1
 	ship_hull_submarine_2
 	ship_hull_submarine_3
 	ship_hull_submarine_4
-	cruiser_submarine
-	fleet_submarine
-	midget_submarine
-	nuclear_submarine
-	nuclear_missile_submarine
-	rocket_submarine
 	ship_hull_cruiser_submarine
 	ship_hull_midget_submarine
 	ship_hull_nuclear_submarine
 	ship_hull_fleet_submarine
-	submarine_1
-	submarine_2
-	submarine_3
-	submarine_4
 	support_equipment
 	support_equipment_1
 	light_tank_chassis
@@ -564,10 +529,6 @@ script_enum_equipment_bonus_type = {
 	light_tank_flame_chassis_3
 	
 	#IB_armored_car_tank
-	light_tank_armored_chassis_0
-	light_tank_armored_chassis_1
-	light_tank_armored_chassis_2
-	light_tank_armored_chassis_3
 	medium_tank_aa_chassis_0
 	medium_tank_aa_chassis_1
 	medium_tank_aa_chassis_2
@@ -662,4 +623,14 @@ script_enum_equipment_bonus_type = {
 	amphibious_tank_equipment_1
 	amphibious_tank_equipment_2
 	supersonic_fighter_equipment_1
+	support_ship
+	support_ship_hull
+	support_ship_1
+	support_ship_2
+	repair_ship_hull
+	repair_ship_1
+	repair_ship_2
+	rocket_interceptor_equipment_0
+	rocket_interceptor_equipment_4
+	rocket_interceptor_equipment_5
 }
