@@ -26,7 +26,6 @@ scripted_diplomatic_actions = {
 		requires_acceptance = no
 
 		icon = 1
-		priority = 10
 
 		complete_effect = { 
 			ROOT = { recall_volunteers_from = PREV } 

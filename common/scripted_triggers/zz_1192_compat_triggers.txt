@@ -1,0 +1,165 @@
+# 1.19.2 compat: vanilla scripted_triggers referenced by vanilla files but missing from
+# the mod's frozen (replace_path) scripted_triggers. Definitions copied verbatim from vanilla 1.19.2.
+
+should_play_south_american_music = {
+	capital_scope = { is_on_continent = south_america }
+}
+
+is_unlikely_country_tag = {
+	OR = {
+		tag = GXC
+		tag = YUN
+		tag = SHX
+		tag = XSM
+		tag = SIK
+	}
+}
+
+has_same_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_same_ideology_tt
+		OR = {
+			AND = {
+				has_government = democratic
+				ROOT = { has_government = democratic }
+			}
+			AND = {
+				has_government = fascism
+				ROOT = { has_government = fascism }
+			}
+			AND = {
+				has_government = communism
+				ROOT = { has_government = communism }
+			}
+			AND = {
+				has_government = neutrality
+				ROOT = { has_government = neutrality }
+			}
+		}
+	}
+}
+
+ETH_is_horn_of_africa_original_tag = {
+	OR = {
+		original_tag = ETH
+	}
+}
+
+ITA_is_italian_tag_for_music = {
+	OR = {
+		original_tag = ITA
+	}
+}
+
+is_literally_china = {
+	OR = {
+		original_tag = CHI
+		original_tag = PRC
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = SHX
+		original_tag = XSM
+		original_tag = SIK
+	}
+}
+
+CHI_northern_mandate_states = {
+	OR = {
+		region = 149 #Eastern Siberia
+		region = 256 #Transbaikal
+		region = 148 #Russian Far east
+		region = 266 #uriankhai
+		region = 259 #Eastern Sakha
+		region = 260 #Western Sakha
+		region = 262 #Central Siberia
+		region = 87 #Sea of Okhotsk 
+		region = 258 #Okhotsk
+		region = 257 #Northern Far east
+		region = 147 #Northern Siberia
+	}
+}
+
+CHI_southern_mandate_states = {
+	OR = {
+		region = 142 # North Indochina
+		region = 228 # South IndoChina
+		region = 292 # Shan States 
+		region = 229 # Siam 
+		region = 294 # Rangoon
+		region = 295 # Mandalay
+		region = 188 # Malay
+		region = 160 # Philipines
+		region = 187 # Sumatra
+		region = 159 # Borneo
+		region = 158 # Sunda Islands
+		region = 93 # Java Sea
+		region = 293 # Tenasserim 
+		region = 141 # Eastern India  
+		region = 146 # Himalayas
+	}
+}
+
+CHI_greater_game_states = {
+	OR = {
+		region = 136 # Alash
+		region = 268 # Ferghana
+		region = 270 # Syr Darya
+		region = 267 # Transcaspia
+		region = 269 # Samnarkand
+		region = 162 # North Afghanistan
+		region = 251 # Ngari
+	}
+}
+
+is_state_japan_wants = {
+	OR = {
+		state = 743 # Qingdao
+		state = 608 # Beijing
+		state = 326 # Hong Kong
+		state = 729 # Macao
+		state = 728 # Guangzhouwan
+		state = 591 # Hainan
+		state = 597 # Shandong
+		state = 614 # Hebei
+		state = 1038 # Jinan
+	}
+}
+
+WTT_is_chinese_country = {
+	OR = {
+		original_tag = CHI
+		original_tag = PRC
+		original_tag = MAN
+		original_tag = MEN
+		WTT_is_chinese_warlord = yes 
+	}
+}
+
+
+WTT_is_chinese_warlord = {
+        OR = {
+                original_tag = GXC
+                original_tag = YUN
+                original_tag = XSM
+                original_tag = SIK
+                original_tag = SHX
+        }
+}
+
+
+# SF doctrine second-track gate (restored SF doctrines reference this). Verbatim vanilla 1.19.2.
+can_unlock_second_track_of_sf_doctrine = {
+if = {
+limit = { check_variable = { sf_trees > 1 } }
+custom_trigger_tooltip = {
+tooltip = can_unlock_second_track_special_forces_doctrine_yes
+check_variable = { sf_trees > 1 }
+}
+}
+else = {
+custom_trigger_tooltip = {
+tooltip = can_unlock_second_track_special_forces_doctrine_no
+always = no
+}
+}
+}

@@ -1,4 +1,4 @@
-# GPT-5.6 Terraで作成
+
 NFM_on_startup_NFM={set_temp_variable={i_end=156}}
 
 NFM_focus_tree_reset_position_NFM={

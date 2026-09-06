@@ -1,4 +1,4 @@
-# GPT-5.6 Terraで作成
+
 defined_text={name=NFM_focustitle
 text={trigger={check_variable={v>10000}check_variable={NFM_shaid>21000}}localization_key=[NFM_focustitle_SHA_TOA]}
 text={trigger={check_variable={v>10000}check_variable={NFM_shaid>20000}}localization_key=[NFM_focustitle_SHA_NOR]}

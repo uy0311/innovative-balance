@@ -1100,7 +1100,7 @@ characters={
 				small="GFX_idea_goering"
 			}
 			civilian={
-				large="gfx/leaders/GER/Portrait_Germany_Hermann_Goring.dds"
+				large="gfx/leaders/GER/portrait_GER_hermann_goring.dds"
 			}
 		}
 		advisor={

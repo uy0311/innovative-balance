@@ -2898,7 +2898,6 @@ leader_traits = {
 		modifier = {
 			own_operative_detection_chance_factor = -0.1
 			target_sabotage_factor = 0.25
-			target_sabotage_risk = -0.25
 			operation_capture_cipher_outcome = 0.25
 			operation_capture_cipher_risk = -0.25
 		}
@@ -2913,7 +2912,6 @@ leader_traits = {
 
 		modifier = { 
 			operation_infiltrate_outcome = 0.25
-			operation_infiltrate_risk = -0.25
 			own_operative_detection_chance_factor = -0.2
 		}
 	}
@@ -2940,7 +2938,6 @@ leader_traits = {
 
 		modifier = { 
 			operation_infiltrate_outcome = 0.25
-			operation_infiltrate_risk = -0.25
 		}
 	}
 
@@ -3017,8 +3014,6 @@ leader_traits = {
 
 		modifier = {
 			operation_capture_cipher_outcome = 0.25
-			operation_steal_tech_risk = -0.25
-			operation_steal_tech_outcome = 0.25
 		}
 	}
 
@@ -3087,7 +3082,6 @@ leader_traits = {
 
 		modifier = {
 			target_sabotage_factor = 0.25
-			target_sabotage_cost = -0.25
 			boost_resistance_factor = 0.25
 		}
 	}

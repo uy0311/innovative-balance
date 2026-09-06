@@ -1,4 +1,4 @@
-# GPT-5.6 Terraで作成
+
 NFM_del_all={
 	for_each_loop={
 		array=NFM_focus_queue

@@ -8552,4 +8552,12 @@ leader_traits = {
 		}
 	}
 
+
+	
+	expansionist_policies = {
+		random = no
+		generate_wargoal_tension = -0.25
+		justify_war_goal_time = -0.25
+		custom_modifier_tooltip = FIN_expansionist_policies_take_states_tt
+	}
 }

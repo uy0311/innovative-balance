@@ -24,8 +24,96 @@
 
 @cost = 10000
 
+# 全国共通の汎用勲章。艦長(ship captain)への叙勲を有効化するため ship_modifiers / officer_xp を付与。
 unit_medals = {
-	
 
-	
+	ib_generic_gallantry_medal = {
+
+		available = { always = yes }
+
+		frame = 1
+		icon = "GFX_medal_icon_default"
+
+		cost = @cost
+
+		unit_modifiers = {
+			army_morale_factor = 0.1
+			army_attack_factor = 0.05
+		}
+
+		ship_modifiers = {
+			naval_morale_factor = 0.1
+			naval_damage_factor = 0.05
+		}
+
+		officer_xp = 100
+	}
+
+	ib_generic_distinguished_service_medal = {
+
+		available = { always = yes }
+
+		frame = 2
+		icon = "GFX_medal_icon_default"
+
+		cost = @cost
+
+		unit_modifiers = {
+			army_org_factor = 0.1
+			army_defence_factor = 0.05
+		}
+
+		ship_modifiers = {
+			navy_org_factor = 0.1
+			naval_defense_factor = 0.05
+		}
+
+		officer_xp = 100
+	}
+
+	ib_generic_meritorious_conduct_medal = {
+
+		available = { always = yes }
+
+		frame = 3
+		icon = "GFX_medal_icon_default"
+
+		cost = @cost
+
+		unit_modifiers = {
+			supply_consumption_factor = -0.1
+			experience_loss_factor = -0.1
+		}
+
+		ship_modifiers = {
+			naval_supply_consumption_factor = -0.1
+			experience_gain_navy_unit_factor = 0.05
+		}
+
+		officer_xp = 100
+	}
+
+	ib_generic_supreme_honor_medal = {
+
+		available = { always = yes }
+
+		frame = 4
+		icon = "GFX_medal_icon_default"
+
+		cost = @cost
+
+		unit_modifiers = {
+			breakthrough_factor = 0.1
+			army_morale_factor = 0.05
+		}
+
+		ship_modifiers = {
+			naval_critical_score_chance_factor = 0.1
+			naval_morale_factor = 0.05
+		}
+
+		officer_xp = 100
+	}
+
 }
+
