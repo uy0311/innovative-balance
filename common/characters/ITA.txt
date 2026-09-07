@@ -1216,30 +1216,6 @@ characters={
 		}
 	}
 
-	ITA_junio_valerio_borghese={
-		name=ITA_junio_valerio_borghese
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_2"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ITA_junio_valerio_borghese
-			allowed  = {
-				original_tag  = ITA
-			}
-			traits  = {
-				armaments_organizer 
-			}
-			on_add  = {
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-	}
-
 	ITA_luigi_einaudi={
 		name=ITA_luigi_einaudi
 		portraits={
