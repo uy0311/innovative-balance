@@ -6443,7 +6443,7 @@ leader_traits = {
 
 	army_concealment_1 = { # Ground units take less damage from air attacks
 		sprite = 9
-		enemy_army_bonus_air_superiority_factor = -0.05
+		enemy_army_bonus_air_superiority_factor = -0.025
 		#experience_gain_army = @experience_gain_low
 		equipment_bonus = {
 			anti_air_equipment= {
@@ -6472,7 +6472,7 @@ leader_traits = {
 
 	army_concealment_2 = { # Ground units take less damage from air attacks
 		sprite = 9
-		enemy_army_bonus_air_superiority_factor = -0.10
+		enemy_army_bonus_air_superiority_factor = -0.05
 		#experience_gain_army = @experience_gain_medium
 		equipment_bonus = {
 			anti_air_equipment= {
@@ -6501,7 +6501,7 @@ leader_traits = {
 
 	army_concealment_3 = { # Ground units take less damage from air attacks
 		sprite = 9
-		enemy_army_bonus_air_superiority_factor = -0.15
+		enemy_army_bonus_air_superiority_factor = -0.075
 		#experience_gain_army = @experience_gain_high
 		equipment_bonus = {
 			anti_air_equipment= {

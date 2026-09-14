@@ -831,8 +831,8 @@ leader_traits = {
 		cost = 150
 		modifier = {
 			army_armor_speed_factor = 0.05
-			army_armor_attack_factor = 0.10
-			army_armor_defence_factor = 0.10
+			army_armor_attack_factor = 0.75
+			army_armor_defence_factor = 0.75
 		}
 		ai_will_do = {
 			factor = 1
@@ -1301,10 +1301,10 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			motorized_defence_factor = 0.25
-			mechanized_defence_factor = 0.25
-			motorized_attack_factor = 0.25
-			mechanized_attack_factor = 0.25
+			motorized_defence_factor = 0.15
+			mechanized_defence_factor = 0.15
+			motorized_attack_factor = 0.15
+			mechanized_attack_factor = 0.15
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
