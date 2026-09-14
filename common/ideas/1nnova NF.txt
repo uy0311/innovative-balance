@@ -232,6 +232,8 @@ ideas = {
 			}
 			
 			removal_cost = -1
+
+			picture = focus_research
 	
 			modifier = {
 				ai_badass_factor = 0.01
@@ -255,6 +257,8 @@ ideas = {
 			}
 			
 			removal_cost = -1
+
+			picture = focus_research
 	
 			modifier = {
 				ai_badass_factor = 0.01
@@ -278,6 +282,8 @@ ideas = {
 			}
 			
 			removal_cost = -1
+
+			picture = goal_generic_allies_build_infantry
 	
 			modifier = {
 				ai_badass_factor = 0.01
@@ -661,6 +667,8 @@ ideas = {
 			}
 			
 			removal_cost = -1
+
+			picture = goal_generic_build_airforce
 	
 			modifier = {
 				ai_badass_factor = 0.01
