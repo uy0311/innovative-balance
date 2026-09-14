@@ -458,6 +458,8 @@ ideas = {
 			}
 			
 			removal_cost = -1
+
+			picture = goal_generic_neutrality_focus
 	
 			modifier = {
 				ai_badass_factor = 0.01
@@ -532,6 +534,8 @@ ideas = {
 			}
 			
 			removal_cost = -1
+
+			picture = goal_generic_political_pressure
 	
 			modifier = {
 				ai_badass_factor = 0.01

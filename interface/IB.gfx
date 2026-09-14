@@ -641,6 +641,33 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/nukes.dds"
 	}
 
+ ### 取得条件となるNFと同じアイコンを使う国家精神用スプライト
+
+	spriteType = {
+		name = "GFX_idea_focus_research"
+		texturefile = "gfx/interface/goals/focus_research.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_goal_generic_allies_build_infantry"
+		texturefile = "gfx/interface/goals/goal_generic_allies_build_infantry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_goal_generic_build_airforce"
+		texturefile = "gfx/interface/goals/goal_generic_build_airforce.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_goal_generic_neutrality_focus"
+		texturefile = "gfx/interface/goals/goal_generic_neutrality_focus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_goal_generic_political_pressure"
+		texturefile = "gfx/interface/goals/goal_generic_political_pressure.dds"
+	}
+
 
  #topbar#
 	spriteType = {
