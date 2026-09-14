@@ -74,7 +74,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { skilled_staffer panzer_leader cavalry_leader hill_fighter ranger }
+			traits = { organizer skilled_staffer panzer_leader cavalry_leader hill_fighter urban_assault_specialist ranger }
 			skill = 3
 
 			attack_skill = 5
@@ -108,7 +108,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { skilled_staffer panzer_leader trickster trait_engineer commando winter_specialist }
+			traits = { panzer_leader trickster trait_engineer commando winter_specialist }
 			skill = 3
 
 			attack_skill = 5
@@ -323,7 +323,7 @@ characters = {
 			traits = { offensive_doctrine brilliant_strategist organizer panzer_leader cavalry_leader bearer_of_artillery}
 			skill = 6
 
-			attack_skill = 3
+			attack_skill = 6
 			defense_skill = 3
 			planning_skill = 6
 			logistics_skill = 2
