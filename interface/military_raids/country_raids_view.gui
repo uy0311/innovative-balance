@@ -90,7 +90,7 @@ guiTypes = {
 			}
 
 			smoothListBoxType = {
-				# contains raid_target_entry, raid_unit_entry, raid_source_entry
+				# contains raid_target_entry, raid_unit_entry, raid_source_entry kuzuyana
 
 				name = "raid_selection_list"
 				position = { x = 0 y = 50 }
