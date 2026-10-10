@@ -931,9 +931,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = high_command
+			slot = navy_chief
 			idea_token = arseniy_golovko
-			ledger = navy
 			allowed = {
 				original_tag = SOV
 			}
@@ -1044,9 +1043,8 @@ characters = {
 		}
 
 		advisor = {
-			slot = high_command
+			slot = air_chief
 			idea_token = sergei_khudyakov
-			ledger = air
 			allowed = {
 				original_tag = SOV
 			}
@@ -1165,7 +1163,8 @@ characters = {
 		}
 
 		advisor = {	
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = yakov_smushkevich
 			allowed = {
 				original_tag = SOV
@@ -1189,7 +1188,8 @@ characters = {
 		}
 
 		advisor = {
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = pavel_rychagov
 			allowed = {
 				original_tag = SOV
@@ -1233,7 +1233,8 @@ characters = {
 		}
 
 		advisor = {
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = mikhail_frinovsky
 			allowed = {
 				original_tag = SOV
@@ -1332,7 +1333,8 @@ characters = {
 		}
 
 		advisor = {
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = pyotr_smirnov
 			allowed = {
 				original_tag = SOV
@@ -1392,6 +1394,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
+			ledger = army
 			idea_token = SOV_vasily_blyukher
 			allowed = {
 				original_tag = SOV
@@ -1841,7 +1844,8 @@ characters = {
 
 		advisor = {
 			cost = 150
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = SOV_yan_nagursky
 			allowed = {
 				original_tag = SOV

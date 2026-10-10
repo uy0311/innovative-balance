@@ -19,7 +19,6 @@ characters = {
 		advisor={
 			slot = army_chief
 			idea_token = Lee_Hyung-geun
-			ledger = army
 			allowed = {
 				original_tag = CHN
 			}

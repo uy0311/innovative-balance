@@ -237,6 +237,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = douglas_macarthur
 			allowed = {
 				original_tag = USA
@@ -652,7 +653,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = navy_chief
 			idea_token = chester_nimitz
 			allowed = {
 				original_tag = USA
@@ -729,7 +730,6 @@ characters={
 		advisor={
 			slot = navy_chief
 			idea_token = raymond_a_spruance
-			ledger = air
 			allowed = {
 				original_tag = USA
 			}
@@ -799,9 +799,9 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = charles_m_cooke_jr
-			ledger = air
 			allowed = {
 				original_tag = USA
 			}
@@ -1035,7 +1035,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = carl_spaatz
 			allowed = {
 				original_tag = USA
@@ -1058,7 +1059,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = george_kenney
 			allowed = {
 				original_tag = USA
@@ -1081,12 +1083,12 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = USA_charles_lindbergh
 			allowed = {
 				original_tag = USA
 			}
-			cost = 100
 			traits = {
 				air_pilot_training_3
 			}
@@ -1116,9 +1118,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = jimmy_doolittle
-			ledger = air
 			allowed = {
 				original_tag = USA
 			}
@@ -1140,9 +1141,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = john_cannon
-			ledger = air
 			allowed = {
 				original_tag = USA
 			}
@@ -1164,9 +1164,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = claire_lee_chennault
-			ledger = air
 			allowed = {
 				original_tag = USA
 			}
@@ -1212,9 +1211,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = navy_chief
 			idea_token = thomas_kinkaid
-			ledger = army
 			allowed = {
 				original_tag = USA
 			}

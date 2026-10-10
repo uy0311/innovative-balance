@@ -632,6 +632,7 @@ ideas = {
 	political_advisor = {
 		# POLITICAL	
 		generic_communist_revolutionary = {
+			picture = generic_communist_revolutionary_western_european_2d
 			
 			allowed = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = TUR } }
@@ -659,6 +660,7 @@ ideas = {
 		}
 			
 		generic_democratic_reformer = {
+			picture = generic_democratic_reformer_western_european_2d
 			
 			allowed = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = AUS tag = CHI tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = TUR } }
@@ -686,6 +688,7 @@ ideas = {
 		}
 		
 		generic_fascist_demagogue = {
+			picture = generic_fascist_demagogue_western_european_2d
 			
 			allowed = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = CHI tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = TUR } }
@@ -712,6 +715,7 @@ ideas = {
 		}
 	
 		generic_head_of_intelligence = {
+			picture = generic_head_of_intelligence_western_european_2d
 			allowed = { 
 				always = no
 			}
@@ -1024,6 +1028,7 @@ ideas = {
 	political_advisor = {
 
 		generic_captain_of_industry = {
+			picture = generic_captain_of_industry_western_european_2d
 
 			allowed = {
 				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
@@ -1033,6 +1038,7 @@ ideas = {
 		}
 		
 		generic_fortification_engineer = {
+			picture = generic_fortification_engineer_western_european_2d
 
 			allowed = {
 				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
@@ -1042,6 +1048,7 @@ ideas = {
 		}
 
 		generic_war_industrialist = {
+			picture = generic_war_industrialist_western_european_2d
 
 			allowed = {
 				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
@@ -1054,6 +1061,7 @@ ideas = {
 	army_chief = {
 		
 		generic_army_chief_off = {
+			picture = generic_army_chief_off_western_european_2d
 			
 			allowed = {
 				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
@@ -1063,6 +1071,7 @@ ideas = {
 		}
 
 		generic_army_chief_def = {
+			picture = generic_army_chief_def_western_european_2d
 			
 			allowed = {
 				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
@@ -1075,6 +1084,7 @@ ideas = {
 	navy_chief = {		
 
 		generic_navy_chief_decisive_bat = {
+			picture = generic_navy_chief_decisive_bat_western_european_2d
 			
 			allowed = {
 				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
@@ -1082,20 +1092,12 @@ ideas = {
 			
 			traits = { navy_chief_decisive_battle_2 }
 		}
-
-		generic_navy_anti_submarine = {
-			
-			allowed = {
-				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
-			}
-			
-			traits = { navy_anti_submarine_2 }
-		}
 	}
 
 	air_chief = {
 
 		generic_air_close_air_sup = {
+			picture = generic_air_close_air_sup_western_european_2d
 			
 			allowed = {
 				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
@@ -1103,20 +1105,12 @@ ideas = {
 			
 			traits = { air_close_air_support_2 }
 		}
-	
-		generic_air_chief_all_weather = {
-			
-			allowed = {
-				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
-			}
-			
-			traits = { air_chief_all_weather_2 }			
-		}
 	}
 
 	high_command = {
 
 		generic_army_art = {
+			picture = generic_army_art_western_european_2d
 			ledger = army
 			
 			allowed = {
@@ -1127,6 +1121,7 @@ ideas = {
 		}
 		
 		generic_army_log = {
+			picture = generic_army_log_western_european_2d
 			ledger = army
 
 			allowed = {
@@ -1137,16 +1132,29 @@ ideas = {
 		}
 
 		generic_navy_fleet_log = {
+			picture = generic_navy_fleet_log_western_european_2d
 			ledger = navy
 
 			allowed = {
 				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
 			}
 			
-			traits = { navy_fleet_logistics_1 }			
+			traits = { navy_fleet_logistics_1 }
+		}
+
+		generic_navy_anti_submarine = {
+			picture = generic_navy_anti_submarine_western_european_2d
+			ledger = navy
+
+			allowed = {
+				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
+			}
+
+			traits = { navy_anti_submarine_2 }
 		}
 
 		generic_air_air_combat_trainer = {
+			picture = generic_air_air_combat_trainer_western_european_2d
 			ledger = air
 
 			allowed = {
@@ -1155,11 +1163,23 @@ ideas = {
 			
 			traits = { air_air_combat_training_2 }			
 		}
+
+		generic_air_chief_all_weather = {
+			picture = generic_air_chief_all_weather_western_european_2d
+			ledger = air
+			
+			allowed = {
+				OR = { original_tag = KOR original_tag = SER  original_tag = SYR  original_tag = EGY  original_tag = CRO   original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO  }
+			}
+			
+			traits = { air_chief_all_weather_2 }			
+		}
 	}
 
 	theorist = {
 
 		generic_military_theorist = {
+			picture = generic_military_theorist_western_european_2d
 			ledger = army
 			
 			allowed = {
@@ -1174,6 +1194,7 @@ ideas = {
 		}
 	
 		generic_naval_theorist = {
+			picture = generic_naval_theorist_western_european_2d
 			ledger = navy
 			
 			allowed = {
@@ -1188,6 +1209,7 @@ ideas = {
 		}
 
 		generic_air_warfare_theorist = {
+			picture = generic_air_warfare_theorist_western_european_2d
 			ledger = air
 			
 			allowed = {

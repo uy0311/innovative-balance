@@ -465,7 +465,6 @@ characters={
 		advisor={
 			slot = navy_chief
 			idea_token = BEL_georges_timmermans
-			ledger = navy
 			allowed = {
 				original_tag = BEL
 			}
@@ -492,7 +491,7 @@ characters={
 			}
 		}
 		advisor = {
-			slot = air_chief
+			slot = high_command
 			idea_token = BEL_willy_coppens
 			ledger = air
 			allowed = {
@@ -540,9 +539,8 @@ characters={
 			}
 		}
 		advisor = {
-			slot = high_command
+			slot = air_chief
 			idea_token = BEL_raymond_lallemant
-			ledger = air
 			allowed = {
 				original_tag = BEL
 			}
@@ -566,7 +564,6 @@ characters={
 		advisor = {
 			slot = air_chief
 			idea_token = BEL_mike_donnet
-			ledger = air
 			allowed = {
 				original_tag = BEL
 			}
@@ -613,7 +610,6 @@ characters={
 		advisor={
 			slot = army_chief
 			idea_token = BEL_prudent_nuyten
-			ledger = army
 			allowed = {
 				original_tag = BEL
 			}

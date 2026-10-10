@@ -185,7 +185,8 @@ characters={
 		advisor={
 
 
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = LUX_guillaume_soisson
 			allowed = {
 				original_tag = LUX

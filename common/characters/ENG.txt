@@ -62,6 +62,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = alan_brooke
 			allowed = {
 				original_tag = ENG
@@ -1078,7 +1079,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = dudley_pound
 			allowed = {
 				original_tag = ENG
@@ -1127,7 +1129,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = charles_portal
 			allowed = {
 				original_tag = ENG
@@ -1150,7 +1153,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = edward_ellington
 			allowed = {
 				original_tag = ENG
@@ -1230,9 +1234,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = frederick_bowhill
-			ledger = navy
 			allowed = {
 				original_tag = ENG
 			}
@@ -1254,9 +1257,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = navy_chief
 			idea_token = louis_mountbatten
-			ledger = army
 			allowed = {
 				original_tag = ENG
 			}

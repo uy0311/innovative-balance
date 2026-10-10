@@ -470,7 +470,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = TUR_memduh_tagmac
 			allowed = {
 				original_tag = TUR
@@ -548,9 +549,8 @@ characters={
 			}
 			advisor={
 				cost = 200
-				slot = high_command
+				slot = air_chief
 				idea_token = TUR_sabiha_gokcen
-				ledger = air
 				name = TUR_sabiha_gokcen
 				allowed = {
 					original_tag = TUR
@@ -953,6 +953,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = TUR_fahrettin_altay
 			allowed = {
 				original_tag = TUR

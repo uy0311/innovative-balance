@@ -91,7 +91,7 @@ characters = {
 			logistics_skill=2
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = Chung_Il_Kwona
 			ledger = army
 			allowed = {
@@ -125,7 +125,6 @@ characters = {
 		advisor={
 			slot = army_chief
 			idea_token = Lee_Hyung-geun
-			ledger = army
 			allowed = {
 				original_tag = ROK
 			}
@@ -235,7 +234,7 @@ characters = {
 			idea_token = ROK_Yu_Jae-hung
 			ledger = army
 			traits = {
-				Entrenchment_2
+				army_entrenchment_2
 			}
 			cost = 75
 			ai_will_do = {

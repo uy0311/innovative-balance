@@ -297,7 +297,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = MEX_othon_blanco
 			allowed = {
 				original_tag = MEX
@@ -587,7 +588,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = MEX_antonio_cardenas_rodriguez
 			allowed = {
 				original_tag = MEX
@@ -649,9 +651,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = MEX_jesus_garza_siller
-			ledger = air
 			allowed = {
 				original_tag = MEX
 			}

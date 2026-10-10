@@ -1637,8 +1637,6 @@ technologies = {
 		category_tanks = {
 			hard_attack = 0.10
 		}
-		
-		shore_bombardment_bonus = 2.0
 
 		on_research_complete = {
 			hidden_effect = {
@@ -2870,7 +2868,6 @@ technologies = {
 		xp_unlock_cost = 100
 
 		max_planning = 0.15
-		shore_bombardment_bonus = 1.0
 
 		pioneer_support = {
 			amphibious = {

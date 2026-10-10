@@ -198,9 +198,8 @@ characters={
 			}
 		}
 		advisor={	
-			slot = high_command
+			slot = air_chief
 			idea_token = GRE_dimitrios_oikonomou
-			ledger = navy
 			allowed = {
 				original_tag = GRE
 
@@ -510,7 +509,8 @@ characters={
 				}
 			}
 			advisor={
-				slot = air_chief
+				slot = high_command
+				ledger = air
 				idea_token = GRE_vasilios_tsarpalis
 				name = "GRE_vasilios_tsarpalis"
 				allowed = {
@@ -537,7 +537,7 @@ characters={
 		advisor={
 			slot = high_command
 			idea_token = GRE_epameinondas_kavvadias
-			ledger = air
+			ledger = navy
 			allowed = {
 				original_tag = GRE
 
