@@ -205,7 +205,8 @@ characters={
 
 	ETH_ras_seyum={
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = ETH_ras_seyum
 			allowed = {
 				original_tag = ETH
@@ -293,9 +294,8 @@ characters={
 	}
 	ETH_fitauri_zawde_gobena={
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = ETH_fitauri_zawde_gobena
-			ledger = air
 			allowed = {
 				original_tag = ETH
 			}
@@ -317,6 +317,7 @@ characters={
 	ETH_desta_damtew={
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = ETH_desta_damtew
 			allowed = {
 				original_tag = ETH

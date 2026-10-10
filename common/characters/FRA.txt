@@ -186,6 +186,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = alphonse_georges
 			allowed = {
 				original_tag = FRA
@@ -734,7 +735,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = marcel_gensoul
 			allowed = {
 				original_tag = FRA
@@ -757,7 +759,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = jean_marie_abrial
 			allowed = {
 				original_tag = FRA
@@ -806,7 +809,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = robert_odic
 			allowed = {
 				original_tag = FRA
@@ -887,9 +891,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = jean_francois_jannekeyn
-			ledger = air
 			allowed = {
 				original_tag = FRA
 			}

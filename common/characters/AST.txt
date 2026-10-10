@@ -439,6 +439,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = AST_sydney_rowell
 			allowed = {
 				original_tag = AST
@@ -536,7 +537,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = AST_richard_williams
 			allowed = {
 				original_tag = AST

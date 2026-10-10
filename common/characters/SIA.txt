@@ -119,9 +119,8 @@ characters={
 		advisor={
 
 
-			slot = high_command
+			slot = air_chief
 			idea_token = SIA_luang_sinthusongkhramchai
-			ledger = navy
 			allowed = {
 				original_tag = SIA
 			}
@@ -273,9 +272,8 @@ characters={
 		advisor={
 
 
-			slot = high_command
+			slot = air_chief
 			idea_token = SIA_phraya_thayarnpikart
-			ledger = air
 			allowed = {
 				original_tag = SIA
 			}
@@ -348,6 +346,7 @@ characters={
 
 
 			slot = high_command
+			ledger = army
 			idea_token = SIA_luang_phibunsongkhram
 			allowed = {
 				original_tag = SIA
@@ -420,7 +419,8 @@ characters={
 		advisor={
 
 
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = SIA_phraya_chalermarkiart
 			allowed = {
 				original_tag = SIA

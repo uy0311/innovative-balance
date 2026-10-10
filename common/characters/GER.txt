@@ -699,7 +699,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = donitz
 			allowed = {
 				original_tag = GER
@@ -995,6 +996,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = ludwig_beck
 			allowed = {
 				original_tag = GER
@@ -1067,6 +1069,7 @@ characters={
 		}
 		advisor={	
 			slot = high_command
+			ledger = army
 			idea_token = walther_von_brauchitsch
 			allowed = {
 				original_tag = GER
@@ -1127,7 +1130,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = ritter_von_greim
 			allowed = {
 				original_tag = GER
@@ -1187,9 +1191,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = hugo_sperrle
-			ledger = air
 			allowed = {
 				original_tag = GER
 			}

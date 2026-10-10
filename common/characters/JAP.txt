@@ -290,7 +290,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = kenji_doihara
 			allowed = {
 				original_tag = JAP
@@ -1160,6 +1161,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = hideki_tojo
 			allowed = {
 				original_tag = JAP
@@ -1184,7 +1186,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = fushimi_hiroyasu
 			allowed = {
 				original_tag = JAP
@@ -1207,7 +1210,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = osami_nagano
 			allowed = {
 				original_tag = JAP
@@ -1258,7 +1262,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = torashiro_kawabe
 			allowed = {
 				original_tag = JAP
@@ -1315,9 +1320,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = mitsuo_fuchida
-			ledger = air
 			allowed = {
 				original_tag = JAP
 			}
@@ -1339,9 +1343,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = nishizo_tsukahara
-			ledger = navy
 			allowed = {
 				original_tag = JAP
 			}
@@ -1411,9 +1414,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = navy_chief
 			idea_token = chuichi_nagumo
-			ledger = air
 			allowed = {
 				original_tag = JAP
 			}

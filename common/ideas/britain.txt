@@ -65,7 +65,7 @@ ideas = {
 
 		ENG_mary_sophia_allen = {
 			
-			#picture = generic_political_advisor_europe_2
+			picture = generic_political_advisor_europe_2
 			
 			allowed = {
 				original_tag = ENG
@@ -81,7 +81,7 @@ ideas = {
 
 		ENG_george_orwell = {
 			
-			#picture = generic_communist_revolutionary_western_european_2d
+			picture = generic_communist_revolutionary_western_european_2d
 
 			available = {
 				if = {

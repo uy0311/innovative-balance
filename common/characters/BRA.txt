@@ -223,7 +223,8 @@ characters={
 			}
 		}
 		advisor={		
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = BRA_aristides_guilhem
 			allowed = {
 				original_tag = BRA
@@ -246,7 +247,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = BRA_jorge_martins
 			allowed = {
 				original_tag = BRA
@@ -318,7 +320,8 @@ characters={
 			}
 		}
 		advisor={	
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = BRA_ismael_motta_paes
 			allowed = {
 				original_tag = BRA
@@ -680,6 +683,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = BRA_alvaro_de_castro
 			allowed = {
 				original_tag = BRA
@@ -934,7 +938,8 @@ characters={
 			legacy_id=-1
 		}
 		advisor={		
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = BRA_henrique_aristides_guilhem
 			allowed = {
 				original_tag = BRA

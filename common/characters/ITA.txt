@@ -67,6 +67,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = pietro_badoglio
 			allowed = {
 				original_tag = ITA
@@ -135,6 +136,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = ugo_cavallero
 			allowed = {
 				original_tag = ITA
@@ -230,7 +232,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = italo_balbo
 			allowed = {
 				original_tag = ITA
@@ -781,7 +784,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = domenico_cavagnari
 			allowed = {
 				original_tag = ITA
@@ -789,7 +793,7 @@ characters={
 			traits = {
 				navy_chief_commerce_raiding_2
 			}
-			cost =  150
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -804,7 +808,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = arturo_riccardi
 			allowed = {
 				original_tag = ITA
@@ -812,7 +817,7 @@ characters={
 			traits = {
 				navy_chief_naval_aviation_2
 			}
-			cost =  150
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -832,7 +837,8 @@ characters={
 			}
 		}
 		advisor={	
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = rino_corso_fougier
 			allowed = {
 				original_tag = ITA
@@ -917,9 +923,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = ettore_muti
-			ledger = air
 			allowed = {
 				original_tag = ITA
 			}

@@ -423,7 +423,8 @@ characters={
 			legacy_id = -1
 		}
 		advisor = {
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = ARG_benito_sueyro
 			allowed = {
 				original_tag = ARG
@@ -478,9 +479,8 @@ characters={
 
 	ARG_uribaldi_diaz_brittenberg = {
 		advisor = {
-			slot = high_command
+			slot = air_chief
 			idea_token = ARG_uribaldi_diaz_brittenberg
-			ledger = air
 			allowed = {
 				original_tag = ARG
 			}
@@ -502,9 +502,8 @@ characters={
 	ARG_oscar_muratorio = {
 
 		advisor = {
-			slot = high_command
+			slot = air_chief
 			idea_token = ARG_oscar_muratorio
-			ledger = air
 			allowed = {
 				original_tag = ARG
 			}
@@ -664,7 +663,8 @@ characters={
 	ARG_edmundo_sustaita = {
 
 		advisor = {
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = ARG_edmundo_sustaita
 			allowed = {
 				original_tag = ARG
@@ -711,7 +711,8 @@ characters={
 
 	ARG_heriberto_la_galine = {
 		advisor = {
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = ARG_heriberto_la_galine
 			allowed = {
 				original_tag = ARG
@@ -719,7 +720,7 @@ characters={
 			traits = {
 				navy_chief_naval_aviation_1
 			}
-			cost = 150
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}

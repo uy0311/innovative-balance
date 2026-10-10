@@ -534,6 +534,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = RAJ_kodandera_cariappa
 			allowed = {
 				original_tag = RAJ
@@ -582,7 +583,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = RAJ_william_e_parry
 			allowed = {
 				original_tag = RAJ
@@ -654,7 +656,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = RAJ_bruce_w_mcpherson
 			allowed = {
 				original_tag = RAJ
@@ -700,7 +703,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = high_command
+			ledger = air
 			idea_token = RAJ_ravindra_darshan_singh
 			allowed = {
 				original_tag = RAJ
@@ -751,9 +755,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = RAJ_aspy_merwan_engineer
-			ledger = navy
 			allowed = {
 				original_tag = RAJ
 			}
@@ -775,9 +778,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_command
+			slot = air_chief
 			idea_token = RAJ_mehar_singh
-			ledger = air
 			allowed = {
 				original_tag = RAJ
 			}

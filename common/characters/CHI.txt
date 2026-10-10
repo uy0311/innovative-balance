@@ -580,6 +580,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
+			ledger = army
 			idea_token = CHI_chen_jitang
 			allowed = {
 				original_tag = CHI
@@ -627,6 +628,7 @@ characters={
 		}
 		advisor={	
 			slot = high_command
+			ledger = army
 			idea_token = CHI_he_yingqin
 			allowed = {
 				original_tag = CHI
@@ -675,7 +677,8 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = high_command
+			ledger = navy
 			idea_token = CHI_xiao_jinguang
 			allowed = {
 				original_tag = CHI
