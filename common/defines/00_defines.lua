@@ -1517,10 +1517,10 @@ NAir = {
 
 	MISSION_EFFICIENCY_MULT_AT_LACK_OF_FUEL = 0.00, 				-- multiplier for mission efficiency when a base lacks fuel
 
-	STRATEGIC_BOMBING_PROV_BUILD_PRIO_SCALE = 1.5,					-- Scale of the selected priority for provincial buildings
-	STRATEGIC_BOMBING_STATE_BUILD_PRIO_SCALE = 1.5,					-- Scale of the selected priority for state buildings
-	STRATEGIC_BOMBING_INFRA_PRIO_SCALE = 0.0,						-- Scale of the selected priority for infrastructure
-	STRATEGIC_BOMBING_RAILWAY_PRIORITY_SCALE = 1.5,					-- The scale of extra priority assigned to railway for strategic bombing
+	STRATEGIC_BOMBING_PROV_BUILD_PRIO_SCALE = 100.0,					-- Scale of the selected priority for provincial buildings
+	STRATEGIC_BOMBING_STATE_BUILD_PRIO_SCALE = 100.0,					-- Scale of the selected priority for state buildings
+	STRATEGIC_BOMBING_INFRA_PRIO_SCALE = 100.0,						-- Scale of the selected priority for infrastructure
+	STRATEGIC_BOMBING_RAILWAY_PRIORITY_SCALE = 100.0,					-- The scale of extra priority assigned to railway for strategic bombing
 	STRATEGIC_BOMBING_STATE_BUILDING_SCALE = 1.5,					-- The scale of state building priority for strategic bombing
 	
 	NAVAL_MINES_PLANTING_SPEED_MULT = 0.025,						-- Value used to overall balance of the speed of planting naval mines
@@ -3600,7 +3600,7 @@ NFocus = {
 	FOCUS_POINT_DAYS = 7,						-- Each point takes a week
 	FOCUS_PROGRESS_PEACE = 1,					-- Progress during peace
 	FOCUS_PROGRESS_WAR = 1,					-- Progress during war
-	MAX_SAVED_FOCUS_PROGRESS = 25,				-- This much progress can be saved while not having a focus selected
+	MAX_SAVED_FOCUS_PROGRESS = 10,				-- This much progress can be saved while not having a focus selected
 },
 
 NOperatives = {
