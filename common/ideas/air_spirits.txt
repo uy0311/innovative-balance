@@ -104,7 +104,7 @@ ideas = {
 			ledger = air
 			available = { has_tech = air_offense }
 			modifier = {
-				air_escort_efficiency = 0.05
+				air_escort_efficiency = 0.075
 			}
 			ai_will_do = {
 				factor = 1
