@@ -3136,7 +3136,7 @@ guiTypes = {
 			}
 		}
 
-		containerWindowType = { ###‘½•ªq‹ó‹`—EŒRƒ{ƒ^ƒ“###
+		containerWindowType = { ###å¤šåˆ†èˆªç©ºç¾©å‹‡è»ãƒœã‚¿ãƒ³###
 			name = "send_expeditionary_force"
 			position = { x = 0 y = 0 }
 			size = { width = 0 height = 0 }
@@ -3624,7 +3624,7 @@ guiTypes = {
 				pdx_tooltip = PRODUCTION_EQUIPMENT_FILTER
 			}
 
-			buttonType = { ###ƒ‰ƒCƒZƒ“ƒXíŽÔƒ{ƒ^ƒ“###
+			buttonType = { ###ãƒ©ã‚¤ã‚»ãƒ³ã‚¹æˆ¦è»Šãƒœã‚¿ãƒ³###
 				name = "tank_button"
 				position = { x=1000 y=1000 }
 				quadTextureSprite ="GFX_add_prod_armour_line"
@@ -3632,7 +3632,7 @@ guiTypes = {
 				pdx_tooltip = PRODUCTION_ARMOR_FILTER
 			}
 
-			buttonType = { ###ƒ‰ƒCƒZƒ“ƒXq‹ó‹@ƒ{ƒ^ƒ“###
+			buttonType = { ###ãƒ©ã‚¤ã‚»ãƒ³ã‚¹èˆªç©ºæ©Ÿãƒœã‚¿ãƒ³###
 				name = "aircraft_button"
 				position = { x=1000 y=1000 }
 				quadTextureSprite ="GFX_add_prod_aircraft_line"

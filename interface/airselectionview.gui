@@ -1505,7 +1505,7 @@ guiTypes = {
 				clicksound = click_default
 			}
 
-			buttonType = { ####q‹ó‘à•ªŠ„ƒ{ƒ^ƒ“###
+			buttonType = { ####èˆªç©ºéšŠåˆ†å‰²ãƒœã‚¿ãƒ³###
 				name = "split_wing_btn"
 				position = { x=-185 y=8 }
 				spriteType = "GFX_NV_btn_split_in_half"

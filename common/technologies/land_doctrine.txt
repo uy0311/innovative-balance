@@ -14,7 +14,7 @@ technologies = {
 		doctrine = yes	
 
 
-		folder = { ### ã•”‚ÉƒhƒNƒgƒŠƒ“‘I‘ğƒAƒ‰[ƒg‚ğ•\‹L‚·‚é‚½‚ß‚É•K—v ###
+		folder = { ### ä¸Šéƒ¨ã«ãƒ‰ã‚¯ãƒˆãƒªãƒ³é¸æŠã‚¢ãƒ©ãƒ¼ãƒˆã‚’è¡¨è¨˜ã™ã‚‹ãŸã‚ã«å¿…è¦ ###
 			name = old_land_doctrine_folder
 			position = { x = 999 y = 999 }
 		}

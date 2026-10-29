@@ -54,7 +54,7 @@ guiTypes = {
 				format = center
 			}
 			
-			gridBoxType = { ###ステイト建設物一覧###
+			gridBoxType = { ###繧ｹ繝�繧､繝亥ｻｺ險ｭ迚ｩ荳隕ｧ###
 				name = "state_building_entries"
 				position = { x = 153 y = 45 }
 				size = { width = 480 height = 105 }
@@ -99,7 +99,7 @@ guiTypes = {
 				format = center
 			}
 			
-			gridBoxType = { ###ステイト建設物一覧###
+			gridBoxType = { ###繧ｹ繝�繧､繝亥ｻｺ險ｭ迚ｩ荳隕ｧ###
 				name = "state_shared_slot_building_entries"
 				position = { x = 150 y = 320 }
 				size = { width = 480 height = 90%% }
@@ -577,7 +577,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
-		buttonType = { ###建設物削除ボタン###
+		buttonType = { ###蟒ｺ險ｭ迚ｩ蜑企勁繝懊ち繝ｳ###
 			name = "remove"
 			position = { x = 40 y = 229 }
 			spriteType = "GFX_cancel_conversion_button"
