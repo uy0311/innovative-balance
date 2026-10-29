@@ -40,6 +40,10 @@ mobile_infantry = {
             category_cavalry = {
                 breakthrough = 0.20
             }
+            recon = {
+                breakthrough = 0.1
+                defense = 0.1
+            }
         }
         combined_arms_planning = {
             category_all_infantry = {
@@ -125,7 +129,7 @@ defensive_postures = {
             }
         }
         field_construction_training = {
-            dig_in_speed_factor = 0.15
+            dig_in_speed_factor = 0.2
         }
 
     }
@@ -175,13 +179,13 @@ large_unit_tactics = {
 
     rewards = {
         wide_trench_networks = {
-            dig_in_speed_factor = 0.10
+            dig_in_speed_factor = 0.15
         }
         flexible_division_structures = {
         #2
            unit_infantry_design_cost_factor = -1
            infantry = {
-                combat_width = -0.3
+                combat_width = -0.2
             }
         }
         unit_knowledge_sharing = {
@@ -244,7 +248,7 @@ assault_infantry = {
 
     #OTHER BASE REWARDS
     artillery = {   
-        soft_attack = 0.1
+        soft_attack = 0.2
     }
 
     rewards = {
@@ -263,13 +267,12 @@ assault_infantry = {
                 soft_attack = 0.05
             }
             anti_tank = {
-                ap_attack = 0.1
-                hard_attack = 0.1
+                ap_attack = 0.05
+                hard_attack = 0.05
             }
             anti_air = {
-                air_attack = 0.1
+                air_attack = 0.05
             }
-
         }
 
         integrated_support_batteries = {
@@ -278,8 +281,8 @@ assault_infantry = {
                 max_organisation = 20
                 soft_attack = 0.1
             }
-
         }
+
         breakthrough_fireteams = {
         #4
             light_tank_recon = {
@@ -306,9 +309,8 @@ assault_infantry = {
                     add = yes
                 }
             }
-
-
         }
+
         assault_detachments = {
         #5
             category_support_artillery = {
@@ -335,7 +337,6 @@ assault_infantry = {
                     soft_attack = 0.1
                 }
             }
-
         }
     }
 }
@@ -414,25 +415,30 @@ mounted_infantry = {
         
 }        beasts_of_war = {
             category_cavalry = {
-                maximum_speed = 0.5 
+                maximum_speed = 0.4 
                 max_strength = 0.05 
             }
             recon = {
-                maximum_speed = 0.5
+                maximum_speed = 0.4
+                battalion_mult = {
+                    category = category_cavalry
+                    max_strength = 5
+                    add = yes
+                }
             }
         }
         limbered_combat_support = {
             artillery_brigade = {
-                maximum_speed = 0.5
+                maximum_speed = 1
             }
             anti_tank_brigade = {
-                maximum_speed = 0.5
+                maximum_speed = 1
             }
             anti_air_brigade = {
-                maximum_speed = 0.5
+                maximum_speed = 1
             }
             rocket_artillery_brigade = {
-                maximum_speed = 0.5
+                maximum_speed = 1
             }
         }
 
@@ -497,7 +503,7 @@ commandos = {
             logistics_company = {
                 battalion_mult = {
                  category = category_vehicle_infantry
-                 max_strength = 5
+                 max_strength = 2.5
                  add = yes
                 }
             }
@@ -715,6 +721,7 @@ peoples_war = {
         }
         quick_decision_offensive_warfare = {
         #3
+            mastery = 50
             militia = {
                initiative = 0.01
                max_organisation = 10
@@ -791,7 +798,7 @@ great_war_infantry = {
                 battalion_mult = {
                     category = category_light_infantry
                     soft_attack = 0.1
-                    breakthrough = 0.05
+                    breakthrough = 0.1
                 }
             }
         }
@@ -804,6 +811,7 @@ great_war_infantry = {
         }
         redoubt_networks = {
             dig_in_speed_factor = 0.10
+            max_dig_in = 5
         }
 
     }

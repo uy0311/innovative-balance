@@ -190,6 +190,7 @@ armor_USA = {
 				medium_sp_artillery_brigade = 1
 				mechanized = 3
 				motorized = 3
+				mot_artillery_brigade = 1
 			}
 		}
 	}

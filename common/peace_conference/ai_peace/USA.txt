@@ -146,6 +146,12 @@ peace_ai_desires = {
 					state = 526 #Okinawa
 				}
             }
+            FROM = {
+                tag = ROOT
+            }
+            ROOT = {
+                original_tag = USA
+            }
         }
         ai_desire = 1100 #Finite offset
     }
