@@ -1,0 +1,16 @@
+# 1.19.4 compat: dynamic modifiers referenced by vanilla history/states but missing
+# (common/dynamic_modifiers is replace_path'd, so vanilla defs don't load). Copied verbatim from vanilla 1.19.4.
+
+# history/states/598-Jiansu.txt, 606-China 6.txt, 607-China 7.txt (1938.10.25)
+yellow_river_blown = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_decision_hol_inundate_water_lines
+
+	local_supply_impact_factor = 0.5
+	disable_strategic_redeployment = 1
+	state_resources_factor = -0.25
+	local_manpower = -0.5
+	army_speed_factor_for_controller = -0.25
+	local_non_core_supply_impact_factor = 0.15
+}

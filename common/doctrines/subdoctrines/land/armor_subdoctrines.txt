@@ -705,8 +705,5 @@ tank_destroyer_force = {
                 }
             }
         }
-
-
-
     }
 }

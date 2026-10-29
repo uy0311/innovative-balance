@@ -1,4 +1,5 @@
 sub_units = {
+	
 	recon = { #mounted cav
 		abbreviation = "CREC"
 		sprite = infantry

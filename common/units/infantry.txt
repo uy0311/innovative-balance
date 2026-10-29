@@ -90,7 +90,7 @@ sub_units = {
 		transport = support_equipment
 		need = {
 			infantry_equipment = 100
-			support_equipment = 10			
+			support_equipment = 5			
 		}
 
 	}

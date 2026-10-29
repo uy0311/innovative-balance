@@ -216,6 +216,7 @@ leader_traits = {
 	}
 
 	popular_queen = {
+		sprite = 10
 		random = no
 		stability_factor = 0.15
 		industrial_capacity_factory = 0.05
@@ -228,7 +229,7 @@ leader_traits = {
 
 	heels_nipper = {
 		random = no
-		sprite = 10
+		sprite = 13
 		political_power_factor = -0.1
 		stability_factor = -0.1
 		political_advisor_cost_factor = -0.25
@@ -247,7 +248,7 @@ leader_traits = {
 
 	snuggler = {
 		random = no
-		sprite = 10
+		sprite = 13
 		political_power_factor = -0.1
 		stability_factor = 0.05
 		neutrality_drift = 0.05
@@ -309,6 +310,7 @@ leader_traits = {
 	}
 
 	rearmer = {
+		sprite = 10
 		random = no
 		industrial_capacity_factory = 0.05
 		

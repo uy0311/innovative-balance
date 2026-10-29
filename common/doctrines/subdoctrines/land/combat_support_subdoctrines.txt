@@ -189,12 +189,18 @@ flying_batteries = {
         deployment_drills = {
             mot_rocket_artillery_brigade = {
                 max_organisation = 10
+                soft_attack = 0.05
+                breakthrough = 0.1
             }
             motorized_rocket_brigade = {
                 max_organisation = 10
+                soft_attack = 0.05
+                breakthrough = 0.1
             }
             mot_artillery_brigade = {
                 max_organisation = 10
+                soft_attack = 0.05
+                breakthrough = 0.1
             }
         }
         counter_battery_tasks = {
@@ -228,12 +234,18 @@ flying_batteries = {
         wide_dispersal_positions = {
             mot_rocket_artillery_brigade = {
                 max_organisation = 10
+                soft_attack = 0.05
+                defense = 0.1
             }
             motorized_rocket_brigade = {
                 max_organisation = 10
+                soft_attack = 0.05
+                defense = 0.1                
             }
             mot_artillery_brigade = {
                 max_organisation = 10
+                soft_attack = 0.05
+                defense = 0.1                
             }
         }
     }
@@ -278,8 +290,12 @@ air_cavalry = {
             }
         }
         service_and_support = {
-            category_helicopter_support_companies = {
-                max_strength = 0.03
+            maintenance_company = {
+                battalion_mult = {
+                    category = category_helicopter_support_companies
+                    max_strength = 0.5
+                    add = yes
+                }
             }
         }
         rescue_liasions = {
@@ -531,10 +547,10 @@ self_propelled_support = {
 
 
     category_self_propelled_artillery = {
-        soft_attack = 0.1
+        soft_attack = 0.05
     }
-    category_self_propelled_anti_air= {
-        air_attack = 0.1
+    category_self_propelled_anti_air = {
+        air_attack = 0.05
     }
     category_tank_destroyers = {
         hard_attack = 0.05
@@ -547,7 +563,7 @@ self_propelled_support = {
             category_self_propelled_artillery = {
                 max_organisation = 10
             }
-            category_self_propelled_anti_air= {
+            category_self_propelled_anti_air = {
                 max_organisation = 10
             }
             category_tank_destroyers = {
@@ -559,34 +575,34 @@ self_propelled_support = {
             recon = {
                 battalion_mult = {
                     category = category_self_propelled_artillery
-                    soft_attack = 0.1
+                    soft_attack = 0.05
                     default_morale = 0.2
                 }
             }
             mot_recon = {
                 battalion_mult = {
                     category = category_self_propelled_artillery
-                    soft_attack = 0.1
+                    soft_attack = 0.05
                     default_morale = 0.2
                 }
             }
             light_tank_recon = {
                 battalion_mult = {
                     category = category_self_propelled_artillery
-                    soft_attack = 0.1
+                    soft_attack = 0.05
                     default_morale = 0.2
                 }
             }
         }
         all_terrain_mobility = {
             category_self_propelled_artillery = {
-                maximum_speed = 0.3
+                maximum_speed = 0.1
             }
             category_self_propelled_anti_air = {
-                maximum_speed = 0.3
+                maximum_speed = 0.1
             }
             category_tank_destroyers = {
-                maximum_speed = 0.3
+                maximum_speed = 0.1
             }
         }
         multirole_support_vehicles = {
@@ -679,14 +695,10 @@ siege_artillery = {
                 default_morale = 0.2
             }
             super_heavy_artillery = {
-                plains = {
-                    movement = 0.1
-                }
+                default_morale = 0.1
             }
             self_propelled_super_heavy_artillery = {
-                plains = {
-                    movement = 0.1
-                }
+                default_morale = 0.1
             }
 
             equipment_bonus = {
@@ -719,12 +731,14 @@ siege_artillery = {
             }
             super_heavy_artillery = {
                 urban = {
-                    attack = 0.2
+                    attack = 0.1
+                    defence = 0.1
                 }
             }
             self_propelled_super_heavy_artillery = {
                 urban = {
-                    attack = 0.2
+                    attack = 0.1
+                    defence = 0.1
                 }
             }
         }
