@@ -332,7 +332,7 @@ guiTypes = {
 				frame = 2
 			}
 
-			buttonType = { ###ŠCˆæ••½ƒ{ƒ^ƒ“###
+			buttonType = { ###æµ·åŸŸå°é–ãƒœã‚¿ãƒ³###
 				name = "naval_access_rule_blocked"
 				position = { x = -121 y = 18 }
 				spriteType ="GFX_naval_access_rule"

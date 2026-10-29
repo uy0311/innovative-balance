@@ -579,7 +579,7 @@ guiTypes = {
 			spacing = 1.0
 		}
 
-		buttonType = { ###ŠCˆæ‹Ö~ƒ{ƒ^ƒ“###
+		buttonType = { ###æµ·åŸŸç¦æ­¢ãƒœã‚¿ãƒ³###
 			name = "naval_access_rule"
 			position = { x = 385 y = 7 }
 			spriteType ="GFX_naval_access_rule"

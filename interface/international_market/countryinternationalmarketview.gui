@@ -119,7 +119,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		buttonType = { ###sêw“üƒ{ƒ^ƒ“###
+		buttonType = { ###å¸‚å ´è³¼å…¥ãƒœã‚¿ãƒ³###
 			name = "buyer_tab_button"
 			quadTextureSprite = "GFX_Access_&_buy_equipment"
 			position = { x=4015 y=80 }
@@ -127,7 +127,7 @@ guiTypes = {
 			font = "hoi_18mbs"
 		}
 
-		buttonType = { ###sê”„‹pƒ{ƒ^ƒ“###
+		buttonType = { ###å¸‚å ´å£²å´ãƒœã‚¿ãƒ³###
 			name = "seller_tab_button"
 			quadTextureSprite = "GFX_Add_equipment_to_markete"
 			position = { x=4275 y=80 }
