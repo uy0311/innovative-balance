@@ -152,6 +152,7 @@ technology_categories = {
 	mio_cat_artillery #Includes Artillery only (no AT, AA or Rocketry)
 }
 
+# If you update the folder order (=logical order), consider updating the .gui ordering (=visual order) to maintain consistency
 technology_folders = {
 	infantry_folder = {
 		ledger = army
@@ -176,16 +177,6 @@ technology_folders = {
 	artillery_folder = {
 		ledger = army
 	}
-	air_techs_folder = {
-		available = { NOT = { has_dlc = "By Blood Alone" } }
-		ledger = air
-	}
-	bba_air_techs_folder = {
-		available = {
-			has_dlc = "By Blood Alone"
-		}
-		ledger = air
-	}
 	naval_folder = {
 		available = {
 			not = { has_dlc = "Man the Guns" }
@@ -203,6 +194,19 @@ technology_folders = {
 			has_dlc = "Man the Guns"
 		}
 		ledger = navy
+	}
+	air_techs_folder = {
+		available = { NOT = { has_dlc = "By Blood Alone" } }
+		ledger = air
+	}
+	bba_air_techs_folder = {
+		available = {
+			has_dlc = "By Blood Alone"
+		}
+		ledger = air
+	}
+	electronics_folder = {
+		ledger = civilian
 	}
 	industry_folder = {
 		ledger = civilian
@@ -222,9 +226,6 @@ technology_folders = {
 	special_forces_doctrine_folder = {
 		ledger = hidden #For now
 		doctrine = yes
-	}
-	electronics_folder = {
-		ledger = civilian
 	}
 }
 

@@ -40,6 +40,10 @@ sub_units = {
 			light_tank_flame_chassis = 60
 		}
 
+		essential = {
+			light_tank_flame_chassis
+		}
+
 		forest = {
 			attack = -0.2
 			movement = -0.4
@@ -109,6 +113,10 @@ sub_units = {
 
 		need = {
 			medium_tank_flame_chassis = 50
+		}
+
+		essential = {
+			medium_tank_flame_chassis
 		}
 
 		forest = {
@@ -183,6 +191,10 @@ sub_units = {
 
 		need = {
 			heavy_tank_flame_chassis = 40
+		}
+
+		essential = {
+			heavy_tank_flame_chassis
 		}
 
 		forest = {

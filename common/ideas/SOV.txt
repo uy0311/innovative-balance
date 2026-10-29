@@ -16,6 +16,10 @@ ideas = {
 
 			picture = generic_manpower_bonus
 			
+			available = {
+				always = no
+			}
+
 			modifier = {
 				conscription = 0.005
 			}
@@ -35,6 +39,10 @@ ideas = {
 
 			picture = generic_production_bonus
 			
+			available = {
+				always = no
+			}
+
 			modifier = {
 				production_speed_buildings_factor = 0.10
 			}

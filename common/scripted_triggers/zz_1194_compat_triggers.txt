@@ -1,0 +1,37 @@
+# 1.19.4 compat: vanilla scripted_triggers referenced by vanilla-merged files but missing from
+# the mod's frozen (replace_path) scripted_triggers. Definitions copied verbatim from vanilla 1.19.4.
+
+# common/peace_conference/cost_modifiers/FRA_peace.txt
+FRA_is_indochina_state = {
+	OR = {
+		state = 286 # Cochinchina
+		state = 670 # Laos
+		state = 671 # Annam
+		state = 741 # Cambodia
+		state = 1017 # Trung Bo
+		state = 1066 # Mekong Delta
+		state = 1067 # Battambang
+		state = 1068 # Bassac
+		state = 1069 # Lan Chang
+	}
+}
+
+# common/peace_conference/cost_modifiers/FRA_peace.txt
+is_vichy_france = {
+	has_country_flag = vichy_france
+}
+
+# common/peace_conference/ai_peace/00_misc.txt
+pc_has_authored_wholesale_puppet_plan = {
+	OR = {
+		original_tag = GER # yalta.txt, FRA/USA/ENG each puppet an occupation zone. Was the existing exemption.
+		AND = {
+			original_tag = CHI # JAP.txt, JAP_create_chinese_puppet
+			ROOT = { original_tag = JAP }
+		}
+		AND = {
+			original_tag = JAP # USA.txt, USA_puppet_japan
+			ROOT = { original_tag = USA }
+		}
+	}
+}

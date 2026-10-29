@@ -904,6 +904,19 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.20
 		}
+
+		#anti_air = {
+		#	air_attack = 0.1
+		#}
+		#anti_air_brigade = {
+		#	air_attack = 0.1
+		#}
+		#anti_air_battery = {
+		#	air_attack = 0.1
+		#}
+		#mot_anti_air_brigade = {
+		#	air_attack = 0.1
+		#}
 		category_self_propelled_anti_air = {
 			air_attack = 0.20
 		}
@@ -1021,6 +1034,19 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.15
 		}
+
+		#anti_air = {
+		#	air_attack = 0.1
+		#}
+		#anti_air_brigade = {
+		#	air_attack = 0.1
+		#}
+		#anti_air_battery = {
+		#	air_attack = 0.1
+		#}
+		#mot_anti_air_brigade = {
+		#	air_attack = 0.1
+		#}
 		category_self_propelled_anti_air = {
 			air_attack = 0.15
 		}
@@ -1085,11 +1111,27 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.15
 		}
+
+		#anti_air = {
+		#	air_attack = 0.1
+		#}
+		#anti_air_brigade = {
+		#	air_attack = 0.1
+		#}
+		#anti_air_battery = {
+		#	air_attack = 0.1
+		#}
+		#mot_anti_air_brigade = {
+		#	air_attack = 0.1
+		#}
 		category_self_propelled_anti_air = {
 			air_attack = 0.15
 		}
 		armored_car = {
 			air_attack = 0.15
+		}
+		category_self_propelled_anti_air_regimental_support = {
+			air_attack = 0.05
 		}
 
 		tech_air_damage_factor = -0.02
@@ -1689,6 +1731,11 @@ technologies = {
 			custom_effect_tooltip = tcl_cat_anti_tank_tt
 		}
 
+		category_tank_destroyer_regimental_support = {
+			hard_attack = 0.025
+			ap_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = antitank5
 			research_cost_coeff = 1
@@ -1846,6 +1893,38 @@ technologies = {
 		category_amphibious_tanks = {
 			ap_attack = 0.1
 		}
+		#anti_tank = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.1
+		#}
+		#anti_tank_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.1
+		#}
+		#mot_anti_tank_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.1
+		#}
+		#light_tank_destroyer_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.1
+		#}
+		#medium_tank_destroyer_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.1
+		#}
+		#heavy_tank_destroyer_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.1
+		#}
+		#super_heavy_tank_destroyer_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.1
+		#}
+		#modern_tank_destroyer_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.1
+		#}
 
 		on_research_complete = {
 			custom_effect_tooltip = tcl_cat_anti_tank_tt

@@ -719,6 +719,29 @@ characters={
 		}
 	}
 
+	RAJ_GOE_asghar_khan = {
+		name = RAJ_GOE_asghar_khan
+		portraits = {
+			army = {
+				small = GFX_portrait_RAJ_asghar_khan_small
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = RAJ_GOE_asghar_khan
+			allowed = {
+				original_tag = RAJ
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
 
 	### MILITARY HIGH COMMAND ###
 
@@ -787,6 +810,30 @@ characters={
 				air_close_air_support_3
 			}
 			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	RAJ_GOE_richard_peirse = {
+		name = RAJ_GOE_richard_peirse
+		portraits = {
+			army = {
+				small = GFX_portrait_RAJ_richard_peirse_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = RAJ_GOE_richard_peirse
+			ledger = air
+			allowed = {
+				original_tag = RAJ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -879,6 +926,7 @@ characters={
 			idea_token = RAJ_subhas_chanda_bose
 			allowed = {
 				original_tag = RAJ
+				has_dlc = "Graveyard of Empires"
 			}
 			traits = {
 				quartermaster_general 

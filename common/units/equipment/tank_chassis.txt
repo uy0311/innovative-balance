@@ -128,6 +128,9 @@ equipments = {
 		lend_lease_cost = 10
 
 		manpower = 2
+		scaled_by_reliability = {
+			max_strength = 0.5
+		}
 
 	}
 
@@ -1311,6 +1314,14 @@ equipments = {
 			steel = 2
 			chromium = 1
 		}
+
+
+		module_add_stats_multiplier = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			air_attack = 0.1
+		}
+
 	}
 
 	modern_tank_chassis = {
@@ -1471,6 +1482,9 @@ equipments = {
 
 		manpower = 2
 
+		scaled_by_reliability = {
+			max_strength = 0.5
+		}
 	}
 
 	modern_tank_chassis_1 = {
@@ -1486,6 +1500,12 @@ equipments = {
 			tank_nsb_engine_upgrade
 			tank_reliability_upgrade
 		}
+
+		module_add_stats_multiplier = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			air_attack = 0.1
+		}		
 	}
 
 	super_heavy_tank_chassis = {
@@ -1653,7 +1673,9 @@ equipments = {
 		lend_lease_cost = 20
 
 		manpower = 2
-
+		scaled_by_reliability = {
+			max_strength = 0.5
+		}
 	}
 
 	super_heavy_tank_chassis_1 = {
@@ -1668,6 +1690,12 @@ equipments = {
 			tank_nsb_engine_upgrade
 			tank_reliability_upgrade
 		}
+
+		module_add_stats_multiplier = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+			air_attack = 0.15
+		}		
 	}
 
 	amphibious_tank_chassis = {
@@ -1830,6 +1858,9 @@ equipments = {
 		lend_lease_cost = 10
 
 		manpower = 2
+		scaled_by_reliability = {
+			max_strength = 0.5
+		}
 
 	}
 
@@ -2010,7 +2041,9 @@ equipments = {
 		lend_lease_cost = 10
 	
 		manpower = 2
-
+		scaled_by_reliability = {
+			max_strength = 0.5
+		}
 	}
 	
 	armored_car_tank_chassis_1 = {
