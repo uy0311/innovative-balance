@@ -105,7 +105,6 @@ guiTypes = {
 				shortcut = "a"
 				position = {x=124 y=33}
 				spriteType = "GFX_BPT_order_draw_naval_inv_btn"
-				shortcut = "n"
 				clicksound = click_battleplan
 				oversound = ui_menu_over
 			}
@@ -124,7 +123,6 @@ guiTypes = {
 				shortcut = "d"
 				position = {x=194 y=33}
 				spriteType = "GFX_BPT_order_draw_paradrop_btn"
-				keybind = "battle_planner_airborne_orders_tool"
 				clicksound = click_battleplan
 				oversound = ui_menu_over
 			}
